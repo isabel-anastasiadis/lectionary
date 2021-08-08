@@ -12,5 +12,15 @@ Then the first proof-of-concept was a [google doc](https://docs.google.com/docum
 Me and Isaac are now looking at making a proper website (so we can have dark-mode and preferences etc).
 
 ## Folders
-1. *"website"* - self explanatory ;)
-2. *"jupyter"* - for converting the google sheet data into a json object that can be imbedded in an HTML page
+### "website"
+Should be self-explanatory.
+
+I've got a `run.ps1` to serve the file (in case we want to pull out the CSS and javascript into another file).  Currently you don't need it.
+
+
+### "jupyter"
+For converting the google sheet data into a json object that can be imbedded in an HTML page, and anything else I might want python for.  
+
+If you've got Docker installed, you should be able to run the powershell script `run.ps1` (or if you don't have powershell, copy paste the command in the file into your command line) to get Jupyter running, then if you visit the url in the command line, you'll be able to run / make new notebooks to run.
+
+There's a `stop.ps1` because AFAIK, `ctrl + c` should stop the container, but it doesn't seem to be working for me...?
