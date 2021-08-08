@@ -1,0 +1,1 @@
+docker run --rm --name lectionary-website -p 8080:80 -v c:\Data\Lectionary\website:/usr/share/nginx/html:ro nginx
