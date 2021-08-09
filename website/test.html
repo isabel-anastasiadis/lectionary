@@ -40,8 +40,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
 
-            function App () {
-                const data = {
+            class App {
+                #data = {
                     "2020/12/01": {
                         "date_pretty": "Tuesday, December 1, 2020",
                         "day_description": "Week of 1st Sunday of Advent",
@@ -8554,66 +8554,39 @@
                 };
 
                 // control fields
-                var masterDateKey;
-                var morningOrEvening;
+                #masterDateKey;
+                #morningOrEvening;
 
-                // private methods section
-                //----------------------------------------------------------------------------
 
-                function padToTwoDigits(number) {
+                #padToTwoDigits(number) {
                     return `0${number}`.slice(-2); // slice here returns the last two characters
                 }
 
-                function convertDateToDateKey(date) {
+                #convertDateToDateKey(date) {
                     var year = date.getFullYear();
-                    var month = padToTwoDigits(date.getMonth() + 1); // getMonth is zero based...?
-                    var day = padToTwoDigits(date.getDate()); // getDate returns the day of the month...?
+                    var month = this.#padToTwoDigits(date.getMonth() + 1); // getMonth is zero based...?
+                    var day = this.#padToTwoDigits(date.getDate()); // getDate returns the day of the month...?
                     return `${year}/${month}/${day}`;
                 }
 
-                function getAdjacentDateKey(dateKey, numberModifier) {
+                #getAdjacentDateKey(dateKey, numberModifier) {
                     var date = new Date(dateKey.replace(/\//g,'-'));
 
                     var newDate = new Date();
                     newDate.setDate(date.getDate() + numberModifier);
 
-                    return convertDateToDateKey(newDate);
+                    return this.#convertDateToDateKey(newDate);
                 }
 
-                function initialisePage() {
-
-                    // set date to today
-                    var now = new Date();
-                    masterDateKey =  convertDateToDateKey(now);
-
-                    // work out morning/evening default to show
-                    morningOrEvening = "morning"; // TODO calculate based on time
-                    $("#morning-radio-option").prop("checked", true);
-
-                    // populate the dropdown with all the dates, and select the current one
-                    var $dropdown = $("#date-select");
-                    $.each(Object.keys(data), function() {
-                        var text = data[this].date_pretty;  // 'this' is the key in this context
-
-                        var template = this === this.masterDateKey 
-                        var option = $("<option />").val(this).text(text);
-                        $dropdown.append(option);
-                    });
-                    $(`#date-select option[value="${masterDateKey}"]`).attr("selected",true);
-
-                    // now fill in the data for the day
-                    refreshPageData();
-                }
-
-                function refreshPageData() {
-                    var todaysData = data[masterDateKey];
+                #refreshPageData() {
+                    var todaysData = this.#data[this.#masterDateKey];
 
                     // select the right date in the dropdown
                     $('#date-select option:selected').attr("selected",false);
-                    $(`#date-select option[value="${masterDateKey}"]`).attr("selected",true);
+                    $(`#date-select option[value="${this.#masterDateKey}"]`).attr("selected",true);
                     
                     // populate the greeting
-                    if(morningOrEvening === "morning"){
+                    if(this.#morningOrEvening === "morning"){
                         $("#greeting").text("Ata M\u0101rie.");
                     }
                     else {
@@ -8621,7 +8594,7 @@
                     }
                     
                     // populate the scripture readings
-                    var scriptures = todaysData[morningOrEvening]["readings"];
+                    var scriptures = todaysData[this.#morningOrEvening]["readings"];
                     if(scriptures[0] === ""){ // TODO: change the data to be empty/null, this is kinda weird..
                         $("#no-readings-message").show();
                         $("#scriptures-section").hide();
@@ -8636,40 +8609,57 @@
                     }
                 }
 
-                // on change event handlers (these will all select the date to use, then refresh data)
-                // -----------------------------------------------------------------------------------
-                function selectOnChange() {
-                    masterDateKey = $("#date-select").val();
-                    refreshPageData();
+                initialisePage() {
+
+                    // set date to today
+                    var now = new Date();
+                    this.#masterDateKey =  this.#convertDateToDateKey(now);
+
+                    // work out morning/evening default to show
+                    this.#morningOrEvening = "morning"; // TODO calculate based on time
+                    $("#morning-radio-option").prop("checked", true);
+
+                    // populate the dropdown with all the dates, and select the current one
+                    var $dropdown = $("#date-select");
+                    var data = this.#data;
+                    var masterDateKey = this.#masterDateKey;
+                    $.each(Object.keys(data), function() {
+                        var text = data[this].date_pretty;  // 'this' is the key in this context
+
+                        var template = this === masterDateKey;
+                        var option = $("<option />").val(this).text(text);
+                        $dropdown.append(option);
+                    });
+                    $(`#date-select option[value="${masterDateKey}"]`).attr("selected",true);
+
+                    // now fill in the data for the day
+                    this.#refreshPageData();
                 }
 
-                function backOnClick() {
-                    masterDateKey = getAdjacentDateKey(masterDateKey, -1);
-                    refreshPageData();
+                selectOnChange() {
+                    this.#masterDateKey = $("#date-select").val();
+                    this.#refreshPageData();
                 }
 
-                function forwardOnClick() {
-                    masterDateKey = getAdjacentDateKey(masterDateKey, 1);
-                    refreshPageData();
+                backOnClick() {
+                    this.#masterDateKey = this.#getAdjacentDateKey(this.#masterDateKey, -1);
+                    this.#refreshPageData();
                 }
 
-                function morningEveningOnChange() {
-                    morningOrEvening = $("input[name='time-of-day-radio-input']:checked").val();
-                    console.log(morningOrEvening)
-                    refreshPageData();
+                forwardOnClick() {
+                    this.#masterDateKey = this.#getAdjacentDateKey(this.#masterDateKey, 1);
+                    this.#refreshPageData();
                 }
 
-                return {
-                    initialisePage: initialisePage,
-                    selectOnChange: selectOnChange,
-                    backOnClick: backOnClick,
-                    forwardOnClick: forwardOnClick,
-                    morningEveningOnChange: morningEveningOnChange
+                morningEveningOnChange() {
+                    this.#morningOrEvening = $("input[name='time-of-day-radio-input']:checked").val();
+                    console.log(this.#morningOrEvening)
+                    this.#refreshPageData();
                 }
 
             }
 
-            var app = App();
+            var app = new App();
 
             // The script entrypoint (kicks off when jquery is loaded)
             //--------------------------------------------------------
