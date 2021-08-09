@@ -8621,16 +8621,13 @@
 
                     // populate the dropdown with all the dates, and select the current one
                     var $dropdown = $("#date-select");
-                    var data = this.#data;
-                    var masterDateKey = this.#masterDateKey;
-                    $.each(Object.keys(data), function() {
-                        var text = data[this].date_pretty;  // 'this' is the key in this context
+                    Object.keys(this.#data).forEach(date => {
+                        var text = this.#data[date].date_pretty;
 
-                        var template = this === masterDateKey;
-                        var option = $("<option />").val(this).text(text);
+                        var option = $("<option />").val(date).text(text);
                         $dropdown.append(option);
                     });
-                    $(`#date-select option[value="${masterDateKey}"]`).attr("selected",true);
+                    $(`#date-select option[value="${this.#masterDateKey}"]`).attr("selected",true);
 
                     // now fill in the data for the day
                     this.#refreshPageData();
