@@ -8557,12 +8557,17 @@
                 var masterDateKey;
                 var morningOrEvening;
 
-                // methods section
+                // private methods section
                 //----------------------------------------------------------------------------
+
+                function padToTwoDigits(number) {
+                    return `0${number}`.slice(-2); // slice here returns the last two characters
+                }
+
                 function convertDateToDateKey(date) {
                     var year = date.getFullYear();
-                    var month = ('00' + (date.getMonth() + 1)).slice(-2); // somehow pads 
-                    var day = ('00' + date.getDate()).slice(-2); // somehow pads 
+                    var month = padToTwoDigits(date.getMonth() + 1); // getMonth is zero based...?
+                    var day = padToTwoDigits(date.getDate()); // getDate returns the day of the month...?
                     return `${year}/${month}/${day}`;
                 }
 
