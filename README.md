@@ -26,7 +26,7 @@ Holy Week readings were taken from NZ Anglican Lectionary (I couldn’t work out
 Sunday MP and EP readings haven't been done yet.
 
 
-#### Some decisions I've made
+#### Some decisions I've made (for simplicity)
 * I’ve only included the main Psalm
 * I’ve excluded readings from the Apocrypha
 * Where some verses were optional, I mostly included them. 
