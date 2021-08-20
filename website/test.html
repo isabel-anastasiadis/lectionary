@@ -8650,19 +8650,24 @@
                     this.#masterDateKey =  this.#convertDateToDateKey(now);
 
                     // work out morning/evening default to show
-                    this.#morningOrEvening = "morning"; // TODO calculate based on time
-                    $("#morning-radio-option").prop("checked", true);
+                    var shouldShowMorningReadings = new Date().getHours() < 14;
+                    if(shouldShowMorningReadings) {
+                        $("#morning-radio-option").prop("checked", true);
+                        this.#morningOrEvening = "morning";
+                    }
+                    else {
+                        $("#evening-radio-option").prop("checked", true);
+                        this.#morningOrEvening = "evening";
+                    }                   
 
                     // populate the dropdown with all the dates, and select the current one
                     var $dropdown = $("#date-select");
                     Object.keys(this.#data).forEach(date => {
                         var text = this.#data[date].date_pretty;
-
                         var option = $("<option />").val(date).text(text);
                         $dropdown.append(option);
                     });
                     $(`#date-select option[value="${this.#masterDateKey}"]`).attr("selected",true);
-
 
                     this.#audioVersion = $("#audio-version-select").val();
                     this.#readingVersion = $("#reading-version-select").val();
