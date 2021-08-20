@@ -32,7 +32,7 @@ Sunday MP and EP readings haven't been done yet.
 * Where some verses were optional, I mostly included them. 
 * For readings for special celebrations, I have opted to show them on the actual day, rather than the "celebrate on Sunday" option.
 * For the the audio version, BibleGateway plays the whole chapter, rather than being able to specify the verses. 
-** And where some of the readings span multiple chapters, we just play the first one (it is likely that the next day will play the next one anyway).
+    * And where some of the readings span multiple chapters, we just play the first one (it is likely that the next day will play the next one anyway).
 
 
 ## Folders
