@@ -22,6 +22,7 @@ html {
     background: var(--background);
     color: var(--foreground);   
     transition: all 0.1s ease;
+    font-weight: 300;
 }
 
 body {
@@ -36,9 +37,17 @@ h1 {
     font-size: 48px;
     line-height: 45px;
     letter-spacing: -0.03em;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+#scriptures-section {
+    margin-top: 50px;
+    flex: 1;
 }
 
 ul {
+    margin: 0;
     list-style: none;
     padding: 0;
 }
@@ -52,6 +61,8 @@ select {
     border-radius: 0;
     color: inherit;
     outline: none;
+    font-weight: 300;
+    -webkit-appearance: none;
 }
 
 button {
@@ -97,7 +108,7 @@ input {
     position: absolute;
 }
 
-label {
+.toggle {
     width: 98px;
     border-radius: 999px;
     padding: 5px 15px;
@@ -115,7 +126,7 @@ label {
     z-index: 2;
 }
 
-label:before {
+.toggle:before {
     content: '';
     display: block;
     width: 100%;
@@ -136,25 +147,25 @@ svg {
     width: 12px;
 }
 
-label:hover:before,
-label:focus:before {
+.toggle:hover:before,
+.toggle:focus:before {
     background: var(--toggle-stage);
 }
 
-label:active:before {
+.toggle:active:before {
     background: var(--toggle-select);
 }
 
-:checked + label {
+:checked + .toggle {
     color: var(--background);
 }
 
-:checked + label:hover:before,
-:checked + label:focus:before {
+:checked + .toggle:hover:before,
+:checked + .toggle:focus:before {
     background: var(--toggle-checked-stage);
 }
 
-:checked + label:active:before {
+:checked + .toggle:active:before {
     background: var(--toggle-checked-select);
 }
 
@@ -193,14 +204,121 @@ label:active:before {
     background: var(--toggle-select);
 }
 
+.navigate.right {
+    transform: rotate(-90deg);
+}
+
 .navigate.left {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 
 menu {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 0;
+    margin: 0 0 50px;
     padding: 0;
+}
+
+.select {
+    cursor: pointer;
+    margin: 0;
+    transition: all 0.1s ease;
+}
+
+.select select {
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.select:hover,
+.select:focus {
+    opacity: 0.9;
+}
+
+.select:active {
+    opacity: 0.8;
+}
+
+a {
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+    line-height: 25px;
+    transition: all 0.1s ease;
+}
+
+a:hover,
+a:focus {
+    opacity: 0.9;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+.action {
+    display: flex;
+    min-height: 50px;
+    color: var(--foreground);
+    background: var(--toggle-base);
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.1s ease;
+}
+
+.action a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20px;
+    line-height: 20px;
+}
+
+.action select {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20px;
+    line-height: 20px;
+    cursor: pointer;
+    border-left: 1px solid var(--toggle-select);
+}
+
+.primary select {
+    border-left: 1px solid var(--toggle-checked-select);
+}
+
+.primary {
+    background: var(--toggle-checked-base);
+    color: var(--background);
+}
+
+.action a:hover,
+.action a:focus,
+.action select:hover,
+.action select:focus {
+    background: var(--toggle-stage);
+}
+
+.action a:active,
+.action select:active {
+    background: var(--toggle-select);
+}
+
+.primary a:hover,
+.primary a:focus,
+.primary select:hover,
+.primary select:focus {
+    background: var(--toggle-checked-stage);
+}
+
+.primary a:active,
+.primary select:active {
+    background: var(--toggle-checked-select);
 }

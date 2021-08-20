@@ -14,7 +14,7 @@
 
             <button class='navigate left' onclick="app.backOnClick()">
                 <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                    <path id="arrow" d="M5.29289 0.292893C5.68342 -0.0976311 6.31658 -0.0976311 6.70711 0.292893L11.7071 5.29289C12.0976 5.68342 12.0976 6.31658 11.7071 6.70711L6.70711 11.7071C6.31658 12.0976 5.68342 12.0976 5.29289 11.7071C4.90237 11.3166 4.90237 10.6834 5.29289 10.2929L8.58579 7H1C0.447715 7 0 6.55228 0 6C0 5.44772 0.447715 5 1 5H8.58579L5.29289 1.70711C4.90237 1.31658 4.90237 0.683417 5.29289 0.292893Z"/>
+                    <path d="M6 0.25C6.41421 0.25 6.75 0.585786 6.75 1V9.18934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L6.53033 11.5303C6.23744 11.8232 5.76256 11.8232 5.46967 11.5303L0.46967 6.53033C0.176777 6.23744 0.176777 5.76256 0.46967 5.46967C0.762563 5.17678 1.23744 5.17678 1.53033 5.46967L5.25 9.18934V1C5.25 0.585786 5.58579 0.25 6 0.25Z"/>
                 </svg>
             </button>
             
@@ -26,7 +26,7 @@
                     name="time-of-day-radio-input" 
                     value="morning"
                     onchange="app.morningEveningOnChange()">
-                <label for="morning-radio-option">Morning</label>
+                <label class='toggle' for="morning-radio-option">Morning</label>
 
                 <input 
                     type="radio" 
@@ -34,14 +34,14 @@
                     name="time-of-day-radio-input" 
                     value="evening"
                     onchange="app.morningEveningOnChange()">
-                <label for="evening-radio-option">Evening</label>
+                <label class='toggle' for="evening-radio-option">Evening</label>
 
                 <div class='thumb'></div>
             </div>
 
-            <button class='navigate' onclick="app.forwardOnClick()">
+            <button class='navigate right' onclick="app.forwardOnClick()">
                 <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                    <path id="arrow" d="M5.29289 0.292893C5.68342 -0.0976311 6.31658 -0.0976311 6.70711 0.292893L11.7071 5.29289C12.0976 5.68342 12.0976 6.31658 11.7071 6.70711L6.70711 11.7071C6.31658 12.0976 5.68342 12.0976 5.29289 11.7071C4.90237 11.3166 4.90237 10.6834 5.29289 10.2929L8.58579 7H1C0.447715 7 0 6.55228 0 6C0 5.44772 0.447715 5 1 5H8.58579L5.29289 1.70711C4.90237 1.31658 4.90237 0.683417 5.29289 0.292893Z"/>
+                    <path d="M6 0.25C6.41421 0.25 6.75 0.585786 6.75 1V9.18934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L6.53033 11.5303C6.23744 11.8232 5.76256 11.8232 5.46967 11.5303L0.46967 6.53033C0.176777 6.23744 0.176777 5.76256 0.46967 5.46967C0.762563 5.17678 1.23744 5.17678 1.53033 5.46967L5.25 9.18934V1C5.25 0.585786 5.58579 0.25 6 0.25Z"/>
                 </svg>
             </button>
 
@@ -50,10 +50,6 @@
         <h1 id='greeting'></h1>
 
         <select id="date-select" onchange="app.dateSelectOnChange()"></select>
-
-        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z" fill="black"/>
-        </svg>
 
         <p id="no-readings-message" style="display:none">There are no readings on Sundays yet</p>
 
@@ -65,7 +61,7 @@
             </ul>
         </div>
 
-        <div>
+        <div class='action'>
             <a id="play-all-button">Play all</a> 
             <select id="audio-version-select" onchange="app.audioVersionSelectOnChange()">
                 <option value="MSG" selected="selected">MSG</option>
@@ -74,7 +70,7 @@
             </select>
         </div>
        
-        <div>
+        <div class='action primary'>
             <a id="read-all-button">Read all</a> 
             <select id="reading-version-select" onchange="app.readingVersionSelectOnChange()">
                 <option value="NIV" selected="selected">NIV</option>
@@ -8730,7 +8726,7 @@
 
                         root.style.setProperty('--toggle-checked-base', 'rgba(255,255,255,1)');
                         root.style.setProperty('--toggle-checked-stage', 'rgba(0,0,0,0.05)');
-                        root.style.setProperty('--inverted-select', 'rgba(0,0,0,0.1)');
+                        root.style.setProperty('--toggle-checked-select', 'rgba(0,0,0,0.1)');
                     }
                 }
 
