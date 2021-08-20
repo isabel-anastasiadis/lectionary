@@ -14,7 +14,7 @@ Then the first proof-of-concept was a [google doc](https://docs.google.com/docum
 Me and Isaac are now looking at making a proper website (so we can have dark-mode and preferences etc).
 
 ### About the data
-Most readings were constructed from the Church of England's [The Common Worship Weekday Lectionary](https://www.churchofengland.org/sites/default/files/2017-11/weekday%20lectionary%202005.pdf), and cross referenced with the current NZ Anglican lectionary to ensure it matches.
+Most readings were constructed from the Church of England's [The Common Worship Weekday Lectionary](https://www.churchofengland.org/sites/default/files/2017-11/weekday%20lectionary%202005.pdf), and cross referenced with the current NZ Anglican lectionary (available [here](https://www.anglican.org.nz/Resources/Worship-Resources-Karakia-ANZPB-HKMOA/Lectionary-and-Related)) to ensure it matches.
 
 I manually extracted all the rules from their original PDF into a [google sheet](https://docs.google.com/spreadsheets/d/1JFiANpqO4W3UrVBemTetsOfYA5ITnPmDnNq_e1P8qBs/edit).
 
