@@ -4,6 +4,8 @@
     <body>
 
         <div>
+            <button onclick="app.backOnClick()">Back</button>
+
             <input 
                 type="radio" 
                 id="morning-radio-option" 
@@ -19,22 +21,40 @@
                 value="evening"
                 onchange="app.morningEveningOnChange()">
             <label for="evening-radio-option">Evening</label>
+
+            <button onclick="app.forwardOnClick()">Forward</button>
         </div>
 
         <h1 id='greeting'></h1>
 
-        <button onclick="app.backOnClick()">Back</button>
-        <select id="date-select" onchange="app.selectOnChange()"></select>
-        <button onclick="app.forwardOnClick()">Forward</button>
+        <select id="date-select" onchange="app.dateSelectOnChange()"></select>
 
         <p id="no-readings-message" style="display:none">There are no readings on Sundays yet</p>
 
         <div id="scriptures-section" style="display:none">
             <ul>
-                <li id="psalm"></li>
-                <li id="old-testament"></li>
-                <li id="new-testament"></li>
+                <li><a id="psalm"></a></li>
+                <li><a id="old-testament"></a></li>
+                <li><a id="new-testament"></a></li>
             </ul>
+        </div>
+
+        <div>
+            <a id="play-all-button">Play all</a> 
+            <select id="audio-version-select" onchange="app.audioVersionSelectOnChange()">
+                <option value="MSG" selected="selected">MSG</option>
+                <option value="NIV">NIV</option>
+                <option value="NLT">NLT</option>
+            </select>
+        </div>
+       
+        <div>
+            <a id="read-all-button">Read all</a> 
+            <select id="reading-version-select" onchange="app.readingVersionSelectOnChange()">
+                <option value="NIV" selected="selected">NIV</option>
+                <option value="MSG">MSG</option>
+                <option value="NLT">NLT</option>
+            </select>
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -8556,6 +8576,8 @@
                 // control fields
                 #masterDateKey;
                 #morningOrEvening;
+                #readingVersion;
+                #audioVersion;
 
 
                 #padToTwoDigits(number) {
@@ -8595,6 +8617,10 @@
                     
                     // populate the scripture readings
                     var scriptures = todaysData[this.#morningOrEvening]["readings"];
+                    var readingParams = todaysData[this.#morningOrEvening]["reading_link"];
+                    var audioParams = todaysData[this.#morningOrEvening]["audio_link"];
+                    var readingParamsArray = readingParams.split("%3B+");
+
                     if(scriptures[0] === ""){ // TODO: change the data to be empty/null, this is kinda weird..
                         $("#no-readings-message").show();
                         $("#scriptures-section").hide();
@@ -8604,8 +8630,16 @@
                         $("#scriptures-section").show();
 
                         $("#psalm").text(scriptures[0]);
+                        $("#psalm").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[0]}`);
+
                         $("#old-testament").text(scriptures[1]);
+                        $("#old-testament").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[1]}`);
+
                         $("#new-testament").text(scriptures[2]);
+                        $("#new-testament").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[2]}`);
+
+                        $("#play-all-button").attr("href", `https://www.biblegateway.com/passage/?version=${this.#audioVersion}&search=${audioParams}`);
+                        $("#read-all-button").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParams}`);
                     }
                 }
 
@@ -8629,11 +8663,15 @@
                     });
                     $(`#date-select option[value="${this.#masterDateKey}"]`).attr("selected",true);
 
+
+                    this.#audioVersion = $("#audio-version-select").val();
+                    this.#readingVersion = $("#reading-version-select").val();
+
                     // now fill in the data for the day
                     this.#refreshPageData();
                 }
 
-                selectOnChange() {
+                dateSelectOnChange() {
                     this.#masterDateKey = $("#date-select").val();
                     this.#refreshPageData();
                 }
@@ -8650,6 +8688,16 @@
 
                 morningEveningOnChange() {
                     this.#morningOrEvening = $("input[name='time-of-day-radio-input']:checked").val();
+                    this.#refreshPageData();
+                }
+
+                audioVersionSelectOnChange() {
+                    this.#audioVersion = $("#audio-version-select").val();
+                    this.#refreshPageData();
+                }
+
+                readingVersionSelectOnChange() {
+                    this.#readingVersion = $("#reading-version-select").val();
                     this.#refreshPageData();
                 }
 
