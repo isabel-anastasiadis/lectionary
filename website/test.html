@@ -1,29 +1,51 @@
 <!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <html>
 
     <body>
 
-        <div>
-            <button onclick="app.backOnClick()">Back</button>
+        <menu>
 
-            <input 
-                type="radio" 
-                id="morning-radio-option" 
-                name="time-of-day-radio-input" 
-                value="morning"
-                onchange="app.morningEveningOnChange()">
-            <label for="morning-radio-option">Morning</label>
+            <button class='navigate left' onclick="app.backOnClick()">
+                <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 0.25C6.41421 0.25 6.75 0.585786 6.75 1V9.18934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L6.53033 11.5303C6.23744 11.8232 5.76256 11.8232 5.46967 11.5303L0.46967 6.53033C0.176777 6.23744 0.176777 5.76256 0.46967 5.46967C0.762563 5.17678 1.23744 5.17678 1.53033 5.46967L5.25 9.18934V1C5.25 0.585786 5.58579 0.25 6 0.25Z"/>
+                </svg>
+            </button>
+            
+            <div class='radio'>
 
-            <input 
-                type="radio" 
-                id="evening-radio-option" 
-                name="time-of-day-radio-input" 
-                value="evening"
-                onchange="app.morningEveningOnChange()">
-            <label for="evening-radio-option">Evening</label>
+                <input 
+                    type="radio" 
+                    id="morning-radio-option" 
+                    name="time-of-day-radio-input" 
+                    value="morning"
+                    onchange="app.morningEveningOnChange()">
+                <label class='toggle' for="morning-radio-option">Morning</label>
 
-            <button onclick="app.forwardOnClick()">Forward</button>
-        </div>
+                <input 
+                    type="radio" 
+                    id="evening-radio-option" 
+                    name="time-of-day-radio-input" 
+                    value="evening"
+                    onchange="app.morningEveningOnChange()">
+                <label class='toggle' for="evening-radio-option">Evening</label>
+
+                <div class='thumb'></div>
+            </div>
+
+            <button class='navigate right' onclick="app.forwardOnClick()">
+                <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 0.25C6.41421 0.25 6.75 0.585786 6.75 1V9.18934L10.4697 5.46967C10.7626 5.17678 11.2374 5.17678 11.5303 5.46967C11.8232 5.76256 11.8232 6.23744 11.5303 6.53033L6.53033 11.5303C6.23744 11.8232 5.76256 11.8232 5.46967 11.5303L0.46967 6.53033C0.176777 6.23744 0.176777 5.76256 0.46967 5.46967C0.762563 5.17678 1.23744 5.17678 1.53033 5.46967L5.25 9.18934V1C5.25 0.585786 5.58579 0.25 6 0.25Z"/>
+                </svg>
+            </button>
+
+        </menu>
 
         <h1 id='greeting'></h1>
 
@@ -39,7 +61,7 @@
             </ul>
         </div>
 
-        <div>
+        <div class='action'>
             <a id="play-all-button">Play all</a> 
             <select id="audio-version-select" onchange="app.audioVersionSelectOnChange()">
                 <option value="MSG" selected="selected">MSG</option>
@@ -48,7 +70,7 @@
             </select>
         </div>
        
-        <div>
+        <div class='action primary'>
             <a id="read-all-button">Read all</a> 
             <select id="reading-version-select" onchange="app.readingVersionSelectOnChange()">
                 <option value="NIV" selected="selected">NIV</option>
@@ -8609,10 +8631,10 @@
                     
                     // populate the greeting
                     if(this.#morningOrEvening === "morning"){
-                        $("#greeting").text("Ata M\u0101rie.");
+                        $("#greeting").text("Ata m\u0101rie.");
                     }
                     else {
-                        $("#greeting").text("Po M\u0101rie.");
+                        $("#greeting").text("Po m\u0101rie.");
                     }
                     
                     // populate the scripture readings
@@ -8650,15 +8672,8 @@
                     this.#masterDateKey =  this.#convertDateToDateKey(now);
 
                     // work out morning/evening default to show
-                    var shouldShowMorningReadings = new Date().getHours() < 14;
-                    if(shouldShowMorningReadings) {
-                        $("#morning-radio-option").prop("checked", true);
-                        this.#morningOrEvening = "morning";
-                    }
-                    else {
-                        $("#evening-radio-option").prop("checked", true);
-                        this.#morningOrEvening = "evening";
-                    }                   
+                    this.#morningOrEvening = this.checkCurrentTime(now); // TODO calculate based on time
+                    this.setRadioOption(this.#morningOrEvening)                
 
                     // populate the dropdown with all the dates, and select the current one
                     var $dropdown = $("#date-select");
@@ -8674,6 +8689,45 @@
 
                     // now fill in the data for the day
                     this.#refreshPageData();
+                }
+
+                checkCurrentTime(date) {
+                    // Set morning as 12am - 12pm
+                    var hours = date.getHours();
+                    var morning = hours >= 0 && hours <= 12;
+                    return morning ? "morning" : "evening";
+                }
+
+                setRadioOption(timeOfDay) {
+                    console.log(timeOfDay)
+                    var morningRadioEl = document.querySelector("#morning-radio-option");
+                    var eveningRadioEl = document.querySelector("#evening-radio-option");
+                    var root = document.querySelector(':root');
+                    if (timeOfDay === "morning") {
+                        morningRadioEl.checked = true;
+                        root.style.setProperty('--foreground', 'rgba(0,0,0,1)');
+                        root.style.setProperty('--background', 'rgba(255,255,255,1)');
+
+                        root.style.setProperty('--toggle-base', 'rgba(0,0,0,0.05)');
+                        root.style.setProperty('--toggle-stage', 'rgba(0,0,0,0.05)');
+                        root.style.setProperty('--toggle-select', 'rgba(0,0,0,0.1)');
+
+                        root.style.setProperty('--toggle-checked-base', 'rgba(0,0,0,1)');
+                        root.style.setProperty('--toggle-checked-stage', 'rgba(255,255,255,0.2)');
+                        root.style.setProperty('--toggle-checked-select', 'rgba(255,255,255,0.25)');
+                    } else {
+                        eveningRadioEl.checked = true;
+                        root.style.setProperty('--background', 'rgba(0,0,0,1)');
+                        root.style.setProperty('--foreground', 'rgba(255,255,255,1)');
+
+                        root.style.setProperty('--toggle-base', 'rgba(255,255,255,0.2)');
+                        root.style.setProperty('--toggle-stage', 'rgba(255,255,255,0.05)');
+                        root.style.setProperty('--toggle-select', 'rgba(255,255,255,0.1)');
+
+                        root.style.setProperty('--toggle-checked-base', 'rgba(255,255,255,1)');
+                        root.style.setProperty('--toggle-checked-stage', 'rgba(0,0,0,0.05)');
+                        root.style.setProperty('--toggle-checked-select', 'rgba(0,0,0,0.1)');
+                    }
                 }
 
                 dateSelectOnChange() {
@@ -8693,6 +8747,7 @@
 
                 morningEveningOnChange() {
                     this.#morningOrEvening = $("input[name='time-of-day-radio-input']:checked").val();
+                    this.setRadioOption(this.#morningOrEvening);
                     this.#refreshPageData();
                 }
 
