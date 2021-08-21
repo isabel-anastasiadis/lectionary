@@ -61,8 +61,8 @@
             </ul>
         </div>
 
-        <div class='action'>
-            <a id="play-all-button">Play all</a> 
+        <div id="play-all-button" class='action'>
+            <a id="play-all-button-link">Play all</a> 
             <select id="audio-version-select" onchange="app.audioVersionSelectOnChange()">
                 <option value="dolan/msg" selected="selected">MSG</option>
                 <option value="mclean/niv">NIV</option>
@@ -70,8 +70,8 @@
             </select>
         </div>
        
-        <div class='action primary'>
-            <a id="read-all-button">Read all</a> 
+        <div id="read-all-button" class='action primary'>
+            <a id="read-all-button-link">Read all</a> 
             <select id="reading-version-select" onchange="app.readingVersionSelectOnChange()">
                 <option value="NIV" selected="selected">NIV</option>
                 <option value="MSG">MSG</option>
@@ -188,10 +188,14 @@
                     if(scriptures[0] === ""){ // TODO: change the data to be empty/null, this is kinda weird..
                         $("#no-readings-message").show();
                         $("#scriptures-section").hide();
+                        $("#play-all-button").hide();
+                        $("#read-all-button").hide();
                     }
                     else {
                         $("#no-readings-message").hide();
                         $("#scriptures-section").show();
+                        $("#play-all-button").show();
+                        $("#read-all-button").show();
 
                         $("#psalm").text(scriptures[0]);
                         $("#psalm").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[0]}`);
@@ -202,8 +206,8 @@
                         $("#new-testament").text(scriptures[2]);
                         $("#new-testament").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[2]}`);
 
-                        $("#play-all-button").attr("href", `https://www.biblegateway.com/audio/${this.#audioVersion}/${audioParams}`);
-                        $("#read-all-button").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParams}`);
+                        $("#play-all-button-link").attr("href", `https://www.biblegateway.com/audio/${this.#audioVersion}/${audioParams}`);
+                        $("#read-all-button-link").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParams}`);
                     }
                 }
 
