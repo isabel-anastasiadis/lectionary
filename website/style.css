@@ -373,6 +373,10 @@ details > summary {
     list-style: none;
 }
 
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
 details {
     display: flex;
     margin-top: 30px;
@@ -401,7 +405,7 @@ summary {
 
 summary:hover,
 summary:focus {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 summary:active {
@@ -414,4 +418,6 @@ details[open] .about:before {
 
 .message {
     margin-top: 10px;
+    opacity: 0.5;
 }
+
