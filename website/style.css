@@ -143,8 +143,6 @@ input {
 
 svg {
     fill: var(--foreground);
-    height: 12px;
-    width: 12px;
 }
 
 .toggle:hover:before,
@@ -221,23 +219,29 @@ menu {
 }
 
 .select {
-    cursor: pointer;
     margin: 0;
-    transition: all 0.1s ease;
+    transition: opacity 0.1s ease;
+    cursor: pointer;
+    margin: -10px;
+    padding: 10px;
 }
 
-.select select {
-    cursor: pointer;
-    transition: all 0.1s ease;
+#date-chevron {
+    margin-left: -20px;
+    margin-bottom: 2px;
+    pointer-events: none;
 }
 
 .select:hover,
-.select:focus {
-    opacity: 0.9;
+.select:focus,
+.select:hover ~ svg,
+.select:focus ~ svg {
+    opacity: 0.8;
 }
 
-.select:active {
-    opacity: 0.8;
+.select:active,
+.select:active ~ svg {
+    opacity: 0.6;
 }
 
 a {
@@ -246,15 +250,16 @@ a {
     text-decoration: none;
     line-height: 25px;
     transition: all 0.1s ease;
+    outline: none;
 }
 
 a:hover,
 a:focus {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 a:active {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .action {
@@ -281,22 +286,48 @@ a:active {
 .action select {
     display: flex;
     width: 80px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 5px 20px;
+    padding: 15px 35px 15px 20px;
     line-height: 20px;
     cursor: pointer;
     border-left: 1px solid var(--toggle-select);
 }
 
-.primary select {
+.select-fixed-width {
+    border: 1px solid blue;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chevron-positioner {
+    position: relative;
+}
+
+.chevron {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    pointer-events: none;
+}
+
+.primary svg {
+    margin-right: 5px;
+}
+
+.emphasis select {
     border-left: 1px solid var(--toggle-checked-select);
 }
 
-.primary {
+.emphasis {
     background: var(--toggle-checked-base);
     color: var(--background);
+}
+
+.emphasis svg {
+    fill: var(--background);
 }
 
 .action a:hover,
@@ -311,14 +342,25 @@ a:active {
     background: var(--toggle-select);
 }
 
-.primary a:hover,
-.primary a:focus,
-.primary select:hover,
-.primary select:focus {
+.emphasis a:hover,
+.emphasis a:focus,
+.emphasis select:hover,
+.emphasis select:focus {
     background: var(--toggle-checked-stage);
 }
 
-.primary a:active,
-.primary select:active {
+.emphasis a:active,
+.emphasis select:active {
     background: var(--toggle-checked-select);
 }
+
+#no-readings-message {
+    margin: auto 0 0;
+    opacity: 50%;
+}
+
+#date-select-width,
+#audio-select-width,
+#reading-select-width {
+    display : none;
+} 
