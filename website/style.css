@@ -330,6 +330,10 @@ a:active {
     fill: var(--background);
 }
 
+.actions {
+    margin-top: 50px;
+}
+
 .action a:hover,
 .action a:focus,
 .action select:hover,
@@ -355,8 +359,8 @@ a:active {
 }
 
 #no-readings-message {
-    margin: auto 0 0;
-    opacity: 50%;
+    margin: 50px 0 auto;
+    font-weight: bold;
 }
 
 #date-select-width,
@@ -364,3 +368,50 @@ a:active {
 #reading-select-width {
     display : none;
 } 
+
+details > summary {
+    list-style: none;
+}
+
+details {
+    display: flex;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+summary {
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+}
+
+.about {
+    margin-left: auto;
+    transition: all 0.1s ease;
+}
+
+.about:before {
+    content: 'About';
+}
+
+summary:hover,
+summary:focus {
+    opacity: 0.6;
+}
+
+summary:active {
+    opacity: 0.5;
+}
+
+details[open] .about:before {
+    content: 'Close';
+}
+
+.message {
+    margin-top: 10px;
+}
