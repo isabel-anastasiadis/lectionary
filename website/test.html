@@ -140,6 +140,7 @@
 
                 constructor(){
                     this.#data = new Data().getData();
+                    console.log(this.#data);
                 }
 
                 initialisePage() {
@@ -297,10 +298,8 @@
                 }
 
                 #getAdjacentDateKey(dateKey, numberModifier) {
-                    var date = new Date(dateKey.replace(/\//g,'-'));
-
-                    var newDate = new Date();
-                    newDate.setDate(date.getDate() + numberModifier);
+                    var newDate = new Date(dateKey.replace(/\//g,'-'));
+                    newDate.setDate(newDate.getDate() + numberModifier);
 
                     return this.#convertDateToDateKey(newDate);
                 }
