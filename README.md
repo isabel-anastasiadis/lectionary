@@ -7,9 +7,9 @@ The idea is to have a page that gives the morning prayer and evening prayer read
 ![Concept design](./website/design.jpg)
 
 ## Project summary
-A main chunk of work has been just manually extracting all the rules from their original PDF into a [Google Sheet](https://docs.google.com/spreadsheets/d/1JFiANpqO4W3UrVBemTetsOfYA5ITnPmDnNq_e1P8qBs/edit#gid=1638477179) and then summarising this years readings into this [Google Sheet](https://docs.google.com/spreadsheets/d/1TE7UzbJG-JJQVM-m1pY8Yc_hSD5zQMfR_d79PDxniZc/edit).
+A main chunk of work has been just manually extracting all the rules and applying them to reconstruct this years readings into this [google sheet](https://docs.google.com/spreadsheets/d/1TE7UzbJG-JJQVM-m1pY8Yc_hSD5zQMfR_d79PDxniZc/edit).
 
-Then the first proof-of-concept was a [google doc](https://docs.google.com/document/d/1tlcsKeXkCpYplauIEDckDrMstBSyR-p3dR-S7aCu5UM/edit) (backed by a google script that reads that second google sheet and refreshes the page every day).
+Then the first proof-of-concept was a [google doc](https://docs.google.com/document/d/1tlcsKeXkCpYplauIEDckDrMstBSyR-p3dR-S7aCu5UM/edit) (backed by a google script that reads that google sheet and refreshes the page every day).
 
 Me and Isaac are now looking at making a proper website (so we can have dark-mode and preferences etc).
 
