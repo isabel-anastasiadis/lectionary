@@ -1,6 +1,6 @@
 class Data {
 
-    #data = {
+    data = {
         "2020/12/01": {
             "date_pretty": "Tuesday, December 1, 2020",
             "day_description": "Week of 1st Sunday of Advent",
@@ -8513,6 +8513,6 @@ class Data {
     };
 
     getData(){
-        return this.#data;
+        return this.data;
     }
 }

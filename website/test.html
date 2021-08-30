@@ -132,122 +132,122 @@
             class App {
                 
                 // control fields
-                #data;
-                #masterDateKey;
-                #morningOrEvening;
-                #readingVersion;
-                #audioVersion;
+                data;
+                masterDateKey;
+                morningOrEvening;
+                readingVersion;
+                audioVersion;
 
                 constructor(){
-                    this.#data = new Data().getData();
-                    console.log(this.#data);
+                    this.data = new Data().getData();
+                    console.log(this.data);
                 }
 
                 initialisePage() {
 
                     // set date to today
                     var now = new Date();
-                    this.#masterDateKey =  this.#convertDateToDateKey(now);
+                    this.masterDateKey =  this.audioVersiconvertDateToDateKeyon(now);
 
                     // work out morning/evening default to show
-                    this.#morningOrEvening = this.#checkCurrentTime(now);
-                    this.#setRadioOption(this.#morningOrEvening)                
+                    this.morningOrEvening = this.checkCurrentTime(now);
+                    this.setRadioOption(this.morningOrEvening)                
 
                     // populate the dropdown with all the dates, and select the current one
                     var $dropdown = $("#date-select");
-                    Object.keys(this.#data).forEach(date => {
-                        var text = this.#data[date].date_pretty;
+                    Object.keys(this.data).forEach(date => {
+                        var text = this.data[date].date_pretty;
                         var option = $("<option />").val(date).text(text);
                         $dropdown.append(option);
                         
                     });
-                    $(`#date-select option[value="${this.#masterDateKey}"]`).attr("selected",true);
+                    $(`#date-select option[value="${this.masterDateKey}"]`).attr("selected",true);
                     
                     // Resize selects to match content
-                    this.#resizeDate()
-                    this.#resizeAudio()
-                    this.#resizeReading()
+                    this.resizeDate()
+                    this.resizeAudio()
+                    this.resizeReading()
                     
                     
-                    this.#audioVersion = $("#audio-version-select").val();
-                    this.#readingVersion = $("#reading-version-select").val();
+                    this.audioVersion = $("#audio-version-select").val();
+                    this.readingVersion = $("#reading-version-select").val();
 
                     // now fill in the data for the day
-                    this.#refreshPageData();
+                    this.refreshPageData();
                 }
 
 
                 dateSelectOnChange() {
-                    this.#masterDateKey = $("#date-select").val();
-                    this.#refreshPageData();
-                    this.#resizeDate()
+                    this.masterDateKey = $("#date-select").val();
+                    this.refreshPageData();
+                    this.resizeDate()
                 }
 
                 backOnClick() {
-                    this.#masterDateKey = this.#getAdjacentDateKey(this.#masterDateKey, -1);
-                    this.#refreshPageData();
-                    this.#resizeDate()
+                    this.masterDateKey = this.getAdjacentDateKey(this.masterDateKey, -1);
+                    this.refreshPageData();
+                    this.resizeDate()
                 }
 
                 forwardOnClick() {
-                    this.#masterDateKey = this.#getAdjacentDateKey(this.#masterDateKey, 1);
-                    this.#refreshPageData();
-                    this.#resizeDate()
+                    this.masterDateKey = this.getAdjacentDateKey(this.masterDateKey, 1);
+                    this.refreshPageData();
+                    this.resizeDate()
                 }
 
                 morningEveningOnChange() {
-                    this.#morningOrEvening = $("input[name='time-of-day-radio-input']:checked").val();
-                    this.#setRadioOption(this.#morningOrEvening);
-                    this.#refreshPageData();
+                    this.morningOrEvening = $("input[name='time-of-day-radio-input']:checked").val();
+                    this.setRadioOption(this.morningOrEvening);
+                    this.refreshPageData();
                 }
 
                 audioVersionSelectOnChange() {
-                    this.#audioVersion = $("#audio-version-select").val();
-                    this.#refreshPageData();
-                    this.#resizeAudio();
+                    this.audioVersion = $("#audio-version-select").val();
+                    this.refreshPageData();
+                    this.resizeAudio();
                 }
 
                 readingVersionSelectOnChange() {
-                    this.#readingVersion = $("#reading-version-select").val();
-                    this.#refreshPageData();
-                    this.#resizeReading();
+                    this.readingVersion = $("#reading-version-select").val();
+                    this.refreshPageData();
+                    this.resizeReading();
                 }
 
                 // Private methods
                 //----------------------------------------------------------------------------------
 
-                #resizeDate() {
+                resizeDate() {
                     // Add extra 20px space to allow for arrow icon
                     $("#date-select-calculate").html($('#date-select option:selected').text());
                     $('#date-select').width($("#date-select-width").width() + 20); 
                 }
 
-                #resizeAudio() {
+                resizeAudio() {
                     $("#audio-select-calculate").html($('#audio-version-select option:selected').text());
                     $('#audio-version-select').width($("#audio-select-width").width()); 
                 }
 
-                #resizeReading() {
+                resizeReading() {
                     $("#reading-select-calculate").html($('#reading-version-select option:selected').text());
                     $('#reading-version-select').width($("#reading-select-width").width()); 
                 }
                 
-                #checkCurrentTime(date) {
+                checkCurrentTime(date) {
                     // Set morning as 12am - 12pm
                     var hours = date.getHours();
                     var morning = hours >= 0 && hours <= 12;
                     return morning ? "morning" : "evening";
                 }
 
-                #refreshPageData() {
-                    var todaysData = this.#data[this.#masterDateKey];
+                refreshPageData() {
+                    var todaysData = this.data[this.masterDateKey];
 
                     // select the right date in the dropdown
                     $('#date-select option:selected').attr("selected",false);
-                    $(`#date-select option[value="${this.#masterDateKey}"]`).attr("selected",true);
+                    $(`#date-select option[value="${this.masterDateKey}"]`).attr("selected",true);
                     
                     // populate the greeting
-                    if(this.#morningOrEvening === "morning"){
+                    if(this.morningOrEvening === "morning"){
                         $("#greeting").text("Ata m\u0101rie.");
                     }
                     else {
@@ -255,9 +255,9 @@
                     }
                     
                     // populate the scripture readings
-                    var scriptures = todaysData[this.#morningOrEvening]["readings"];
-                    var readingParams = todaysData[this.#morningOrEvening]["reading_link"];
-                    var audioParams = todaysData[this.#morningOrEvening]["audio_link"];
+                    var scriptures = todaysData[this.morningOrEvening]["readings"];
+                    var readingParams = todaysData[this.morningOrEvening]["reading_link"];
+                    var audioParams = todaysData[this.morningOrEvening]["audio_link"];
                     var readingParamsArray = readingParams.split("%3B+");
 
                     if(scriptures[0] === ""){ // TODO: change the data to be empty/null, this is kinda weird..
@@ -273,38 +273,38 @@
                         $("#read-all-button").show();
 
                         $("#psalm").text(scriptures[0]);
-                        $("#psalm").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[0]}`);
+                        $("#psalm").attr("href", `https://www.biblegateway.com/passage/?version=${this.readingVersion}&search=${readingParamsArray[0]}`);
 
                         $("#old-testament").text(scriptures[1]);
-                        $("#old-testament").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[1]}`);
+                        $("#old-testament").attr("href", `https://www.biblegateway.com/passage/?version=${this.readingVersion}&search=${readingParamsArray[1]}`);
 
                         $("#new-testament").text(scriptures[2]);
-                        $("#new-testament").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParamsArray[2]}`);
+                        $("#new-testament").attr("href", `https://www.biblegateway.com/passage/?version=${this.readingVersion}&search=${readingParamsArray[2]}`);
 
-                        $("#play-all-button-link").attr("href", `https://www.biblegateway.com/audio/${this.#audioVersion}/${audioParams}`);
-                        $("#read-all-button-link").attr("href", `https://www.biblegateway.com/passage/?version=${this.#readingVersion}&search=${readingParams}`);
+                        $("#play-all-button-link").attr("href", `https://www.biblegateway.com/audio/${this.audioVersion}/${audioParams}`);
+                        $("#read-all-button-link").attr("href", `https://www.biblegateway.com/passage/?version=${this.readingVersion}&search=${readingParams}`);
                     }
                 }
 
-                #padToTwoDigits(number) {
+                padToTwoDigits(number) {
                     return `0${number}`.slice(-2); // slice here returns the last two characters
                 }
 
-                #convertDateToDateKey(date) {
+                audioVersiconvertDateToDateKeyon(date) {
                     var year = date.getFullYear();
-                    var month = this.#padToTwoDigits(date.getMonth() + 1); // getMonth is zero based...?
-                    var day = this.#padToTwoDigits(date.getDate()); // getDate returns the day of the month...?
+                    var month = this.padToTwoDigits(date.getMonth() + 1); // getMonth is zero based...?
+                    var day = this.padToTwoDigits(date.getDate()); // getDate returns the day of the month...?
                     return `${year}/${month}/${day}`;
                 }
 
-                #getAdjacentDateKey(dateKey, numberModifier) {
+                getAdjacentDateKey(dateKey, numberModifier) {
                     var newDate = new Date(dateKey.replace(/\//g,'-'));
                     newDate.setDate(newDate.getDate() + numberModifier);
 
-                    return this.#convertDateToDateKey(newDate);
+                    return this.audioVersiconvertDateToDateKeyon(newDate);
                 }
 
-                #setRadioOption(timeOfDay) {
+                setRadioOption(timeOfDay) {
                     var morningRadioEl = document.querySelector("#morning-radio-option");
                     var eveningRadioEl = document.querySelector("#evening-radio-option");
                     var root = document.querySelector(':root');

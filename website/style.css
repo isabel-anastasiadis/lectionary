@@ -1,3 +1,20 @@
+/*
+
+TODO 
+Make selects equal width
+On first load, svg clips text on date select
+Make height of page 100% of browser on mobile
+Improve string format for readings
+
+DONE
+✔ Make data load in safari
+✔ Fix slects getting cropped in safari
+✔ Fix the white text on white background in chrome on microsoft
+✔ Remove unwanted margin on selects in safari
+
+*/
+
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -58,11 +75,19 @@ select {
     border: none;
     background: none;
     padding: 0;
+    margin: 0;
     border-radius: 0;
     color: inherit;
     outline: none;
     font-weight: 300;
     -webkit-appearance: none;
+    min-height: 100%;
+}
+
+option { 
+    -webkit-appearance: none; 
+    color: var(--foreground);
+    background: var(--background);
 }
 
 button {
@@ -401,15 +426,6 @@ summary {
 
 .about:before {
     content: 'About';
-}
-
-summary:hover,
-summary:focus {
-    opacity: 0.7;
-}
-
-summary:active {
-    opacity: 0.5;
 }
 
 details[open] .about:before {
