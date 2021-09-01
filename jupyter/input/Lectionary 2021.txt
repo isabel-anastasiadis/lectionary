@@ -1232,7 +1232,7 @@ SUN BAPTISM OF THE LORD
 /Te Iriiringa o te Karaiti/Krist Ka Baptishma (Hindi)
 1st Sunday of the Epiphany/Te Rātapu Tuatahi i muri i te Whakaaturanga
 This is a principal feast and should not be displaced by any other celebration.
-10
+10 
 W
 RCL
 Gen 1:1-5
@@ -3282,7 +3282,7 @@ Exod 11
 Eph 2:11-18
 Day of Self-Examination and Special Devotion
 FRI GOOD FRIDAY/Te Paraire Pai
-2 +R
+2R
 RCL
 Isa 52:13–53:12
 Ps 22
@@ -3319,7 +3319,9 @@ Job 23:8-14; Ps 82; 145:8-21; 1 Cor 15:20-28; Matt 13:31-3354
 APRIL 2021
 SAT Holy Saturday/Rāhoroi Tapu
 at services other than the Easter Vigil
-3 RCL Job 14:1-14 or
+3 
+RCL
+Job 14:1-14 or
 Lam 3:1-9,19-24
 Ps 31:1-5,17-18
 1 Pet 4:1-8
@@ -4380,6 +4382,7 @@ Ps 80
 Matt 7:15-27
 If St Matthias was celebrated on 24 February)
 FRI Ngākūkū, Missionary in Mataatua
+14
 W or
 Rw
 DEL
