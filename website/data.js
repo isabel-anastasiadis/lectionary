@@ -114,17 +114,21 @@ class Data {  data = {
         "day_description": "2nd Sunday of Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 80",
+                "Zephaniah 3:14\u201320",
+                "Luke 1:5\u201320"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+80%3B+Zephaniah+3:14-20%3B+Luke+1:5-20",
+            "audio_link": "Ps.80,Zeph.3,Luke.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 40",
+                "1 Kings 22:1\u201328",
+                "Romans 15:4\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+40%3B+1+Kings+22:1-28%3B+Romans+15:4-13",
+            "audio_link": "Ps.40,1Kgs.22,Rom.15"
         }
     },
     "2020/12/07": {
@@ -264,17 +268,22 @@ class Data {  data = {
         "day_description": "3rd Sunday of Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 50:1\u20136,62",
+                "Isaiah 12",
+                "Luke 1:57\u201366"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+50:1-6,62%3B+Isaiah+12%3B+Luke+1:57-66",
+            "audio_link": "Ps.50,Isa.12,Luke.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 68:1\u201319",
+                "Malachi 3:1\u20134",
+                "4",
+                "Philippians 4:4\u20137"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+68:1-19%3B+Malachi+3:1-4%3B4%3B+Philippians+4:4-7",
+            "audio_link": "Ps.68,Mal.3,4,Phil.4"
         }
     },
     "2020/12/14": {
@@ -414,17 +423,21 @@ class Data {  data = {
         "day_description": "4th Sunday of Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 144",
+                "Isaiah 7:10\u201316",
+                "Romans 1:1\u20137"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+144%3B+Isaiah+7:10-16%3B+Romans+1:1-7",
+            "audio_link": "Ps.144,Isa.7,Rom.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 113",
+                "Zechariah 2:10\u201313",
+                "Luke 1:39\u201355"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+113%3B+Zechariah+2:10-13%3B+Luke+1:39-55",
+            "audio_link": "Ps.113,Zech.2,Luke.1"
         }
     },
     "2020/12/21": {
@@ -566,17 +579,22 @@ class Data {  data = {
         "day_description": "St John the Evangelist",
         "morning": {
             "readings": [
-                ""
+                "Psalm 21",
+                "147:12\u2013end",
+                "Exodus 33:12\u201323",
+                "1 John 2:1\u201311"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+21%3B147:12-%3B+Exodus+33:12-23%3B+1+John+2:1-11",
+            "audio_link": "Ps.21,147,Exod.33,1John.2"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 97",
+                "Isaiah 6:1\u20138",
+                "1 John 5:1\u201312"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+97%3B+Isaiah+6:1-8%3B+1+John+5:1-12",
+            "audio_link": "Ps.97,Isa.6,1John.5"
         }
     },
     "2020/12/28": {
@@ -717,17 +735,21 @@ class Data {  data = {
         "day_description": "",
         "morning": {
             "readings": [
-                ""
+                "Psalm 87",
+                "Zechariah 8:1\u20138",
+                "Luke 2:41\u201352"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+87%3B+Zechariah+8:1-8%3B+Luke+2:41-52",
+            "audio_link": "Ps.87,Zech.8,Luke.2"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 135",
+                "Isaiah 46:3\u201313",
+                "Romans 12:1\u20138"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+135%3B+Isaiah+46:3-13%3B+Romans+12:1-8",
+            "audio_link": "Ps.135,Isa.46,Rom.12"
         }
     },
     "2021/01/04": {
@@ -867,17 +889,21 @@ class Data {  data = {
         "day_description": "1st Sunday after the Epiphany",
         "morning": {
             "readings": [
-                ""
+                "Psalm 89:19\u201329",
+                "1 Samuel 16:1\u20132,13",
+                "John 1:29\u201334"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+89:19-29%3B+1+Samuel+16:1-2,13%3B+John+1:29-34",
+            "audio_link": "Ps.89,1Sam.16,John.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 46",
+                "Isaiah 42:1\u20139",
+                "Ephesians 2:1\u201310"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+46%3B+Isaiah+42:1-9%3B+Ephesians+2:1-10",
+            "audio_link": "Ps.46,Isa.42,Eph.2"
         }
     },
     "2021/01/11": {
@@ -1017,17 +1043,21 @@ class Data {  data = {
         "day_description": "2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
-                ""
+                "Psalm 145:1\u201312",
+                "Isaiah 62:1\u20135",
+                "1 Corinthians 6:11\u201320"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+145:1-12%3B+Isaiah+62:1-5%3B+1+Corinthians+6:11-20",
+            "audio_link": "Ps.145,Isa.62,1Cor.6"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 96",
+                "Isaiah 60:9\u201322",
+                "Hebrews 6:17\u20137:10"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+96%3B+Isaiah+60:9-22%3B+Hebrews+6:17-7:10",
+            "audio_link": "Ps.96,Isa.60,Heb.6"
         }
     },
     "2021/01/18": {
@@ -1167,17 +1197,21 @@ class Data {  data = {
         "day_description": "3rd Sunday after the Ephiphany",
         "morning": {
             "readings": [
-                ""
+                "Psalm 113",
+                "Jonah 3:1\u20135,10",
+                "John 3:16\u201321"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+113%3B+Jonah+3:1-5,10%3B+John+3:16-21",
+            "audio_link": "Ps.113,Jonah.3,John.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 33",
+                "Jeremiah 3:21\u20134:2",
+                "Titus 2:1\u20138,11\u201314"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+33%3B+Jeremiah+3:21-4:2%3B+Titus+2:1-8,11-14",
+            "audio_link": "Ps.33,Jer.3,Titus.2"
         }
     },
     "2021/01/25": {
@@ -1318,17 +1352,21 @@ class Data {  data = {
         "day_description": "4th Sunday after the Ephiphany",
         "morning": {
             "readings": [
-                ""
+                "Psalm 71:1\u20136,15\u201317",
+                "Jeremiah 1:4\u201310",
+                "Mark 1:40\u201345"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+71:1-6,15-17%3B+Jeremiah+1:4-10%3B+Mark+1:40-45",
+            "audio_link": "Ps.71,Jer.1,Mark.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 34",
+                "1 Samuel 3:1\u201320",
+                "1 Corinthians 14:12\u201320"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+34%3B+1+Samuel+3:1-20%3B+1+Corinthians+14:12-20",
+            "audio_link": "Ps.34,1Sam.3,1Cor.14"
         }
     },
     "2021/02/01": {
@@ -1469,17 +1507,21 @@ class Data {  data = {
         "day_description": "2nd Sunday before Lent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 2,3",
+                "Jeremiah 26:1\u201316",
+                "Acts 3:1\u201310"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+2,3%3B+Jeremiah+26:1-16%3B+Acts+3:1-10",
+            "audio_link": "Ps.2,3,Jer.26,Acts.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 5",
+                "Numbers 13:1\u20132,27\u201333",
+                "Philippians 2:12\u201328"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+5%3B+Numbers+13:1-2,27-33%3B+Philippians+2:12-28",
+            "audio_link": "Ps.5,Num.13,Phil.2"
         }
     },
     "2021/02/08": {
@@ -1620,17 +1662,21 @@ class Data {  data = {
         "day_description": "The Sunday before Lent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 7",
+                "Jeremiah 30:1\u20133,10\u201322",
+                "Acts 6"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+7%3B+Jeremiah+30:1-3,10-22%3B+Acts+6",
+            "audio_link": "Ps.7,Jer.30,Acts.6"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 6",
+                "Numbers 20:2\u201313",
+                "Philippians 3:7\u201321"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+6%3B+Numbers+20:2-13%3B+Philippians+3:7-21",
+            "audio_link": "Ps.6,Num.20,Phil.3"
         }
     },
     "2021/02/15": {
@@ -1770,17 +1816,21 @@ class Data {  data = {
         "day_description": "1st Sunday of Lent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 77",
+                "Exodus 34:1\u201310",
+                "Romans 10:8b\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+77%3B+Exodus+34:1-10%3B+Romans+10:8b-13",
+            "audio_link": "Ps.77,Exod.34,Rom.10"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 119:17\u201332",
+                "Genesis 2:15\u201317",
+                "Romans 5:12\u201319"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:17-32%3B+Genesis+2:15-17%3B+Romans+5:12-19",
+            "audio_link": "Ps.119,Gen.2,Rom.5"
         }
     },
     "2021/02/22": {
@@ -1920,17 +1970,21 @@ class Data {  data = {
         "day_description": "2nd Sunday of Lent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 105:1\u20136,37\u201345",
+                "Isaiah 51:1\u201311",
+                "Galatians 3:1\u20139,23\u201329"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+105:1-6,37-45%3B+Isaiah+51:1-11%3B+Galatians+3:1-9,23-29",
+            "audio_link": "Ps.105,Isa.51,Gal.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 135",
+                "Genesis 12:1\u20139",
+                "Hebrews 11:1\u20133,8\u201316"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+135%3B+Genesis+12:1-9%3B+Hebrews+11:1-3,8-16",
+            "audio_link": "Ps.135,Gen.12,Heb.11"
         }
     },
     "2021/03/01": {
@@ -2070,17 +2124,21 @@ class Data {  data = {
         "day_description": "3rd Sunday of Lent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 18:1\u201325",
+                "Jeremiah 38",
+                "Philippians 1:1\u201326"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+18:1-25%3B+Jeremiah+38%3B+Philippians+1:1-26",
+            "audio_link": "Ps.18,Jer.38,Phil.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 11,12",
+                "Exodus 5:1\u20136:1",
+                "Matthew 10:16\u201322"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+11,12%3B+Exodus+5:1-6:1%3B+Matthew+10:16-22",
+            "audio_link": "Ps.11,12,Exod.5,Matt.10"
         }
     },
     "2021/03/08": {
@@ -2222,17 +2280,21 @@ class Data {  data = {
         "day_description": "4th Sunday of Lent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 27",
+                "1 Samuel 16:1\u201313",
+                "John 9:1\u201325"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+27%3B+1+Samuel+16:1-13%3B+John+9:1-25",
+            "audio_link": "Ps.27,1Sam.16,John.9"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 13,14",
+                "Exodus 6:2\u201313",
+                "Romans 5:1\u201311"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+13,14%3B+Exodus+6:2-13%3B+Romans+5:1-11",
+            "audio_link": "Ps.13,14,Exod.6,Rom.5"
         }
     },
     "2021/03/15": {
@@ -2372,17 +2434,21 @@ class Data {  data = {
         "day_description": "5th Sunday of Lent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 107:1\u201322",
+                "Exodus 24:3\u20138",
+                "Hebrews 12:18\u201329"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+107:1-22%3B+Exodus+24:3-8%3B+Hebrews+12:18-29",
+            "audio_link": "Ps.107,Exod.24,Heb.12"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 34",
+                "Exodus 7:8\u201324",
+                "Romans 5:12\u201321"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+34%3B+Exodus+7:8-24%3B+Romans+5:12-21",
+            "audio_link": "Ps.34,Exod.7,Rom.5"
         }
     },
     "2021/03/22": {
@@ -2522,17 +2588,21 @@ class Data {  data = {
         "day_description": "Palm Sunday",
         "morning": {
             "readings": [
-                ""
+                "Psalm 61,62",
+                "Zechariah 9:9\u201312",
+                "1 Corinthians 2:1\u201312"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+61,62%3B+Zechariah+9:9-12%3B+1+Corinthians+2:1-12",
+            "audio_link": "Ps.61,62,Zech.9,1Cor.2"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 69:1\u201320",
+                "Isaiah 5:1\u20137",
+                "Mark 12:1\u201312"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+69:1-20%3B+Isaiah+5:1-7%3B+Mark+12:1-12",
+            "audio_link": "Ps.69,Isa.5,Mark.12"
         }
     },
     "2021/03/29": {
@@ -2674,17 +2744,21 @@ class Data {  data = {
         "day_description": "Easter day",
         "morning": {
             "readings": [
-                ""
+                "Psalm 114,117",
+                "Genesis 1:1\u20135,26\u201331",
+                "2 Corinthians 5:14\u20136:2"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+114,117%3B+Genesis+1:1-5,26-31%3B+2+Corinthians+5:14-6:2",
+            "audio_link": "Ps.114,117,Gen.1,2Cor.5"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 105",
+                "Ezekiel 37:1\u201314",
+                "Luke 24:13\u201335"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+105%3B+Ezekiel+37:1-14%3B+Luke+24:13-35",
+            "audio_link": "Ps.105,Ezek.37,Luke.24"
         }
     },
     "2021/04/05": {
@@ -2824,17 +2898,21 @@ class Data {  data = {
         "day_description": "2nd Sunday of Easter",
         "morning": {
             "readings": [
-                ""
+                "Psalm 22:20\u201331",
+                "Isaiah 53:6\u201312",
+                "Romans 4:13\u201325"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+22:20-31%3B+Isaiah+53:6-12%3B+Romans+4:13-25",
+            "audio_link": "Ps.22,Isa.53,Rom.4"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 143:1\u201312",
+                "Isaiah 26:1\u20139,19",
+                "Luke 24:1\u201312"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+143:1-12%3B+Isaiah+26:1-9,19%3B+Luke+24:1-12",
+            "audio_link": "Ps.143,Isa.26,Luke.24"
         }
     },
     "2021/04/12": {
@@ -2974,17 +3052,21 @@ class Data {  data = {
         "day_description": "3rd Sunday of Easter",
         "morning": {
             "readings": [
-                ""
+                "Psalm 77:11\u201320",
+                "Isaiah 63:7\u201315",
+                "1 Corinthians 10:1\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+77:11-20%3B+Isaiah+63:7-15%3B+1+Corinthians+10:1-13",
+            "audio_link": "Ps.77,Isa.63,1Cor.10"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 142",
+                "Deuteronomy 7:7\u201313",
+                "Revelation 2:1\u201311"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+142%3B+Deuteronomy+7:7-13%3B+Revelation+2:1-11",
+            "audio_link": "Ps.142,Deut.7,Rev.2"
         }
     },
     "2021/04/19": {
@@ -3124,17 +3206,21 @@ class Data {  data = {
         "day_description": "4th Sunday of Easter",
         "morning": {
             "readings": [
-                ""
+                "Psalm 119:89\u201396",
+                "Nehemiah 7:73b \u2013 8:12",
+                "Luke 24:25\u201332"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:89-96%3B+Nehemiah+7:73b+-+8:12%3B+Luke+24:25-32",
+            "audio_link": "Ps.119,Neh.7,Luke.24"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 81:8\u201316",
+                "Exodus 16:4\u201315",
+                "Revelation 2:12\u201317"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+81:8-16%3B+Exodus+16:4-15%3B+Revelation+2:12-17",
+            "audio_link": "Ps.81,Exod.16,Rev.2"
         }
     },
     "2021/04/26": {
@@ -3274,17 +3360,21 @@ class Data {  data = {
         "day_description": "5th Sunday of Easter",
         "morning": {
             "readings": [
-                ""
+                "Psalm 44:16\u201327",
+                "Daniel 3:16\u201328",
+                "Hebrews 11:32\u201312:2"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+44:16-27%3B+Daniel+3:16-28%3B+Hebrews+11:32-12:2",
+            "audio_link": "Ps.44,Dan.3,Heb.11"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 96",
+                "Isaiah 60:1\u201314",
+                "Revelation 3:1\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+96%3B+Isaiah+60:1-14%3B+Revelation+3:1-13",
+            "audio_link": "Ps.96,Isa.60,Rev.3"
         }
     },
     "2021/05/03": {
@@ -3425,17 +3515,22 @@ class Data {  data = {
         "day_description": "6th Sunday of Easter",
         "morning": {
             "readings": [
-                ""
+                "Psalm 104:28\u201334",
+                "Ezekiel 47:1\u201312",
+                "John 21:1\u201319"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+104:28-34%3B+Ezekiel+47:1-12%3B+John+21:1-19",
+            "audio_link": "Ps.104,Ezek.47,John.21"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 45",
+                "Song of Solomon 4:16\u20135:2",
+                "8:6\u20137",
+                "Revelation 3:14\u2013end"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+45%3B+Song+of+Solomon+4:16-5:2%3B8:6-7%3B+Revelation+3:14-",
+            "audio_link": "Ps.45,Song.4,8,Rev.3"
         }
     },
     "2021/05/10": {
@@ -3575,17 +3670,21 @@ class Data {  data = {
         "day_description": "10 days between Ascension Day and Pentecost",
         "morning": {
             "readings": [
-                ""
+                "Psalm 76",
+                "Isaiah 14:3\u201315",
+                "Revelation 14:1\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+76%3B+Isaiah+14:3-15%3B+Revelation+14:1-13",
+            "audio_link": "Ps.76,Isa.14,Rev.14"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 147:1\u201312",
+                "Isaiah 61",
+                "Luke 4:14\u201321"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+147:1-12%3B+Isaiah+61%3B+Luke+4:14-21",
+            "audio_link": "Ps.147,Isa.61,Luke.4"
         }
     },
     "2021/05/17": {
@@ -3726,17 +3825,21 @@ class Data {  data = {
         "day_description": "Day of Pentecost",
         "morning": {
             "readings": [
-                ""
+                "Psalm 145",
+                "Isaiah 11:1\u20139",
+                "1 Corinthians 12:4\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+145%3B+Isaiah+11:1-9%3B+1+Corinthians+12:4-13",
+            "audio_link": "Ps.145,Isa.11,1Cor.12"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 139:1\u201311",
+                "Ezekiel 36:22\u201328",
+                "Acts 2:22\u201338"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+139:1-11%3B+Ezekiel+36:22-28%3B+Acts+2:22-38",
+            "audio_link": "Ps.139,Ezek.36,Acts.2"
         }
     },
     "2021/05/24": {
@@ -3876,17 +3979,21 @@ class Data {  data = {
         "day_description": "Trinity Sunday",
         "morning": {
             "readings": [
-                ""
+                "Psalm 33:1\u201312",
+                "Proverbs 8:1\u20134,22\u201331",
+                "2 Corinthians 13:5\u201310,11\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+33:1-12%3B+Proverbs+8:1-4,22-31%3B+2+Corinthians+13:5-10,11-13",
+            "audio_link": "Ps.33,Prov.8,2Cor.13"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 104:1\u201310",
+                "Ezekiel 1:4\u201310,22\u201328a",
+                "Revelation 4"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+104:1-10%3B+Ezekiel+1:4-10,22-28a%3B+Revelation+4",
+            "audio_link": "Ps.104,Ezek.1,Rev.4"
         }
     },
     "2021/05/31": {
@@ -4026,17 +4133,21 @@ class Data {  data = {
         "day_description": "10th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 36",
+                "Deuteronomy 6:10\u201325",
+                "Acts 22:22\u201323:11"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+36%3B+Deuteronomy+6:10-25%3B+Acts+22:22-23:11",
+            "audio_link": "Ps.36,Deut.6,Acts.22"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 37:1\u201311",
+                "Jeremiah 6:16\u201321",
+                "Romans 9:1\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+37:1-11%3B+Jeremiah+6:16-21%3B+Romans+9:1-13",
+            "audio_link": "Ps.37,Jer.6,Rom.9"
         }
     },
     "2021/06/07": {
@@ -4176,17 +4287,21 @@ class Data {  data = {
         "day_description": "11th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 42,43",
+                "Deuteronomy 10:12\u201311:1",
+                "Acts 23:12\u201335"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+42,43%3B+Deuteronomy+10:12-11:1%3B+Acts+23:12-35",
+            "audio_link": "Ps.42,43,Deut.10,Acts.23"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 39",
+                "Jeremiah 7:1\u201316",
+                "Romans 9:14\u201326"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+39%3B+Jeremiah+7:1-16%3B+Romans+9:14-26",
+            "audio_link": "Ps.39,Jer.7,Rom.9"
         }
     },
     "2021/06/14": {
@@ -4326,17 +4441,21 @@ class Data {  data = {
         "day_description": "12th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 48",
+                "Deuteronomy 11:1\u201315",
+                "Acts 27:1\u201312"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+48%3B+Deuteronomy+11:1-15%3B+Acts+27:1-12",
+            "audio_link": "Ps.48,Deut.11,Acts.27"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 49",
+                "Jeremiah 10:1\u201316",
+                "Romans 11:25\u201336"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+49%3B+Jeremiah+10:1-16%3B+Romans+11:25-36",
+            "audio_link": "Ps.49,Jer.10,Rom.11"
         }
     },
     "2021/06/21": {
@@ -4476,17 +4595,21 @@ class Data {  data = {
         "day_description": "13th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 56",
+                "Deuteronomy 15:1\u201311",
+                "Acts 27:13\u201332,33\u201334"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+56%3B+Deuteronomy+15:1-11%3B+Acts+27:13-32,33-34",
+            "audio_link": "Ps.56,Deut.15,Acts.27"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 53",
+                "Jeremiah 11:1\u201314",
+                "Romans 13:1\u201310"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+53%3B+Jeremiah+11:1-14%3B+Romans+13:1-10",
+            "audio_link": "Ps.53,Jer.11,Rom.13"
         }
     },
     "2021/06/28": {
@@ -4626,17 +4749,21 @@ class Data {  data = {
         "day_description": "14th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 57",
+                "Deuteronomy 24:10\u201322",
+                "Acts 28:1\u201316"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+57%3B+Deuteronomy+24:10-22%3B+Acts+28:1-16",
+            "audio_link": "Ps.57,Deut.24,Acts.28"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 64",
+                "Jeremiah 20:1\u201311a",
+                "Romans 14:1\u201317"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+64%3B+Jeremiah+20:1-11a%3B+Romans+14:1-17",
+            "audio_link": "Ps.64,Jer.20,Rom.14"
         }
     },
     "2021/07/05": {
@@ -4776,17 +4903,22 @@ class Data {  data = {
         "day_description": "15th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 65",
+                "Deuteronomy 28:1\u201314",
+                "Acts 28:17\u201331"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+65%3B+Deuteronomy+28:1-14%3B+Acts+28:17-31",
+            "audio_link": "Ps.65,Deut.28,Acts.28"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 66",
+                "Job 4:1",
+                "5:6\u201327",
+                "Romans 15:14\u201329"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+66%3B+Job+4:1%3B5:6-27%3B+Romans+15:14-29",
+            "audio_link": "Ps.66,Job.4,5,Rom.15"
         }
     },
     "2021/07/12": {
@@ -4926,17 +5058,21 @@ class Data {  data = {
         "day_description": "16th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 67,70",
+                "Deuteronomy 30:1\u201310",
+                "1 Peter 3:8\u201318"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+67,70%3B+Deuteronomy+30:1-10%3B+1+Peter+3:8-18",
+            "audio_link": "Ps.67,70,Deut.30,1Pet.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 73",
+                "Job 13:13\u201314:6",
+                "Hebrews 2:5\u201318"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+73%3B+Job+13:13-14:6%3B+Hebrews+2:5-18",
+            "audio_link": "Ps.73,Job.13,Heb.2"
         }
     },
     "2021/07/19": {
@@ -5076,17 +5212,21 @@ class Data {  data = {
         "day_description": "17th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 7,29,117",
+                "2 Kings 1:9\u201315",
+                "Luke 9:46\u201356"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+7,29,117%3B+2+Kings+1:9-15%3B+Luke+9:46-56",
+            "audio_link": "Ps.7,29,117,2Kgs.1,Luke.9"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 94",
+                "Jeremiah 26:1\u201315",
+                "Mark 1:14\u201320"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+94%3B+Jeremiah+26:1-15%3B+Mark+1:14-20",
+            "audio_link": "Ps.94,Jer.26,Mark.1"
         }
     },
     "2021/07/26": {
@@ -5226,17 +5366,21 @@ class Data {  data = {
         "day_description": "18th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 86",
+                "Song of Solomon 5:2\u201316",
+                "2 Peter 1:1\u201315"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+86%3B+Song+of+Solomon+5:2-16%3B+2+Peter+1:1-15",
+            "audio_link": "Ps.86,Song.5,2Pet.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 88",
+                "Job 28",
+                "Hebrews 11:17\u201331"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+88%3B+Job+28%3B+Hebrews+11:17-31",
+            "audio_link": "Ps.88,Job.28,Heb.11"
         }
     },
     "2021/08/02": {
@@ -5376,17 +5520,21 @@ class Data {  data = {
         "day_description": "19th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 90",
+                "Song of Solomon 8:5\u20137",
+                "2 Peter 3:8\u201313"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+90%3B+Song+of+Solomon+8:5-7%3B+2+Peter+3:8-13",
+            "audio_link": "Ps.90,Song.8,2Pet.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 91",
+                "Job 39:1\u201340:4",
+                "Hebrews 12:1\u201317"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+91%3B+Job+39:1-40:4%3B+Hebrews+12:1-17",
+            "audio_link": "Ps.91,Job.39,Heb.12"
         }
     },
     "2021/08/09": {
@@ -5526,17 +5674,21 @@ class Data {  data = {
         "day_description": "20th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 106:1\u201310",
+                "Jonah 1",
+                "2 Peter 3:14\u201318"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+106:1-10%3B+Jonah+1%3B+2+Peter+3:14-18",
+            "audio_link": "Ps.106,Jonah.1,2Pet.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 100",
+                "Exodus 2:23\u20133:10",
+                "Hebrews 13:1\u201315"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+100%3B+Exodus+2:23-3:10%3B+Hebrews+13:1-15",
+            "audio_link": "Ps.100,Exod.2,Heb.13"
         }
     },
     "2021/08/16": {
@@ -5676,17 +5828,21 @@ class Data {  data = {
         "day_description": "21th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 115",
+                "Jonah 2",
+                "Revelation 1"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+115%3B+Jonah+2%3B+Revelation+1",
+            "audio_link": "Ps.115,Jonah.2,Rev.1"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 116",
+                "Exodus 4:27\u20135:1",
+                "Hebrews 13:16\u201321"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+116%3B+Exodus+4:27-5:1%3B+Hebrews+13:16-21",
+            "audio_link": "Ps.116,Exod.4,Heb.13"
         }
     },
     "2021/08/23": {
@@ -5826,17 +5982,21 @@ class Data {  data = {
         "day_description": "22th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 119:17\u201340",
+                "Jonah 3:1\u20139",
+                "Revelation 3:14\u201322"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:17-40%3B+Jonah+3:1-9%3B+Revelation+3:14-22",
+            "audio_link": "Ps.119,Jonah.3,Rev.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 119:1\u201316",
+                "Exodus 12:21\u201327",
+                "Matthew 4:23\u20135:20"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:1-16%3B+Exodus+12:21-27%3B+Matthew+4:23-5:20",
+            "audio_link": "Ps.119,Exod.12,Matt.4"
         }
     },
     "2021/08/30": {
@@ -5976,17 +6136,21 @@ class Data {  data = {
         "day_description": "23th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 119:57\u201372",
+                "Jonah 3:10\u20134:11",
+                "Revelation 8:1\u20135"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:57-72%3B+Jonah+3:10-4:11%3B+Revelation+8:1-5",
+            "audio_link": "Ps.119,Jonah.3,Rev.8"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 119:41\u201356",
+                "Exodus 14:5\u201331",
+                "Matthew 6:1\u201318"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:41-56%3B+Exodus+14:5-31%3B+Matthew+6:1-18",
+            "audio_link": "Ps.119,Exod.14,Matt.6"
         }
     },
     "2021/09/06": {
@@ -6127,17 +6291,21 @@ class Data {  data = {
         "day_description": "24th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 119:105\u2013120",
+                "Isaiah 44:24\u201345:8",
+                "Revelation 12:1\u201312"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:105-120%3B+Isaiah+44:24-45:8%3B+Revelation+12:1-12",
+            "audio_link": "Ps.119,Isa.44,Rev.12"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 119:73\u201388",
+                "Exodus 18:13\u201326",
+                "Matthew 7:1\u201314"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:73-88%3B+Exodus+18:13-26%3B+Matthew+7:1-14",
+            "audio_link": "Ps.119,Exod.18,Matt.7"
         }
     },
     "2021/09/13": {
@@ -6277,17 +6445,21 @@ class Data {  data = {
         "day_description": "25th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 119:153\u2013176",
+                "Isaiah 45:9\u201322",
+                "Revelation 14:1\u20135"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:153-176%3B+Isaiah+45:9-22%3B+Revelation+14:1-5",
+            "audio_link": "Ps.119,Isa.45,Rev.14"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 119:137\u2013152",
+                "Exodus 19:10\u201325",
+                "Matthew 8:23\u201334"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:137-152%3B+Exodus+19:10-25%3B+Matthew+8:23-34",
+            "audio_link": "Ps.119,Exod.19,Matt.8"
         }
     },
     "2021/09/20": {
@@ -6427,17 +6599,21 @@ class Data {  data = {
         "day_description": "26th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 122",
+                "Isaiah 48:12\u201322",
+                "Luke 11:37\u201354"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+122%3B+Isaiah+48:12-22%3B+Luke+11:37-54",
+            "audio_link": "Ps.122,Isa.48,Luke.11"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 120,121",
+                "Exodus 24",
+                "Matthew 9:1\u20138"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+120,121%3B+Exodus+24%3B+Matthew+9:1-8",
+            "audio_link": "Ps.120,121,Exod.24,Matt.9"
         }
     },
     "2021/09/27": {
@@ -6577,17 +6753,21 @@ class Data {  data = {
         "day_description": "27th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 123,124",
+                "Isaiah 49:13\u201323",
+                "Luke 12:1\u201312"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+123,124%3B+Isaiah+49:13-23%3B+Luke+12:1-12",
+            "audio_link": "Ps.123,124,Isa.49,Luke.12"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 125,126",
+                "Joshua 3:7\u201317",
+                "Matthew 10:1\u201322"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+125,126%3B+Joshua+3:7-17%3B+Matthew+10:1-22",
+            "audio_link": "Ps.125,126,Josh.3,Matt.10"
         }
     },
     "2021/10/04": {
@@ -6729,17 +6909,21 @@ class Data {  data = {
         "day_description": "28th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 129,130",
+                "Isaiah 50:4\u201310",
+                "Luke 13:22\u201330"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+129,130%3B+Isaiah+50:4-10%3B+Luke+13:22-30",
+            "audio_link": "Ps.129,130,Isa.50,Luke.13"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 127",
+                "Joshua 5:13\u20136:20",
+                "Matthew 11:20\u201330"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+127%3B+Joshua+5:13-6:20%3B+Matthew+11:20-30",
+            "audio_link": "Ps.127,Josh.5,Matt.11"
         }
     },
     "2021/10/11": {
@@ -6879,17 +7063,21 @@ class Data {  data = {
         "day_description": "29th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 133,134,137:1\u20136",
+                "Isaiah 54:1\u201314",
+                "Luke 13:31\u201335"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+133,134,137:1-6%3B+Isaiah+54:1-14%3B+Luke+13:31-35",
+            "audio_link": "Ps.133,134,137,Isa.54,Luke.13"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 141",
+                "Joshua 14:6\u201314",
+                "Matthew 12:1\u201321"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+141%3B+Joshua+14:6-14%3B+Matthew+12:1-21",
+            "audio_link": "Ps.141,Josh.14,Matt.12"
         }
     },
     "2021/10/18": {
@@ -7030,17 +7218,21 @@ class Data {  data = {
         "day_description": "30th Sunday in Ordinary Time",
         "morning": {
             "readings": [
-                ""
+                "Psalm 119:89\u2013104",
+                "Isaiah 59:9\u201320",
+                "Luke 14:1\u201314"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:89-104%3B+Isaiah+59:9-20%3B+Luke+14:1-14",
+            "audio_link": "Ps.119,Isa.59,Luke.14"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 119:121\u2013136",
+                "Eccles 11,12",
+                "2 Timothy 2:1\u20137"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+119:121-136%3B+Eccles+11,12%3B+2+Timothy+2:1-7",
+            "audio_link": "Ps.119,Eccles 11,12,2Tim.2"
         }
     },
     "2021/10/25": {
@@ -7181,17 +7373,21 @@ class Data {  data = {
         "day_description": "4th Sunday before Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 112,149",
+                "Jeremiah 31:31\u201334",
+                "1 John 3:1\u20133"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+112,149%3B+Jeremiah+31:31-34%3B+1+John+3:1-3",
+            "audio_link": "Ps.112,149,Jer.31,1John.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 145",
+                "Daniel 2:1\u201311,25\u201348",
+                "Revelation 7:9\u201317"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+145%3B+Daniel+2:1-11,25-48%3B+Revelation+7:9-17",
+            "audio_link": "Ps.145,Dan.2,Rev.7"
         }
     },
     "2021/11/01": {
@@ -7331,17 +7527,21 @@ class Data {  data = {
         "day_description": "3rd Sunday before Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 136",
+                "Micah 4:1\u20135",
+                "Philippians 4:6\u20139"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+136%3B+Micah+4:1-5%3B+Philippians+4:6-9",
+            "audio_link": "Ps.136,Mic.4,Phil.4"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 46",
+                "Isaiah 10:33\u201311:9",
+                "John 14:1\u201329"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+46%3B+Isaiah+10:33-11:9%3B+John+14:1-29",
+            "audio_link": "Ps.46,Isa.10,John.14"
         }
     },
     "2021/11/08": {
@@ -7481,17 +7681,22 @@ class Data {  data = {
         "day_description": "2nd Sunday before Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 96",
+                "1 Samuel 9:27\u201310:2a",
+                "10:17\u201326",
+                "Matthew 13:31\u201335"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+96%3B+1+Samuel+9:27-10:2a%3B10:17-26%3B+Matthew+13:31-35",
+            "audio_link": "Ps.96,1Sam.9,10,Matt.13"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 95",
+                "Daniel 3:13\u201330",
+                "Matthew 13:24\u201330,36\u201343"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+95%3B+Daniel+3:13-30%3B+Matthew+13:24-30,36-43",
+            "audio_link": "Ps.95,Dan.3,Matt.13"
         }
     },
     "2021/11/15": {
@@ -7632,17 +7837,21 @@ class Data {  data = {
         "day_description": "1st Sunday before Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 29,110",
+                "Isaiah 32:1\u20138",
+                "Revelation 3:7\u201322"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+29,110%3B+Isaiah+32:1-8%3B+Revelation+3:7-22",
+            "audio_link": "Ps.29,110,Isa.32,Rev.3"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 72",
+                "Daniel 5",
+                "John 6:1\u201315"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+72%3B+Daniel+5%3B+John+6:1-15",
+            "audio_link": "Ps.72,Dan.5,John.6"
         }
     },
     "2021/11/22": {
@@ -7783,17 +7992,21 @@ class Data {  data = {
         "day_description": "",
         "morning": {
             "readings": [
-                ""
+                "Psalm 44",
+                "Isaiah 51:4\u201311",
+                "Romans 13:11\u201314"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+44%3B+Isaiah+51:4-11%3B+Romans+13:11-14",
+            "audio_link": "Ps.44,Isa.51,Rom.13"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 9",
+                "Joel 3:9\u201321",
+                "Revelation 14:13\u201315:4"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+9%3B+Joel+3:9-21%3B+Revelation+14:13-15:4",
+            "audio_link": "Ps.9,Joel.3,Rev.14"
         }
     },
     "2021/11/29": {
@@ -7933,17 +8146,21 @@ class Data {  data = {
         "day_description": "2nd Sunday of Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 80",
+                "Isaiah 64:1\u20137",
+                "Matthew 11:2\u201311"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+80%3B+Isaiah+64:1-7%3B+Matthew+11:2-11",
+            "audio_link": "Ps.80,Isa.64,Matt.11"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 75",
+                "Isaiah 40:1\u201311",
+                "Luke 1:1\u201315"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+75%3B+Isaiah+40:1-11%3B+Luke+1:1-15",
+            "audio_link": "Ps.75,Isa.40,Luke.1"
         }
     },
     "2021/12/06": {
@@ -8083,17 +8300,21 @@ class Data {  data = {
         "day_description": "3rd Sunday of Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 12,14",
+                "Isaiah 25:1\u20139",
+                "1 Corinthians 4:1\u20135"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+12,14%3B+Isaiah+25:1-9%3B+1+Corinthians+4:1-5",
+            "audio_link": "Ps.12,14,Isa.25,1Cor.4"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 50:1\u20136",
+                "Isaiah 35",
+                "Luke 1:57\u201366,67\u201380"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+50:1-6%3B+Isaiah+35%3B+Luke+1:57-66,67-80",
+            "audio_link": "Ps.50,Isa.35,Luke.1"
         }
     },
     "2021/12/13": {
@@ -8233,17 +8454,21 @@ class Data {  data = {
         "day_description": "4th Sunday of Advent",
         "morning": {
             "readings": [
-                ""
+                "Psalm 144",
+                "Isaiah 32:1\u20138",
+                "Revelation 22:6\u201321"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+144%3B+Isaiah+32:1-8%3B+Revelation+22:6-21",
+            "audio_link": "Ps.144,Isa.32,Rev.22"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 123",
+                "Isaiah 10:33\u201311:10",
+                "Matthew 1:18\u201325"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+123%3B+Isaiah+10:33-11:10%3B+Matthew+1:18-25",
+            "audio_link": "Ps.123,Isa.10,Matt.1"
         }
     },
     "2021/12/20": {
@@ -8386,17 +8611,21 @@ class Data {  data = {
         "day_description": "St Stephen, the first Christian Martyr",
         "morning": {
             "readings": [
-                ""
+                "Psalm 13",
+                "Jeremiah 26:12\u201315",
+                "Acts 6"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+13%3B+Jeremiah+26:12-15%3B+Acts+6",
+            "audio_link": "Ps.13,Jer.26,Acts.6"
         },
         "evening": {
             "readings": [
-                ""
+                "Psalm 86",
+                "Genesis 4:1\u201310",
+                "Matthew 23:34\u201339"
             ],
-            "reading_link": "",
-            "audio_link": ""
+            "reading_link": "Psalm+86%3B+Genesis+4:1-10%3B+Matthew+23:34-39",
+            "audio_link": "Ps.86,Gen.4,Matt.23"
         }
     },
     "2021/12/27": {
