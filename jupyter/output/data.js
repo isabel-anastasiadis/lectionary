@@ -6557,10 +6557,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 51",
                 "2 Chronicles 6:22\u2013end",
-                "Mark:"
+                "Mark 13:24\u201331"
             ],
-            "reading_link": "Psalm+51%3B+2+Chronicles+6:22-%3B+Mark:",
-            "audio_link": "Ps.51,2Chr.6,Mark"
+            "reading_link": "Psalm+51%3B+2+Chronicles+6:22-%3B+Mark+13:24-31",
+            "audio_link": "Ps.51,2Chr.6,Mark.13"
         },
         "evening": {
             "readings": [
