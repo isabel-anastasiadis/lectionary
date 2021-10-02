@@ -444,3 +444,7 @@ details[open] .about:before {
   border-radius: 5px;
   font-size: 14px;
 }
+
+.notice b {
+  font-weight: 700;
+}
