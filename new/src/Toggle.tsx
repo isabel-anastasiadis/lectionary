@@ -1,13 +1,13 @@
 import { styled } from './stitches.config';
 
 const Track = styled('div', {
-    display: 'flex',
+    display: 'inline-flex',
     background: '$toggleBase',
     borderRadius: '999px',
     zIndex: '0',
     position: 'relative',
     alignItems: 'center',
-    height: '36px',
+    height: '40px',
     padding: '2px',
 });
 
@@ -17,7 +17,8 @@ const Thumb = styled('div', {
     display: 'block',
     width: '98px',
     height: '36px',
-    left: '2px',
+    marginLeft: '2px',
+    top: '2px',
     position: 'absolute',
     borderRadius: '999px',
     zIndex: '1',
@@ -91,8 +92,8 @@ interface ToggleProps {
 }
 
 const Toggle = ({ options, selected, onChange }: ToggleProps) => {
-    const trackWidth = ((options.length) * 98) + 'px';
-    const leftOffset = options.findIndex(item => item.value === selected) * 100 + 'px';
+    const trackWidth = ((options.length) * 100) + 'px';
+    const leftOffset = options.findIndex(item => item.value === selected) * 98 + 'px';
     return (
         <Track css={{width: trackWidth}}>
             {options.map((item) => {
