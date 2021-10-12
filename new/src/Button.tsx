@@ -1,6 +1,7 @@
 import React from 'react';
 import { styled } from './stitches.config';
 import type * as Stitches from '@stitches/react';
+import Icon from './Icon'
 
 export const StyledButton = styled('button', {
   border: 'none',
@@ -26,7 +27,7 @@ export const StyledButton = styled('button', {
         borderRadius: '999px',
       },
     },
-    type: {
+    style: {
       primary: {
         backgroundColor: '$foreground',
         color: '$background',
@@ -54,22 +55,30 @@ export const StyledButton = styled('button', {
     },
   },
   defaultVariants: {
-    type: 'secondary',
+    style: 'secondary',
     shape: 'rect',
   }
 });
 
+
 type ButtonVariants = Stitches.VariantProps<typeof StyledButton>
 
 interface ButtonProps {
-  children?: React.ReactChildren
+  children?: React.ReactNode
   onClick: () => void
   shape?: ButtonVariants['shape']
+  style?: ButtonVariants['style']
+  icon?: string
+  iconRotate?: string
+  iconColor?: string
 }
   
-const Button = ({children, onClick, shape}: ButtonProps) => {
+const Button = ({children, onClick, shape, style, icon, iconRotate, iconColor}: ButtonProps) => {
   return (
-    <StyledButton shape={shape} onClick={onClick}>{children}</StyledButton>
+    <StyledButton shape={shape} style={style} onClick={onClick}>
+      {icon ? <Icon rotate={iconRotate} name={icon} color={iconColor}/> : null}
+      {children}
+    </StyledButton>
   )
 }
 

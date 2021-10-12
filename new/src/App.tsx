@@ -17,9 +17,9 @@ const App = () => {
   return (
     <Wrapper className={timeOfDay === 'evening' ? dark : ''}>
       <Nav>
-        <Button shape="circ" onClick={()=>{console.log('hi')}}/>
+        <Button shape="circ" icon={'arrow'} iconRotate={'90'} onClick={()=>{console.log('hi')}}/>
         <Toggle options={[{value: 'morning', content: 'Morning'}, {value: 'evening', content: 'Evening'}]} selected={timeOfDay} onChange={setTimeOfDay}/>
-        <Button shape="circ" onClick={()=>{console.log('hi')}}/>
+        <Button shape="circ" icon={'arrow'} iconRotate={'-90'} onClick={()=>{console.log('hi')}}/>
       </Nav>
     </Wrapper>
   );
