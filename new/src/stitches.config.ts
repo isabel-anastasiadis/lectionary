@@ -36,6 +36,11 @@ export const font = globalCss({
     {
       fontFamily: "inter",
       fontWeight: "700",
+      src: "url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2) format('woff2')",
+    },
+    {
+      fontFamily: "inter",
+      fontWeight: "700",
       src: "url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2) format('woff2')",
     },
     {
