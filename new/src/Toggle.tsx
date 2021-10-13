@@ -96,10 +96,10 @@ const Toggle = ({ options, selected, onChange }: ToggleProps) => {
     const leftOffset = options.findIndex(item => item.value === selected) * 98 + 'px';
     return (
         <Track css={{width: trackWidth}}>
-            {options.map((item) => {
+            {options.map((item, i) => {
                 const checked = item.value === selected;
                 return (
-                    <div key={item.value}>
+                    <div key={i}>
                         <Input
                             id={"for-" + item.value}
                             type="radio"
