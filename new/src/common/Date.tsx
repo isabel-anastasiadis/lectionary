@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { styled } from './stitches.config';
+import { styled } from '../stitches.config';
 import Icon from './Icon';
 
 const Wrapper = styled('div', {
