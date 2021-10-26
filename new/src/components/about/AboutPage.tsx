@@ -1,10 +1,16 @@
+import { styled } from "../../stitches.config";
+
 interface AboutPageProps {}
+
+const StyledAbout = styled("div", {
+  color: "$foreground",
+});
 
 const AboutPage = (props: AboutPageProps) => {
   return (
-    <div>
+    <StyledAbout>
       <h1>About Page!!</h1>
-    </div>
+    </StyledAbout>
   );
 };
 

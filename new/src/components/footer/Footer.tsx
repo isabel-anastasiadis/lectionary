@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
 import { styled, font } from "../../stitches.config";
+import { Link } from "react-router-dom";
 
 const StyledNav = styled("nav", {
   height: "25px",
@@ -8,7 +8,7 @@ const StyledNav = styled("nav", {
   fontFamily: "inter",
 });
 
-const StyledNavLink = styled("a", {
+const StyledNavLink = styled(Link, {
   color: "$foreground",
   textDecoration: "none",
   lineHeight: "25px",
@@ -22,18 +22,18 @@ const StyledNavLink = styled("a", {
   },
 });
 
-const Header = () => {
+const Footer = () => {
   font();
 
   return (
     <StyledNav>
-      <StyledNavLink href="/">New Zealand Anglican Lectionary</StyledNavLink>{" "}
+      <StyledNavLink to="/">New Zealand Anglican Lectionary</StyledNavLink>{" "}
       {" | "}
-      <StyledNavLink href="/settings">Settings</StyledNavLink>
+      <StyledNavLink to="/settings">Settings</StyledNavLink>
       {" | "}
-      <StyledNavLink href="/about">About</StyledNavLink>
+      <StyledNavLink to="/about">About</StyledNavLink>
     </StyledNav>
   );
 };
 
-export default Header;
+export default Footer;
