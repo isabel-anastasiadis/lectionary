@@ -1,4 +1,3 @@
-import { font } from "../../stitches.config";
 import Button from "../common/Button";
 import Toggle from "../common/Toggle";
 import Nav from "../common/Nav";
@@ -28,8 +27,6 @@ const ReadingsPage = ({
   updateDate,
   updateTheme,
 }: ReadingsPageProps) => {
-  font();
-
   return (
     <>
       <Nav>

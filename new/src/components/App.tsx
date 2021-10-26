@@ -1,4 +1,4 @@
-import { styled, dark } from "../stitches.config";
+import { styled, dark, font } from "../stitches.config";
 import ReadingsPageContainer from "./readings/ReadingsPageContainer";
 import AboutPage from "./about/AboutPage";
 import Footer from "./footer/Footer";
@@ -24,6 +24,8 @@ const App = () => {
   function updateTheme(theme: Theme): void {
     setTheme(theme);
   }
+
+  font();
 
   return (
     <ThemeWrapper className={theme === Theme.EVENING ? dark : ""}>

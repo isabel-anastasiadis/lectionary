@@ -1,4 +1,4 @@
-import { styled, font } from "../../stitches.config";
+import { styled } from "../../stitches.config";
 import { Link } from "react-router-dom";
 
 const StyledNav = styled("nav", {
@@ -10,6 +10,7 @@ const StyledNav = styled("nav", {
 });
 
 const StyledNavLink = styled(Link, {
+  // NOTE: has to be a react Link or it will refresh the app each route change
   color: "$foreground",
   textDecoration: "none",
   lineHeight: "25px",
@@ -24,8 +25,6 @@ const StyledNavLink = styled(Link, {
 });
 
 const Footer = () => {
-  font();
-
   return (
     <StyledNav>
       <StyledNavLink to="/">New Zealand Anglican Lectionary</StyledNavLink>{" "}
