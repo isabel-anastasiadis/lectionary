@@ -26,19 +26,17 @@ export function getTomorrowsDateKey(dateKey: string): string {
 }
 
 export interface IDateInfo {
-  date_key: string;
-  date_pretty: string;
+  [dateKey: string]: string;
 }
 
-export function getDatesList(): IDateInfo[] {
+export function getDatesList(): IDateInfo {
   const dateKeys = Object.keys(Data);
-  const datePrettys = Object.values(Data).map((day) => day.date_pretty);
 
-  const result = dateKeys.map(function (element, i) {
-    return { date_key: element, date_pretty: datePrettys[i] };
+  const result: IDateInfo = {};
+
+  dateKeys.forEach((key) => {
+    result[key] = Data[key].date_pretty;
   });
-
-  console.log(result);
 
   return result;
 }

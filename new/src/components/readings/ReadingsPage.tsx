@@ -8,7 +8,6 @@ import Date from "../common/Date";
 import Readings from "./Readings";
 import { getReadingsForDay } from "../../api/readingsService";
 import { getTodaysDateKey, getDatesList } from "../../api/dateKeyService";
-import { getDate } from "date-fns";
 
 const Wrapper = styled("div", {
   background: "$background",
@@ -17,25 +16,18 @@ const Wrapper = styled("div", {
   padding: "30px",
 });
 
-const dateList = [
-  "Wednesday, October 13, 2021",
-  "Thursday, October 14, 2021",
-  "Friday, October 15, 2021",
-];
-
 const ReadingsPage = () => {
   const [timeOfDay, setTimeOfDay] = useState("morning");
-  const [todaysReadings, setTodaysReadings] = useState(
-    getReadingsForDay(getTodaysDateKey())
-  );
-  const dateList = getDatesList();
+  const [dateKey] = useState(getTodaysDateKey());
+  const [todaysReadings] = useState(getReadingsForDay(dateKey));
+  const [dateList] = useState(getDatesList());
   font();
 
   function handleYesterdayClicked(): void {}
 
   function handleTomorrowClicked(): void {}
 
-  function handleDateUpdated(): void {}
+  function handleDateUpdated(dateKey: string): void {}
 
   return (
     <Wrapper className={timeOfDay === "evening" ? dark : ""}>
@@ -68,7 +60,7 @@ const ReadingsPage = () => {
       <Message time={timeOfDay === "evening" ? "Po" : "Ata"} />
       <Date
         dates={dateList}
-        currentDate={dateList[0]}
+        currentDate={dateKey}
         setCurrentDate={() => {
           console.log("Date updated");
         }}

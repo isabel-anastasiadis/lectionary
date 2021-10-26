@@ -62,22 +62,23 @@ const HiddenElement = styled("div", selectStyles, {
 });
 
 interface MessageProps {
-  dates: IDateInfo[];
-  currentDate: IDateInfo;
-  setCurrentDate: () => void;
+  dates: IDateInfo;
+  currentDate: string;
+  setCurrentDate: (dateKey: string) => void;
 }
 
 const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
-  const [hiddenText, setHiddenText] = useState(currentDate.date_key);
+  const [currentDateText, setCurrentDateText] = useState(dates[currentDate]);
   const [selectWidth, setSelectWidth] = useState();
   const ref: any = useRef(null);
 
   useEffect(() => {
+    debugger;
     if (ref.current !== null) {
-      const hiddenTextWidth = ref.current.offsetWidth;
+      const hiddenTextWidth = ref.current.offsetWidth + 5;
       setSelectWidth(hiddenTextWidth);
     }
-  }, [hiddenText]);
+  }, [currentDateText]);
 
   return (
     <>
@@ -85,14 +86,18 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
         <StyledSelect
           css={{ width: selectWidth }}
           onChange={(e) => {
-            setCurrentDate();
-            setHiddenText(e.target.value);
+            setCurrentDate(e.target.value);
+            setCurrentDateText(dates[e.target.value]);
           }}
         >
-          {dates.map((date, i) => {
+          {Object.keys(dates).map((dateKey, i) => {
             return (
-              <option key={i} value={date.date_key}>
-                {date.date_pretty}
+              <option
+                key={i}
+                value={dateKey}
+                selected={dateKey === currentDate}
+              >
+                {dates[dateKey]}
               </option>
             );
           })}
@@ -102,7 +107,7 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
           <Icon name="chevron" />
         </IconWrapper>
       </Wrapper>
-      <HiddenElement ref={ref}>{hiddenText}</HiddenElement>
+      <HiddenElement ref={ref}>{currentDateText}</HiddenElement>
     </>
   );
 };
