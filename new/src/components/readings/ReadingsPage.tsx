@@ -7,7 +7,6 @@ import Message from "../common/Message";
 import Date from "../common/Date";
 import Readings from "./Readings";
 import Header from "../header/Header";
-
 import {
   getReadingsForDay,
   getAvailableDates,
@@ -17,6 +16,7 @@ import {
   getYesterdaysDateKey,
   getTomorrowsDateKey,
 } from "../../data/dateKeyService";
+import { Theme } from "../../data/interfaces";
 
 const Wrapper = styled("div", {
   background: "$background",
@@ -28,8 +28,12 @@ const Wrapper = styled("div", {
 
 const availableDates = getAvailableDates();
 
-const ReadingsPage = () => {
-  const [timeOfDay, setTimeOfDay] = useState("morning");
+interface ReadingsPageProps {
+  updateTheme(theme: Theme): void;
+  theme: Theme;
+}
+
+const ReadingsPage = ({ updateTheme, theme }: ReadingsPageProps) => {
   const [dateKey, setDateKey] = useState(getTodaysDateKey());
   const [todaysReadings, setTodaysReadings] = useState(
     getReadingsForDay(dateKey)
@@ -57,7 +61,7 @@ const ReadingsPage = () => {
 
   return (
     <>
-      <Wrapper className={timeOfDay === "evening" ? dark : ""}>
+      <Wrapper className={theme === Theme.EVENING ? dark : ""}>
         <Nav>
           <Button
             shape="circ"
@@ -67,11 +71,11 @@ const ReadingsPage = () => {
           />
           <Toggle
             options={[
-              { value: "morning", content: "Morning" },
-              { value: "evening", content: "Evening" },
+              { value: Theme.MORNING, content: "Morning" },
+              { value: Theme.EVENING, content: "Evening" },
             ]}
-            selected={timeOfDay}
-            onChange={setTimeOfDay}
+            selected={theme}
+            onChange={updateTheme}
           />
           <Button
             shape="circ"
@@ -80,7 +84,7 @@ const ReadingsPage = () => {
             onClick={handleTomorrowClicked}
           />
         </Nav>
-        <Message time={timeOfDay === "evening" ? "Po" : "Ata"} />
+        <Message time={theme === Theme.EVENING ? "Po" : "Ata"} />
         <Date
           dates={availableDates}
           currentDate={dateKey}
@@ -88,7 +92,7 @@ const ReadingsPage = () => {
         />
         <Readings
           readingsList={
-            timeOfDay === "morning"
+            theme === Theme.MORNING
               ? todaysReadings.morning
               : todaysReadings.evening
           }

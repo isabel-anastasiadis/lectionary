@@ -14,3 +14,8 @@ export interface IReadingsForDay {
   morning: IReadingsList;
   evening: IReadingsList;
 }
+
+export enum Theme {
+  MORNING = "morning",
+  EVENING = "evening",
+}
