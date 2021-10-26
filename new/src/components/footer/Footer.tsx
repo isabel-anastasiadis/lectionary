@@ -2,6 +2,7 @@ import { styled, font } from "../../stitches.config";
 import { Link } from "react-router-dom";
 
 const StyledNav = styled("nav", {
+  color: "$foreground",
   height: "25px",
   marginBottom: "30px",
   marginLeft: "30px",
