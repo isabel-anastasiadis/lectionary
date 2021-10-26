@@ -73,7 +73,6 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
   const ref: any = useRef(null);
 
   useEffect(() => {
-    debugger;
     if (ref.current !== null) {
       const hiddenTextWidth = ref.current.offsetWidth + 5;
       setSelectWidth(hiddenTextWidth);
