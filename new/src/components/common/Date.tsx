@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { styled } from "../../stitches.config";
 import Icon from "./Icon";
-import { IDateInfo } from "../../api/dateKeyService";
+import { IAvailableDates } from "../../data/interfaces";
 
 const Wrapper = styled("div", {
   position: "relative",
@@ -62,7 +62,7 @@ const HiddenElement = styled("div", selectStyles, {
 });
 
 interface MessageProps {
-  dates: IDateInfo;
+  dates: IAvailableDates;
   currentDate: string;
   setCurrentDate: (dateKey: string) => void;
 }

@@ -6,24 +6,29 @@ import Nav from "../common/Nav";
 import Message from "../common/Message";
 import Date from "../common/Date";
 import Readings from "./Readings";
-import { getReadingsForDay } from "../../api/readingsService";
+import Header from "../header/Header";
+
+import {
+  getReadingsForDay,
+  getAvailableDates,
+} from "../../data/readingsService";
 import {
   getTodaysDateKey,
-  getDatesList,
   getYesterdaysDateKey,
   getTomorrowsDateKey,
-} from "../../api/dateKeyService";
+} from "../../data/dateKeyService";
 
 const Wrapper = styled("div", {
   background: "$background",
   fontFamily: "inter",
   height: "100%",
   padding: "30px",
+  marginBottom: "-55px", // the header height
 });
 
-const ReadingsPage = () => {
-  const [dateList] = useState(getDatesList());
+const availableDates = getAvailableDates();
 
+const ReadingsPage = () => {
   const [timeOfDay, setTimeOfDay] = useState("morning");
   const [dateKey, setDateKey] = useState(getTodaysDateKey());
   const [todaysReadings, setTodaysReadings] = useState(
@@ -51,43 +56,46 @@ const ReadingsPage = () => {
   }, [dateKey]);
 
   return (
-    <Wrapper className={timeOfDay === "evening" ? dark : ""}>
-      <Nav>
-        <Button
-          shape="circ"
-          icon={"arrow"}
-          iconRotate={"90"}
-          onClick={handleYesterdayClicked}
+    <>
+      <Wrapper className={timeOfDay === "evening" ? dark : ""}>
+        <Nav>
+          <Button
+            shape="circ"
+            icon={"arrow"}
+            iconRotate={"90"}
+            onClick={handleYesterdayClicked}
+          />
+          <Toggle
+            options={[
+              { value: "morning", content: "Morning" },
+              { value: "evening", content: "Evening" },
+            ]}
+            selected={timeOfDay}
+            onChange={setTimeOfDay}
+          />
+          <Button
+            shape="circ"
+            icon={"arrow"}
+            iconRotate={"-90"}
+            onClick={handleTomorrowClicked}
+          />
+        </Nav>
+        <Message time={timeOfDay === "evening" ? "Po" : "Ata"} />
+        <Date
+          dates={availableDates}
+          currentDate={dateKey}
+          setCurrentDate={handleDateUpdated}
         />
-        <Toggle
-          options={[
-            { value: "morning", content: "Morning" },
-            { value: "evening", content: "Evening" },
-          ]}
-          selected={timeOfDay}
-          onChange={setTimeOfDay}
+        <Readings
+          readingsList={
+            timeOfDay === "morning"
+              ? todaysReadings.morning
+              : todaysReadings.evening
+          }
         />
-        <Button
-          shape="circ"
-          icon={"arrow"}
-          iconRotate={"-90"}
-          onClick={handleTomorrowClicked}
-        />
-      </Nav>
-      <Message time={timeOfDay === "evening" ? "Po" : "Ata"} />
-      <Date
-        dates={dateList}
-        currentDate={dateKey}
-        setCurrentDate={handleDateUpdated}
-      />
-      <Readings
-        readingsList={
-          timeOfDay === "morning"
-            ? todaysReadings.morning
-            : todaysReadings.evening
-        }
-      />
-    </Wrapper>
+      </Wrapper>
+      <Header />
+    </>
   );
 };
 

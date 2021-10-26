@@ -1,3 +1,5 @@
+import { IReadingsForDay } from "./interfaces";
+
 const Data: { [dateKey: string]: IReadingsForDay } = {
   "2020/12/01": {
     date_pretty: "Tuesday, December 1, 2020",
@@ -6478,18 +6480,5 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
     },
   },
 };
-
-export interface IReadingsList {
-  readings: string[];
-  reading_link: string;
-  audio_link: string;
-}
-
-export interface IReadingsForDay {
-  date_pretty: string;
-  day_description: string;
-  morning: IReadingsList;
-  evening: IReadingsList;
-}
 
 export default Data;

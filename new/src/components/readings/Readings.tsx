@@ -1,4 +1,4 @@
-import { IReadingsList } from "../../api/data";
+import { IReadingsList } from "../../data/interfaces";
 import { styled } from "../../stitches.config";
 import Reading from "./Reading";
 

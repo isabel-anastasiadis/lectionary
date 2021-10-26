@@ -1,22 +1,38 @@
 import { NavLink } from "react-router-dom";
+import { styled, font } from "../../stitches.config";
+
+const StyledNav = styled("nav", {
+  height: "25px",
+  marginBottom: "30px",
+  marginLeft: "30px",
+  fontFamily: "inter",
+});
+
+const StyledNavLink = styled("a", {
+  color: "$foreground",
+  textDecoration: "none",
+  lineHeight: "25px",
+  transition: "all 0.1s ease",
+  outline: "none",
+  "&:hover, &:focus": {
+    opacity: "0.8",
+  },
+  "&:active": {
+    opacity: "0.6",
+  },
+});
 
 const Header = () => {
-  const activeStyle = { color: "#F15B2A" };
+  font();
 
   return (
-    <nav>
-      <NavLink to="/" activeStyle={activeStyle} exact>
-        Home
-      </NavLink>{" "}
+    <StyledNav>
+      <StyledNavLink href="/">New Zealand Anglican Lectionary</StyledNavLink>{" "}
       {" | "}
-      <NavLink to="/about" activeStyle={activeStyle}>
-        About
-      </NavLink>
+      <StyledNavLink href="/settings">Settings</StyledNavLink>
       {" | "}
-      <NavLink to="/settings" activeStyle={activeStyle}>
-        Settings
-      </NavLink>
-    </nav>
+      <StyledNavLink href="/about">About</StyledNavLink>
+    </StyledNav>
   );
 };
 
