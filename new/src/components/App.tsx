@@ -1,4 +1,4 @@
-import ReadingsPage from "./readings/ReadingsPage";
+import ReadingsPageContainer from "./readings/ReadingsPageContainer";
 import AboutPage from "./about/AboutPage";
 import { Route, Switch } from "react-router-dom";
 import SettingsPage from "./settings/SettingsPage";
@@ -17,7 +17,11 @@ const App = () => {
         exact
         path="/"
         render={(props) => (
-          <ReadingsPage {...props} updateTheme={updateTheme} theme={theme} />
+          <ReadingsPageContainer
+            {...props}
+            updateTheme={updateTheme}
+            theme={theme}
+          />
         )}
       />
       <Route path="/about" component={AboutPage} />

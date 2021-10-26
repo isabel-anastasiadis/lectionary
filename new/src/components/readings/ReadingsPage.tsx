@@ -1,22 +1,12 @@
 import { styled, dark, font } from "../../stitches.config";
-import { useEffect, useState } from "react";
 import Button from "../common/Button";
 import Toggle from "../common/Toggle";
 import Nav from "../common/Nav";
 import Message from "../common/Message";
 import Date from "../common/Date";
-import Readings from "./Readings";
+import ReadingsList from "./ReadingsList";
 import Header from "../header/Header";
-import {
-  getReadingsForDay,
-  getAvailableDates,
-} from "../../data/readingsService";
-import {
-  getTodaysDateKey,
-  getYesterdaysDateKey,
-  getTomorrowsDateKey,
-} from "../../data/dateKeyService";
-import { Theme } from "../../data/interfaces";
+import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
 
 const Wrapper = styled("div", {
   background: "$background",
@@ -26,38 +16,28 @@ const Wrapper = styled("div", {
   marginBottom: "-55px", // the header height
 });
 
-const availableDates = getAvailableDates();
-
 interface ReadingsPageProps {
-  updateTheme(theme: Theme): void;
   theme: Theme;
+  dateKey: string;
+  availableDates: IAvailableDates;
+  todaysReadings: IReadingsForDay;
+  yesterdayOnClick(): void;
+  tomorrowOnClick(): void;
+  updateDate(dateKey: string): void;
+  updateTheme(theme: Theme): void;
 }
 
-const ReadingsPage = ({ updateTheme, theme }: ReadingsPageProps) => {
-  const [dateKey, setDateKey] = useState(getTodaysDateKey());
-  const [todaysReadings, setTodaysReadings] = useState(
-    getReadingsForDay(dateKey)
-  );
-
+const ReadingsPage = ({
+  theme,
+  dateKey,
+  availableDates,
+  todaysReadings,
+  yesterdayOnClick,
+  tomorrowOnClick,
+  updateDate,
+  updateTheme,
+}: ReadingsPageProps) => {
   font();
-
-  function handleYesterdayClicked(): void {
-    const newDateKey = getYesterdaysDateKey(dateKey);
-    setDateKey(newDateKey);
-  }
-
-  function handleTomorrowClicked(): void {
-    const newDateKey = getTomorrowsDateKey(dateKey);
-    setDateKey(newDateKey);
-  }
-
-  function handleDateUpdated(dateKey: string): void {
-    setDateKey(dateKey);
-  }
-
-  useEffect(() => {
-    setTodaysReadings(getReadingsForDay(dateKey));
-  }, [dateKey]);
 
   return (
     <>
@@ -67,7 +47,7 @@ const ReadingsPage = ({ updateTheme, theme }: ReadingsPageProps) => {
             shape="circ"
             icon={"arrow"}
             iconRotate={"90"}
-            onClick={handleYesterdayClicked}
+            onClick={yesterdayOnClick}
           />
           <Toggle
             options={[
@@ -81,16 +61,16 @@ const ReadingsPage = ({ updateTheme, theme }: ReadingsPageProps) => {
             shape="circ"
             icon={"arrow"}
             iconRotate={"-90"}
-            onClick={handleTomorrowClicked}
+            onClick={tomorrowOnClick}
           />
         </Nav>
         <Message time={theme === Theme.EVENING ? "Po" : "Ata"} />
         <Date
           dates={availableDates}
           currentDate={dateKey}
-          setCurrentDate={handleDateUpdated}
+          setCurrentDate={updateDate}
         />
-        <Readings
+        <ReadingsList
           readingsList={
             theme === Theme.MORNING
               ? todaysReadings.morning

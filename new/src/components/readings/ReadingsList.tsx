@@ -2,25 +2,25 @@ import { IReadingsList } from "../../data/interfaces";
 import { styled } from "../../stitches.config";
 import Reading from "./Reading";
 
-const StyledReadings = styled("ul", {
+const StyledReadingsList = styled("ul", {
   margin: "50px 0 0 0",
   flex: "1",
   padding: "0",
   listStyle: "none",
 });
 
-interface ReadingsProps {
+interface ReadingsListProps {
   readingsList: IReadingsList;
 }
 
-const Readings = ({ readingsList }: ReadingsProps) => {
+const ReadingsList = ({ readingsList }: ReadingsListProps) => {
   return (
-    <StyledReadings>
+    <StyledReadingsList>
       {readingsList.readings.map((reading, i) => {
         return <Reading key={i} text={reading} link={"www.google.com"} />;
       })}
-    </StyledReadings>
+    </StyledReadingsList>
   );
 };
 
-export default Readings;
+export default ReadingsList;
