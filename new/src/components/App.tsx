@@ -6,6 +6,7 @@ import { Route, Switch } from "react-router-dom";
 import SettingsPage from "./settings/SettingsPage";
 import { useState } from "react";
 import { Theme } from "../data/interfaces";
+import { getTodaysDateKey } from "../data/dateKeyService";
 
 const ThemeWrapper = styled("div", {
   background: "$background",
@@ -20,9 +21,15 @@ const PositionWrapper = styled("div", {
 });
 
 const App = () => {
-  const [theme, setTheme] = useState(Theme.MORNING);
+  const [theme, setTheme] = useState(Theme.MORNING); // TODO
+  const [dateKey, setDateKey] = useState(getTodaysDateKey());
+
   function updateTheme(theme: Theme): void {
     setTheme(theme);
+  }
+
+  function updateDateKey(dateKey: string): void {
+    setDateKey(dateKey);
   }
 
   font();
@@ -37,8 +44,10 @@ const App = () => {
             render={(props) => (
               <ReadingsPageContainer
                 {...props}
-                updateTheme={updateTheme}
                 theme={theme}
+                updateTheme={updateTheme}
+                dateKey={dateKey}
+                updateDateKey={updateDateKey}
               />
             )}
           />

@@ -4,7 +4,6 @@ import {
   getAvailableDates,
 } from "../../data/readingsService";
 import {
-  getTodaysDateKey,
   getYesterdaysDateKey,
   getTomorrowsDateKey,
 } from "../../data/dateKeyService";
@@ -14,31 +13,34 @@ import ReadingsPage from "./ReadingsPage";
 const availableDates = getAvailableDates();
 
 interface ReadingsPageContainerProps {
-  updateTheme(theme: Theme): void;
   theme: Theme;
+  updateTheme(theme: Theme): void;
+  dateKey: string;
+  updateDateKey(dateKey: string): void;
 }
 
 const ReadingsPageContainer = ({
-  updateTheme,
   theme,
+  updateTheme,
+  dateKey,
+  updateDateKey,
 }: ReadingsPageContainerProps) => {
-  const [dateKey, setDateKey] = useState(getTodaysDateKey());
   const [todaysReadings, setTodaysReadings] = useState(
     getReadingsForDay(dateKey)
   );
 
   function handleYesterdayClicked(): void {
     const newDateKey = getYesterdaysDateKey(dateKey);
-    setDateKey(newDateKey);
+    updateDateKey(newDateKey);
   }
 
   function handleTomorrowClicked(): void {
     const newDateKey = getTomorrowsDateKey(dateKey);
-    setDateKey(newDateKey);
+    updateDateKey(newDateKey);
   }
 
   function handleDateUpdated(dateKey: string): void {
-    setDateKey(dateKey);
+    updateDateKey(dateKey);
   }
 
   useEffect(() => {
