@@ -3,15 +3,14 @@ Code bits for me and Isaac's project to make the NZ Anglican MP and EP Lectionar
 
 The idea is to have a page that gives the morning prayer and evening prayer readings, with links that take you to read or listen to them at BibleGateway.com.
 
-### Concept design
-![Concept design](./website/design.jpg)
+The website is now live (in Beta) here: www.lectionary.co.nz
 
 ## Project summary
 A main chunk of work has been just manually extracting all the rules and applying them to reconstruct this years readings into this [google sheet](https://docs.google.com/spreadsheets/d/1TE7UzbJG-JJQVM-m1pY8Yc_hSD5zQMfR_d79PDxniZc/edit).
 
 Then the first proof-of-concept was a [google doc](https://docs.google.com/document/d/1tlcsKeXkCpYplauIEDckDrMstBSyR-p3dR-S7aCu5UM/edit) (backed by a google script that reads that google sheet and refreshes the page every day).
 
-Me and Isaac are now looking at making a proper website (so we can have dark-mode and preferences etc).
+We've got a website going. We're looking to refactor it as a react site now, to make it a bit more extensible.
 
 ### About the data
 Most readings were constructed from the Church of England's [The Common Worship Weekday Lectionary](https://www.churchofengland.org/sites/default/files/2017-11/weekday%20lectionary%202005.pdf), and cross referenced with the current NZ Anglican lectionary (available [here](https://www.anglican.org.nz/Resources/Worship-Resources-Karakia-ANZPB-HKMOA/Lectionary-and-Related)) to ensure it matches.
@@ -26,7 +25,7 @@ Holy Week readings were taken from NZ Anglican Lectionary (I couldn’t work out
 Sunday MP and EP readings haven't been done yet.
 
 
-#### Some decisions I've made (for simplicity)
+#### Some data decisions I've made (for simplicity)
 * I’ve only included the main Psalm
 * I’ve excluded readings from the Apocrypha
 * Where some verses were optional, I mostly included them. 
@@ -39,6 +38,8 @@ Sunday MP and EP readings haven't been done yet.
 ### "website"
 Should be self-explanatory.
 
+### "new"
+This is our in-progress rework of the site to be a react app.
 
 ### "jupyter"
 For converting the google sheet data into a json object that can be imbedded in an HTML page, and anything else I might want python for.  
