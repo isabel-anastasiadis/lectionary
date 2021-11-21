@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from './stitches.config';
+import { styled } from '../../stitches.config';
 import type * as Stitches from '@stitches/react';
 import Icon from './Icon'
 

@@ -1,4 +1,4 @@
-import { styled } from './stitches.config';
+import { styled } from '../../stitches.config';
 
 const StyledMessage = styled('h1', {
     fontSize: '48px',
