@@ -7395,21 +7395,21 @@ class Data {  data = {
         "day_description": "Week of 4th Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 93",
+                "Psalm 2",
                 "Isaiah 1:1\u201320",
                 "Matthew 1:18\u2013end"
             ],
-            "reading_link": "Psalm+93%3B+Isaiah+1:1-20%3B+Matthew+1:18-",
-            "audio_link": "Ps.93,Isa.1,Matt.1"
+            "reading_link": "Psalm+2%3B+Isaiah+1:1-20%3B+Matthew+1:18-",
+            "audio_link": "Ps.2,Isa.1,Matt.1"
         },
         "evening": {
             "readings": [
-                "Psalm 18",
+                "Psalm 92",
                 "Daniel 1",
                 "Revelation 1"
             ],
-            "reading_link": "Psalm+18%3B+Daniel+1%3B+Revelation+1",
-            "audio_link": "Ps.18,Dan.1,Rev.1"
+            "reading_link": "Psalm+92%3B+Daniel+1%3B+Revelation+1",
+            "audio_link": "Ps.92,Dan.1,Rev.1"
         }
     },
     "2021/11/02": {
@@ -7417,21 +7417,21 @@ class Data {  data = {
         "day_description": "Week of 4th Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 99",
+                "Psalm 5",
                 "Isaiah 1:21\u2013end",
                 "Matthew 2:1\u201315"
             ],
-            "reading_link": "Psalm+99%3B+Isaiah+1:21-%3B+Matthew+2:1-15",
-            "audio_link": "Ps.99,Isa.1,Matt.2"
+            "reading_link": "Psalm+5%3B+Isaiah+1:21-%3B+Matthew+2:1-15",
+            "audio_link": "Ps.5,Isa.1,Matt.2"
         },
         "evening": {
             "readings": [
-                "Psalm 68",
+                "Psalm 100",
                 "Daniel 2:1\u201324",
                 "Revelation 2:1\u201311"
             ],
-            "reading_link": "Psalm+68%3B+Daniel+2:1-24%3B+Revelation+2:1-11",
-            "audio_link": "Ps.68,Dan.2,Rev.2"
+            "reading_link": "Psalm+100%3B+Daniel+2:1-24%3B+Revelation+2:1-11",
+            "audio_link": "Ps.100,Dan.2,Rev.2"
         }
     },
     "2021/11/03": {
@@ -7439,21 +7439,21 @@ class Data {  data = {
         "day_description": "Week of 4th Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 29",
+                "Psalm 9",
                 "Isaiah 2:1\u201311",
                 "Matthew 2:16\u2013end"
             ],
-            "reading_link": "Psalm+29%3B+Isaiah+2:1-11%3B+Matthew+2:16-",
-            "audio_link": "Ps.29,Isa.2,Matt.2"
+            "reading_link": "Psalm+9%3B+Isaiah+2:1-11%3B+Matthew+2:16-",
+            "audio_link": "Ps.9,Isa.2,Matt.2"
         },
         "evening": {
             "readings": [
-                "Psalm 46",
+                "Psalm 112",
                 "Daniel 2:25\u2013end",
                 "Revelation 2:12\u2013end"
             ],
-            "reading_link": "Psalm+46%3B+Daniel+2:25-%3B+Revelation+2:12-",
-            "audio_link": "Ps.46,Dan.2,Rev.2"
+            "reading_link": "Psalm+112%3B+Daniel+2:25-%3B+Revelation+2:12-",
+            "audio_link": "Ps.112,Dan.2,Rev.2"
         }
     },
     "2021/11/04": {
@@ -7461,21 +7461,21 @@ class Data {  data = {
         "day_description": "Week of 4th Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 24",
+                "Psalm 15",
                 "Isaiah 2:12\u2013end",
                 "Matthew 3"
             ],
-            "reading_link": "Psalm+24%3B+Isaiah+2:12-%3B+Matthew+3",
-            "audio_link": "Ps.24,Isa.2,Matt.3"
+            "reading_link": "Psalm+15%3B+Isaiah+2:12-%3B+Matthew+3",
+            "audio_link": "Ps.15,Isa.2,Matt.3"
         },
         "evening": {
             "readings": [
-                "Psalm 139",
+                "Psalm 118",
                 "Daniel 3:1\u201318",
                 "Revelation 3:1\u201313"
             ],
-            "reading_link": "Psalm+139%3B+Daniel+3:1-18%3B+Revelation+3:1-13",
-            "audio_link": "Ps.139,Dan.3,Rev.3"
+            "reading_link": "Psalm+118%3B+Daniel+3:1-18%3B+Revelation+3:1-13",
+            "audio_link": "Ps.118,Dan.3,Rev.3"
         }
     },
     "2021/11/05": {
@@ -7483,21 +7483,21 @@ class Data {  data = {
         "day_description": "Week of 4th Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 28",
+                "Psalm 16",
                 "Isaiah 3:1\u201315",
                 "Matthew 4:1\u201311"
             ],
-            "reading_link": "Psalm+28%3B+Isaiah+3:1-15%3B+Matthew+4:1-11",
-            "audio_link": "Ps.28,Isa.3,Matt.4"
+            "reading_link": "Psalm+16%3B+Isaiah+3:1-15%3B+Matthew+4:1-11",
+            "audio_link": "Ps.16,Isa.3,Matt.4"
         },
         "evening": {
             "readings": [
-                "Psalm 147",
+                "Psalm 143",
                 "Daniel 3:19\u2013end",
                 "Revelation 3:14\u2013end"
             ],
-            "reading_link": "Psalm+147%3B+Daniel+3:19-%3B+Revelation+3:14-",
-            "audio_link": "Ps.147,Dan.3,Rev.3"
+            "reading_link": "Psalm+143%3B+Daniel+3:19-%3B+Revelation+3:14-",
+            "audio_link": "Ps.143,Dan.3,Rev.3"
         }
     },
     "2021/11/06": {
@@ -7505,21 +7505,21 @@ class Data {  data = {
         "day_description": "Week of 4th Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 43",
+                "Psalm 18:31\u2013end",
                 "Isaiah 4:2\u20135:7",
                 "Matthew 4:12\u201322"
             ],
-            "reading_link": "Psalm+43%3B+Isaiah+4:2-5:7%3B+Matthew+4:12-22",
-            "audio_link": "Ps.43,Isa.4,Matt.4"
+            "reading_link": "Psalm+18:31-%3B+Isaiah+4:2-5:7%3B+Matthew+4:12-22",
+            "audio_link": "Ps.18,Isa.4,Matt.4"
         },
         "evening": {
             "readings": [
-                "Psalm 48",
+                "Psalm 145",
                 "Daniel 4:1\u201318",
                 "Revelation 4"
             ],
-            "reading_link": "Psalm+48%3B+Daniel+4:1-18%3B+Revelation+4",
-            "audio_link": "Ps.48,Dan.4,Rev.4"
+            "reading_link": "Psalm+145%3B+Daniel+4:1-18%3B+Revelation+4",
+            "audio_link": "Ps.145,Dan.4,Rev.4"
         }
     },
     "2021/11/07": {
@@ -7549,21 +7549,21 @@ class Data {  data = {
         "day_description": "Week of 3rd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 2",
+                "Psalm 20",
                 "Isaiah 5:8\u201324",
                 "Matthew 4:23\u20135:12"
             ],
-            "reading_link": "Psalm+2%3B+Isaiah+5:8-24%3B+Matthew+4:23-5:12",
-            "audio_link": "Ps.2,Isa.5,Matt.4"
+            "reading_link": "Psalm+20%3B+Isaiah+5:8-24%3B+Matthew+4:23-5:12",
+            "audio_link": "Ps.20,Isa.5,Matt.4"
         },
         "evening": {
             "readings": [
-                "Psalm 92",
+                "Psalm 34",
                 "Daniel 4:19\u2013end",
                 "Revelation 5"
             ],
-            "reading_link": "Psalm+92%3B+Daniel+4:19-%3B+Revelation+5",
-            "audio_link": "Ps.92,Dan.4,Rev.5"
+            "reading_link": "Psalm+34%3B+Daniel+4:19-%3B+Revelation+5",
+            "audio_link": "Ps.34,Dan.4,Rev.5"
         }
     },
     "2021/11/09": {
@@ -7571,21 +7571,21 @@ class Data {  data = {
         "day_description": "Week of 3rd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 5",
+                "Psalm 21",
                 "Isaiah 5:25\u2013end",
                 "Matthew 5:13\u201320"
             ],
-            "reading_link": "Psalm+5%3B+Isaiah+5:25-%3B+Matthew+5:13-20",
-            "audio_link": "Ps.5,Isa.5,Matt.5"
+            "reading_link": "Psalm+21%3B+Isaiah+5:25-%3B+Matthew+5:13-20",
+            "audio_link": "Ps.21,Isa.5,Matt.5"
         },
         "evening": {
             "readings": [
-                "Psalm 100",
+                "Psalm 40",
                 "Daniel 5:1\u201312",
                 "Revelation 6"
             ],
-            "reading_link": "Psalm+100%3B+Daniel+5:1-12%3B+Revelation+6",
-            "audio_link": "Ps.100,Dan.5,Rev.6"
+            "reading_link": "Psalm+40%3B+Daniel+5:1-12%3B+Revelation+6",
+            "audio_link": "Ps.40,Dan.5,Rev.6"
         }
     },
     "2021/11/10": {
@@ -7593,21 +7593,21 @@ class Data {  data = {
         "day_description": "Week of 3rd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 9",
+                "Psalm 23",
                 "Isaiah 6",
                 "Matthew 5:21\u201337"
             ],
-            "reading_link": "Psalm+9%3B+Isaiah+6%3B+Matthew+5:21-37",
-            "audio_link": "Ps.9,Isa.6,Matt.5"
+            "reading_link": "Psalm+23%3B+Isaiah+6%3B+Matthew+5:21-37",
+            "audio_link": "Ps.23,Isa.6,Matt.5"
         },
         "evening": {
             "readings": [
-                "Psalm 112",
+                "Psalm 37",
                 "Daniel 5:13\u2013end",
                 "Revelation 7:1\u20134,7:9\u2013end"
             ],
-            "reading_link": "Psalm+112%3B+Daniel+5:13-%3B+Revelation+7:1-4,7:9-",
-            "audio_link": "Ps.112,Dan.5,Rev.7"
+            "reading_link": "Psalm+37%3B+Daniel+5:13-%3B+Revelation+7:1-4,7:9-",
+            "audio_link": "Ps.37,Dan.5,Rev.7"
         }
     },
     "2021/11/11": {
@@ -7615,21 +7615,21 @@ class Data {  data = {
         "day_description": "Week of 3rd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 15",
+                "Psalm 26",
                 "Isaiah 7:1\u201317",
                 "Matthew 5:38\u2013end"
             ],
-            "reading_link": "Psalm+15%3B+Isaiah+7:1-17%3B+Matthew+5:38-",
-            "audio_link": "Ps.15,Isa.7,Matt.5"
+            "reading_link": "Psalm+26%3B+Isaiah+7:1-17%3B+Matthew+5:38-",
+            "audio_link": "Ps.26,Isa.7,Matt.5"
         },
         "evening": {
             "readings": [
-                "Psalm 118",
+                "Psalm 43",
                 "Daniel 6",
                 "Revelation 8"
             ],
-            "reading_link": "Psalm+118%3B+Daniel+6%3B+Revelation+8",
-            "audio_link": "Ps.118,Dan.6,Rev.8"
+            "reading_link": "Psalm+43%3B+Daniel+6%3B+Revelation+8",
+            "audio_link": "Ps.43,Dan.6,Rev.8"
         }
     },
     "2021/11/12": {
@@ -7637,21 +7637,21 @@ class Data {  data = {
         "day_description": "Week of 3rd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 16",
+                "Psalm 32",
                 "Isaiah 8:1\u201315",
                 "Matthew 6:1\u201318"
             ],
-            "reading_link": "Psalm+16%3B+Isaiah+8:1-15%3B+Matthew+6:1-18",
-            "audio_link": "Ps.16,Isa.8,Matt.6"
+            "reading_link": "Psalm+32%3B+Isaiah+8:1-15%3B+Matthew+6:1-18",
+            "audio_link": "Ps.32,Isa.8,Matt.6"
         },
         "evening": {
             "readings": [
-                "Psalm 143",
+                "Psalm 31",
                 "Daniel 7:1\u201314",
                 "Revelation 9:1\u201312"
             ],
-            "reading_link": "Psalm+143%3B+Daniel+7:1-14%3B+Revelation+9:1-12",
-            "audio_link": "Ps.143,Dan.7,Rev.9"
+            "reading_link": "Psalm+31%3B+Daniel+7:1-14%3B+Revelation+9:1-12",
+            "audio_link": "Ps.31,Dan.7,Rev.9"
         }
     },
     "2021/11/13": {
@@ -7659,21 +7659,21 @@ class Data {  data = {
         "day_description": "Week of 3rd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 18:31\u2013end",
+                "Psalm 33",
                 "Isaiah 8:16\u20139:7",
                 "Matthew 6:19\u2013end"
             ],
-            "reading_link": "Psalm+18:31-%3B+Isaiah+8:16-9:7%3B+Matthew+6:19-",
-            "audio_link": "Ps.18,Isa.8,Matt.6"
+            "reading_link": "Psalm+33%3B+Isaiah+8:16-9:7%3B+Matthew+6:19-",
+            "audio_link": "Ps.33,Isa.8,Matt.6"
         },
         "evening": {
             "readings": [
-                "Psalm 145",
+                "Psalm 86",
                 "Daniel 7:15\u2013end",
                 "Revelation 9:13\u2013end"
             ],
-            "reading_link": "Psalm+145%3B+Daniel+7:15-%3B+Revelation+9:13-",
-            "audio_link": "Ps.145,Dan.7,Rev.9"
+            "reading_link": "Psalm+86%3B+Daniel+7:15-%3B+Revelation+9:13-",
+            "audio_link": "Ps.86,Dan.7,Rev.9"
         }
     },
     "2021/11/14": {
@@ -7704,21 +7704,21 @@ class Data {  data = {
         "day_description": "Week of 2nd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 20",
+                "Psalm 47",
                 "Isaiah 9:8\u201310:4",
                 "Matthew 7:1\u201312"
             ],
-            "reading_link": "Psalm+20%3B+Isaiah+9:8-10:4%3B+Matthew+7:1-12",
-            "audio_link": "Ps.20,Isa.9,Matt.7"
+            "reading_link": "Psalm+47%3B+Isaiah+9:8-10:4%3B+Matthew+7:1-12",
+            "audio_link": "Ps.47,Isa.9,Matt.7"
         },
         "evening": {
             "readings": [
-                "Psalm 34",
+                "Psalm 71",
                 "Daniel 8:1\u201314",
                 "Revelation 10"
             ],
-            "reading_link": "Psalm+34%3B+Daniel+8:1-14%3B+Revelation+10",
-            "audio_link": "Ps.34,Dan.8,Rev.10"
+            "reading_link": "Psalm+71%3B+Daniel+8:1-14%3B+Revelation+10",
+            "audio_link": "Ps.71,Dan.8,Rev.10"
         }
     },
     "2021/11/16": {
@@ -7726,21 +7726,21 @@ class Data {  data = {
         "day_description": "Week of 2nd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 21",
+                "Psalm 52",
                 "Isaiah 10:5\u201319",
                 "Matthew 7:13\u2013end"
             ],
-            "reading_link": "Psalm+21%3B+Isaiah+10:5-19%3B+Matthew+7:13-",
-            "audio_link": "Ps.21,Isa.10,Matt.7"
+            "reading_link": "Psalm+52%3B+Isaiah+10:5-19%3B+Matthew+7:13-",
+            "audio_link": "Ps.52,Isa.10,Matt.7"
         },
         "evening": {
             "readings": [
-                "Psalm 40",
+                "Psalm 67",
                 "Daniel 8:15\u2013end",
                 "Revelation 11:1\u201314"
             ],
-            "reading_link": "Psalm+40%3B+Daniel+8:15-%3B+Revelation+11:1-14",
-            "audio_link": "Ps.40,Dan.8,Rev.11"
+            "reading_link": "Psalm+67%3B+Daniel+8:15-%3B+Revelation+11:1-14",
+            "audio_link": "Ps.67,Dan.8,Rev.11"
         }
     },
     "2021/11/17": {
@@ -7748,21 +7748,21 @@ class Data {  data = {
         "day_description": "Week of 2nd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 23",
+                "Psalm 56",
                 "Isaiah 10:20\u201332",
                 "Matthew 8:1\u201313"
             ],
-            "reading_link": "Psalm+23%3B+Isaiah+10:20-32%3B+Matthew+8:1-13",
-            "audio_link": "Ps.23,Isa.10,Matt.8"
+            "reading_link": "Psalm+56%3B+Isaiah+10:20-32%3B+Matthew+8:1-13",
+            "audio_link": "Ps.56,Isa.10,Matt.8"
         },
         "evening": {
             "readings": [
-                "Psalm 37",
+                "Psalm 73",
                 "Daniel 9:1\u201319",
                 "Revelation 11:15\u2013end"
             ],
-            "reading_link": "Psalm+37%3B+Daniel+9:1-19%3B+Revelation+11:15-",
-            "audio_link": "Ps.37,Dan.9,Rev.11"
+            "reading_link": "Psalm+73%3B+Daniel+9:1-19%3B+Revelation+11:15-",
+            "audio_link": "Ps.73,Dan.9,Rev.11"
         }
     },
     "2021/11/18": {
@@ -7770,21 +7770,21 @@ class Data {  data = {
         "day_description": "Week of 2nd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 26",
+                "Psalm 62",
                 "Isaiah 10:33\u201311:9",
                 "Matthew 8:14\u201322"
             ],
-            "reading_link": "Psalm+26%3B+Isaiah+10:33-11:9%3B+Matthew+8:14-22",
-            "audio_link": "Ps.26,Isa.10,Matt.8"
+            "reading_link": "Psalm+62%3B+Isaiah+10:33-11:9%3B+Matthew+8:14-22",
+            "audio_link": "Ps.62,Isa.10,Matt.8"
         },
         "evening": {
             "readings": [
-                "Psalm 43",
+                "Psalm 76",
                 "Daniel 9:20\u2013end",
                 "Revelation 12"
             ],
-            "reading_link": "Psalm+43%3B+Daniel+9:20-%3B+Revelation+12",
-            "audio_link": "Ps.43,Dan.9,Rev.12"
+            "reading_link": "Psalm+76%3B+Daniel+9:20-%3B+Revelation+12",
+            "audio_link": "Ps.76,Dan.9,Rev.12"
         }
     },
     "2021/11/19": {
@@ -7792,22 +7792,22 @@ class Data {  data = {
         "day_description": "Week of 2nd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 32",
+                "Psalm 63",
                 "Isaiah 11:10\u2013end",
                 "Isaiah 12",
                 "Matthew 8:23\u2013end"
             ],
-            "reading_link": "Psalm+32%3B+Isaiah+11:10-%3B+Isaiah+12%3B+Matthew+8:23-",
-            "audio_link": "Ps.32,Isa.11,Isa.12,Matt.8"
+            "reading_link": "Psalm+63%3B+Isaiah+11:10-%3B+Isaiah+12%3B+Matthew+8:23-",
+            "audio_link": "Ps.63,Isa.11,Isa.12,Matt.8"
         },
         "evening": {
             "readings": [
-                "Psalm 31",
+                "Psalm 77",
                 "Daniel 10:1\u201311:1",
                 "Revelation 13:1\u201310"
             ],
-            "reading_link": "Psalm+31%3B+Daniel+10:1-11:1%3B+Revelation+13:1-10",
-            "audio_link": "Ps.31,Dan.10,Rev.13"
+            "reading_link": "Psalm+77%3B+Daniel+10:1-11:1%3B+Revelation+13:1-10",
+            "audio_link": "Ps.77,Dan.10,Rev.13"
         }
     },
     "2021/11/20": {
@@ -7815,21 +7815,21 @@ class Data {  data = {
         "day_description": "Week of 2nd Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 33",
+                "Psalm 78:1\u201339",
                 "Isaiah 13:1\u201313",
                 "Matthew 9:1\u201317"
             ],
-            "reading_link": "Psalm+33%3B+Isaiah+13:1-13%3B+Matthew+9:1-17",
-            "audio_link": "Ps.33,Isa.13,Matt.9"
+            "reading_link": "Psalm+78:1-39%3B+Isaiah+13:1-13%3B+Matthew+9:1-17",
+            "audio_link": "Ps.78,Isa.13,Matt.9"
         },
         "evening": {
             "readings": [
-                "Psalm 86",
+                "Psalm 78:40\u2013end",
                 "Daniel 12",
                 "Revelation 13:11\u2013end"
             ],
-            "reading_link": "Psalm+86%3B+Daniel+12%3B+Revelation+13:11-",
-            "audio_link": "Ps.86,Dan.12,Rev.13"
+            "reading_link": "Psalm+78:40-%3B+Daniel+12%3B+Revelation+13:11-",
+            "audio_link": "Ps.78,Dan.12,Rev.13"
         }
     },
     "2021/11/21": {
@@ -7859,21 +7859,21 @@ class Data {  data = {
         "day_description": "Week of 1st Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 47",
+                "Psalm 96",
                 "Isaiah 14:3\u201320",
                 "Matthew 9:18\u201334"
             ],
-            "reading_link": "Psalm+47%3B+Isaiah+14:3-20%3B+Matthew+9:18-34",
-            "audio_link": "Ps.47,Isa.14,Matt.9"
+            "reading_link": "Psalm+96%3B+Isaiah+14:3-20%3B+Matthew+9:18-34",
+            "audio_link": "Ps.96,Isa.14,Matt.9"
         },
         "evening": {
             "readings": [
-                "Psalm 71",
+                "Psalm 80",
                 "Isaiah 40:1\u201311",
                 "Revelation 14:1\u201313"
             ],
-            "reading_link": "Psalm+71%3B+Isaiah+40:1-11%3B+Revelation+14:1-13",
-            "audio_link": "Ps.71,Isa.40,Rev.14"
+            "reading_link": "Psalm+80%3B+Isaiah+40:1-11%3B+Revelation+14:1-13",
+            "audio_link": "Ps.80,Isa.40,Rev.14"
         }
     },
     "2021/11/23": {
@@ -7881,22 +7881,22 @@ class Data {  data = {
         "day_description": "Week of 1st Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 52",
+                "Psalm 97",
                 "Isaiah 17",
                 "Matthew 9:35\u201310:15"
             ],
-            "reading_link": "Psalm+52%3B+Isaiah+17%3B+Matthew+9:35-10:15",
-            "audio_link": "Ps.52,Isa.17,Matt.9"
+            "reading_link": "Psalm+97%3B+Isaiah+17%3B+Matthew+9:35-10:15",
+            "audio_link": "Ps.97,Isa.17,Matt.9"
         },
         "evening": {
             "readings": [
-                "Psalm 67",
+                "Psalm 101",
                 "Isaiah 40:12\u201326",
                 "Revelation 14:14\u2013end",
                 "Revelation 15"
             ],
-            "reading_link": "Psalm+67%3B+Isaiah+40:12-26%3B+Revelation+14:14-%3B+Revelation+15",
-            "audio_link": "Ps.67,Isa.40,Rev.14,Rev.15"
+            "reading_link": "Psalm+101%3B+Isaiah+40:12-26%3B+Revelation+14:14-%3B+Revelation+15",
+            "audio_link": "Ps.101,Isa.40,Rev.14,Rev.15"
         }
     },
     "2021/11/24": {
@@ -7904,21 +7904,21 @@ class Data {  data = {
         "day_description": "Week of 1st Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 56",
+                "Psalm 112",
                 "Isaiah 19",
                 "Matthew 10:16\u201333"
             ],
-            "reading_link": "Psalm+56%3B+Isaiah+19%3B+Matthew+10:16-33",
-            "audio_link": "Ps.56,Isa.19,Matt.10"
+            "reading_link": "Psalm+112%3B+Isaiah+19%3B+Matthew+10:16-33",
+            "audio_link": "Ps.112,Isa.19,Matt.10"
         },
         "evening": {
             "readings": [
-                "Psalm 73",
+                "Psalm 122",
                 "Isaiah 40:27\u201341:7",
                 "Revelation 16:1\u201311"
             ],
-            "reading_link": "Psalm+73%3B+Isaiah+40:27-41:7%3B+Revelation+16:1-11",
-            "audio_link": "Ps.73,Isa.40,Rev.16"
+            "reading_link": "Psalm+122%3B+Isaiah+40:27-41:7%3B+Revelation+16:1-11",
+            "audio_link": "Ps.122,Isa.40,Rev.16"
         }
     },
     "2021/11/25": {
@@ -7926,21 +7926,21 @@ class Data {  data = {
         "day_description": "Week of 1st Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 62",
+                "Psalm 125",
                 "Isaiah 21:1\u201312",
                 "Matthew 10:34\u201311:1"
             ],
-            "reading_link": "Psalm+62%3B+Isaiah+21:1-12%3B+Matthew+10:34-11:1",
-            "audio_link": "Ps.62,Isa.21,Matt.10"
+            "reading_link": "Psalm+125%3B+Isaiah+21:1-12%3B+Matthew+10:34-11:1",
+            "audio_link": "Ps.125,Isa.21,Matt.10"
         },
         "evening": {
             "readings": [
-                "Psalm 76",
+                "Psalm 133",
                 "Isaiah 41:8\u201320",
                 "Revelation 16:12\u2013end"
             ],
-            "reading_link": "Psalm+76%3B+Isaiah+41:8-20%3B+Revelation+16:12-",
-            "audio_link": "Ps.76,Isa.41,Rev.16"
+            "reading_link": "Psalm+133%3B+Isaiah+41:8-20%3B+Revelation+16:12-",
+            "audio_link": "Ps.133,Isa.41,Rev.16"
         }
     },
     "2021/11/26": {
@@ -7948,21 +7948,21 @@ class Data {  data = {
         "day_description": "Week of 1st Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 63",
+                "Psalm 139",
                 "Isaiah 22:1\u201314",
                 "Matthew 11:2\u201319"
             ],
-            "reading_link": "Psalm+63%3B+Isaiah+22:1-14%3B+Matthew+11:2-19",
-            "audio_link": "Ps.63,Isa.22,Matt.11"
+            "reading_link": "Psalm+139%3B+Isaiah+22:1-14%3B+Matthew+11:2-19",
+            "audio_link": "Ps.139,Isa.22,Matt.11"
         },
         "evening": {
             "readings": [
-                "Psalm 77",
+                "Psalm 146",
                 "Isaiah 41:21\u201342:9",
                 "Revelation 17"
             ],
-            "reading_link": "Psalm+77%3B+Isaiah+41:21-42:9%3B+Revelation+17",
-            "audio_link": "Ps.77,Isa.41,Rev.17"
+            "reading_link": "Psalm+146%3B+Isaiah+41:21-42:9%3B+Revelation+17",
+            "audio_link": "Ps.146,Isa.41,Rev.17"
         }
     },
     "2021/11/27": {
@@ -7970,21 +7970,21 @@ class Data {  data = {
         "day_description": "Week of 1st Sunday before Advent",
         "morning": {
             "readings": [
-                "Psalm 78:1\u201339",
+                "Psalm 145",
                 "Isaiah 24",
                 "Matthew 11:20\u2013end"
             ],
-            "reading_link": "Psalm+78:1-39%3B+Isaiah+24%3B+Matthew+11:20-",
-            "audio_link": "Ps.78,Isa.24,Matt.11"
+            "reading_link": "Psalm+145%3B+Isaiah+24%3B+Matthew+11:20-",
+            "audio_link": "Ps.145,Isa.24,Matt.11"
         },
         "evening": {
             "readings": [
-                "Psalm 78:40\u2013end",
+                "Psalm 150",
                 "Isaiah 42:10\u201317",
                 "Revelation 18"
             ],
-            "reading_link": "Psalm+78:40-%3B+Isaiah+42:10-17%3B+Revelation+18",
-            "audio_link": "Ps.78,Isa.42,Rev.18"
+            "reading_link": "Psalm+150%3B+Isaiah+42:10-17%3B+Revelation+18",
+            "audio_link": "Ps.150,Isa.42,Rev.18"
         }
     },
     "2021/11/28": {
