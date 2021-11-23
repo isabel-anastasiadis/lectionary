@@ -44,3 +44,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+# Keeping libraries updated
+We're using yarn, which has a bunch of nice things, but not automatic audit fixing (unlike npm).
+
+There are a few different commands in yarn to help keep dependencies up to date, and security-vulnerability free.
+
+- `yarn upgrade` - this will update all dependencies to new versions that still satisfy the sematic versioning declared in package.json
+- `yarn audit` - tells us if there are any security vulnerabilities in our dependencies (GitHub does too in the security tab - dependabot).  If we want to fix them, first see if the packages are outdated, and try upgrade first. If our direct dependency hasn't upgraded their dependency, we can add an override for them in the "resolutions" field in package.json
+- `yarn outdated` - this will indicate libraries that have updates available (even if they are higher than the sematic versioning declared in package.json), along with how breaking the upgrade is
+- `yarn upgrade-interactive latest` - like yarn outdated, but with interactive selection of which ones to upgrade. 
