@@ -1,3 +1,5 @@
 /jupyter/.ipynb_checkpoints
 
 */node_modules
+
+/new/build/*
