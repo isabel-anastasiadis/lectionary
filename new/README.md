@@ -51,6 +51,7 @@ We're using yarn, which has a bunch of nice things, but not automatic audit fixi
 
 There are a few different commands in yarn to help keep dependencies up to date, and security-vulnerability free.
 
+- `npm ls <package>` - tells you exactly which versions of <package> are used by each dependency!
 - `yarn upgrade` - this will update all dependencies to new versions that still satisfy the sematic versioning declared in package.json
 - `yarn audit` - tells us if there are any security vulnerabilities in our dependencies (GitHub does too in the security tab - dependabot).  If we want to fix them, first see if the packages are outdated, and try upgrade first. If our direct dependency hasn't upgraded their dependency, we can add an override for them in the "resolutions" field in package.json
 - `yarn outdated` - this will indicate libraries that have updates available (even if they are higher than the sematic versioning declared in package.json), along with how breaking the upgrade is
