@@ -1,4 +1,6 @@
-namespace model
+using ReadingsBuilder.Model;
+
+namespace ReadingsBuilder.Model
 {
 
     public enum DayOptionType {

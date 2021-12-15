@@ -1,6 +1,6 @@
-using model;
+using ReadingsBuilder.Model;
 
-namespace model
+namespace ReadingsBuilder.Model
 {
 
     public class MorningReadings {

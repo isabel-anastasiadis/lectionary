@@ -1,4 +1,4 @@
-namespace model
+namespace ReadingsBuilder.Model
 {
     public enum Book {
 
