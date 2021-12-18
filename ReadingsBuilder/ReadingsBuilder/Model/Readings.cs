@@ -1,15 +1,18 @@
-using ReadingsBuilder.Model;
 
 namespace ReadingsBuilder.Model
 {
 
+    public enum ReadingOptionType { 
+        Default
+    }
+
     public class MorningReadings {
 
-        public Option<Reading>? Psalms {get; set;}
+        public Option<Reading, ReadingOptionType>? Psalms {get; set;}
 
-        public Option<Reading>? OldTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? OldTestament {get; set;}
 
-        public Option<Reading>? NewTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? NewTestament {get; set;}
     }
 
     public class EveningReadings {
@@ -18,11 +21,11 @@ namespace ReadingsBuilder.Model
         // Often the readings for the evening before a feast/festival are also themed
         public string? ReadingsDescription {get; set;}
 
-        public Option<Reading>? Psalms {get; set;}
+        public Option<Reading, ReadingOptionType>? Psalms {get; set;}
 
-        public Option<Reading>? OldTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? OldTestament {get; set;}
 
-        public Option<Reading>? NewTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? NewTestament {get; set;}
 
     }
 

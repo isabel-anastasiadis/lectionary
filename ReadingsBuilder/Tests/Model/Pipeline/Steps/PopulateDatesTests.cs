@@ -66,5 +66,29 @@ namespace Tests.Model.Pipeline.Steps
             Assert.IsNotNull(result);
             Assert.AreEqual(result?.Year?.Days?.Count, 31);
         }
+
+        [Test]
+        public void EachDayOptionHasTheDayInitialised()
+        {
+            // arrange
+            var date = new DateOnly(2021, 1, 1);
+
+            var pipelineResult = new PipelineResult()
+            {
+                Metadata = new Metadata
+                {
+                    StartDate = date,
+                    EndDate = date
+                }
+            };
+            var classUnderTest = new PopulateDates();
+
+            // act
+            var result = classUnderTest.RunStep(pipelineResult);
+
+            // assert
+            Assert.IsNotNull(result?.Year?.Days[date]?.OptionOne);
+            Assert.AreEqual(date, result?.Year?.Days[date]?.OptionOne?.Date);
+        }
     }
 }

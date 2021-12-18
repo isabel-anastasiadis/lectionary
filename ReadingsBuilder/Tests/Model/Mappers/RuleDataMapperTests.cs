@@ -72,15 +72,15 @@ namespace Tests.Model.Mappers
 		}
 
 		[TestCase("", null)]
-		[TestCase("M", Weekday.Monday)]
-		[TestCase("T", Weekday.Tuesday)]
-		[TestCase("W", Weekday.Wednesday)]
-		[TestCase("Th", Weekday.Thursday)]
-		[TestCase("F", Weekday.Friday)]
-		[TestCase("S", Weekday.Saturday)]
-		[TestCase("Su", Weekday.Sunday)]
-		[TestCase("whaaaat", Weekday.Unknown)]
-		public void MapsDayOfWeekWeekdayCorrectly(string columnValue, Weekday? expectedResult)
+		[TestCase("M", DayOfWeek.Monday)]
+		[TestCase("T", DayOfWeek.Tuesday)]
+		[TestCase("W", DayOfWeek.Wednesday)]
+		[TestCase("Th", DayOfWeek.Thursday)]
+		[TestCase("F", DayOfWeek.Friday)]
+		[TestCase("S", DayOfWeek.Saturday)]
+		[TestCase("Su", DayOfWeek.Sunday)]
+		[TestCase("whaaaat", null)]
+		public void MapsDayOfWeekWeekdayCorrectly(string columnValue, DayOfWeek? expectedResult)
 		{
 			
 			// arrange
@@ -94,8 +94,6 @@ namespace Tests.Model.Mappers
 
 			// assert
 			Assert.AreEqual(expectedResult, result?.FirstOrDefault()?.Weekday);
-
-			
 
 		}
 

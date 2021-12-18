@@ -3,10 +3,8 @@ using ReadingsBuilder.Model;
 namespace ReadingsBuilder.Model
 {
 
-    public enum DayOptionType {
-        None,
-        CelebrateOnOriginalDay,
-        CelebrateOnClosestSunday
+    public enum ReadingsOptionType { 
+        Default
     }
 
 
@@ -15,9 +13,9 @@ namespace ReadingsBuilder.Model
 
         public string? DayDescription {get; set;}
 
-        public Option<MorningReadings, DayOptionType>? MorningReadings {get; set;}
+        public Option<MorningReadings, ReadingsOptionType>? MorningReadings {get; set;}
 
-        public Option<EveningReadings, DayOptionType>? EveningReadings {get; set;}
+        public Option<EveningReadings, ReadingsOptionType>? EveningReadings {get; set;}
 
     }
 

@@ -1,4 +1,6 @@
 ﻿
+using static ReadingsBuilder.Model.Year;
+
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
     public class PopulateDates : IStep
@@ -29,7 +31,11 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             var currentDate = input.Metadata.StartDate;
             while (true)
             {
-                input.Year.Days[currentDate] = null;
+                input.Year.Days[currentDate] = new Option<Day, DayOptionType>() {
+                    OptionOne = new Day() { 
+                        Date = currentDate
+                    }
+                };
                 currentDate = currentDate.AddDays(1);
 
                 if (currentDate > input.Metadata.EndDate) {

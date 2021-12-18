@@ -12,7 +12,7 @@ namespace ReadingsBuilder.Model.Data
 
         public string? DayName { get; set; }
 
-        public Weekday? Weekday {get; set;}
+        public DayOfWeek? Weekday {get; set;}
 
         public int? Day { get; set; }
 
@@ -53,14 +53,4 @@ namespace ReadingsBuilder.Model.Data
         ByDayOfMonth
     }
 
-    public enum Weekday {
-        Unknown,
-        Sunday,
-        Monday,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday
-    }
 }

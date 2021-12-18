@@ -36,6 +36,12 @@ namespace ReadingsBuilder.Model.Mappers
     public class RuleDataMapper
     {
 
+        public void ApplyRuleDataToDay(RuleData ruleData, Day day) { 
+        
+        
+        
+        }
+
         public List<RuleData> MapRowsToRuleData(List<List<string>> rows){
 
             var result = new List<RuleData>();
@@ -88,7 +94,7 @@ namespace ReadingsBuilder.Model.Mappers
         }
 
 
-        private Weekday? MapWeekday(string weekdayString) {
+        private DayOfWeek? MapWeekday(string weekdayString) {
 
             switch (weekdayString)
             {
@@ -96,27 +102,28 @@ namespace ReadingsBuilder.Model.Mappers
                     return null;
 
                 case "M":
-                    return Weekday.Monday;
+                    return DayOfWeek.Monday;
 
                 case "T": 
-                    return Weekday.Tuesday;
+                    return DayOfWeek.Tuesday;
 
                 case "W":
-                    return Weekday.Wednesday;
+                    return DayOfWeek.Wednesday;
 
                 case "Th":
-                    return Weekday.Thursday;
+                    return DayOfWeek.Thursday;
                 case "F": 
-                    return Weekday.Friday;
+                    return DayOfWeek.Friday;
 
                 case "S":
-                    return Weekday.Saturday;
+                    return DayOfWeek.Saturday;
 
                 case "Su":
-                    return Weekday.Sunday;
+                    return DayOfWeek.Sunday;
 
                 default:
-                    return Weekday.Unknown;
+                    return null;
+
             }
 
 

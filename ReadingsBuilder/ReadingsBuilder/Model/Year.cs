@@ -2,12 +2,19 @@ namespace ReadingsBuilder.Model
 {
     public class Year {
 
-        public Year()
+        public enum DayOptionType
         {
-            Days = new Dictionary<DateOnly, Option<Day>>();
+            None,
+            CelebrateOnOriginalDay,
+            CelebrateOnClosestSunday
         }
 
-        public Dictionary<DateOnly, Option<Day>>? Days {get; }
+        public Year()
+        {
+            Days = new Dictionary<DateOnly, Option<Day, DayOptionType>>();
+        }
+
+        public Dictionary<DateOnly, Option<Day, DayOptionType>>? Days {get; }
 
 
     }
