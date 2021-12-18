@@ -8,6 +8,13 @@ namespace ReadingsBuilder.Model
 
     public class MorningReadings {
 
+        public MorningReadings()
+        {
+            Psalms = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            OldTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            NewTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+        }
+
         public Option<Reading, ReadingOptionType>? Psalms {get; set;}
 
         public Option<Reading, ReadingOptionType>? OldTestament {get; set;}
@@ -16,6 +23,13 @@ namespace ReadingsBuilder.Model
     }
 
     public class EveningReadings {
+
+        public EveningReadings()
+        {
+            Psalms = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            OldTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            NewTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+        }
 
 
         // Often the readings for the evening before a feast/festival are also themed
@@ -32,22 +46,10 @@ namespace ReadingsBuilder.Model
 
     public class Reading {
 
-        public Book Book {get; set;}
-
-        public List<ChapterAndVerse>? ChapterAndVerses {get; set;}
+        public string? RawString { get; set; }
 
         public bool IsOptional {get; set;}
 
-    }
-
-    public class ChapterAndVerse {
-        public int Chapter {get; set;}
-
-        // null = start of the chapter
-        public int? BeginningVerse {get; set;}
-
-        // null = end of the chapter
-        public int? EndingVerse {get; set;}
     }
 
 }

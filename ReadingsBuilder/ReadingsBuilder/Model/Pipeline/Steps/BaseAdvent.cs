@@ -49,12 +49,14 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                 var indexOfFirstRuleToStartWith = _rules.IndexOf(ruleDataToStartWith);
                 var currentDate = firstDayInYear.Value;
 
-                for (int i = indexOfFirstRuleToStartWith; i < _rules.Count; i++) 
+                for (int i = indexOfFirstRuleToStartWith; i < indexOfFirstRuleToStartWith + input.Year.Days.Count; i++) 
                 { 
                     var ruleData = _rules[indexOfFirstRuleToStartWith];
                     var day = input.Year.Days[currentDate].OptionOne;
 
                     day.DayDescription = ruleData.DayName;
+
+                    currentDate = currentDate.AddDays(1);
                 
                 }
 

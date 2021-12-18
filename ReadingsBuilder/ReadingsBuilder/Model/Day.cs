@@ -9,6 +9,12 @@ namespace ReadingsBuilder.Model
 
 
     public class Day {
+
+        public Day() { 
+            MorningReadings = new Option<MorningReadings, ReadingsOptionType>();
+            EveningReadings = new Option<EveningReadings, ReadingsOptionType>();
+        }    
+
         public DateOnly Date {get; set;}
 
         public string? DayDescription {get; set;}

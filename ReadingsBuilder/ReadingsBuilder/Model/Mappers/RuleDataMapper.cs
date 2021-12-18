@@ -36,12 +36,6 @@ namespace ReadingsBuilder.Model.Mappers
     public class RuleDataMapper
     {
 
-        public void ApplyRuleDataToDay(RuleData ruleData, Day day) { 
-        
-        
-        
-        }
-
         public List<RuleData> MapRowsToRuleData(List<List<string>> rows){
 
             var result = new List<RuleData>();

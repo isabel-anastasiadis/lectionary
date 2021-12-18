@@ -154,12 +154,8 @@ namespace Tests.Model.Pipeline.Steps
         {
 
             // arrange
-            var year = new Year();
-            var dateOfDay = new DateOnly(2021, 12, 1);
-            year.Days[dateOfDay] = new Option<Day, DayOptionType>()
-            {
-                OptionOne = new Day()
-            };
+            var dateOfDay = new DateOnly(2021, 12, 1); // WED
+            var year = CreateYearWithInitialisedDays(new List<DateOnly>() { dateOfDay });
 
             var classUnderTest = ClassUnderTest();
 
@@ -172,6 +168,56 @@ namespace Tests.Model.Pipeline.Steps
 
             // assert
             Assert.AreEqual(expectedDayDescription, resultDescripition);
+
+        }
+
+
+        [Test]
+        public void RunStepAppliesTheRulesConsecutivelyFromDay1()
+        {
+
+            // arrange
+            var days = new List<DateOnly> { 
+                new DateOnly(2021, 12, 1),
+                new DateOnly(2021, 12, 2),
+                new DateOnly(2021, 12, 3),
+                new DateOnly(2021, 12, 4),
+            };
+            var year = CreateYearWithInitialisedDays(days);
+
+            var classUnderTest = ClassUnderTest();
+
+
+            // act
+            var result = classUnderTest.RunStep(new PipelineResult() { Year = year });
+
+
+            // assert
+            foreach (var date in result.Year.Days.Keys) 
+            {
+                var dayOfWeek = date.DayOfWeek;
+                var expectedDescription = _defaultRules.First(x => x.Weekday == dayOfWeek).DayName;
+                var resultDescripition = result?.Year?.Days[date]?.OptionOne?.DayDescription;
+
+                Assert.AreEqual(expectedDescription, resultDescripition);
+            }
+
+        }
+
+
+
+        private Year CreateYearWithInitialisedDays(List<DateOnly> dates) {
+            var year = new Year();
+            foreach (var date in dates) { 
+                year.Days[date] = new Option<Day, DayOptionType>()
+                {
+                    OptionOne = new Day() { 
+                        Date = date
+                    }
+                };
+            }
+
+            return year;
 
         }
 
