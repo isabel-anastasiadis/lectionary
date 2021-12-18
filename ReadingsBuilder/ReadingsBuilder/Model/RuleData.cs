@@ -3,20 +3,12 @@ namespace ReadingsBuilder.Model.Data
 {
     public class RuleData
     {
-        public static string DEFAULT_CSV_FILE_PATH = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\All Rules.csv";
 
-        public RuleData(string handlingClassName, int rowNumberInRuleSet, RuleType ruleType)
-        {
-            this.HandlingClassName = handlingClassName;
-            this.RowNumberInRuleSet = rowNumberInRuleSet;
-            this.RuleType = ruleType;
-        }
+        public string? HandlingClassName { get; set; }
 
-        public string HandlingClassName { get; set; }
+        public int? RowNumberInRuleSet { get; set; }
 
-        public int RowNumberInRuleSet { get; set; }
-
-        public RuleType RuleType { get; set; }
+        public RuleType? RuleType { get; set; }
 
         public string? DayName { get; set; }
 
@@ -44,13 +36,14 @@ namespace ReadingsBuilder.Model.Data
 
         public string? EveningNewTestament { get; set; }
 
-        public List<int>? MorningPsalmsMain { get; set; }
+        public string? MorningPsalmsMain { get; set; }
+       
+        public string? EveningPsalmsMain { get; set; }
 
-        public List<int>? MorningPsalmsOptional { get; set; }
-
-        public List<int>? EveningPsalmsMain { get; set; }
-
-        public List<int>? EveningPsalmsOptional { get; set; }
+        public override string ToString()
+        {
+            return $"RuleData: {RowNumberInRuleSet}, {HandlingClassName}, {RuleType}, {DayName}, ...";
+        }
 
     }
 

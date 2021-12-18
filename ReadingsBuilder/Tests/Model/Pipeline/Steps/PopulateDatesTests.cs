@@ -21,7 +21,7 @@ namespace Tests.Model.Pipeline.Steps
                 Assert.Fail("Should have thrown ArgumentNullException");
 
             }
-            catch (ArgumentNullException e) {
+            catch (ArgumentNullException) {
                 Assert.Pass();
             }
         }
