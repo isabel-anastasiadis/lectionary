@@ -20,6 +20,11 @@ namespace ReadingsBuilder.Model
         public Option<Reading, ReadingOptionType>? OldTestament {get; set;}
 
         public Option<Reading, ReadingOptionType>? NewTestament {get; set;}
+
+        public override string ToString()
+        {
+            return $"{Psalms?.OptionOne}  {OldTestament?.OptionOne}  {NewTestament?.OptionOne}";
+        }
     }
 
     public class EveningReadings {
@@ -49,6 +54,11 @@ namespace ReadingsBuilder.Model
         public string? RawString { get; set; }
 
         public bool IsOptional {get; set;}
+
+        public override string ToString()
+        {
+            return $"{RawString}";
+        }
 
     }
 

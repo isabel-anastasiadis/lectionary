@@ -67,7 +67,8 @@ namespace Tests.Model.Pipeline.Steps
 
         private BaseAdvent ClassUnderTest(List<RuleData>? ruleData = null)
         {
-            return new BaseAdvent(ruleData ?? _defaultRules);
+            var allRules = ruleData ?? _defaultRules;
+            return new BaseAdvent(new AllData { RuleData = allRules});
         }
 
 
@@ -100,7 +101,7 @@ namespace Tests.Model.Pipeline.Steps
             // act & assert
             try
             {
-                new BaseAdvent(new List<RuleData>() {
+                ClassUnderTest(new List<RuleData>() {
                     new RuleData(){
                         HandlingClassName = handlingClassName,
                         RuleType = ruleType

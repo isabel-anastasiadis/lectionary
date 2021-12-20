@@ -1,7 +1,7 @@
 using AutoFixture;
 using NUnit.Framework;
 using System.Collections.Generic;
-using ReadingsBuilder.Model.Data;
+using ReadingsBuilder.Model;
 using System;
 using System.Linq;
 using ReadingsBuilder.Model.Mappers;

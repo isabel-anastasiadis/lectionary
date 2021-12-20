@@ -23,6 +23,11 @@ namespace ReadingsBuilder.Model
 
         public Option<EveningReadings, ReadingsOptionType>? EveningReadings {get; set;}
 
+        public override string ToString()
+        {
+            return $"{Date} {Date.DayOfWeek} '{DayDescription}' [{MorningReadings?.OptionOne}] [{EveningReadings?.OptionOne}]";
+        }
+
     }
 
 }

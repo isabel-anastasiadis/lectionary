@@ -12,8 +12,8 @@ namespace Tests.Model.Pipeline
             // arrange
             var classUnderTest = new ReadingsBuilder.Model.Pipeline.Pipeline();
             var metadata = new Metadata() {
-                StartDate = new System.DateOnly(),
-                EndDate = new System.DateOnly()
+                StartDate = new System.DateOnly(2021,12,1),
+                EndDate = new System.DateOnly(2021,12,15)
             };
 
             // act

@@ -1,5 +1,7 @@
 ﻿
 
+using ReadingsBuilder.Model.Data;
+
 namespace ReadingsBuilder.Model.Pipeline
 {
     public class PipelineResult
@@ -17,4 +19,6 @@ namespace ReadingsBuilder.Model.Pipeline
         public DateOnly EndDate { get; set; }
 
     }
+
+
 }

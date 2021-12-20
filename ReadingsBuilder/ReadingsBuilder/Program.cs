@@ -1,20 +1,22 @@
 ﻿
 using ReadingsBuilder.Model.Data;
 using ReadingsBuilder.Model.Mappers;
+using ReadingsBuilder.Model.Pipeline;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-var csvReader = new CsvReader();
-var rows = csvReader.ReadRows();
-var ruleDataReader = new RuleDataMapper();
-var result = ruleDataReader.MapRowsToRuleData(rows);
+var pipeline = new Pipeline();
+var result = pipeline.Run(new Metadata { StartDate = new DateOnly(2021, 12, 1), EndDate = new DateOnly( 2022, 1, 6 ) });
 
-foreach (var row in result)
+
+
+foreach (var key in result.Year.Days.Keys)
 {
-    Console.WriteLine(row);
+    var day = result?.Year.Days[key];
+    Console.WriteLine(day.OptionOne);
 }
-Console.WriteLine(result);
+
 
 
 

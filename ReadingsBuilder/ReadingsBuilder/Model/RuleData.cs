@@ -1,5 +1,5 @@
 ﻿
-namespace ReadingsBuilder.Model.Data
+namespace ReadingsBuilder.Model
 {
     public class RuleData
     {
