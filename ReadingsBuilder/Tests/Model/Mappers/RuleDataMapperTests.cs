@@ -20,7 +20,51 @@ namespace Tests.Model.Mappers
 			// act & assert
 			new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
 		}
-		
+
+		[Test]
+		public void EmptyColumnsMapToNull()
+		{
+			// arrange
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+
+			// act
+			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() }).First();
+
+			// assert
+			Assert.IsNull(result.HandlingClassName);
+			Assert.IsNull(result.RowNumberInRuleSet);
+			Assert.IsNull(result.RuleType);
+			Assert.IsNull(result.DayName);
+			Assert.IsNull(result.Weekday);
+			Assert.IsNull(result.Day);
+			Assert.IsNull(result.Month);
+			Assert.IsNull(result.Weekday);
+			// rotating readings in another test
+			Assert.IsNull(result.MorningNewTestament);
+			Assert.IsNull(result.MorningOldTestament);
+			Assert.IsNull(result.EveningNewTestament);
+			Assert.IsNull(result.EveningOldTestament);
+			Assert.IsNull(result.MorningPsalmsMain);
+			Assert.IsNull(result.EveningPsalmsMain);
+		}
+
+		[Test]
+		public void EmptyColumnsMeanTheHasReadingsChecksReturnFalse()
+		{
+			// arrange
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+
+			// act
+			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() }).First();
+
+			// assert
+			Assert.IsFalse(result.HasSetReadings);
+			Assert.IsFalse(result.HasRotatingReadings);
+			Assert.IsFalse(result.HasSetEveningOverrides);
+		}
+
 		[Test]
 		public void MapsClassMetadataCorrectly()
 		{
@@ -145,12 +189,31 @@ namespace Tests.Model.Mappers
 			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
-			Assert.AreEqual(expectedOldTestament1, result?.FirstOrDefault()?.RotatingOldTestament1);
-			Assert.AreEqual(expectedOldTestament2a, result?.FirstOrDefault()?.RotatingOldTestament2a);
-			Assert.AreEqual(expectedOldTestament2b, result?.FirstOrDefault()?.RotatingOldTestament2b);
-			Assert.AreEqual(expectedNewTestament1, result?.FirstOrDefault()?.RotatingNewTestament1);
-			Assert.AreEqual(expectedNewTestament2, result?.FirstOrDefault()?.RotatingNewTestament2);
+			Assert.AreEqual(expectedOldTestament1, result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament1]);
+			Assert.AreEqual(expectedOldTestament2a, result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament2a]);
+			Assert.AreEqual(expectedOldTestament2b, result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament2b]);
+			Assert.AreEqual(expectedNewTestament1, result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.NewTestament1]);
+			Assert.AreEqual(expectedNewTestament2, result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.NewTestament2]);
+		}
 
+		[Test]
+		public void EmptyValuesResultInNullRotatingReadings()
+		{
+
+			// arrange
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+
+
+			// act
+			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+
+			// assert
+			Assert.IsNull(result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament1]);
+			Assert.IsNull(result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament2a]);
+			Assert.IsNull(result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament2b]);
+			Assert.IsNull(result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.NewTestament1]);
+			Assert.IsNull(result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.NewTestament2]);
 		}
 
 		[Test]

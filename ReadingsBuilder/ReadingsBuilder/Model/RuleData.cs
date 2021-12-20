@@ -3,6 +3,10 @@ namespace ReadingsBuilder.Model.Data
 {
     public class RuleData
     {
+        public RuleData()
+        {
+            RotatingReadings = new Dictionary<RotatingReadingType, string>();
+        }
 
         public string? HandlingClassName { get; set; }
 
@@ -12,21 +16,13 @@ namespace ReadingsBuilder.Model.Data
 
         public string? DayName { get; set; }
 
-        public DayOfWeek? Weekday {get; set;}
+        public DayOfWeek? Weekday { get; set; }
 
         public int? Day { get; set; }
 
         public int? Month { get; set; }
 
-        public string? RotatingOldTestament1 { get; set; }
-
-        public string? RotatingOldTestament2a { get; set; }
-
-        public string? RotatingOldTestament2b { get; set; }
-
-        public string? RotatingNewTestament1 { get; set; }
-
-        public string? RotatingNewTestament2 { get; set; }
+        public Dictionary<RotatingReadingType, string?> RotatingReadings { get; set; }
 
         public string? MorningOldTestament { get; set; }
 
@@ -40,11 +36,54 @@ namespace ReadingsBuilder.Model.Data
        
         public string? EveningPsalmsMain { get; set; }
 
+        public bool HasRotatingReadings 
+        { 
+            get 
+            {
+                return RotatingReadings[RotatingReadingType.OldTestament1] != null && 
+                    RotatingReadings[RotatingReadingType.NewTestament1] != null &&  // 2a is empty when it is seasonal time (so I'm excluding it from the check)
+                    RotatingReadings[RotatingReadingType.OldTestament2b] != null &&
+                    RotatingReadings[RotatingReadingType.NewTestament2] != null;  
+        
+            } 
+        }
+
+        public bool HasSetReadings
+        {
+            get
+            {
+                return MorningOldTestament != null &&
+                    MorningNewTestament != null &&
+                    EveningOldTestament != null &&
+                    EveningNewTestament != null;
+            }
+        }
+
+        public bool HasSetEveningOverrides
+        {
+            get
+            {
+                return MorningOldTestament == null &&
+                    MorningNewTestament == null &&
+                    EveningOldTestament != null &&
+                    EveningNewTestament != null;
+            }
+        }
+
         public override string ToString()
         {
             return $"RuleData: {RowNumberInRuleSet}, {HandlingClassName}, {RuleType}, {DayName}, ...";
         }
 
+    }
+
+    public enum RotatingReadingType
+    {
+        OldTestament1,
+        OldTestament2a,
+        OldTestament2b,
+        NewTestament1,
+        NewTestament2
     }
 
     public enum RuleType { 

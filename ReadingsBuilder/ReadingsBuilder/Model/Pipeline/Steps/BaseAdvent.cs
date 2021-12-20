@@ -54,7 +54,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                     var ruleData = _rules[indexOfFirstRuleToStartWith];
                     var day = input.Year.Days[currentDate].OptionOne;
 
-                    day.DayDescription = ruleData.DayName;
+                    ApplyRuleToDay(day, ruleData);
 
                     currentDate = currentDate.AddDays(1);
                 
@@ -64,6 +64,13 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
 
             return input;
+        }
+
+
+        private void ApplyRuleToDay(Day day, RuleData ruleData) 
+        {
+            day.DayDescription = ruleData.DayName;
+
         }
     }
 }

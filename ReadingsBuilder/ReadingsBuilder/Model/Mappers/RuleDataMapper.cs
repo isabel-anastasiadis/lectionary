@@ -36,31 +36,35 @@ namespace ReadingsBuilder.Model.Mappers
     public class RuleDataMapper
     {
 
-        public List<RuleData> MapRowsToRuleData(List<List<string>> rows){
+        public List<RuleData> MapRowsToRuleData(List<List<string>> rows)
+        {
 
             var result = new List<RuleData>();
 
-            foreach (var row in rows) {
+            foreach (var row in rows) 
+            {
 
                 var ruleData = new RuleData()
                 {
-                    HandlingClassName = row[(int)ColumnIndexes.RuleClassName],
-                    DayName = row[(int)ColumnIndexes.DayName],
-                    Weekday = MapWeekday(row[(int)ColumnIndexes.ByDayOfWeekWeekday]),
-                    RotatingOldTestament1 = row[(int)ColumnIndexes.RotatingOldTestament1],
-                    RotatingOldTestament2a = row[(int)ColumnIndexes.RotatingOldTestament2a],
-                    RotatingOldTestament2b = row[(int)ColumnIndexes.RotatingOldTestament2b],
-                    RotatingNewTestament1 = row[(int)ColumnIndexes.RotatingNewTestament1],
-                    RotatingNewTestament2 = row[(int)ColumnIndexes.RotatingNewTestament2],
-                    MorningOldTestament = row[(int)ColumnIndexes.MorningOldTestament],
-                    MorningNewTestament = row[(int)ColumnIndexes.MorningNewTestament],
-                    EveningOldTestament = row[(int)ColumnIndexes.EveningOldTestament],
-                    EveningNewTestament = row[(int)ColumnIndexes.EveningNewTestament],
-                    MorningPsalmsMain = row[(int)ColumnIndexes.MorningPsalmMain],
-                    EveningPsalmsMain = row[(int)ColumnIndexes.EveningPsalmMain],
+                    HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
+                    DayName = GetValueOrNull(row, ColumnIndexes.DayName),
+                    Weekday = MapWeekday(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekWeekday)),
+                    MorningOldTestament = GetValueOrNull(row, ColumnIndexes.MorningOldTestament),
+                    MorningNewTestament = GetValueOrNull(row, ColumnIndexes.MorningNewTestament),
+                    EveningOldTestament = GetValueOrNull(row, ColumnIndexes.EveningOldTestament),
+                    EveningNewTestament = GetValueOrNull(row, ColumnIndexes.EveningNewTestament),
+                    MorningPsalmsMain = GetValueOrNull(row, ColumnIndexes.MorningPsalmMain),
+                    EveningPsalmsMain = GetValueOrNull(row, ColumnIndexes.EveningPsalmMain)
                 };
 
-                if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass)) {
+                ruleData.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);
+                ruleData.RotatingReadings[RotatingReadingType.OldTestament2a] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2a);
+                ruleData.RotatingReadings[RotatingReadingType.OldTestament2b] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2b);
+                ruleData.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
+                ruleData.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
+
+                if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass)) 
+                {
                     ruleData.RowNumberInRuleSet = rowWithinClass;
                 }
 
@@ -87,8 +91,19 @@ namespace ReadingsBuilder.Model.Mappers
 
         }
 
+        private string? GetValueOrNull(List<string> row, ColumnIndexes index) 
+        {
+            var value = row[(int)index];
+            if (string.IsNullOrWhiteSpace(value)) {
+                return null;
+            }
 
-        private DayOfWeek? MapWeekday(string weekdayString) {
+            return value;
+        }
+
+
+        private DayOfWeek? MapWeekday(string? weekdayString) 
+        {
 
             switch (weekdayString)
             {
