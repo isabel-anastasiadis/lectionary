@@ -11,13 +11,19 @@ namespace ReadingsBuilder.Model
     public class Day {
 
         public Day() { 
-            MorningReadings = new Option<MorningReadings, ReadingsOptionType>();
-            EveningReadings = new Option<EveningReadings, ReadingsOptionType>();
+            MorningReadings = new Option<MorningReadings, ReadingsOptionType>() { OptionOne = new Model.MorningReadings()};
+            EveningReadings = new Option<EveningReadings, ReadingsOptionType>() { OptionOne = new Model.EveningReadings()};
         }    
 
         public DateOnly Date {get; set;}
 
         public string? DayDescription {get; set;}
+
+        /// <summary>
+        /// Not necessarily the same as not ordinary time.
+        /// When this is true, we use seasonal psalms, and seasonal old testament 2 rotating readings
+        /// </summary>
+        public bool? IsSeasonalTime { get; set; }
 
         public Option<MorningReadings, ReadingsOptionType>? MorningReadings {get; set;}
 

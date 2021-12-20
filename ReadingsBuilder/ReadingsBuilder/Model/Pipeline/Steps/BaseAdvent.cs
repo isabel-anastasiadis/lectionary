@@ -11,8 +11,9 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
         public readonly List<RuleData> ApplicableRules;
 
         public readonly List<RotatingReadingMapping> RotatingReadingMappings;
+        private readonly RuleApplier ruleApplier;
 
-        public BaseAdvent(AllData allData)
+        public BaseAdvent(RuleApplier ruleApplier, AllData allData)
         {
 
             if (allData == null) {
@@ -37,6 +38,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                 throw new ArgumentException("No matching rules were passed in");
             }
 
+            this.ruleApplier = ruleApplier;
         }
 
         public PipelineResult RunStep(PipelineResult input)
@@ -75,8 +77,8 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
         private void ApplyRuleToDay(Day day, RuleData ruleData) 
         {
-            day.DayDescription = ruleData.DayName;
-
+            var rotatingReadingMapping = RotatingReadingMappings.Where(x => x.Year == day.Date.Year).FirstOrDefault();
+            ruleApplier.ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
         }
     }
 }

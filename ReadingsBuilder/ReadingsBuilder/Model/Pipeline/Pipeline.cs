@@ -16,7 +16,7 @@ namespace ReadingsBuilder.Model.Pipeline {
             var allData = allDataFactory.GenerateAllData();
             this._steps = new List<IStep>() { 
                 new PopulateDates(),
-                new BaseAdvent(allData)           
+                new BaseAdvent(new RuleApplier(), allData)           
             };
         }
 

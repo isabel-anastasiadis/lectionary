@@ -46,6 +46,10 @@ namespace ReadingsBuilder.Model
 
         public Option<Reading, ReadingOptionType>? NewTestament {get; set;}
 
+        public override string ToString()
+        {
+            return $"{Psalms?.OptionOne}  {OldTestament?.OptionOne}  {NewTestament?.OptionOne}";
+        }
     }
 
 

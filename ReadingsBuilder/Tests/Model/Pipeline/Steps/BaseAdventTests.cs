@@ -4,6 +4,7 @@ using System.Linq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Data;
+using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.Steps;
 using static ReadingsBuilder.Model.Year;
@@ -68,12 +69,12 @@ namespace Tests.Model.Pipeline.Steps
         private BaseAdvent ClassUnderTest(List<RuleData>? ruleData = null)
         {
             var allRules = ruleData ?? _defaultRules;
-            return new BaseAdvent(new AllData { RuleData = allRules});
+            return new BaseAdvent(new RuleApplier(), new AllData { RuleData = allRules, RotatingReadingMappings = new RotatingReadingMappingMapper().RotatingReadingMappings()});
         }
 
 
         [Test]
-        public void ChecksConstructorParamForNull()
+        public void ChecksConstructorParamForNullRules()
         {
 
             // arrange
@@ -81,7 +82,7 @@ namespace Tests.Model.Pipeline.Steps
             // act & assert
             try
             {
-                new BaseAdvent(null);
+                new BaseAdvent(new RuleApplier(), null);
                 Assert.Fail("Should have thrown ArgumentNullException");
 
             }

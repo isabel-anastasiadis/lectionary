@@ -36,6 +36,7 @@ namespace Tests.Model.Mappers
 			Assert.IsNull(result.RowNumberInRuleSet);
 			Assert.IsNull(result.RuleType);
 			Assert.IsNull(result.DayName);
+			Assert.IsNull(result.IsSeasonalTime);
 			Assert.IsNull(result.Weekday);
 			Assert.IsNull(result.Day);
 			Assert.IsNull(result.Month);
@@ -111,9 +112,28 @@ namespace Tests.Model.Mappers
 			// assert
 			Assert.AreEqual(expectedDayName, result?.FirstOrDefault()?.DayName);
 
-			
+		}
+
+		[TestCase("TRUE", true)]
+		[TestCase("FALSE", false)]
+		[TestCase("", null)]
+		public void MapsIsSeasonalTimeCorectly(string rawValue, bool? expectedResult)
+		{
+
+			// arrange
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+			input[(int)ColumnIndexes.IsSeasonalTime] = rawValue;
+
+
+			// act
+			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+
+			// assert
+			Assert.AreEqual(expectedResult, result?.FirstOrDefault()?.IsSeasonalTime);
 
 		}
+
 
 		[TestCase("", null)]
 		[TestCase("M", DayOfWeek.Monday)]

@@ -49,6 +49,7 @@ namespace ReadingsBuilder.Model.Mappers
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),
                     Weekday = MapWeekday(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekWeekday)),
+                    IsSeasonalTime = MapIsSeasonalTime(GetValueOrNull(row, ColumnIndexes.IsSeasonalTime)),
                     MorningOldTestament = GetValueOrNull(row, ColumnIndexes.MorningOldTestament),
                     MorningNewTestament = GetValueOrNull(row, ColumnIndexes.MorningNewTestament),
                     EveningOldTestament = GetValueOrNull(row, ColumnIndexes.EveningOldTestament),
@@ -99,6 +100,20 @@ namespace ReadingsBuilder.Model.Mappers
             }
 
             return value;
+        }
+
+        private bool? MapIsSeasonalTime(string? rawValue) {
+            switch (rawValue)
+            {
+                case null:
+                    return null;
+                case "TRUE":
+                    return true;
+                case "FALSE":
+                    return false;
+                default:
+                    return null;
+            }
         }
 
 

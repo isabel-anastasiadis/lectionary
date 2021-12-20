@@ -16,6 +16,8 @@ namespace ReadingsBuilder.Model
 
         public string? DayName { get; set; }
 
+        public bool? IsSeasonalTime { get; set; }
+
         public DayOfWeek? Weekday { get; set; }
 
         public int? Day { get; set; }
@@ -40,7 +42,10 @@ namespace ReadingsBuilder.Model
         { 
             get 
             {
-                return RotatingReadings[RotatingReadingType.OldTestament1] != null && 
+                if (RotatingReadings.Count == 0) return false;
+
+                return                    
+                    RotatingReadings[RotatingReadingType.OldTestament1] != null && 
                     RotatingReadings[RotatingReadingType.NewTestament1] != null &&  // 2a is empty when it is seasonal time (so I'm excluding it from the check)
                     RotatingReadings[RotatingReadingType.OldTestament2b] != null &&
                     RotatingReadings[RotatingReadingType.NewTestament2] != null;  

@@ -16,7 +16,6 @@ namespace ReadingsBuilder.Model
 
         public Dictionary<DateOnly, Option<Day, DayOptionType>>? Days {get; }
 
-
     }
 
 }
