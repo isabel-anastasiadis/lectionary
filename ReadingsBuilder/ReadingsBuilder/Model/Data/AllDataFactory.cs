@@ -3,19 +3,20 @@ using ReadingsBuilder.Model.Mappers;
 
 namespace ReadingsBuilder.Model.Data
 {
-    public class AllDataFactory
+    public class AllDataFactory : IAllDataFactory
     {
         public static string DEFAULT_CSV_FILE_PATH = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\All Rules.csv";
+        private readonly ICsvReader csvReader;
+        private readonly IRuleDataMapper ruleDataMapper;
+        private readonly IRotatingReadingMappingProvider rotatingReadingMappingProvider;
 
-        private CsvReader csvReader;
-        private RuleDataMapper ruleDataMapper;
-        private RotatingReadingMappingMapper rotatingReadingsMappingMapper;
-
-        public AllDataFactory()
+        public AllDataFactory(ICsvReader csvReader, 
+            IRuleDataMapper ruleDataMapper, 
+            IRotatingReadingMappingProvider rotatingReadingMappingProvider)
         {
-            this.csvReader = new CsvReader();
-            this.ruleDataMapper = new RuleDataMapper();
-            this.rotatingReadingsMappingMapper = new RotatingReadingMappingMapper();
+            this.csvReader = csvReader;
+            this.ruleDataMapper = ruleDataMapper;
+            this.rotatingReadingMappingProvider = rotatingReadingMappingProvider;
         }
 
         public AllData GenerateAllData(string? csvFilePath = null)
@@ -23,7 +24,7 @@ namespace ReadingsBuilder.Model.Data
             var result = new AllData();
 
             result.RuleData = ruleDataMapper.MapRowsToRuleData(csvReader.ReadRows(csvFilePath ?? DEFAULT_CSV_FILE_PATH));
-            result.RotatingReadingMappings = rotatingReadingsMappingMapper.RotatingReadingMappings();
+            result.RotatingReadingMappings = rotatingReadingMappingProvider.RotatingReadingMappings();
 
             return result;
         }

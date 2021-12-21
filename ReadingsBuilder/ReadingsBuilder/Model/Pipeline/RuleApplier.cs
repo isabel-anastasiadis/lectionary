@@ -1,9 +1,10 @@
 ﻿
 namespace ReadingsBuilder.Model.Pipeline
 {
-    public class RuleApplier
+    public class RuleApplier : IRuleApplier
     {
-        public void ApplyRuleToDay(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day) {
+        public void ApplyRuleToDay(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day)
+        {
 
             ApplyDayDescription(ruleData, day);
 
@@ -11,12 +12,14 @@ namespace ReadingsBuilder.Model.Pipeline
 
             ApplyPsalms(ruleData, day);
 
-            if (ruleData.HasRotatingReadings) { 
+            if (ruleData.HasRotatingReadings)
+            {
                 ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
             }
         }
 
-        public void ApplyDayDescription(RuleData ruleData, Day day) {
+        public void ApplyDayDescription(RuleData ruleData, Day day)
+        {
 
             if (ruleData.DayName != null)
             {
@@ -24,16 +27,17 @@ namespace ReadingsBuilder.Model.Pipeline
             }
         }
 
-        public void ApplyIsSeasonalTime(RuleData ruleData, Day day) {
+        public void ApplyIsSeasonalTime(RuleData ruleData, Day day)
+        {
             if (ruleData.IsSeasonalTime != null)
             {
                 day.IsSeasonalTime = ruleData.IsSeasonalTime;
             }
         }
 
-        public void ApplyPsalms(RuleData ruleData, Day day) 
+        public void ApplyPsalms(RuleData ruleData, Day day)
         {
-            if (ruleData.HasMorningPsalms) 
+            if (ruleData.HasMorningPsalms)
             {
                 day.MorningReadings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + ruleData.MorningPsalmsMain;
             }
@@ -52,12 +56,13 @@ namespace ReadingsBuilder.Model.Pipeline
                 throw new ArgumentNullException(nameof(rotatingReadingMapping));
             }
 
-            if (day.IsSeasonalTime == null){
+            if (day.IsSeasonalTime == null)
+            {
                 throw new ArgumentNullException($"Expected {nameof(day)}.{nameof(day.IsSeasonalTime)} to be set for day {day} in order to apply rotating rules.");
             }
 
             // morning old testament
-            var value = day.IsSeasonalTime.Value 
+            var value = day.IsSeasonalTime.Value
                 ? ruleData.RotatingReadings[rotatingReadingMapping.MorningOldTestamentSeasonal]
                 : ruleData.RotatingReadings[rotatingReadingMapping.MorningOldTestamentOrdinary];
             day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = value;

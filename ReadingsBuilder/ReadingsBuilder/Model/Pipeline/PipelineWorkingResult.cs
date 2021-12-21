@@ -1,7 +1,5 @@
 ﻿
 
-using ReadingsBuilder.Model.Data;
-
 namespace ReadingsBuilder.Model.Pipeline
 {
     public class PipelineWorkingResult

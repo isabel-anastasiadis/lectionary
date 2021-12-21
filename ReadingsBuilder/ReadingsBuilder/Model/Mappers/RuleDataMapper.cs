@@ -33,7 +33,7 @@ namespace ReadingsBuilder.Model.Mappers
         EveningPsalmOmittedIfCanticle
     }
 
-    public class RuleDataMapper
+    public class RuleDataMapper : IRuleDataMapper
     {
 
         public List<RuleData> MapRowsToRuleData(List<List<string>> rows)
@@ -41,7 +41,7 @@ namespace ReadingsBuilder.Model.Mappers
 
             var result = new List<RuleData>();
 
-            foreach (var row in rows) 
+            foreach (var row in rows)
             {
 
                 var ruleData = new RuleData()
@@ -64,7 +64,7 @@ namespace ReadingsBuilder.Model.Mappers
                 ruleData.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
                 ruleData.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
 
-                if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass)) 
+                if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass))
                 {
                     ruleData.RowNumberInRuleSet = rowWithinClass;
                 }
@@ -92,17 +92,19 @@ namespace ReadingsBuilder.Model.Mappers
 
         }
 
-        private string? GetValueOrNull(List<string> row, ColumnIndexes index) 
+        private string? GetValueOrNull(List<string> row, ColumnIndexes index)
         {
             var value = row[(int)index];
-            if (string.IsNullOrWhiteSpace(value)) {
+            if (string.IsNullOrWhiteSpace(value))
+            {
                 return null;
             }
 
             return value;
         }
 
-        private bool? MapIsSeasonalTime(string? rawValue) {
+        private bool? MapIsSeasonalTime(string? rawValue)
+        {
             switch (rawValue)
             {
                 case null:
@@ -117,7 +119,7 @@ namespace ReadingsBuilder.Model.Mappers
         }
 
 
-        private DayOfWeek? MapWeekday(string? weekdayString) 
+        private DayOfWeek? MapWeekday(string? weekdayString)
         {
 
             switch (weekdayString)
@@ -128,7 +130,7 @@ namespace ReadingsBuilder.Model.Mappers
                 case "M":
                     return DayOfWeek.Monday;
 
-                case "T": 
+                case "T":
                     return DayOfWeek.Tuesday;
 
                 case "W":
@@ -136,7 +138,7 @@ namespace ReadingsBuilder.Model.Mappers
 
                 case "Th":
                     return DayOfWeek.Thursday;
-                case "F": 
+                case "F":
                     return DayOfWeek.Friday;
 
                 case "S":
@@ -153,13 +155,14 @@ namespace ReadingsBuilder.Model.Mappers
 
         }
 
-        private RuleType MapRuleType(string ruleTypeString) {
+        private RuleType MapRuleType(string ruleTypeString)
+        {
             switch (ruleTypeString)
             {
                 case "ByDayOfWeek":
                     return RuleType.ByDayOfWeek;
 
-                case "ByDayOfMonth": 
+                case "ByDayOfMonth":
                     return RuleType.ByDayOfMonth;
 
                 default:

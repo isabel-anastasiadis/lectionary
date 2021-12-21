@@ -1,15 +1,16 @@
 ﻿
 namespace ReadingsBuilder.Model.Mappers
 {
-    public class RotatingReadingMappingMapper
+    public class RotatingReadingMappingProvider : IRotatingReadingMappingProvider
     {
 
         /// <summary>
         /// Stubbing this for now.  TODO properly later, reading from csv
         /// </summary>
         /// <returns></returns>
-        public List<RotatingReadingMapping> RotatingReadingMappings() { 
-        
+        public List<RotatingReadingMapping> RotatingReadingMappings()
+        {
+
             var list = new List<RotatingReadingMapping>();
 
             // 2011-12

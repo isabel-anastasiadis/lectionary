@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
+using ReadingsBuilder.Model.Data;
 using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.Steps;
@@ -66,8 +68,18 @@ namespace Tests.Model.Pipeline.Steps
 
         private BaseAdvent ClassUnderTest(List<RuleData>? ruleData = null)
         {
-            var allRules = ruleData ?? _defaultRules;
-            return new BaseAdvent(new RuleApplier(), new AllData { RuleData = allRules, RotatingReadingMappings = new RotatingReadingMappingMapper().RotatingReadingMappings()});
+
+
+            var allData = new AllData 
+            { 
+                RuleData = ruleData ?? _defaultRules, 
+                RotatingReadingMappings = new RotatingReadingMappingProvider().RotatingReadingMappings() 
+            };
+
+            var dataFactoryMock = new Mock<IAllDataFactory>();
+            dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
+
+            return new BaseAdvent(new RuleApplier(), dataFactoryMock.Object);
         }
 
 

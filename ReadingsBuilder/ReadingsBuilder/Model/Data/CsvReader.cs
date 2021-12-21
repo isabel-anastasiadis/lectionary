@@ -3,10 +3,8 @@ using Microsoft.VisualBasic.FileIO;
 namespace ReadingsBuilder.Model.Data
 {
 
-    public class CsvReader {
-
-        // todo move this somewhere else
-
+    public class CsvReader : ICsvReader
+    {
 
         public List<List<string>> ReadRows(string pathToFile)
         {
@@ -29,7 +27,7 @@ namespace ReadingsBuilder.Model.Data
                     }
                     result.Add(fields);
 
-                    
+
                 }
             }
 

@@ -1,5 +1,7 @@
 ﻿
 
+using ReadingsBuilder.Model.Data;
+
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
     public class BaseAdvent : IStep
@@ -11,14 +13,16 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
         public readonly List<RuleData> ApplicableRules;
 
         public readonly List<RotatingReadingMapping> RotatingReadingMappings;
-        private readonly RuleApplier ruleApplier;
+        private readonly IRuleApplier ruleApplier;
 
-        public BaseAdvent(RuleApplier ruleApplier, AllData allData)
+        public BaseAdvent(IRuleApplier ruleApplier, IAllDataFactory dataFactory)
         {
-
-            if (allData == null) {
-                throw new ArgumentNullException(nameof(allData));
+            if (dataFactory == null)
+            {
+                throw new ArgumentNullException(nameof(dataFactory));
             }
+
+            var allData = dataFactory.GenerateAllData();
 
             RotatingReadingMappings = allData.RotatingReadingMappings;
 
