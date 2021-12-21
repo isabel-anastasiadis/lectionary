@@ -9,8 +9,10 @@ namespace ReadingsBuilder.Model.Pipeline
 
             ApplyIsSeasonalTime(ruleData, day); // NOTE: this needs to happen before rotating readings
 
+            ApplyPsalms(ruleData, day);
+
             if (ruleData.HasRotatingReadings) { 
-                ApplyRotatingReadingsToDay(rotatingReadingMapping, ruleData, day);
+                ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
             }
         }
 
@@ -29,7 +31,21 @@ namespace ReadingsBuilder.Model.Pipeline
             }
         }
 
-        public void ApplyRotatingReadingsToDay(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day)
+        public void ApplyPsalms(RuleData ruleData, Day day) 
+        {
+            if (ruleData.HasMorningPsalms) 
+            {
+                day.MorningReadings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + ruleData.MorningPsalmsMain;
+            }
+
+            if (ruleData.HasEveningPsalms)
+            {
+                day.EveningReadings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + ruleData.EveningPsalmsMain;
+            }
+
+        }
+
+        public void ApplyRotatingReadings(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day)
         {
             if (rotatingReadingMapping == null)
             {

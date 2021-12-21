@@ -23,7 +23,7 @@ namespace ReadingsBuilder.Model
 
         public override string ToString()
         {
-            return $"{Psalms?.OptionOne}  {OldTestament?.OptionOne}  {NewTestament?.OptionOne}";
+            return $"{Psalms?.OptionOne}; {OldTestament?.OptionOne}; {NewTestament?.OptionOne};";
         }
     }
 
@@ -48,7 +48,7 @@ namespace ReadingsBuilder.Model
 
         public override string ToString()
         {
-            return $"{Psalms?.OptionOne}  {OldTestament?.OptionOne}  {NewTestament?.OptionOne}";
+            return $"{Psalms?.OptionOne}; {OldTestament?.OptionOne}; {NewTestament?.OptionOne};";
         }
     }
 

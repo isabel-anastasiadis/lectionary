@@ -75,6 +75,23 @@ namespace ReadingsBuilder.Model
             }
         }
 
+        public bool HasMorningPsalms {
+
+            get
+            {
+                return !string.IsNullOrWhiteSpace(MorningPsalmsMain);
+            }
+        }
+
+        public bool HasEveningPsalms
+        {
+
+            get
+            {
+                return !string.IsNullOrWhiteSpace(EveningPsalmsMain);
+            }
+        }
+
         public override string ToString()
         {
             return $"RuleData: {RowNumberInRuleSet}, {HandlingClassName}, {RuleType}, {DayName}, ...";

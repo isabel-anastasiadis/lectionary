@@ -8,6 +8,55 @@ namespace Tests.Model.Pipeline
 {
     public class RuleApplierTests
     {
+        [TestCase("6", null, "Psalm 6", Description = "Happy path")]
+        [TestCase(null, "Psalm 6", "Psalm 6", Description = "Preexisting day value not overridden")]
+        [TestCase("8", "Psalm 6", "Psalm 8", Description = "Rule value trumps preexisting day value")]
+        public void AppliesMorningPsalmsCorrectly(string? ruleValue, string? dayValue, string? expectedValue)
+        {
+            // arrange
+            var day = new Day()
+            {
+            };
+            day.MorningReadings.OptionOne.Psalms.OptionOne.RawString = dayValue;
+
+            var ruleData = new RuleData()
+            {
+                MorningPsalmsMain = ruleValue,
+            };
+
+
+            // act
+            new RuleApplier().ApplyPsalms(ruleData, day);
+
+            // assert
+            Assert.AreEqual(expectedValue, day.MorningReadings.OptionOne.Psalms.OptionOne.RawString);
+
+        }
+
+        [TestCase("6", null, "Psalm 6", Description = "Happy path")]
+        [TestCase(null, "Psalm 6" , "Psalm 6", Description = "Preexisting day value not overridden")]
+        [TestCase("8", "Psalm 6", "Psalm 8", Description = "Rule value trumps preexisting day value")]
+        public void AppliesEveningPsalmsCorrectly(string? ruleValue, string? dayValue, string? expectedValue) 
+        {
+            // arrange
+            var day = new Day()
+            {
+            };
+            day.EveningReadings.OptionOne.Psalms.OptionOne.RawString = dayValue;
+
+            var ruleData = new RuleData()
+            {
+                EveningPsalmsMain = ruleValue,
+            };
+
+
+            // act
+            new RuleApplier().ApplyPsalms(ruleData, day);
+
+            // assert
+            Assert.AreEqual(expectedValue, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
+
+        }
 
         [TestCase("Christmas day", null, "Christmas day", Description = "Happy path")]
         [TestCase("Christmas eve", "Week of 4th Sunday in Advent", "Christmas eve", Description = "Rule value trumps preexisting value")]
@@ -92,7 +141,7 @@ namespace Tests.Model.Pipeline
             };
 
             // act
-            new RuleApplier().ApplyRotatingReadingsToDay(rotatingReadingMapping, ruleData, day);
+            new RuleApplier().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
 
             // assert
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.NewTestament1], day?.MorningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
@@ -132,7 +181,7 @@ namespace Tests.Model.Pipeline
             };
 
             // act
-            new RuleApplier().ApplyRotatingReadingsToDay(rotatingReadingMapping, ruleData, day);
+            new RuleApplier().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
 
             // assert
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament2a], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
@@ -172,7 +221,7 @@ namespace Tests.Model.Pipeline
             };
 
             // act
-            new RuleApplier().ApplyRotatingReadingsToDay(rotatingReadingMapping, ruleData, day);
+            new RuleApplier().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
 
             // assert
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament2b], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);

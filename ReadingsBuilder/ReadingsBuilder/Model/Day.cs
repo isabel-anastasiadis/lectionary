@@ -25,9 +25,9 @@ namespace ReadingsBuilder.Model
         /// </summary>
         public bool? IsSeasonalTime { get; set; }
 
-        public Option<MorningReadings, ReadingsOptionType>? MorningReadings {get; set;}
+        public Option<MorningReadings, ReadingsOptionType> MorningReadings {get; set;}
 
-        public Option<EveningReadings, ReadingsOptionType>? EveningReadings {get; set;}
+        public Option<EveningReadings, ReadingsOptionType> EveningReadings {get; set;}
 
         public override string ToString()
         {
