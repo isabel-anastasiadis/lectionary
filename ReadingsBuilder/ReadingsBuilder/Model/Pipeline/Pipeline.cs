@@ -1,29 +1,15 @@
 
-using ReadingsBuilder.Model.Data;
-using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline.Steps;
 
 namespace ReadingsBuilder.Model.Pipeline {
 
     public class Pipeline : IPipeline
     {
-
-        // TODO, load in with dependency injection and sort by Order field
         private readonly IList<IStep> _steps;
 
-        public Pipeline()
+        public Pipeline(IEnumerable<IStep> allSteps)
         {
-            this._steps = new List<IStep>() {
-                new PopulateDates(),
-                new BaseAdvent(
-                    new RuleApplier(),
-                    new AllDataFactory(
-                        new CsvReader(),
-                        new RuleDataMapper(),
-                        new RotatingReadingMappingProvider()
-                    )
-                )
-            };
+            this._steps = allSteps.OrderBy(s => s.Order).ToList();
         }
 
         public PipelineWorkingResult Run(Input metadata)

@@ -1,5 +1,6 @@
 ﻿
 using NUnit.Framework;
+using ReadingsBuilder.Bindings;
 using ReadingsBuilder.Model.Pipeline;
 
 namespace Tests.Model.Pipeline
@@ -10,14 +11,14 @@ namespace Tests.Model.Pipeline
         public void PipelineRuns() {
 
             // arrange
-            var classUnderTest = new ReadingsBuilder.Model.Pipeline.Pipeline();
-            var metadata = new Input() {
+            var classUnderTest = DependencyInjector.GetInstance<IPipeline>();
+            var input = new Input() {
                 StartDate = new System.DateOnly(2021,12,1),
                 EndDate = new System.DateOnly(2021,12,15)
             };
 
             // act
-            var result = classUnderTest.Run(metadata);
+            var result = classUnderTest.Run(input);
 
             // assert
             Assert.IsNotNull(result);
