@@ -1,49 +1,46 @@
 ﻿
-using static ReadingsBuilder.Model.Year;
-
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
     public class PopulateDates : IStep
     {
         public int Order => 0;
 
-        public PipelineResult RunStep(PipelineResult input)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
         {
-            if (input == null) {
-                throw new ArgumentNullException(nameof(input));
+            if (workingResult == null) {
+                throw new ArgumentNullException(nameof(workingResult));
             }
 
-            if (input.Metadata == null) { 
-                throw new ArgumentNullException(nameof(input.Metadata));
+            if (workingResult.Input == null) { 
+                throw new ArgumentNullException(nameof(workingResult.Input));
             }
 
-            if (input?.Metadata?.StartDate == null) { 
-                throw new ArgumentNullException(nameof(input.Metadata.StartDate));
+            if (workingResult?.Input?.StartDate == null) { 
+                throw new ArgumentNullException(nameof(workingResult.Input.StartDate));
             }
 
-            if (input?.Metadata?.EndDate == null)
+            if (workingResult?.Input?.EndDate == null)
             {
-                throw new ArgumentNullException(nameof(input.Metadata.EndDate));
+                throw new ArgumentNullException(nameof(workingResult.Input.EndDate));
             }
 
-            input.Year = new Year();
 
-            var currentDate = input.Metadata.StartDate;
+            var currentDate = workingResult.Input.StartDate;
             while (true)
             {
-                input.Year.Days[currentDate] = new Option<Day, DayOptionType>() {
+                workingResult.Result[currentDate] = new Option<Day, DayOptionType>() {
                     OptionOne = new Day() { 
                         Date = currentDate
                     }
                 };
                 currentDate = currentDate.AddDays(1);
 
-                if (currentDate > input.Metadata.EndDate) {
+                if (currentDate > workingResult.Input.EndDate) {
                     break;
                 }
             }
 
-            return input;
+            return workingResult;
         }
     }
 }

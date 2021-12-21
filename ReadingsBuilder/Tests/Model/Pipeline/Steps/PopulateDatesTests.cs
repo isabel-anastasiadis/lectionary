@@ -11,7 +11,7 @@ namespace Tests.Model.Pipeline.Steps
         public void ChecksParamsCorrectly() {
 
             // arrange
-            var pipelineResult = new PipelineResult();
+            var pipelineResult = new PipelineWorkingResult();
             var classUnderTest = new PopulateDates();
 
             // act & assert
@@ -27,32 +27,31 @@ namespace Tests.Model.Pipeline.Steps
         }
 
         [Test]
-        public void YearIsInitialised() {
+        public void ResultIsInitialised() {
             // arrange
-            var pipelineResult = new PipelineResult()
+            var pipelineResult = new PipelineWorkingResult()
             {
-                Metadata = new Metadata
+                Input = new Input
                 {
-                    StartDate = new System.DateOnly(2021, 1, 1),
-                    EndDate = new System.DateOnly(2021, 1, 31)
+                    StartDate = new DateOnly(2021, 1, 1),
+                    EndDate = new DateOnly(2021, 1, 31)
                 }
             };
             var classUnderTest = new PopulateDates();
 
             // act
-            var result = classUnderTest.RunStep(pipelineResult);
+            var workingResult = classUnderTest.RunStep(pipelineResult);
 
             // assert
-            Assert.IsNotNull(result.Year);
-            Assert.IsNotNull(result?.Year?.Days);
+            Assert.IsNotNull(workingResult.Result);
 
         }
 
         [Test]
         public void PopulatesDatesForRangeSpecified() {
             // arrange
-            var pipelineResult = new PipelineResult() { 
-                Metadata = new Metadata { 
+            var pipelineResult = new PipelineWorkingResult() { 
+                Input = new Input { 
                     StartDate = new System.DateOnly(2021,1,1),
                     EndDate = new System.DateOnly(2021,1,31)
                 }
@@ -60,11 +59,11 @@ namespace Tests.Model.Pipeline.Steps
             var classUnderTest = new PopulateDates();
 
             // act
-            var result = classUnderTest.RunStep(pipelineResult);
+            var workingResult = classUnderTest.RunStep(pipelineResult);
 
             // assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(result?.Year?.Days?.Count, 31);
+            Assert.IsNotNull(workingResult);
+            Assert.AreEqual(workingResult?.Result.Count, 31);
         }
 
         [Test]
@@ -73,9 +72,9 @@ namespace Tests.Model.Pipeline.Steps
             // arrange
             var date = new DateOnly(2021, 1, 1);
 
-            var pipelineResult = new PipelineResult()
+            var pipelineResult = new PipelineWorkingResult()
             {
-                Metadata = new Metadata
+                Input = new Input
                 {
                     StartDate = date,
                     EndDate = date
@@ -84,11 +83,11 @@ namespace Tests.Model.Pipeline.Steps
             var classUnderTest = new PopulateDates();
 
             // act
-            var result = classUnderTest.RunStep(pipelineResult);
+            var workingResult = classUnderTest.RunStep(pipelineResult);
 
             // assert
-            Assert.IsNotNull(result?.Year?.Days[date]?.OptionOne);
-            Assert.AreEqual(date, result?.Year?.Days[date]?.OptionOne?.Date);
+            Assert.IsNotNull(workingResult.Result[date]?.OptionOne);
+            Assert.AreEqual(date, workingResult.Result[date]?.OptionOne?.Date);
         }
     }
 }

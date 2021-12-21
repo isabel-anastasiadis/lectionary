@@ -6,12 +6,12 @@ namespace ReadingsBuilder.Model.Data
     public class CsvReader {
 
         // todo move this somewhere else
-        public static string DEFAULT_CSV_FILE_PATH = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\All Rules.csv";
 
-        public List<List<string>> ReadRows(string? pathToFile = null)
+
+        public List<List<string>> ReadRows(string pathToFile)
         {
             var result = new List<List<string>>();
-            using (TextFieldParser parser = new TextFieldParser( pathToFile ?? CsvReader.DEFAULT_CSV_FILE_PATH))
+            using (TextFieldParser parser = new TextFieldParser(pathToFile))
             {
                 parser.TextFieldType = FieldType.Delimited;
                 parser.SetDelimiters(",");

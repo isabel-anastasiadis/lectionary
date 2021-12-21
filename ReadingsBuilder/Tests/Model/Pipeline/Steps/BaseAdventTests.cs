@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
-using ReadingsBuilder.Model.Data;
 using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.Steps;
-using static ReadingsBuilder.Model.Year;
 
 namespace Tests.Model.Pipeline.Steps
 {
@@ -129,8 +127,9 @@ namespace Tests.Model.Pipeline.Steps
         {
 
             // arrange
-            var year = new Year();
-            year.Days[new DateOnly(2021, 12, 2)] = new Option<Day, DayOptionType>()
+            var workingResult = new PipelineWorkingResult();
+
+            workingResult.Result[new DateOnly(2021, 12, 2)] = new Option<Day, DayOptionType>()
             {
                 OptionOne = new Day()
             };
@@ -140,7 +139,7 @@ namespace Tests.Model.Pipeline.Steps
             // act & assert
             try
             {
-                classUnderTest.RunStep(new PipelineResult() { Year = year });
+                classUnderTest.RunStep(workingResult);
                 Assert.Fail("Should have thrown ArgumentException");
 
             }
@@ -157,15 +156,15 @@ namespace Tests.Model.Pipeline.Steps
 
             // arrange
             var dateOfDay = new DateOnly(2021, 12, 1); // WED
-            var year = CreateYearWithInitialisedDays(new List<DateOnly>() { dateOfDay });
+            var workingResult = CreateWorkingResultWithInitialisedDays(new List<DateOnly>() { dateOfDay });
 
             var classUnderTest = ClassUnderTest();
 
             var expectedDayDescription = _defaultRules.First(x => x.Weekday == DayOfWeek.Wednesday).DayName;
 
             // act
-            var result = classUnderTest.RunStep(new PipelineResult() { Year = year });
-            var resultDescripition = result?.Year?.Days[dateOfDay]?.OptionOne?.DayDescription;
+            var result = classUnderTest.RunStep(workingResult);
+            var resultDescripition = result?.Result[dateOfDay]?.OptionOne?.DayDescription;
 
 
             // assert
@@ -185,21 +184,21 @@ namespace Tests.Model.Pipeline.Steps
                 new DateOnly(2021, 12, 3),
                 new DateOnly(2021, 12, 4),
             };
-            var year = CreateYearWithInitialisedDays(days);
+            var workingResult = CreateWorkingResultWithInitialisedDays(days);
 
             var classUnderTest = ClassUnderTest();
 
 
             // act
-            var result = classUnderTest.RunStep(new PipelineResult() { Year = year });
+            var result = classUnderTest.RunStep(workingResult);
 
 
             // assert
-            foreach (var date in result.Year.Days.Keys) 
+            foreach (var date in result.Result.Keys) 
             {
                 var dayOfWeek = date.DayOfWeek;
                 var expectedDescription = _defaultRules.First(x => x.Weekday == dayOfWeek).DayName;
-                var resultDescripition = result?.Year?.Days[date]?.OptionOne?.DayDescription;
+                var resultDescripition = result.Result[date]?.OptionOne?.DayDescription;
 
                 Assert.AreEqual(expectedDescription, resultDescripition);
             }
@@ -208,10 +207,10 @@ namespace Tests.Model.Pipeline.Steps
 
 
 
-        private Year CreateYearWithInitialisedDays(List<DateOnly> dates) {
-            var year = new Year();
+        private PipelineWorkingResult CreateWorkingResultWithInitialisedDays(List<DateOnly> dates) {
+            var workingResult = new PipelineWorkingResult();
             foreach (var date in dates) { 
-                year.Days[date] = new Option<Day, DayOptionType>()
+                workingResult.Result[date] = new Option<Day, DayOptionType>()
                 {
                     OptionOne = new Day() { 
                         Date = date
@@ -219,7 +218,7 @@ namespace Tests.Model.Pipeline.Steps
                 };
             }
 
-            return year;
+            return workingResult;
 
         }
 

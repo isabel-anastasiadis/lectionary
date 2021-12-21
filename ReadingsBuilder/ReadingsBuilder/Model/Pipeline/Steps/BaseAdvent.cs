@@ -41,14 +41,14 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             this.ruleApplier = ruleApplier;
         }
 
-        public PipelineResult RunStep(PipelineResult input)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
         {
            
             // work out what one to start with - the rule in the first week with the same DayOfWeek
-            var firstDayInYear = input?.Year?.Days?.Keys.OrderBy(x => x).First();
+            var firstDayInYear = workingResult?.Result.Keys.OrderBy(x => x).First();
 
             if (firstDayInYear?.Month != 12 || firstDayInYear?.Day != 1) {
-                throw new ArgumentException($"Expected the first day in the year to be December 1st, but it was {firstDayInYear}", nameof(input.Year.Days));
+                throw new ArgumentException($"Expected the first day in the year to be December 1st, but it was {firstDayInYear}", nameof(workingResult.Result));
             }
 
             var ruleDataToStartWith = ApplicableRules?.GetRange(0, 7).FirstOrDefault(x => x.Weekday == firstDayInYear?.DayOfWeek);
@@ -57,10 +57,10 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                 var indexOfFirstRuleToStartWith = ApplicableRules.IndexOf(ruleDataToStartWith);
                 var currentDate = firstDayInYear.Value;
 
-                for (int i = indexOfFirstRuleToStartWith; i < indexOfFirstRuleToStartWith + input.Year.Days.Count; i++) 
+                for (int i = indexOfFirstRuleToStartWith; i < indexOfFirstRuleToStartWith + workingResult.Result.Count; i++) 
                 { 
                     var ruleData = ApplicableRules[i];
-                    var day = input.Year.Days[currentDate].OptionOne;
+                    var day = workingResult?.Result[currentDate].OptionOne;
 
                     ApplyRuleToDay(day, ruleData);
 
@@ -71,7 +71,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             }
 
 
-            return input;
+            return workingResult;
         }
 
 

@@ -20,9 +20,9 @@ namespace ReadingsBuilder.Model.Pipeline {
             };
         }
 
-        public PipelineResult Run(Metadata metadata) {
+        public PipelineWorkingResult Run(Input metadata) {
 
-            var workingResult = new PipelineResult() { Metadata = metadata};
+            var workingResult = new PipelineWorkingResult() { Input = metadata};
 
             foreach(var step in _steps) {
                 workingResult = step.RunStep(workingResult);
