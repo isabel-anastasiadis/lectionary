@@ -1,5 +1,6 @@
 ﻿
 using ReadingsBuilder.Model.Data;
+using ReadingsBuilder.Model.Data.DTOs;
 
 namespace ReadingsBuilder.Model.Mappers
 {

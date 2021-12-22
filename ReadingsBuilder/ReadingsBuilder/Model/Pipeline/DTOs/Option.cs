@@ -1,10 +1,11 @@
-namespace ReadingsBuilder.Model
+namespace ReadingsBuilder.Model.Pipeline.DTOs
 {
 
 
-    public class Option<T, E> where T: class where E: Enum {
-        
-        
+    public class Option<T, E> where T : class where E : Enum
+    {
+
+
         public T? OptionOne { get; set; }
 
         public E? OptionOneType { get; set; }

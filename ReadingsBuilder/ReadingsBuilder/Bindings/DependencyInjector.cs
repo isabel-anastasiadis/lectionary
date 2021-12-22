@@ -17,7 +17,7 @@ namespace ReadingsBuilder.Bindings
         }
 
 
-        public static T? GetInstance<T>() where T: class 
+        public static T GetInstance<T>() where T: class 
         {
             return container.GetInstance<T>();
         }

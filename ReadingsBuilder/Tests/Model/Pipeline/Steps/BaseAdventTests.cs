@@ -5,8 +5,10 @@ using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Data;
+using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline;
+using ReadingsBuilder.Model.Pipeline.DTOs;
 using ReadingsBuilder.Model.Pipeline.Steps;
 
 namespace Tests.Model.Pipeline.Steps

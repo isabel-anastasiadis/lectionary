@@ -1,4 +1,6 @@
-﻿namespace ReadingsBuilder.Model.Pipeline
+﻿using ReadingsBuilder.Model.Pipeline.DTOs;
+
+namespace ReadingsBuilder.Model.Pipeline
 {
     public interface IPipeline
     {

@@ -1,6 +1,4 @@
-﻿
-
-namespace ReadingsBuilder.Model
+﻿namespace ReadingsBuilder.Model.Data.DTOs
 {
     public class RotatingReadingMapping
     {

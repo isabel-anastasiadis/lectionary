@@ -1,3 +1,4 @@
+using ReadingsBuilder.Model.Pipeline.DTOs;
 
 namespace ReadingsBuilder.Model
 {

@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
+using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Pipeline;
+using ReadingsBuilder.Model.Pipeline.DTOs;
+
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+#pragma warning disable CS8625
 
 namespace Tests.Model.Pipeline
 {
+
     public class RuleApplierTests
     {
         [TestCase("6", null, "Psalm 6", Description = "Happy path")]
@@ -17,7 +23,9 @@ namespace Tests.Model.Pipeline
             var day = new Day()
             {
             };
+
             day.MorningReadings.OptionOne.Psalms.OptionOne.RawString = dayValue;
+
 
             var ruleData = new RuleData()
             {
@@ -229,3 +237,6 @@ namespace Tests.Model.Pipeline
         }
     }
 }
+
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8625

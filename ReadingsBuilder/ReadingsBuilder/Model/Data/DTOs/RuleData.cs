@@ -1,11 +1,10 @@
-﻿
-namespace ReadingsBuilder.Model
+﻿namespace ReadingsBuilder.Model.Data.DTOs
 {
     public class RuleData
     {
         public RuleData()
         {
-            RotatingReadings = new Dictionary<RotatingReadingType, string>();
+            RotatingReadings = new Dictionary<RotatingReadingType, string?>();
         }
 
         public string? HandlingClassName { get; set; }
@@ -35,22 +34,22 @@ namespace ReadingsBuilder.Model
         public string? EveningNewTestament { get; set; }
 
         public string? MorningPsalmsMain { get; set; }
-       
+
         public string? EveningPsalmsMain { get; set; }
 
-        public bool HasRotatingReadings 
-        { 
-            get 
+        public bool HasRotatingReadings
+        {
+            get
             {
                 if (RotatingReadings.Count == 0) return false;
 
-                return                    
-                    RotatingReadings[RotatingReadingType.OldTestament1] != null && 
+                return
+                    RotatingReadings[RotatingReadingType.OldTestament1] != null &&
                     RotatingReadings[RotatingReadingType.NewTestament1] != null &&  // 2a is empty when it is seasonal time (so I'm excluding it from the check)
                     RotatingReadings[RotatingReadingType.OldTestament2b] != null &&
-                    RotatingReadings[RotatingReadingType.NewTestament2] != null;  
-        
-            } 
+                    RotatingReadings[RotatingReadingType.NewTestament2] != null;
+
+            }
         }
 
         public bool HasSetReadings
@@ -75,7 +74,8 @@ namespace ReadingsBuilder.Model
             }
         }
 
-        public bool HasMorningPsalms {
+        public bool HasMorningPsalms
+        {
 
             get
             {
@@ -98,7 +98,10 @@ namespace ReadingsBuilder.Model
         }
 
     }
+}
 
+namespace ReadingsBuilder.Model
+{
     public enum RotatingReadingType
     {
         OldTestament1,
@@ -108,7 +111,8 @@ namespace ReadingsBuilder.Model
         NewTestament2
     }
 
-    public enum RuleType { 
+    public enum RuleType
+    {
         Unknown,
         ByDayOfWeek,
         ByDayOfMonth

@@ -1,4 +1,5 @@
 ﻿
+using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Mappers;
 
 namespace ReadingsBuilder.Model.Data
