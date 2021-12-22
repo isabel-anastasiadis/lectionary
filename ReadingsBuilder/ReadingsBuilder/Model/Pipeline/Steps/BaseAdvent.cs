@@ -1,54 +1,20 @@
 ﻿
 
 using ReadingsBuilder.Model.Data;
-using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
-    public class BaseAdvent : IStep
+    public class BaseAdvent : BaseStep, IStep
     {
         public int Order => 1;
 
-        public const string Name = "BaseAdvent.cs";
+        protected override string RuleSetName => "BaseAdvent.cs";
 
-        public readonly List<RuleData> ApplicableRules;
 
-        public readonly List<RotatingReadingMapping> RotatingReadingMappings;
-        private readonly IRuleApplier ruleApplier;
-
-        public BaseAdvent(IRuleApplier ruleApplier, IAllDataFactory dataFactory)
+        public BaseAdvent(IRuleApplier ruleApplier, IAllDataFactory dataFactory) 
+            : base(ruleApplier, dataFactory)
         {
-            if (dataFactory == null)
-            {
-                throw new ArgumentNullException(nameof(dataFactory));
-            }
-
-            var allData = dataFactory.GenerateAllData();
-
-            if(allData.RotatingReadingMappings == null){ 
-                throw new ArgumentNullException(nameof(allData.RotatingReadingMappings));
-            }
-
-            if(allData.RuleData == null)
-            {
-                throw new ArgumentNullException(nameof(allData.RuleData));
-            }
-
-            RotatingReadingMappings = allData.RotatingReadingMappings;
-
-            ApplicableRules = allData.RuleData?
-                .Where(x => x.HandlingClassName == Name)
-                .Where(x => x.RuleType == RuleType.ByDayOfWeek)
-                .OrderBy(x => x.RowNumberInRuleSet)
-                .ToList() ?? new List<RuleData>();
-
-            if (!ApplicableRules.Any()) 
-            {
-                throw new ArgumentException("No matching rules were passed in");
-            }
-
-            this.ruleApplier = ruleApplier;
         }
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
@@ -89,15 +55,8 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
             }
 
-
             return workingResult;
         }
 
-
-        private void ApplyRuleToDay(Day day, RuleData ruleData) 
-        {
-            var rotatingReadingMapping = RotatingReadingMappings.Where(x => x.Year == day.Date.Year).First();
-            ruleApplier.ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
-        }
     }
 }

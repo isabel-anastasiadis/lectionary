@@ -45,8 +45,8 @@
 
                 return
                     RotatingReadings[RotatingReadingType.OldTestament1] != null &&
-                    RotatingReadings[RotatingReadingType.NewTestament1] != null &&  // 2a is empty when it is seasonal time (so I'm excluding it from the check)
-                    RotatingReadings[RotatingReadingType.OldTestament2b] != null &&
+                    RotatingReadings[RotatingReadingType.NewTestament1] != null &&  // 2b is empty when it is seasonal time (so I'm excluding it from the check)
+                    RotatingReadings[RotatingReadingType.OldTestament2a] != null &&
                     RotatingReadings[RotatingReadingType.NewTestament2] != null;
 
             }

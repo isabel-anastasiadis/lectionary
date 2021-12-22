@@ -2,6 +2,8 @@
 using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
+
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
 namespace ReadingsBuilder.Model.Pipeline
 {
     public class RuleApplier : IRuleApplier
@@ -15,10 +17,10 @@ namespace ReadingsBuilder.Model.Pipeline
 
             ApplyPsalms(ruleData, day);
 
-            if (ruleData.HasRotatingReadings)
-            {
-                ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
-            }
+            ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+
+            ApplySetReadings(ruleData, day);
+
         }
 
         public void ApplyDayDescription(RuleData ruleData, Day day)
@@ -54,6 +56,11 @@ namespace ReadingsBuilder.Model.Pipeline
 
         public void ApplyRotatingReadings(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day)
         {
+            if (!ruleData.HasRotatingReadings) 
+            {
+                return;
+            }
+
             if (rotatingReadingMapping == null)
             {
                 throw new ArgumentNullException(nameof(rotatingReadingMapping));
@@ -68,7 +75,9 @@ namespace ReadingsBuilder.Model.Pipeline
             var value = day.IsSeasonalTime.Value
                 ? ruleData.RotatingReadings[rotatingReadingMapping.MorningOldTestamentSeasonal]
                 : ruleData.RotatingReadings[rotatingReadingMapping.MorningOldTestamentOrdinary];
+
             day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = value;
+
 
             // morning new testament
             value = ruleData.RotatingReadings[rotatingReadingMapping.MorningNewTestament];
@@ -87,5 +96,30 @@ namespace ReadingsBuilder.Model.Pipeline
 
         }
 
+        public void ApplySetReadings(RuleData ruleData, Day day) 
+        {
+            if (ruleData.MorningOldTestament != null)
+            {
+                day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = ruleData.MorningOldTestament;
+            }
+
+            if (ruleData.MorningNewTestament != null)
+            {
+                day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString = ruleData.MorningNewTestament;
+            }
+
+            if (ruleData.EveningOldTestament != null)
+            {
+                day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = ruleData.EveningOldTestament;
+            }
+
+            if (ruleData.EveningNewTestament != null)
+            {
+                day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = ruleData.EveningNewTestament;
+            }
+        }
+
     }
 }
+
+#pragma warning restore CS8602 // Dereference of a possibly null reference.

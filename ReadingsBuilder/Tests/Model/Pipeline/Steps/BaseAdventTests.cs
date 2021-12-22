@@ -16,52 +16,54 @@ namespace Tests.Model.Pipeline.Steps
     public class BaseAdventTests
     {
 
+        private const string ClassName = "BaseAdvent.cs";
+
         private List<RuleData> _defaultRules = new List<RuleData>() {
             new RuleData(){
                     RowNumberInRuleSet = 0,
-                    HandlingClassName = BaseAdvent.Name,
+                    HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "First Sunday of advent",
                     Weekday = DayOfWeek.Sunday
             },
             new RuleData(){
                     RowNumberInRuleSet = 1,
-                    HandlingClassName = BaseAdvent.Name,
+                    HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Monday in first week of advent",
                     Weekday = DayOfWeek.Monday
             },
             new RuleData(){
                     RowNumberInRuleSet = 1,
-                    HandlingClassName = BaseAdvent.Name,
+                    HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Tuesday in first week of advent",
                     Weekday = DayOfWeek.Tuesday
             },
             new RuleData(){
                     RowNumberInRuleSet = 1,
-                    HandlingClassName = BaseAdvent.Name,
+                    HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Wednesday in first week of advent",
                     Weekday = DayOfWeek.Wednesday
             },
             new RuleData(){
                     RowNumberInRuleSet = 1,
-                    HandlingClassName = BaseAdvent.Name,
+                    HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Thursday in first week of advent",
                     Weekday = DayOfWeek.Thursday
             },
             new RuleData(){
                     RowNumberInRuleSet = 1,
-                    HandlingClassName = BaseAdvent.Name,
+                    HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Friday in first week of advent",
                     Weekday = DayOfWeek.Friday
             },
             new RuleData(){
                     RowNumberInRuleSet = 1,
-                    HandlingClassName = BaseAdvent.Name,
+                    HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Saturday in first week of advent",
                     Weekday = DayOfWeek.Saturday
@@ -94,7 +96,9 @@ namespace Tests.Model.Pipeline.Steps
             // act & assert
             try
             {
+#pragma warning disable CS8625 
                 new BaseAdvent(new RuleApplier(), null);
+#pragma warning restore CS8625
                 Assert.Fail("Should have thrown ArgumentNullException");
 
             }
@@ -104,7 +108,7 @@ namespace Tests.Model.Pipeline.Steps
             }
         }
 
-        [TestCase(BaseAdvent.Name, RuleType.ByDayOfWeek, true)]
+        [TestCase(ClassName, RuleType.ByDayOfWeek, true)]
         [TestCase("SomeOtherClass.cs", RuleType.ByDayOfWeek, false)]
         public void ConstructorRequiresAtLeastOneMatchingRule(string handlingClassName, RuleType ruleType, bool shouldPass)
         {

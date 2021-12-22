@@ -8,6 +8,6 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
     {
         public int Order { get; }
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult input);
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult);
     }
 }

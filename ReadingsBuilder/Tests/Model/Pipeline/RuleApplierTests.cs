@@ -235,6 +235,196 @@ namespace Tests.Model.Pipeline
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament2b], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament1], day?.EveningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
         }
+
+        [TestCase("Job 2:3-4", null, "Job 2:3-4", Description = "Happy path")]
+        [TestCase(null, "Existing reading", "Existing reading", Description = "Existing day value not overwritten by null rule value")]
+        [TestCase("Job 2:3-4", "Existing reading", "Job 2:3-4", Description = "Rule value should overwrite the existing day value")]
+        public void AppliesMorningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected) 
+        {
+            // arrange
+            var rotatingReadingMapping = new RotatingReadingMapping()
+            {
+                Year = 2021,
+                MorningNewTestament = RotatingReadingType.NewTestament1,
+                MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
+                MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
+                EveningNewTestament = RotatingReadingType.NewTestament2,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
+                EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
+            };
+
+            var day = new Day()
+            {
+            };
+            day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = existingDayValue;
+
+            var ruleData = new RuleData()
+            {
+                MorningOldTestament = ruleValue,
+            };
+
+
+            // act
+            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+
+            // assert
+            Assert.AreEqual(expected, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);
+        }
+
+        [TestCase("Job 2:3-4", null, "Job 2:3-4", Description = "Happy path")]
+        [TestCase(null, "Existing reading", "Existing reading", Description = "Existing day value not overwritten by null rule value")]
+        [TestCase("Job 2:3-4", "Existing reading", "Job 2:3-4", Description = "Rule value should overwrite the existing day value")]
+        public void AppliesMorningNewTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
+        {
+            // arrange
+            var rotatingReadingMapping = new RotatingReadingMapping()
+            {
+                Year = 2021,
+                MorningNewTestament = RotatingReadingType.NewTestament1,
+                MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
+                MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
+                EveningNewTestament = RotatingReadingType.NewTestament2,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
+                EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
+            };
+
+            var day = new Day()
+            {
+            };
+            day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString = existingDayValue;
+
+            var ruleData = new RuleData()
+            {
+                MorningNewTestament = ruleValue,
+            };
+
+
+            // act
+            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+
+            // assert
+            Assert.AreEqual(expected, day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString);
+        }
+
+        [TestCase("Job 2:3-4", null, "Job 2:3-4", Description = "Happy path")]
+        [TestCase(null, "Existing reading", "Existing reading", Description = "Existing day value not overwritten by null rule value")]
+        [TestCase("Job 2:3-4", "Existing reading", "Job 2:3-4", Description = "Rule value should overwrite the existing day value")]
+        public void AppliesEveningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
+        {
+            // arrange
+            var rotatingReadingMapping = new RotatingReadingMapping()
+            {
+                Year = 2021,
+                MorningNewTestament = RotatingReadingType.NewTestament1,
+                MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
+                MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
+                EveningNewTestament = RotatingReadingType.NewTestament2,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
+                EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
+            };
+
+            var day = new Day()
+            {
+            };
+            day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = existingDayValue;
+
+            var ruleData = new RuleData()
+            {
+                EveningOldTestament = ruleValue,
+            };
+
+
+            // act
+            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+
+            // assert
+            Assert.AreEqual(expected, day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString);
+        }
+
+        [TestCase("Job 2:3-4", null, "Job 2:3-4", Description = "Happy path")]
+        [TestCase(null, "Existing reading", "Existing reading", Description = "Existing day value not overwritten by null rule value")]
+        [TestCase("Job 2:3-4", "Existing reading", "Job 2:3-4", Description = "Rule value should overwrite the existing day value")]
+        public void AppliesEveningNewTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
+        {
+            // arrange
+            var rotatingReadingMapping = new RotatingReadingMapping()
+            {
+                Year = 2021,
+                MorningNewTestament = RotatingReadingType.NewTestament1,
+                MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
+                MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
+                EveningNewTestament = RotatingReadingType.NewTestament2,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
+                EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
+            };
+
+            var day = new Day()
+            {
+            };
+            day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = existingDayValue;
+
+            var ruleData = new RuleData()
+            {
+                EveningNewTestament = ruleValue,
+            };
+
+
+            // act
+            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+
+            // assert
+            Assert.AreEqual(expected, day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString);
+        }
+
+        [Test]
+        public void SetReadingsOverrideRotatingReadingsWhenBothAreProvided()
+        {
+            // arrange
+            var expectedMorningOldTestament = "Job 2:3-4";
+            var expectedMorningNewTestament = "Mark 4:2-6";
+            var expectedEveningOldTestament = "Exodus 12:23-27";
+            var expectedEveningNewTestament = "John 3:16-19";
+
+            var rotatingReadingMapping = new RotatingReadingMapping()
+            {
+                Year = 2021,
+                MorningNewTestament = RotatingReadingType.NewTestament1,
+                MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
+                MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
+                EveningNewTestament = RotatingReadingType.NewTestament2,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
+                EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
+            };
+
+            var day = new Day();
+  
+            var ruleData = new RuleData()
+            {
+                IsSeasonalTime = true,
+                MorningOldTestament = expectedMorningOldTestament,
+                MorningNewTestament = expectedMorningNewTestament,
+                EveningOldTestament = expectedEveningOldTestament,
+                EveningNewTestament = expectedEveningNewTestament,
+                RotatingReadings = new Dictionary<RotatingReadingType, string?>() 
+                {
+                    { RotatingReadingType.OldTestament1, "Rotating reading" },
+                    { RotatingReadingType.OldTestament2a, "Rotating reading" },
+                    { RotatingReadingType.OldTestament2b, "Rotating reading" },
+                    { RotatingReadingType.NewTestament1, "Rotating reading" },
+                    { RotatingReadingType.NewTestament2, "Rotating reading" }
+                }    
+            };
+
+
+            // act
+            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+
+            // assert
+            Assert.AreEqual(expectedMorningOldTestament, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);
+            Assert.AreEqual(expectedMorningNewTestament, day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString);
+            Assert.AreEqual(expectedEveningOldTestament, day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString);
+            Assert.AreEqual(expectedEveningNewTestament, day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString);
+        }
     }
 }
 
