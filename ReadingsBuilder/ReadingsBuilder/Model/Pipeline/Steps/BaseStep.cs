@@ -55,7 +55,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
         protected void ApplyRuleToDay(Day day, RuleData ruleData)
         {
-            var rotatingReadingMapping = RotatingReadingMappings.Where(x => x.Year == day.Date.Year).First();
+            var rotatingReadingMapping = RotatingReadingMappings.Where(x => x.FirstDay <= day.Date && x.LastDay >= day.Date).First();
             RuleApplier.ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
         }
 

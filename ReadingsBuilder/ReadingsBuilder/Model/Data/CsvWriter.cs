@@ -20,10 +20,10 @@ namespace ReadingsBuilder.Model.Data
 
                     if (column.Contains(','))
                     {
-                        escapedRow.Add($"\"{column}\"");
+                        escapedRow.Add($"\"{column.Trim()}\"");
                     }
                     else { 
-                        escapedRow.Add(column);
+                        escapedRow.Add(column.Trim());
                     }
                 
                 }

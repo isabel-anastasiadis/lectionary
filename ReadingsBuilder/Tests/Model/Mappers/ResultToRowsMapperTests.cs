@@ -141,7 +141,7 @@ namespace Tests.Model.Mappers
                                 OptionOne = new MorningReadings(){ 
                                      Psalms = new Option<Reading, ReadingOptionType>(){ 
                                         OptionOne = new Reading{ 
-                                            RawString = "69"
+                                            RawString = "Psalm 69"
                                         }
                                      },
                                      OldTestament = new Option<Reading, ReadingOptionType>(){
@@ -187,7 +187,7 @@ namespace Tests.Model.Mappers
                                 OptionOne = new EveningReadings(){
                                      Psalms = new Option<Reading, ReadingOptionType>(){
                                         OptionOne = new Reading{
-                                            RawString = "69"
+                                            RawString = "Psalm 69"
                                         }
                                      },
                                      OldTestament = new Option<Reading, ReadingOptionType>(){

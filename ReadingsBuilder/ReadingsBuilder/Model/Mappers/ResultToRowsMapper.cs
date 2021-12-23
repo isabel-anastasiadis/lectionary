@@ -61,7 +61,7 @@ namespace ReadingsBuilder.Model.Mappers
 
         private string MapMorningReadings(Option<MorningReadings,ReadingsOptionType>? morningReadings) {
 
-            var psalm = $"Psalm {morningReadings?.OptionOne?.Psalms?.OptionOne?.RawString}";
+            var psalm = $"{morningReadings?.OptionOne?.Psalms?.OptionOne?.RawString}";
             var oldTestament = $"{morningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString}";
             var newTestament = $"{morningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString}";
             return $"{psalm}; {oldTestament}; {newTestament}";
@@ -69,7 +69,7 @@ namespace ReadingsBuilder.Model.Mappers
 
         private string MapEveningReadings(Option<EveningReadings, ReadingsOptionType>? eveningReadings)
         {
-            var psalm = $"Psalm {eveningReadings?.OptionOne?.Psalms?.OptionOne?.RawString}";
+            var psalm = $"{eveningReadings?.OptionOne?.Psalms?.OptionOne?.RawString}";
             var oldTestament = $"{eveningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString}";
             var newTestament = $"{eveningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString}";
             return $"{psalm}; {oldTestament}; {newTestament}";

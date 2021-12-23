@@ -2,8 +2,9 @@
 {
     public class RotatingReadingMapping
     {
+        public DateOnly FirstDay { get; set; }
 
-        public int Year { get; set; }
+        public DateOnly LastDay { get; set; }    
 
         public RotatingReadingType MorningOldTestamentOrdinary { get; set; }
 
