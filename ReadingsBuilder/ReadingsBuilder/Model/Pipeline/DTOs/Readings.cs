@@ -1,13 +1,13 @@
-using ReadingsBuilder.Model.Pipeline.DTOs;
-
-namespace ReadingsBuilder.Model
+namespace ReadingsBuilder.Model.Pipeline.DTOs
 {
 
-    public enum ReadingOptionType { 
+    public enum ReadingOptionType
+    {
         Default
     }
 
-    public class MorningReadings {
+    public class MorningReadings
+    {
 
         public MorningReadings()
         {
@@ -16,11 +16,11 @@ namespace ReadingsBuilder.Model
             NewTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
         }
 
-        public Option<Reading, ReadingOptionType>? Psalms {get; set;}
+        public Option<Reading, ReadingOptionType>? Psalms { get; set; }
 
-        public Option<Reading, ReadingOptionType>? OldTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? OldTestament { get; set; }
 
-        public Option<Reading, ReadingOptionType>? NewTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? NewTestament { get; set; }
 
         public override string ToString()
         {
@@ -28,7 +28,8 @@ namespace ReadingsBuilder.Model
         }
     }
 
-    public class EveningReadings {
+    public class EveningReadings
+    {
 
         public EveningReadings()
         {
@@ -39,13 +40,13 @@ namespace ReadingsBuilder.Model
 
 
         // Often the readings for the evening before a feast/festival are also themed
-        public string? ReadingsDescription {get; set;}
+        public string? ReadingsDescription { get; set; }
 
-        public Option<Reading, ReadingOptionType>? Psalms {get; set;}
+        public Option<Reading, ReadingOptionType>? Psalms { get; set; }
 
-        public Option<Reading, ReadingOptionType>? OldTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? OldTestament { get; set; }
 
-        public Option<Reading, ReadingOptionType>? NewTestament {get; set;}
+        public Option<Reading, ReadingOptionType>? NewTestament { get; set; }
 
         public override string ToString()
         {
@@ -54,11 +55,12 @@ namespace ReadingsBuilder.Model
     }
 
 
-    public class Reading {
+    public class Reading
+    {
 
         public string? RawString { get; set; }
 
-        public bool IsOptional {get; set;}
+        public bool IsOptional { get; set; }
 
         public override string ToString()
         {
