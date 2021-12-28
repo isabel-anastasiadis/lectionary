@@ -59,7 +59,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             RuleApplier.ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
         }
 
-        protected PipelineWorkingResult RunStepByDayOfMonth(PipelineWorkingResult workingResult)
+        protected PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult)
         {
 
             if (workingResult == null)
@@ -92,6 +92,34 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             return workingResult;
         }
 
+        protected PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult, DateOnly dateOfFirstDayRuleAppliesTo, RuleData? ruleDataToStartWith) 
+        {
 
+            if (ruleDataToStartWith != null)
+            {
+                var indexOfFirstRuleToStartWith = ApplicableRules.IndexOf(ruleDataToStartWith);
+                var currentDate = dateOfFirstDayRuleAppliesTo;
+
+                for (int i = indexOfFirstRuleToStartWith; i < Math.Min(ApplicableRules.Count, indexOfFirstRuleToStartWith + workingResult.Result.Count); i++)
+                {
+                    var ruleData = ApplicableRules[i];
+                    var day = workingResult.Result[currentDate].OptionOne;
+
+                    if (day == null)
+                    {
+                        throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
+                    }
+
+                    ApplyRuleToDay(day, ruleData);
+
+                    currentDate = currentDate.AddDays(1);
+
+                }
+
+            }
+
+            return workingResult;
+
+        }
     }
 }

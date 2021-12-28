@@ -32,30 +32,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
             var ruleDataToStartWith = ApplicableRules.GetRange(0, 7).FirstOrDefault(x => x.Weekday == firstDayInYear.DayOfWeek);
 
-            if (ruleDataToStartWith != null) 
-            {
-                var indexOfFirstRuleToStartWith = ApplicableRules.IndexOf(ruleDataToStartWith);
-                var currentDate = firstDayInYear;
-
-                for (int i = indexOfFirstRuleToStartWith; i < indexOfFirstRuleToStartWith + workingResult.Result.Count; i++) 
-                { 
-                    var ruleData = ApplicableRules[i];
-                    var day = workingResult.Result[currentDate].OptionOne;
-
-                    if (day == null) 
-                    {
-                        throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
-                    }
-
-                    ApplyRuleToDay(day, ruleData);
-
-                    currentDate = currentDate.AddDays(1);
-                
-                }
-
-            }
-
-            return workingResult;
+            return ApplyRulesByDayOfWeek(workingResult, firstDayInYear, ruleDataToStartWith);
         }
 
     }

@@ -16,7 +16,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
         {
-            return RunStepByDayOfMonth(workingResult);
+            return ApplyRulesByDayOfMonth(workingResult);
         }
     }
 }
