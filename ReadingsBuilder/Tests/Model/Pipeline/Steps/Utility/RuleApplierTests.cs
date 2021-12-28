@@ -5,13 +5,13 @@ using NUnit.Framework;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Mappers;
-using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
 #pragma warning disable CS8625
 
-namespace Tests.Model.Pipeline
+namespace Tests.Model.Pipeline.Steps.Utility
 {
 
     public class RuleApplierTests
@@ -19,14 +19,14 @@ namespace Tests.Model.Pipeline
 
         private Mock<IRotatingReadingMappingProvider>? rotatingReadingMappingProviderMock;
 
-        private RuleApplier ClassUnderTest(RotatingReadingMapping? rotatingReadingMapping = null) 
+        private RuleApplier ClassUnderTest(RotatingReadingMapping? rotatingReadingMapping = null)
         {
-            RotatingReadingMapping mappingToUse = rotatingReadingMapping 
+            RotatingReadingMapping mappingToUse = rotatingReadingMapping
                 ?? new Mock<RotatingReadingMapping>().Object;
 
-            this.rotatingReadingMappingProviderMock = new Mock<IRotatingReadingMappingProvider>();
+            rotatingReadingMappingProviderMock = new Mock<IRotatingReadingMappingProvider>();
 
-            this.rotatingReadingMappingProviderMock
+            rotatingReadingMappingProviderMock
                 .Setup(m => m.GetApplicableMapping(It.IsAny<DateOnly>()))
                 .Returns(mappingToUse);
 
@@ -61,9 +61,9 @@ namespace Tests.Model.Pipeline
         }
 
         [TestCase("6", null, "Psalm 6", Description = "Happy path")]
-        [TestCase(null, "Psalm 6" , "Psalm 6", Description = "Preexisting day value not overridden")]
+        [TestCase(null, "Psalm 6", "Psalm 6", Description = "Preexisting day value not overridden")]
         [TestCase("8", "Psalm 6", "Psalm 8", Description = "Rule value trumps preexisting day value")]
-        public void AppliesEveningPsalmsCorrectly(string? ruleValue, string? dayValue, string? expectedValue) 
+        public void AppliesEveningPsalmsCorrectly(string? ruleValue, string? dayValue, string? expectedValue)
         {
             // arrange
             var day = new Day()
@@ -137,7 +137,8 @@ namespace Tests.Model.Pipeline
 
 
         [Test]
-        public void AppliesRotatingNewTestamentReadingsCorrectly() {
+        public void AppliesRotatingNewTestamentReadingsCorrectly()
+        {
 
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
@@ -255,7 +256,7 @@ namespace Tests.Model.Pipeline
         [TestCase("Job 2:3-4", null, "Job 2:3-4", Description = "Happy path")]
         [TestCase(null, "Existing reading", "Existing reading", Description = "Existing day value not overwritten by null rule value")]
         [TestCase("Job 2:3-4", "Existing reading", "Job 2:3-4", Description = "Rule value should overwrite the existing day value")]
-        public void AppliesMorningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected) 
+        public void AppliesMorningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
@@ -408,7 +409,7 @@ namespace Tests.Model.Pipeline
             };
 
             var day = new Day();
-  
+
             var ruleData = new RuleData()
             {
                 IsSeasonalTime = true,
@@ -416,14 +417,14 @@ namespace Tests.Model.Pipeline
                 MorningNewTestament = expectedMorningNewTestament,
                 EveningOldTestament = expectedEveningOldTestament,
                 EveningNewTestament = expectedEveningNewTestament,
-                RotatingReadings = new Dictionary<RotatingReadingType, string?>() 
+                RotatingReadings = new Dictionary<RotatingReadingType, string?>()
                 {
                     { RotatingReadingType.OldTestament1, "Rotating reading" },
                     { RotatingReadingType.OldTestament2a, "Rotating reading" },
                     { RotatingReadingType.OldTestament2b, "Rotating reading" },
                     { RotatingReadingType.NewTestament1, "Rotating reading" },
                     { RotatingReadingType.NewTestament2, "Rotating reading" }
-                }    
+                }
             };
 
 

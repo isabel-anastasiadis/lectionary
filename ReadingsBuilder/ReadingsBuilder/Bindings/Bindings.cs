@@ -4,6 +4,7 @@ using ReadingsBuilder.Model.Data;
 using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.Steps;
+using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 using SimpleInjector;
 
 namespace ReadingsBuilder.Bindings

@@ -10,6 +10,7 @@ using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 using ReadingsBuilder.Model.Pipeline.Steps;
+using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 
 namespace Tests.Model.Pipeline.Steps
 {

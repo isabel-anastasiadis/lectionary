@@ -1,7 +1,7 @@
 ﻿using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
-namespace ReadingsBuilder.Model.Pipeline
+namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
 {
     public interface IRuleApplier
     {

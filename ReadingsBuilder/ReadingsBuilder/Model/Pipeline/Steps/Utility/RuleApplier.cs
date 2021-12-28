@@ -1,11 +1,10 @@
-﻿
-using ReadingsBuilder.Model.Data.DTOs;
+﻿using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
-namespace ReadingsBuilder.Model.Pipeline
+namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
 {
     public class RuleApplier : IRuleApplier
     {
@@ -20,7 +19,7 @@ namespace ReadingsBuilder.Model.Pipeline
         {
             var rotatingReadingMapping = _rotatingReadingMappingProvider.GetApplicableMapping(day.Date);
 
-            if (rotatingReadingMapping == null) 
+            if (rotatingReadingMapping == null)
             {
                 throw new ArgumentException($"There was no RotatingReadingMapping returned for date '{day.Date}'");
             }
@@ -70,7 +69,7 @@ namespace ReadingsBuilder.Model.Pipeline
 
         public void ApplyRotatingReadings(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day)
         {
-            if (!ruleData.HasRotatingReadings) 
+            if (!ruleData.HasRotatingReadings)
             {
                 return;
             }
@@ -110,7 +109,7 @@ namespace ReadingsBuilder.Model.Pipeline
 
         }
 
-        public void ApplySetReadings(RuleData ruleData, Day day) 
+        public void ApplySetReadings(RuleData ruleData, Day day)
         {
             if (ruleData.MorningOldTestament != null)
             {
