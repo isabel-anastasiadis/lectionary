@@ -12,6 +12,7 @@ using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 namespace Tests.Model.Pipeline.Steps.Utility
 {
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
+#pragma warning disable CS8625 // Cannot convert null literal to non-nullable reference type.
     public class ByDayOfMonthRuleSetApplierTests
     {
         private Mock<IRuleApplier>? _ruleApplierMock;
@@ -30,6 +31,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
             // act & assert
             try
             {
+
                 ClassUnderTest().ApplyRulesByDayOfMonth(null, new List<RuleData>());
                 Assert.Fail();
             }
@@ -140,4 +142,5 @@ namespace Tests.Model.Pipeline.Steps.Utility
 
     }
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8625 // Cannot convert null literal to non-nullable reference type.
 }

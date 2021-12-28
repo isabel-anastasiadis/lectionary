@@ -24,17 +24,17 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
                 throw new ArgumentNullException(nameof(workingResult));
             }
 
+            if (applicableRules == null)
+            {
+                throw new ArgumentNullException(nameof(applicableRules));
+            }
+
             if (dateOfFirstDayRuleAppliesTo == default)
             {
                 return workingResult;
             }
 
-            if (ruleDataToStartWith == null)
-            {
-                return workingResult;
-            }
-
-            var indexOfFirstRuleToStartWith = applicableRules.IndexOf(ruleDataToStartWith);
+            var indexOfFirstRuleToStartWith = ruleDataToStartWith == null ? 0 : applicableRules.IndexOf(ruleDataToStartWith);
             var currentDate = dateOfFirstDayRuleAppliesTo;
 
             for (int i = indexOfFirstRuleToStartWith; i < Math.Min(applicableRules.Count, indexOfFirstRuleToStartWith + workingResult.Result.Count); i++)
@@ -45,6 +45,10 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
                 if (day == null)
                 {
                     throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
+                }
+
+                if (day.Date.DayOfWeek != ruleData.Weekday) {
+                    throw new ArgumentException($"Expected {day.Date} to be a {ruleData.Weekday}, but it is {day.Date.DayOfWeek}.");
                 }
 
                 _ruleApplier.ApplyRuleToDay(ruleData, day);
