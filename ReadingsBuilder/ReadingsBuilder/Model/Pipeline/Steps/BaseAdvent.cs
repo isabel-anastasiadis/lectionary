@@ -25,7 +25,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             }
            
             // work out what one to start with - the rule in the first week with the same DayOfWeek
-            var firstDayInYear = workingResult.Result.Keys.OrderBy(x => x).First();
+            var firstDayInYear = workingResult.Result.Keys.OrderBy(x => x).FirstOrDefault();
             if (firstDayInYear.Month != 12 || firstDayInYear.Day != 1) {
                 throw new ArgumentException($"Expected the first day in the year to be December 1st, but it was {firstDayInYear}", nameof(workingResult.Result));
             }

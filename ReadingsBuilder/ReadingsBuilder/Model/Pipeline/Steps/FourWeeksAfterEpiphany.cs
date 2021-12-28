@@ -28,11 +28,6 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                 .Where(x => x.Month == 1 && x.Day > 6 && x.DayOfWeek == DayOfWeek.Saturday)  // The first Saturday after the 6th Jan
                 .FirstOrDefault();
 
-            if (dateOfFirstDayTheRuleAppliesTo == default(DateOnly))
-            {
-                return workingResult;
-            }
-
             var ruleDataToStartWith = ApplicableRules.FirstOrDefault();
 
             return ApplyRulesByDayOfWeek(workingResult, dateOfFirstDayTheRuleAppliesTo, ruleDataToStartWith);

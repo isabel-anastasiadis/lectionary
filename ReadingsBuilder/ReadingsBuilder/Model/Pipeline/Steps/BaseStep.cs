@@ -95,28 +95,41 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
         protected PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult, DateOnly dateOfFirstDayRuleAppliesTo, RuleData? ruleDataToStartWith) 
         {
 
-            if (ruleDataToStartWith != null)
+            if (workingResult == null)
             {
-                var indexOfFirstRuleToStartWith = ApplicableRules.IndexOf(ruleDataToStartWith);
-                var currentDate = dateOfFirstDayRuleAppliesTo;
+                throw new ArgumentNullException(nameof(workingResult));
+            }
 
-                for (int i = indexOfFirstRuleToStartWith; i < Math.Min(ApplicableRules.Count, indexOfFirstRuleToStartWith + workingResult.Result.Count); i++)
+            if (dateOfFirstDayRuleAppliesTo == default(DateOnly))
+            {
+                return workingResult;
+            }
+
+            if (ruleDataToStartWith == null)
+            {
+                return workingResult;
+            }
+
+            var indexOfFirstRuleToStartWith = ApplicableRules.IndexOf(ruleDataToStartWith);
+            var currentDate = dateOfFirstDayRuleAppliesTo;
+
+            for (int i = indexOfFirstRuleToStartWith; i < Math.Min(ApplicableRules.Count, indexOfFirstRuleToStartWith + workingResult.Result.Count); i++)
+            {
+                var ruleData = ApplicableRules[i];
+                var day = workingResult.Result[currentDate].OptionOne;
+
+                if (day == null)
                 {
-                    var ruleData = ApplicableRules[i];
-                    var day = workingResult.Result[currentDate].OptionOne;
-
-                    if (day == null)
-                    {
-                        throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
-                    }
-
-                    ApplyRuleToDay(day, ruleData);
-
-                    currentDate = currentDate.AddDays(1);
-
+                    throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
                 }
 
+                ApplyRuleToDay(day, ruleData);
+
+                currentDate = currentDate.AddDays(1);
+
             }
+
+            
 
             return workingResult;
 
