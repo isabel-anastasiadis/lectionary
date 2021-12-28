@@ -123,7 +123,6 @@ namespace Tests.Model.Pipeline
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
@@ -163,7 +162,6 @@ namespace Tests.Model.Pipeline
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
@@ -203,7 +201,6 @@ namespace Tests.Model.Pipeline
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
@@ -244,7 +241,6 @@ namespace Tests.Model.Pipeline
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
@@ -279,7 +275,6 @@ namespace Tests.Model.Pipeline
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
@@ -314,7 +309,6 @@ namespace Tests.Model.Pipeline
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
@@ -349,7 +343,6 @@ namespace Tests.Model.Pipeline
             // arrange
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
@@ -387,7 +380,6 @@ namespace Tests.Model.Pipeline
 
             var rotatingReadingMapping = new RotatingReadingMapping()
             {
-                Year = 2021,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,

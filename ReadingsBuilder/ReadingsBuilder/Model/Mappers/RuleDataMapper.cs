@@ -101,7 +101,7 @@ namespace ReadingsBuilder.Model.Mappers
                 return null;
             }
 
-            return value;
+            return value.Trim();
         }
 
         private bool? MapIsSeasonalTime(string? rawValue)
