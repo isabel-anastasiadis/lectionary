@@ -9,25 +9,18 @@ namespace ReadingsBuilder.Model.Data
         public static string DEFAULT_CSV_FILE_PATH = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\All Rules.csv";
         private readonly ICsvReader csvReader;
         private readonly IRuleDataMapper ruleDataMapper;
-        private readonly IRotatingReadingMappingProvider rotatingReadingMappingProvider;
+
 
         public AllDataFactory(ICsvReader csvReader, 
-            IRuleDataMapper ruleDataMapper, 
-            IRotatingReadingMappingProvider rotatingReadingMappingProvider)
+            IRuleDataMapper ruleDataMapper)
         {
             this.csvReader = csvReader;
             this.ruleDataMapper = ruleDataMapper;
-            this.rotatingReadingMappingProvider = rotatingReadingMappingProvider;
         }
 
-        public AllData GenerateAllData(string? csvFilePath = null)
+        public List<RuleData> GenerateAllData(string? csvFilePath = null)
         {
-            var result = new AllData();
-
-            result.RuleData = ruleDataMapper.MapRowsToRuleData(csvReader.ReadRows(csvFilePath ?? DEFAULT_CSV_FILE_PATH));
-            result.RotatingReadingMappings = rotatingReadingMappingProvider.RotatingReadingMappings();
-
-            return result;
+            return ruleDataMapper.MapRowsToRuleData(csvReader.ReadRows(csvFilePath ?? DEFAULT_CSV_FILE_PATH));
         }
 
 

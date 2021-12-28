@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Data.DTOs;
+using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
@@ -14,6 +16,23 @@ namespace Tests.Model.Pipeline
 
     public class RuleApplierTests
     {
+
+        private Mock<IRotatingReadingMappingProvider>? rotatingReadingMappingProviderMock;
+
+        private RuleApplier ClassUnderTest(RotatingReadingMapping? rotatingReadingMapping = null) 
+        {
+            RotatingReadingMapping mappingToUse = rotatingReadingMapping 
+                ?? new Mock<RotatingReadingMapping>().Object;
+
+            this.rotatingReadingMappingProviderMock = new Mock<IRotatingReadingMappingProvider>();
+
+            this.rotatingReadingMappingProviderMock
+                .Setup(m => m.GetApplicableMapping(It.IsAny<DateOnly>()))
+                .Returns(mappingToUse);
+
+            return new RuleApplier(rotatingReadingMappingProviderMock.Object);
+        }
+
         [TestCase("6", null, "Psalm 6", Description = "Happy path")]
         [TestCase(null, "Psalm 6", "Psalm 6", Description = "Preexisting day value not overridden")]
         [TestCase("8", "Psalm 6", "Psalm 8", Description = "Rule value trumps preexisting day value")]
@@ -34,7 +53,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyPsalms(ruleData, day);
+            ClassUnderTest().ApplyPsalms(ruleData, day);
 
             // assert
             Assert.AreEqual(expectedValue, day.MorningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -59,7 +78,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyPsalms(ruleData, day);
+            ClassUnderTest().ApplyPsalms(ruleData, day);
 
             // assert
             Assert.AreEqual(expectedValue, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -85,7 +104,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyRuleToDay(null, ruleData, day);
+            ClassUnderTest().ApplyRuleToDay(ruleData, day);
 
             // assert
             Assert.AreEqual(expectedValue, day.DayDescription);
@@ -110,7 +129,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyIsSeasonalTime(ruleData, day);
+            ClassUnderTest().ApplyIsSeasonalTime(ruleData, day);
 
             // assert
             Assert.AreEqual(expectedValue, day.IsSeasonalTime);
@@ -148,7 +167,7 @@ namespace Tests.Model.Pipeline
             };
 
             // act
-            new RuleApplier().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
 
             // assert
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.NewTestament1], day?.MorningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
@@ -187,7 +206,7 @@ namespace Tests.Model.Pipeline
             };
 
             // act
-            new RuleApplier().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
 
             // assert
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament2a], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
@@ -226,7 +245,7 @@ namespace Tests.Model.Pipeline
             };
 
             // act
-            new RuleApplier().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
 
             // assert
             Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament2b], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
@@ -261,7 +280,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
 
             // assert
             Assert.AreEqual(expected, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);
@@ -295,7 +314,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
 
             // assert
             Assert.AreEqual(expected, day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString);
@@ -329,7 +348,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString);
@@ -363,7 +382,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString);
@@ -409,7 +428,7 @@ namespace Tests.Model.Pipeline
 
 
             // act
-            new RuleApplier().ApplyRuleToDay(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
 
             // assert
             Assert.AreEqual(expectedMorningOldTestament, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);

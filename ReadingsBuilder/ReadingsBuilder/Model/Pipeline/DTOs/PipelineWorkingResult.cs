@@ -12,7 +12,7 @@ namespace ReadingsBuilder.Model.Pipeline.DTOs
 
         public Input? Input { get; set; }
 
-        public AllData? AllData { get; set; }
+        public List<RuleData>? AllRuleData { get; set; }
 
         public Dictionary<DateOnly, Option<Day, DayOptionType>> Result { get; }
 

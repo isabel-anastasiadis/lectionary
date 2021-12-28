@@ -80,7 +80,7 @@ namespace ReadingsBuilder.Model.Mappers
                     ruleData.Day = day;
                 }
 
-                if (Enum.TryParse(typeof(RuleType), row[(int)ColumnIndexes.RuleType], out object ruleTypeObject))
+                if (Enum.TryParse(typeof(RuleType), row[(int)ColumnIndexes.RuleType], out object? ruleTypeObject))
                 {
                     ruleData.RuleType = (RuleType?)ruleTypeObject;
                 }

@@ -1,45 +1,19 @@
 ﻿
-using ReadingsBuilder.Model.Data;
 using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
-namespace ReadingsBuilder.Model.Pipeline.Steps
+namespace ReadingsBuilder.Model.Pipeline
 {
-    public abstract class BaseStep
+    public class RuleSetApplier
     {
-        protected readonly List<RuleData> ApplicableRules;
+        private readonly IRuleApplier ruleApplier;
 
-        protected readonly IRuleApplier RuleApplier;
-
-        protected abstract string RuleSetName { get; }
-
-        public BaseStep(IRuleApplier ruleApplier, IAllDataFactory dataFactory)
+        public RuleSetApplier(IRuleApplier ruleApplier)
         {
-            RuleApplier = ruleApplier;
-
-            if (dataFactory == null)
-            {
-                throw new ArgumentNullException(nameof(dataFactory));
-            }
-
-            var allData = dataFactory.GenerateAllData();
-
-            ApplicableRules = allData
-                .Where(x => ShouldIncludeRule(x))
-                .OrderBy(x => x.RowNumberInRuleSet)
-                .ToList() ?? new List<RuleData>();
-
-            if (!ApplicableRules.Any())
-            {
-                throw new ArgumentException("No matching rules were passed in");
-            }
+            this.ruleApplier = ruleApplier;
         }
 
-        protected virtual bool ShouldIncludeRule(RuleData ruleData) {
-            return ruleData.HandlingClassName == this.RuleSetName;
-        }
-
-        protected PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult)
+        protected PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, List<RuleData> applicableRules)
         {
 
             if (workingResult == null)
@@ -47,7 +21,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                 throw new ArgumentNullException(nameof(workingResult));
             }
 
-            foreach (var rule in ApplicableRules)
+            foreach (var rule in applicableRules)
             {
 
                 var possibleDates = workingResult.Result.Keys.Where(date => date.Month == rule.Month && date.Day == rule.Day).ToList();
@@ -64,7 +38,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
                     if (day != null)
                     {
-                        RuleApplier.ApplyRuleToDay(rule, day);
+                        //ApplyRuleToDay(day, rule);
                     }
                 }
             }
@@ -72,7 +46,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             return workingResult;
         }
 
-        protected PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult, DateOnly dateOfFirstDayRuleAppliesTo, RuleData? ruleDataToStartWith) 
+        protected PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult, List<RuleData> applicableRules, DateOnly dateOfFirstDayRuleAppliesTo, RuleData? ruleDataToStartWith)
         {
 
             if (workingResult == null)
@@ -90,12 +64,12 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                 return workingResult;
             }
 
-            var indexOfFirstRuleToStartWith = ApplicableRules.IndexOf(ruleDataToStartWith);
+            var indexOfFirstRuleToStartWith = applicableRules.IndexOf(ruleDataToStartWith);
             var currentDate = dateOfFirstDayRuleAppliesTo;
 
-            for (int i = indexOfFirstRuleToStartWith; i < Math.Min(ApplicableRules.Count, indexOfFirstRuleToStartWith + workingResult.Result.Count); i++)
+            for (int i = indexOfFirstRuleToStartWith; i < Math.Min(applicableRules.Count, indexOfFirstRuleToStartWith + workingResult.Result.Count); i++)
             {
-                var ruleData = ApplicableRules[i];
+                var ruleData = applicableRules[i];
                 var day = workingResult.Result[currentDate].OptionOne;
 
                 if (day == null)
@@ -103,16 +77,15 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                     throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
                 }
 
-                RuleApplier.ApplyRuleToDay(ruleData, day);
+                //ApplyRuleToDay(day, ruleData);
 
                 currentDate = currentDate.AddDays(1);
 
             }
 
-            
-
             return workingResult;
 
         }
+
     }
 }

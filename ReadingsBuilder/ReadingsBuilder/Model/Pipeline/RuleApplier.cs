@@ -1,5 +1,6 @@
 ﻿
 using ReadingsBuilder.Model.Data.DTOs;
+using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
 
@@ -8,8 +9,21 @@ namespace ReadingsBuilder.Model.Pipeline
 {
     public class RuleApplier : IRuleApplier
     {
-        public void ApplyRuleToDay(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day)
+        private readonly IRotatingReadingMappingProvider _rotatingReadingMappingProvider;
+
+        public RuleApplier(IRotatingReadingMappingProvider rotatingReadingMappingProvider)
         {
+            _rotatingReadingMappingProvider = rotatingReadingMappingProvider;
+        }
+
+        public void ApplyRuleToDay(RuleData ruleData, Day day)
+        {
+            var rotatingReadingMapping = _rotatingReadingMappingProvider.GetApplicableMapping(day.Date);
+
+            if (rotatingReadingMapping == null) 
+            {
+                throw new ArgumentException($"There was no RotatingReadingMapping returned for date '{day.Date}'");
+            }
 
             ApplyDayDescription(ruleData, day);
 

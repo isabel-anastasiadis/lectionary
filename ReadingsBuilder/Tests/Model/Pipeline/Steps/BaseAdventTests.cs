@@ -72,18 +72,12 @@ namespace Tests.Model.Pipeline.Steps
 
         private BaseAdvent ClassUnderTest(List<RuleData>? ruleData = null)
         {
-
-
-            var allData = new AllData 
-            { 
-                RuleData = ruleData ?? _defaultRules, 
-                RotatingReadingMappings = new RotatingReadingMappingProvider().RotatingReadingMappings() 
-            };
+            var allData = ruleData ?? _defaultRules;
 
             var dataFactoryMock = new Mock<IAllDataFactory>();
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
-            return new BaseAdvent(new RuleApplier(), dataFactoryMock.Object);
+            return new BaseAdvent(new RuleApplier(new RotatingReadingMappingProvider()), dataFactoryMock.Object);
         }
 
 
@@ -97,7 +91,7 @@ namespace Tests.Model.Pipeline.Steps
             try
             {
 #pragma warning disable CS8625 
-                new BaseAdvent(new RuleApplier(), null);
+                new BaseAdvent(Mock.Of<IRuleApplier>(), null);
 #pragma warning restore CS8625
                 Assert.Fail("Should have thrown ArgumentNullException");
 
