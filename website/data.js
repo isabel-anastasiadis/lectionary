@@ -8157,9 +8157,9 @@ class Data {  data = {
             "readings": [
                 "Psalm 75",
                 "Isaiah 40:1\u201311",
-                "Luke 1:1\u201315"
+                "Luke 1:1\u201325"
             ],
-            "reading_link": "Psalm+75%3B+Isaiah+40:1-11%3B+Luke+1:1-15",
+            "reading_link": "Psalm+75%3B+Isaiah+40:1-11%3B+Luke+1:1-25",
             "audio_link": "Ps.75,Isa.40,Luke.1"
         }
     },
@@ -8311,9 +8311,9 @@ class Data {  data = {
             "readings": [
                 "Psalm 50:1\u20136",
                 "Isaiah 35",
-                "Luke 1:57\u201366,67\u201380"
+                "Luke 1:57\u201366"
             ],
-            "reading_link": "Psalm+50:1-6%3B+Isaiah+35%3B+Luke+1:57-66,67-80",
+            "reading_link": "Psalm+50:1-6%3B+Isaiah+35%3B+Luke+1:57-66",
             "audio_link": "Ps.50,Isa.35,Luke.1"
         }
     },
@@ -8326,7 +8326,7 @@ class Data {  data = {
                 "Isaiah 38:1\u20138,38:21\u201322",
                 "Matthew 16:13\u2013end"
             ],
-            "reading_link": "Psalm+40%3B+Isaiah+38:1-8,38:21-22+%3B+Matthew+16:13-",
+            "reading_link": "Psalm+40%3B+Isaiah+38:1-8,38:21-22%3B+Matthew+16:13-",
             "audio_link": "Ps.40,Isa.38,Matt.16"
         },
         "evening": {
@@ -8348,7 +8348,7 @@ class Data {  data = {
                 "Isaiah 38:9\u201320",
                 "Matthew 17:1\u201313"
             ],
-            "reading_link": "Psalm+70%3B+Isaiah+38:9-20+%3B+Matthew+17:1-13",
+            "reading_link": "Psalm+70%3B+Isaiah+38:9-20%3B+Matthew+17:1-13",
             "audio_link": "Ps.70,Isa.38,Matt.17"
         },
         "evening": {
@@ -8563,7 +8563,7 @@ class Data {  data = {
     },
     "2021/12/24": {
         "date_pretty": "Friday, December 24, 2021",
-        "day_description": "Week of 4th Sunday of Advent",
+        "day_description": "Christmas eve",
         "morning": {
             "readings": [
                 "Psalm 45",
@@ -8576,11 +8576,11 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 85",
-                "Isaiah 63:1\u20136",
-                "2 John"
+                "Zechariah 2",
+                "Revelation 1:1\u20138"
             ],
-            "reading_link": "Psalm+85%3B+Isaiah+63:1-6%3B+2+John",
-            "audio_link": "Ps.85,Isa.63,2John"
+            "reading_link": "Psalm+85%3B+Zechariah+2%3B+Revelation+1:1-8",
+            "audio_link": "Ps.85,Zech.2,Rev.1"
         }
     },
     "2021/12/25": {
@@ -8634,20 +8634,20 @@ class Data {  data = {
         "morning": {
             "readings": [
                 "Psalm 21",
-                "Isaiah 63:7\u20139",
-                "Ephesians 3:5\u201312"
+                "Exodus 33:12\u201323",
+                "1 John 2:1\u201311"
             ],
-            "reading_link": "Psalm+21%3B+Isaiah+63:7-9%3B+Ephesians+3:5-12",
-            "audio_link": "Ps.21,Isa.63,Eph.3"
+            "reading_link": "Psalm+21%3B+Exodus+33:12-23%3B+1+John+2:1-11",
+            "audio_link": "Ps.21,Exod.33,1John.2"
         },
         "evening": {
             "readings": [
                 "Psalm 97",
-                "Isaiah 35",
-                "Colossians 1:9\u201320"
+                "Isaiah 6:1\u20138",
+                "1 John 5:1\u201312"
             ],
-            "reading_link": "Psalm+97%3B+Isaiah+35%3B+Colossians+1:9-20",
-            "audio_link": "Ps.97,Isa.35,Col.1"
+            "reading_link": "Psalm+97%3B+Isaiah+6:1-8%3B+1+John+5:1-12",
+            "audio_link": "Ps.97,Isa.6,1John.5"
         }
     },
     "2021/12/28": {
@@ -8674,7 +8674,7 @@ class Data {  data = {
     },
     "2021/12/29": {
         "date_pretty": "Wednesday, December 29, 2021",
-        "day_description": "",
+        "day_description": "Week of 1st Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 19",
@@ -8696,7 +8696,7 @@ class Data {  data = {
     },
     "2021/12/30": {
         "date_pretty": "Thursday, December 30, 2021",
-        "day_description": "",
+        "day_description": "Week of 1st Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 113",
@@ -8718,7 +8718,7 @@ class Data {  data = {
     },
     "2021/12/31": {
         "date_pretty": "Friday, December 31, 2021",
-        "day_description": "",
+        "day_description": "Week of 1st Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 102",
@@ -8763,7 +8763,7 @@ class Data {  data = {
     },
     "2022/01/02": {
         "date_pretty": "Sunday, January 2, 2022",
-        "day_description": "",
+        "day_description": "2nd Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 87",
@@ -8785,7 +8785,7 @@ class Data {  data = {
     },
     "2022/01/03": {
         "date_pretty": "Monday, January 3, 2022",
-        "day_description": "",
+        "day_description": "Week of 2nd Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 127",
@@ -8807,7 +8807,7 @@ class Data {  data = {
     },
     "2022/01/04": {
         "date_pretty": "Tuesday, January 4, 2022",
-        "day_description": "",
+        "day_description": "Week of 2nd Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 89:1\u201337",
@@ -8829,7 +8829,7 @@ class Data {  data = {
     },
     "2022/01/05": {
         "date_pretty": "Wednesday, January 5, 2022",
-        "day_description": "",
+        "day_description": "Week of 2nd Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 48",
