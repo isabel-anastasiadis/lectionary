@@ -4,15 +4,15 @@ using ReadingsBuilder.Model.Pipeline.DTOs;
 
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
-    public class SundaysIn2022 : BaseStep, IStep
+    public class FeastDaysByDayOfMonth : BaseStep, IStep
     {
-        public SundaysIn2022(IRuleApplier ruleApplier, IAllDataFactory dataFactory) : base(ruleApplier, dataFactory)
+        public FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IAllDataFactory dataFactory) : base(ruleApplier, dataFactory)
         {
         }
 
-        public int Order => 10;
+        public int Order => 9;
 
-        protected override string RuleSetName => "SundaysIn2022.cs";
+        protected override string RuleSetName => "FeastDaysByDayOfMonth.cs";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
         {
