@@ -8863,17 +8863,17 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 98",
+                "Psalm 98,100",
                 "Isaiah 60:1\u20139",
                 "John 2:1\u201311"
             ],
-            "reading_link": "Psalm+98%3B+Isaiah+60:1-9%3B+John+2:1-11",
-            "audio_link": "Ps.98,Isa.60,John.2"
+            "reading_link": "Psalm+98,100%3B+Isaiah+60:1-9%3B+John+2:1-11",
+            "audio_link": "Ps.98,100,Isa.60,John.2"
         }
     },
     "2022/01/07": {
         "date_pretty": "Friday, January 7, 2022",
-        "day_description": "",
+        "day_description": "Week of 2nd Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 99",
@@ -8895,7 +8895,7 @@ class Data {  data = {
     },
     "2022/01/08": {
         "date_pretty": "Saturday, January 8, 2022",
-        "day_description": "",
+        "day_description": "Week of 2nd Sunday of Christmas",
         "morning": {
             "readings": [
                 "Psalm 46",
@@ -9270,7 +9270,7 @@ class Data {  data = {
     },
     "2022/01/25": {
         "date_pretty": "Tuesday, January 25, 2022",
-        "day_description": "The Conversion of Paul",
+        "day_description": "The Conversion of Saint Paul",
         "morning": {
             "readings": [
                 "Psalm 66,147:12\u201320",
