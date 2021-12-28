@@ -147,3 +147,7 @@ Rule class order,Rule class name,RuleType,row (within class),day name,Is Seasona
 3,FourWeeksAfterEpiphany.cs,ByDayOfWeek,27,Week of 4th Sunday after the Ephiphany,TRUE,Th,,,Genesis 21:1–21,Hosea 11:12–end; Hosea 12,N/A,Matthew 27:57–end,1 Corinthians 14:20–end,,,,,110,99,,86,87,
 3,FourWeeksAfterEpiphany.cs,ByDayOfWeek,28,Week of 4th Sunday after the Ephiphany,TRUE,F,,,Genesis 22:1–19,Hosea 13:1–14,N/A,Matthew 28:1–15,1 Corinthians 16:1–9,,,,,115,113,,147,146,
 3,FourWeeksAfterEpiphany.cs,ByDayOfWeek,29,Week of 4th Sunday after the Ephiphany,TRUE,S,,,Genesis 23,Hosea 14,N/A,Matthew 28:16–end,1 Corinthians 16:10-end,,,,,118,,,150,"148,149",
+9,FeastDaysByDayOfMonth.cs,ByDayOfMonth,1,,TRUE,,1,24,,,,,,,,Isaiah 49:1-13,Acts 22:3-16,,,,149,,
+9,FeastDaysByDayOfMonth.cs,ByDayOfMonth,2,The Conversion of Saint Paul,TRUE,,1,25,,,,,,Ezekiel 3:22-27,Philippians 3:1-14,Isaiah 56:1-8,Colossians 1:24-end; Colossians 2:1-7;,"66,147:12-20",,,119:41-56,,
+9,FeastDaysByDayOfMonth.cs,ByDayOfMonth,3,,TRUE,,2,1,,,,,,,,1 Samuel 1:19b-28,Hebrews 4:11-16,,,,118,,
+9,FeastDaysByDayOfMonth.cs,ByDayOfMonth,4,Presentation of Jesus at the Temple,TRUE,,2,2,,,,,,Exodus 13:1-16,Rom 12:1-5,Haggai 2:1-9,John 2:18-22,"48,146",,,"122,123",,
