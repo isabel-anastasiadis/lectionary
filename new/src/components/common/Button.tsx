@@ -3,7 +3,36 @@ import { styled } from '../../stitches.config';
 import type * as Stitches from '@stitches/react';
 import Icon from './Icon'
 
-export const StyledButton = styled('button', {
+export const ButtonStyle = {
+  primary: {
+    backgroundColor: '$foreground',
+    color: '$background',
+    '&:hover, &:focus': {
+      backgroundColor: '$foreground',
+      backgroundImage: 'linear-gradient($toggleCheckedStage, $toggleCheckedStage)',
+    },
+    '&:active': {
+      backgroundColor: '$foreground',
+      backgroundImage: 'linear-gradient($toggleCheckedSelect, $toggleCheckedSelect)',
+    },
+  },
+  secondary: {
+    backgroundColor: '$toggleBase',
+    color: '$foreground',
+    '&:hover, &:focus': {
+      backgroundColor: '$toggleBase',
+      backgroundImage: 'linear-gradient($toggleStage, $toggleStage)',
+    },
+    '&:active': {
+      backgroundColor: '$toggleBase',
+      backgroundImage: 'linear-gradient($toggleSelect, $toggleSelect)',
+    },
+  },
+};
+
+
+
+const StyledButton = styled('button', {
   border: 'none',
   cursor: 'pointer',
   outline: 'none',
@@ -27,32 +56,7 @@ export const StyledButton = styled('button', {
         borderRadius: '999px',
       },
     },
-    style: {
-      primary: {
-        backgroundColor: '$foreground',
-        color: '$background',
-        '&:hover, &:focus': {
-          backgroundColor: '$foreground',
-          backgroundImage: 'linear-gradient($toggleCheckedStage, $toggleCheckedStage)',
-        },
-        '&:active': {
-          backgroundColor: '$foreground',
-          backgroundImage: 'linear-gradient($toggleCheckedSelect, $toggleCheckedSelect)',
-        },
-      },
-      secondary: {
-        backgroundColor: '$toggleBase',
-        color: '$foreground',
-        '&:hover, &:focus': {
-          backgroundColor: '$toggleBase',
-          backgroundImage: 'linear-gradient($toggleStage, $toggleStage)',
-        },
-        '&:active': {
-          backgroundColor: '$toggleBase',
-          backgroundImage: 'linear-gradient($toggleSelect, $toggleSelect)',
-        },
-      },
-    },
+    style: ButtonStyle 
   },
   defaultVariants: {
     style: 'secondary',
@@ -61,7 +65,7 @@ export const StyledButton = styled('button', {
 });
 
 
-type ButtonVariants = Stitches.VariantProps<typeof StyledButton>
+export type ButtonVariants = Stitches.VariantProps<typeof StyledButton>
 
 interface ButtonProps {
   children?: React.ReactNode

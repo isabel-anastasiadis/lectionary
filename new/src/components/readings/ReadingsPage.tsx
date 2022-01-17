@@ -4,6 +4,7 @@ import Nav from "../common/Nav";
 import Message from "../common/Message";
 import Date from "../common/Date";
 import ReadingsList from "./ReadingsList";
+import Actions from "./Actions";
 import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
 
 interface ReadingsPageProps {
@@ -64,6 +65,7 @@ const ReadingsPage = ({
             : todaysReadings.evening
         }
       />
+      <Actions/>
     </>
   );
 };

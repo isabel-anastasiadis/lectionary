@@ -12,12 +12,15 @@ const ThemeWrapper = styled("div", {
   background: "$background",
   fontFamily: "inter",
   height: "100%",
+  display: "flex",
+  flexDirection: "column"
 });
 
 const PositionWrapper = styled("div", {
   height: "100%",
   padding: "30px",
-  marginBottom: "-55px", // the footer height.  TODO fix this, this is gross. Might not even need two wrappers if we do it right with flex or grid
+  display: "flex",
+  flexDirection: "column"
 });
 
 const App = () => {
