@@ -12,9 +12,11 @@ using ReadingsBuilder.Model.Pipeline.DTOs;
 using ReadingsBuilder.Model.Pipeline.Steps;
 using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 
+#pragma warning disable CS8625 
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
 namespace Tests.Model.Pipeline.Steps
 {
-    public class BaseAdventTests
+    public class Step01AdventToEpiphanyTests
     {
 
         private const string ClassName = "BaseAdvent.cs";
@@ -71,16 +73,27 @@ namespace Tests.Model.Pipeline.Steps
             },
         };
 
-        private BaseAdvent ClassUnderTest(List<RuleData>? ruleData = null)
+        private Mock<IByDayOfWeekRuleSetApplier>? _ruleSetApplierMock;
+
+
+        private Step01AdventToEpiphany ClassUnderTest(List<RuleData>? ruleData = null)
         {
             var allData = ruleData ?? _defaultRules;
 
             var dataFactoryMock = new Mock<IAllDataFactory>();
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
-            return new BaseAdvent(new RuleApplier(new RotatingReadingMappingProvider()), dataFactoryMock.Object);
+
+            return new Step01AdventToEpiphany(new RuleApplier(new RotatingReadingMappingProvider()), dataFactoryMock.Object, _ruleSetApplierMock.Object);
+
         }
 
+
+        [SetUp]
+        public void SetUpMocks()
+        {
+            _ruleSetApplierMock = new Mock<IByDayOfWeekRuleSetApplier>();
+        }
 
         [Test]
         public void ChecksConstructorParamForNullRules()
@@ -91,9 +104,9 @@ namespace Tests.Model.Pipeline.Steps
             // act & assert
             try
             {
-#pragma warning disable CS8625 
-                new BaseAdvent(Mock.Of<IRuleApplier>(), null);
-#pragma warning restore CS8625
+
+                new Step01AdventToEpiphany(Mock.Of<IRuleApplier>(), null, Mock.Of<IByDayOfWeekRuleSetApplier>());
+
                 Assert.Fail("Should have thrown ArgumentNullException");
 
             }
@@ -169,71 +182,21 @@ namespace Tests.Model.Pipeline.Steps
 
             // arrange
             var dateOfDay = new DateOnly(2021, 12, 1); // WED
-            var workingResult = CreateWorkingResultWithInitialisedDays(new List<DateOnly>() { dateOfDay });
-
-            var classUnderTest = ClassUnderTest();
-
-            var expectedDayDescription = _defaultRules.First(x => x.Weekday == DayOfWeek.Wednesday).DayName;
-
-            // act
-            var result = classUnderTest.RunStep(workingResult);
-            var resultDescripition = result?.Result[dateOfDay]?.OptionOne?.DayDescription;
-
-
-            // assert
-            Assert.AreEqual(expectedDayDescription, resultDescripition);
-
-        }
-
-
-        [Test]
-        public void RunStepAppliesTheRulesConsecutivelyFromDay1()
-        {
-
-            // arrange
-            var days = new List<DateOnly> { 
-                new DateOnly(2021, 12, 1),
-                new DateOnly(2021, 12, 2),
-                new DateOnly(2021, 12, 3),
-                new DateOnly(2021, 12, 4),
-            };
-            var workingResult = CreateWorkingResultWithInitialisedDays(days);
-
-            var classUnderTest = ClassUnderTest();
-
-
-            // act
-            var result = classUnderTest.RunStep(workingResult);
-
-
-            // assert
-            foreach (var date in result.Result.Keys) 
-            {
-                var dayOfWeek = date.DayOfWeek;
-                var expectedDescription = _defaultRules.First(x => x.Weekday == dayOfWeek).DayName;
-                var resultDescripition = result.Result[date]?.OptionOne?.DayDescription;
-
-                Assert.AreEqual(expectedDescription, resultDescripition);
-            }
-
-        }
-
-
-
-        private PipelineWorkingResult CreateWorkingResultWithInitialisedDays(List<DateOnly> dates) {
             var workingResult = new PipelineWorkingResult();
-            foreach (var date in dates) { 
-                workingResult.Result[date] = new Option<Day, DayOptionType>()
-                {
-                    OptionOne = new Day() { 
-                        Date = date
-                    }
-                };
-            }
+            workingResult.Result[dateOfDay] = new Option<Day, DayOptionType>();
 
-            return workingResult;
+            var classUnderTest = ClassUnderTest();
+            var expectedFirstRule = _defaultRules.First(x => x.Weekday == DayOfWeek.Wednesday);
+
+            // act
+            var result = classUnderTest.RunStep(workingResult);
+
+            // assert
+            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<List<RuleData>>(), dateOfDay, expectedFirstRule));
 
         }
 
     }
 }
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+#pragma warning restore CS8625

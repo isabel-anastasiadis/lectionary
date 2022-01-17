@@ -6,11 +6,16 @@ using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
-    public class SpecificDaysInAdventAndEpiphany : BaseStep, IStep
+    public class Step02AdventToEpiphanyOverrides : BaseStep, IStep
     {
-        public SpecificDaysInAdventAndEpiphany(IRuleApplier ruleApplier, IAllDataFactory dataFactory) 
+        private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
+
+        public Step02AdventToEpiphanyOverrides(IRuleApplier ruleApplier, 
+            IAllDataFactory dataFactory,
+            IByDayOfMonthRuleSetApplier ruleSetApplier)
             : base(ruleApplier, dataFactory)
         {
+            this.ruleSetApplier = ruleSetApplier;
         }
 
         public int Order => 2;
@@ -19,7 +24,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
         {
-            return ApplyRulesByDayOfMonth(workingResult);
+            return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, ApplicableRules);
         }
 
         protected override bool ShouldIncludeRule(RuleData ruleData)

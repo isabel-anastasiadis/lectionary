@@ -4,7 +4,7 @@ using ReadingsBuilder.Model.Pipeline.DTOs;
 
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
-    public class PopulateDates : IStep
+    public class Step00PopulateDates : IStep
     {
         public int Order => 0;
 

@@ -5,10 +5,13 @@ using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Model.Pipeline.Steps
 {
-    public class FourWeeksAfterEpiphany : BaseStep, IStep
+    public class Step03FourWeeksAfterEpiphany : BaseStep, IStep
     {
-        public FourWeeksAfterEpiphany(IRuleApplier ruleApplier, IAllDataFactory dataFactory) : base(ruleApplier, dataFactory)
+        private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
+
+        public Step03FourWeeksAfterEpiphany(IRuleApplier ruleApplier, IAllDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
+            this.ruleSetApplier = ruleSetApplier;
         }
 
         public int Order => 3;
@@ -31,7 +34,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
             var ruleDataToStartWith = ApplicableRules.FirstOrDefault();
 
-            return ApplyRulesByDayOfWeek(workingResult, dateOfFirstDayTheRuleAppliesTo, ruleDataToStartWith);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, ruleDataToStartWith);
 
         }
     }

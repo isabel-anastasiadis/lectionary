@@ -1,19 +1,18 @@
 ﻿using System;
 using NUnit.Framework;
-using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 using ReadingsBuilder.Model.Pipeline.Steps;
 
 namespace Tests.Model.Pipeline.Steps
 {
-    public class PopulateDatesTests
+    public class Step00PopulateDatesTests
     {
         [Test]
         public void ChecksParamsCorrectly() {
 
             // arrange
             var pipelineResult = new PipelineWorkingResult();
-            var classUnderTest = new PopulateDates();
+            var classUnderTest = new Step00PopulateDates();
 
             // act & assert
             try
@@ -38,7 +37,7 @@ namespace Tests.Model.Pipeline.Steps
                     EndDate = new DateOnly(2021, 1, 31)
                 }
             };
-            var classUnderTest = new PopulateDates();
+            var classUnderTest = new Step00PopulateDates();
 
             // act
             var workingResult = classUnderTest.RunStep(pipelineResult);
@@ -57,7 +56,7 @@ namespace Tests.Model.Pipeline.Steps
                     EndDate = new System.DateOnly(2021,1,31)
                 }
             };
-            var classUnderTest = new PopulateDates();
+            var classUnderTest = new Step00PopulateDates();
 
             // act
             var workingResult = classUnderTest.RunStep(pipelineResult);
@@ -81,7 +80,7 @@ namespace Tests.Model.Pipeline.Steps
                     EndDate = date
                 }
             };
-            var classUnderTest = new PopulateDates();
+            var classUnderTest = new Step00PopulateDates();
 
             // act
             var workingResult = classUnderTest.RunStep(pipelineResult);

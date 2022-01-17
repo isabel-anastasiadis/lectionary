@@ -30,6 +30,10 @@ namespace ReadingsBuilder.Bindings
             // Steps
             var stepImplementationAssemblies = new Assembly[] { typeof(IStep).Assembly };
             container.Collection.Register<IStep>(stepImplementationAssemblies);
+
+            // Step utilities
+            container.Register<IByDayOfMonthRuleSetApplier, ByDayOfMonthRuleSetApplier>();
+            container.Register<IByDayOfWeekRuleSetApplier, ByDayOfWeekRuleSetApplier>();
         
         }
     }
