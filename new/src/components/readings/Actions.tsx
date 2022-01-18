@@ -28,7 +28,7 @@ const Actions = ({ readings }: ActionsProps) => {
                 selectOnChange={(e) => {setAudioTranslation(e.target.value)}}
                 buttonText="Play all"
                 href={audioUrl(audioTranslation, readings.audioQS)}
-                style="secondary"
+                buttonStyle="secondary"
                 buttonIcon='headphones'
             />
             <ButtonLinkWithOptions
@@ -37,7 +37,7 @@ const Actions = ({ readings }: ActionsProps) => {
                 selectOnChange={(e) => {setReadingTranslation(e.target.value)}}
                 buttonText="Read all"
                 href={readingUrl(readingTranslation, readings.readQS)}
-                style="primary"
+                buttonStyle="primary"
                 buttonIcon='book'
             />
         </AllActionsDiv>

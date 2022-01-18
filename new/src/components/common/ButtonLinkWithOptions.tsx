@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { styled } from '../../stitches.config';
-import type * as Stitches from '@stitches/react';
 import Icon from './Icon';
 import { ButtonStyle, ButtonVariants } from './Button';
 
@@ -54,23 +53,23 @@ interface ButtonProps {
   selectDefaultValue?: string,
   buttonText?: string,
   href: string,
-  style?: ButtonVariants['style'],
+  buttonStyle?: ButtonVariants['style'],
   buttonIcon?: string,
   buttonIconColor?: string,
   selectOnChange: React.ChangeEventHandler<HTMLSelectElement>
 }
   
-const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChange, buttonText, href, style, buttonIcon }: ButtonProps) => {
+const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChange, buttonText, href, buttonStyle, buttonIcon }: ButtonProps) => {
 
   return (
     <WrapperDiv>
-      <Link href={href} style={style}>
+      <Link href={href} style={buttonStyle}>
         <Icon name={buttonIcon ?? "arrow"}></Icon>
         <LinkText>
           {buttonText}
         </LinkText>
       </Link>
-      <Select style={style} onChange={selectOnChange}>
+      <Select style={buttonStyle} onChange={selectOnChange}>
         {selectOptions.map((nameValue, i) => {
           return (
             <Option key={i} value={nameValue.value} selected={selectDefaultValue === nameValue.value}>

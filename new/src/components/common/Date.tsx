@@ -74,7 +74,7 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
 
   useEffect(() => {
     setCurrentDateText(dates[currentDate]);
-  }, [currentDate]);
+  }, [currentDate, dates]);
 
   useEffect(() => {
     if (ref.current !== null) {
