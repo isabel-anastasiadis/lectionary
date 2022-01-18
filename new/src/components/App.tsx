@@ -24,7 +24,7 @@ const PositionWrapper = styled("div", {
 });
 
 const App = () => {
-  const [theme, setTheme] = useState(Theme.MORNING); // TODO
+  const [theme, setTheme] = useState(Theme.MORNING); // TODO auto calculate
   const [dateKey, setDateKey] = useState(getTodaysDateKey());
 
   function updateTheme(theme: Theme): void {

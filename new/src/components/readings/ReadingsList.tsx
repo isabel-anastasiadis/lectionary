@@ -17,7 +17,7 @@ const ReadingsList = ({ readingsList }: ReadingsListProps) => {
   return (
     <StyledReadingsList>
       {readingsList.readings.map((reading, i) => {
-        return <Reading key={i} text={reading} link={"www.google.com"} />;
+        return <Reading key={i} reading={reading} />;
       })}
     </StyledReadingsList>
   );

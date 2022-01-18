@@ -32,7 +32,7 @@ const Actions = ({}: ActionsProps) => {
                 selectOptions= {options}
                 selectDefaultValue='MSG'
                 buttonText="Play all"
-                href="www.google.com"
+                href="https://www.google.com"
                 style="secondary"
                 buttonIcon='headphones'
             />
@@ -40,7 +40,7 @@ const Actions = ({}: ActionsProps) => {
                 selectOptions= {options}
                 selectDefaultValue='NIV'
                 buttonText="Read all"
-                href="www.google.com"
+                href="https://www.google.com"
                 style="primary"
                 buttonIcon='book'
             />

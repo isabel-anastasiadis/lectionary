@@ -1,4 +1,6 @@
+import { IReading } from '../../data/interfaces';
 import { styled } from '../../stitches.config';
+import { READING_URL_STEM } from '../../data/constants';
 
 const StyledReading = styled('li', {})
 
@@ -18,14 +20,13 @@ const Link = styled('a', {
 })
 
 interface ReadingsProps {
-    link: string
-    text: string
+    reading: IReading
 }
 
-const Reading = ({link, text}: ReadingsProps) => {
+const Reading = ({reading}: ReadingsProps) => {
     return(
         <StyledReading>
-            <Link href={link}>{text}</Link>
+            <Link href={READING_URL_STEM + reading.readQS}>{reading.pretty}</Link>
         </StyledReading>
     )
 }
