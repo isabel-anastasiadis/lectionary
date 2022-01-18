@@ -4,7 +4,6 @@ import { styled } from '../../stitches.config';
 import Icon from './Icon';
 import { ButtonStyle, ButtonVariants } from './Button';
 
-
 const WrapperDiv = styled('div', {
   borderRadius: "10px",
   overflow: 'hidden', // means even when the contents doesn't have border radius, it appears to
@@ -33,13 +32,24 @@ const LinkText = styled('div', {
   fontSize: 'inherit'
 });
 
+const SelectStyle = {
+  primary: {
+    ...ButtonStyle.primary,
+    borderLeft: 'solid $toggleCheckedSelect 1px'
+  },
+  secondary: {
+    ...ButtonStyle.secondary,
+    borderLeft: 'solid $toggleSelect 1px'
+  }
+}
+
 const Select = styled('select', {
-  border: 'none',
-  borderLeft: 'solid $background 1px',
+  outline: "none",
+  border: "none",
   padding: '0 5px 0 20px',
   fontSize: 'inherit',
   variants: {
-    style: ButtonStyle
+    style: SelectStyle
   }
 })
 

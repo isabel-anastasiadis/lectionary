@@ -16,7 +16,8 @@ const Wrapper = styled("div", {
 const IconWrapper = styled("div", {
   marginLeft: "-20px",
   marginTop: "-2px",
-  display: "inline-block"
+  display: "inline-block",
+  pointerEvents: "none"
 });
 
 const selectStyles = {
