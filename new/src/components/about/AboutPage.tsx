@@ -5,6 +5,7 @@ interface AboutPageProps {}
 
 const StyledAbout = styled("div", {
   color: "$foreground",
+  height: "100%"
 });
 
 const Highlight = styled("span", {
@@ -22,7 +23,7 @@ const AboutPage = (props: AboutPageProps) => {
 
       <p>Made with aroha in Wellington by Isabel Anastasiadis &amp; Isaac Minogue &hearts;</p>
 
-      <h2>Sources</h2>
+      <h2 style={{marginTop: '50px'}}>Sources</h2>
       <p>
         <i>The Revised Common Lectionary</i> is copyright © the Consultation on
         Common Texts, 1992 and is reproduced with permission. 
