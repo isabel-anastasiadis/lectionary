@@ -27,11 +27,19 @@ const StyledNavLink = styled(Link, {
   },
 });
 
-const Footer = () => {
+interface IFooterProps {
+  links: Array<{to: string, label: string}>
+}
+
+const Footer = ({links}: IFooterProps) => {
   return (
     <StyledNav>
-      <StyledNavLink to="/">New Zealand Anglican Lectionary</StyledNavLink>{" "}
-      <StyledNavLink to="/about">About</StyledNavLink>
+      New Zealand Anglican Lectionary
+
+      {links.map((link, i) => {
+        return <StyledNavLink to={link.to}>{link.label}</StyledNavLink>
+      })}
+      
     </StyledNav>
   );
 };

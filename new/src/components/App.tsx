@@ -64,7 +64,7 @@ const App = () => {
           <Route path="/about" component={AboutPage} />
           <Route path="/settings" component={SettingsPage} />
         </Switch>
-        <Footer />
+
       </ContentWrapper>
 
     </ThemeWrapper>
