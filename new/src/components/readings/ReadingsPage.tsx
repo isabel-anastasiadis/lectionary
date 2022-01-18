@@ -65,7 +65,11 @@ const ReadingsPage = ({
             : todaysReadings.evening
         }
       />
-      <Actions/>
+      <Actions readings={
+        theme === Theme.MORNING
+            ? todaysReadings.morning
+            : todaysReadings.evening
+        }/>
     </>
   );
 };

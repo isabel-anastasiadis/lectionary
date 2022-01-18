@@ -1,3 +1,6 @@
+import { useState } from 'react';
+import { readingUrl, audioUrl, AUDIO_TRANSLATIONS, READING_TRANSLATIONS } from '../../data/urls';
+import { IReadingsList } from '../../data/interfaces';
 import { styled } from '../../stitches.config';
 import ButtonLinkWithOptions from '../common/ButtonLinkWithOptions';
 
@@ -6,41 +9,34 @@ const AllActionsDiv = styled("div", {
 });
 
 interface ActionsProps {
-    
+    readings: IReadingsList
 }
 
-const Actions = ({}: ActionsProps) => {
+const Actions = ({ readings }: ActionsProps) => {
 
-    const options: Array<{name: string, value: string}> = [
-        {
-            name: "NIV",
-            value: "mclean/niv"
-        },
-        {
-            name: "MSG",
-            value: "dolan/msg"
-        },
-        {
-            name: "NLT",
-            value: "breathe/nlt"
-        }
-    ];
+    const defaultAudioTranslation = AUDIO_TRANSLATIONS[0].value;
+    const defaultReadingTranslation = READING_TRANSLATIONS[0].value;
+
+    const [audioTranslation, setAudioTranslation ] = useState(defaultAudioTranslation);
+    const [readingTranslation, setReadingTranslation ] = useState(defaultReadingTranslation);
 
     return (
         <AllActionsDiv>
             <ButtonLinkWithOptions
-                selectOptions= {options}
-                selectDefaultValue='MSG'
+                selectOptions= {AUDIO_TRANSLATIONS}
+                selectDefaultValue={defaultAudioTranslation}
+                selectOnChange={(e) => {setAudioTranslation(e.target.value)}}
                 buttonText="Play all"
-                href="https://www.google.com"
+                href={audioUrl(audioTranslation, readings.audioQS)}
                 style="secondary"
                 buttonIcon='headphones'
             />
             <ButtonLinkWithOptions
-                selectOptions= {options}
-                selectDefaultValue='NIV'
+                selectOptions= {READING_TRANSLATIONS}
+                selectDefaultValue={defaultReadingTranslation}
+                selectOnChange={(e) => {setReadingTranslation(e.target.value)}}
                 buttonText="Read all"
-                href="https://www.google.com"
+                href={readingUrl(readingTranslation, readings.readQS)}
                 style="primary"
                 buttonIcon='book'
             />

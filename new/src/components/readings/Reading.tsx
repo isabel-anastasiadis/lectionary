@@ -1,6 +1,6 @@
 import { IReading } from '../../data/interfaces';
 import { styled } from '../../stitches.config';
-import { READING_URL_STEM } from '../../data/constants';
+import { readingUrl } from '../../data/urls';
 
 const StyledReading = styled('li', {})
 
@@ -26,7 +26,7 @@ interface ReadingsProps {
 const Reading = ({reading}: ReadingsProps) => {
     return(
         <StyledReading>
-            <Link href={READING_URL_STEM + reading.readQS}>{reading.pretty}</Link>
+            <Link href={readingUrl("NIV", reading.readQS)}>{reading.pretty}</Link>
         </StyledReading>
     )
 }

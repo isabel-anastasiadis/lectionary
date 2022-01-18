@@ -57,9 +57,10 @@ interface ButtonProps {
   style?: ButtonVariants['style'],
   buttonIcon?: string,
   buttonIconColor?: string,
+  selectOnChange: React.ChangeEventHandler<HTMLSelectElement>
 }
   
-const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, buttonText, href, style, buttonIcon }: ButtonProps) => {
+const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChange, buttonText, href, style, buttonIcon }: ButtonProps) => {
 
   return (
     <WrapperDiv>
@@ -69,10 +70,10 @@ const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, buttonText, h
           {buttonText}
         </LinkText>
       </Link>
-      <Select style={style}>
+      <Select style={style} onChange={selectOnChange}>
         {selectOptions.map((nameValue, i) => {
           return (
-            <Option key={i} value={nameValue.value} selected={selectDefaultValue === nameValue.name}>
+            <Option key={i} value={nameValue.value} selected={selectDefaultValue === nameValue.value}>
               {nameValue.name}
             </Option>
           );
