@@ -45,6 +45,11 @@ const selectStyles = {
 
 const StyledSelect = styled("select", selectStyles);
 
+const StyledOption = styled("option", {
+    color: "$foreground",
+    backgroundColor: "$background"
+});
+
 // This is a hidden element.
 // It has duplicate styles as the native date select.
 // The widths of native select elements cannot update dymnamically,
@@ -90,13 +95,13 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
         >
           {Object.keys(dates).map((dateKey, i) => {
             return (
-              <option
+              <StyledOption
                 key={i}
                 value={dateKey}
                 selected={dateKey === currentDate}
               >
                 {dates[dateKey]}
-              </option>
+              </StyledOption>
             );
           })}
         </StyledSelect>

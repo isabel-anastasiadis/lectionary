@@ -44,6 +44,11 @@ const Select = styled('select', {
   }
 })
 
+const Option = styled("option", {
+  color: "$foreground",
+  backgroundColor: "$background"
+});
+
 interface ButtonProps {
   selectOptions: Array<{name: string, value: string}>,
   selectDefaultValue?: string,
@@ -67,9 +72,9 @@ const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, buttonText, h
       <Select style={style}>
         {selectOptions.map((nameValue, i) => {
           return (
-            <option key={i} value={nameValue.value} selected={selectDefaultValue === nameValue.name}>
+            <Option key={i} value={nameValue.value} selected={selectDefaultValue === nameValue.name}>
               {nameValue.name}
-            </option>
+            </Option>
           );
         })}
       </Select>
