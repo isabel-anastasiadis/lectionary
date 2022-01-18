@@ -19,7 +19,7 @@ export const { css, styled } = createStitches({
 // Dark theme color variables
 export const dark = createTheme({
   colors: {
-    foreground: "rgba(255,255,255,1)",
+    foreground: "rgba(255,255,255,0.9)",
     background: "rgba(0,0,0,1)",
     toggleBase: "rgba(255,255,255,0.2)",
     toggleStage: "rgba(255,255,255,0.05)",
