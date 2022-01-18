@@ -14,14 +14,9 @@ const Wrapper = styled("div", {
 });
 
 const IconWrapper = styled("div", {
-  position: "absolute",
-  right: "10px",
-  top: "0",
-  height: "100%",
-  pointerEvents: "none",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
+  marginLeft: "-20px",
+  marginTop: "-2px",
+  display: "inline-block"
 });
 
 const selectStyles = {
@@ -71,6 +66,10 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
   const [currentDateText, setCurrentDateText] = useState(dates[currentDate]);
   const [selectWidth, setSelectWidth] = useState();
   const ref: any = useRef(null);
+
+  useEffect(() => {
+    setCurrentDateText(dates[currentDate]);
+  }, [currentDate]);
 
   useEffect(() => {
     if (ref.current !== null) {

@@ -4,7 +4,7 @@ import { styled } from '../../stitches.config';
 import type * as Stitches from '@stitches/react';
 import Icon from './Icon';
 import { ButtonStyle, ButtonVariants } from './Button';
-import { NONAME } from 'dns';
+
 
 const WrapperDiv = styled('div', {
   borderRadius: "10px",
@@ -12,6 +12,7 @@ const WrapperDiv = styled('div', {
   minHeight: "50px",
   display: "flex",
   marginTop: "10px",
+  fontWeight: "700",
   variants: {
     style: ButtonStyle
   }
@@ -29,32 +30,31 @@ const Link = styled('a', {
 });
 
 const LinkText = styled('div', {
-  marginLeft: '4px'
+  marginLeft: '4px',
+  fontSize: 'inherit'
 });
 
 const Select = styled('select', {
   border: 'none',
   borderLeft: 'solid $background 1px',
-  padding: '0 0 0 20px',
+  padding: '0 5px 0 20px',
+  fontSize: 'inherit',
   variants: {
     style: ButtonStyle
   }
 })
 
 interface ButtonProps {
+  selectOptions: Array<{name: string, value: string}>,
+  selectDefaultValue?: string,
   buttonText?: string,
   href: string,
   style?: ButtonVariants['style'],
   buttonIcon?: string,
-  buttonIconColor?: string
+  buttonIconColor?: string,
 }
   
-const ButtonLinkWithDropdown = ({buttonText, href, style, buttonIcon }: ButtonProps) => {
-  // todo inject
-  const options: {[key: string]: string} = {
-    niv: "NIV",
-    msg: "MSG"
-  }
+const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, buttonText, href, style, buttonIcon }: ButtonProps) => {
 
   return (
     <WrapperDiv>
@@ -65,10 +65,10 @@ const ButtonLinkWithDropdown = ({buttonText, href, style, buttonIcon }: ButtonPr
         </LinkText>
       </Link>
       <Select style={style}>
-        {Object.keys(options).map((key, i) => {
+        {selectOptions.map((nameValue, i) => {
           return (
-            <option key={i} value={key} selected={i === 0}>
-              {options[key]}
+            <option key={i} value={nameValue.value} selected={selectDefaultValue === nameValue.name}>
+              {nameValue.name}
             </option>
           );
         })}
@@ -78,4 +78,4 @@ const ButtonLinkWithDropdown = ({buttonText, href, style, buttonIcon }: ButtonPr
   )
 }
 
-export default ButtonLinkWithDropdown;
+export default ButtonLinkWithOptions;
