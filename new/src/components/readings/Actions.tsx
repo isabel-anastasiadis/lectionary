@@ -1,3 +1,6 @@
+import { useState } from 'react';
+import { readingUrl, audioUrl, AUDIO_TRANSLATIONS, READING_TRANSLATIONS } from '../../data/urls';
+import { IReadingsList } from '../../data/interfaces';
 import { styled } from '../../stitches.config';
 import ButtonLinkWithOptions from '../common/ButtonLinkWithOptions';
 
@@ -6,23 +9,36 @@ const AllActionsDiv = styled("div", {
 });
 
 interface ActionsProps {
-    
+    readings: IReadingsList
 }
 
-const Actions = ({}: ActionsProps) => {
+const Actions = ({ readings }: ActionsProps) => {
+
+    const defaultAudioTranslation = AUDIO_TRANSLATIONS[0].value;
+    const defaultReadingTranslation = READING_TRANSLATIONS[0].value;
+
+    const [audioTranslation, setAudioTranslation ] = useState(defaultAudioTranslation);
+    const [readingTranslation, setReadingTranslation ] = useState(defaultReadingTranslation);
+
     return (
         <AllActionsDiv>
             <ButtonLinkWithOptions
-                buttonText="Listen"
-                href="www.google.com"
-                style="secondary"
+                selectOptions= {AUDIO_TRANSLATIONS}
+                selectDefaultValue={defaultAudioTranslation}
+                selectOnChange={(e) => {setAudioTranslation(e.target.value)}}
+                buttonText="Play all"
+                href={audioUrl(audioTranslation, readings.audioQS)}
+                buttonStyle="secondary"
                 buttonIcon='headphones'
             />
             <ButtonLinkWithOptions
-                buttonText="Read"
-                href="www.google.com"
-                style="primary"
-                buttonIcon='headphones'
+                selectOptions= {READING_TRANSLATIONS}
+                selectDefaultValue={defaultReadingTranslation}
+                selectOnChange={(e) => {setReadingTranslation(e.target.value)}}
+                buttonText="Read all"
+                href={readingUrl(readingTranslation, readings.readQS)}
+                buttonStyle="primary"
+                buttonIcon='book'
             />
         </AllActionsDiv>
     )

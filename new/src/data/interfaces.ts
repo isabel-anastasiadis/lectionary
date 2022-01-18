@@ -2,15 +2,21 @@ export interface IAvailableDates {
   [dateKey: string]: string;
 }
 
+export interface IReading {
+  pretty: string,
+  readQS: string,
+  audioQS: string
+}
+
 export interface IReadingsList {
-  readings: string[];
-  reading_link: string;
-  audio_link: string;
+  readings: IReading[];
+  readQS: string;
+  audioQS: string;
 }
 
 export interface IReadingsForDay {
-  date_pretty: string;
-  day_description: string;
+  datePretty: string;
+  calendar: string;
   morning: IReadingsList;
   evening: IReadingsList;
 }

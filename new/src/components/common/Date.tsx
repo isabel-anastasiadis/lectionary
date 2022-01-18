@@ -14,14 +14,9 @@ const Wrapper = styled("div", {
 });
 
 const IconWrapper = styled("div", {
-  position: "absolute",
-  right: "10px",
-  top: "0",
-  height: "100%",
-  pointerEvents: "none",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
+  marginLeft: "-20px",
+  marginTop: "-2px",
+  display: "inline-block"
 });
 
 const selectStyles = {
@@ -50,6 +45,11 @@ const selectStyles = {
 
 const StyledSelect = styled("select", selectStyles);
 
+const StyledOption = styled("option", {
+    color: "$foreground",
+    backgroundColor: "$background"
+});
+
 // This is a hidden element.
 // It has duplicate styles as the native date select.
 // The widths of native select elements cannot update dymnamically,
@@ -73,6 +73,10 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
   const ref: any = useRef(null);
 
   useEffect(() => {
+    setCurrentDateText(dates[currentDate]);
+  }, [currentDate, dates]);
+
+  useEffect(() => {
     if (ref.current !== null) {
       const hiddenTextWidth = ref.current.offsetWidth + 5;
       setSelectWidth(hiddenTextWidth);
@@ -91,13 +95,13 @@ const Date = ({ dates, currentDate, setCurrentDate }: MessageProps) => {
         >
           {Object.keys(dates).map((dateKey, i) => {
             return (
-              <option
+              <StyledOption
                 key={i}
                 value={dateKey}
                 selected={dateKey === currentDate}
               >
                 {dates[dateKey]}
-              </option>
+              </StyledOption>
             );
           })}
         </StyledSelect>

@@ -33,6 +33,7 @@ const ReadingsPage = ({
       <Nav>
         <Button
           shape="circ"
+          buttonStyle="secondary"
           icon={"arrow"}
           iconRotate={"90"}
           onClick={yesterdayOnClick}
@@ -65,7 +66,11 @@ const ReadingsPage = ({
             : todaysReadings.evening
         }
       />
-      <Actions/>
+      <Actions readings={
+        theme === Theme.MORNING
+            ? todaysReadings.morning
+            : todaysReadings.evening
+        }/>
     </>
   );
 };

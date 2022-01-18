@@ -71,15 +71,15 @@ interface ButtonProps {
   children?: React.ReactNode
   onClick: () => void
   shape?: ButtonVariants['shape']
-  style?: ButtonVariants['style']
+  buttonStyle?: ButtonVariants['style']
   icon?: string
   iconRotate?: string
   iconColor?: string
 }
   
-const Button = ({children, onClick, shape, style, icon, iconRotate, iconColor}: ButtonProps) => {
+const Button = ({children, onClick, shape, buttonStyle, icon, iconRotate, iconColor}: ButtonProps) => {
   return (
-    <StyledButton shape={shape} style={style} onClick={onClick}>
+    <StyledButton shape={shape} style={buttonStyle} onClick={onClick}>
       {icon ? <Icon rotate={iconRotate} name={icon} color={iconColor}/> : null}
       {children}
     </StyledButton>

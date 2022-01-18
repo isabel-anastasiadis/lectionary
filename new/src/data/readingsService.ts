@@ -11,7 +11,7 @@ export function getAvailableDates(): IAvailableDates {
   const result: IAvailableDates = {};
 
   dateKeys.forEach((key) => {
-    result[key] = Data[key].date_pretty;
+    result[key] = Data[key].datePretty;
   });
 
   return result;

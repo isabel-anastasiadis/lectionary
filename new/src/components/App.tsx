@@ -13,18 +13,24 @@ const ThemeWrapper = styled("div", {
   fontFamily: "inter",
   height: "100%",
   display: "flex",
-  flexDirection: "column"
+  flexDirection: "column",
+
 });
 
-const PositionWrapper = styled("div", {
+const ContentWrapper = styled("div", {
   height: "100%",
-  padding: "30px",
   display: "flex",
-  flexDirection: "column"
+  flexDirection: "column",
+  padding: "30px"
 });
+
+const InDevBanner = styled("div", {
+  backgroundColor: "mediumpurple",
+  padding: "10px"
+})
 
 const App = () => {
-  const [theme, setTheme] = useState(Theme.MORNING); // TODO
+  const [theme, setTheme] = useState(Theme.MORNING); // TODO auto calculate
   const [dateKey, setDateKey] = useState(getTodaysDateKey());
 
   function updateTheme(theme: Theme): void {
@@ -39,7 +45,8 @@ const App = () => {
 
   return (
     <ThemeWrapper className={theme === Theme.EVENING ? dark : ""}>
-      <PositionWrapper>
+      <InDevBanner>Still in development</InDevBanner>
+      <ContentWrapper>
         <Switch>
           <Route
             exact
@@ -57,8 +64,9 @@ const App = () => {
           <Route path="/about" component={AboutPage} />
           <Route path="/settings" component={SettingsPage} />
         </Switch>
-      </PositionWrapper>
-      <Footer />
+        <Footer />
+      </ContentWrapper>
+
     </ThemeWrapper>
   );
 };
