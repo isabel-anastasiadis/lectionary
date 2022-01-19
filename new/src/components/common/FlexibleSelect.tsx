@@ -137,8 +137,11 @@ const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange }: Fl
         <IconWrapper>
           <Icon name="chevron" color={selectStyle === "primary" ? "$background" : "white"}/>
         </IconWrapper>
+        
+        <HiddenElement ref={ref} style={selectStyle}>{currentText}</HiddenElement>
+
       </Wrapper>
-      <HiddenElement ref={ref} style={selectStyle}>{currentText}</HiddenElement>
+      
     </>
   );
 };

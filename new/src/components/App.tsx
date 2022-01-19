@@ -63,9 +63,7 @@ const App = () => {
           <Route path="/about" component={AboutPage} />
           <Route path="/settings" component={SettingsPage} />
         </Switch>
-
       </ContentWrapper>
-
     </ThemeWrapper>
   );
 };
