@@ -25,7 +25,7 @@ const Actions = ({ readings }: ActionsProps) => {
             <ButtonLinkWithOptions
                 selectOptions= {AUDIO_TRANSLATIONS}
                 selectDefaultValue={defaultAudioTranslation}
-                selectOnChange={(e) => {setAudioTranslation(e.target.value)}}
+                selectOnChange={(value) => {setAudioTranslation(value)}}
                 buttonText="Play all"
                 href={audioUrl(audioTranslation, readings.audioQS)}
                 buttonStyle="secondary"
@@ -34,7 +34,7 @@ const Actions = ({ readings }: ActionsProps) => {
             <ButtonLinkWithOptions
                 selectOptions= {READING_TRANSLATIONS}
                 selectDefaultValue={defaultReadingTranslation}
-                selectOnChange={(e) => {setReadingTranslation(e.target.value)}}
+                selectOnChange={(value) => {setReadingTranslation(value)}}
                 buttonText="Read all"
                 href={readingUrl(readingTranslation, readings.readQS)}
                 buttonStyle="primary"

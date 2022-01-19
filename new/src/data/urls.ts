@@ -7,32 +7,32 @@ export const audioUrl = (version: string, readings: string): string => {
     return `https://www.biblegateway.com/audio/${version}/${readings}`;
 };
 
-export const AUDIO_TRANSLATIONS: Array<{name: string, value: string}> = [
+export const AUDIO_TRANSLATIONS: Array<{text: string, value: string}> = [
     {
-        name: "MSG",
+        text: "MSG",
         value: "dolan/msg"
     },
     {
-        name: "NIV",
+        text: "NIV",
         value: "mclean/niv"
     },
     {
-        name: "NLT",
+        text: "NLT",
         value: "breathe/nlt"
     }
 ];
 
-export const READING_TRANSLATIONS: Array<{name: string, value: string}> = [
+export const READING_TRANSLATIONS: Array<{text: string, value: string}> = [
     {
-        name: "NIV",
+        text: "NIV",
         value: "NIV"
     },
     {
-        name: "MSG",
+        text: "MSG",
         value: "MSG"
     },
     {
-        name: "NLT",
+        text: "NLT",
         value: "NLT"
     }
 ];

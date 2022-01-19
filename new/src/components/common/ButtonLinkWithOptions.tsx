@@ -1,8 +1,9 @@
 
-import React from 'react';
 import { styled } from '../../stitches.config';
 import Icon from './Icon';
 import { ButtonStyle, ButtonVariants } from './Button';
+import FlexibleSelect from './FlexibleSelect';
+
 
 const WrapperDiv = styled('div', {
   borderRadius: "10px",
@@ -23,7 +24,16 @@ const Link = styled('a', {
   alignItems: 'center',
   textDecoration: "none",
   variants: {
-    style: ButtonStyle
+    style: {
+      primary: {
+        ...ButtonStyle.primary,
+        borderRight: 'solid $toggleCheckedSelect 1px'
+      },
+      secondary: {
+        ...ButtonStyle.secondary,
+        borderRight: 'solid $toggleSelect 1px'
+      }
+    }
   }
 });
 
@@ -32,45 +42,18 @@ const LinkText = styled('div', {
   fontSize: 'inherit'
 });
 
-const SelectStyle = {
-  primary: {
-    ...ButtonStyle.primary,
-    borderLeft: 'solid $toggleCheckedSelect 1px'
-  },
-  secondary: {
-    ...ButtonStyle.secondary,
-    borderLeft: 'solid $toggleSelect 1px'
-  }
-}
-
-const Select = styled('select', {
-  outline: "none",
-  border: "none",
-  padding: '0 5px 0 20px',
-  fontSize: 'inherit',
-  variants: {
-    style: SelectStyle
-  }
-})
-
-const Option = styled("option", {
-  color: "$foreground",
-  backgroundColor: "$background"
-});
-
 interface ButtonProps {
-  selectOptions: Array<{name: string, value: string}>,
-  selectDefaultValue?: string,
+  selectOptions: Array<{text: string, value: string}>,
+  selectDefaultValue: string,
   buttonText?: string,
   href: string,
   buttonStyle?: ButtonVariants['style'],
   buttonIcon?: string,
   buttonIconColor?: string,
-  selectOnChange: React.ChangeEventHandler<HTMLSelectElement>
+  selectOnChange: (value: string) => void;
 }
-  
-const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChange, buttonText, href, buttonStyle, buttonIcon }: ButtonProps) => {
 
+const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChange, buttonText, href, buttonStyle, buttonIcon }: ButtonProps) => {
   return (
     <WrapperDiv>
       <Link href={href} style={buttonStyle}>
@@ -79,16 +62,7 @@ const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChang
           {buttonText}
         </LinkText>
       </Link>
-      <Select style={buttonStyle} onChange={selectOnChange}>
-        {selectOptions.map((nameValue, i) => {
-          return (
-            <Option key={i} value={nameValue.value} selected={selectDefaultValue === nameValue.value}>
-              {nameValue.name}
-            </Option>
-          );
-        })}
-      </Select>
-
+      <FlexibleSelect selectStyle={buttonStyle} newExternalValue={selectDefaultValue} options={selectOptions} onChange={selectOnChange}/>
     </WrapperDiv>
   )
 }
