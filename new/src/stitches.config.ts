@@ -12,6 +12,7 @@ export const { css, styled } = createStitches({
       toggleCheckedBase: "rgba(0,0,0,1)",
       toggleCheckedStage: "rgba(255,255,255,0.2)",
       toggleCheckedSelect: "rgba(255,255,255,0.25)",
+      highlight: "lavender"
     },
   },
 });
@@ -27,6 +28,7 @@ export const dark = createTheme({
     toggleCheckedBase: "rgba(255,255,255,1)",
     toggleCheckedStage: "rgba(0,0,0,0.1)",
     toggleCheckedSelect: "rgba(0,0,0,0.2)",
+    highlight: "mediumpurple"
   },
 });
 

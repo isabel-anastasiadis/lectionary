@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 const StyledNav = styled("nav", {
   color: "$foreground",
   height: "25px",
+  fontSize: "14px",
   fontFamily: "inter",
   display: "flex",
   justifyContent: "space-between",
