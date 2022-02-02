@@ -6,7 +6,6 @@ import Date from "../common/Date";
 import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
 import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
-import Footer from "../footer/Footer";
 
 interface ReadingsPageProps {
   theme: Theme;
