@@ -1,14 +1,15 @@
 import { styled } from "../../stitches.config";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const StyledNav = styled("nav", {
   color: "$foreground",
   height: "25px",
-  marginTop: "30px",
   fontFamily: "inter",
   display: "flex",
   justifyContent: "space-between",
-  opacity: 0.6
+  opacity: 0.6,
+  margin: "30px",
+  marginTop: 0
 });
 
 const StyledNavLink = styled(Link, {
@@ -32,12 +33,16 @@ interface IFooterProps {
 }
 
 const Footer = ({links}: IFooterProps) => {
+  const location = useLocation().pathname;
+
   return (
     <StyledNav>
       New Zealand Anglican Lectionary
 
       {links.map((link, i) => {
-        return <StyledNavLink to={link.to}>{link.label}</StyledNavLink>
+        const linkIsActive = location === link.to;
+
+        return <StyledNavLink to={linkIsActive ? "/" : link.to }>{linkIsActive ? "Back" : link.label}</StyledNavLink>
       })}
       
     </StyledNav>

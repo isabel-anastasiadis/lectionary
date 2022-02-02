@@ -135,7 +135,7 @@ const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange }: Fl
         </StyledSelect>
 
         <IconWrapper>
-          <Icon name="chevron" color={selectStyle === "primary" ? "$background" : "white"}/>
+          <Icon name="chevron" color={selectStyle === "primary" ? "var(--colors-background)" : "var(--colors-foreground)"}/>
         </IconWrapper>
         
         <HiddenElement ref={ref} style={selectStyle}>{currentText}</HiddenElement>

@@ -1,7 +1,7 @@
 import { styled } from "@stitches/react";
 
 
-export const Link = styled('a', {
+export const DefaultLinkStyles = {
     fontWeight: '700',
     color: '$foreground',
     textDecoration: 'none',
@@ -14,5 +14,7 @@ export const Link = styled('a', {
     '&:active': {
         opacity: '0.6',
     },
-})
+};
+
+export const Link = styled('a', DefaultLinkStyles);
 

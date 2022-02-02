@@ -72,7 +72,6 @@ const ReadingsPage = ({
             ? todaysReadings.morning
             : todaysReadings.evening
         }/>
-      <Footer links={ [{to: "/about", label: "About"}] }/>
     </>
   );
 };

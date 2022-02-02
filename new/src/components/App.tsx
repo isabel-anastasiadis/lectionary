@@ -7,6 +7,7 @@ import { useState } from "react";
 import { Theme } from "../data/interfaces";
 import { getTodaysDateKey } from "../data/dateKeyService";
 import { pickDefaultTheme } from "../data/themeService";
+import Footer from "./footer/Footer";
 
 const ThemeWrapper = styled("div", {
   background: "$background",
@@ -64,6 +65,7 @@ const App = () => {
           <Route path="/settings" component={SettingsPage} />
         </Switch>
       </ContentWrapper>
+      <Footer links={ [{to: "/about", label: "About"}] }/>
     </ThemeWrapper>
   );
 };
