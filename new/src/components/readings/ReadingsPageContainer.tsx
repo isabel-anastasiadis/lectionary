@@ -27,10 +27,16 @@ const ReadingsPageContainer = ({
   updateDateKey,
 }: ReadingsPageContainerProps) => {
 
-  const defaultAudioTranslation = AUDIO_TRANSLATIONS[0].value;
-  const defaultReadingTranslation = READING_TRANSLATIONS[0].value;
-  const [audioTranslation, setAudioTranslation ] = useState(defaultAudioTranslation);
-  const [readingTranslation, setReadingTranslation ] = useState(defaultReadingTranslation);
+  const [audioTranslation, setAudioTranslation ] = useState(() => {
+    const saved = localStorage.getItem("nz_anglican_lectionary.audio_translation");
+    return saved !== null ? JSON.parse(saved) : AUDIO_TRANSLATIONS[0].value
+  });
+
+  const [readingTranslation, setReadingTranslation ] = useState(() => {
+    const saved = localStorage.getItem("nz_anglican_lectionary.reading_translation");
+    return saved !== null ? JSON.parse(saved) : READING_TRANSLATIONS[0].value
+  });
+
   const [todaysReadings, setTodaysReadings] = useState(getReadingsForDay(dateKey));
 
   function handleYesterdayClicked(): void {
@@ -47,6 +53,16 @@ const ReadingsPageContainer = ({
     setTodaysReadings(getReadingsForDay(dateKey));
   }, [dateKey]);
 
+  function saveAudioTranslation(audioTranslation: string): void {
+    localStorage.setItem("nz_anglican_lectionary.audio_translation", JSON.stringify(audioTranslation));
+    setAudioTranslation(audioTranslation);
+  }
+
+  function saveReadingTranslation(readingTranslation: string): void {
+    localStorage.setItem("nz_anglican_lectionary.reading_translation", JSON.stringify(readingTranslation));
+    setReadingTranslation(readingTranslation);
+  }
+
   return (
     <ReadingsPage
       theme={theme}
@@ -55,8 +71,8 @@ const ReadingsPageContainer = ({
       todaysReadings={todaysReadings}
       audioTranslation={audioTranslation}
       readingTranslation={readingTranslation}
-      setAudioTranslation={setAudioTranslation}
-      setReadingTranslation={setReadingTranslation}
+      setAudioTranslation={saveAudioTranslation}
+      setReadingTranslation={saveReadingTranslation}
       updateTheme={updateTheme}
       updateDate={updateDateKey}
       yesterdayOnClick={handleYesterdayClicked}

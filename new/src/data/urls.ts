@@ -19,6 +19,10 @@ export const AUDIO_TRANSLATIONS: Array<{text: string, value: string}> = [
     {
         text: "NLT",
         value: "breathe/nlt"
+    },
+    {
+        text: "NKJV",
+        value: "laraye/nkjv"
     }
 ];
 
@@ -34,5 +38,9 @@ export const READING_TRANSLATIONS: Array<{text: string, value: string}> = [
     {
         text: "NLT",
         value: "NLT"
+    },
+    {
+        text: "NKJV",
+        value: "NKJV"
     }
 ];
