@@ -7,13 +7,14 @@ const StyledReading = styled('li', {})
 
 
 interface ReadingsProps {
-    reading: IReading
+    reading: IReading,
+    readingTranslation: string
 }
 
-const Reading = ({reading}: ReadingsProps) => {
+const Reading = ({reading, readingTranslation}: ReadingsProps) => {
     return(
         <StyledReading>
-            <Link href={readingUrl("NIV", reading.readQS)}>{reading.pretty}</Link>
+            <Link href={readingUrl(readingTranslation, reading.readQS)}>{reading.pretty}</Link>
         </StyledReading>
     )
 }

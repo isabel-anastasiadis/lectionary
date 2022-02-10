@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { readingUrl, audioUrl, AUDIO_TRANSLATIONS, READING_TRANSLATIONS } from '../../data/urls';
 import { IReadingsList } from '../../data/interfaces';
 import { styled } from '../../stitches.config';
@@ -9,22 +9,26 @@ const AllActionsDiv = styled("div", {
 });
 
 interface ActionsProps {
-    readings: IReadingsList
+    readings: IReadingsList,
+    audioTranslation: string,
+    readingTranslation: string,
+    setAudioTranslation(translation: string): void,
+    setReadingTranslation(translation: string): void
 }
 
-const Actions = ({ readings }: ActionsProps) => {
-
-    const defaultAudioTranslation = AUDIO_TRANSLATIONS[0].value;
-    const defaultReadingTranslation = READING_TRANSLATIONS[0].value;
-
-    const [audioTranslation, setAudioTranslation ] = useState(defaultAudioTranslation);
-    const [readingTranslation, setReadingTranslation ] = useState(defaultReadingTranslation);
+const Actions = ({ 
+        readings, 
+        audioTranslation, 
+        readingTranslation, 
+        setAudioTranslation, 
+        setReadingTranslation 
+    }: ActionsProps) => {
 
     return (
         <AllActionsDiv>
             <ButtonLinkWithOptions
                 selectOptions= {AUDIO_TRANSLATIONS}
-                selectDefaultValue={defaultAudioTranslation}
+                selectDefaultValue={audioTranslation}
                 selectOnChange={(value) => {setAudioTranslation(value)}}
                 buttonText="Play all"
                 href={audioUrl(audioTranslation, readings.audioQS)}
@@ -33,7 +37,7 @@ const Actions = ({ readings }: ActionsProps) => {
             />
             <ButtonLinkWithOptions
                 selectOptions= {READING_TRANSLATIONS}
-                selectDefaultValue={defaultReadingTranslation}
+                selectDefaultValue={readingTranslation}
                 selectOnChange={(value) => {setReadingTranslation(value)}}
                 buttonText="Read all"
                 href={readingUrl(readingTranslation, readings.readQS)}

@@ -12,6 +12,10 @@ interface ReadingsPageProps {
   dateKey: string;
   availableDates: IAvailableDates;
   todaysReadings: IReadingsForDay;
+  audioTranslation: string,
+  readingTranslation: string,
+  setAudioTranslation(translation: string): void,
+  setReadingTranslation(translation: string): void
   yesterdayOnClick(): void;
   tomorrowOnClick(): void;
   updateDate(dateKey: string): void;
@@ -23,6 +27,10 @@ const ReadingsPage = ({
   dateKey,
   availableDates,
   todaysReadings,
+  audioTranslation,
+  readingTranslation,
+  setAudioTranslation,
+  setReadingTranslation,
   yesterdayOnClick,
   tomorrowOnClick,
   updateDate,
@@ -65,12 +73,18 @@ const ReadingsPage = ({
             ? todaysReadings.morning
             : todaysReadings.evening
         }
+        readingTranslation={readingTranslation}
       />
       <Actions readings={
         theme === Theme.MORNING
             ? todaysReadings.morning
             : todaysReadings.evening
-        }/>
+        }
+        audioTranslation={audioTranslation}
+        readingTranslation={readingTranslation}
+        setAudioTranslation={setAudioTranslation}
+        setReadingTranslation={setReadingTranslation}
+      />
     </>
   );
 };

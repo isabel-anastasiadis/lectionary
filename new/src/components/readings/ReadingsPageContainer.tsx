@@ -9,6 +9,7 @@ import {
 } from "../../data/dateKeyService";
 import { Theme } from "../../data/interfaces";
 import ReadingsPage from "./ReadingsPage";
+import { AUDIO_TRANSLATIONS, READING_TRANSLATIONS } from "../../data/urls";
 
 const availableDates = getAvailableDates();
 
@@ -25,9 +26,12 @@ const ReadingsPageContainer = ({
   dateKey,
   updateDateKey,
 }: ReadingsPageContainerProps) => {
-  const [todaysReadings, setTodaysReadings] = useState(
-    getReadingsForDay(dateKey)
-  );
+
+  const defaultAudioTranslation = AUDIO_TRANSLATIONS[0].value;
+  const defaultReadingTranslation = READING_TRANSLATIONS[0].value;
+  const [audioTranslation, setAudioTranslation ] = useState(defaultAudioTranslation);
+  const [readingTranslation, setReadingTranslation ] = useState(defaultReadingTranslation);
+  const [todaysReadings, setTodaysReadings] = useState(getReadingsForDay(dateKey));
 
   function handleYesterdayClicked(): void {
     const newDateKey = getYesterdaysDateKey(dateKey);
@@ -37,10 +41,6 @@ const ReadingsPageContainer = ({
   function handleTomorrowClicked(): void {
     const newDateKey = getTomorrowsDateKey(dateKey);
     updateDateKey(newDateKey);
-  }
-
-  function handleDateUpdated(dateKey: string): void {
-    updateDateKey(dateKey);
   }
 
   useEffect(() => {
@@ -53,8 +53,12 @@ const ReadingsPageContainer = ({
       dateKey={dateKey}
       availableDates={availableDates}
       todaysReadings={todaysReadings}
+      audioTranslation={audioTranslation}
+      readingTranslation={readingTranslation}
+      setAudioTranslation={setAudioTranslation}
+      setReadingTranslation={setReadingTranslation}
       updateTheme={updateTheme}
-      updateDate={handleDateUpdated}
+      updateDate={updateDateKey}
       yesterdayOnClick={handleYesterdayClicked}
       tomorrowOnClick={handleTomorrowClicked}
     />
