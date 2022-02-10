@@ -6,6 +6,12 @@ import Date from "../common/Date";
 import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
 import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
+import { styled } from "@stitches/react";
+
+const StyledSpan = styled('span', {
+  color: '$foreground',
+  paddingLeft: "5px"
+});
 
 interface ReadingsPageProps {
   theme: Theme;
@@ -67,6 +73,7 @@ const ReadingsPage = ({
         currentDate={dateKey}
         setCurrentDate={updateDate}
       />
+      <StyledSpan>{todaysReadings.calendar}</StyledSpan>
       <ReadingsList
         readingsList={
           theme === Theme.MORNING
