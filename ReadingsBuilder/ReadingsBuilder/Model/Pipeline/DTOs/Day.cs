@@ -26,6 +26,11 @@ namespace ReadingsBuilder.Model.Pipeline.DTOs
         /// </summary>
         public bool? IsSeasonalTime { get; set; }
 
+        /// <summary>
+        /// There are some feast days that don't happen if they fall on Holy Week.
+        /// </summary>
+        public bool? IsHolyWeek { get; set; }
+
         public Option<MorningReadings, ReadingsOptionType> MorningReadings { get; set; }
 
         public Option<EveningReadings, ReadingsOptionType> EveningReadings { get; set; }

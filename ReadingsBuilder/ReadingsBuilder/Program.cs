@@ -12,7 +12,7 @@ var pipeline = DependencyInjector.GetInstance<IPipeline>();
 var input = new Input 
 { 
     StartDate = new DateOnly(2021, 12, 1), 
-    EndDate = new DateOnly(2022, 4, 9), 
+    EndDate = new DateOnly(2022, 6, 5), // pentecost
     PalmSunday = new DateOnly(2022, 4, 10) 
 };
 var result = pipeline.Run(input);

@@ -1,16 +1,19 @@
 ﻿
-using ReadingsBuilder.Model.Data;
 using ReadingsBuilder.Model.Data.DTOs;
 
 namespace ReadingsBuilder.Model.Mappers
 {
-
+    /// <summary>
+    /// The order of columns in 'All Rules.csv'
+    /// </summary>
     public enum ColumnIndexes
     {
-        RuleClassOrder,
+        RuleClassOrder = 0,
         RuleClassName, 
         RuleType,
         RowWithinClass,
+        FeastDayType,
+        EveningName,
         DayName,
         IsSeasonalTime,
         ByDayOfWeekWeekday,
@@ -25,7 +28,6 @@ namespace ReadingsBuilder.Model.Mappers
         MorningNewTestament,
         EveningOldTestament,
         EveningNewTestament,
-        // TODO:
         MorningPsalmMain,
         MorningPsalmOptional,
         MorningPsalmOmittedIfCanticle,

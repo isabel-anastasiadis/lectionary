@@ -88,9 +88,9 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/02/25,"Friday, February 25, 2022",Week of 2nd Sunday before Lent,; Genesis 33:1–17; Titus 3,; Ecclesiastes 11:1–8; John 20:11–18
 2022/02/26,"Saturday, February 26, 2022",Week of 2nd Sunday before Lent,; Genesis 35; Philemon,; Ecclesiastes 11:9–end; Ecclesiastes 12; John 20:19–end
 2022/02/27,"Sunday, February 27, 2022",The Sunday before Lent,Psalm 104:1-26; Jeremiah 28:1-11; Acts 14:8-17,Psalm 147; Genesis 1:1-2:3; Matthew 6:25-end
-2022/02/28,"Monday, February 28, 2022",Week of the Sunday before Lent,; Genesis 37:1–11; Galatians 1,; Jeremiah 1; John 3:1–21
-2022/03/01,"Tuesday, March 1, 2022",Shrove Tuesday,; Genesis 37:12–end; Galatians 2:1–10,; Jeremiah 2:1–13; John 3:22–end
-2022/03/02,"Wednesday, March 2, 2022",Ash Wednesday,Psalm 38; ;,Psalm 51; ;
+2022/02/28,"Monday, February 28, 2022",Week of the Sunday before Lent,; Genesis 37:1–11; Galatians 1,; N/A; John 3:1–21
+2022/03/01,"Tuesday, March 1, 2022",Shrove Tuesday,; Genesis 37:12–end; Galatians 2:1–10,; N/A; John 3:22–end
+2022/03/02,"Wednesday, March 2, 2022",Ash Wednesday,"Psalm 38; Daniel 9:3-6,17-19; 1 Timothy 6:6-19",Psalm 51; Isaiah 1:10-18; Luke 15:11-32
 2022/03/03,"Thursday, March 3, 2022",1st day of Lent,Psalm 77; Genesis 39; Galatians 2:11–end,Psalm 74; Jeremiah 2:14–32; John 4:1–26
 2022/03/04,"Friday, March 4, 2022",2nd day of Lent,Psalm 3; Genesis 40; Galatians 3:1–14,Psalm 31; Jeremiah 3:6–22; John 4:27–42
 2022/03/05,"Saturday, March 5, 2022",3rd day of Lent,Psalm 71; Genesis 41:1–24; Galatians 3:15–22,Psalm 73; Jeremiah 4:1–18; John 4:43–end
@@ -106,13 +106,13 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/03/15,"Tuesday, March 15, 2022",Week of 2nd Sunday of Lent,Psalm 50; Genesis 44:1–17; Hebrews 2:1–9,Psalm 64; Jeremiah 8:1–15; John 6:52–59
 2022/03/16,"Wednesday, March 16, 2022",Week of 2nd Sunday of Lent,Psalm 35; Genesis 44:18–end; Hebrews 2:10–end,Psalm 39; Jeremiah 8:18–9:11; John 6:60–end
 2022/03/17,"Thursday, March 17, 2022",Week of 2nd Sunday of Lent,Psalm 34; Genesis 45:1–15; Hebrews 3:1–6,Psalm 59; Jeremiah 9:12–24; John 7:1–13
-2022/03/18,"Friday, March 18, 2022",1st EP of Joseph,Psalm 41; Genesis 45:16–end; Hebrews 3:7–end,Psalm 132; Hosea 11:1-9; Luke 2:41-52
+2022/03/18,"Friday, March 18, 2022",Week of 2nd Sunday of Lent,Psalm 41; Genesis 45:16–end; Hebrews 3:7–end,Psalm 132; Hosea 11:1-9; Luke 2:41-52
 2022/03/19,"Saturday, March 19, 2022",St Joseph of Nazereth,"Psalm 25,147:1-12; Isaiah 11:1-10; Matthew 13:54-58","Psalm 1,112; Genesis 50:22-26; Matthew 2:13-23"
 2022/03/20,"Sunday, March 20, 2022",3rd Sunday of Lent,"Psalm 26,28; Deuteronomy 6:4-9; John 17:1a,11b-19","Psalm 12,13; Genesis 28:10-19a; John 1:35-51"
 2022/03/21,"Monday, March 21, 2022",Week of 3rd Sunday of Lent,Psalm 5; Genesis 47:1–27; Hebrews 4:14–5:10,Psalm 17; Jeremiah 11:1–17; John 7:37–52
 2022/03/22,"Tuesday, March 22, 2022",Week of 3rd Sunday of Lent,Psalm 9; Genesis 47:28–end; Genesis 48; Hebrews 5:11–6:12,Psalm 64; Jeremiah 11:18–12:6; John 7:53–8:11
 2022/03/23,"Wednesday, March 23, 2022",Week of 3rd Sunday of Lent,Psalm 38; Genesis 49:1–32; Hebrews 6:13–end,Psalm 39; Jeremiah 13:1–11; John 8:12–30
-2022/03/24,"Thursday, March 24, 2022",1st EP before the Annunciation,Psalm 56; Genesis 49:33–end; Genesis 50; Hebrews 7:1–10,Psalm 85; Genesis 3:8-15; Galatians 4:1-5
+2022/03/24,"Thursday, March 24, 2022",Week of 3rd Sunday of Lent,Psalm 56; Genesis 49:33–end; Genesis 50; Hebrews 7:1–10,Psalm 85; Genesis 3:8-15; Galatians 4:1-5
 2022/03/25,"Friday, March 25, 2022",The Annunciation,"Psalm 111,113; 1 Samuel 2:1-10; Romans 5:12-21","Psalm 131,146; Isaiah 52:1-12; Hebrews 2:5-18"
 2022/03/26,"Saturday, March 26, 2022",Week of 3rd Sunday of Lent,Psalm 31; Exodus 1:22–2:10; Hebrews 8,Psalm 116; Jeremiah 16:10–17:4; John 9:1–17
 2022/03/27,"Sunday, March 27, 2022",4th Sunday of Lent,"Psalm 84,85; Genesis 37:3-4,12-36; 1 Peter 2:16-25",Psalm 30; Isaiah 40:27–41:13; 2 Timothy 4:1-18
@@ -129,3 +129,60 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/04/07,"Thursday, April 7, 2022",Week of 5th Sunday of Lent,Psalm 40; Exodus 9:13–end; Hebrews 12:14–end,Psalm 43; Jeremiah 23:9–32; John 12:12–19
 2022/04/08,"Friday, April 8, 2022",Week of 5th Sunday of Lent,Psalm 22; Exodus 10; Hebrews 13:1–16,Psalm 31; Jeremiah 24; John 12:20–36a
 2022/04/09,"Saturday, April 9, 2022",Week of 5th Sunday of Lent,Psalm 23; Exodus 11; Hebrews 13:17–end,Psalm 130; Jeremiah 25:1–14; John 12:36b–end
+2022/04/10,"Sunday, April 10, 2022",Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 69:1-19; Isaiah 5:1-7; Mark 12:1-12
+2022/04/11,"Monday, April 11, 2022",Monday in Holy Week,Psalm 41; Lamentations 1:1-12a; Luke 22:1-23,Psalm 25; Lamentations 2:8-19; Colossians 1:18-23
+2022/04/12,"Tuesday, April 12, 2022",Tuesday in Holy Week,Psalm 27; Lamentations 3:1-18; Luke 22:24-53,Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-18
+2022/04/13,"Wednesday, April 13, 2022",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,Psalm 88; Isaiah 63:1-9; Revelation 14:18-end; Revelation 15:1-4
+2022/04/14,"Thursday, April 14, 2022",Maundy Thursday,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
+2022/04/15,"Friday, April 15, 2022",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; Colossians 1:18-23; John 19:38-end"
+2022/04/16,"Saturday, April 16, 2022",Holy Saturday,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
+2022/04/17,"Sunday, April 17, 2022",Easter Sunday,"Psalm 114,117; Ezekiel 47:1-12; John 2:13-22",Psalm 105; Isaiah 43:1-21; 1 Corinthians 15:1-11
+2022/04/18,"Monday, April 18, 2022",Monday in Easter Week,Psalm 111; Exodus 12:1–14; 1 Corinthians 15:1–11,Psalm 135; Song of Solomon 1:9–2:7; Mark 16:1–8
+2022/04/19,"Tuesday, April 19, 2022",Tuesday in Easter Week,Psalm 112; Exodus 12:14–36; 1 Corinthians 15:12–19,Psalm 136; Song of Solomon 2:8–end; Luke 24:1–12
+2022/04/20,"Wednesday, April 20, 2022",Wednesday in Easter Week,Psalm 113; Exodus 12:37–end; 1 Corinthians 15:20–28,Psalm 105; Song of Solomon 3; Matthew 28:16–end
+2022/04/21,"Thursday, April 21, 2022",Thursday in Easter Week,Psalm 114; Exodus 13:1–16; 1 Corinthians 15:29–34,Psalm 106; Song of Solomon 5:2–6:3; Luke 7:11–17
+2022/04/22,"Friday, April 22, 2022",Friday in Easter Week,Psalm 115; Exodus 13:17–14:14; 1 Corinthians 15:35–50,Psalm 107; Song of Solomon 7:10–8:4; Luke 8:41–end
+2022/04/23,"Saturday, April 23, 2022",Saturday in Easter Week,Psalm 116; Exodus 14:15–end; 1 Corinthians 15:51–end,Psalm 145; Song of Solomon 8:5–7; John 11:17–44
+2022/04/24,"Sunday, April 24, 2022",St George,Psalm 136:1-16; Exodus 12:1-13; 1 Peter 1:3-12,"Psalm 16; Isaiah 52:13-end,Isa 53:1-12; Luke 24:13-35"
+2022/04/25,"Monday, April 25, 2022",1st EP of St Mark,Psalm 19; Exodus 15:1–21; Colossians 1:1–14,Psalm 19; Isaiah 52:7-10; Mark 1:1-15
+2022/04/26,"Tuesday, April 26, 2022",St Mark the Evangelist,"Psalm 37:23-41,148; Isaiah 62:6-10; Acts 12:25-end; Acts 13:1-13",Psalm 45; Ezekiel 1:4-14; 2 Timothy 4:1-11
+2022/04/27,"Wednesday, April 27, 2022",Week of 2nd Sunday of Easter,Psalm 30; Exodus 16:11–end; Colossians 2:1–15,Psalm 33; Deuteronomy 3:18–end; John 20:19–end
+2022/04/28,"Thursday, April 28, 2022",Week of 2nd Sunday of Easter,Psalm 28; Exodus 17; Colossians 2:16–3:11,Psalm 34; Deuteronomy 4:1–14; John 21:1–14
+2022/04/29,"Friday, April 29, 2022",Week of 2nd Sunday of Easter,Psalm 61; Exodus 18:1–12; Colossians 3:12–4:1,Psalm 118; Deuteronomy 4:15–31; John 21:15–19
+2022/04/30,"Saturday, April 30, 2022",Week of 2nd Sunday of Easter,Psalm 84; Exodus 18:13–end; Colossians 4:2–end,Psalm 66; Deuteronomy 4:32–40; John 21:20–end
+2022/05/01,"Sunday, May 1, 2022",3rd Sunday of Easter,"Psalm 80:1-7; Exodus 15:1-2,9-18; John 10:1-19",Psalm 25; Isaiah 40:27-31; John 12:20-26
+2022/05/02,"Monday, May 2, 2022",Week of 3rd Sunday of Easter,Psalm 96; Exodus 19; Luke 1:1–25,Psalm 61; Deuteronomy 5:1–22; Ephesians 1:1–14
+2022/05/03,"Tuesday, May 3, 2022",Week of 3rd Sunday of Easter,Psalm 98; Exodus 20:1–21; Luke 1:26–38,Psalm 71; Deuteronomy 5:22–end; Ephesians 1:15–end
+2022/05/04,"Wednesday, May 4, 2022",Week of 3rd Sunday of Easter,Psalm 105; Exodus 24; Luke 1:39–56,Psalm 72; Deuteronomy 6; Ephesians 2:1–10
+2022/05/05,"Thursday, May 5, 2022",Week of 3rd Sunday of Easter,Psalm 136; Exodus 25:1–22; Luke 1:57–end,Psalm 73; Deuteronomy 7:1–11; Ephesians 2:11–end
+2022/05/06,"Friday, May 6, 2022",Week of 3rd Sunday of Easter,"Psalm 107; Exodus 28:1–4a,28:29–38; Luke 2:1–20",Psalm 77; Deuteronomy 7:12–end; Ephesians 3:1–13
+2022/05/07,"Saturday, May 7, 2022",Week of 3rd Sunday of Easter,Psalm 110; Exodus 29:1–9; Luke 2:21–40,Psalm 27; Deuteronomy 8; Ephesians 3:14–end
+2022/05/08,"Sunday, May 8, 2022",4th Sunday of Easter,Psalm 146; 1 Kings 17:17-24; Luke 7:11-23,"Psalm 113,114; Isaiah 63:7-14; Luke 24:36-49"
+2022/05/09,"Monday, May 9, 2022",Week of 4th Sunday of Easter,Psalm 103; Exodus 32:1–14; Luke 2:41–end,Psalm 114; Deuteronomy 9:1–21; Ephesians 4:1–16
+2022/05/10,"Tuesday, May 10, 2022",Week of 4th Sunday of Easter,Psalm 139; Exodus 32:15–34; Luke 3:1–14,Psalm 116; Deuteronomy 9:23–10:5; Ephesians 4:17–end
+2022/05/11,"Wednesday, May 11, 2022",Week of 4th Sunday of Easter,Psalm 135; Exodus 33; Luke 3:15–22,Psalm 47; Deuteronomy 10:12–end; Ephesians 5:1–14
+2022/05/12,"Thursday, May 12, 2022",Week of 4th Sunday of Easter,"Psalm 118; Exodus 34:1–10,34:27–end; Luke 4:1–13",Psalm 85; Deuteronomy 11:8–end; Ephesians 5:15–end
+2022/05/13,"Friday, May 13, 2022",Week of 4th Sunday of Easter,Psalm 33; Exodus 35:20–36:7; Luke 4:14–30,Psalm 36; Deuteronomy 12:1–14; Ephesians 6:1–9
+2022/05/14,"Saturday, May 14, 2022",Week of 4th Sunday of Easter,Psalm 34; Exodus 40:17–end; Luke 4:31–37,Psalm 84; Deuteronomy 15:1–18; Ephesians 6:10–end
+2022/05/15,"Sunday, May 15, 2022",5th Sunday of Easter,"Psalm 16; 2 Samuel 7:4-13; Acts 2:14a,2:22-32",Psalm 98; Daniel 6:6-23; Mark 15:46–16:8
+2022/05/16,"Monday, May 16, 2022",Week of 5th Sunday of Easter,Psalm 145; Numbers 9:15–end; Numbers 10:33–end; Luke 4:38–end,Psalm 105; Deuteronomy 16:1–20; 1 Peter 1:1–12
+2022/05/17,"Tuesday, May 17, 2022",Week of 5th Sunday of Easter,Psalm 19; Numbers 11:1–33; Luke 5:1–11,Psalm 97; Deuteronomy 17:8–end; 1 Peter 1:13–end
+2022/05/18,"Wednesday, May 18, 2022",Week of 5th Sunday of Easter,Psalm 30; Numbers 12; Luke 5:12–26,Psalm 99; Deuteronomy 18:9–end; 1 Peter 2:1–10
+2022/05/19,"Thursday, May 19, 2022",Week of 5th Sunday of Easter,"Psalm 57; Numbers 13:1–3,13:17–end; Luke 5:27–end",Psalm 104; Deuteronomy 19; 1 Peter 2:11–end
+2022/05/20,"Friday, May 20, 2022",Week of 5th Sunday of Easter,Psalm 138; Numbers 14:1–25; Luke 6:1–11,Psalm 66; Deuteronomy 21:22–22:8; 1 Peter 3:1–12
+2022/05/21,"Saturday, May 21, 2022",Week of 5th Sunday of Easter,Psalm 146; Numbers 14:26–end; Luke 6:12–26,Psalm 118; Deuteronomy 24:5–end; 1 Peter 3:13–end
+2022/05/22,"Sunday, May 22, 2022",6th Sunday of Easter,Psalm 40:1-9; Genesis 1:26-28; Colossians 3:1-11,"Psalm 126,127; Zephaniah 3:14-20; Matthew 28:1-10,28:16-20"
+2022/05/23,"Monday, May 23, 2022",Week of 6th Sunday of Easter,Psalm 65; Numbers 16:1–35; Luke 6:27–38,Psalm 121; Deuteronomy 26; 1 Peter 4:1–11
+2022/05/24,"Tuesday, May 24, 2022",Week of 6th Sunday of Easter,Psalm 126; Numbers 16:36–end; Luke 6:39–end,Psalm 128; Deuteronomy 28:1–14; 1 Peter 4:12–end
+2022/05/25,"Wednesday, May 25, 2022",Week of 6th Sunday of Easter,Psalm 132; Numbers 17:1–11; Luke 7:1–10,"Psalm 15,24; Deuteronomy 28:58–end; 1 Peter 5"
+2022/05/26,"Thursday, May 26, 2022",Ascension Day,"Psalm 110,150; ASCENSION DAY; ASCENSION",Psalm 8; ASCENTION DAY; DAY
+2022/05/27,"Friday, May 27, 2022",10 days between Ascension Day and Pentecost,Psalm 81; Numbers 20:1–13; Luke 7:11–17,Psalm 145; Deuteronomy 29:2–15; 1 John 1:1–2:6
+2022/05/28,"Saturday, May 28, 2022",10 days between Ascension Day and Pentecost,Psalm 47; Numbers 21:4–9; Luke 7:18–35,Psalm 85; Deuteronomy 30; 1 John 2:7–17
+2022/05/29,"Sunday, May 29, 2022",10 days between Ascension Day and Pentecost,Psalm 99; Deuteronomy 34; Luke 24:44-53,Psalm 68; Isaiah 44:1-8; Ephesians 4:7-16
+2022/05/30,"Monday, May 30, 2022",10 days between Ascension Day and Pentecost,Psalm 93; Numbers 22:1–35; Luke 7:36–end,Psalm 18; Deuteronomy 31:1–13; 1 John 2:18–end
+2022/05/31,"Tuesday, May 31, 2022",10 days between Ascension Day and Pentecost,Psalm 99; Numbers 22:36–23:12; Luke 8:1–15,Psalm 68; Deuteronomy 31:14–29; 1 John 3:1–10
+2022/06/01,"Wednesday, June 1, 2022",10 days between Ascension Day and Pentecost,Psalm 29; Numbers 23:13–end; Luke 8:16–25,Psalm 46; Deuteronomy 31:30–32:14; 1 John 3:11–end
+2022/06/02,"Thursday, June 2, 2022",10 days between Ascension Day and Pentecost,Psalm 24; Numbers 24; Luke 8:26–39,Psalm 139; Deuteronomy 32:15–47; 1 John 4:1–6
+2022/06/03,"Friday, June 3, 2022",10 days between Ascension Day and Pentecost,Psalm 28; Numbers 27:12–end; Luke 8:40–end,Psalm 147; Deuteronomy 33; 1 John 4:7–end
+2022/06/04,"Saturday, June 4, 2022",10 days between Ascension Day and Pentecost,Psalm 43; Numbers 32:1–27; Luke 9:1–17,"Psalm 97,98; Deuteronomy 32:48–end; Deuteronomy 34; 1 John 5"
+2022/06/05,"Sunday, June 5, 2022",Day of Pentecost,Psalm 36:5-10;150; Isaiah 40:12-23; 1 Corinthians 2:6-16;,Psalm 33:1-12; Exodus 33:7-20; 2 Corinthians 3:4-18
