@@ -3,7 +3,7 @@ Code bits for me and Isaac's project to make the NZ Anglican MP and EP Lectionar
 
 The idea is to have a page that gives the morning prayer and evening prayer readings, with links that take you to read or listen to them at BibleGateway.com.
 
-The website is now live (in Beta) here: www.lectionary.co.nz
+It will eventually live here: www.lectionary.co.nz
 
 ## Project summary
 A main chunk of work has been just manually extracting all the rules and applying them to reconstruct this years readings into this [google sheet](https://docs.google.com/spreadsheets/d/1TE7UzbJG-JJQVM-m1pY8Yc_hSD5zQMfR_d79PDxniZc/edit).
