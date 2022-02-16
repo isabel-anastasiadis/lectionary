@@ -5,6 +5,8 @@
 
         public DateOnly EndDate { get; set; }
 
+        public DateOnly PalmSunday { get; set; }
+
     }
 
 

@@ -15,7 +15,8 @@ namespace Tests.Model.Pipeline
             var classUnderTest = DependencyInjector.GetInstance<IPipeline>();
             var input = new Input() {
                 StartDate = new System.DateOnly(2021,12,1),
-                EndDate = new System.DateOnly(2021,2,6)
+                EndDate = new System.DateOnly(2022,2,9),
+                PalmSunday = new System.DateOnly(2022,4,10)
             };
 
             // act

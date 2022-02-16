@@ -9,7 +9,13 @@ using ReadingsBuilder.Model.Pipeline.DTOs;
 Console.WriteLine("Hello, World!");
 
 var pipeline = DependencyInjector.GetInstance<IPipeline>();
-var result = pipeline.Run(new Input { StartDate = new DateOnly(2021, 12, 1), EndDate = new DateOnly( 2022, 2, 5 ) });
+var input = new Input 
+{ 
+    StartDate = new DateOnly(2021, 12, 1), 
+    EndDate = new DateOnly(2022, 4, 9), 
+    PalmSunday = new DateOnly(2022, 4, 10) 
+};
+var result = pipeline.Run(input);
 
 var filePath = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\Result.csv";
 
