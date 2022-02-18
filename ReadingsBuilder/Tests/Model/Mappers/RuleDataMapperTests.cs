@@ -134,6 +134,48 @@ namespace Tests.Model.Mappers
 
 		}
 
+		[TestCase("", FeastOrSeasonType.None)]
+		[TestCase("  ", FeastOrSeasonType.None)]
+		[TestCase("Advent", FeastOrSeasonType.Advent)]
+		[TestCase("     Advent  ", FeastOrSeasonType.Advent)]
+		[TestCase("EasterWeek;Eastertide", FeastOrSeasonType.Eastertide | FeastOrSeasonType.EasterWeek)]
+		public void MapsFeastOrSeasonFlagsCorrectly(string rawValue, FeastOrSeasonType expectedFlags)
+		{
+			// arrange
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+			input[(int)ColumnIndexes.FeastDaySeasonType] = rawValue;
+			var rows = new List<List<string>>() { input.ToList<string>() };
+
+			// act
+			var result = new RuleDataMapper().MapRowsToRuleData(rows);
+
+			// assert
+			Assert.AreEqual(expectedFlags, result?.FirstOrDefault()?.FeastOrSeasonFlags);
+		}
+
+		[TestCase("NotAValue")]
+		[TestCase("WhatThe;Advent")]
+		public void ThrowsArgumentExceptionForStrangeFeastOrSeasonFlagsFormat(string rawValue)
+		{
+			// arrange
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+			input[(int)ColumnIndexes.FeastDaySeasonType] = rawValue;
+			var rows = new List<List<string>>() { input.ToList<string>() };
+
+			// act
+			try
+			{
+				var result = new RuleDataMapper().MapRowsToRuleData(rows);
+				Assert.Fail();
+			}
+			catch (ArgumentException)
+			{
+				Assert.Pass();
+			}
+		}
+
 
 		[TestCase("", null)]
 		[TestCase("M", DayOfWeek.Monday)]

@@ -30,9 +30,9 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             }
 
             // work out what date to start with
-            var dateOfFirstDayTheRuleAppliesTo = workingResult.Input.PalmSunday;
+            var dateOfFirstDayTheRuleAppliesTo = workingResult.Input.PalmSunday.Value;
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, null, null);
         }
 
     }

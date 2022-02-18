@@ -34,7 +34,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
             var ruleDataToStartWith = ApplicableRules.FirstOrDefault();
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, ruleDataToStartWith);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, ruleDataToStartWith, null);
 
         }
     }

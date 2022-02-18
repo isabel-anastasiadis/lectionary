@@ -28,7 +28,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             }
 
 
-            var currentDate = workingResult.Input.StartDate;
+            var currentDate = workingResult.Input.StartDate.Value;
             while (true)
             {
                 workingResult.Result[currentDate] = new Option<Day, DayOptionType>() {

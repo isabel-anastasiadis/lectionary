@@ -35,7 +35,8 @@ namespace Tests.Model.Pipeline.Steps.Utility
                 ClassUnderTest().ApplyRulesByDayOfWeek(null, 
                     new List<RuleData>(), 
                     default, 
-                    default);
+                    null,
+                    null);
                 Assert.Fail();
             }
             catch (ArgumentNullException)
@@ -55,7 +56,8 @@ namespace Tests.Model.Pipeline.Steps.Utility
                 ClassUnderTest().ApplyRulesByDayOfWeek(new PipelineWorkingResult(), 
                     null, 
                     default, 
-                    default);
+                    null,
+                    null);
                 Assert.Fail();
             }
             catch (ArgumentNullException)
@@ -79,7 +81,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
             var workingResult = new PipelineWorkingResult();
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, default, default);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, default, null, null);
 
             // assert
             Assert.IsEmpty(workingResult.Result.Keys);
@@ -106,7 +108,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
                 new Option<Day, DayOptionType>() { OptionOne = resultDay };
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, default);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, null, null);
 
             // assert
             _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay));
@@ -135,7 +137,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
                 new Option<Day, DayOptionType>() { OptionOne = resultDay };
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, applicableRules[1]);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, applicableRules[1], null);
 
             // assert
             _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], resultDay));
@@ -171,7 +173,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
                 new Option<Day, DayOptionType>() { OptionOne = day2 };
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, day1.Date, applicableRules[0]);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, day1.Date, applicableRules[0], null);
 
             // assert
             _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[0], day1));
@@ -201,7 +203,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
             // act
             try
             {
-                ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, default);
+                ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, null, null);
                 Assert.Fail();
             }
             catch (ArgumentException)

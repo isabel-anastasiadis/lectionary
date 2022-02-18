@@ -13,6 +13,8 @@
 
         public RuleType? RuleType { get; set; }
 
+        public FeastOrSeasonType FeastOrSeasonFlags { get; set; }
+
         public string? DayName { get; set; }
 
         public bool? IsSeasonalTime { get; set; }
@@ -116,6 +118,23 @@ namespace ReadingsBuilder.Model
         Unknown,
         ByDayOfWeek,
         ByDayOfMonth
+    }
+
+    [Flags]
+    public enum FeastOrSeasonType
+    { 
+        None = 0,
+        Advent = 1,
+        Lent = 2,
+        Eastertide = 4,
+        EasterWeek = 8,
+
+        EveningBefore = 16, // TODO convert to an option
+
+        Festival = 32,
+        HolyWeek = 64,
+        PrincipalHolyDay = 128,
+        PrincipalFeast = 256
     }
 
 }

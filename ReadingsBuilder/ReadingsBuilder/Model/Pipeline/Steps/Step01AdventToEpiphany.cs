@@ -36,7 +36,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             // the rule in the first week of advent with the same DayOfWeek
             var ruleDataToStartWith = ApplicableRules.GetRange(0, 7).FirstOrDefault(x => x.Weekday == firstDate.DayOfWeek);
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstDate, ruleDataToStartWith);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstDate, ruleDataToStartWith, null);
         }
 
     }

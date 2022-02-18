@@ -5,6 +5,6 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
 {
     public interface IByDayOfWeekRuleSetApplier
     {
-        PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult, List<RuleData> applicableRules, DateOnly dateOfFirstDayRuleAppliesTo, RuleData? ruleDataToStartWith);
+        PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult, List<RuleData> applicableRules, DateOnly dateOfFirstDayRuleAppliesTo, RuleData? ruleDataToStartWith, DateOnly? dateOfLastDayRuleAppliesTo);
     }
 }

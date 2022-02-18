@@ -16,7 +16,8 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
         public PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult,
             List<RuleData> applicableRules,
             DateOnly dateOfFirstDayRuleAppliesTo,
-            RuleData? ruleDataToStartWith)
+            RuleData? ruleDataToStartWith,
+            DateOnly? dateOfLastDayRuleAppliesTo)
         {
 
             if (workingResult == null)
@@ -49,6 +50,11 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
 
                 if (day.Date.DayOfWeek != ruleData.Weekday) {
                     throw new ArgumentException($"Expected {day.Date} to be a {ruleData.Weekday}, but it is {day.Date.DayOfWeek}.");
+                }
+
+                if (dateOfLastDayRuleAppliesTo != null && currentDate > dateOfLastDayRuleAppliesTo) 
+                {
+                    break;
                 }
 
                 _ruleApplier.ApplyRuleToDay(ruleData, day);

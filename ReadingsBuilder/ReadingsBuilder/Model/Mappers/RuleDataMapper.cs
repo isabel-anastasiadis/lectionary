@@ -12,7 +12,7 @@ namespace ReadingsBuilder.Model.Mappers
         RuleClassName, 
         RuleType,
         RowWithinClass,
-        FeastDayType,
+        FeastDaySeasonType,
         EveningName,
         DayName,
         IsSeasonalTime,
@@ -53,6 +53,7 @@ namespace ReadingsBuilder.Model.Mappers
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),
                     Weekday = MapWeekday(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekWeekday)),
                     IsSeasonalTime = MapIsSeasonalTime(GetValueOrNull(row, ColumnIndexes.IsSeasonalTime)),
+                    FeastOrSeasonFlags = MapFeastOrSeasonType(GetValueOrNull(row, ColumnIndexes.FeastDaySeasonType)),
                     MorningOldTestament = GetValueOrNull(row, ColumnIndexes.MorningOldTestament),
                     MorningNewTestament = GetValueOrNull(row, ColumnIndexes.MorningNewTestament),
                     EveningOldTestament = GetValueOrNull(row, ColumnIndexes.EveningOldTestament),
@@ -119,6 +120,33 @@ namespace ReadingsBuilder.Model.Mappers
                 default:
                     return null;
             }
+        }
+
+        private FeastOrSeasonType MapFeastOrSeasonType(string? rawValue) 
+        {
+            if (string.IsNullOrEmpty(rawValue))
+            { 
+                return FeastOrSeasonType.None;
+            }
+
+            try
+            {
+                var values = rawValue.Split(';');
+
+                var returnValue = FeastOrSeasonType.None;
+                foreach (var value in values)
+                {
+                    var valueAsEnum = (FeastOrSeasonType)Enum.Parse(typeof(FeastOrSeasonType), value);
+                    returnValue |= valueAsEnum;
+                }
+
+                return returnValue;
+            }
+            catch (Exception e)
+            {
+                throw new ArgumentException($"Could not parse feast or season type '{rawValue}' - " + e.Message );
+            }
+
         }
 
 
