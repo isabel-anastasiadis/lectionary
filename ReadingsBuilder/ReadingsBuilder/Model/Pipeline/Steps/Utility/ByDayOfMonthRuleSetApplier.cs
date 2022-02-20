@@ -28,26 +28,45 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
             foreach (var rule in applicableRules)
             {
 
-                var possibleDates = workingResult.Result.Keys.Where(date => date.Month == rule.Month && date.Day == rule.Day).ToList();
-                if (possibleDates.Count() > 1)
-                {
-                    throw new ArgumentException($"There should only be one matching day per rule (Steps are only assumed to run on a year's worth of data, and previous steps might not have processed the necessary days)");
-                }
-
-                DateOnly? date = possibleDates.Any() ? possibleDates.First() : null;
-
-                if (date.HasValue)
-                {
-                    var day = workingResult.Result[date.Value].OptionOne;
-
-                    if (day != null)
-                    {
-                        ruleApplier.ApplyRuleToDay(rule, day);
-                    }
-                }
+                ApplyRuleByDayOfMonth(workingResult, rule);
             }
 
             return workingResult;
+        }
+
+        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, RuleData rule, DateOnly? dateOverride = null)
+        {
+            if (workingResult == null)
+            {
+                throw new ArgumentNullException(nameof(workingResult));
+            }
+
+            if (rule == null)
+            {
+                throw new ArgumentNullException(nameof(rule));
+            }
+
+            var dayValue = dateOverride != null ? dateOverride.Value.Day : rule.Day;
+            var monthValue = dateOverride != null ? dateOverride.Value.Month : rule.Month;
+
+            var possibleDates = workingResult.Result.Keys.Where(date => date.Month == monthValue && date.Day == dayValue).ToList();
+            if (possibleDates.Count() > 1)
+            {
+                throw new ArgumentException($"There should only be one matching day per rule (Steps are only assumed to run on a year's worth of data, and previous steps might not have processed the necessary days)");
+            }
+
+            DateOnly? date = possibleDates.Any() ? possibleDates.First() : null;
+
+            if (date.HasValue)
+            {
+                var day = workingResult.Result[date.Value].OptionOne;
+
+                if (day != null)
+                {
+                    ruleApplier.ApplyRuleToDay(rule, day);
+                }
+            }
+
         }
 
     }

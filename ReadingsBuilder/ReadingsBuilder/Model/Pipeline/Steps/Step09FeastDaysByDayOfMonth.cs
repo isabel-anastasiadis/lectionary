@@ -20,7 +20,55 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
         {
-            return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, ApplicableRules);
+            // the rules alternate between eveningbefore and the festival
+            for (int i = 0; i < ApplicableRules.Count; i += 2)
+            { 
+                var eveningBeforeRule = ApplicableRules[i];
+                var festivalRule = ApplicableRules[(i + 1)];
+
+                var dateKey = workingResult.Result.Keys.Where(key => key.Month == festivalRule.Month && key.Day == festivalRule.Day).FirstOrDefault();
+                if (dateKey == default)
+                {
+                    continue;
+                }
+
+                var festivalDay = workingResult.Result[dateKey].OptionOne;
+                if (festivalDay == null)
+                {
+                    continue;
+                }
+
+                DateOnly? newEveningBeforeDate = null;
+                DateOnly? newFestivalDate = null;
+                if ((festivalRule.FeastOrSeasonFlags & FeastOrSeasonType.Festival) == FeastOrSeasonType.Festival)
+                {
+                    if (!festivalDay.CanHaveFestival)
+                    {
+                        continue; // our NZ one seems to skip St George rather than shift..?
+                    }
+                }
+
+                // we need to apply them one by one (particularly for multiple festivals falling in Holy week that need moving)
+                // eg. if St George and St Mark both fall in Holy Week, then St George will be shifted to the
+                // first available day (prob. Monday), and St Mark the day after that.
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, eveningBeforeRule, newEveningBeforeDate);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, festivalRule, newFestivalDate);
+            }
+
+            return workingResult;
         }
+
+        private DateOnly FindNextAvailableDay(DateOnly originalDate, PipelineWorkingResult workingResult)
+        {
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            return workingResult.Result
+                .Where(keyValue => keyValue.Key > originalDate)
+                .Where(keyValue => keyValue.Value.OptionOne != null)
+                .Select(keyValue => keyValue.Value.OptionOne)
+                .First(day => day?.CanHaveFestival == true)
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
+                .Date;
+        }
+
     }
 }

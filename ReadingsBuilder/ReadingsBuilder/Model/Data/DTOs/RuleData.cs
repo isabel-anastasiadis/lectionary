@@ -134,7 +134,13 @@ namespace ReadingsBuilder.Model
         Festival = 32,
         HolyWeek = 64,
         PrincipalHolyDay = 128,
-        PrincipalFeast = 256
+        PrincipalFeast = 256,
+
+
+        FeastOrFestivalMask = Festival | PrincipalFeast | PrincipalHolyDay,
+        AdventLentOrEastertideMask = Advent | Lent | Eastertide
+
+
     }
 
 }

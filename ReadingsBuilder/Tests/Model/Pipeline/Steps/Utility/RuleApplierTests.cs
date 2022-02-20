@@ -135,6 +135,32 @@ namespace Tests.Model.Pipeline.Steps.Utility
             Assert.AreEqual(expectedValue, day.IsSeasonalTime);
         }
 
+        [TestCase(FeastOrSeasonType.None, FeastOrSeasonType.None, FeastOrSeasonType.None, Description = "Happy path")]
+        [TestCase(FeastOrSeasonType.Lent, FeastOrSeasonType.None, FeastOrSeasonType.Lent, Description = "Rule value trumps preexisting value")]
+        [TestCase(FeastOrSeasonType.None, FeastOrSeasonType.Advent, FeastOrSeasonType.Advent, Description = "Preexisting value is not overridden by the rule not having a value")]
+        [TestCase(FeastOrSeasonType.Lent, FeastOrSeasonType.Advent, FeastOrSeasonType.Advent | FeastOrSeasonType.Lent, Description = "New rule values are added to existing ones")]
+        public void AppliesFeastOrSeasonTypeCorrectly(FeastOrSeasonType ruleValue, FeastOrSeasonType dayPreexistingValue, FeastOrSeasonType expectedValue)
+        {
+            // arrange
+
+            var day = new Day()
+            {
+                FeastOrSeasonType = dayPreexistingValue,
+            };
+
+            var ruleData = new RuleData()
+            {
+                FeastOrSeasonFlags = ruleValue
+            };
+
+
+            // act
+            ClassUnderTest().ApplyRuleToDay(ruleData, day);
+
+            // assert
+            Assert.AreEqual(expectedValue, day.FeastOrSeasonType);
+        }
+
 
         [Test]
         public void AppliesRotatingNewTestamentReadingsCorrectly()

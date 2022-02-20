@@ -28,6 +28,8 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
 
             ApplyIsSeasonalTime(ruleData, day); // NOTE: this needs to happen before rotating readings
 
+            ApplyFeastOrSeasonType(ruleData, day); 
+
             ApplyPsalms(ruleData, day);
 
             ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
@@ -50,6 +52,14 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
             if (ruleData.IsSeasonalTime != null)
             {
                 day.IsSeasonalTime = ruleData.IsSeasonalTime;
+            }
+        }
+
+        public void ApplyFeastOrSeasonType(RuleData ruleData, Day day)
+        {
+            if (ruleData.FeastOrSeasonFlags != FeastOrSeasonType.None)
+            {
+                day.FeastOrSeasonType |= ruleData.FeastOrSeasonFlags;
             }
         }
 
