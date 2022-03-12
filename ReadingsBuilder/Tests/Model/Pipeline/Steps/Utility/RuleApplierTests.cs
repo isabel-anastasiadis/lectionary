@@ -33,6 +33,74 @@ namespace Tests.Model.Pipeline.Steps.Utility
             return new RuleApplier(rotatingReadingMappingProviderMock.Object);
         }
 
+        [Test]
+        public void InitialisesEveningOptionTwoForEveningBeforeFestivalOptionType() {
+            // arrange
+            var day = new Day();
+            var ruleData = new RuleData();
+
+            // act
+            ClassUnderTest().ApplyRuleToDay(ruleData, day, ReadingsOptionType.EveningBeforeFestival);
+
+            // assert
+            Assert.NotNull(day.EveningReadings.OptionTwo);
+            Assert.AreEqual(ReadingsOptionType.EveningBeforeFestival, day.EveningReadings.OptionTwoType);
+        }
+
+        [Test]
+        public void DescriptionIsSetForEveningBeforeFestivalOptionType()
+        {
+            // arrange
+            var expected = "1st EP of St Mark";
+
+            var day = new Day();
+            var ruleData = new RuleData()
+            { 
+                EveningName = expected
+            };
+
+            // act
+            ClassUnderTest().ApplyRuleToDay(ruleData, day, ReadingsOptionType.EveningBeforeFestival);
+
+            // assert
+            Assert.AreEqual(expected, day.EveningReadings.OptionTwoDescription);
+        }
+
+        [Test]
+        public void OptionOneReadingsAreNotOverriddenByEveningBeforeFestivalOptionType()
+        {
+            // arrange
+
+            var originalPsalm = "Psalm 1";
+            var originalOldTestament = "Job 1:1-3";
+            var originalNewTestament = "Mark 1:1-7";
+
+            var option2Psalm = "5";
+            var option2OldTestament = "Genesis 3:1-5";
+            var option2NewTestament = "John 3:16";
+
+            var day = new Day();
+            day.EveningReadings.OptionOne.Psalms.OptionOne.RawString = originalPsalm;
+            day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = originalOldTestament;
+            day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = originalNewTestament;
+
+            var ruleData = new RuleData()
+            {
+                EveningPsalmsMain = option2Psalm,
+                EveningOldTestament = option2OldTestament,
+                EveningNewTestament = option2NewTestament
+            };
+
+            // act
+            ClassUnderTest().ApplyRuleToDay(ruleData, day, ReadingsOptionType.EveningBeforeFestival);
+
+            // assert
+            Assert.AreEqual(originalPsalm, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
+            Assert.AreEqual(originalOldTestament, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
+            Assert.AreEqual(originalNewTestament, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
+        }
+
+
         [TestCase("6", null, "Psalm 6", Description = "Happy path")]
         [TestCase(null, "Psalm 6", "Psalm 6", Description = "Preexisting day value not overridden")]
         [TestCase("8", "Psalm 6", "Psalm 8", Description = "Rule value trumps preexisting day value")]
@@ -53,7 +121,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest().ApplyPsalms(ruleData, day);
+            ClassUnderTest().ApplyPsalms(ruleData, day, default);
 
             // assert
             Assert.AreEqual(expectedValue, day.MorningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -78,7 +146,7 @@ namespace Tests.Model.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest().ApplyPsalms(ruleData, day);
+            ClassUnderTest().ApplyPsalms(ruleData, day, default);
 
             // assert
             Assert.AreEqual(expectedValue, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);

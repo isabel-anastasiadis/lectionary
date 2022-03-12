@@ -3,7 +3,8 @@ namespace ReadingsBuilder.Model.Pipeline.DTOs
 
     public enum ReadingsOptionType
     {
-        Default
+        Default,
+        EveningBeforeFestival
     }
 
 
@@ -55,7 +56,8 @@ namespace ReadingsBuilder.Model.Pipeline.DTOs
 
         public override string ToString()
         {
-            return $"{Date} {Date.DayOfWeek} '{DayDescription}' [{MorningReadings?.OptionOne}] [{EveningReadings?.OptionOne}]";
+            var eveningOptionTwo = EveningReadings.OptionTwo != null ? $" OR {EveningReadings.OptionTwo}" : "";
+            return $"{Date} {Date.DayOfWeek} '{DayDescription}' [{MorningReadings?.OptionOne}] [{EveningReadings?.OptionOne}{eveningOptionTwo}]";
         }
 
     }

@@ -51,6 +51,7 @@ namespace ReadingsBuilder.Model.Mappers
                 {
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),
+                    EveningName = GetValueOrNull(row, ColumnIndexes.EveningName),
                     Weekday = MapWeekday(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekWeekday)),
                     IsSeasonalTime = MapIsSeasonalTime(GetValueOrNull(row, ColumnIndexes.IsSeasonalTime)),
                     FeastOrSeasonFlags = MapFeastOrSeasonType(GetValueOrNull(row, ColumnIndexes.FeastDaySeasonType)),

@@ -15,7 +15,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
             _rotatingReadingMappingProvider = rotatingReadingMappingProvider;
         }
 
-        public void ApplyRuleToDay(RuleData ruleData, Day day)
+        public void ApplyRuleToDay(RuleData ruleData, Day day, ReadingsOptionType optionType = default)
         {
             var rotatingReadingMapping = _rotatingReadingMappingProvider.GetApplicableMapping(day.Date);
 
@@ -24,26 +24,48 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
                 throw new ArgumentException($"There was no RotatingReadingMapping returned for date '{day.Date}'");
             }
 
-            ApplyDayDescription(ruleData, day);
+            InitialiseOptionTwoIfApplicable(ruleData, day, optionType);
+
+            ApplyDayDescription(ruleData, day, optionType);
+
+            ApplyEveningDescription(ruleData, day, optionType);
 
             ApplyIsSeasonalTime(ruleData, day); // NOTE: this needs to happen before rotating readings
 
             ApplyFeastOrSeasonType(ruleData, day); 
 
-            ApplyPsalms(ruleData, day);
+            ApplyPsalms(ruleData, day, optionType);
 
             ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
 
-            ApplySetReadings(ruleData, day);
+            ApplySetReadings(ruleData, day, optionType);
 
         }
 
-        public void ApplyDayDescription(RuleData ruleData, Day day)
+        private void InitialiseOptionTwoIfApplicable(RuleData ruleData, Day day, ReadingsOptionType optionType) 
+        {
+            if (optionType == ReadingsOptionType.EveningBeforeFestival)
+            {
+                day.EveningReadings.OptionTwoType = optionType;
+                day.EveningReadings.OptionTwo = new EveningReadings();
+            }
+        }
+
+        public void ApplyDayDescription(RuleData ruleData, Day day, ReadingsOptionType optionType)
         {
 
             if (ruleData.DayName != null)
             {
                 day.DayDescription = ruleData.DayName;
+            }
+        }
+
+        public void ApplyEveningDescription(RuleData ruleData, Day day, ReadingsOptionType optionType)
+        {
+
+            if (ruleData.EveningName != null && optionType == ReadingsOptionType.EveningBeforeFestival)
+            {
+                day.EveningReadings.OptionTwoDescription = ruleData.EveningName;
             }
         }
 
@@ -63,7 +85,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
             }
         }
 
-        public void ApplyPsalms(RuleData ruleData, Day day)
+        public void ApplyPsalms(RuleData ruleData, Day day, ReadingsOptionType optionType)
         {
             if (ruleData.HasMorningPsalms)
             {
@@ -119,7 +141,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
 
         }
 
-        public void ApplySetReadings(RuleData ruleData, Day day)
+        public void ApplySetReadings(RuleData ruleData, Day day, ReadingsOptionType optionType)
         {
             if (ruleData.MorningOldTestament != null)
             {

@@ -23,7 +23,7 @@ namespace ReadingsBuilder.Model.Mappers
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament1,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
-                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament2a,
                 EveningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
                 EveningNewTestament = RotatingReadingType.NewTestament2
             });

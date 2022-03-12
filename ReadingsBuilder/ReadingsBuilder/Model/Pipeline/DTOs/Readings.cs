@@ -50,7 +50,9 @@ namespace ReadingsBuilder.Model.Pipeline.DTOs
 
         public override string ToString()
         {
-            return $"{Psalms?.OptionOne}; {OldTestament?.OptionOne}; {NewTestament?.OptionOne};";
+            var extraDescription = ReadingsDescription != null ? $"({ReadingsDescription})" : "";
+
+            return $"{extraDescription}{Psalms?.OptionOne}; {OldTestament?.OptionOne}; {NewTestament?.OptionOne};";
         }
     }
 

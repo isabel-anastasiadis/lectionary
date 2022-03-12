@@ -114,6 +114,26 @@ namespace Tests.Model.Mappers
 
 		}
 
+		[Test]
+		public void MapsEveningDescriptionCorrectly()
+		{
+
+			// arrange
+			var expectedEveningName = "1st EP of St Mark";
+
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+			input[(int)ColumnIndexes.EveningName] = expectedEveningName;
+
+
+			// act
+			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+
+			// assert
+			Assert.AreEqual(expectedEveningName, result?.FirstOrDefault()?.EveningName);
+
+		}
+
 		[TestCase("TRUE", true)]
 		[TestCase("FALSE", false)]
 		[TestCase("", null)]

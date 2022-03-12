@@ -17,6 +17,8 @@
 
         public string? DayName { get; set; }
 
+        public string? EveningName { get; set; }
+
         public bool? IsSeasonalTime { get; set; }
 
         public DayOfWeek? Weekday { get; set; }
