@@ -12,7 +12,7 @@ var pipeline = DependencyInjector.GetInstance<IPipeline>();
 var input = new Input 
 { 
     StartDate = new DateOnly(2021, 12, 1), 
-    EndDate = new DateOnly(2022, 10, 30), // 4th Sunday before Advent
+    EndDate = new DateOnly(2022, 6, 22), // Haven't done John the Baptist and beyond.  Otherwise done until 4th Sun before Advent
     FifthSundayAfterEpiphany = new DateOnly(2022, 2, 6),
     AshWednesday = new DateOnly(2022, 3, 2),
     PalmSunday = new DateOnly(2022, 4, 10),
