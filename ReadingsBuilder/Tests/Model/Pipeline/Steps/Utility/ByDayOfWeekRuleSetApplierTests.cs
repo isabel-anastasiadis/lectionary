@@ -98,6 +98,77 @@ namespace Tests.Model.Pipeline.Steps.Utility
         }
 
         [Test]
+        public void CheckRulesCanLoopAroundCorrectly()
+        {
+            // arrange
+            var applicableRules = new List<RuleData>
+            {
+                new RuleData(){
+                    Weekday = DayOfWeek.Monday,
+                    MorningPsalmsMain = "1",
+                    EveningPsalmsMain = "2"
+                },
+                new RuleData(){
+                    Weekday = DayOfWeek.Tuesday,
+                    MorningPsalmsMain = "3",
+                    EveningPsalmsMain = "4"
+                },
+                new RuleData(){
+                    Weekday = DayOfWeek.Wednesday,
+                    MorningPsalmsMain = "5",
+                    EveningPsalmsMain = "6"
+                },
+                new RuleData(){
+                    Weekday = DayOfWeek.Thursday,
+                    MorningPsalmsMain = "7",
+                    EveningPsalmsMain = "18"
+                },
+                new RuleData(){
+                    Weekday = DayOfWeek.Friday,
+                    MorningPsalmsMain = "9",
+                    EveningPsalmsMain = "10"
+                },
+                new RuleData(){
+                    Weekday = DayOfWeek.Saturday,
+                    MorningPsalmsMain = "11",
+                    EveningPsalmsMain = "12"
+                },
+                new RuleData(){
+                    Weekday = DayOfWeek.Sunday
+                },
+            };
+
+            var startDate = new DateOnly(2022, 5, 9); // Mon
+            var endDate = new DateOnly(2022, 5, 16); // Next Mon
+
+            var workingResult = new PipelineWorkingResult()
+            {
+                Input = new Input()
+                {
+                    StartDate = startDate,
+                    EndDate = endDate
+                }
+            };
+
+            new Step00PopulateDates().RunStep(workingResult);
+            var lastDay = workingResult.Result[endDate]?.OptionOne;
+
+            // act
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, 
+                applicableRules, 
+                workingResult.Input.StartDate.Value, 
+                null, 
+                null,
+                rulesLoopAround: true);
+
+            // assert
+            _ruleApplierMock.Verify(m => m
+                .ApplyRuleToDay(applicableRules[0], lastDay, default)
+            );
+
+        }
+
+        [Test]
         public void IfRuleDataToStartWithIsNotProvidedThenTheFirstRuleIsAppliedToTheFirstDay() 
         {
             // arrange

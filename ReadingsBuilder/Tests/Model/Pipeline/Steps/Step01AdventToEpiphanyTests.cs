@@ -192,7 +192,7 @@ namespace Tests.Model.Pipeline.Steps
             var result = classUnderTest.RunStep(workingResult);
 
             // assert
-            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<List<RuleData>>(), dateOfDay, expectedFirstRule, null));
+            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<List<RuleData>>(), dateOfDay, expectedFirstRule, null, false));
 
         }
 

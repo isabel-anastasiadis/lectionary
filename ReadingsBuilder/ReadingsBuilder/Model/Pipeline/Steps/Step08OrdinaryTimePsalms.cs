@@ -20,6 +20,12 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
         {
+            workingResult = ApplyForTimeBeforeEaster(workingResult);
+            workingResult = ApplyForTimeAfterEaster(workingResult);
+            return workingResult;
+        }
+
+        private PipelineWorkingResult ApplyForTimeBeforeEaster(PipelineWorkingResult workingResult) {
             if (workingResult.Input?.FifthSundayAfterEpiphany == null)
             {
                 throw new ArgumentNullException(nameof(workingResult.Input.FifthSundayAfterEpiphany));
@@ -40,6 +46,42 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             var ruleDataToStartWith = ApplicableRules[workingResult.Input.OrdinaryTimePsalmsFirstChunkStartingIndex.Value];
 
             ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstMondayDate, ruleDataToStartWith, shroveTuesday);
+
+            return workingResult;
+        }
+
+        private PipelineWorkingResult ApplyForTimeAfterEaster(PipelineWorkingResult workingResult)
+        {
+            if (workingResult.Input?.Pentecost == null)
+            {
+                throw new ArgumentNullException(nameof(workingResult.Input.Pentecost));
+            }
+
+            if (workingResult.Input?.FourthSundayBeforeAdvent == null)
+            {
+                throw new ArgumentNullException(nameof(workingResult.Input.FourthSundayBeforeAdvent));
+            }
+
+            if (workingResult.Input?.OrdinaryTimePsalmsSecondChunkStartingIndex == null)
+            {
+                throw new ArgumentNullException(nameof(workingResult.Input.OrdinaryTimePsalmsSecondChunkStartingIndex));
+            }
+
+            var firstMondayDate = workingResult.Input.Pentecost.Value.AddDays(1);
+            var lastSaturdayDate = workingResult.Input.FourthSundayBeforeAdvent.Value.AddDays(-1);
+            var ruleIndex = workingResult
+                .Input
+                .OrdinaryTimePsalmsSecondChunkStartingIndex
+                .Value;
+            var ruleDataToStartWith = ApplicableRules[ruleIndex];
+
+            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, 
+                ApplicableRules, 
+                firstMondayDate, 
+                ruleDataToStartWith, 
+                lastSaturdayDate, 
+                rulesLoopAround: true
+            );
 
             return workingResult;
         }
