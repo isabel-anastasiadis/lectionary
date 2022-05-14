@@ -38,7 +38,7 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
             var indexOfFirstRuleToStartWith = ruleDataToStartWith == null ? 0 : applicableRules.IndexOf(ruleDataToStartWith);
             var currentDate = dateOfFirstDayRuleAppliesTo;
 
-            for (int i = indexOfFirstRuleToStartWith; i < Math.Min(applicableRules.Count, indexOfFirstRuleToStartWith + workingResult.Result.Count); i++)
+            for (int i = indexOfFirstRuleToStartWith; i < applicableRules.Count; i++)
             {
                 if (!workingResult.Result.ContainsKey(currentDate))
                 {
