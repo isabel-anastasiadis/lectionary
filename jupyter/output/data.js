@@ -4130,5 +4130,380 @@ class Data {  data = {
             "reading_link": "Psalm+33:1-12%3B+Exodus+33:7-20%3B+2+Corinthians+3:4-18",
             "audio_link": "Ps.33,Exod.33,2Cor.3"
         }
+    },
+    "2022/06/06": {
+        "date_pretty": "Monday, June 6, 2022",
+        "day_description": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                "Psalm 126",
+                "Joshua 1",
+                "Luke 9:18\u201327"
+            ],
+            "reading_link": "Psalm+126%3B+Joshua+1%3B+Luke+9:18-27",
+            "audio_link": "Ps.126,Josh.1,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 127",
+                "2 Chronicles 17:1\u201312",
+                "Romans 1:1\u201317"
+            ],
+            "reading_link": "Psalm+127%3B+2+Chronicles+17:1-12%3B+Romans+1:1-17",
+            "audio_link": "Ps.127,2Chr.17,Rom.1"
+        }
+    },
+    "2022/06/07": {
+        "date_pretty": "Tuesday, June 7, 2022",
+        "day_description": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                "Psalm 132",
+                "Joshua 2",
+                "Luke 9:28\u201336"
+            ],
+            "reading_link": "Psalm+132%3B+Joshua+2%3B+Luke+9:28-36",
+            "audio_link": "Ps.132,Josh.2,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 135",
+                "2 Chronicles 18:1\u201327",
+                "Romans 1:18\u2013end"
+            ],
+            "reading_link": "Psalm+135%3B+2+Chronicles+18:1-27%3B+Romans+1:18-",
+            "audio_link": "Ps.135,2Chr.18,Rom.1"
+        }
+    },
+    "2022/06/08": {
+        "date_pretty": "Wednesday, June 8, 2022",
+        "day_description": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                "Psalm 119:153\u2013end",
+                "Joshua 3",
+                "Luke 9:37\u201350"
+            ],
+            "reading_link": "Psalm+119:153-%3B+Joshua+3%3B+Luke+9:37-50",
+            "audio_link": "Ps.119,Josh.3,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 136",
+                "2 Chronicles 18:28\u2013end",
+                "2 Chronicles 19",
+                "Romans 2:1\u201316"
+            ],
+            "reading_link": "Psalm+136%3B+2+Chronicles+18:28-%3B+2+Chronicles+19%3B+Romans+2:1-16",
+            "audio_link": "Ps.136,2Chr.18,2Chr.19,Rom.2"
+        }
+    },
+    "2022/06/09": {
+        "date_pretty": "Thursday, June 9, 2022",
+        "day_description": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                "Psalm 143",
+                "Joshua 4:1\u20135:1",
+                "Luke 9:51\u2013end"
+            ],
+            "reading_link": "Psalm+143%3B+Joshua+4:1-5:1%3B+Luke+9:51-",
+            "audio_link": "Ps.143,Josh.4,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 138",
+                "2 Chronicles 20:1\u201323",
+                "Romans 2:17\u2013end"
+            ],
+            "reading_link": "Psalm+138%3B+2+Chronicles+20:1-23%3B+Romans+2:17-",
+            "audio_link": "Ps.138,2Chr.20,Rom.2"
+        }
+    },
+    "2022/06/10": {
+        "date_pretty": "Friday, June 10, 2022",
+        "day_description": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                "Psalm 144",
+                "Joshua 5:2\u2013end",
+                "Luke 10:1\u201316"
+            ],
+            "reading_link": "Psalm+144%3B+Joshua+5:2-%3B+Luke+10:1-16",
+            "audio_link": "Ps.144,Josh.5,Luke.10"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 1,15",
+                "Isaiah 42:5\u201312",
+                "Acts 14:8\u201328"
+            ],
+            "reading_link": "Psalm+1,15%3B+Isaiah+42:5-12%3B+Acts+14:8-28",
+            "audio_link": "Ps.1,15,Isa.42,Acts.14"
+        }
+    },
+    "2022/06/11": {
+        "date_pretty": "Saturday, June 11, 2022",
+        "day_description": "Barnabas the Apostle",
+        "morning": {
+            "readings": [
+                "Psalm 100,101,117",
+                "Jeremaiah 9:23\u201324",
+                "Acts 4:32\u201337"
+            ],
+            "reading_link": "Psalm+100,101,117%3B+Jeremaiah+9:23-24%3B+Acts+4:32-37",
+            "audio_link": "Ps.100,101,117,Jeremaiah 9,Acts.4"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 97,98",
+                "Isaiah 40:12\u201331",
+                "Mark 1:1\u201313"
+            ],
+            "reading_link": "Psalm+97,98%3B+Isaiah+40:12-31%3B+Mark+1:1-13",
+            "audio_link": "Ps.97,98,Isa.40,Mark.1"
+        }
+    },
+    "2022/06/12": {
+        "date_pretty": "Sunday, June 12, 2022",
+        "day_description": "Trinity Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 29",
+                "Isaiah 6:1\u20138",
+                "Revelation 4"
+            ],
+            "reading_link": "Psalm+29%3B+Isaiah+6:1-8%3B+Revelation+4",
+            "audio_link": "Ps.29,Isa.6,Rev.4"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 73:1\u20133,16\u201328",
+                "Exodus 3:1\u201315",
+                "John 3:1\u201317"
+            ],
+            "reading_link": "Psalm+73:1-3,16-28%3B+Exodus+3:1-15%3B+John+3:1-17",
+            "audio_link": "Ps.73,Exod.3,John.3"
+        }
+    },
+    "2022/06/13": {
+        "date_pretty": "Monday, June 13, 2022",
+        "day_description": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 1",
+                "Joshua 7:1\u201315",
+                "Luke 10:25\u201337"
+            ],
+            "reading_link": "Psalm+1%3B+Joshua+7:1-15%3B+Luke+10:25-37",
+            "audio_link": "Ps.1,Josh.7,Luke.10"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 4",
+                "2 Chronicles 26:1\u201321",
+                "Romans 4:1\u201312"
+            ],
+            "reading_link": "Psalm+4%3B+2+Chronicles+26:1-21%3B+Romans+4:1-12",
+            "audio_link": "Ps.4,2Chr.26,Rom.4"
+        }
+    },
+    "2022/06/14": {
+        "date_pretty": "Tuesday, June 14, 2022",
+        "day_description": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 5",
+                "Joshua 7:16\u2013end",
+                "Luke 10:38\u2013end"
+            ],
+            "reading_link": "Psalm+5%3B+Joshua+7:16-%3B+Luke+10:38-",
+            "audio_link": "Ps.5,Josh.7,Luke.10"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 9",
+                "2 Chronicles 28",
+                "Romans 4:13\u2013end"
+            ],
+            "reading_link": "Psalm+9%3B+2+Chronicles+28%3B+Romans+4:13-",
+            "audio_link": "Ps.9,2Chr.28,Rom.4"
+        }
+    },
+    "2022/06/15": {
+        "date_pretty": "Wednesday, June 15, 2022",
+        "day_description": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 119:1\u201332",
+                "Joshua 8:1\u201329",
+                "Luke 11:1\u201313"
+            ],
+            "reading_link": "Psalm+119:1-32%3B+Joshua+8:1-29%3B+Luke+11:1-13",
+            "audio_link": "Ps.119,Josh.8,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 11",
+                "2 Chronicles 29:1\u201319",
+                "Romans 5:1\u201311"
+            ],
+            "reading_link": "Psalm+11%3B+2+Chronicles+29:1-19%3B+Romans+5:1-11",
+            "audio_link": "Ps.11,2Chr.29,Rom.5"
+        }
+    },
+    "2022/06/16": {
+        "date_pretty": "Thursday, June 16, 2022",
+        "day_description": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 15",
+                "Joshua 8:30\u2013end",
+                "Luke 11:14\u201328"
+            ],
+            "reading_link": "Psalm+15%3B+Joshua+8:30-%3B+Luke+11:14-28",
+            "audio_link": "Ps.15,Josh.8,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 18",
+                "2 Chronicles 29:20\u2013end",
+                "Romans 5:12\u2013end"
+            ],
+            "reading_link": "Psalm+18%3B+2+Chronicles+29:20-%3B+Romans+5:12-",
+            "audio_link": "Ps.18,2Chr.29,Rom.5"
+        }
+    },
+    "2022/06/17": {
+        "date_pretty": "Friday, June 17, 2022",
+        "day_description": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 19",
+                "Joshua 9:3\u201326",
+                "Luke 11:29\u201336"
+            ],
+            "reading_link": "Psalm+19%3B+Joshua+9:3-26%3B+Luke+11:29-36",
+            "audio_link": "Ps.19,Josh.9,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 22",
+                "2 Chronicles 30",
+                "Romans 6:1\u201314"
+            ],
+            "reading_link": "Psalm+22%3B+2+Chronicles+30%3B+Romans+6:1-14",
+            "audio_link": "Ps.22,2Chr.30,Rom.6"
+        }
+    },
+    "2022/06/18": {
+        "date_pretty": "Saturday, June 18, 2022",
+        "day_description": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 23",
+                "Joshua 10:1\u201315",
+                "Luke 11:37\u2013end"
+            ],
+            "reading_link": "Psalm+23%3B+Joshua+10:1-15%3B+Luke+11:37-",
+            "audio_link": "Ps.23,Josh.10,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 24",
+                "2 Chronicles 32:1\u201322",
+                "Romans 6:15\u2013end"
+            ],
+            "reading_link": "Psalm+24%3B+2+Chronicles+32:1-22%3B+Romans+6:15-",
+            "audio_link": "Ps.24,2Chr.32,Rom.6"
+        }
+    },
+    "2022/06/19": {
+        "date_pretty": "Sunday, June 19, 2022",
+        "day_description": "12th Sunday in Ordinary Time (Te Pouhere Sunday)",
+        "morning": {
+            "readings": [
+                "Psalm 55:1\u201316,55:18\u201321",
+                "Deuteronomy 11:1\u201315",
+                "Acts 27:1\u201312"
+            ],
+            "reading_link": "Psalm+55:1-16,55:18-21%3B+Deuteronomy+11:1-15%3B+Acts+27:1-12",
+            "audio_link": "Ps.55,Deut.11,Acts.27"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 57",
+                "Genesis 24:1\u201327",
+                "Mark 5:21\u2013end"
+            ],
+            "reading_link": "Psalm+57%3B+Genesis+24:1-27%3B+Mark+5:21-",
+            "audio_link": "Ps.57,Gen.24,Mark.5"
+        }
+    },
+    "2022/06/20": {
+        "date_pretty": "Monday, June 20, 2022",
+        "day_description": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                "Psalm 30",
+                "Joshua 14",
+                "Luke 12:1\u201312"
+            ],
+            "reading_link": "Psalm+30%3B+Joshua+14%3B+Luke+12:1-12",
+            "audio_link": "Ps.30,Josh.14,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 28",
+                "2 Chronicles 33:1\u201313",
+                "Romans 7:1\u20136"
+            ],
+            "reading_link": "Psalm+28%3B+2+Chronicles+33:1-13%3B+Romans+7:1-6",
+            "audio_link": "Ps.28,2Chr.33,Rom.7"
+        }
+    },
+    "2022/06/21": {
+        "date_pretty": "Tuesday, June 21, 2022",
+        "day_description": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                "Psalm 36",
+                "Joshua 21:43\u201322:8",
+                "Luke 12:13\u201321"
+            ],
+            "reading_link": "Psalm+36%3B+Joshua+21:43-22:8%3B+Luke+12:13-21",
+            "audio_link": "Ps.36,Josh.21,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 33",
+                "2 Chronicles 34:1\u201318",
+                "Romans 7:7\u2013end"
+            ],
+            "reading_link": "Psalm+33%3B+2+Chronicles+34:1-18%3B+Romans+7:7-",
+            "audio_link": "Ps.33,2Chr.34,Rom.7"
+        }
+    },
+    "2022/06/22": {
+        "date_pretty": "Wednesday, June 22, 2022",
+        "day_description": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                "Psalm 34",
+                "Joshua 22:9\u2013end",
+                "Luke 12:22\u201331"
+            ],
+            "reading_link": "Psalm+34%3B+Joshua+22:9-%3B+Luke+12:22-31",
+            "audio_link": "Ps.34,Josh.22,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 119:33\u201356",
+                "2 Chronicles 34:19\u2013end",
+                "Romans 8:1\u201311"
+            ],
+            "reading_link": "Psalm+119:33-56%3B+2+Chronicles+34:19-%3B+Romans+8:1-11",
+            "audio_link": "Ps.119,2Chr.34,Rom.8"
+        }
     }
 };  getData(){return this.data;}}

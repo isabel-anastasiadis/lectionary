@@ -8690,5 +8690,792 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "readQS": "Psalm+33:1-12%3B+Exodus+33:7-20%3B+2+Corinthians+3:4-18",
             "audioQS": "Ps.33,Exod.33,2Cor.3"
         }
+    },
+    "2022/06/06": {
+        "datePretty": "Monday, June 6, 2022",
+        "calendar": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 126",
+                    "readQS": "Psalm+126",
+                    "audioQS": "Ps.126"
+                },
+                {
+                    "pretty": "Joshua 1",
+                    "readQS": "Joshua+1",
+                    "audioQS": "Josh.1"
+                },
+                {
+                    "pretty": "Luke 9:18\u201327",
+                    "readQS": "Luke+9:18-27",
+                    "audioQS": "Luke.9"
+                }
+            ],
+            "readQS": "Psalm+126%3B+Joshua+1%3B+Luke+9:18-27",
+            "audioQS": "Ps.126,Josh.1,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 127",
+                    "readQS": "Psalm+127",
+                    "audioQS": "Ps.127"
+                },
+                {
+                    "pretty": "2 Chronicles 17:1\u201312",
+                    "readQS": "2+Chronicles+17:1-12",
+                    "audioQS": "2Chr.17"
+                },
+                {
+                    "pretty": "Romans 1:1\u201317",
+                    "readQS": "Romans+1:1-17",
+                    "audioQS": "Rom.1"
+                }
+            ],
+            "readQS": "Psalm+127%3B+2+Chronicles+17:1-12%3B+Romans+1:1-17",
+            "audioQS": "Ps.127,2Chr.17,Rom.1"
+        }
+    },
+    "2022/06/07": {
+        "datePretty": "Tuesday, June 7, 2022",
+        "calendar": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 132",
+                    "readQS": "Psalm+132",
+                    "audioQS": "Ps.132"
+                },
+                {
+                    "pretty": "Joshua 2",
+                    "readQS": "Joshua+2",
+                    "audioQS": "Josh.2"
+                },
+                {
+                    "pretty": "Luke 9:28\u201336",
+                    "readQS": "Luke+9:28-36",
+                    "audioQS": "Luke.9"
+                }
+            ],
+            "readQS": "Psalm+132%3B+Joshua+2%3B+Luke+9:28-36",
+            "audioQS": "Ps.132,Josh.2,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 135",
+                    "readQS": "Psalm+135",
+                    "audioQS": "Ps.135"
+                },
+                {
+                    "pretty": "2 Chronicles 18:1\u201327",
+                    "readQS": "2+Chronicles+18:1-27",
+                    "audioQS": "2Chr.18"
+                },
+                {
+                    "pretty": "Romans 1:18\u2013end",
+                    "readQS": "Romans+1:18-",
+                    "audioQS": "Rom.1"
+                }
+            ],
+            "readQS": "Psalm+135%3B+2+Chronicles+18:1-27%3B+Romans+1:18-",
+            "audioQS": "Ps.135,2Chr.18,Rom.1"
+        }
+    },
+    "2022/06/08": {
+        "datePretty": "Wednesday, June 8, 2022",
+        "calendar": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:153\u2013end",
+                    "readQS": "Psalm+119:153-",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Joshua 3",
+                    "readQS": "Joshua+3",
+                    "audioQS": "Josh.3"
+                },
+                {
+                    "pretty": "Luke 9:37\u201350",
+                    "readQS": "Luke+9:37-50",
+                    "audioQS": "Luke.9"
+                }
+            ],
+            "readQS": "Psalm+119:153-%3B+Joshua+3%3B+Luke+9:37-50",
+            "audioQS": "Ps.119,Josh.3,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 136",
+                    "readQS": "Psalm+136",
+                    "audioQS": "Ps.136"
+                },
+                {
+                    "pretty": "2 Chronicles 18:28\u2013end",
+                    "readQS": "2+Chronicles+18:28-",
+                    "audioQS": "2Chr.18"
+                },
+                {
+                    "pretty": "2 Chronicles 19",
+                    "readQS": "2+Chronicles+19",
+                    "audioQS": "2Chr.19"
+                },
+                {
+                    "pretty": "Romans 2:1\u201316",
+                    "readQS": "Romans+2:1-16",
+                    "audioQS": "Rom.2"
+                }
+            ],
+            "readQS": "Psalm+136%3B+2+Chronicles+18:28-%3B+2+Chronicles+19%3B+Romans+2:1-16",
+            "audioQS": "Ps.136,2Chr.18,2Chr.19,Rom.2"
+        }
+    },
+    "2022/06/09": {
+        "datePretty": "Thursday, June 9, 2022",
+        "calendar": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 143",
+                    "readQS": "Psalm+143",
+                    "audioQS": "Ps.143"
+                },
+                {
+                    "pretty": "Joshua 4:1\u20135:1",
+                    "readQS": "Joshua+4:1-5:1",
+                    "audioQS": "Josh.4"
+                },
+                {
+                    "pretty": "Luke 9:51\u2013end",
+                    "readQS": "Luke+9:51-",
+                    "audioQS": "Luke.9"
+                }
+            ],
+            "readQS": "Psalm+143%3B+Joshua+4:1-5:1%3B+Luke+9:51-",
+            "audioQS": "Ps.143,Josh.4,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 138",
+                    "readQS": "Psalm+138",
+                    "audioQS": "Ps.138"
+                },
+                {
+                    "pretty": "2 Chronicles 20:1\u201323",
+                    "readQS": "2+Chronicles+20:1-23",
+                    "audioQS": "2Chr.20"
+                },
+                {
+                    "pretty": "Romans 2:17\u2013end",
+                    "readQS": "Romans+2:17-",
+                    "audioQS": "Rom.2"
+                }
+            ],
+            "readQS": "Psalm+138%3B+2+Chronicles+20:1-23%3B+Romans+2:17-",
+            "audioQS": "Ps.138,2Chr.20,Rom.2"
+        }
+    },
+    "2022/06/10": {
+        "datePretty": "Friday, June 10, 2022",
+        "calendar": "Week after Pentecost",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 144",
+                    "readQS": "Psalm+144",
+                    "audioQS": "Ps.144"
+                },
+                {
+                    "pretty": "Joshua 5:2\u2013end",
+                    "readQS": "Joshua+5:2-",
+                    "audioQS": "Josh.5"
+                },
+                {
+                    "pretty": "Luke 10:1\u201316",
+                    "readQS": "Luke+10:1-16",
+                    "audioQS": "Luke.10"
+                }
+            ],
+            "readQS": "Psalm+144%3B+Joshua+5:2-%3B+Luke+10:1-16",
+            "audioQS": "Ps.144,Josh.5,Luke.10"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1,15",
+                    "readQS": "Psalm+1,15",
+                    "audioQS": "Ps.1,15"
+                },
+                {
+                    "pretty": "Isaiah 42:5\u201312",
+                    "readQS": "Isaiah+42:5-12",
+                    "audioQS": "Isa.42"
+                },
+                {
+                    "pretty": "Acts 14:8\u201328",
+                    "readQS": "Acts+14:8-28",
+                    "audioQS": "Acts.14"
+                }
+            ],
+            "readQS": "Psalm+1,15%3B+Isaiah+42:5-12%3B+Acts+14:8-28",
+            "audioQS": "Ps.1,15,Isa.42,Acts.14"
+        }
+    },
+    "2022/06/11": {
+        "datePretty": "Saturday, June 11, 2022",
+        "calendar": "Barnabas the Apostle",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 100,101,117",
+                    "readQS": "Psalm+100,101,117",
+                    "audioQS": "Ps.100,101,117"
+                },
+                {
+                    "pretty": "Jeremaiah 9:23\u201324",
+                    "readQS": "Jeremaiah+9:23-24",
+                    "audioQS": "Jeremaiah 9"
+                },
+                {
+                    "pretty": "Acts 4:32\u201337",
+                    "readQS": "Acts+4:32-37",
+                    "audioQS": "Acts.4"
+                }
+            ],
+            "readQS": "Psalm+100,101,117%3B+Jeremaiah+9:23-24%3B+Acts+4:32-37",
+            "audioQS": "Ps.100,101,117,Jeremaiah 9,Acts.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 97,98",
+                    "readQS": "Psalm+97,98",
+                    "audioQS": "Ps.97,98"
+                },
+                {
+                    "pretty": "Isaiah 40:12\u201331",
+                    "readQS": "Isaiah+40:12-31",
+                    "audioQS": "Isa.40"
+                },
+                {
+                    "pretty": "Mark 1:1\u201313",
+                    "readQS": "Mark+1:1-13",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+97,98%3B+Isaiah+40:12-31%3B+Mark+1:1-13",
+            "audioQS": "Ps.97,98,Isa.40,Mark.1"
+        }
+    },
+    "2022/06/12": {
+        "datePretty": "Sunday, June 12, 2022",
+        "calendar": "Trinity Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 29",
+                    "readQS": "Psalm+29",
+                    "audioQS": "Ps.29"
+                },
+                {
+                    "pretty": "Isaiah 6:1\u20138",
+                    "readQS": "Isaiah+6:1-8",
+                    "audioQS": "Isa.6"
+                },
+                {
+                    "pretty": "Revelation 4",
+                    "readQS": "Revelation+4",
+                    "audioQS": "Rev.4"
+                }
+            ],
+            "readQS": "Psalm+29%3B+Isaiah+6:1-8%3B+Revelation+4",
+            "audioQS": "Ps.29,Isa.6,Rev.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 73:1\u20133,16\u201328",
+                    "readQS": "Psalm+73:1-3,16-28",
+                    "audioQS": "Ps.73"
+                },
+                {
+                    "pretty": "Exodus 3:1\u201315",
+                    "readQS": "Exodus+3:1-15",
+                    "audioQS": "Exod.3"
+                },
+                {
+                    "pretty": "John 3:1\u201317",
+                    "readQS": "John+3:1-17",
+                    "audioQS": "John.3"
+                }
+            ],
+            "readQS": "Psalm+73:1-3,16-28%3B+Exodus+3:1-15%3B+John+3:1-17",
+            "audioQS": "Ps.73,Exod.3,John.3"
+        }
+    },
+    "2022/06/13": {
+        "datePretty": "Monday, June 13, 2022",
+        "calendar": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1",
+                    "readQS": "Psalm+1",
+                    "audioQS": "Ps.1"
+                },
+                {
+                    "pretty": "Joshua 7:1\u201315",
+                    "readQS": "Joshua+7:1-15",
+                    "audioQS": "Josh.7"
+                },
+                {
+                    "pretty": "Luke 10:25\u201337",
+                    "readQS": "Luke+10:25-37",
+                    "audioQS": "Luke.10"
+                }
+            ],
+            "readQS": "Psalm+1%3B+Joshua+7:1-15%3B+Luke+10:25-37",
+            "audioQS": "Ps.1,Josh.7,Luke.10"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 4",
+                    "readQS": "Psalm+4",
+                    "audioQS": "Ps.4"
+                },
+                {
+                    "pretty": "2 Chronicles 26:1\u201321",
+                    "readQS": "2+Chronicles+26:1-21",
+                    "audioQS": "2Chr.26"
+                },
+                {
+                    "pretty": "Romans 4:1\u201312",
+                    "readQS": "Romans+4:1-12",
+                    "audioQS": "Rom.4"
+                }
+            ],
+            "readQS": "Psalm+4%3B+2+Chronicles+26:1-21%3B+Romans+4:1-12",
+            "audioQS": "Ps.4,2Chr.26,Rom.4"
+        }
+    },
+    "2022/06/14": {
+        "datePretty": "Tuesday, June 14, 2022",
+        "calendar": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 5",
+                    "readQS": "Psalm+5",
+                    "audioQS": "Ps.5"
+                },
+                {
+                    "pretty": "Joshua 7:16\u2013end",
+                    "readQS": "Joshua+7:16-",
+                    "audioQS": "Josh.7"
+                },
+                {
+                    "pretty": "Luke 10:38\u2013end",
+                    "readQS": "Luke+10:38-",
+                    "audioQS": "Luke.10"
+                }
+            ],
+            "readQS": "Psalm+5%3B+Joshua+7:16-%3B+Luke+10:38-",
+            "audioQS": "Ps.5,Josh.7,Luke.10"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 9",
+                    "readQS": "Psalm+9",
+                    "audioQS": "Ps.9"
+                },
+                {
+                    "pretty": "2 Chronicles 28",
+                    "readQS": "2+Chronicles+28",
+                    "audioQS": "2Chr.28"
+                },
+                {
+                    "pretty": "Romans 4:13\u2013end",
+                    "readQS": "Romans+4:13-",
+                    "audioQS": "Rom.4"
+                }
+            ],
+            "readQS": "Psalm+9%3B+2+Chronicles+28%3B+Romans+4:13-",
+            "audioQS": "Ps.9,2Chr.28,Rom.4"
+        }
+    },
+    "2022/06/15": {
+        "datePretty": "Wednesday, June 15, 2022",
+        "calendar": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:1\u201332",
+                    "readQS": "Psalm+119:1-32",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Joshua 8:1\u201329",
+                    "readQS": "Joshua+8:1-29",
+                    "audioQS": "Josh.8"
+                },
+                {
+                    "pretty": "Luke 11:1\u201313",
+                    "readQS": "Luke+11:1-13",
+                    "audioQS": "Luke.11"
+                }
+            ],
+            "readQS": "Psalm+119:1-32%3B+Joshua+8:1-29%3B+Luke+11:1-13",
+            "audioQS": "Ps.119,Josh.8,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 11",
+                    "readQS": "Psalm+11",
+                    "audioQS": "Ps.11"
+                },
+                {
+                    "pretty": "2 Chronicles 29:1\u201319",
+                    "readQS": "2+Chronicles+29:1-19",
+                    "audioQS": "2Chr.29"
+                },
+                {
+                    "pretty": "Romans 5:1\u201311",
+                    "readQS": "Romans+5:1-11",
+                    "audioQS": "Rom.5"
+                }
+            ],
+            "readQS": "Psalm+11%3B+2+Chronicles+29:1-19%3B+Romans+5:1-11",
+            "audioQS": "Ps.11,2Chr.29,Rom.5"
+        }
+    },
+    "2022/06/16": {
+        "datePretty": "Thursday, June 16, 2022",
+        "calendar": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 15",
+                    "readQS": "Psalm+15",
+                    "audioQS": "Ps.15"
+                },
+                {
+                    "pretty": "Joshua 8:30\u2013end",
+                    "readQS": "Joshua+8:30-",
+                    "audioQS": "Josh.8"
+                },
+                {
+                    "pretty": "Luke 11:14\u201328",
+                    "readQS": "Luke+11:14-28",
+                    "audioQS": "Luke.11"
+                }
+            ],
+            "readQS": "Psalm+15%3B+Joshua+8:30-%3B+Luke+11:14-28",
+            "audioQS": "Ps.15,Josh.8,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 18",
+                    "readQS": "Psalm+18",
+                    "audioQS": "Ps.18"
+                },
+                {
+                    "pretty": "2 Chronicles 29:20\u2013end",
+                    "readQS": "2+Chronicles+29:20-",
+                    "audioQS": "2Chr.29"
+                },
+                {
+                    "pretty": "Romans 5:12\u2013end",
+                    "readQS": "Romans+5:12-",
+                    "audioQS": "Rom.5"
+                }
+            ],
+            "readQS": "Psalm+18%3B+2+Chronicles+29:20-%3B+Romans+5:12-",
+            "audioQS": "Ps.18,2Chr.29,Rom.5"
+        }
+    },
+    "2022/06/17": {
+        "datePretty": "Friday, June 17, 2022",
+        "calendar": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 19",
+                    "readQS": "Psalm+19",
+                    "audioQS": "Ps.19"
+                },
+                {
+                    "pretty": "Joshua 9:3\u201326",
+                    "readQS": "Joshua+9:3-26",
+                    "audioQS": "Josh.9"
+                },
+                {
+                    "pretty": "Luke 11:29\u201336",
+                    "readQS": "Luke+11:29-36",
+                    "audioQS": "Luke.11"
+                }
+            ],
+            "readQS": "Psalm+19%3B+Joshua+9:3-26%3B+Luke+11:29-36",
+            "audioQS": "Ps.19,Josh.9,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 22",
+                    "readQS": "Psalm+22",
+                    "audioQS": "Ps.22"
+                },
+                {
+                    "pretty": "2 Chronicles 30",
+                    "readQS": "2+Chronicles+30",
+                    "audioQS": "2Chr.30"
+                },
+                {
+                    "pretty": "Romans 6:1\u201314",
+                    "readQS": "Romans+6:1-14",
+                    "audioQS": "Rom.6"
+                }
+            ],
+            "readQS": "Psalm+22%3B+2+Chronicles+30%3B+Romans+6:1-14",
+            "audioQS": "Ps.22,2Chr.30,Rom.6"
+        }
+    },
+    "2022/06/18": {
+        "datePretty": "Saturday, June 18, 2022",
+        "calendar": "Week of Trinity Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
+                },
+                {
+                    "pretty": "Joshua 10:1\u201315",
+                    "readQS": "Joshua+10:1-15",
+                    "audioQS": "Josh.10"
+                },
+                {
+                    "pretty": "Luke 11:37\u2013end",
+                    "readQS": "Luke+11:37-",
+                    "audioQS": "Luke.11"
+                }
+            ],
+            "readQS": "Psalm+23%3B+Joshua+10:1-15%3B+Luke+11:37-",
+            "audioQS": "Ps.23,Josh.10,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 24",
+                    "readQS": "Psalm+24",
+                    "audioQS": "Ps.24"
+                },
+                {
+                    "pretty": "2 Chronicles 32:1\u201322",
+                    "readQS": "2+Chronicles+32:1-22",
+                    "audioQS": "2Chr.32"
+                },
+                {
+                    "pretty": "Romans 6:15\u2013end",
+                    "readQS": "Romans+6:15-",
+                    "audioQS": "Rom.6"
+                }
+            ],
+            "readQS": "Psalm+24%3B+2+Chronicles+32:1-22%3B+Romans+6:15-",
+            "audioQS": "Ps.24,2Chr.32,Rom.6"
+        }
+    },
+    "2022/06/19": {
+        "datePretty": "Sunday, June 19, 2022",
+        "calendar": "12th Sunday in Ordinary Time (Te Pouhere Sunday)",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 55:1\u201316,55:18\u201321",
+                    "readQS": "Psalm+55:1-16,55:18-21",
+                    "audioQS": "Ps.55"
+                },
+                {
+                    "pretty": "Deuteronomy 11:1\u201315",
+                    "readQS": "Deuteronomy+11:1-15",
+                    "audioQS": "Deut.11"
+                },
+                {
+                    "pretty": "Acts 27:1\u201312",
+                    "readQS": "Acts+27:1-12",
+                    "audioQS": "Acts.27"
+                }
+            ],
+            "readQS": "Psalm+55:1-16,55:18-21%3B+Deuteronomy+11:1-15%3B+Acts+27:1-12",
+            "audioQS": "Ps.55,Deut.11,Acts.27"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 57",
+                    "readQS": "Psalm+57",
+                    "audioQS": "Ps.57"
+                },
+                {
+                    "pretty": "Genesis 24:1\u201327",
+                    "readQS": "Genesis+24:1-27",
+                    "audioQS": "Gen.24"
+                },
+                {
+                    "pretty": "Mark 5:21\u2013end",
+                    "readQS": "Mark+5:21-",
+                    "audioQS": "Mark.5"
+                }
+            ],
+            "readQS": "Psalm+57%3B+Genesis+24:1-27%3B+Mark+5:21-",
+            "audioQS": "Ps.57,Gen.24,Mark.5"
+        }
+    },
+    "2022/06/20": {
+        "datePretty": "Monday, June 20, 2022",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 30",
+                    "readQS": "Psalm+30",
+                    "audioQS": "Ps.30"
+                },
+                {
+                    "pretty": "Joshua 14",
+                    "readQS": "Joshua+14",
+                    "audioQS": "Josh.14"
+                },
+                {
+                    "pretty": "Luke 12:1\u201312",
+                    "readQS": "Luke+12:1-12",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+30%3B+Joshua+14%3B+Luke+12:1-12",
+            "audioQS": "Ps.30,Josh.14,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 28",
+                    "readQS": "Psalm+28",
+                    "audioQS": "Ps.28"
+                },
+                {
+                    "pretty": "2 Chronicles 33:1\u201313",
+                    "readQS": "2+Chronicles+33:1-13",
+                    "audioQS": "2Chr.33"
+                },
+                {
+                    "pretty": "Romans 7:1\u20136",
+                    "readQS": "Romans+7:1-6",
+                    "audioQS": "Rom.7"
+                }
+            ],
+            "readQS": "Psalm+28%3B+2+Chronicles+33:1-13%3B+Romans+7:1-6",
+            "audioQS": "Ps.28,2Chr.33,Rom.7"
+        }
+    },
+    "2022/06/21": {
+        "datePretty": "Tuesday, June 21, 2022",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36",
+                    "readQS": "Psalm+36",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "Joshua 21:43\u201322:8",
+                    "readQS": "Joshua+21:43-22:8",
+                    "audioQS": "Josh.21"
+                },
+                {
+                    "pretty": "Luke 12:13\u201321",
+                    "readQS": "Luke+12:13-21",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+36%3B+Joshua+21:43-22:8%3B+Luke+12:13-21",
+            "audioQS": "Ps.36,Josh.21,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "2 Chronicles 34:1\u201318",
+                    "readQS": "2+Chronicles+34:1-18",
+                    "audioQS": "2Chr.34"
+                },
+                {
+                    "pretty": "Romans 7:7\u2013end",
+                    "readQS": "Romans+7:7-",
+                    "audioQS": "Rom.7"
+                }
+            ],
+            "readQS": "Psalm+33%3B+2+Chronicles+34:1-18%3B+Romans+7:7-",
+            "audioQS": "Ps.33,2Chr.34,Rom.7"
+        }
+    },
+    "2022/06/22": {
+        "datePretty": "Wednesday, June 22, 2022",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "Joshua 22:9\u2013end",
+                    "readQS": "Joshua+22:9-",
+                    "audioQS": "Josh.22"
+                },
+                {
+                    "pretty": "Luke 12:22\u201331",
+                    "readQS": "Luke+12:22-31",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+34%3B+Joshua+22:9-%3B+Luke+12:22-31",
+            "audioQS": "Ps.34,Josh.22,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:33\u201356",
+                    "readQS": "Psalm+119:33-56",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "2 Chronicles 34:19\u2013end",
+                    "readQS": "2+Chronicles+34:19-",
+                    "audioQS": "2Chr.34"
+                },
+                {
+                    "pretty": "Romans 8:1\u201311",
+                    "readQS": "Romans+8:1-11",
+                    "audioQS": "Rom.8"
+                }
+            ],
+            "readQS": "Psalm+119:33-56%3B+2+Chronicles+34:19-%3B+Romans+8:1-11",
+            "audioQS": "Ps.119,2Chr.34,Rom.8"
+        }
     }
 };export default Data;
