@@ -7,6 +7,7 @@ using NUnit.Framework;
 using ReadingsBuilder.Model.Data.DTOs;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Model.Pipeline.Steps;
 using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
@@ -78,14 +79,22 @@ namespace Tests.Model.Pipeline.Steps.Utility
                 }
             };
 
-            var workingResult = new PipelineWorkingResult();
+            var dayTheRuleStarts = new DateOnly(2022, 3, 27);
+
+            var workingResult = new PipelineWorkingResult() {
+                Input = new Input() {
+                    StartDate = new DateOnly(2022, 1, 1),
+                    EndDate = dayTheRuleStarts.AddDays(-1)
+                }
+            };
+
+            new Step00PopulateDates().RunStep(workingResult);
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, default, null, null);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, dayTheRuleStarts, null, null);
 
             // assert
-            Assert.IsEmpty(workingResult.Result.Keys);
-
+            Assert.IsFalse(workingResult.Result.ContainsKey(dayTheRuleStarts));
         }
 
         [Test]

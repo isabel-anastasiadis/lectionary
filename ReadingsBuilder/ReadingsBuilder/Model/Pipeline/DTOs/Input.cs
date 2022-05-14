@@ -20,6 +20,24 @@
         /// </summary>
         public DateOnly? PalmSunday { get; set; }
 
+        public DateOnly? Pentecost { 
+            get {
+                var numberOfWeeks = 8;
+                return PalmSunday?.AddDays(numberOfWeeks * 7);
+            } 
+        }
+
+        public DateOnly? FourthSundayBeforeAdvent {
+            get {
+                var numberOfWeeks = -4;
+                return FirstSundayOfAdvent?.AddDays(numberOfWeeks * 7);
+            }
+        }
+        
+        public DateOnly? FirstSundayOfAdvent { get; set; }
+
+
+
         /// <summary>
         /// I can't work out the rule about which row we start with when going through ordinary time psalms...
         /// </summary>

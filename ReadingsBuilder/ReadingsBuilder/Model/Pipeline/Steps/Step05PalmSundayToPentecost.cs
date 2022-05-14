@@ -8,7 +8,9 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step05PalmSundayToPentecost(IRuleApplier ruleApplier, IAllDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step05PalmSundayToPentecost(IRuleApplier ruleApplier, 
+            IAllDataFactory dataFactory, 
+            IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
@@ -32,7 +34,11 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             // work out what date to start with
             var dateOfFirstDayTheRuleAppliesTo = workingResult.Input.PalmSunday.Value;
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, null, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, 
+                ApplicableRules, 
+                dateOfFirstDayTheRuleAppliesTo, 
+                ruleDataToStartWith: null, 
+                dateOfLastDayRuleAppliesTo: null);
         }
 
     }
