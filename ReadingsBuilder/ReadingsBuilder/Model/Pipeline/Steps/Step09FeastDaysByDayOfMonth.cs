@@ -48,6 +48,12 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                     }
                 }
 
+                // temporary while I haven't quite built the data for all festivals yet.  Don't apply if there aren't readings set yet.
+                if (!festivalRule.HasSetReadings && !festivalRule.HasSetEveningOverrides && !festivalRule.HasMorningPsalms && !festivalRule.HasEveningPsalms)
+                {
+                    continue;
+                }
+
                 // we need to apply them one by one (particularly for multiple festivals falling in Holy week that need moving)
                 // eg. if St George and St Mark both fall in Holy Week, then St George will be shifted to the
                 // first available day (prob. Monday), and St Mark the day after that.
