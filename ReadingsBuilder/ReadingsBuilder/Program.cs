@@ -1,4 +1,5 @@
 ﻿
+using ReadingsBuilder;
 using ReadingsBuilder.Bindings;
 using ReadingsBuilder.Model.Data;
 using ReadingsBuilder.Model.Mappers;
@@ -17,6 +18,34 @@ Console.WriteLine("Hello, World!");
  */
 
 var pipeline = DependencyInjector.GetInstance<IPipeline>();
+var resultWriter = DependencyInjector.GetInstance<IResultWriter>();
+
+// previous years results (for regression testing)
+var previousYearsInputs = new List<Input>() 
+{
+    new Input
+    {
+        StartDate = new DateOnly(2021, 11, 28),
+        EndDate = new DateOnly(2022, 10, 30), // Haven't done Transfiguration of the Beloved Son and beyond for set feastival days.  Otherwise done until 4th Sun before Advent.
+        FifthSundayAfterEpiphany = new DateOnly(2022, 2, 6),
+        AshWednesday = new DateOnly(2022, 3, 2),
+        PalmSunday = new DateOnly(2022, 4, 10),
+        FirstSundayOfAdvent = new DateOnly(2022, 11, 27),
+        OrdinaryTimePsalmsFirstChunkStartingIndex = 8, // haven't worked out the rule for these so you just have to check
+        OrdinaryTimePsalmsSecondChunkStartingIndex = 43  // 0 based index
+    }
+};
+
+File.Delete(Path.Combine(ResultWriter.DefaultFilePath, "PreviousResults.csv"));
+
+foreach (var previousYearsInput in previousYearsInputs)
+{
+    var previousYearsResults = pipeline.Run(previousYearsInput);
+    resultWriter.WriteResult(previousYearsResults, "PreviousResults.csv", overwrite: false, logToConsole: false);
+}
+
+
+// this years result
 var input = new Input 
 { 
     StartDate = new DateOnly(2022, 11, 27), // first sun of advent
@@ -31,16 +60,6 @@ var input = new Input
     OrdinaryTimePsalmsSecondChunkStartingIndex = 0  // 0 based index
 };
 var result = pipeline.Run(input);
-
-var filePath = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\Result.csv";
-
-
-new CsvWriter().WriteToCSV(new ResultToRowsMapper().Map(result.Result), filePath);
-
-foreach (var key in result.Result.Keys)
-{
-    var day = result.Result[key];
-    Console.WriteLine(day.OptionOne);
-}
+resultWriter.WriteResult(result, "Result.csv", overwrite: true, logToConsole: true);
 
 
