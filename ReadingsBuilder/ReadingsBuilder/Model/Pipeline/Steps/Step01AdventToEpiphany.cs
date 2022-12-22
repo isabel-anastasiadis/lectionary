@@ -29,12 +29,12 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
             }
            
             var firstDate = workingResult.Result.Keys.OrderBy(x => x).FirstOrDefault();
-            if (firstDate.Month != 12 || firstDate.Day != 1) {
-                throw new ArgumentException($"Expected the first day in the year to be December 1st, but it was {firstDate}", nameof(workingResult.Result));
+            if (firstDate.DayOfWeek != DayOfWeek.Sunday) {
+                throw new ArgumentException($"Expected the first day to be a Sunday, but it was {firstDate.DayOfWeek} ({firstDate}).  The first day should be the 1st Sunday of Advent.", nameof(workingResult.Result));
             }
 
-            // the rule in the first week of advent with the same DayOfWeek
-            var ruleDataToStartWith = ApplicableRules.GetRange(0, 7).FirstOrDefault(x => x.Weekday == firstDate.DayOfWeek);
+            // the first sunday of advent
+            var ruleDataToStartWith = ApplicableRules.FirstOrDefault();
 
             return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstDate, ruleDataToStartWith, null);
         }

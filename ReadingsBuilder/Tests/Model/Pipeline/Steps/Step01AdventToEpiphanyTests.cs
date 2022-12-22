@@ -149,13 +149,13 @@ namespace Tests.Model.Pipeline.Steps
         }
 
         [Test]
-        public void RunStepEnsuresTheYearStartsWithDecFirst()
+        public void RunStepEnsuresTheYearStartsWithSunday()
         {
 
             // arrange
             var workingResult = new PipelineWorkingResult();
 
-            workingResult.Result[new DateOnly(2021, 12, 2)] = new Option<Day, DayOptionType>()
+            workingResult.Result[new DateOnly(2021, 12, 1)] = new Option<Day, DayOptionType>() // Wed
             {
                 OptionOne = new Day()
             };
@@ -181,12 +181,12 @@ namespace Tests.Model.Pipeline.Steps
         {
 
             // arrange
-            var dateOfDay = new DateOnly(2021, 12, 1); // WED
+            var dateOfDay = new DateOnly(2021, 11, 28); // 1st Sun Advent
             var workingResult = new PipelineWorkingResult();
             workingResult.Result[dateOfDay] = new Option<Day, DayOptionType>();
 
             var classUnderTest = ClassUnderTest();
-            var expectedFirstRule = _defaultRules.First(x => x.Weekday == DayOfWeek.Wednesday);
+            var expectedFirstRule = _defaultRules.First();
 
             // act
             var result = classUnderTest.RunStep(workingResult);

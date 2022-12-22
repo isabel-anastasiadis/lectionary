@@ -15,7 +15,7 @@ namespace Tests.Model.Pipeline
             // arrange
             var classUnderTest = DependencyInjector.GetInstance<IPipeline>();
             var input = new Input() {
-                StartDate = new DateOnly(2021, 12, 1),
+                StartDate = new DateOnly(2021, 11, 28),
                 EndDate = new DateOnly(2022, 10, 30), // Haven't done Transfiguration of the Beloved Son and beyond for set feastival days.  Otherwise done until 4th Sun before Advent.
                 FifthSundayAfterEpiphany = new DateOnly(2022, 2, 6),
                 AshWednesday = new DateOnly(2022, 3, 2),
