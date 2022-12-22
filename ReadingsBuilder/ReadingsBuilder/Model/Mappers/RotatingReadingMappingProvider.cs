@@ -15,7 +15,9 @@ namespace ReadingsBuilder.Model.Mappers
         {
             _mappings = new List<RotatingReadingMapping>();
 
-            // 2011-12
+            // See https://www.churchofengland.org/sites/default/files/2017-11/weekday%20lectionary%202005.pdf
+
+            // Same as 2009-2010
             _mappings.Add(new RotatingReadingMapping()
             {
                 FirstDay = new DateOnly(2021, 11, 28),
@@ -26,6 +28,19 @@ namespace ReadingsBuilder.Model.Mappers
                 EveningOldTestamentOrdinary = RotatingReadingType.OldTestament2a,
                 EveningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
                 EveningNewTestament = RotatingReadingType.NewTestament2
+            });
+
+            // Same as 2010 - 2011
+            _mappings.Add(new RotatingReadingMapping()
+            {
+                FirstDay = new DateOnly(2022, 11, 27),
+                LastDay = new DateOnly(2023, 12, 2),
+                MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2a,
+                MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
+                MorningNewTestament = RotatingReadingType.NewTestament2,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
+                EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1,
+                EveningNewTestament = RotatingReadingType.NewTestament1
             });
         }
 
