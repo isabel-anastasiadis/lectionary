@@ -1,5 +1,5 @@
 date,date_pretty,day_description,morning_prayers_together,evening_prayers_together
-2022/11/27,"Sunday, November 27, 2022",1st Sunday of Advent,Psalm 44; Micah 4:1-7; 1 Thessalonians 5:1-11,Psalm 9; Isaiah 52:1-12; Matthew 24:15-28
+2022/11/27,"Sunday, November 27, 2022",1st Sunday of Advent,; ;,; ;
 2022/11/28,"Monday, November 28, 2022",Week of 1st Sunday of Advent,Psalm 50; Isaiah 42:18–end; Revelation 19,Psalm 71; Isaiah 25:1–9; Matthew 12:1–21
 2022/11/29,"Tuesday, November 29, 2022",Week of 1st Sunday of Advent,Psalm 80; Isaiah 43:1–13; Revelation 20,Psalm 74; Isaiah 26:1–13; Matthew 12:22–37
 2022/11/30,"Wednesday, November 30, 2022",Week of 1st Sunday of Advent,Psalm 7; Isaiah 43:14–end; Revelation 21:1–8,Psalm 77; Isaiah 28:1–13; Matthew 12:38–end
@@ -7,21 +7,21 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/12/02,"Friday, December 2, 2022",Week of 1st Sunday of Advent,Psalm 25; Isaiah 44:9–23; Revelation 21:22–22:5,Psalm 17; Isaiah 29:1–14; Matthew 13:24–43
 2022/12/03,"Saturday, December 3, 2022",Week of 1st Sunday of Advent,Psalm 9; Isaiah 44:24–45:13; Revelation 22:6–end,Psalm 27; Isaiah 29:15–end; Matthew 13:44–end
 2022/12/04,"Sunday, December 4, 2022",2nd Sunday of Advent,; ;,; ;
-2022/12/05,"Monday, December 5, 2022",Week of 2nd Sunday of Advent,Psalm 80; Isaiah 64:1-7; Matthew 11:2-11,Psalm 75; Isaiah 40:1-11; Luke 1:1-25
+2022/12/05,"Monday, December 5, 2022",Week of 2nd Sunday of Advent,Psalm 44; Isaiah 45:14–end; 1 Thessalonians 1,Psalm 144; Isaiah 30:1–18; Matthew 14:1–12
 2022/12/06,"Tuesday, December 6, 2022",Week of 2nd Sunday of Advent,Psalm 56; Isaiah 46; 1 Thessalonians 2:1–12,Psalm 11; Isaiah 30:19–end; Matthew 14:13–end
 2022/12/07,"Wednesday, December 7, 2022",Week of 2nd Sunday of Advent,Psalm 62; Isaiah 47; 1 Thessalonians 2:13–end,Psalm 10; Isaiah 31; Matthew 15:1–20
 2022/12/08,"Thursday, December 8, 2022",Week of 2nd Sunday of Advent,Psalm 54; Isaiah 48:1–11; 1 Thessalonians 3,Psalm 73; Isaiah 32; Matthew 15:21–28
 2022/12/09,"Friday, December 9, 2022",Week of 2nd Sunday of Advent,Psalm 86; Isaiah 48:12–end; 1 Thessalonians 4:1–12,Psalm 90; Isaiah 33:1–22; Matthew 15:29–end
 2022/12/10,"Saturday, December 10, 2022",Week of 2nd Sunday of Advent,Psalm 145; Isaiah 49:1–13; 1 Thessalonians 4:13–end,Psalm 94; Isaiah 35; Matthew 16:1–12
 2022/12/11,"Sunday, December 11, 2022",3rd Sunday of Advent,; ;,; ;
-2022/12/12,"Monday, December 12, 2022",Week of 3rd Sunday of Advent,"Psalm 12,14; Isaiah 25:1-9; 1 Corinthians 4:1-5",Psalm 50:1-6; Isaiah 35; Luke 1:57-66
+2022/12/12,"Monday, December 12, 2022",Week of 3rd Sunday of Advent,Psalm 40; Isaiah 49:14–25; 1 Thessalonians 5:1–11,"Psalm 26; Isaiah 38:1–8,38:21–22; Matthew 16:13–end"
 2022/12/13,"Tuesday, December 13, 2022",Week of 3rd Sunday of Advent,Psalm 70; Isaiah 50; 1 Thessalonians 5:12–end,Psalm 50; Isaiah 38:9–20; Matthew 17:1–13
 2022/12/14,"Wednesday, December 14, 2022",Week of 3rd Sunday of Advent,Psalm 75; Isaiah 51:1–8; 2 Thessalonians 1,Psalm 82; Isaiah 39; Matthew 17:14–21
 2022/12/15,"Thursday, December 15, 2022",Week of 3rd Sunday of Advent,Psalm 76; Isaiah 51:9–16; 2 Thessalonians 2,Psalm 44; Zephaniah 1:1–2:3; Matthew 17:22–end
 2022/12/16,"Friday, December 16, 2022",Week of 3rd Sunday of Advent,Psalm 98; Isaiah 51:17–end; 2 Thessalonians 3,Psalm 49; Zephaniah 3:1–13; Matthew 18:1–20
 2022/12/17,"Saturday, December 17, 2022",Week of 3rd Sunday of Advent,Psalm 71; Isaiah 52:1–12; Jude,Psalm 43; Zephaniah 3:14–end; Matthew 18:21–end
 2022/12/18,"Sunday, December 18, 2022",4th Sunday of Advent,; ;,; ;
-2022/12/19,"Monday, December 19, 2022",Week of 4th Sunday of Advent,Psalm 144; Isaiah 32:1-8; Revelation 22:6-21,Psalm 123; Isaiah 10:33–11:10; Matthew 1:18-25
+2022/12/19,"Monday, December 19, 2022",Week of 4th Sunday of Advent,Psalm 146; Isaiah 52:13–end; Isaiah 53; 2 Peter 1:1–15,"Psalm 57; Malachi 1:1,1:6–end; Matthew 19:1–12"
 2022/12/20,"Tuesday, December 20, 2022",Week of 4th Sunday of Advent,Psalm 46; Isaiah 54; 2 Peter 1:16–2:3,Psalm 4; Malachi 2:1–16; Matthew 19:13–15
 2022/12/21,"Wednesday, December 21, 2022",Week of 4th Sunday of Advent,Psalm 121; Isaiah 55; 2 Peter 2:4–end,Psalm 84; Malachi 2:17–3:12; Matthew 19:16–end
 2022/12/22,"Thursday, December 22, 2022",Week of 4th Sunday of Advent,Psalm 124; Isaiah 56:1–8; 2 Peter 3,Psalm 48; Malachi 3:13–end; Malachi 4; Matthew 23:1–12
@@ -35,35 +35,35 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/12/30,"Friday, December 30, 2022",Week of 1st Sunday of Christmas,Psalm 113; Isaiah 59:1–15a; John 1:19–28,Psalm 65; Jonah 2; Colossians 1:15–23
 2022/12/31,"Saturday, December 31, 2022",Week of 1st Sunday of Christmas,Psalm 102; Isaiah 59:15b–end; John 1:29–34,Psalm 90; Jonah 3; Jonah 4; Colossians 1:24–2:7
 2023/01/01,"Sunday, January 1, 2023",The naming of Jesus,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:1-20; Acts 3:1-16
-2023/01/02,"Monday, January 2, 2023",Week of 2nd Sunday of Christmas,Psalm 87; Isaiah 12; 1 Thes 2:1-8,Psalm 135; 1 Samuel 1:20-end; 1 John 4:7-16
+2023/01/02,"Monday, January 2, 2023",Week of 2nd Sunday of Christmas,Psalm 18:1-30; Isaiah 60:1–12; John 1:35–42,Psalm 46; Ruth 1; Colossians 2:8–end
 2023/01/03,"Tuesday, January 3, 2023",Week of 2nd Sunday of Christmas,Psalm 127; Isaiah 60:13–end; John 1:43–end,Psalm 2; Ruth 2; Colossians 3:1–11
 2023/01/04,"Wednesday, January 4, 2023",Week of 2nd Sunday of Christmas,Psalm 89:1-37; Isaiah 61; John 2:1–12,Psalm 87; Ruth 3; Colossians 3:12–4:1
 2023/01/05,"Thursday, January 5, 2023",Week of 2nd Sunday of Christmas,Psalm 48; Isaiah 62; John 2:13–end,Psalm 97; Isaiah 49:1-13; John 4:7-26
 2023/01/06,"Friday, January 6, 2023",The Epiphany,Psalm 132; Jeremiah 31:7-14; John 1:29-34,"Psalm 98,100; Isaiah 60:1-9; John 2:1-11"
 2023/01/07,"Saturday, January 7, 2023",Week of 2nd Sunday of Christmas,Psalm 99; Isaiah 63:7–end; 1 John 3,Psalm 36; Isaiah 61; Titus 2:11-14;Titus 3:4-7
 2023/01/08,"Sunday, January 8, 2023",The Baptism of the Lord,Psalm 46; Isaiah 64; 1 John 4:7–end,Psalm 145; Jeremiah 30:1–17; Matthew 20:17–28
-2023/01/09,"Monday, January 9, 2023",Week of 1st Sunday after the Epiphany,Psalm 89:19-29; Isaiah 42:1-9; Acts 19:1-7,"Psalm 46,47; Isaiah 55:1-11; Romans 6:1-11"
+2023/01/09,"Monday, January 9, 2023",Week of 1st Sunday after the Epiphany,Psalm 2; Amos 1; 1 Corinthians 1:1–17,Psalm 34; Genesis 1:1–19; Matthew 21:1–17
 2023/01/10,"Tuesday, January 10, 2023",Week of 1st Sunday after the Epiphany,Psalm 9; Amos 2; 1 Corinthians 1:18–end,Psalm 45; Genesis 1:20–2:3; Matthew 21:18–32
 2023/01/11,"Wednesday, January 11, 2023",Week of 1st Sunday after the Epiphany,Psalm 20; Amos 3; 1 Corinthians 2,Psalm 47; Genesis 2:4–end; Matthew 21:33–end
 2023/01/12,"Thursday, January 12, 2023",Week of 1st Sunday after the Epiphany,Psalm 21; Amos 4; 1 Corinthians 3,Psalm 61; Genesis 3; Matthew 22:1–14
 2023/01/13,"Friday, January 13, 2023",Week of 1st Sunday after the Epiphany,Psalm 67; Amos 5:1–17; 1 Corinthians 4,"Psalm 68; Genesis 4:1–16,4:25–26; Matthew 22:15–33"
 2023/01/14,"Saturday, January 14, 2023",Week of 1st Sunday after the Epiphany,Psalm 33; Amos 5:18–end; 1 Corinthians 5,Psalm 85; Genesis 6:1–10; Matthew 22:34–end
 2023/01/15,"Sunday, January 15, 2023",2nd Sunday after the Epiphany,; ;,; ;
-2023/01/16,"Monday, January 16, 2023",Week of 2nd Sunday after the Epiphany,Psalm 145:1-13; Isaiah 49:1-7; Acts 16:11-15,Psalm 96; 1 Samuel 3:1-20; Ephesians 4:1-16
+2023/01/16,"Monday, January 16, 2023",Week of 2nd Sunday after the Epiphany,Psalm 146; Amos 6; 1 Corinthians 6:1–11,Psalm 71; Genesis 6:11–7:10; Matthew 24:1–14
 2023/01/17,"Tuesday, January 17, 2023",Week of 2nd Sunday after the Epiphany,Psalm 132; Amos 7; 1 Corinthians 6:12–end,Psalm 89:1-37; Genesis 7:11–end; Matthew 24:15–28
 2023/01/18,"Wednesday, January 18, 2023",Week of 2nd Sunday after the Epiphany,Psalm 81; Amos 8; 1 Corinthians 7:1–24,Psalm 97; Genesis 8:1–14; Matthew 24:29–end
 2023/01/19,"Thursday, January 19, 2023",Week of 2nd Sunday after the Epiphany,Psalm 76; Amos 9; 1 Corinthians 7:25–end,Psalm 111; Genesis 8:15–9:7; Matthew 25:1–13
 2023/01/20,"Friday, January 20, 2023",Week of 2nd Sunday after the Epiphany,Psalm 27; Hosea 1:1–2:1; 1 Corinthians 8,Psalm 73; Genesis 9:8–19; Matthew 25:14–30
 2023/01/21,"Saturday, January 21, 2023",Week of 2nd Sunday after the Epiphany,Psalm 122; Hosea 2:2–17; 1 Corinthians 9:1–14,Psalm 61; Genesis 11:1–9; Matthew 25:31–end
 2023/01/22,"Sunday, January 22, 2023",3rd Sunday after the Epiphany,; ;,; ;
-2023/01/23,"Monday, January 23, 2023",Week of 3rd Sunday after the Epiphany,Psalm 113; Deuteronomy 30:11-15; 3 John 1:5-8,Psalm 33; Numbers 9:15-23; 1 Corinthians 7:17-24
+2023/01/23,"Monday, January 23, 2023",Week of 3rd Sunday after the Epiphany,Psalm 108; Hosea 2:18–end; Hosea 3; 1 Corinthians 9:15–end,Psalm 138; Genesis 11:27–12:9; Matthew 26:1–16
 2023/01/24,"Tuesday, January 24, 2023",Week of 3rd Sunday after the Epiphany,Psalm 36; Hosea 4:1–16; 1 Corinthians 10:1–13,Psalm 149; Isaiah 49:1-13; Acts 22:3-16
 2023/01/25,"Wednesday, January 25, 2023",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14",Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end; Colossians 2:1-7;
 2023/01/26,"Thursday, January 26, 2023",Week of 3rd Sunday after the Epiphany,Psalm 47; Hosea 5:8–6:6; 1 Corinthians 11:2–16,Psalm 24; Genesis 15; Matthew 26:47–56
 2023/01/27,"Friday, January 27, 2023",Week of 3rd Sunday after the Epiphany,Psalm 65; Hosea 6:7–7:2; 1 Corinthians 11:17–end,Psalm 67; Genesis 16; Matthew 26:57–end
 2023/01/28,"Saturday, January 28, 2023",Week of 3rd Sunday after the Epiphany,Psalm 68; Hosea 8; 1 Corinthians 12:1–11,Psalm 72; Genesis 17:1–22; Matthew 27:1–10
 2023/01/29,"Sunday, January 29, 2023",4th Sunday after the Epiphany,; ;,; ;
-2023/01/30,"Monday, January 30, 2023",Week of 4th Sunday after the Epiphany,"Psalm 71:1-6,15-17; Micah 6:1-8; 1 Corinthians 6:12-20",Psalm 34; 1 Chronicles on 29:6-19; Acts 7:44-50
+2023/01/30,"Monday, January 30, 2023",Week of 4th Sunday after the Epiphany,Psalm 57; Hosea 9; 1 Corinthians 12:12–end,Psalm 20; Genesis 18:1–15; Matthew 27:11–26
 2023/01/31,"Tuesday, January 31, 2023",Week of 4th Sunday after the Epiphany,Psalm 93; Hosea 10; 1 Corinthians 13,Psalm 19; Genesis 18:16–end; Matthew 27:27–44
 2023/02/01,"Wednesday, February 1, 2023",Week of 4th Sunday after the Epiphany,Psalm 95; Hosea 11:1–11; 1 Corinthians 14:1–19,Psalm 118; 1 Samuel 1:19b-28; Hebrews 4:11-16
 2023/02/02,"Thursday, February 2, 2023",Presentation of Jesus at the Temple,"Psalm 48,146; Exodus 13:1-16; Rom 12:1-5","Psalm 122,123; Haggai 2:1-9; John 2:18-22"
