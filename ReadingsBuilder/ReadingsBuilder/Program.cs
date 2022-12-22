@@ -62,4 +62,9 @@ var input = new Input
 var result = pipeline.Run(input);
 resultWriter.WriteResult(result, "Result.csv", overwrite: true, logToConsole: true);
 
+// copy to the processing folder
+var processingFilePath = @"c:\github\lectionary\jupyter\input\all_readings.csv";
+File.Delete(processingFilePath);
+File.Copy(Path.Combine(ResultWriter.DefaultFilePath, "Result.csv"), processingFilePath);
+
 
