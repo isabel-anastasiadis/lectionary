@@ -31,7 +31,7 @@ var previousYearsInputs = new List<Input>()
         AshWednesday = new DateOnly(2022, 3, 2),
         PalmSunday = new DateOnly(2022, 4, 10),
         FirstSundayOfAdvent = new DateOnly(2022, 11, 27),
-        OrdinaryTimePsalmsFirstChunkStartingIndex = 8, // haven't worked out the rule for these so you just have to check
+        // haven't worked out the rule for these so you just have to check
         OrdinaryTimePsalmsSecondChunkStartingIndex = 43  // 0 based index
     }
 };
@@ -54,8 +54,7 @@ var input = new Input
     AshWednesday = new DateOnly(2023, 2, 22),
     PalmSunday = new DateOnly(2023, 4, 2),
     FirstSundayOfAdvent = new DateOnly(2023, 12, 3),
-    // The week following 4th Sunday after epiphany will start out seasonal psalms, then Presentation of Jesus on 2nd Feb (which if not celebrated is the first ordinary time psalm)
-    OrdinaryTimePsalmsFirstChunkStartingIndex = 8, // haven't worked out the rule for these so you just have to check
+    // haven't worked out the rule for these so you just have to check
     OrdinaryTimePsalmsSecondChunkStartingIndex = 43  // 0 based index
 };
 var result = pipeline.Run(input);

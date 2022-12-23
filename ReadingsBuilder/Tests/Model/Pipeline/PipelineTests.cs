@@ -21,7 +21,6 @@ namespace Tests.Model.Pipeline
                 AshWednesday = new DateOnly(2022, 3, 2),
                 PalmSunday = new DateOnly(2022, 4, 10),
                 FirstSundayOfAdvent = new DateOnly(2022, 11, 27),
-                OrdinaryTimePsalmsFirstChunkStartingIndex = 8, // haven't worked out the rule for these so you just have to check
                 OrdinaryTimePsalmsSecondChunkStartingIndex = 43  // 0 based index
             };
 
