@@ -49,15 +49,14 @@ foreach (var previousYearsInput in previousYearsInputs)
 var input = new Input 
 { 
     StartDate = new DateOnly(2022, 11, 27), // first sun of advent
-    EndDate = new DateOnly(2023, 2, 2), // Haven't done Transfiguration of the Beloved Son and beyond for set feastival days.  Otherwise done until 4th Sun before Advent.
+    EndDate = new DateOnly(2023, 11, 4), // Sat before 4th Sun of Advent.  Haven't done Transfiguration of the Beloved Son and beyond for set feastival days.  Otherwise done until 4th Sun before Advent.
     FifthSundayAfterEpiphany = new DateOnly(2023, 2, 5),
     AshWednesday = new DateOnly(2023, 2, 22),
     PalmSunday = new DateOnly(2023, 4, 2),
     FirstSundayOfAdvent = new DateOnly(2023, 12, 3),
-    // wed 1st Feb seems to be the last seasonal psalms day
-    // Starts on Thur 2nd Feb Row 5, index 4
-    OrdinaryTimePsalmsFirstChunkStartingIndex = 4, // haven't worked out the rule for these so you just have to check
-    OrdinaryTimePsalmsSecondChunkStartingIndex = 0  // 0 based index
+    // The week following 4th Sunday after epiphany will start out seasonal psalms, then Presentation of Jesus on 2nd Feb (which if not celebrated is the first ordinary time psalm)
+    OrdinaryTimePsalmsFirstChunkStartingIndex = 8, // haven't worked out the rule for these so you just have to check
+    OrdinaryTimePsalmsSecondChunkStartingIndex = 43  // 0 based index
 };
 var result = pipeline.Run(input);
 resultWriter.WriteResult(result, "Result.csv", overwrite: true, logToConsole: true);
