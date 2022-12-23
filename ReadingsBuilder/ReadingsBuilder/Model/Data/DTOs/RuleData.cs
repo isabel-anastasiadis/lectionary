@@ -27,6 +27,8 @@
 
         public int? Month { get; set; }
 
+        public int? Year { get; set; }
+
         public Dictionary<RotatingReadingType, string?> RotatingReadings { get; set; }
 
         public string? MorningOldTestament { get; set; }

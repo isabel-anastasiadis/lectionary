@@ -48,26 +48,24 @@ namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
 
             var dayValue = dateOverride != null ? dateOverride.Value.Day : rule.Day;
             var monthValue = dateOverride != null ? dateOverride.Value.Month : rule.Month;
+            int? yearValue = dateOverride != null ? dateOverride.Value.Year : rule.Year;
 
-            var possibleDates = workingResult.Result.Keys.Where(date => date.Month == monthValue && date.Day == dayValue).ToList();
+            var possibleDates = workingResult.Result.Keys.Where(date => (!yearValue.HasValue || date.Year == yearValue) && date.Month == monthValue && date.Day == dayValue).ToList();
             if (possibleDates.Count() > 1)
             {
                 throw new ArgumentException($"There should only be one matching day per rule (Steps are only assumed to run on a year's worth of data, and previous steps might not have processed the necessary days)");
             }
 
-            DateOnly? date = possibleDates.Any() ? possibleDates.First() : null;
-
-            if (date.HasValue)
+            if (!possibleDates.Any())
             {
-                var day = workingResult.Result[date.Value].OptionOne;
-
-                if (day != null)
-                {
-                    ruleApplier.ApplyRuleToDay(rule, day);
-                }
+                return;
             }
 
+            var day = workingResult.Result[possibleDates.First()].OptionOne;
+            if (day != null)
+            {
+                ruleApplier.ApplyRuleToDay(rule, day);
+            }
         }
-
     }
 }
