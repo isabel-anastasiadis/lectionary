@@ -35,20 +35,31 @@ export const dark = createTheme({
 // Set the system font
 export const font = globalCss({
   "@font-face": [
+    /* latin-ext */
     {
-      fontFamily: "inter",
+      fontFamily: 'Inter',
       fontWeight: "700",
-      src: "url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2) format('woff2')",
+      src: "url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2')"
     },
+    /* latin */
     {
-      fontFamily: "inter",
+      fontFamily: 'Inter',
       fontWeight: "700",
-      src: "url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2) format('woff2')",
+      src: "url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2')",
     },
+
+    /* latin-ext */
     {
-      fontFamily: "inter",
+      fontFamily: 'Inter',
       fontWeight: "300",
-      src: "url(https://fonts.gstatic.com/s/inter/v3/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2) format('woff2')",
+      src: "url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2')"
     },
+
+    /* latin */
+    {
+      fontFamily: 'Inter',
+      fontWeight: "300",
+      src: "url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');"
+    }
   ],
 });

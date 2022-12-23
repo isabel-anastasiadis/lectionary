@@ -36,16 +36,13 @@ namespace ReadingsBuilder.Model.Pipeline.Steps
                 throw new ArgumentNullException(nameof(workingResult.Input.AshWednesday));
             }
 
-            if (workingResult.Input?.OrdinaryTimePsalmsFirstChunkStartingIndex == null)
-            {
-                throw new ArgumentNullException(nameof(workingResult.Input.OrdinaryTimePsalmsFirstChunkStartingIndex));
-            }
-
-            var firstMondayDate = workingResult.Input.FifthSundayAfterEpiphany.Value.Clone().AddDays(1);
+            // Presentation of Jesus on 2nd Feb seems to be the first day of ordinary time Psalms
+            // Presentation of Jesus has its own readings, but if not celebrated, then the psalm readings are ordinary time ones.
+            var presentationOfJesus = workingResult.Result.Keys.FirstOrDefault(date => date.Month == 2 && date.Day == 2);
             var shroveTuesday = workingResult.Input.AshWednesday.Value.Clone().AddDays(-1);
-            var ruleDataToStartWith = ApplicableRules[workingResult.Input.OrdinaryTimePsalmsFirstChunkStartingIndex.Value];
+            var ruleDataToStartWith = ApplicableRules.First(rule => rule.Weekday == presentationOfJesus.DayOfWeek);
 
-            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstMondayDate, ruleDataToStartWith, shroveTuesday);
+            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, presentationOfJesus, ruleDataToStartWith, shroveTuesday);
 
             return workingResult;
         }

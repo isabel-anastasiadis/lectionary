@@ -5,11 +5,11 @@ using ReadingsBuilder.Model.Pipeline.DTOs;
 
 namespace ReadingsBuilder.Model.Mappers
 {
-    public class ResultToRowsMapper
+    public class ResultToRowsMapper : IResultToRowsMapper
     {
 
-        public List<List<string>> Map(Dictionary<DateOnly, Option<Day, DayOptionType>> result) 
-        { 
+        public List<List<string>> Map(Dictionary<DateOnly, Option<Day, DayOptionType>> result)
+        {
             var rows = new List<List<string>>();
 
             rows.Add(new List<string> {
@@ -20,12 +20,12 @@ namespace ReadingsBuilder.Model.Mappers
                 "evening_prayers_together"
             });
 
-            foreach (var date in result.Keys) 
+            foreach (var date in result.Keys)
             {
                 var row = new List<string>();
                 var day = result[date].OptionOne;
 
-                if (day == null) 
+                if (day == null)
                 {
                     throw new ArgumentException($"Didn't expect the day for {date} to be null");
                 }
@@ -41,25 +41,26 @@ namespace ReadingsBuilder.Model.Mappers
                 row.Add(MapEveningReadings(day.EveningReadings));
 
                 rows.Add(row);
-                
+
             }
 
             return rows;
         }
 
-        private string MapDate(DateOnly date)   
+        private string MapDate(DateOnly date)
         {
             return string.Format("{0:yyyy/MM/dd}", date);
         }
 
-        private string MapPrettyDate(DateOnly date) 
+        private string MapPrettyDate(DateOnly date)
         {
             return String.Format("{0:dddd, MMMM d, yyyy}", date);
 
 
         }
 
-        private string MapMorningReadings(Option<MorningReadings,ReadingsOptionType>? morningReadings) {
+        private string MapMorningReadings(Option<MorningReadings, ReadingsOptionType>? morningReadings)
+        {
 
             var psalm = $"{morningReadings?.OptionOne?.Psalms?.OptionOne?.RawString}";
             var oldTestament = $"{morningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString}";

@@ -14,14 +14,18 @@ namespace ReadingsBuilder.Bindings
 
         public static void RegisterBindings(Container container) 
         {
+            // Runner
+            container.Register<IResultWriter, ResultWriter>();
 
             // Data
             container.Register<IAllDataFactory, AllDataFactory>();
             container.Register<ICsvReader, CsvReader>();
+            container.Register<ICsvWriter, CsvWriter>();
 
             // Mappers
             container.Register<IRuleDataMapper, RuleDataMapper>();
             container.Register<IRotatingReadingMappingProvider, RotatingReadingMappingProvider>();
+            container.Register<IResultToRowsMapper, ResultToRowsMapper>();
 
             // Pipeline
             container.Register<IRuleApplier, RuleApplier>();

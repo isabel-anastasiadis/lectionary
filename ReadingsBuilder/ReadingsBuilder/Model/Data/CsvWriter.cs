@@ -4,10 +4,11 @@ using System.Text;
 
 namespace ReadingsBuilder.Model.Data
 {
-    public class CsvWriter
+    public class CsvWriter : ICsvWriter
     {
 
-        public void WriteToCSV(List<List<string>> rows, string filePath) {
+        public void WriteToCSV(List<List<string>> rows, string filePath, bool overwrite)
+        {
 
             var csv = new StringBuilder();
             var escapedRows = new List<List<string>>();
@@ -16,16 +17,18 @@ namespace ReadingsBuilder.Model.Data
             {
                 var escapedRow = new List<string>();
 
-                foreach (var column in row) {
+                foreach (var column in row)
+                {
 
                     if (column.Contains(','))
                     {
                         escapedRow.Add($"\"{column.Trim()}\"");
                     }
-                    else { 
+                    else
+                    {
                         escapedRow.Add(column.Trim());
                     }
-                
+
                 }
                 escapedRows.Add(escapedRow);
             }
@@ -36,8 +39,14 @@ namespace ReadingsBuilder.Model.Data
                 csv.AppendLine(String.Join(",", row));
             }
 
-            File.WriteAllText(filePath, csv.ToString());
-        
+            if (overwrite)
+            {
+                File.WriteAllText(filePath, csv.ToString());
+            }
+            else 
+            {
+                File.AppendAllText(filePath, csv.ToString());
+            }
         }
     }
 }

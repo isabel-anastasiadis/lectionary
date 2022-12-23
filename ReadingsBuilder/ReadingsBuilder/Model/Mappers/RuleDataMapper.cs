@@ -17,6 +17,7 @@ namespace ReadingsBuilder.Model.Mappers
         DayName,
         IsSeasonalTime,
         ByDayOfWeekWeekday,
+        ByDayOfMonthYear,
         ByDayOfMonthMonth,
         ByDayOfMonthDay,
         RotatingOldTestament1,
@@ -72,6 +73,11 @@ namespace ReadingsBuilder.Model.Mappers
                 if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass))
                 {
                     ruleData.RowNumberInRuleSet = rowWithinClass;
+                }
+
+                if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthYear], out int year))
+                {
+                    ruleData.Year = year;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthMonth], out int month))

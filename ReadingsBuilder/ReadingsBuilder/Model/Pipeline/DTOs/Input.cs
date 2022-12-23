@@ -36,13 +36,6 @@
         
         public DateOnly? FirstSundayOfAdvent { get; set; }
 
-
-
-        /// <summary>
-        /// I can't work out the rule about which row we start with when going through ordinary time psalms...
-        /// </summary>
-        public int? OrdinaryTimePsalmsFirstChunkStartingIndex { get; set; }
-
         /// <summary>
         /// I can't work out the rule about which row we start with when going through ordinary time psalms...
         /// </summary>
