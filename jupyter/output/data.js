@@ -564,13 +564,13 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 48",
+                "Psalm 24",
                 "Malachi 3:13\u2013end",
                 "Malachi 4",
                 "Matthew 23:1\u201312"
             ],
-            "reading_link": "Psalm+48%3B+Malachi+3:13-%3B+Malachi+4%3B+Matthew+23:1-12",
-            "audio_link": "Ps.48,Mal.3,Mal.4,Matt.23"
+            "reading_link": "Psalm+24%3B+Malachi+3:13-%3B+Malachi+4%3B+Matthew+23:1-12",
+            "audio_link": "Ps.24,Mal.3,Mal.4,Matt.23"
         }
     },
     "2022/12/23": {
@@ -1250,11 +1250,11 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 33",
-                "Eccles 3:1\u201311",
+                "Ecclesiastes 3:1\u201311",
                 "1 Peter 1:3\u201312"
             ],
-            "reading_link": "Psalm+33%3B+Eccles+3:1-11%3B+1+Peter+1:3-12",
-            "audio_link": "Ps.33,Eccles 3,1Pet.1"
+            "reading_link": "Psalm+33%3B+Ecclesiastes+3:1-11%3B+1+Peter+1:3-12",
+            "audio_link": "Ps.33,Eccl.3,1Pet.1"
         }
     },
     "2023/01/23": {
@@ -1397,12 +1397,12 @@ class Data {  data = {
         "day_description": "4th Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 71:1\u20136,71:15\u201317",
+                "Psalm 71:1\u20136,15\u201317",
                 "Haggai 2:1\u20139",
-                "1 Cor:10\u201317"
+                "1 Cor 3:10\u201317"
             ],
-            "reading_link": "Psalm+71:1-6,71:15-17%3B+Haggai+2:1-9%3B+1+Cor:10-17",
-            "audio_link": "Ps.71,Hag.2,1 Cor"
+            "reading_link": "Psalm+71:1-6,15-17%3B+Haggai+2:1-9%3B+1+Cor+3:10-17",
+            "audio_link": "Ps.71,Hag.2,1 Cor 3"
         },
         "evening": {
             "readings": [
@@ -1487,19 +1487,19 @@ class Data {  data = {
             "readings": [
                 "Psalm 48,146",
                 "Exodus 13:1\u201316",
-                "Rom 12:1\u20135"
+                "Romans 12:1\u20135"
             ],
-            "reading_link": "Psalm+48,146%3B+Exodus+13:1-16%3B+Rom+12:1-5",
-            "audio_link": "Ps.48,146,Exod.13,Rom 12"
+            "reading_link": "Psalm+48,146%3B+Exodus+13:1-16%3B+Romans+12:1-5",
+            "audio_link": "Ps.48,146,Exod.13,Rom.12"
         },
         "evening": {
             "readings": [
-                "Psalm 122,123",
+                "Psalm 122,132",
                 "Haggai 2:1\u20139",
                 "John 2:18\u201322"
             ],
-            "reading_link": "Psalm+122,123%3B+Haggai+2:1-9%3B+John+2:18-22",
-            "audio_link": "Ps.122,123,Hag.2,John.2"
+            "reading_link": "Psalm+122,132%3B+Haggai+2:1-9%3B+John+2:18-22",
+            "audio_link": "Ps.122,132,Hag.2,John.2"
         }
     },
     "2023/02/03": {
@@ -1871,9 +1871,9 @@ class Data {  data = {
             "readings": [
                 "Psalm 84",
                 "2 Kings 2:1\u201312",
-                "Matthew 17:9\u2013231\u201323"
+                "Matthew 17:9\u201323"
             ],
-            "reading_link": "Psalm+84%3B+2+Kings+2:1-12%3B+Matthew+17:9-231-23",
+            "reading_link": "Psalm+84%3B+2+Kings+2:1-12%3B+Matthew+17:9-23",
             "audio_link": "Ps.84,2Kgs.2,Matt.17"
         }
     },
@@ -2199,12 +2199,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 17",
+                "Psalm 74",
                 "Genesis 43:16\u2013end",
                 "Hebrews 1"
             ],
-            "reading_link": "Psalm+17%3B+Genesis+43:16-%3B+Hebrews+1",
-            "audio_link": "Ps.17,Gen.43,Heb.1"
+            "reading_link": "Psalm+74%3B+Genesis+43:16-%3B+Hebrews+1",
+            "audio_link": "Ps.74,Gen.43,Heb.1"
         }
     },
     "2023/03/07": {
@@ -2221,12 +2221,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 64",
+                "Psalm 52",
                 "Genesis 44:1\u201317",
                 "Hebrews 2:1\u20139"
             ],
-            "reading_link": "Psalm+64%3B+Genesis+44:1-17%3B+Hebrews+2:1-9",
-            "audio_link": "Ps.64,Gen.44,Heb.2"
+            "reading_link": "Psalm+52%3B+Genesis+44:1-17%3B+Hebrews+2:1-9",
+            "audio_link": "Ps.52,Gen.44,Heb.2"
         }
     },
     "2023/03/08": {
@@ -2243,12 +2243,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 39",
+                "Psalm 3",
                 "Genesis 44:18\u2013end",
                 "Hebrews 2:10\u2013end"
             ],
-            "reading_link": "Psalm+39%3B+Genesis+44:18-%3B+Hebrews+2:10-",
-            "audio_link": "Ps.39,Gen.44,Heb.2"
+            "reading_link": "Psalm+3%3B+Genesis+44:18-%3B+Hebrews+2:10-",
+            "audio_link": "Ps.3,Gen.44,Heb.2"
         }
     },
     "2023/03/09": {
@@ -2265,12 +2265,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 59",
+                "Psalm 71",
                 "Genesis 45:1\u201315",
                 "Hebrews 3:1\u20136"
             ],
-            "reading_link": "Psalm+59%3B+Genesis+45:1-15%3B+Hebrews+3:1-6",
-            "audio_link": "Ps.59,Gen.45,Heb.3"
+            "reading_link": "Psalm+71%3B+Genesis+45:1-15%3B+Hebrews+3:1-6",
+            "audio_link": "Ps.71,Gen.45,Heb.3"
         }
     },
     "2023/03/10": {
@@ -2287,12 +2287,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 69",
+                "Psalm 6",
                 "Genesis 45:16\u2013end",
                 "Hebrews 3:7\u2013end"
             ],
-            "reading_link": "Psalm+69%3B+Genesis+45:16-%3B+Hebrews+3:7-",
-            "audio_link": "Ps.69,Gen.45,Heb.3"
+            "reading_link": "Psalm+6%3B+Genesis+45:16-%3B+Hebrews+3:7-",
+            "audio_link": "Ps.6,Gen.45,Heb.3"
         }
     },
     "2023/03/11": {
@@ -2309,12 +2309,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 116",
+                "Psalm 23",
                 "Genesis 46:1\u20137,46:28\u2013end",
                 "Hebrews 4:1\u201313"
             ],
-            "reading_link": "Psalm+116%3B+Genesis+46:1-7,46:28-%3B+Hebrews+4:1-13",
-            "audio_link": "Ps.116,Gen.46,Heb.4"
+            "reading_link": "Psalm+23%3B+Genesis+46:1-7,46:28-%3B+Hebrews+4:1-13",
+            "audio_link": "Ps.23,Gen.46,Heb.4"
         }
     },
     "2023/03/12": {
@@ -3260,11 +3260,11 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 48",
-                "Hagg 1:13 \u2013 2:9",
-                "1 Cor:10\u201317"
+                "Haggai 1:13 \u2013 2:9",
+                "1 Cor 3:10\u201317"
             ],
-            "reading_link": "Psalm+48%3B+Hagg+1:13+-+2:9%3B+1+Cor:10-17",
-            "audio_link": "Ps.48,Hagg 1,1 Cor"
+            "reading_link": "Psalm+48%3B+Haggai+1:13+-+2:9%3B+1+Cor+3:10-17",
+            "audio_link": "Ps.48,Hag.1,1 Cor 3"
         }
     },
     "2023/04/24": {

@@ -1181,9 +1181,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 48",
-                    "readQS": "Psalm+48",
-                    "audioQS": "Ps.48"
+                    "pretty": "Psalm 24",
+                    "readQS": "Psalm+24",
+                    "audioQS": "Ps.24"
                 },
                 {
                     "pretty": "Malachi 3:13\u2013end",
@@ -1201,8 +1201,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Matt.23"
                 }
             ],
-            "readQS": "Psalm+48%3B+Malachi+3:13-%3B+Malachi+4%3B+Matthew+23:1-12",
-            "audioQS": "Ps.48,Mal.3,Mal.4,Matt.23"
+            "readQS": "Psalm+24%3B+Malachi+3:13-%3B+Malachi+4%3B+Matthew+23:1-12",
+            "audioQS": "Ps.24,Mal.3,Mal.4,Matt.23"
         }
     },
     "2022/12/23": {
@@ -2627,9 +2627,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.33"
                 },
                 {
-                    "pretty": "Eccles 3:1\u201311",
-                    "readQS": "Eccles+3:1-11",
-                    "audioQS": "Eccles 3"
+                    "pretty": "Ecclesiastes 3:1\u201311",
+                    "readQS": "Ecclesiastes+3:1-11",
+                    "audioQS": "Eccl.3"
                 },
                 {
                     "pretty": "1 Peter 1:3\u201312",
@@ -2637,8 +2637,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "1Pet.1"
                 }
             ],
-            "readQS": "Psalm+33%3B+Eccles+3:1-11%3B+1+Peter+1:3-12",
-            "audioQS": "Ps.33,Eccles 3,1Pet.1"
+            "readQS": "Psalm+33%3B+Ecclesiastes+3:1-11%3B+1+Peter+1:3-12",
+            "audioQS": "Ps.33,Eccl.3,1Pet.1"
         }
     },
     "2023/01/23": {
@@ -2938,8 +2938,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 71:1\u20136,71:15\u201317",
-                    "readQS": "Psalm+71:1-6,71:15-17",
+                    "pretty": "Psalm 71:1\u20136,15\u201317",
+                    "readQS": "Psalm+71:1-6,15-17",
                     "audioQS": "Ps.71"
                 },
                 {
@@ -2948,13 +2948,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Hag.2"
                 },
                 {
-                    "pretty": "1 Cor:10\u201317",
-                    "readQS": "1+Cor:10-17",
-                    "audioQS": "1 Cor"
+                    "pretty": "1 Cor 3:10\u201317",
+                    "readQS": "1+Cor+3:10-17",
+                    "audioQS": "1 Cor 3"
                 }
             ],
-            "readQS": "Psalm+71:1-6,71:15-17%3B+Haggai+2:1-9%3B+1+Cor:10-17",
-            "audioQS": "Ps.71,Hag.2,1 Cor"
+            "readQS": "Psalm+71:1-6,15-17%3B+Haggai+2:1-9%3B+1+Cor+3:10-17",
+            "audioQS": "Ps.71,Hag.2,1 Cor 3"
         },
         "evening": {
             "readings": [
@@ -3132,20 +3132,20 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.13"
                 },
                 {
-                    "pretty": "Rom 12:1\u20135",
-                    "readQS": "Rom+12:1-5",
-                    "audioQS": "Rom 12"
+                    "pretty": "Romans 12:1\u20135",
+                    "readQS": "Romans+12:1-5",
+                    "audioQS": "Rom.12"
                 }
             ],
-            "readQS": "Psalm+48,146%3B+Exodus+13:1-16%3B+Rom+12:1-5",
-            "audioQS": "Ps.48,146,Exod.13,Rom 12"
+            "readQS": "Psalm+48,146%3B+Exodus+13:1-16%3B+Romans+12:1-5",
+            "audioQS": "Ps.48,146,Exod.13,Rom.12"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 122,123",
-                    "readQS": "Psalm+122,123",
-                    "audioQS": "Ps.122,123"
+                    "pretty": "Psalm 122,132",
+                    "readQS": "Psalm+122,132",
+                    "audioQS": "Ps.122,132"
                 },
                 {
                     "pretty": "Haggai 2:1\u20139",
@@ -3158,8 +3158,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "John.2"
                 }
             ],
-            "readQS": "Psalm+122,123%3B+Haggai+2:1-9%3B+John+2:18-22",
-            "audioQS": "Ps.122,123,Hag.2,John.2"
+            "readQS": "Psalm+122,132%3B+Haggai+2:1-9%3B+John+2:18-22",
+            "audioQS": "Ps.122,132,Hag.2,John.2"
         }
     },
     "2023/02/03": {
@@ -3940,12 +3940,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "2Kgs.2"
                 },
                 {
-                    "pretty": "Matthew 17:9\u2013231\u201323",
-                    "readQS": "Matthew+17:9-231-23",
+                    "pretty": "Matthew 17:9\u201323",
+                    "readQS": "Matthew+17:9-23",
                     "audioQS": "Matt.17"
                 }
             ],
-            "readQS": "Psalm+84%3B+2+Kings+2:1-12%3B+Matthew+17:9-231-23",
+            "readQS": "Psalm+84%3B+2+Kings+2:1-12%3B+Matthew+17:9-23",
             "audioQS": "Ps.84,2Kgs.2,Matt.17"
         }
     },
@@ -4620,9 +4620,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 17",
-                    "readQS": "Psalm+17",
-                    "audioQS": "Ps.17"
+                    "pretty": "Psalm 74",
+                    "readQS": "Psalm+74",
+                    "audioQS": "Ps.74"
                 },
                 {
                     "pretty": "Genesis 43:16\u2013end",
@@ -4635,8 +4635,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Heb.1"
                 }
             ],
-            "readQS": "Psalm+17%3B+Genesis+43:16-%3B+Hebrews+1",
-            "audioQS": "Ps.17,Gen.43,Heb.1"
+            "readQS": "Psalm+74%3B+Genesis+43:16-%3B+Hebrews+1",
+            "audioQS": "Ps.74,Gen.43,Heb.1"
         }
     },
     "2023/03/07": {
@@ -4666,9 +4666,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 64",
-                    "readQS": "Psalm+64",
-                    "audioQS": "Ps.64"
+                    "pretty": "Psalm 52",
+                    "readQS": "Psalm+52",
+                    "audioQS": "Ps.52"
                 },
                 {
                     "pretty": "Genesis 44:1\u201317",
@@ -4681,8 +4681,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Heb.2"
                 }
             ],
-            "readQS": "Psalm+64%3B+Genesis+44:1-17%3B+Hebrews+2:1-9",
-            "audioQS": "Ps.64,Gen.44,Heb.2"
+            "readQS": "Psalm+52%3B+Genesis+44:1-17%3B+Hebrews+2:1-9",
+            "audioQS": "Ps.52,Gen.44,Heb.2"
         }
     },
     "2023/03/08": {
@@ -4712,9 +4712,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 39",
-                    "readQS": "Psalm+39",
-                    "audioQS": "Ps.39"
+                    "pretty": "Psalm 3",
+                    "readQS": "Psalm+3",
+                    "audioQS": "Ps.3"
                 },
                 {
                     "pretty": "Genesis 44:18\u2013end",
@@ -4727,8 +4727,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Heb.2"
                 }
             ],
-            "readQS": "Psalm+39%3B+Genesis+44:18-%3B+Hebrews+2:10-",
-            "audioQS": "Ps.39,Gen.44,Heb.2"
+            "readQS": "Psalm+3%3B+Genesis+44:18-%3B+Hebrews+2:10-",
+            "audioQS": "Ps.3,Gen.44,Heb.2"
         }
     },
     "2023/03/09": {
@@ -4758,9 +4758,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 59",
-                    "readQS": "Psalm+59",
-                    "audioQS": "Ps.59"
+                    "pretty": "Psalm 71",
+                    "readQS": "Psalm+71",
+                    "audioQS": "Ps.71"
                 },
                 {
                     "pretty": "Genesis 45:1\u201315",
@@ -4773,8 +4773,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Heb.3"
                 }
             ],
-            "readQS": "Psalm+59%3B+Genesis+45:1-15%3B+Hebrews+3:1-6",
-            "audioQS": "Ps.59,Gen.45,Heb.3"
+            "readQS": "Psalm+71%3B+Genesis+45:1-15%3B+Hebrews+3:1-6",
+            "audioQS": "Ps.71,Gen.45,Heb.3"
         }
     },
     "2023/03/10": {
@@ -4804,9 +4804,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 69",
-                    "readQS": "Psalm+69",
-                    "audioQS": "Ps.69"
+                    "pretty": "Psalm 6",
+                    "readQS": "Psalm+6",
+                    "audioQS": "Ps.6"
                 },
                 {
                     "pretty": "Genesis 45:16\u2013end",
@@ -4819,8 +4819,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Heb.3"
                 }
             ],
-            "readQS": "Psalm+69%3B+Genesis+45:16-%3B+Hebrews+3:7-",
-            "audioQS": "Ps.69,Gen.45,Heb.3"
+            "readQS": "Psalm+6%3B+Genesis+45:16-%3B+Hebrews+3:7-",
+            "audioQS": "Ps.6,Gen.45,Heb.3"
         }
     },
     "2023/03/11": {
@@ -4850,9 +4850,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 116",
-                    "readQS": "Psalm+116",
-                    "audioQS": "Ps.116"
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
                 },
                 {
                     "pretty": "Genesis 46:1\u20137,46:28\u2013end",
@@ -4865,8 +4865,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Heb.4"
                 }
             ],
-            "readQS": "Psalm+116%3B+Genesis+46:1-7,46:28-%3B+Hebrews+4:1-13",
-            "audioQS": "Ps.116,Gen.46,Heb.4"
+            "readQS": "Psalm+23%3B+Genesis+46:1-7,46:28-%3B+Hebrews+4:1-13",
+            "audioQS": "Ps.23,Gen.46,Heb.4"
         }
     },
     "2023/03/12": {
@@ -6853,18 +6853,18 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.48"
                 },
                 {
-                    "pretty": "Hagg 1:13 \u2013 2:9",
-                    "readQS": "Hagg+1:13+-+2:9",
-                    "audioQS": "Hagg 1"
+                    "pretty": "Haggai 1:13 \u2013 2:9",
+                    "readQS": "Haggai+1:13+-+2:9",
+                    "audioQS": "Hag.1"
                 },
                 {
-                    "pretty": "1 Cor:10\u201317",
-                    "readQS": "1+Cor:10-17",
-                    "audioQS": "1 Cor"
+                    "pretty": "1 Cor 3:10\u201317",
+                    "readQS": "1+Cor+3:10-17",
+                    "audioQS": "1 Cor 3"
                 }
             ],
-            "readQS": "Psalm+48%3B+Hagg+1:13+-+2:9%3B+1+Cor:10-17",
-            "audioQS": "Ps.48,Hagg 1,1 Cor"
+            "readQS": "Psalm+48%3B+Haggai+1:13+-+2:9%3B+1+Cor+3:10-17",
+            "audioQS": "Ps.48,Hag.1,1 Cor 3"
         }
     },
     "2023/04/24": {

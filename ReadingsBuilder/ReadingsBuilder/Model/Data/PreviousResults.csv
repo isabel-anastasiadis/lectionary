@@ -23,7 +23,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2021/12/19,"Sunday, December 19, 2021",4th Sunday of Advent,Psalm 144; Isaiah 32:1-8; Revelation 22:6-21,Psalm 123; Isaiah 10:33–11:10; Matthew 1:18-25
 2021/12/20,"Monday, December 20, 2021",Week of 4th Sunday of Advent,"Psalm 46; Malachi 1:1,1:6–end; Matthew 19:1–12",Psalm 4; Isaiah 52:13–end; Isaiah 53; 2 Peter 1:1–15
 2021/12/21,"Tuesday, December 21, 2021",Week of 4th Sunday of Advent,Psalm 121; Malachi 2:1–16; Matthew 19:13–15,Psalm 84; Isaiah 54; 2 Peter 1:16–2:3
-2021/12/22,"Wednesday, December 22, 2021",Week of 4th Sunday of Advent,Psalm 124; Malachi 2:17–3:12; Matthew 19:16–end,Psalm 48; Isaiah 55; 2 Peter 2:4–end
+2021/12/22,"Wednesday, December 22, 2021",Week of 4th Sunday of Advent,Psalm 124; Malachi 2:17–3:12; Matthew 19:16–end,Psalm 24; Isaiah 55; 2 Peter 2:4–end
 2021/12/23,"Thursday, December 23, 2021",Week of 4th Sunday of Advent,Psalm 130; Malachi 3:13–end; Malachi 4; Matthew 23:1–12,Psalm 89:1-37; Isaiah 56:1–8; 2 Peter 3
 2021/12/24,"Friday, December 24, 2021",Christmas eve,Psalm 45; Nahum 1; Matthew 23:13–28,Psalm 85; Zechariah 2; Revelation 1:1-8
 2021/12/25,"Saturday, December 25, 2021",Christmas day,Psalm 110; Isaiah 62:1-5; Matthew 1:18-25,Psalm 8; Isaiah 65:17-25; Philippians 2:5-11; Luke 2:1-20
@@ -65,7 +65,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/01/30,"Sunday, January 30, 2022",4th Sunday after the Epiphany,"Psalm 71:1-6,15-17; Micah 6:1-8; 1 Corinthians 6:12-20",Psalm 34; 1 Chronicles on 29:6-19; Acts 7:44-50
 2022/01/31,"Monday, January 31, 2022",Week of 4th Sunday after the Epiphany,Psalm 57; Genesis 18:1–15; Matthew 27:11–26,Psalm 20; Hosea 9; 1 Corinthians 12:12–end
 2022/02/01,"Tuesday, February 1, 2022",Week of 4th Sunday after the Epiphany,Psalm 93; Genesis 18:16–end; Matthew 27:27–44,Psalm 118; 1 Samuel 1:19b-28; Hebrews 4:11-16
-2022/02/02,"Wednesday, February 2, 2022",Presentation of Jesus at the Temple,"Psalm 48,146; Exodus 13:1-16; Rom 12:1-5","Psalm 122,123; Haggai 2:1-9; John 2:18-22"
+2022/02/02,"Wednesday, February 2, 2022",Presentation of Jesus at the Temple,"Psalm 48,146; Exodus 13:1-16; Romans 12:1-5","Psalm 122,132; Haggai 2:1-9; John 2:18-22"
 2022/02/03,"Thursday, February 3, 2022",Week of 4th Sunday after the Epiphany,Psalm 15; Genesis 21:1–21; Matthew 27:57–end,Psalm 18*; Hosea 11:12–end; Hosea 12; 1 Corinthians 14:20–end
 2022/02/04,"Friday, February 4, 2022",Week of 4th Sunday after the Epiphany,Psalm 19; Genesis 22:1–19; Matthew 28:1–15,Psalm 22; Hosea 13:1–14; 1 Corinthians 16:1–9
 2022/02/05,"Saturday, February 5, 2022",Week of 4th Sunday after the Epiphany,Psalm 23; Genesis 23; Matthew 28:16–end,Psalm 24; Hosea 14; 1 Corinthians 16:10-end
@@ -105,10 +105,10 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/03/11,"Friday, March 11, 2022",Week of 1st Sunday of Lent,Psalm 22; Genesis 42:29–end; Galatians 5:16–end,Psalm 55; Jeremiah 6:22–end; John 6:16–27
 2022/03/12,"Saturday, March 12, 2022",Week of 1st Sunday of Lent,Psalm 63; Genesis 43:1–15; Galatians 6,Psalm 4; Jeremiah 7:1–20; John 6:27–40
 2022/03/13,"Sunday, March 13, 2022",2nd Sunday of Lent,"Psalm 119:161-176; Genesis 17:1-7,15-16; Romans 11:13-24","Psalm 135; Jeremiah 22:1-9,13-17; Luke 14:27-33"
-2022/03/14,"Monday, March 14, 2022",Week of 2nd Sunday of Lent,Psalm 32; Genesis 43:16–end; Hebrews 1,Psalm 17; Jeremiah 7:21–end; John 6:41–51
-2022/03/15,"Tuesday, March 15, 2022",Week of 2nd Sunday of Lent,Psalm 50; Genesis 44:1–17; Hebrews 2:1–9,Psalm 64; Jeremiah 8:1–15; John 6:52–59
-2022/03/16,"Wednesday, March 16, 2022",Week of 2nd Sunday of Lent,Psalm 35; Genesis 44:18–end; Hebrews 2:10–end,Psalm 39; Jeremiah 8:18–9:11; John 6:60–end
-2022/03/17,"Thursday, March 17, 2022",Week of 2nd Sunday of Lent,Psalm 34; Genesis 45:1–15; Hebrews 3:1–6,Psalm 59; Jeremiah 9:12–24; John 7:1–13
+2022/03/14,"Monday, March 14, 2022",Week of 2nd Sunday of Lent,Psalm 32; Genesis 43:16–end; Hebrews 1,Psalm 74; Jeremiah 7:21–end; John 6:41–51
+2022/03/15,"Tuesday, March 15, 2022",Week of 2nd Sunday of Lent,Psalm 50; Genesis 44:1–17; Hebrews 2:1–9,Psalm 52; Jeremiah 8:1–15; John 6:52–59
+2022/03/16,"Wednesday, March 16, 2022",Week of 2nd Sunday of Lent,Psalm 35; Genesis 44:18–end; Hebrews 2:10–end,Psalm 3; Jeremiah 8:18–9:11; John 6:60–end
+2022/03/17,"Thursday, March 17, 2022",Week of 2nd Sunday of Lent,Psalm 34; Genesis 45:1–15; Hebrews 3:1–6,Psalm 71; Jeremiah 9:12–24; John 7:1–13
 2022/03/18,"Friday, March 18, 2022",Week of 2nd Sunday of Lent,Psalm 41; Genesis 45:16–end; Hebrews 3:7–end,Psalm 132; Hosea 11:1-9; Luke 2:41-52
 2022/03/19,"Saturday, March 19, 2022",St Joseph of Nazereth,"Psalm 25,147:1-12; Isaiah 11:1-10; Matthew 13:54-58","Psalm 1,112; Genesis 50:22-26; Matthew 2:13-23"
 2022/03/20,"Sunday, March 20, 2022",3rd Sunday of Lent,"Psalm 26,28; Deuteronomy 6:4-9; John 17:1a,11b-19","Psalm 12,13; Genesis 28:10-19a; John 1:35-51"
@@ -328,7 +328,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/10/20,"Thursday, October 20, 2022",Week of 29th Sunday in Ordinary Time,Psalm 92; 2 Kings 9:17–end; Acts 27:27–end,Psalm 94; Ezekiel 20:1–20; Mark 15:42–end
 2022/10/21,"Friday, October 21, 2022",Week of 29th Sunday in Ordinary Time,Psalm 88; 2 Kings 12:1–19; Acts 28:1–16,Psalm 102; Ezekiel 20:21–38; Mark 16:1–8
 2022/10/22,"Saturday, October 22, 2022",Week of 29th Sunday in Ordinary Time,Psalm 97; 2 Kings 17:1–23; Acts 28:17–end,Psalm 104; Ezekiel 24:15–end; Mark 16:9–end
-2022/10/23,"Sunday, October 23, 2022",30th Sunday in Ordinary Time,Psalm 119:105-128; Isaiah 59:9-20; Luke 14:1-14,"Psalm 119:1-16; Eccles 11,12; 2 Timothy 2:1-7"
+2022/10/23,"Sunday, October 23, 2022",30th Sunday in Ordinary Time,Psalm 119:105-128; Isaiah 59:9-20; Luke 14:1-14,"Psalm 119:1-16; Ecclesiastes 11,12; 2 Timothy 2:1-7"
 2022/10/24,"Monday, October 24, 2022",Week of 30th Sunday in Ordinary Time,Psalm 98; 2 Kings 17:24–end; Philippians 1:1–11,Psalm 105*; Ezekiel 28:1–19; John 13:1–11
 2022/10/25,"Tuesday, October 25, 2022",Week of 30th Sunday in Ordinary Time,Psalm 106*; 2 Kings 18:1–12; Philippians 1:12–end,Psalm 107*; Ezekiel 33:1–20; John 13:12–20
 2022/10/26,"Wednesday, October 26, 2022",Week of 30th Sunday in Ordinary Time,Psalm 111; 2 Kings 18:13–end; Philippians 2:1–13,Psalm 119:129-152; Ezekiel 33:21–end; John 13:21–30
