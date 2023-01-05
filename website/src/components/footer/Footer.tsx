@@ -43,7 +43,7 @@ const Footer = ({links}: IFooterProps) => {
       {links.map((link, i) => {
         const linkIsActive = location === link.to;
 
-        return <StyledNavLink to={linkIsActive ? "/" : link.to }>{linkIsActive ? "Back" : link.label}</StyledNavLink>
+        return <StyledNavLink key={link.label} to={linkIsActive ? "/" : link.to }>{linkIsActive ? "Back" : link.label}</StyledNavLink>
       })}
       
     </StyledNav>
