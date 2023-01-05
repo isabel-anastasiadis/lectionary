@@ -1,7 +1,7 @@
 import { styled, dark, font } from "../stitches.config";
 import ReadingsPageContainer from "./readings/ReadingsPageContainer";
 import AboutPage from "./about/AboutPage";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import SettingsPage from "./settings/SettingsPage";
 import { useState } from "react";
 import { Theme } from "../data/interfaces";
@@ -41,23 +41,21 @@ const App = () => {
   return (
     <ThemeWrapper className={theme === Theme.EVENING ? dark : ""}>
       <ContentWrapper>
-        <Switch>
+        <Routes>
           <Route
-            exact
             path="/"
-            render={(props) => (
+            element={
               <ReadingsPageContainer
-                {...props}
                 theme={theme}
                 updateTheme={updateTheme}
                 dateKey={dateKey}
                 updateDateKey={updateDateKey}
               />
-            )}
+            }
           />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/settings" component={SettingsPage} />
-        </Switch>
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/settings" element={<SettingsPage />} />
+        </Routes>
       </ContentWrapper>
       <Footer links={ [{to: "/about", label: "About"}] }/>
     </ThemeWrapper>

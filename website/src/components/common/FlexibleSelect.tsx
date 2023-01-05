@@ -116,6 +116,7 @@ const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange }: Fl
         <StyledSelect
           style={selectStyle}
           css={{ width: selectWidth }}
+          value={newExternalValue}
           onChange={(e) => {
             onChange(e.target.value);
             setCurrentText(getTextByValue(options, e.target.value));
@@ -126,7 +127,6 @@ const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange }: Fl
               <StyledOption
                 key={i}
                 value={option.value}
-                selected={option.value === newExternalValue}
               >
                 {option.text}
               </StyledOption>
