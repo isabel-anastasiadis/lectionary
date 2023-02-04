@@ -24,7 +24,11 @@ const Date = ({ dates, currentDate, setCurrentDate }: DateProps) => {
 
   return (
     <Wrapper>
-      <FlexibleSelect options={dateOptions} newExternalValue={currentDate} onChange={setCurrentDate}/>
+      <FlexibleSelect 
+        options={dateOptions} 
+        newExternalValue={currentDate} 
+        onChange={setCurrentDate} 
+        truncatedDisplayText={false}/>
     </Wrapper>
   );
 };

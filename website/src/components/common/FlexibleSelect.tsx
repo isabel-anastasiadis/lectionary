@@ -87,15 +87,16 @@ interface FlexibleSelectProps {
   options: Array<{value: string, text: string}>;
   newExternalValue: string;
   onChange: (value: string) => void;
+  truncatedDisplayText: boolean;
 };
 
-const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange }: FlexibleSelectProps) => {
-  const [currentText, setCurrentText] = useState(getTextByValue(options, newExternalValue));
+const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange, truncatedDisplayText }: FlexibleSelectProps) => {
+  const [currentText, setCurrentText] = useState(getDisplayTextByValue(options, newExternalValue));
   const [selectWidth, setSelectWidth] = useState();
   const ref: any = useRef(null);
 
   useEffect(() => {
-    setCurrentText(getTextByValue(options, newExternalValue));
+    setCurrentText(getDisplayTextByValue(options, newExternalValue));
   }, [newExternalValue, options]);
 
   useEffect(() => {
@@ -106,8 +107,20 @@ const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange }: Fl
     }
   }, [currentText]);
 
-  function getTextByValue(options: Array<{value: string, text: string}>, value: string): string {
-    return options.filter(option => option.value === value).map(option => option.text)[0];
+  
+  function getDisplayTextByValue(options: Array<{value: string, text: string}>, value: string): string {
+    // This function is used to get the text so we can calculate the width of the select every time the value changes.
+    return options.filter(option => option.value === value)
+                  .map(option => {
+                    return truncatedDisplayText ? extractFirstWord(option.text) : option.text;
+                  })[0];
+  }
+
+  function extractFirstWord(text: string): string {
+    // We want the first word to display, but the extra information to only show in the select options
+    // eg. "MSG - The Message by Kelly Ryan Dolan"  <-- only want to show "MSG" on the select when not open
+    // the first word of the text
+    return text.split(' ')[0]
   }
 
   return (
@@ -119,7 +132,7 @@ const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange }: Fl
           value={newExternalValue}
           onChange={(e) => {
             onChange(e.target.value);
-            setCurrentText(getTextByValue(options, e.target.value));
+            setCurrentText(getDisplayTextByValue(options, e.target.value));
           }}
         >
           {options.map((option, i) => {

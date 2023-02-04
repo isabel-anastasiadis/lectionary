@@ -62,7 +62,12 @@ const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChang
           {buttonText}
         </LinkText>
       </Link>
-      <FlexibleSelect selectStyle={buttonStyle} newExternalValue={selectDefaultValue} options={selectOptions} onChange={selectOnChange}/>
+      <FlexibleSelect 
+        selectStyle={buttonStyle} 
+        newExternalValue={selectDefaultValue} 
+        options={selectOptions} 
+        onChange={selectOnChange}
+        truncatedDisplayText={true}/>
     </WrapperDiv>
   )
 }
