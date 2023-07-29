@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
-using ReadingsBuilder.Model.Data.DTOs;
-using ReadingsBuilder.Model.Mappers;
+using ReadingsBuilder.Model.DTOs;
+using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 

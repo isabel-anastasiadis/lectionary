@@ -1,7 +1,6 @@
-﻿
-using ReadingsBuilder.Model.Data.DTOs;
+﻿using ReadingsBuilder.Model.DTOs;
 
-namespace ReadingsBuilder.Model.Mappers
+namespace ReadingsBuilder.Data.RuleData
 {
     /// <summary>
     /// The order of columns in 'All Rules.csv'
@@ -40,15 +39,15 @@ namespace ReadingsBuilder.Model.Mappers
     public class RuleDataMapper : IRuleDataMapper
     {
 
-        public List<RuleData> MapRowsToRuleData(List<List<string>> rows)
+        public List<Model.DTOs.RuleData> MapRowsToRuleData(List<List<string>> rows)
         {
 
-            var result = new List<RuleData>();
+            var result = new List<Model.DTOs.RuleData>();
 
             foreach (var row in rows)
             {
 
-                var ruleData = new RuleData()
+                var ruleData = new Model.DTOs.RuleData()
                 {
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),

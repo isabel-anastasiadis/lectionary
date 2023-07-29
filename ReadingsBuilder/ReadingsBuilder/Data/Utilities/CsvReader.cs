@@ -1,6 +1,6 @@
 using Microsoft.VisualBasic.FileIO;
 
-namespace ReadingsBuilder.Model.Data
+namespace ReadingsBuilder.Data.Utilities
 {
 
     public class CsvReader : ICsvReader

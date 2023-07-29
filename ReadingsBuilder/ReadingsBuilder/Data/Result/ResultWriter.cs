@@ -1,13 +1,12 @@
 ﻿
-using ReadingsBuilder.Model.Data;
-using ReadingsBuilder.Model.Mappers;
 using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Data.Utilities;
 
-namespace ReadingsBuilder
+namespace ReadingsBuilder.Data.Result
 {
     public class ResultWriter : IResultWriter
     {
-        public const string DefaultFilePath = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\";
+        public const string DefaultFilePath = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Data\";
 
         private readonly ICsvWriter csvWriter;
         private readonly IResultToRowsMapper resultToRowsMapper;

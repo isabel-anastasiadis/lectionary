@@ -1,7 +1,7 @@
 ﻿using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
-namespace ReadingsBuilder.Model.Mappers
+namespace ReadingsBuilder.Data.Result
 {
     public interface IResultToRowsMapper
     {

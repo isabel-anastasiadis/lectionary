@@ -1,7 +1,8 @@
 ﻿
 using System.Reflection;
-using ReadingsBuilder.Model.Data;
-using ReadingsBuilder.Model.Mappers;
+using ReadingsBuilder.Data.Utilities;
+using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.Steps;
 using ReadingsBuilder.Model.Pipeline.Steps.Utility;

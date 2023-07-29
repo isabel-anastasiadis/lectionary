@@ -1,5 +1,5 @@
-﻿
-using ReadingsBuilder.Model.Data;
+﻿using ReadingsBuilder.Model.DTOs;
+using ReadingsBuilder.Data.RuleData;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 using ReadingsBuilder.Model.Pipeline.Steps.Utility;
 

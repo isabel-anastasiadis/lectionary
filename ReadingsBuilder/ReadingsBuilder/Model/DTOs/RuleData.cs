@@ -1,4 +1,4 @@
-﻿namespace ReadingsBuilder.Model.Data.DTOs
+﻿namespace ReadingsBuilder.Model.DTOs
 {
     public class RuleData
     {
@@ -104,10 +104,7 @@
         }
 
     }
-}
 
-namespace ReadingsBuilder.Model
-{
     public enum RotatingReadingType
     {
         OldTestament1,
@@ -126,7 +123,7 @@ namespace ReadingsBuilder.Model
 
     [Flags]
     public enum FeastOrSeasonType
-    { 
+    {
         None = 0,
         Advent = 1,
         Lent = 2,

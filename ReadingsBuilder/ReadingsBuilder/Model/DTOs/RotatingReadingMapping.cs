@@ -1,10 +1,10 @@
-﻿namespace ReadingsBuilder.Model.Data.DTOs
+﻿namespace ReadingsBuilder.Model.DTOs
 {
     public class RotatingReadingMapping
     {
         public DateOnly FirstDay { get; set; }
 
-        public DateOnly LastDay { get; set; }    
+        public DateOnly LastDay { get; set; }
 
         public RotatingReadingType MorningOldTestamentOrdinary { get; set; }
 

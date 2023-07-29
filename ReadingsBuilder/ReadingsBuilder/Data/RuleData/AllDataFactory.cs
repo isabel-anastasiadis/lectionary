@@ -1,12 +1,11 @@
 ﻿
-using ReadingsBuilder.Model.Data.DTOs;
-using ReadingsBuilder.Model.Mappers;
+using ReadingsBuilder.Data.Utilities;
 
-namespace ReadingsBuilder.Model.Data
+namespace ReadingsBuilder.Data.RuleData
 {
     public class AllDataFactory : IAllDataFactory
     {
-        public static string DEFAULT_CSV_FILE_PATH = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Model\Data\All Rules.csv";
+        public static string DEFAULT_CSV_FILE_PATH = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Data\RuleData\All Rules.csv";
         private readonly ICsvReader csvReader;
         private readonly IRuleDataMapper ruleDataMapper;
 
@@ -18,7 +17,7 @@ namespace ReadingsBuilder.Model.Data
             this.ruleDataMapper = ruleDataMapper;
         }
 
-        public List<RuleData> GenerateAllData(string? csvFilePath = null)
+        public List<Model.DTOs.RuleData> GenerateAllData(string? csvFilePath = null)
         {
             return ruleDataMapper.MapRowsToRuleData(csvReader.ReadRows(csvFilePath ?? DEFAULT_CSV_FILE_PATH));
         }

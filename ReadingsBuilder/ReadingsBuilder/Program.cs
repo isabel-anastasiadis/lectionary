@@ -1,8 +1,8 @@
 ﻿
 using ReadingsBuilder;
 using ReadingsBuilder.Bindings;
-using ReadingsBuilder.Model.Data;
-using ReadingsBuilder.Model.Mappers;
+using ReadingsBuilder.Data;
+using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 

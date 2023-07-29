@@ -1,6 +1,6 @@
 ﻿using ReadingsBuilder.Model.Pipeline.DTOs;
 
-namespace ReadingsBuilder
+namespace ReadingsBuilder.Data.Result
 {
     public interface IResultWriter
     {

@@ -2,7 +2,7 @@
 using System.Text;
 
 
-namespace ReadingsBuilder.Model.Data
+namespace ReadingsBuilder.Data.Utilities
 {
     public class CsvWriter : ICsvWriter
     {

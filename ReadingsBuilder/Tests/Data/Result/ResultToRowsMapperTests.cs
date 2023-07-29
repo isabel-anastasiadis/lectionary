@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
-using ReadingsBuilder.Model.Mappers;
+using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Model.Pipeline;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
-namespace Tests.Model.Mappers
+namespace Tests.Data.Result
 {
     public class ResultToRowsMapperTests
     {

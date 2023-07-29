@@ -1,4 +1,4 @@
-﻿using ReadingsBuilder.Model.Data.DTOs;
+﻿using ReadingsBuilder.Model.DTOs;
 using ReadingsBuilder.Model.Pipeline.DTOs;
 
 namespace ReadingsBuilder.Model.Pipeline.Steps.Utility

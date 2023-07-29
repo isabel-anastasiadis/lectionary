@@ -1,5 +1,5 @@
 ﻿
-namespace ReadingsBuilder.Model.Data
+namespace ReadingsBuilder.Data.Utilities
 {
     public interface ICsvReader
     {

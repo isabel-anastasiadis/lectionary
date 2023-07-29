@@ -1,7 +1,6 @@
-﻿
-using ReadingsBuilder.Model.Data.DTOs;
+﻿using ReadingsBuilder.Model.DTOs;
 
-namespace ReadingsBuilder.Model.Mappers
+namespace ReadingsBuilder.Data.Result
 {
     public class RotatingReadingMappingProvider : IRotatingReadingMappingProvider
     {
