@@ -3,8 +3,8 @@ using ReadingsBuilder;
 using ReadingsBuilder.Bindings;
 using ReadingsBuilder.Data;
 using ReadingsBuilder.Data.Result;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Pipeline.DTOs;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");

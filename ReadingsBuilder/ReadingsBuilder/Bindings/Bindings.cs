@@ -3,9 +3,9 @@ using System.Reflection;
 using ReadingsBuilder.Data.Utilities;
 using ReadingsBuilder.Data.RuleData;
 using ReadingsBuilder.Data.Result;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.Steps;
-using ReadingsBuilder.Model.Pipeline.Steps.Utility;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Pipeline.Steps;
+using ReadingsBuilder.Pipeline.Steps.Utility;
 using SimpleInjector;
 
 namespace ReadingsBuilder.Bindings
@@ -30,7 +30,7 @@ namespace ReadingsBuilder.Bindings
 
             // Pipeline
             container.Register<IRuleApplier, RuleApplier>();
-            container.Register<IPipeline, Pipeline>();
+            container.Register<IPipeline, Pipeline.Pipeline>();
 
             // Steps
             var stepImplementationAssemblies = new Assembly[] { typeof(IStep).Assembly };

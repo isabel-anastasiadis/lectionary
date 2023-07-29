@@ -1,6 +1,6 @@
 ﻿
 
-namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
+namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public static class ExtensionMethods
     {

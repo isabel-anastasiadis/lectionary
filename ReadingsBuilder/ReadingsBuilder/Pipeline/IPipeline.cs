@@ -1,6 +1,6 @@
-﻿using ReadingsBuilder.Model.Pipeline.DTOs;
+﻿using ReadingsBuilder.Pipeline.DTOs;
 
-namespace ReadingsBuilder.Model.Pipeline
+namespace ReadingsBuilder.Pipeline
 {
     public interface IPipeline
     {

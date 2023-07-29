@@ -1,6 +1,6 @@
 using ReadingsBuilder.Model.DTOs;
 
-namespace ReadingsBuilder.Model.Pipeline.DTOs
+namespace ReadingsBuilder.Pipeline.DTOs
 {
 
     public enum ReadingsOptionType

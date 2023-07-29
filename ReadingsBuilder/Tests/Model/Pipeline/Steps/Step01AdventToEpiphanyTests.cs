@@ -6,10 +6,10 @@ using NUnit.Framework;
 using ReadingsBuilder.Data.RuleData;
 using ReadingsBuilder.Model.DTOs;
 using ReadingsBuilder.Data.Result;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.DTOs;
-using ReadingsBuilder.Model.Pipeline.Steps;
-using ReadingsBuilder.Model.Pipeline.Steps.Utility;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.Steps;
+using ReadingsBuilder.Pipeline.Steps.Utility;
 
 #pragma warning disable CS8625 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.

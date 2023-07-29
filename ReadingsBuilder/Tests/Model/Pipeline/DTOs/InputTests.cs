@@ -1,5 +1,5 @@
 ﻿using System;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.DTOs;
 using NUnit.Framework;
 
 namespace Tests.Model.Pipeline.DTOs

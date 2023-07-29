@@ -1,6 +1,6 @@
 ﻿using ReadingsBuilder.Model.DTOs;
 
-namespace ReadingsBuilder.Model.Pipeline.DTOs
+namespace ReadingsBuilder.Pipeline.DTOs
 {
     public class PipelineWorkingResult
     {
@@ -19,7 +19,7 @@ namespace ReadingsBuilder.Model.Pipeline.DTOs
     }
 }
 
-namespace ReadingsBuilder.Model.Pipeline
+namespace ReadingsBuilder.Pipeline
 {
     public enum DayOptionType
     {

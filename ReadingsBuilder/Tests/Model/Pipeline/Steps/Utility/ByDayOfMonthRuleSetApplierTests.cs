@@ -5,9 +5,9 @@ using System.Linq;
 using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Model.DTOs;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.DTOs;
-using ReadingsBuilder.Model.Pipeline.Steps.Utility;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace Tests.Model.Pipeline.Steps.Utility
 {

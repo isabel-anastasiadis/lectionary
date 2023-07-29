@@ -1,9 +1,9 @@
 ﻿
 using ReadingsBuilder.Data.RuleData;
 using ReadingsBuilder.Model.DTOs;
-using ReadingsBuilder.Model.Pipeline.Steps.Utility;
+using ReadingsBuilder.Pipeline.Steps.Utility;
 
-namespace ReadingsBuilder.Model.Pipeline.Steps
+namespace ReadingsBuilder.Pipeline.Steps
 {
     public abstract class BaseStep
     {

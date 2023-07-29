@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 using ReadingsBuilder.Data.Result;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Pipeline.DTOs;
 
 namespace Tests.Data.Result
 {

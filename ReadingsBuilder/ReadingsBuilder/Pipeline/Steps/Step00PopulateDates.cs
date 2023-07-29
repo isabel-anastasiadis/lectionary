@@ -1,8 +1,8 @@
 ﻿
 using ReadingsBuilder.Model.DTOs;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.DTOs;
 
-namespace ReadingsBuilder.Model.Pipeline.Steps
+namespace ReadingsBuilder.Pipeline.Steps
 {
     public class Step00PopulateDates : IStep
     {

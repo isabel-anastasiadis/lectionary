@@ -1,8 +1,8 @@
 
-using ReadingsBuilder.Model.Pipeline.DTOs;
-using ReadingsBuilder.Model.Pipeline.Steps;
+using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.Steps;
 
-namespace ReadingsBuilder.Model.Pipeline
+namespace ReadingsBuilder.Pipeline
 {
 
     public class Pipeline : IPipeline

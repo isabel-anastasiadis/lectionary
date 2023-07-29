@@ -2,8 +2,8 @@
 using System;
 using NUnit.Framework;
 using ReadingsBuilder.Bindings;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Pipeline.DTOs;
 
 namespace Tests.Model.Pipeline
 {

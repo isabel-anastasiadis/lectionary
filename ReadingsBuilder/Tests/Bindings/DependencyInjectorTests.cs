@@ -1,7 +1,7 @@
 ﻿
 using NUnit.Framework;
 using ReadingsBuilder.Bindings;
-using ReadingsBuilder.Model.Pipeline;
+using ReadingsBuilder.Pipeline;
 
 namespace Tests.Bindings
 {

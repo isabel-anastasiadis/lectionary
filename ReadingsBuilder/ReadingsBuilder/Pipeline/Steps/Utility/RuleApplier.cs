@@ -1,10 +1,10 @@
 ﻿using ReadingsBuilder.Model.DTOs;
 using ReadingsBuilder.Data.Result;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.DTOs;
 
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
-namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
+namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public class RuleApplier : IRuleApplier
     {

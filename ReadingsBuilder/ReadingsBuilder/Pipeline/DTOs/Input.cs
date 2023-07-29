@@ -1,4 +1,4 @@
-﻿namespace ReadingsBuilder.Model.Pipeline.DTOs
+﻿namespace ReadingsBuilder.Pipeline.DTOs
 {
     public class Input {
         public DateOnly? StartDate { get; set; }

@@ -1,7 +1,7 @@
 ﻿using ReadingsBuilder.Model.DTOs;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.DTOs;
 
-namespace ReadingsBuilder.Model.Pipeline.Steps.Utility
+namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public interface IByDayOfMonthRuleSetApplier
     {

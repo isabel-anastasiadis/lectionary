@@ -1,8 +1,8 @@
 ﻿using ReadingsBuilder.Data.RuleData;
-using ReadingsBuilder.Model.Pipeline.DTOs;
-using ReadingsBuilder.Model.Pipeline.Steps.Utility;
+using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline.Steps.Utility;
 
-namespace ReadingsBuilder.Model.Pipeline.Steps
+namespace ReadingsBuilder.Pipeline.Steps
 {
     public class Step06OrdinaryTimeAfterPentecost : BaseStep, IStep
     {
