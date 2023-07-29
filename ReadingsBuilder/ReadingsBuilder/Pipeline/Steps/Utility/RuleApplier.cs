@@ -21,7 +21,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
             if (liturgicalYear == null)
             {
-                throw new ArgumentException($"There was no RotatingReadingMapping returned for date '{day.Date}'");
+                throw new ArgumentException($"There was no liturgical year returned for date '{day.Date}'");
             }
 
             InitialiseOptionTwoIfApplicable(ruleData, day, optionType);
