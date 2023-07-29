@@ -2,7 +2,7 @@
 using ReadingsBuilder.Pipeline.DTOs;
 using NUnit.Framework;
 
-namespace Tests.Model.Pipeline.DTOs
+namespace Tests.Pipeline.DTOs
 {
     public class InputTests
     {

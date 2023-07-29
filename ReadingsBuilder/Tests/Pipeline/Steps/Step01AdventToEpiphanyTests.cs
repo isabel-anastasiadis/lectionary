@@ -4,7 +4,7 @@ using System.Linq;
 using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Data.RuleData;
-using ReadingsBuilder.Model.DTOs;
+using ReadingsBuilder.Model;
 using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Pipeline.DTOs;
@@ -13,7 +13,7 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 #pragma warning disable CS8625 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
-namespace Tests.Model.Pipeline.Steps
+namespace Tests.Pipeline.Steps
 {
     public class Step01AdventToEpiphanyTests
     {

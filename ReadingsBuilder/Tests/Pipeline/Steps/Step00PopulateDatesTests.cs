@@ -3,7 +3,7 @@ using NUnit.Framework;
 using ReadingsBuilder.Pipeline.DTOs;
 using ReadingsBuilder.Pipeline.Steps;
 
-namespace Tests.Model.Pipeline.Steps
+namespace Tests.Pipeline.Steps
 {
     public class Step00PopulateDatesTests
     {

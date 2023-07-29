@@ -1,7 +1,7 @@
 
 using NUnit.Framework;
 using System.Collections.Generic;
-using ReadingsBuilder.Model.DTOs;
+using ReadingsBuilder.Model;
 using System;
 using System.Linq;
 using ReadingsBuilder.Data.RuleData;

@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using Moq;
 using NUnit.Framework;
-using ReadingsBuilder.Model.DTOs;
+using ReadingsBuilder.Model;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Pipeline.DTOs;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
-namespace Tests.Model.Pipeline.Steps.Utility
+namespace Tests.Pipeline.Steps.Utility
 {
 #pragma warning disable CS8602 // Dereference of a possibly null reference.
 #pragma warning disable CS8625 // Cannot convert null literal to non-nullable reference type.

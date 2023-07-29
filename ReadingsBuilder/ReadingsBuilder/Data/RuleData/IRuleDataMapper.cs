@@ -1,9 +1,9 @@
-﻿using ReadingsBuilder.Model.DTOs;
+﻿using ReadingsBuilder.Model;
 
 namespace ReadingsBuilder.Data.RuleData
 {
     public interface IRuleDataMapper
     {
-        List<Model.DTOs.RuleData> MapRowsToRuleData(List<List<string>> rows);
+        List<Model.RuleData> MapRowsToRuleData(List<List<string>> rows);
     }
 }

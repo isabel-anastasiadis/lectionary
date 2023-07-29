@@ -1,5 +1,5 @@
 ﻿
-using ReadingsBuilder.Model.DTOs;
+using ReadingsBuilder.Model;
 using ReadingsBuilder.Pipeline.DTOs;
 
 namespace ReadingsBuilder.Pipeline.Steps

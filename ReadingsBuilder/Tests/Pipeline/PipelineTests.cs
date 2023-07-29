@@ -5,7 +5,7 @@ using ReadingsBuilder.Bindings;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Pipeline.DTOs;
 
-namespace Tests.Model.Pipeline
+namespace Tests.Pipeline
 {
     public class PipelineTests
     {

@@ -17,7 +17,7 @@ namespace ReadingsBuilder.Data.RuleData
             this.ruleDataMapper = ruleDataMapper;
         }
 
-        public List<Model.DTOs.RuleData> GenerateAllData(string? csvFilePath = null)
+        public List<Model.RuleData> GenerateAllData(string? csvFilePath = null)
         {
             return ruleDataMapper.MapRowsToRuleData(csvReader.ReadRows(csvFilePath ?? DEFAULT_CSV_FILE_PATH));
         }

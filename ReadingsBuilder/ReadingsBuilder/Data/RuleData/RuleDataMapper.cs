@@ -1,4 +1,4 @@
-﻿using ReadingsBuilder.Model.DTOs;
+﻿using ReadingsBuilder.Model;
 
 namespace ReadingsBuilder.Data.RuleData
 {
@@ -39,15 +39,15 @@ namespace ReadingsBuilder.Data.RuleData
     public class RuleDataMapper : IRuleDataMapper
     {
 
-        public List<Model.DTOs.RuleData> MapRowsToRuleData(List<List<string>> rows)
+        public List<Model.RuleData> MapRowsToRuleData(List<List<string>> rows)
         {
 
-            var result = new List<Model.DTOs.RuleData>();
+            var result = new List<Model.RuleData>();
 
             foreach (var row in rows)
             {
 
-                var ruleData = new Model.DTOs.RuleData()
+                var ruleData = new Model.RuleData()
                 {
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),

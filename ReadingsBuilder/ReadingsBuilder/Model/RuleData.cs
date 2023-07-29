@@ -1,4 +1,4 @@
-﻿namespace ReadingsBuilder.Model.DTOs
+﻿namespace ReadingsBuilder.Model
 {
     public class RuleData
     {
