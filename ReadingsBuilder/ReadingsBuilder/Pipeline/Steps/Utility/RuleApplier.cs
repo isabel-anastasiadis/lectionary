@@ -1,6 +1,6 @@
 ﻿using ReadingsBuilder.Model;
 using ReadingsBuilder.Data.Result;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.

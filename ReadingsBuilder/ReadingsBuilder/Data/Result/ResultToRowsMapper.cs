@@ -1,7 +1,7 @@
 ﻿
 
 using ReadingsBuilder.Pipeline;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 
 namespace ReadingsBuilder.Data.Result
 {

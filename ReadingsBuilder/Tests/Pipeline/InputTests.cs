@@ -1,8 +1,8 @@
 ﻿using System;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline;
 using NUnit.Framework;
 
-namespace Tests.Pipeline.DTOs
+namespace Tests.Pipeline
 {
     public class InputTests
     {

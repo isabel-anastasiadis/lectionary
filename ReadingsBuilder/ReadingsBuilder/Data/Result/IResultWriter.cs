@@ -1,4 +1,4 @@
-﻿using ReadingsBuilder.Pipeline.DTOs;
+﻿using ReadingsBuilder.Pipeline;
 
 namespace ReadingsBuilder.Data.Result
 {

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
-using ReadingsBuilder.Model;
 using ReadingsBuilder.Data.Result;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
 #pragma warning disable CS8602 // Dereference of a possibly null reference.

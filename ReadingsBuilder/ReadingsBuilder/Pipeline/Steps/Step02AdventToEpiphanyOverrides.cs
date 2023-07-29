@@ -1,7 +1,7 @@
 ﻿
 using ReadingsBuilder.Data.RuleData;
 using ReadingsBuilder.Model;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps

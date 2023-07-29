@@ -1,6 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Pipeline.Steps;
 
 namespace Tests.Pipeline.Steps

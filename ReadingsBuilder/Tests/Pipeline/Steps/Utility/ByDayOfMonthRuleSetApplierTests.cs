@@ -6,7 +6,7 @@ using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Pipeline;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace Tests.Pipeline.Steps.Utility

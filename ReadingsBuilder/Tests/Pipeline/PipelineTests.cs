@@ -3,7 +3,7 @@ using System;
 using NUnit.Framework;
 using ReadingsBuilder.Bindings;
 using ReadingsBuilder.Pipeline;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 
 namespace Tests.Pipeline
 {

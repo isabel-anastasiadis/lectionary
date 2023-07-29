@@ -4,7 +4,7 @@ using System.Linq;
 using NUnit.Framework;
 using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 
 namespace Tests.Data.Result
 {

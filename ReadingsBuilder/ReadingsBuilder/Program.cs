@@ -4,7 +4,7 @@ using ReadingsBuilder.Bindings;
 using ReadingsBuilder.Data;
 using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
-using ReadingsBuilder.Pipeline.DTOs;
+using ReadingsBuilder.Model.Result;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");

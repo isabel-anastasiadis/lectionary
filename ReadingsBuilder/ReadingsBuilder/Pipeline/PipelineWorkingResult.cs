@@ -1,6 +1,7 @@
-﻿using ReadingsBuilder.Model;
+﻿using ReadingsBuilder.Model.Result;
+using ReadingsBuilder.Model;
 
-namespace ReadingsBuilder.Pipeline.DTOs
+namespace ReadingsBuilder.Pipeline
 {
     public class PipelineWorkingResult
     {
