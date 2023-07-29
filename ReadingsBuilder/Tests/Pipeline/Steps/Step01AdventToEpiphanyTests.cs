@@ -83,7 +83,7 @@ namespace Tests.Pipeline.Steps
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
 
-            return new Step01AdventToEpiphany(new RuleApplier(new RotatingReadingMappingProvider()), dataFactoryMock.Object, _ruleSetApplierMock.Object);
+            return new Step01AdventToEpiphany(new RuleApplier(new LiturgicalYearFactory()), dataFactoryMock.Object, _ruleSetApplierMock.Object);
 
         }
 

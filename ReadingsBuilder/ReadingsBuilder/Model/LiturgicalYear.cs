@@ -1,6 +1,6 @@
 ﻿namespace ReadingsBuilder.Model
 {
-    public class RotatingReadingMapping
+    public class LiturgicalYear
     {
         public DateOnly FirstDay { get; set; }
 

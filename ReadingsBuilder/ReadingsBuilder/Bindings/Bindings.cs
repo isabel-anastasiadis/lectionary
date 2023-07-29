@@ -25,7 +25,7 @@ namespace ReadingsBuilder.Bindings
 
             // Mappers
             container.Register<IRuleDataMapper, RuleDataMapper>();
-            container.Register<IRotatingReadingMappingProvider, RotatingReadingMappingProvider>();
+            container.Register<ILiturgicalYearFactory, LiturgicalYearFactory>();
             container.Register<IResultToRowsMapper, ResultToRowsMapper>();
 
             // Pipeline

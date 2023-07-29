@@ -8,18 +8,18 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public class RuleApplier : IRuleApplier
     {
-        private readonly IRotatingReadingMappingProvider _rotatingReadingMappingProvider;
+        private readonly ILiturgicalYearFactory _liturgicalYearFactory;
 
-        public RuleApplier(IRotatingReadingMappingProvider rotatingReadingMappingProvider)
+        public RuleApplier(ILiturgicalYearFactory liturgicalYearFactory)
         {
-            _rotatingReadingMappingProvider = rotatingReadingMappingProvider;
+            _liturgicalYearFactory = liturgicalYearFactory;
         }
 
         public void ApplyRuleToDay(RuleData ruleData, Day day, ReadingsOptionType optionType = default)
         {
-            var rotatingReadingMapping = _rotatingReadingMappingProvider.GetApplicableMapping(day.Date);
+            var liturgicalYear = _liturgicalYearFactory.Get(day.Date);
 
-            if (rotatingReadingMapping == null)
+            if (liturgicalYear == null)
             {
                 throw new ArgumentException($"There was no RotatingReadingMapping returned for date '{day.Date}'");
             }
@@ -36,7 +36,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
             ApplyPsalms(ruleData, day, optionType);
 
-            ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+            ApplyRotatingReadings(liturgicalYear, ruleData, day);
 
             ApplySetReadings(ruleData, day, optionType);
 
@@ -99,7 +99,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
         }
 
-        public void ApplyRotatingReadings(RotatingReadingMapping rotatingReadingMapping, RuleData ruleData, Day day)
+        public void ApplyRotatingReadings(LiturgicalYear rotatingReadingMapping, RuleData ruleData, Day day)
         {
             if (!ruleData.HasRotatingReadings)
             {

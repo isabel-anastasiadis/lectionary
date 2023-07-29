@@ -16,17 +16,17 @@ namespace Tests.Pipeline.Steps.Utility
     public class RuleApplierTests
     {
 
-        private Mock<IRotatingReadingMappingProvider>? rotatingReadingMappingProviderMock;
+        private Mock<ILiturgicalYearFactory>? rotatingReadingMappingProviderMock;
 
-        private RuleApplier ClassUnderTest(RotatingReadingMapping? rotatingReadingMapping = null)
+        private RuleApplier ClassUnderTest(LiturgicalYear? rotatingReadingMapping = null)
         {
-            RotatingReadingMapping mappingToUse = rotatingReadingMapping
-                ?? new Mock<RotatingReadingMapping>().Object;
+            LiturgicalYear mappingToUse = rotatingReadingMapping
+                ?? new Mock<LiturgicalYear>().Object;
 
-            rotatingReadingMappingProviderMock = new Mock<IRotatingReadingMappingProvider>();
+            rotatingReadingMappingProviderMock = new Mock<ILiturgicalYearFactory>();
 
             rotatingReadingMappingProviderMock
-                .Setup(m => m.GetApplicableMapping(It.IsAny<DateOnly>()))
+                .Setup(m => m.Get(It.IsAny<DateOnly>()))
                 .Returns(mappingToUse);
 
             return new RuleApplier(rotatingReadingMappingProviderMock.Object);
@@ -241,7 +241,7 @@ namespace Tests.Pipeline.Steps.Utility
         {
 
             // arrange
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -280,7 +280,7 @@ namespace Tests.Pipeline.Steps.Utility
         {
 
             // arrange
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -319,7 +319,7 @@ namespace Tests.Pipeline.Steps.Utility
         {
 
             // arrange
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -359,7 +359,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesMorningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -393,7 +393,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesMorningNewTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -427,7 +427,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesEveningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -461,7 +461,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesEveningNewTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -498,7 +498,7 @@ namespace Tests.Pipeline.Steps.Utility
             var expectedEveningOldTestament = "Exodus 12:23-27";
             var expectedEveningNewTestament = "John 3:16-19";
 
-            var rotatingReadingMapping = new RotatingReadingMapping()
+            var rotatingReadingMapping = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,

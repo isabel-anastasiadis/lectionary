@@ -2,22 +2,22 @@
 
 namespace ReadingsBuilder.Data.Result
 {
-    public class RotatingReadingMappingProvider : IRotatingReadingMappingProvider
+    public class LiturgicalYearFactory : ILiturgicalYearFactory
     {
-        private List<RotatingReadingMapping> _mappings;
+        private readonly List<LiturgicalYear> _years;
 
         /// <summary>
         /// Stubbing this for now.  TODO properly later, reading from csv
         /// </summary>
         /// <returns></returns>
-        public RotatingReadingMappingProvider()
+        public LiturgicalYearFactory()
         {
-            _mappings = new List<RotatingReadingMapping>();
+            _years = new List<LiturgicalYear>();
 
             // See https://www.churchofengland.org/sites/default/files/2017-11/weekday%20lectionary%202005.pdf
 
             // Same as 2009-2010
-            _mappings.Add(new RotatingReadingMapping()
+            _years.Add(new LiturgicalYear()
             {
                 FirstDay = new DateOnly(2021, 11, 28),
                 LastDay = new DateOnly(2022, 11, 26),
@@ -30,7 +30,7 @@ namespace ReadingsBuilder.Data.Result
             });
 
             // Same as 2010 - 2011
-            _mappings.Add(new RotatingReadingMapping()
+            _years.Add(new LiturgicalYear()
             {
                 FirstDay = new DateOnly(2022, 11, 27),
                 LastDay = new DateOnly(2023, 12, 2),
@@ -43,9 +43,9 @@ namespace ReadingsBuilder.Data.Result
             });
         }
 
-        public RotatingReadingMapping? GetApplicableMapping(DateOnly date)
+        public LiturgicalYear? Get(DateOnly date)
         {
-            return _mappings.Where(x => x.FirstDay <= date && x.LastDay >= date).FirstOrDefault();
+            return _years.Where(x => x.FirstDay <= date && x.LastDay >= date).FirstOrDefault();
         }
 
     }
