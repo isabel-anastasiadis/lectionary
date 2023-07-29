@@ -5,6 +5,6 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public interface IRuleApplier
     {
-        void ApplyRuleToDay(RuleData ruleData, Day day, ReadingsOptionType optionType = default);
+        void ApplyRuleToDay(Rule Rules, Day day, ReadingsOptionType optionType = default);
     }
 }

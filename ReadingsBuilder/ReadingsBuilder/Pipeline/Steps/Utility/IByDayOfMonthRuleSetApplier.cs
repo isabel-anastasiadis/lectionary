@@ -5,8 +5,8 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public interface IByDayOfMonthRuleSetApplier
     {
-        PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, List<RuleData> applicableRules);
+        PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, List<Rule> applicableRules);
 
-        void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, RuleData rule, DateOnly? dateOverride = null);
+        void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, Rule rule, DateOnly? dateOverride = null);
     }
 }

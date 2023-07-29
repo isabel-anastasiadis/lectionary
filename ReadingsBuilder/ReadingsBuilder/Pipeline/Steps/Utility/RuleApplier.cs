@@ -15,7 +15,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             _liturgicalYearFactory = liturgicalYearFactory;
         }
 
-        public void ApplyRuleToDay(RuleData ruleData, Day day, ReadingsOptionType optionType = default)
+        public void ApplyRuleToDay(Rule Rules, Day day, ReadingsOptionType optionType = default)
         {
             var liturgicalYear = _liturgicalYearFactory.Get(day.Date);
 
@@ -24,25 +24,25 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 throw new ArgumentException($"There was no liturgical year returned for date '{day.Date}'");
             }
 
-            InitialiseOptionTwoIfApplicable(ruleData, day, optionType);
+            InitialiseOptionTwoIfApplicable(Rules, day, optionType);
 
-            ApplyDayDescription(ruleData, day, optionType);
+            ApplyDayDescription(Rules, day, optionType);
 
-            ApplyEveningDescription(ruleData, day, optionType);
+            ApplyEveningDescription(Rules, day, optionType);
 
-            ApplyIsSeasonalTime(ruleData, day); // NOTE: this needs to happen before rotating readings
+            ApplyIsSeasonalTime(Rules, day); // NOTE: this needs to happen before rotating readings
 
-            ApplyFeastOrSeasonType(ruleData, day); 
+            ApplyFeastOrSeasonType(Rules, day); 
 
-            ApplyPsalms(ruleData, day, optionType);
+            ApplyPsalms(Rules, day, optionType);
 
-            ApplyRotatingReadings(liturgicalYear, ruleData, day);
+            ApplyRotatingReadings(liturgicalYear, Rules, day);
 
-            ApplySetReadings(ruleData, day, optionType);
+            ApplySetReadings(Rules, day, optionType);
 
         }
 
-        private void InitialiseOptionTwoIfApplicable(RuleData ruleData, Day day, ReadingsOptionType optionType) 
+        private void InitialiseOptionTwoIfApplicable(Rule Rules, Day day, ReadingsOptionType optionType) 
         {
             if (optionType == ReadingsOptionType.EveningBeforeFestival)
             {
@@ -51,57 +51,57 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             }
         }
 
-        public void ApplyDayDescription(RuleData ruleData, Day day, ReadingsOptionType optionType)
+        public void ApplyDayDescription(Rule Rules, Day day, ReadingsOptionType optionType)
         {
 
-            if (ruleData.DayName != null)
+            if (Rules.DayName != null)
             {
-                day.DayDescription = ruleData.DayName;
+                day.DayDescription = Rules.DayName;
             }
         }
 
-        public void ApplyEveningDescription(RuleData ruleData, Day day, ReadingsOptionType optionType)
+        public void ApplyEveningDescription(Rule Rules, Day day, ReadingsOptionType optionType)
         {
 
-            if (ruleData.EveningName != null && optionType == ReadingsOptionType.EveningBeforeFestival)
+            if (Rules.EveningName != null && optionType == ReadingsOptionType.EveningBeforeFestival)
             {
-                day.EveningReadings.OptionTwoDescription = ruleData.EveningName;
+                day.EveningReadings.OptionTwoDescription = Rules.EveningName;
             }
         }
 
-        public void ApplyIsSeasonalTime(RuleData ruleData, Day day)
+        public void ApplyIsSeasonalTime(Rule Rules, Day day)
         {
-            if (ruleData.IsSeasonalTime != null)
+            if (Rules.IsSeasonalTime != null)
             {
-                day.IsSeasonalTime = ruleData.IsSeasonalTime;
+                day.IsSeasonalTime = Rules.IsSeasonalTime;
             }
         }
 
-        public void ApplyFeastOrSeasonType(RuleData ruleData, Day day)
+        public void ApplyFeastOrSeasonType(Rule Rules, Day day)
         {
-            if (ruleData.FeastOrSeasonFlags != FeastOrSeasonType.None)
+            if (Rules.FeastOrSeasonFlags != FeastOrSeasonType.None)
             {
-                day.FeastOrSeasonType |= ruleData.FeastOrSeasonFlags;
+                day.FeastOrSeasonType |= Rules.FeastOrSeasonFlags;
             }
         }
 
-        public void ApplyPsalms(RuleData ruleData, Day day, ReadingsOptionType optionType)
+        public void ApplyPsalms(Rule Rules, Day day, ReadingsOptionType optionType)
         {
-            if (ruleData.HasMorningPsalms)
+            if (Rules.HasMorningPsalms)
             {
-                day.MorningReadings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + ruleData.MorningPsalmsMain;
+                day.MorningReadings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + Rules.MorningPsalmsMain;
             }
 
-            if (ruleData.HasEveningPsalms)
+            if (Rules.HasEveningPsalms)
             {
-                day.EveningReadings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + ruleData.EveningPsalmsMain;
+                day.EveningReadings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + Rules.EveningPsalmsMain;
             }
 
         }
 
-        public void ApplyRotatingReadings(LiturgicalYear rotatingReadingMapping, RuleData ruleData, Day day)
+        public void ApplyRotatingReadings(LiturgicalYear rotatingReadingMapping, Rule Rules, Day day)
         {
-            if (!ruleData.HasRotatingReadings)
+            if (!Rules.HasRotatingReadings)
             {
                 return;
             }
@@ -118,49 +118,49 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
             // morning old testament
             var value = day.IsSeasonalTime.Value
-                ? ruleData.RotatingReadings[rotatingReadingMapping.MorningOldTestamentSeasonal]
-                : ruleData.RotatingReadings[rotatingReadingMapping.MorningOldTestamentOrdinary];
+                ? Rules.RotatingReadings[rotatingReadingMapping.MorningOldTestamentSeasonal]
+                : Rules.RotatingReadings[rotatingReadingMapping.MorningOldTestamentOrdinary];
 
             day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = value;
 
 
             // morning new testament
-            value = ruleData.RotatingReadings[rotatingReadingMapping.MorningNewTestament];
+            value = Rules.RotatingReadings[rotatingReadingMapping.MorningNewTestament];
             day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString = value;
 
             // evening old testament
             value = day.IsSeasonalTime.Value
-                ? ruleData.RotatingReadings[rotatingReadingMapping.EveningOldTestamentSeasonal]
-                : ruleData.RotatingReadings[rotatingReadingMapping.EveningOldTestamentOrdinary];
+                ? Rules.RotatingReadings[rotatingReadingMapping.EveningOldTestamentSeasonal]
+                : Rules.RotatingReadings[rotatingReadingMapping.EveningOldTestamentOrdinary];
             day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = value;
 
             // evening new testament
-            value = ruleData.RotatingReadings[rotatingReadingMapping.EveningNewTestament];
+            value = Rules.RotatingReadings[rotatingReadingMapping.EveningNewTestament];
             day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = value;
 
 
         }
 
-        public void ApplySetReadings(RuleData ruleData, Day day, ReadingsOptionType optionType)
+        public void ApplySetReadings(Rule Rules, Day day, ReadingsOptionType optionType)
         {
-            if (ruleData.MorningOldTestament != null)
+            if (Rules.MorningOldTestament != null)
             {
-                day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = ruleData.MorningOldTestament;
+                day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = Rules.MorningOldTestament;
             }
 
-            if (ruleData.MorningNewTestament != null)
+            if (Rules.MorningNewTestament != null)
             {
-                day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString = ruleData.MorningNewTestament;
+                day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString = Rules.MorningNewTestament;
             }
 
-            if (ruleData.EveningOldTestament != null)
+            if (Rules.EveningOldTestament != null)
             {
-                day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = ruleData.EveningOldTestament;
+                day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = Rules.EveningOldTestament;
             }
 
-            if (ruleData.EveningNewTestament != null)
+            if (Rules.EveningNewTestament != null)
             {
-                day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = ruleData.EveningNewTestament;
+                day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = Rules.EveningNewTestament;
             }
         }
 

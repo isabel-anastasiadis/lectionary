@@ -1,5 +1,5 @@
 ﻿
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -7,13 +7,13 @@ namespace ReadingsBuilder.Pipeline.Steps
 {
     public abstract class BaseStep
     {
-        protected readonly List<RuleData> ApplicableRules;
+        protected readonly List<Rule> ApplicableRules;
 
         protected readonly IRuleApplier RuleApplier;
 
         protected abstract string RuleSetName { get; }
 
-        public BaseStep(IRuleApplier ruleApplier, IRuleDataFactory dataFactory)
+        public BaseStep(IRuleApplier ruleApplier, IRulesFactory dataFactory)
         {
             RuleApplier = ruleApplier;
 
@@ -27,7 +27,7 @@ namespace ReadingsBuilder.Pipeline.Steps
             ApplicableRules = allData
                 .Where(x => ShouldIncludeRule(x))
                 .OrderBy(x => x.RowNumberInRuleSet)
-                .ToList() ?? new List<RuleData>();
+                .ToList() ?? new List<Rule>();
 
             if (!ApplicableRules.Any())
             {
@@ -35,8 +35,8 @@ namespace ReadingsBuilder.Pipeline.Steps
             }
         }
 
-        protected virtual bool ShouldIncludeRule(RuleData ruleData) {
-            return ruleData.HandlingClassName == this.RuleSetName;
+        protected virtual bool ShouldIncludeRule(Rule Rules) {
+            return Rules.HandlingClassName == this.RuleSetName;
         }
 
     }

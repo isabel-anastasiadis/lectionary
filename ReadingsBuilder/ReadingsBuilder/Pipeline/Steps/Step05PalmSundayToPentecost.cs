@@ -1,4 +1,4 @@
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -9,7 +9,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
         public Step05PalmSundayToPentecost(IRuleApplier ruleApplier, 
-            IRuleDataFactory dataFactory, 
+            IRulesFactory dataFactory, 
             IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
@@ -37,7 +37,7 @@ namespace ReadingsBuilder.Pipeline.Steps
             return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, 
                 ApplicableRules, 
                 dateOfFirstDayTheRuleAppliesTo, 
-                ruleDataToStartWith: null, 
+                RulesToStartWith: null, 
                 dateOfLastDayRuleAppliesTo: null);
         }
 

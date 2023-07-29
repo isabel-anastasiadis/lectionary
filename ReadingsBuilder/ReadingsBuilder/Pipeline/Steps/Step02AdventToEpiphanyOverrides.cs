@@ -1,5 +1,5 @@
 ﻿
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
@@ -11,7 +11,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
         public Step02AdventToEpiphanyOverrides(IRuleApplier ruleApplier, 
-            IRuleDataFactory dataFactory,
+            IRulesFactory dataFactory,
             IByDayOfMonthRuleSetApplier ruleSetApplier)
             : base(ruleApplier, dataFactory)
         {
@@ -27,9 +27,9 @@ namespace ReadingsBuilder.Pipeline.Steps
             return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, ApplicableRules);
         }
 
-        protected override bool ShouldIncludeRule(RuleData ruleData)
+        protected override bool ShouldIncludeRule(Rule Rules)
         {
-            return base.ShouldIncludeRule(ruleData) && ruleData.RuleType == RuleType.ByDayOfMonth;
+            return base.ShouldIncludeRule(Rules) && Rules.RuleType == RuleType.ByDayOfMonth;
         }
     }
 }

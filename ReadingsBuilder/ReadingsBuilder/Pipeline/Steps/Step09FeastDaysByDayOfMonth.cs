@@ -1,5 +1,5 @@
 ﻿using ReadingsBuilder.Model;
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -9,7 +9,7 @@ namespace ReadingsBuilder.Pipeline.Steps
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step09FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step09FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }

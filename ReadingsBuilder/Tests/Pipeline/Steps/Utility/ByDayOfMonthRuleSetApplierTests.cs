@@ -32,7 +32,7 @@ namespace Tests.Pipeline.Steps.Utility
             try
             {
 
-                ClassUnderTest().ApplyRulesByDayOfMonth(null, new List<RuleData>());
+                ClassUnderTest().ApplyRulesByDayOfMonth(null, new List<Rule>());
                 Assert.Fail();
             }
             catch (ArgumentNullException)
@@ -67,9 +67,9 @@ namespace Tests.Pipeline.Steps.Utility
         public void ThrowsExceptionIfARuleCouldApplyToMoreThanOneDateInTheResult()
         {
             // arrange
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Day = 1,
                     Month = 12
                 }
@@ -96,9 +96,9 @@ namespace Tests.Pipeline.Steps.Utility
         public void TheRuleIsJustSkippedIfTheResultDoesNotContainAMatchingDate()
         {
             // arrange
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Day = 1,
                     Month = 12
                 }
@@ -119,9 +119,9 @@ namespace Tests.Pipeline.Steps.Utility
             // arrange
             var resultDay = new Day();
 
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Day = 1,
                     Month = 12
                 }

@@ -1,5 +1,5 @@
 ﻿
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -7,7 +7,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 {
     public class Step04Lent : BaseStep, IStep
     {
-        public Step04Lent(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step04Lent(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
@@ -37,9 +37,9 @@ namespace ReadingsBuilder.Pipeline.Steps
 
             var firstRuleSetRow = RowOfRuleSetToStartFrom(startingDate, endingDate);
 
-            var ruleDataToStartWith = ApplicableRules.First(rule => rule.RowNumberInRuleSet == firstRuleSetRow);
+            var RulesToStartWith = ApplicableRules.First(rule => rule.RowNumberInRuleSet == firstRuleSetRow);
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, startingDate, ruleDataToStartWith, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, startingDate, RulesToStartWith, null);
         }
 
         private int RowOfRuleSetToStartFrom(DateOnly startingDate, DateOnly endingDate) {

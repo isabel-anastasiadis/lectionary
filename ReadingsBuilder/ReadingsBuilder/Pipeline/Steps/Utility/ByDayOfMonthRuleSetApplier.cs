@@ -12,7 +12,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             this.ruleApplier = ruleApplier;
         }
 
-        public PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, List<RuleData> applicableRules)
+        public PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, List<Rule> applicableRules)
         {
 
             if (workingResult == null)
@@ -34,7 +34,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             return workingResult;
         }
 
-        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, RuleData rule, DateOnly? dateOverride = null)
+        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, Rule rule, DateOnly? dateOverride = null)
         {
             if (workingResult == null)
             {

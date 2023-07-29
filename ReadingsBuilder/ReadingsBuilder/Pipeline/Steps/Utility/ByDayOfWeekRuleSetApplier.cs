@@ -13,9 +13,9 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
         }
 
         public PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult,
-            List<RuleData> applicableRules,
+            List<Rule> applicableRules,
             DateOnly dateOfFirstDayRuleAppliesTo,
-            RuleData? ruleDataToStartWith,
+            Rule? RulesToStartWith,
             DateOnly? dateOfLastDayRuleAppliesTo,
             bool rulesLoopAround = false)
         {
@@ -35,7 +35,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 return workingResult;
             }
 
-            var indexOfFirstRuleToStartWith = ruleDataToStartWith == null ? 0 : applicableRules.IndexOf(ruleDataToStartWith);
+            var indexOfFirstRuleToStartWith = RulesToStartWith == null ? 0 : applicableRules.IndexOf(RulesToStartWith);
             var currentDate = dateOfFirstDayRuleAppliesTo;
 
             for (int i = indexOfFirstRuleToStartWith; i < int.MaxValue; i++)
@@ -56,7 +56,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                     break;
                 }
 
-                var ruleData = applicableRules[ruleIndex];
+                var Rules = applicableRules[ruleIndex];
                 var day = workingResult.Result[currentDate]?.OptionOne;
 
                 if (day == null)
@@ -64,11 +64,11 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                     throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
                 }
 
-                if (day.Date.DayOfWeek != ruleData.Weekday) {
-                    throw new ArgumentException($"Expected {day.Date} to be a {ruleData.Weekday}, but it is {day.Date.DayOfWeek}.");
+                if (day.Date.DayOfWeek != Rules.Weekday) {
+                    throw new ArgumentException($"Expected {day.Date} to be a {Rules.Weekday}, but it is {day.Date.DayOfWeek}.");
                 }
 
-                _ruleApplier.ApplyRuleToDay(ruleData, day);
+                _ruleApplier.ApplyRuleToDay(Rules, day);
 
                 currentDate = currentDate.AddDays(1);
             }

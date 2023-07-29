@@ -1,6 +1,6 @@
 ﻿
 
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -15,7 +15,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         protected override string RuleSetName => "BaseAdvent.cs";
 
 
-        public Step01AdventToEpiphany(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier ) 
+        public Step01AdventToEpiphany(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier ) 
             : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
@@ -34,9 +34,9 @@ namespace ReadingsBuilder.Pipeline.Steps
             }
 
             // the first sunday of advent
-            var ruleDataToStartWith = ApplicableRules.FirstOrDefault();
+            var RulesToStartWith = ApplicableRules.FirstOrDefault();
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstDate, ruleDataToStartWith, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstDate, RulesToStartWith, null);
         }
 
     }

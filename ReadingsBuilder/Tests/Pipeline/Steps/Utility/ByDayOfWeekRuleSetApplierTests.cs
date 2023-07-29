@@ -34,7 +34,7 @@ namespace Tests.Pipeline.Steps.Utility
             try
             {
                 ClassUnderTest().ApplyRulesByDayOfWeek(null, 
-                    new List<RuleData>(), 
+                    new List<Rule>(), 
                     default, 
                     null,
                     null);
@@ -72,9 +72,9 @@ namespace Tests.Pipeline.Steps.Utility
         public void IfThereAreNoApplicableDaysInTheResultThenSkip() 
         {
             // arrange
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Monday
                 }
             };
@@ -101,39 +101,39 @@ namespace Tests.Pipeline.Steps.Utility
         public void CheckRulesCanLoopAroundCorrectly()
         {
             // arrange
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Monday,
                     MorningPsalmsMain = "1",
                     EveningPsalmsMain = "2"
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Tuesday,
                     MorningPsalmsMain = "3",
                     EveningPsalmsMain = "4"
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Wednesday,
                     MorningPsalmsMain = "5",
                     EveningPsalmsMain = "6"
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Thursday,
                     MorningPsalmsMain = "7",
                     EveningPsalmsMain = "18"
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Friday,
                     MorningPsalmsMain = "9",
                     EveningPsalmsMain = "10"
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Saturday,
                     MorningPsalmsMain = "11",
                     EveningPsalmsMain = "12"
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Sunday
                 },
             };
@@ -169,16 +169,16 @@ namespace Tests.Pipeline.Steps.Utility
         }
 
         [Test]
-        public void IfRuleDataToStartWithIsNotProvidedThenTheFirstRuleIsAppliedToTheFirstDay() 
+        public void IfRulesToStartWithIsNotProvidedThenTheFirstRuleIsAppliedToTheFirstDay() 
         {
             // arrange
             var resultDay = new Day
             {
                 Date = new DateOnly(2021, 12, 1)
             };
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Wednesday
                 }
             };
@@ -195,19 +195,19 @@ namespace Tests.Pipeline.Steps.Utility
         }
 
         [Test]
-        public void IfRuleDataToStartWithIsProvidedThenItIsTheOneAppliedToTheFirstDay() 
+        public void IfRulesToStartWithIsProvidedThenItIsTheOneAppliedToTheFirstDay() 
         {
             // arrange
             var resultDay = new Day
             {
                 Date = new DateOnly(2021, 12, 1)
             };
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Tuesday
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Wednesday
                 }
             };
@@ -236,12 +236,12 @@ namespace Tests.Pipeline.Steps.Utility
                 Date = new DateOnly(2021, 12, 2)
             };
 
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Wednesday
                 },
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Thursday
                 }
             };
@@ -269,9 +269,9 @@ namespace Tests.Pipeline.Steps.Utility
             {
                 Date = new DateOnly(2021, 12, 1)
             };
-            var applicableRules = new List<RuleData>
+            var applicableRules = new List<Rule>
             {
-                new RuleData(){
+                new Rule(){
                     Weekday = DayOfWeek.Tuesday // should be wednesday
                 }
             };

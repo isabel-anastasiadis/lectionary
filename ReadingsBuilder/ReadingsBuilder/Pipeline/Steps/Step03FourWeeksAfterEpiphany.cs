@@ -1,5 +1,5 @@
 ﻿
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -9,7 +9,7 @@ namespace ReadingsBuilder.Pipeline.Steps
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step03FourWeeksAfterEpiphany(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step03FourWeeksAfterEpiphany(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
@@ -32,9 +32,9 @@ namespace ReadingsBuilder.Pipeline.Steps
                 .Where(x => x.Month == 1 && x.Day > 6 && x.DayOfWeek == DayOfWeek.Saturday)  // The first Saturday after the 6th Jan
                 .FirstOrDefault();
 
-            var ruleDataToStartWith = ApplicableRules.FirstOrDefault();
+            var RulesToStartWith = ApplicableRules.FirstOrDefault();
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, ruleDataToStartWith, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, RulesToStartWith, null);
 
         }
     }

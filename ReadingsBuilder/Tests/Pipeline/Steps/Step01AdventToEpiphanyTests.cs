@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Moq;
 using NUnit.Framework;
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
@@ -20,50 +20,50 @@ namespace Tests.Pipeline.Steps
 
         private const string ClassName = "BaseAdvent.cs";
 
-        private List<RuleData> _defaultRules = new List<RuleData>() {
-            new RuleData(){
+        private List<Rule> _defaultRules = new List<Rule>() {
+            new Rule(){
                     RowNumberInRuleSet = 0,
                     HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "First Sunday of advent",
                     Weekday = DayOfWeek.Sunday
             },
-            new RuleData(){
+            new Rule(){
                     RowNumberInRuleSet = 1,
                     HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Monday in first week of advent",
                     Weekday = DayOfWeek.Monday
             },
-            new RuleData(){
+            new Rule(){
                     RowNumberInRuleSet = 1,
                     HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Tuesday in first week of advent",
                     Weekday = DayOfWeek.Tuesday
             },
-            new RuleData(){
+            new Rule(){
                     RowNumberInRuleSet = 1,
                     HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Wednesday in first week of advent",
                     Weekday = DayOfWeek.Wednesday
             },
-            new RuleData(){
+            new Rule(){
                     RowNumberInRuleSet = 1,
                     HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Thursday in first week of advent",
                     Weekday = DayOfWeek.Thursday
             },
-            new RuleData(){
+            new Rule(){
                     RowNumberInRuleSet = 1,
                     HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
                     DayName = "Friday in first week of advent",
                     Weekday = DayOfWeek.Friday
             },
-            new RuleData(){
+            new Rule(){
                     RowNumberInRuleSet = 1,
                     HandlingClassName = ClassName,
                     RuleType = RuleType.ByDayOfWeek,
@@ -75,11 +75,11 @@ namespace Tests.Pipeline.Steps
         private Mock<IByDayOfWeekRuleSetApplier>? _ruleSetApplierMock;
 
 
-        private Step01AdventToEpiphany ClassUnderTest(List<RuleData>? ruleData = null)
+        private Step01AdventToEpiphany ClassUnderTest(List<Rule>? Rules = null)
         {
-            var allData = ruleData ?? _defaultRules;
+            var allData = Rules ?? _defaultRules;
 
-            var dataFactoryMock = new Mock<IRuleDataFactory>();
+            var dataFactoryMock = new Mock<IRulesFactory>();
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
 
@@ -125,8 +125,8 @@ namespace Tests.Pipeline.Steps
             // act & assert
             try
             {
-                ClassUnderTest(new List<RuleData>() {
-                    new RuleData(){
+                ClassUnderTest(new List<Rule>() {
+                    new Rule(){
                         HandlingClassName = handlingClassName,
                         RuleType = ruleType
                     }
@@ -191,7 +191,7 @@ namespace Tests.Pipeline.Steps
             var result = classUnderTest.RunStep(workingResult);
 
             // assert
-            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<List<RuleData>>(), dateOfDay, expectedFirstRule, null, false));
+            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<List<Rule>>(), dateOfDay, expectedFirstRule, null, false));
 
         }
 

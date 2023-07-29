@@ -1,5 +1,5 @@
 ﻿
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -9,7 +9,7 @@ namespace ReadingsBuilder.Pipeline.Steps
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step08OrdinaryTimePsalms(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step08OrdinaryTimePsalms(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
@@ -40,9 +40,9 @@ namespace ReadingsBuilder.Pipeline.Steps
             // Presentation of Jesus has its own readings, but if not celebrated, then the psalm readings are ordinary time ones.
             var presentationOfJesus = workingResult.Result.Keys.FirstOrDefault(date => date.Month == 2 && date.Day == 2);
             var shroveTuesday = workingResult.Input.AshWednesday.Value.Clone().AddDays(-1);
-            var ruleDataToStartWith = ApplicableRules.First(rule => rule.Weekday == presentationOfJesus.DayOfWeek);
+            var RulesToStartWith = ApplicableRules.First(rule => rule.Weekday == presentationOfJesus.DayOfWeek);
 
-            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, presentationOfJesus, ruleDataToStartWith, shroveTuesday);
+            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, presentationOfJesus, RulesToStartWith, shroveTuesday);
 
             return workingResult;
         }
@@ -70,12 +70,12 @@ namespace ReadingsBuilder.Pipeline.Steps
                 .Input
                 .OrdinaryTimePsalmsSecondChunkStartingIndex
                 .Value;
-            var ruleDataToStartWith = ApplicableRules[ruleIndex];
+            var RulesToStartWith = ApplicableRules[ruleIndex];
 
             ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, 
                 ApplicableRules, 
                 firstMondayDate, 
-                ruleDataToStartWith, 
+                RulesToStartWith, 
                 lastSaturdayDate, 
                 rulesLoopAround: true
             );

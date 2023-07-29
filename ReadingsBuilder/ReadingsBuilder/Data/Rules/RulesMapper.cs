@@ -1,6 +1,6 @@
 ﻿using ReadingsBuilder.Model;
 
-namespace ReadingsBuilder.Data.RuleData
+namespace ReadingsBuilder.Data.Rules
 {
     /// <summary>
     /// The order of columns in 'All Rules.csv'
@@ -36,18 +36,18 @@ namespace ReadingsBuilder.Data.RuleData
         EveningPsalmOmittedIfCanticle
     }
 
-    public class RuleDataMapper : IRuleDataMapper
+    public class RulesMapper : IRulesMapper
     {
 
-        public List<Model.RuleData> MapRowsToRuleData(List<List<string>> rows)
+        public List<Model.Rule> MapRowsToRules(List<List<string>> rows)
         {
 
-            var result = new List<Model.RuleData>();
+            var result = new List<Model.Rule>();
 
             foreach (var row in rows)
             {
 
-                var ruleData = new Model.RuleData()
+                var Rules = new Model.Rule()
                 {
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),
@@ -63,39 +63,39 @@ namespace ReadingsBuilder.Data.RuleData
                     EveningPsalmsMain = GetValueOrNull(row, ColumnIndexes.EveningPsalmMain)
                 };
 
-                ruleData.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);
-                ruleData.RotatingReadings[RotatingReadingType.OldTestament2a] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2a);
-                ruleData.RotatingReadings[RotatingReadingType.OldTestament2b] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2b);
-                ruleData.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
-                ruleData.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
+                Rules.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);
+                Rules.RotatingReadings[RotatingReadingType.OldTestament2a] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2a);
+                Rules.RotatingReadings[RotatingReadingType.OldTestament2b] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2b);
+                Rules.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
+                Rules.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
 
                 if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass))
                 {
-                    ruleData.RowNumberInRuleSet = rowWithinClass;
+                    Rules.RowNumberInRuleSet = rowWithinClass;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthYear], out int year))
                 {
-                    ruleData.Year = year;
+                    Rules.Year = year;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthMonth], out int month))
                 {
-                    ruleData.Month = month;
+                    Rules.Month = month;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthDay], out int day))
                 {
-                    ruleData.Day = day;
+                    Rules.Day = day;
                 }
 
                 if (Enum.TryParse(typeof(RuleType), row[(int)ColumnIndexes.RuleType], out object? ruleTypeObject))
                 {
-                    ruleData.RuleType = (RuleType?)ruleTypeObject;
+                    Rules.RuleType = (RuleType?)ruleTypeObject;
                 }
 
 
-                result.Add(ruleData);
+                result.Add(Rules);
             }
 
             return result;

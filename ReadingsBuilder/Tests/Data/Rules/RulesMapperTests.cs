@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using ReadingsBuilder.Model;
 using System;
 using System.Linq;
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 
-namespace Tests.Data.RuleData
+namespace Tests.Data.Rules
 {
-	public class RuleDataMapperTests
+	public class RulesMapperTests
 	{
 		[Test]
 		public void DoesNotErrorWhenAllColumnsAreEmpty() 
@@ -18,7 +18,7 @@ namespace Tests.Data.RuleData
 			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
 
 			// act & assert
-			new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 		}
 
 		[Test]
@@ -29,7 +29,7 @@ namespace Tests.Data.RuleData
 			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() }).First();
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() }).First();
 
 			// assert
 			Assert.IsNull(result.HandlingClassName);
@@ -58,7 +58,7 @@ namespace Tests.Data.RuleData
 			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() }).First();
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() }).First();
 
 			// assert
 			Assert.IsFalse(result.HasSetReadings);
@@ -83,7 +83,7 @@ namespace Tests.Data.RuleData
 
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedClassName, result?.FirstOrDefault()?.HandlingClassName);
@@ -107,7 +107,7 @@ namespace Tests.Data.RuleData
 
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedDayName, result?.FirstOrDefault()?.DayName);
@@ -127,7 +127,7 @@ namespace Tests.Data.RuleData
 
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedEveningName, result?.FirstOrDefault()?.EveningName);
@@ -147,7 +147,7 @@ namespace Tests.Data.RuleData
 
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedResult, result?.FirstOrDefault()?.IsSeasonalTime);
@@ -168,7 +168,7 @@ namespace Tests.Data.RuleData
 			var rows = new List<List<string>>() { input.ToList<string>() };
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(rows);
+			var result = new RulesMapper().MapRowsToRules(rows);
 
 			// assert
 			Assert.AreEqual(expectedFlags, result?.FirstOrDefault()?.FeastOrSeasonFlags);
@@ -187,7 +187,7 @@ namespace Tests.Data.RuleData
 			// act
 			try
 			{
-				var result = new RuleDataMapper().MapRowsToRuleData(rows);
+				var result = new RulesMapper().MapRowsToRules(rows);
 				Assert.Fail();
 			}
 			catch (ArgumentException)
@@ -216,7 +216,7 @@ namespace Tests.Data.RuleData
 
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedResult, result?.FirstOrDefault()?.Weekday);
@@ -237,7 +237,7 @@ namespace Tests.Data.RuleData
 			input[(int)ColumnIndexes.ByDayOfMonthDay] = expectedDay.ToString();
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedMonth, result?.FirstOrDefault()?.Month);
@@ -268,7 +268,7 @@ namespace Tests.Data.RuleData
 
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedOldTestament1, result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament1]);
@@ -288,7 +288,7 @@ namespace Tests.Data.RuleData
 
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.IsNull(result?.FirstOrDefault()?.RotatingReadings[RotatingReadingType.OldTestament1]);
@@ -316,7 +316,7 @@ namespace Tests.Data.RuleData
 			input[(int)ColumnIndexes.EveningNewTestament] = expectedEveningNewTestament;
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(expectedMorningOldTestament, result?.FirstOrDefault()?.MorningOldTestament);
@@ -340,7 +340,7 @@ namespace Tests.Data.RuleData
 			input[(int)ColumnIndexes.EveningPsalmMain] = eveningPsalmsMain;
 
 			// act
-			var result = new RuleDataMapper().MapRowsToRuleData(new List<List<string>>() { input.ToList<string>() });
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
 
 			// assert
 			Assert.AreEqual(morningPsalmsMain, result?.FirstOrDefault()?.MorningPsalmsMain);

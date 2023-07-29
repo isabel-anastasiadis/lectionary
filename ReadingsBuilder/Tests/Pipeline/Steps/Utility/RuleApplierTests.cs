@@ -36,10 +36,10 @@ namespace Tests.Pipeline.Steps.Utility
         public void InitialisesEveningOptionTwoForEveningBeforeFestivalOptionType() {
             // arrange
             var day = new Day();
-            var ruleData = new RuleData();
+            var Rules = new Rule();
 
             // act
-            ClassUnderTest().ApplyRuleToDay(ruleData, day, ReadingsOptionType.EveningBeforeFestival);
+            ClassUnderTest().ApplyRuleToDay(Rules, day, ReadingsOptionType.EveningBeforeFestival);
 
             // assert
             Assert.NotNull(day.EveningReadings.OptionTwo);
@@ -53,13 +53,13 @@ namespace Tests.Pipeline.Steps.Utility
             var expected = "1st EP of St Mark";
 
             var day = new Day();
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             { 
                 EveningName = expected
             };
 
             // act
-            ClassUnderTest().ApplyRuleToDay(ruleData, day, ReadingsOptionType.EveningBeforeFestival);
+            ClassUnderTest().ApplyRuleToDay(Rules, day, ReadingsOptionType.EveningBeforeFestival);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionTwoDescription);
@@ -90,7 +90,7 @@ namespace Tests.Pipeline.Steps.Utility
             day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = originalOldTestament;
             day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = originalNewTestament;
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 EveningPsalmsMain = option2Psalm,
                 EveningOldTestament = option2OldTestament,
@@ -98,7 +98,7 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRuleToDay(ruleData, day, ReadingsOptionType.EveningBeforeFestival);
+            ClassUnderTest().ApplyRuleToDay(Rules, day, ReadingsOptionType.EveningBeforeFestival);
 
             // assert
             Assert.AreEqual(originalPsalm, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -120,14 +120,14 @@ namespace Tests.Pipeline.Steps.Utility
             day.MorningReadings.OptionOne.Psalms.OptionOne.RawString = dayValue;
 
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 MorningPsalmsMain = ruleValue,
             };
 
 
             // act
-            ClassUnderTest().ApplyPsalms(ruleData, day, default);
+            ClassUnderTest().ApplyPsalms(Rules, day, default);
 
             // assert
             Assert.AreEqual(expectedValue, day.MorningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -145,14 +145,14 @@ namespace Tests.Pipeline.Steps.Utility
             };
             day.EveningReadings.OptionOne.Psalms.OptionOne.RawString = dayValue;
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 EveningPsalmsMain = ruleValue,
             };
 
 
             // act
-            ClassUnderTest().ApplyPsalms(ruleData, day, default);
+            ClassUnderTest().ApplyPsalms(Rules, day, default);
 
             // assert
             Assert.AreEqual(expectedValue, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -171,14 +171,14 @@ namespace Tests.Pipeline.Steps.Utility
                 DayDescription = dayPreexistingValue,
             };
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 DayName = ruleValue
             };
 
 
             // act
-            ClassUnderTest().ApplyRuleToDay(ruleData, day);
+            ClassUnderTest().ApplyRuleToDay(Rules, day);
 
             // assert
             Assert.AreEqual(expectedValue, day.DayDescription);
@@ -196,14 +196,14 @@ namespace Tests.Pipeline.Steps.Utility
                 IsSeasonalTime = dayPreexistingValue,
             };
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 IsSeasonalTime = ruleValue
             };
 
 
             // act
-            ClassUnderTest().ApplyIsSeasonalTime(ruleData, day);
+            ClassUnderTest().ApplyIsSeasonalTime(Rules, day);
 
             // assert
             Assert.AreEqual(expectedValue, day.IsSeasonalTime);
@@ -222,14 +222,14 @@ namespace Tests.Pipeline.Steps.Utility
                 FeastOrSeasonType = dayPreexistingValue,
             };
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 FeastOrSeasonFlags = ruleValue
             };
 
 
             // act
-            ClassUnderTest().ApplyRuleToDay(ruleData, day);
+            ClassUnderTest().ApplyRuleToDay(Rules, day);
 
             // assert
             Assert.AreEqual(expectedValue, day.FeastOrSeasonType);
@@ -251,7 +251,7 @@ namespace Tests.Pipeline.Steps.Utility
                 EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
             };
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 RotatingReadings = new Dictionary<RotatingReadingType, string?> {
                     { RotatingReadingType.OldTestament1, "Job 2:1-2;"},
@@ -268,11 +268,11 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, Rules, day);
 
             // assert
-            Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.NewTestament1], day?.MorningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
-            Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.NewTestament2], day?.EveningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
+            Assert.AreEqual(Rules.RotatingReadings[RotatingReadingType.NewTestament1], day?.MorningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
+            Assert.AreEqual(Rules.RotatingReadings[RotatingReadingType.NewTestament2], day?.EveningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
         }
 
         [Test]
@@ -290,7 +290,7 @@ namespace Tests.Pipeline.Steps.Utility
                 EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
             };
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 RotatingReadings = new Dictionary<RotatingReadingType, string?> {
                     { RotatingReadingType.OldTestament1, "Job 2:1-2;"},
@@ -307,11 +307,11 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, Rules, day);
 
             // assert
-            Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament2a], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
-            Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament1], day?.EveningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
+            Assert.AreEqual(Rules.RotatingReadings[RotatingReadingType.OldTestament2a], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
+            Assert.AreEqual(Rules.RotatingReadings[RotatingReadingType.OldTestament1], day?.EveningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
         }
 
         [Test]
@@ -329,7 +329,7 @@ namespace Tests.Pipeline.Steps.Utility
                 EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1
             };
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 RotatingReadings = new Dictionary<RotatingReadingType, string?> {
                     { RotatingReadingType.OldTestament1, "Job 2:1-2;"},
@@ -346,11 +346,11 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, ruleData, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, Rules, day);
 
             // assert
-            Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament2b], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
-            Assert.AreEqual(ruleData.RotatingReadings[RotatingReadingType.OldTestament1], day?.EveningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
+            Assert.AreEqual(Rules.RotatingReadings[RotatingReadingType.OldTestament2b], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
+            Assert.AreEqual(Rules.RotatingReadings[RotatingReadingType.OldTestament1], day?.EveningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
         }
 
         [TestCase("Job 2:3-4", null, "Job 2:3-4", Description = "Happy path")]
@@ -374,14 +374,14 @@ namespace Tests.Pipeline.Steps.Utility
             };
             day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString = existingDayValue;
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 MorningOldTestament = ruleValue,
             };
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(Rules, day);
 
             // assert
             Assert.AreEqual(expected, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);
@@ -408,14 +408,14 @@ namespace Tests.Pipeline.Steps.Utility
             };
             day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString = existingDayValue;
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 MorningNewTestament = ruleValue,
             };
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(Rules, day);
 
             // assert
             Assert.AreEqual(expected, day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString);
@@ -442,14 +442,14 @@ namespace Tests.Pipeline.Steps.Utility
             };
             day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = existingDayValue;
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 EveningOldTestament = ruleValue,
             };
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(Rules, day);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString);
@@ -476,14 +476,14 @@ namespace Tests.Pipeline.Steps.Utility
             };
             day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = existingDayValue;
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 EveningNewTestament = ruleValue,
             };
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(Rules, day);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString);
@@ -510,7 +510,7 @@ namespace Tests.Pipeline.Steps.Utility
 
             var day = new Day();
 
-            var ruleData = new RuleData()
+            var Rules = new Rule()
             {
                 IsSeasonalTime = true,
                 MorningOldTestament = expectedMorningOldTestament,
@@ -529,7 +529,7 @@ namespace Tests.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(ruleData, day);
+            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(Rules, day);
 
             // assert
             Assert.AreEqual(expectedMorningOldTestament, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);

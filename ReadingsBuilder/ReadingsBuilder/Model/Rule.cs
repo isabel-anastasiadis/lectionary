@@ -1,8 +1,8 @@
 ﻿namespace ReadingsBuilder.Model
 {
-    public class RuleData
+    public class Rule
     {
-        public RuleData()
+        public Rule()
         {
             RotatingReadings = new Dictionary<RotatingReadingType, string?>();
         }
@@ -105,7 +105,7 @@
 
         public override string ToString()
         {
-            return $"RuleData: {RowNumberInRuleSet}, {HandlingClassName}, {RuleType}, {DayName}, ...";
+            return $"Rules: {RowNumberInRuleSet}, {HandlingClassName}, {RuleType}, {DayName}, ...";
         }
 
     }

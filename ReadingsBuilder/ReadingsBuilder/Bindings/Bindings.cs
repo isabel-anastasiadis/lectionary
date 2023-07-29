@@ -1,7 +1,7 @@
 ﻿
 using System.Reflection;
 using ReadingsBuilder.Data.Utilities;
-using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Pipeline.Steps;
@@ -19,12 +19,10 @@ namespace ReadingsBuilder.Bindings
             container.Register<IResultWriter, ResultWriter>();
 
             // Data
-            container.Register<IRuleDataFactory, RuleDataFactory>();
+            container.Register<IRulesFactory, RulesFactory>();
             container.Register<ICsvReader, CsvReader>();
             container.Register<ICsvWriter, CsvWriter>();
-
-            // Mappers
-            container.Register<IRuleDataMapper, RuleDataMapper>();
+            container.Register<IRulesMapper, RulesMapper>();
             container.Register<ILiturgicalYearFactory, LiturgicalYearFactory>();
             container.Register<IResultToRowsMapper, ResultToRowsMapper>();
 
