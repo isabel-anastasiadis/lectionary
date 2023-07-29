@@ -79,7 +79,7 @@ namespace Tests.Pipeline.Steps
         {
             var allData = ruleData ?? _defaultRules;
 
-            var dataFactoryMock = new Mock<IAllDataFactory>();
+            var dataFactoryMock = new Mock<IRuleDataFactory>();
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
 

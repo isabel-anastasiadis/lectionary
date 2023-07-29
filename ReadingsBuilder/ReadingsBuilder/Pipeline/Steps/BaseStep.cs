@@ -13,7 +13,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         protected abstract string RuleSetName { get; }
 
-        public BaseStep(IRuleApplier ruleApplier, IAllDataFactory dataFactory)
+        public BaseStep(IRuleApplier ruleApplier, IRuleDataFactory dataFactory)
         {
             RuleApplier = ruleApplier;
 

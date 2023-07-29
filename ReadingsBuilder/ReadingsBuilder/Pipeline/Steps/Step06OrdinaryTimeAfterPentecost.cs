@@ -9,7 +9,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
         public Step06OrdinaryTimeAfterPentecost(IRuleApplier ruleApplier, 
-            IAllDataFactory dataFactory, 
+            IRuleDataFactory dataFactory, 
             IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;

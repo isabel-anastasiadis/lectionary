@@ -11,7 +11,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
         public Step02AdventToEpiphanyOverrides(IRuleApplier ruleApplier, 
-            IAllDataFactory dataFactory,
+            IRuleDataFactory dataFactory,
             IByDayOfMonthRuleSetApplier ruleSetApplier)
             : base(ruleApplier, dataFactory)
         {

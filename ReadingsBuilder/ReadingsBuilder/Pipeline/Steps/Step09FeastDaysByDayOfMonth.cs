@@ -9,7 +9,7 @@ namespace ReadingsBuilder.Pipeline.Steps
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step09FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IAllDataFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step09FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }

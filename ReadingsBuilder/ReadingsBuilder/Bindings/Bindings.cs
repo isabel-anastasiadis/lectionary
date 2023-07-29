@@ -19,7 +19,7 @@ namespace ReadingsBuilder.Bindings
             container.Register<IResultWriter, ResultWriter>();
 
             // Data
-            container.Register<IAllDataFactory, AllDataFactory>();
+            container.Register<IRuleDataFactory, RuleDataFactory>();
             container.Register<ICsvReader, CsvReader>();
             container.Register<ICsvWriter, CsvWriter>();
 

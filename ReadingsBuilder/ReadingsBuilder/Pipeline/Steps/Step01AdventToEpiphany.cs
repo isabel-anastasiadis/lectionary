@@ -15,7 +15,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         protected override string RuleSetName => "BaseAdvent.cs";
 
 
-        public Step01AdventToEpiphany(IRuleApplier ruleApplier, IAllDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier ) 
+        public Step01AdventToEpiphany(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier ) 
             : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;

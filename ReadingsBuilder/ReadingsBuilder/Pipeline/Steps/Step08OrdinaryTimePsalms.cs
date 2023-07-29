@@ -9,7 +9,7 @@ namespace ReadingsBuilder.Pipeline.Steps
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step08OrdinaryTimePsalms(IRuleApplier ruleApplier, IAllDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step08OrdinaryTimePsalms(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }

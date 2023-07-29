@@ -7,7 +7,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 {
     public class Step04Lent : BaseStep, IStep
     {
-        public Step04Lent(IRuleApplier ruleApplier, IAllDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step04Lent(IRuleApplier ruleApplier, IRuleDataFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }

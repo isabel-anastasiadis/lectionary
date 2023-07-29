@@ -3,14 +3,14 @@ using ReadingsBuilder.Data.Utilities;
 
 namespace ReadingsBuilder.Data.RuleData
 {
-    public class AllDataFactory : IAllDataFactory
+    public class RuleDataFactory : IRuleDataFactory
     {
         public static string DEFAULT_CSV_FILE_PATH = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Data\RuleData\All Rules.csv";
         private readonly ICsvReader csvReader;
         private readonly IRuleDataMapper ruleDataMapper;
 
 
-        public AllDataFactory(ICsvReader csvReader, 
+        public RuleDataFactory(ICsvReader csvReader, 
             IRuleDataMapper ruleDataMapper)
         {
             this.csvReader = csvReader;

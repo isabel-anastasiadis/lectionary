@@ -1,7 +1,7 @@
 ﻿
 namespace ReadingsBuilder.Data.RuleData
 {
-    public interface IAllDataFactory
+    public interface IRuleDataFactory
     {
         List<Model.RuleData> GenerateAllData(string? csvFilePath = null);
     }
