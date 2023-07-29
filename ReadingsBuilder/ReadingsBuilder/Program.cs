@@ -1,10 +1,10 @@
 ﻿
 using ReadingsBuilder;
 using ReadingsBuilder.Bindings;
-using ReadingsBuilder.Model.Data;
-using ReadingsBuilder.Model.Mappers;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.DTOs;
+using ReadingsBuilder.Data;
+using ReadingsBuilder.Data.Result;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Model.Result;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");

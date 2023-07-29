@@ -1,10 +1,11 @@
 ﻿
 using System.Reflection;
-using ReadingsBuilder.Model.Data;
-using ReadingsBuilder.Model.Mappers;
-using ReadingsBuilder.Model.Pipeline;
-using ReadingsBuilder.Model.Pipeline.Steps;
-using ReadingsBuilder.Model.Pipeline.Steps.Utility;
+using ReadingsBuilder.Data.Utilities;
+using ReadingsBuilder.Data.RuleData;
+using ReadingsBuilder.Data.Result;
+using ReadingsBuilder.Pipeline;
+using ReadingsBuilder.Pipeline.Steps;
+using ReadingsBuilder.Pipeline.Steps.Utility;
 using SimpleInjector;
 
 namespace ReadingsBuilder.Bindings
@@ -18,18 +19,18 @@ namespace ReadingsBuilder.Bindings
             container.Register<IResultWriter, ResultWriter>();
 
             // Data
-            container.Register<IAllDataFactory, AllDataFactory>();
+            container.Register<IRuleDataFactory, RuleDataFactory>();
             container.Register<ICsvReader, CsvReader>();
             container.Register<ICsvWriter, CsvWriter>();
 
             // Mappers
             container.Register<IRuleDataMapper, RuleDataMapper>();
-            container.Register<IRotatingReadingMappingProvider, RotatingReadingMappingProvider>();
+            container.Register<ILiturgicalYearFactory, LiturgicalYearFactory>();
             container.Register<IResultToRowsMapper, ResultToRowsMapper>();
 
             // Pipeline
             container.Register<IRuleApplier, RuleApplier>();
-            container.Register<IPipeline, Pipeline>();
+            container.Register<IPipeline, Pipeline.Pipeline>();
 
             // Steps
             var stepImplementationAssemblies = new Assembly[] { typeof(IStep).Assembly };
