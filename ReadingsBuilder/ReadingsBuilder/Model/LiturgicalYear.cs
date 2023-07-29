@@ -6,6 +6,9 @@
 
         public DateOnly LastDay { get; set; }
 
+        // TODO add easter sunday dates too.  Can get from https://www.assa.org.au/edm/#List20
+        // TODO load all from CSV
+
         public RotatingReadingType MorningOldTestamentOrdinary { get; set; }
 
         public RotatingReadingType MorningOldTestamentSeasonal { get; set; }

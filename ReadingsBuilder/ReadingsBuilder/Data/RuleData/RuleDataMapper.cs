@@ -189,23 +189,7 @@ namespace ReadingsBuilder.Data.RuleData
 
             }
 
-
         }
 
-        private RuleType MapRuleType(string ruleTypeString)
-        {
-            switch (ruleTypeString)
-            {
-                case "ByDayOfWeek":
-                    return RuleType.ByDayOfWeek;
-
-                case "ByDayOfMonth":
-                    return RuleType.ByDayOfMonth;
-
-                default:
-                    return RuleType.Unknown;
-            }
-
-        }
     }
 }

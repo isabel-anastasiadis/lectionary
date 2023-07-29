@@ -19,6 +19,11 @@
 
         public string? EveningName { get; set; }
 
+        /// <summary>
+        /// This basically determines whether we are
+        /// 1. Ignoring Old Testament 2 readings, and 
+        /// 2. Using seasonal psalms instead of the normal psalm rotation.
+        /// </summary>
         public bool? IsSeasonalTime { get; set; }
 
         public DayOfWeek? Weekday { get; set; }
@@ -116,7 +121,6 @@
 
     public enum RuleType
     {
-        Unknown,
         ByDayOfWeek,
         ByDayOfMonth
     }
@@ -140,8 +144,6 @@
 
         FeastOrFestivalMask = Festival | PrincipalFeast | PrincipalHolyDay,
         AdventLentOrEastertideMask = Advent | Lent | Eastertide
-
-
     }
 
 }
