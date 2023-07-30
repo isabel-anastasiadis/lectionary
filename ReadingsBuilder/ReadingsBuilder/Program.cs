@@ -12,8 +12,10 @@ Console.WriteLine("Hello, World!");
 
 /**
  * TODO
+ * - Automatically work out Sundays (add a RCL_YEAR filter and add them as 3 separate rows in the base by week rules they apply to)
  * - Finish adding Festivals
  * - Finish the 4 weeks leading up to advent rules
+ * - Make the 1st EP readings have their own columns and be on the same row as their festival rules.
  * - Change the result and app to show the 1st EP of [festival name] 
  * - Deep linking on the app to dates
  */
