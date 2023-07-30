@@ -6,7 +6,7 @@ namespace ReadingsBuilder.Data.Result
 {
     public class ResultWriter : IResultWriter
     {
-        public const string DefaultFilePath = @"c:\github\lectionary\ReadingsBuilder\ReadingsBuilder\Data\Result";
+        public static readonly string DefaultFilePath = DirectoryHelper.SolutionDirectory + @"\ReadingsBuilder\Data\Result";
 
         private readonly ICsvWriter csvWriter;
         private readonly IResultToRowsMapper resultToRowsMapper;

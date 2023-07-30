@@ -5,6 +5,7 @@ using ReadingsBuilder.Data;
 using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Model.Result;
+using ReadingsBuilder.Data.Utilities;
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -39,7 +40,7 @@ var result = pipeline.Run(Inputs.FOR_2022_TO_2023);
 resultWriter.WriteResult(result, "Result.csv", overwrite: true, logToConsole: true);
 
 // copy to the processing folder
-var processingFilePath = @"c:\github\lectionary\jupyter\input\all_readings.csv";
+var processingFilePath = DirectoryHelper.JupyterDirectory + @"\input\all_readings.csv";
 File.Delete(processingFilePath);
 File.Copy(Path.Combine(ResultWriter.DefaultFilePath, "Result.csv"), processingFilePath);
 
