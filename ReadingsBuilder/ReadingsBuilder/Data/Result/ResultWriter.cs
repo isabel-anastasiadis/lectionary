@@ -21,7 +21,16 @@ namespace ReadingsBuilder.Data.Result
         {
             var filePath = Path.Combine(folderPath ?? DefaultFilePath, filename);
 
-            csvWriter.WriteToCSV(resultToRowsMapper.Map(result.Result), filePath, overwrite);
+            var csvString = csvWriter.WriteToCSV(resultToRowsMapper.Map(result.Result));
+
+            if (overwrite)
+            {
+                File.WriteAllText(filePath, csvString);
+            }
+            else
+            {
+                File.AppendAllText(filePath, csvString);
+            }
 
             if (logToConsole)
             {

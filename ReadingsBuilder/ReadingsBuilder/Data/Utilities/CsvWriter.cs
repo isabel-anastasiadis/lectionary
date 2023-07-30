@@ -7,7 +7,7 @@ namespace ReadingsBuilder.Data.Utilities
     public class CsvWriter : ICsvWriter
     {
 
-        public void WriteToCSV(List<List<string>> rows, string filePath, bool overwrite)
+        public string WriteToCSV(List<List<string>> rows)
         {
 
             var csv = new StringBuilder();
@@ -39,14 +39,7 @@ namespace ReadingsBuilder.Data.Utilities
                 csv.AppendLine(String.Join(",", row));
             }
 
-            if (overwrite)
-            {
-                File.WriteAllText(filePath, csv.ToString());
-            }
-            else 
-            {
-                File.AppendAllText(filePath, csv.ToString());
-            }
+            return csv.ToString();
         }
     }
 }
