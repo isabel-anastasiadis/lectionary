@@ -21,7 +21,7 @@ namespace Tests.Pipeline
         [Test]
         public void FourthSundayBeforeAdventIsCalculatedCorrectly() {
             // arrange
-            var input = new Input() { FirstSundayOfAdvent = new DateOnly(2022, 11, 27) };
+            var input = new Input() { FirstSundayOfAdventTheFollowingYear = new DateOnly(2022, 11, 27) };
 
             // act
             var result = input.FourthSundayBeforeAdvent;

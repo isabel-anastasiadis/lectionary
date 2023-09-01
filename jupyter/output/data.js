@@ -57,34 +57,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 74",
-                "Isaiah 26:1\u201313",
-                "Matthew 12:22\u201337"
+                "Psalm 48",
+                "Isaiah 49:1\u20139a",
+                "1 Corinthians 4:9\u201316"
             ],
-            "reading_link": "Psalm+74%3B+Isaiah+26:1-13%3B+Matthew+12:22-37",
-            "audio_link": "Ps.74,Isa.26,Matt.12"
+            "reading_link": "Psalm+48%3B+Isaiah+49:1-9a%3B+1+Corinthians+4:9-16",
+            "audio_link": "Ps.48,Isa.49,1Cor.4"
         }
     },
     "2022/11/30": {
         "date_pretty": "Wednesday, November 30, 2022",
-        "day_description": "Week of 1st Sunday of Advent",
+        "day_description": "St Andrew the Apostle",
         "morning": {
             "readings": [
-                "Psalm 7",
-                "Isaiah 43:14\u2013end",
-                "Revelation 21:1\u20138"
+                "Psalm 47,147:1\u201311",
+                "Ezekiel 47:1\u201312",
+                "John 12:20\u201332"
             ],
-            "reading_link": "Psalm+7%3B+Isaiah+43:14-%3B+Revelation+21:1-8",
-            "audio_link": "Ps.7,Isa.43,Rev.21"
+            "reading_link": "Psalm+47,147:1-11%3B+Ezekiel+47:1-12%3B+John+12:20-32",
+            "audio_link": "Ps.47,147,Ezek.47,John.12"
         },
         "evening": {
             "readings": [
-                "Psalm 77",
-                "Isaiah 28:1\u201313",
-                "Matthew 12:38\u2013end"
+                "Psalm 87,96",
+                "Zechariah 8:20\u201323",
+                "John 1:35\u201342"
             ],
-            "reading_link": "Psalm+77%3B+Isaiah+28:1-13%3B+Matthew+12:38-",
-            "audio_link": "Ps.77,Isa.28,Matt.12"
+            "reading_link": "Psalm+87,96%3B+Zechariah+8:20-23%3B+John+1:35-42",
+            "audio_link": "Ps.87,96,Zech.8,John.1"
         }
     },
     "2022/12/01": {
@@ -180,21 +180,21 @@ class Data {  data = {
         "day_description": "Week of 2nd Sunday of Advent",
         "morning": {
             "readings": [
-                "Psalm 80",
-                "Isaiah 64:1\u20137",
-                "Matthew 11:2\u201311"
+                "Psalm 44",
+                "Isaiah 45:14\u2013end",
+                "1 Thessalonians 1"
             ],
-            "reading_link": "Psalm+80%3B+Isaiah+64:1-7%3B+Matthew+11:2-11",
-            "audio_link": "Ps.80,Isa.64,Matt.11"
+            "reading_link": "Psalm+44%3B+Isaiah+45:14-%3B+1+Thessalonians+1",
+            "audio_link": "Ps.44,Isa.45,1Thess.1"
         },
         "evening": {
             "readings": [
-                "Psalm 75",
-                "Isaiah 40:1\u201311",
-                "Luke 1:1\u201325"
+                "Psalm 144",
+                "Isaiah 30:1\u201318",
+                "Matthew 14:1\u201312"
             ],
-            "reading_link": "Psalm+75%3B+Isaiah+40:1-11%3B+Luke+1:1-25",
-            "audio_link": "Ps.75,Isa.40,Luke.1"
+            "reading_link": "Psalm+144%3B+Isaiah+30:1-18%3B+Matthew+14:1-12",
+            "audio_link": "Ps.144,Isa.30,Matt.14"
         }
     },
     "2022/12/06": {
@@ -5554,17 +5554,17 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 46",
-                "1 Samuel 17:55\u201318:16",
-                "Luke 24:36\u2013end"
+                "Psalm 99,110",
+                "Exodus 24:12\u201318",
+                "John 12:27\u201336a"
             ],
-            "reading_link": "Psalm+46%3B+1+Samuel+17:55-18:16%3B+Luke+24:36-",
-            "audio_link": "Ps.46,1Sam.17,Luke.24"
+            "reading_link": "Psalm+99,110%3B+Exodus+24:12-18%3B+John+12:27-36a",
+            "audio_link": "Ps.99,110,Exod.24,John.12"
         }
     },
     "2023/08/06": {
         "date_pretty": "Sunday, August 6, 2023",
-        "day_description": "20th Sunday in Ordinary Time",
+        "day_description": "The Transfiguration of the Beloved Son",
         "morning": {
             "readings": [
                 "Psalm 27,150",
@@ -5753,33 +5753,33 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 72",
-                "1 Samuel 24",
-                "Acts 3:11\u2013end"
+                "Proverbs 8:22\u201331",
+                "John 19:23\u201327"
             ],
-            "reading_link": "Psalm+72%3B+1+Samuel+24%3B+Acts+3:11-",
-            "audio_link": "Ps.72,1Sam.24,Acts.3"
+            "reading_link": "Psalm+72%3B+Proverbs+8:22-31%3B+John+19:23-27",
+            "audio_link": "Ps.72,Prov.8,John.19"
         }
     },
     "2023/08/15": {
         "date_pretty": "Tuesday, August 15, 2023",
-        "day_description": "Week of 21st Sunday in Ordinary Time",
+        "day_description": "The Blessed Virgin Mary",
         "morning": {
             "readings": [
-                "Psalm 73",
-                "Jeremiah 42",
-                "Mark 3:7\u201319a"
+                "Psalm 98,138,147:1\u201311",
+                "Isaiah 7:10\u201315",
+                "Luke 11:27\u201328"
             ],
-            "reading_link": "Psalm+73%3B+Jeremiah+42%3B+Mark+3:7-19a",
-            "audio_link": "Ps.73,Jer.42,Mark.3"
+            "reading_link": "Psalm+98,138,147:1-11%3B+Isaiah+7:10-15%3B+Luke+11:27-28",
+            "audio_link": "Ps.98,138,147,Isa.7,Luke.11"
         },
         "evening": {
             "readings": [
-                "Psalm 74",
-                "1 Samuel 26",
-                "Acts 4:1\u201312"
+                "Psalm 132",
+                "Song of Solomon 2:1\u20137",
+                "Acts 1:6\u201314"
             ],
-            "reading_link": "Psalm+74%3B+1+Samuel+26%3B+Acts+4:1-12",
-            "audio_link": "Ps.74,1Sam.26,Acts.4"
+            "reading_link": "Psalm+132%3B+Song+of+Solomon+2:1-7%3B+Acts+1:6-14",
+            "audio_link": "Ps.132,Song.2,Acts.1"
         }
     },
     "2023/08/16": {
@@ -5950,34 +5950,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 91",
-                "2 Samuel 6:1\u201319",
-                "Acts 7:17\u201343"
+                "Psalm 97",
+                "Isaiah 61:1\u20139",
+                "2 Corinthians 6:1\u201310"
             ],
-            "reading_link": "Psalm+91%3B+2+Samuel+6:1-19%3B+Acts+7:17-43",
-            "audio_link": "Ps.91,2Sam.6,Acts.7"
+            "reading_link": "Psalm+97%3B+Isaiah+61:1-9%3B+2+Corinthians+6:1-10",
+            "audio_link": "Ps.97,Isa.61,2Cor.6"
         }
     },
     "2023/08/24": {
         "date_pretty": "Thursday, August 24, 2023",
-        "day_description": "Week of 22nd Sunday in Ordinary Time",
+        "day_description": "St Bartholomew the Apostle",
         "morning": {
             "readings": [
-                "Psalm 92",
-                "Micah 4:1\u20135:1",
-                "Mark 6:1\u201313"
+                "Psalm 86,117",
+                "Genesis 28:10\u201317",
+                "John 1:43\u201351"
             ],
-            "reading_link": "Psalm+92%3B+Micah+4:1-5:1%3B+Mark+6:1-13",
-            "audio_link": "Ps.92,Mic.4,Mark.6"
+            "reading_link": "Psalm+86,117%3B+Genesis+28:10-17%3B+John+1:43-51",
+            "audio_link": "Ps.86,117,Gen.28,John.1"
         },
         "evening": {
             "readings": [
-                "Psalm 94",
-                "2 Samuel 7:1\u201317",
-                "Acts 7:44\u201353"
+                "Psalm 91,116",
+                "Deuteronomy 18:15\u201319",
+                "Matthew 10:1\u201322"
             ],
-            "reading_link": "Psalm+94%3B+2+Samuel+7:1-17%3B+Acts+7:44-53",
-            "audio_link": "Ps.94,2Sam.7,Acts.7"
+            "reading_link": "Psalm+91,116%3B+Deuteronomy+18:15-19%3B+Matthew+10:1-22",
+            "audio_link": "Ps.91,116,Deut.18,Matt.10"
         }
     },
     "2023/08/25": {
@@ -6414,34 +6414,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 11",
-                "1 Kings 3",
-                "Acts 14:8\u2013end"
+                "Psalm 66",
+                "Isaiah 52:13\u201353:12",
+                "Ephesians 2:11\u201322"
             ],
-            "reading_link": "Psalm+11%3B+1+Kings+3%3B+Acts+14:8-",
-            "audio_link": "Ps.11,1Kgs.3,Acts.14"
+            "reading_link": "Psalm+66%3B+Isaiah+52:13-53:12%3B+Ephesians+2:11-22",
+            "audio_link": "Ps.66,Isa.52,Eph.2"
         }
     },
     "2023/09/14": {
         "date_pretty": "Thursday, September 14, 2023",
-        "day_description": "Week of 25th Sunday in Ordinary Time",
+        "day_description": "Holy Cross Day",
         "morning": {
             "readings": [
-                "Psalm 15",
-                "Zechariah 8:1\u20138",
-                "Mark 10:32\u201334"
+                "Psalm 2,8,146",
+                "Genesis 3:1\u201315",
+                "John 12:27\u201336a"
             ],
-            "reading_link": "Psalm+15%3B+Zechariah+8:1-8%3B+Mark+10:32-34",
-            "audio_link": "Ps.15,Zech.8,Mark.10"
+            "reading_link": "Psalm+2,8,146%3B+Genesis+3:1-15%3B+John+12:27-36a",
+            "audio_link": "Ps.2,8,146,Gen.3,John.12"
         },
         "evening": {
             "readings": [
-                "Psalm 18",
-                "1 Kings 4:29\u20135:12",
-                "Acts 15:1\u201321"
+                "Psalm 110,150",
+                "Isaiah 63:1\u201316",
+                "1 Corinthians 1:18\u201325"
             ],
-            "reading_link": "Psalm+18%3B+1+Kings+4:29-5:12%3B+Acts+15:1-21",
-            "audio_link": "Ps.18,1Kgs.4,Acts.15"
+            "reading_link": "Psalm+110,150%3B+Isaiah+63:1-16%3B+1+Corinthians+1:18-25",
+            "audio_link": "Ps.110,150,Isa.63,1Cor.1"
         }
     },
     "2023/09/15": {
@@ -6568,34 +6568,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 119:33\u201356",
-                "1 Kings 10:1\u201325",
-                "Acts 17:1\u201315"
+                "Psalm 34",
+                "Isaiah 33:13\u201317",
+                "Matthew 6:19\u201334"
             ],
-            "reading_link": "Psalm+119:33-56%3B+1+Kings+10:1-25%3B+Acts+17:1-15",
-            "audio_link": "Ps.119,1Kgs.10,Acts.17"
+            "reading_link": "Psalm+34%3B+Isaiah+33:13-17%3B+Matthew+6:19-34",
+            "audio_link": "Ps.34,Isa.33,Matt.6"
         }
     },
     "2023/09/21": {
         "date_pretty": "Thursday, September 21, 2023",
-        "day_description": "Week of 26th Sunday in Ordinary Time",
+        "day_description": "St Matthew, Apostle and Evangelist",
         "morning": {
             "readings": [
-                "Psalm 37",
-                "Zechariah 13",
-                "Mark 12:1\u201312"
+                "Psalm 49,117",
+                "1 Kings 19:15\u201321",
+                "2 Timothy 3:14\u201317"
             ],
-            "reading_link": "Psalm+37%3B+Zechariah+13%3B+Mark+12:1-12",
-            "audio_link": "Ps.37,Zech.13,Mark.12"
+            "reading_link": "Psalm+49,117%3B+1+Kings+19:15-21%3B+2+Timothy+3:14-17",
+            "audio_link": "Ps.49,117,1Kgs.19,2Tim.3"
         },
         "evening": {
             "readings": [
-                "Psalm 40",
-                "1 Kings 11:1\u201313",
-                "Acts 17:16\u2013end"
+                "Psalm 119:33\u201340,119:89\u201396",
+                "Ecclesiastes 5:4\u201312",
+                "Matthew 19:16\u201330"
             ],
-            "reading_link": "Psalm+40%3B+1+Kings+11:1-13%3B+Acts+17:16-",
-            "audio_link": "Ps.40,1Kgs.11,Acts.17"
+            "reading_link": "Psalm+119:33-40,119:89-96%3B+Ecclesiastes+5:4-12%3B+Matthew+19:16-30",
+            "audio_link": "Ps.119,Eccl.5,Matt.19"
         }
     },
     "2023/09/22": {
@@ -6744,34 +6744,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 62",
-                "1 Kings 18:1\u201320",
-                "Acts 20:17\u2013end"
+                "Psalm 91",
+                "2 Kings 6:8\u201317",
+                "Matthew 18:1\u20136,10"
             ],
-            "reading_link": "Psalm+62%3B+1+Kings+18:1-20%3B+Acts+20:17-",
-            "audio_link": "Ps.62,1Kgs.18,Acts.20"
+            "reading_link": "Psalm+91%3B+2+Kings+6:8-17%3B+Matthew+18:1-6,10",
+            "audio_link": "Ps.91,2Kgs.6,Matt.18"
         }
     },
     "2023/09/29": {
         "date_pretty": "Friday, September 29, 2023",
-        "day_description": "Week of 27th Sunday in Ordinary Time",
+        "day_description": "St Michael and All Angels / Michaelmas",
         "morning": {
             "readings": [
-                "Psalm 51",
-                "Ezekiel 8",
-                "Mark 13:24\u201331"
+                "Psalm 34,150",
+                "Daniel 12:1\u20134",
+                "Acts 12:1\u201311"
             ],
-            "reading_link": "Psalm+51%3B+Ezekiel+8%3B+Mark+13:24-31",
-            "audio_link": "Ps.51,Ezek.8,Mark.13"
+            "reading_link": "Psalm+34,150%3B+Daniel+12:1-4%3B+Acts+12:1-11",
+            "audio_link": "Ps.34,150,Dan.12,Acts.12"
         },
         "evening": {
             "readings": [
-                "Psalm 38",
-                "1 Kings 18:21\u2013end",
-                "Acts 21:1\u201316"
+                "Psalm 138,148",
+                "Daniel 10:4\u201321",
+                "Revelations 5"
             ],
-            "reading_link": "Psalm+38%3B+1+Kings+18:21-%3B+Acts+21:1-16",
-            "audio_link": "Ps.38,1Kgs.18,Acts.21"
+            "reading_link": "Psalm+138,148%3B+Daniel+10:4-21%3B+Revelations+5",
+            "audio_link": "Ps.138,148,Dan.10,Revs.5"
         }
     },
     "2023/09/30": {
@@ -7162,34 +7162,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 107",
-                "2 Kings 18:1\u201312",
-                "Philippians 1:12\u2013end"
+                "Psalm 33",
+                "Hosea 6:1\u20133",
+                "2 Timothy 3:10\u201317"
             ],
-            "reading_link": "Psalm+107%3B+2+Kings+18:1-12%3B+Philippians+1:12-",
-            "audio_link": "Ps.107,2Kgs.18,Phil.1"
+            "reading_link": "Psalm+33%3B+Hosea+6:1-3%3B+2+Timothy+3:10-17",
+            "audio_link": "Ps.33,Hos.6,2Tim.3"
         }
     },
     "2023/10/18": {
         "date_pretty": "Wednesday, October 18, 2023",
-        "day_description": "Week of 30th Sunday in Ordinary Time",
+        "day_description": "St Luke the Evangelist",
         "morning": {
             "readings": [
-                "Psalm 111",
-                "Ezekiel 33:21\u2013end",
-                "John 13:21\u201330"
+                "Psalm 145,146",
+                "Isaiah 55",
+                "Luke 1:1\u20134"
             ],
-            "reading_link": "Psalm+111%3B+Ezekiel+33:21-%3B+John+13:21-30",
-            "audio_link": "Ps.111,Ezek.33,John.13"
+            "reading_link": "Psalm+145,146%3B+Isaiah+55%3B+Luke+1:1-4",
+            "audio_link": "Ps.145,146,Isa.55,Luke.1"
         },
         "evening": {
             "readings": [
-                "Psalm 119:129\u2013152",
-                "2 Kings 18:13\u2013end",
-                "Philippians 2:1\u201313"
+                "Psalm 103",
+                "Isaiah 61:1\u20136",
+                "Colossians 4:7\u201318"
             ],
-            "reading_link": "Psalm+119:129-152%3B+2+Kings+18:13-%3B+Philippians+2:1-13",
-            "audio_link": "Ps.119,2Kgs.18,Phil.2"
+            "reading_link": "Psalm+103%3B+Isaiah+61:1-6%3B+Colossians+4:7-18",
+            "audio_link": "Ps.103,Isa.61,Col.4"
         }
     },
     "2023/10/19": {
@@ -7383,34 +7383,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 145",
-                "2 Kings 24:18\u201325:12",
-                "1 Timothy 5:1\u201316"
+                "Psalm 124,125,126",
+                "Deuteronomy 32:1\u20134",
+                "John 14:15\u201326"
             ],
-            "reading_link": "Psalm+145%3B+2+Kings+24:18-25:12%3B+1+Timothy+5:1-16",
-            "audio_link": "Ps.145,2Kgs.24,1Tim.5"
+            "reading_link": "Psalm+124,125,126%3B+Deuteronomy+32:1-4%3B+John+14:15-26",
+            "audio_link": "Ps.124,125,126,Deut.32,John.14"
         }
     },
     "2023/10/28": {
         "date_pretty": "Saturday, October 28, 2023",
-        "day_description": "Week of 31st Sunday in Ordinary Time",
+        "day_description": "St Simon and St Jude, Apostles",
         "morning": {
             "readings": [
-                "Psalm 147",
-                "Ezekiel 47:1\u201312",
-                "John 16:23\u2013end"
+                "Psalm 116,117",
+                "Isaiah 45:18\u201326",
+                "Luke 6:12\u201316"
             ],
-            "reading_link": "Psalm+147%3B+Ezekiel+47:1-12%3B+John+16:23-",
-            "audio_link": "Ps.147,Ezek.47,John.16"
+            "reading_link": "Psalm+116,117%3B+Isaiah+45:18-26%3B+Luke+6:12-16",
+            "audio_link": "Ps.116,117,Isa.45,Luke.6"
         },
         "evening": {
             "readings": [
-                "Psalm 148",
-                "2 Kings 25:22\u2013end",
-                "1 Timothy 5:17\u2013end"
+                "Psalm 119:1\u201316",
+                "Jeremiah 3:11\u201318",
+                "Jude 1\u20134,17\u201325"
             ],
-            "reading_link": "Psalm+148%3B+2+Kings+25:22-%3B+1+Timothy+5:17-",
-            "audio_link": "Ps.148,2Kgs.25,1Tim.5"
+            "reading_link": "Psalm+119:1-16%3B+Jeremiah+3:11-18%3B+Jude+1-4,17-25",
+            "audio_link": "Ps.119,Jer.3,Jude.1\u20134,17\u201325"
         }
     },
     "2023/10/29": {
@@ -7472,34 +7472,34 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 9",
-                "Exodus 29:38\u201330:16",
-                "1 Timothy 6:11\u2013end"
+                "Psalm 1,5",
+                "Isaiah 40:27\u2013end",
+                "Revelations 19:6\u201310"
             ],
-            "reading_link": "Psalm+9%3B+Exodus+29:38-30:16%3B+1+Timothy+6:11-",
-            "audio_link": "Ps.9,Exod.29,1Tim.6"
+            "reading_link": "Psalm+1,5%3B+Isaiah+40:27-%3B+Revelations+19:6-10",
+            "audio_link": "Ps.1,5,Isa.40,Revs.19"
         }
     },
     "2023/11/01": {
         "date_pretty": "Wednesday, November 1, 2023",
-        "day_description": "Week of 32nd Sunday in Ordinary Time",
+        "day_description": "All Saints Day",
         "morning": {
             "readings": [
-                "Psalm 119:1\u201332",
-                "Ecclesiastes 3:1\u201315",
-                "John 17:20\u2013end"
+                "Psalm 15,84,149",
+                "Isaiah 35",
+                "Luke 9:18\u201327"
             ],
-            "reading_link": "Psalm+119:1-32%3B+Ecclesiastes+3:1-15%3B+John+17:20-",
-            "audio_link": "Ps.119,Eccl.3,John.17"
+            "reading_link": "Psalm+15,84,149%3B+Isaiah+35%3B+Luke+9:18-27",
+            "audio_link": "Ps.15,84,149,Isa.35,Luke.9"
         },
         "evening": {
             "readings": [
-                "Psalm 11",
-                "Leviticus 8",
-                "2 Timothy 1:1\u201314"
+                "Psalm 148,150",
+                "Isaiah 65:17\u201325",
+                "Hebrews 11:32\u201312:2"
             ],
-            "reading_link": "Psalm+11%3B+Leviticus+8%3B+2+Timothy+1:1-14",
-            "audio_link": "Ps.11,Lev.8,2Tim.1"
+            "reading_link": "Psalm+148,150%3B+Isaiah+65:17-25%3B+Hebrews+11:32-12:2",
+            "audio_link": "Ps.148,150,Isa.65,Heb.11"
         }
     },
     "2023/11/02": {
@@ -7567,6 +7567,622 @@ class Data {  data = {
             ],
             "reading_link": "Psalm+24%3B+Leviticus+17%3B+2+Timothy+3",
             "audio_link": "Ps.24,Lev.17,2Tim.3"
+        }
+    },
+    "2023/11/05": {
+        "date_pretty": "Sunday, November 5, 2023",
+        "day_description": "4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 33",
+                "Isaiah 66:20\u201323",
+                "Ephesians 1:11\u201323"
+            ],
+            "reading_link": "Psalm+33%3B+Isaiah+66:20-23%3B+Ephesians+1:11-23",
+            "audio_link": "Ps.33,Isa.66,Eph.1"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 111,117",
+                "Daniel 7:1\u201318",
+                "Luke 6:17\u201331"
+            ],
+            "reading_link": "Psalm+111,117%3B+Daniel+7:1-18%3B+Luke+6:17-31",
+            "audio_link": "Ps.111,117,Dan.7,Luke.6"
+        }
+    },
+    "2023/11/06": {
+        "date_pretty": "Monday, November 6, 2023",
+        "day_description": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 2",
+                "Isaiah 1:1\u201320",
+                "Matthew 1:18\u2013end"
+            ],
+            "reading_link": "Psalm+2%3B+Isaiah+1:1-20%3B+Matthew+1:18-",
+            "audio_link": "Ps.2,Isa.1,Matt.1"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 92",
+                "Daniel 1",
+                "Revelation 1"
+            ],
+            "reading_link": "Psalm+92%3B+Daniel+1%3B+Revelation+1",
+            "audio_link": "Ps.92,Dan.1,Rev.1"
+        }
+    },
+    "2023/11/07": {
+        "date_pretty": "Tuesday, November 7, 2023",
+        "day_description": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 5",
+                "Isaiah 1:21\u2013end",
+                "Matthew 2:1\u201315"
+            ],
+            "reading_link": "Psalm+5%3B+Isaiah+1:21-%3B+Matthew+2:1-15",
+            "audio_link": "Ps.5,Isa.1,Matt.2"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 100",
+                "Daniel 2:1\u201324",
+                "Revelation 2:1\u201311"
+            ],
+            "reading_link": "Psalm+100%3B+Daniel+2:1-24%3B+Revelation+2:1-11",
+            "audio_link": "Ps.100,Dan.2,Rev.2"
+        }
+    },
+    "2023/11/08": {
+        "date_pretty": "Wednesday, November 8, 2023",
+        "day_description": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 9",
+                "Isaiah 2:1\u201311",
+                "Matthew 2:16\u2013end"
+            ],
+            "reading_link": "Psalm+9%3B+Isaiah+2:1-11%3B+Matthew+2:16-",
+            "audio_link": "Ps.9,Isa.2,Matt.2"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 112",
+                "Daniel 2:25\u2013end",
+                "Revelation 2:12\u2013end"
+            ],
+            "reading_link": "Psalm+112%3B+Daniel+2:25-%3B+Revelation+2:12-",
+            "audio_link": "Ps.112,Dan.2,Rev.2"
+        }
+    },
+    "2023/11/09": {
+        "date_pretty": "Thursday, November 9, 2023",
+        "day_description": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 15",
+                "Isaiah 2:12\u2013end",
+                "Matthew 3"
+            ],
+            "reading_link": "Psalm+15%3B+Isaiah+2:12-%3B+Matthew+3",
+            "audio_link": "Ps.15,Isa.2,Matt.3"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 118",
+                "Daniel 3:1\u201318",
+                "Revelation 3:1\u201313"
+            ],
+            "reading_link": "Psalm+118%3B+Daniel+3:1-18%3B+Revelation+3:1-13",
+            "audio_link": "Ps.118,Dan.3,Rev.3"
+        }
+    },
+    "2023/11/10": {
+        "date_pretty": "Friday, November 10, 2023",
+        "day_description": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 16",
+                "Isaiah 3:1\u201315",
+                "Matthew 4:1\u201311"
+            ],
+            "reading_link": "Psalm+16%3B+Isaiah+3:1-15%3B+Matthew+4:1-11",
+            "audio_link": "Ps.16,Isa.3,Matt.4"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 143",
+                "Daniel 3:19\u2013end",
+                "Revelation 3:14\u2013end"
+            ],
+            "reading_link": "Psalm+143%3B+Daniel+3:19-%3B+Revelation+3:14-",
+            "audio_link": "Ps.143,Dan.3,Rev.3"
+        }
+    },
+    "2023/11/11": {
+        "date_pretty": "Saturday, November 11, 2023",
+        "day_description": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 18.31\u2013end",
+                "Isaiah 4:2\u20135:7",
+                "Matthew 4:12\u201322"
+            ],
+            "reading_link": "Psalm+18.31-%3B+Isaiah+4:2-5:7%3B+Matthew+4:12-22",
+            "audio_link": "Ps.18.31\u2013end,Isa.4,Matt.4"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 145",
+                "Daniel 4:1\u201318",
+                "Revelation 4"
+            ],
+            "reading_link": "Psalm+145%3B+Daniel+4:1-18%3B+Revelation+4",
+            "audio_link": "Ps.145,Dan.4,Rev.4"
+        }
+    },
+    "2023/11/12": {
+        "date_pretty": "Sunday, November 12, 2023",
+        "day_description": "3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 91",
+                "Deuteronomy 17:14\u201320",
+                "1 Timothy 2:1\u20137"
+            ],
+            "reading_link": "Psalm+91%3B+Deuteronomy+17:14-20%3B+1+Timothy+2:1-7",
+            "audio_link": "Ps.91,Deut.17,1Tim.2"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 82",
+                "Judges 7:2\u201322",
+                "John 15:9\u201317"
+            ],
+            "reading_link": "Psalm+82%3B+Judges+7:2-22%3B+John+15:9-17",
+            "audio_link": "Ps.82,Judg.7,John.15"
+        }
+    },
+    "2023/11/13": {
+        "date_pretty": "Monday, November 13, 2023",
+        "day_description": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 20",
+                "Isaiah 5:8\u201324",
+                "Matthew 4:23\u20135:12"
+            ],
+            "reading_link": "Psalm+20%3B+Isaiah+5:8-24%3B+Matthew+4:23-5:12",
+            "audio_link": "Ps.20,Isa.5,Matt.4"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 34",
+                "Daniel 4:19\u2013end",
+                "Revelation 5"
+            ],
+            "reading_link": "Psalm+34%3B+Daniel+4:19-%3B+Revelation+5",
+            "audio_link": "Ps.34,Dan.4,Rev.5"
+        }
+    },
+    "2023/11/14": {
+        "date_pretty": "Tuesday, November 14, 2023",
+        "day_description": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 21",
+                "Isaiah 5:25\u2013end",
+                "Matthew 5:13\u201320"
+            ],
+            "reading_link": "Psalm+21%3B+Isaiah+5:25-%3B+Matthew+5:13-20",
+            "audio_link": "Ps.21,Isa.5,Matt.5"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 40",
+                "Daniel 5:1\u201312",
+                "Revelation 6"
+            ],
+            "reading_link": "Psalm+40%3B+Daniel+5:1-12%3B+Revelation+6",
+            "audio_link": "Ps.40,Dan.5,Rev.6"
+        }
+    },
+    "2023/11/15": {
+        "date_pretty": "Wednesday, November 15, 2023",
+        "day_description": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 23",
+                "Isaiah 6",
+                "Matthew 5:21\u201337"
+            ],
+            "reading_link": "Psalm+23%3B+Isaiah+6%3B+Matthew+5:21-37",
+            "audio_link": "Ps.23,Isa.6,Matt.5"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 37",
+                "Daniel 5:13\u2013end",
+                "Revelation 7:1\u20134,9\u2013end"
+            ],
+            "reading_link": "Psalm+37%3B+Daniel+5:13-%3B+Revelation+7:1-4,9-",
+            "audio_link": "Ps.37,Dan.5,Rev.7"
+        }
+    },
+    "2023/11/16": {
+        "date_pretty": "Thursday, November 16, 2023",
+        "day_description": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 26",
+                "Isaiah 7:1\u201317",
+                "Matthew 5:38\u2013end"
+            ],
+            "reading_link": "Psalm+26%3B+Isaiah+7:1-17%3B+Matthew+5:38-",
+            "audio_link": "Ps.26,Isa.7,Matt.5"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 43",
+                "Daniel 6",
+                "Revelation 8"
+            ],
+            "reading_link": "Psalm+43%3B+Daniel+6%3B+Revelation+8",
+            "audio_link": "Ps.43,Dan.6,Rev.8"
+        }
+    },
+    "2023/11/17": {
+        "date_pretty": "Friday, November 17, 2023",
+        "day_description": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 32",
+                "Isaiah 8:1\u201315",
+                "Matthew 6:1\u201318"
+            ],
+            "reading_link": "Psalm+32%3B+Isaiah+8:1-15%3B+Matthew+6:1-18",
+            "audio_link": "Ps.32,Isa.8,Matt.6"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 31",
+                "Daniel 7:1\u201314",
+                "Revelation 9:1\u201312"
+            ],
+            "reading_link": "Psalm+31%3B+Daniel+7:1-14%3B+Revelation+9:1-12",
+            "audio_link": "Ps.31,Dan.7,Rev.9"
+        }
+    },
+    "2023/11/18": {
+        "date_pretty": "Saturday, November 18, 2023",
+        "day_description": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 33",
+                "Isaiah 8:16\u20139:7",
+                "Matthew 6:19\u2013end"
+            ],
+            "reading_link": "Psalm+33%3B+Isaiah+8:16-9:7%3B+Matthew+6:19-",
+            "audio_link": "Ps.33,Isa.8,Matt.6"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 86",
+                "Daniel 7:15\u2013end",
+                "Revelation 9:13\u2013end"
+            ],
+            "reading_link": "Psalm+86%3B+Daniel+7:15-%3B+Revelation+9:13-",
+            "audio_link": "Ps.86,Dan.7,Rev.9"
+        }
+    },
+    "2023/11/19": {
+        "date_pretty": "Sunday, November 19, 2023",
+        "day_description": "2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 98",
+                "Daniel 10:19\u201321",
+                "Revelation 4"
+            ],
+            "reading_link": "Psalm+98%3B+Daniel+10:19-21%3B+Revelation+4",
+            "audio_link": "Ps.98,Dan.10,Rev.4"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 89:19\u201336",
+                "1 Kings 1:15\u201340",
+                "Revelation 1:4\u201318"
+            ],
+            "reading_link": "Psalm+89:19-36%3B+1+Kings+1:15-40%3B+Revelation+1:4-18",
+            "audio_link": "Ps.89,1Kgs.1,Rev.1"
+        }
+    },
+    "2023/11/20": {
+        "date_pretty": "Monday, November 20, 2023",
+        "day_description": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 47",
+                "Isaiah 9:8\u201310:4",
+                "Matthew 7:1\u201312"
+            ],
+            "reading_link": "Psalm+47%3B+Isaiah+9:8-10:4%3B+Matthew+7:1-12",
+            "audio_link": "Ps.47,Isa.9,Matt.7"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 71",
+                "Daniel 8:1\u201314",
+                "Revelation 10"
+            ],
+            "reading_link": "Psalm+71%3B+Daniel+8:1-14%3B+Revelation+10",
+            "audio_link": "Ps.71,Dan.8,Rev.10"
+        }
+    },
+    "2023/11/21": {
+        "date_pretty": "Tuesday, November 21, 2023",
+        "day_description": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 52",
+                "Isaiah 10:5\u201319",
+                "Matthew 7:13\u2013end"
+            ],
+            "reading_link": "Psalm+52%3B+Isaiah+10:5-19%3B+Matthew+7:13-",
+            "audio_link": "Ps.52,Isa.10,Matt.7"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 67",
+                "Daniel 8:15\u2013end",
+                "Revelation 11:1\u201314"
+            ],
+            "reading_link": "Psalm+67%3B+Daniel+8:15-%3B+Revelation+11:1-14",
+            "audio_link": "Ps.67,Dan.8,Rev.11"
+        }
+    },
+    "2023/11/22": {
+        "date_pretty": "Wednesday, November 22, 2023",
+        "day_description": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 56",
+                "Isaiah 10:20\u201332",
+                "Matthew 8:1\u201313"
+            ],
+            "reading_link": "Psalm+56%3B+Isaiah+10:20-32%3B+Matthew+8:1-13",
+            "audio_link": "Ps.56,Isa.10,Matt.8"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 73",
+                "Daniel 9:1\u201319",
+                "Revelation 11:15\u2013end"
+            ],
+            "reading_link": "Psalm+73%3B+Daniel+9:1-19%3B+Revelation+11:15-",
+            "audio_link": "Ps.73,Dan.9,Rev.11"
+        }
+    },
+    "2023/11/23": {
+        "date_pretty": "Thursday, November 23, 2023",
+        "day_description": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 62",
+                "Isaiah 10:33\u201311:9",
+                "Matthew 8:14\u201322"
+            ],
+            "reading_link": "Psalm+62%3B+Isaiah+10:33-11:9%3B+Matthew+8:14-22",
+            "audio_link": "Ps.62,Isa.10,Matt.8"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 76",
+                "Daniel 9:20\u2013end",
+                "Revelation 12"
+            ],
+            "reading_link": "Psalm+76%3B+Daniel+9:20-%3B+Revelation+12",
+            "audio_link": "Ps.76,Dan.9,Rev.12"
+        }
+    },
+    "2023/11/24": {
+        "date_pretty": "Friday, November 24, 2023",
+        "day_description": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 63",
+                "Isaiah 11:10\u2013end of 12",
+                "Matthew 8:23\u2013end"
+            ],
+            "reading_link": "Psalm+63%3B+Isaiah+11:10-+of+12%3B+Matthew+8:23-",
+            "audio_link": "Ps.63,Isa.11,Matt.8"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 77",
+                "Daniel 10:1\u201311:1",
+                "Revelation 13:1\u201310"
+            ],
+            "reading_link": "Psalm+77%3B+Daniel+10:1-11:1%3B+Revelation+13:1-10",
+            "audio_link": "Ps.77,Dan.10,Rev.13"
+        }
+    },
+    "2023/11/25": {
+        "date_pretty": "Saturday, November 25, 2023",
+        "day_description": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 78.1\u201339",
+                "Isaiah 13:1\u201313",
+                "Matthew 9:1\u201317"
+            ],
+            "reading_link": "Psalm+78.1-39%3B+Isaiah+13:1-13%3B+Matthew+9:1-17",
+            "audio_link": "Ps.78.1\u201339,Isa.13,Matt.9"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 99,100",
+                "Isaiah 10:33\u201311:9",
+                "1 Timothy 6:11\u201316"
+            ],
+            "reading_link": "Psalm+99,100%3B+Isaiah+10:33-11:9%3B+1+Timothy+6:11-16",
+            "audio_link": "Ps.99,100,Isa.10,1Tim.6"
+        }
+    },
+    "2023/11/26": {
+        "date_pretty": "Sunday, November 26, 2023",
+        "day_description": "Christ the King Sunday",
+        "morning": {
+            "readings": [
+                "Psalm 29,110",
+                "Isaiah 4:2\u2013end,5:1\u20137",
+                "Luke 19:29\u201338"
+            ],
+            "reading_link": "Psalm+29,110%3B+Isaiah+4:2-,5:1-7%3B+Luke+19:29-38",
+            "audio_link": "Ps.29,110,Isa.4,Luke.19"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 93",
+                "2 Samuel 23:1\u20137",
+                "Matthew 28:16\u201320"
+            ],
+            "reading_link": "Psalm+93%3B+2+Samuel+23:1-7%3B+Matthew+28:16-20",
+            "audio_link": "Ps.93,2Sam.23,Matt.28"
+        }
+    },
+    "2023/11/27": {
+        "date_pretty": "Monday, November 27, 2023",
+        "day_description": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 96",
+                "Isaiah 14:3\u201320",
+                "Matthew 9:18\u201334"
+            ],
+            "reading_link": "Psalm+96%3B+Isaiah+14:3-20%3B+Matthew+9:18-34",
+            "audio_link": "Ps.96,Isa.14,Matt.9"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 80",
+                "Isaiah 40:1\u201311",
+                "Revelation 14:1\u201313"
+            ],
+            "reading_link": "Psalm+80%3B+Isaiah+40:1-11%3B+Revelation+14:1-13",
+            "audio_link": "Ps.80,Isa.40,Rev.14"
+        }
+    },
+    "2023/11/28": {
+        "date_pretty": "Tuesday, November 28, 2023",
+        "day_description": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 97",
+                "Isaiah 17",
+                "Matthew 9:35\u201310:15"
+            ],
+            "reading_link": "Psalm+97%3B+Isaiah+17%3B+Matthew+9:35-10:15",
+            "audio_link": "Ps.97,Isa.17,Matt.9"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 101",
+                "Isaiah 40:12\u201326",
+                "Revelation 14:14\u2013end,15:1\u2013end"
+            ],
+            "reading_link": "Psalm+101%3B+Isaiah+40:12-26%3B+Revelation+14:14-,15:1-",
+            "audio_link": "Ps.101,Isa.40,Rev.14"
+        }
+    },
+    "2023/11/29": {
+        "date_pretty": "Wednesday, November 29, 2023",
+        "day_description": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 112",
+                "Isaiah 19",
+                "Matthew 10:16\u201333"
+            ],
+            "reading_link": "Psalm+112%3B+Isaiah+19%3B+Matthew+10:16-33",
+            "audio_link": "Ps.112,Isa.19,Matt.10"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 48",
+                "Isaiah 49:1\u20139a",
+                "1 Corinthians 4:9\u201316"
+            ],
+            "reading_link": "Psalm+48%3B+Isaiah+49:1-9a%3B+1+Corinthians+4:9-16",
+            "audio_link": "Ps.48,Isa.49,1Cor.4"
+        }
+    },
+    "2023/11/30": {
+        "date_pretty": "Thursday, November 30, 2023",
+        "day_description": "St Andrew the Apostle",
+        "morning": {
+            "readings": [
+                "Psalm 47,147:1\u201311",
+                "Ezekiel 47:1\u201312",
+                "John 12:20\u201332"
+            ],
+            "reading_link": "Psalm+47,147:1-11%3B+Ezekiel+47:1-12%3B+John+12:20-32",
+            "audio_link": "Ps.47,147,Ezek.47,John.12"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 87,96",
+                "Zechariah 8:20\u201323",
+                "John 1:35\u201342"
+            ],
+            "reading_link": "Psalm+87,96%3B+Zechariah+8:20-23%3B+John+1:35-42",
+            "audio_link": "Ps.87,96,Zech.8,John.1"
+        }
+    },
+    "2023/12/01": {
+        "date_pretty": "Friday, December 1, 2023",
+        "day_description": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 139",
+                "Isaiah 22:1\u201314",
+                "Matthew 11:2\u201319"
+            ],
+            "reading_link": "Psalm+139%3B+Isaiah+22:1-14%3B+Matthew+11:2-19",
+            "audio_link": "Ps.139,Isa.22,Matt.11"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 146",
+                "Isaiah 41:21\u201342:9",
+                "Revelation 17"
+            ],
+            "reading_link": "Psalm+146%3B+Isaiah+41:21-42:9%3B+Revelation+17",
+            "audio_link": "Ps.146,Isa.41,Rev.17"
+        }
+    },
+    "2023/12/02": {
+        "date_pretty": "Saturday, December 2, 2023",
+        "day_description": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                "Psalm 145",
+                "Isaiah 24",
+                "Matthew 11:20\u2013end"
+            ],
+            "reading_link": "Psalm+145%3B+Isaiah+24%3B+Matthew+11:20-",
+            "audio_link": "Ps.145,Isa.24,Matt.11"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 150",
+                "Isaiah 42:10\u201317",
+                "Revelation 18"
+            ],
+            "reading_link": "Psalm+150%3B+Isaiah+42:10-17%3B+Revelation+18",
+            "audio_link": "Ps.150,Isa.42,Rev.18"
         }
     }
 };  getData(){return this.data;}}

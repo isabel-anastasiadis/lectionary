@@ -1,13 +1,13 @@
 date,date_pretty,day_description,morning_prayers_together,evening_prayers_together
 2022/11/27,"Sunday, November 27, 2022",1st Sunday of Advent,Psalm 44; Micah 4:1-7; 1 Thessalonians 5:1-11,Psalm 9; Isaiah 52:1-12; Matthew 24:15-28
 2022/11/28,"Monday, November 28, 2022",Week of 1st Sunday of Advent,Psalm 50; Isaiah 42:18–end; Revelation 19,Psalm 71; Isaiah 25:1–9; Matthew 12:1–21
-2022/11/29,"Tuesday, November 29, 2022",Week of 1st Sunday of Advent,Psalm 80; Isaiah 43:1–13; Revelation 20,Psalm 74; Isaiah 26:1–13; Matthew 12:22–37
-2022/11/30,"Wednesday, November 30, 2022",Week of 1st Sunday of Advent,Psalm 7; Isaiah 43:14–end; Revelation 21:1–8,Psalm 77; Isaiah 28:1–13; Matthew 12:38–end
+2022/11/29,"Tuesday, November 29, 2022",Week of 1st Sunday of Advent,Psalm 80; Isaiah 43:1–13; Revelation 20,Psalm 48; Isaiah 49:1-9a; 1 Corinthians 4:9-16
+2022/11/30,"Wednesday, November 30, 2022",St Andrew the Apostle,"Psalm 47,147:1-11; Ezekiel 47:1-12; John 12:20-32","Psalm 87,96; Zechariah 8:20-23; John 1:35-42"
 2022/12/01,"Thursday, December 1, 2022",Week of 1st Sunday of Advent,Psalm 42; Isaiah 44:1–8; Revelation 21:9–21,Psalm 40; Isaiah 28:14–end; Matthew 13:1–23
 2022/12/02,"Friday, December 2, 2022",Week of 1st Sunday of Advent,Psalm 25; Isaiah 44:9–23; Revelation 21:22–22:5,Psalm 17; Isaiah 29:1–14; Matthew 13:24–43
 2022/12/03,"Saturday, December 3, 2022",Week of 1st Sunday of Advent,Psalm 9; Isaiah 44:24–45:13; Revelation 22:6–end,Psalm 27; Isaiah 29:15–end; Matthew 13:44–end
 2022/12/04,"Sunday, December 4, 2022",2nd Sunday of Advent,Psalm 80; Amos 7; Luke 1:5-20,Psalm 11; 1 Kings 18:17-39; John 1:19-28
-2022/12/05,"Monday, December 5, 2022",Week of 2nd Sunday of Advent,Psalm 80; Isaiah 64:1-7; Matthew 11:2-11,Psalm 75; Isaiah 40:1-11; Luke 1:1-25
+2022/12/05,"Monday, December 5, 2022",Week of 2nd Sunday of Advent,Psalm 44; Isaiah 45:14–end; 1 Thessalonians 1,Psalm 144; Isaiah 30:1–18; Matthew 14:1–12
 2022/12/06,"Tuesday, December 6, 2022",Week of 2nd Sunday of Advent,Psalm 56; Isaiah 46; 1 Thessalonians 2:1–12,Psalm 11; Isaiah 30:19–end; Matthew 14:13–end
 2022/12/07,"Wednesday, December 7, 2022",Week of 2nd Sunday of Advent,Psalm 62; Isaiah 47; 1 Thessalonians 2:13–end,Psalm 10; Isaiah 31; Matthew 15:1–20
 2022/12/08,"Thursday, December 8, 2022",Week of 2nd Sunday of Advent,Psalm 54; Isaiah 48:1–11; 1 Thessalonians 3,Psalm 73; Isaiah 32; Matthew 15:21–28
@@ -250,8 +250,8 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/08/02,"Wednesday, August 2, 2023",Week of 19th Sunday in Ordinary Time,Psalm 34; Jeremiah 33:1–13; James 3,Psalm 119:33-56; 1 Samuel 16; Luke 23:44–56a
 2023/08/03,"Thursday, August 3, 2023",Week of 19th Sunday in Ordinary Time,Psalm 37; Jeremiah 33:14–end; James 4:1–12,Psalm 40; 1 Samuel 17:1–30; Luke 23:56b–24:12
 2023/08/04,"Friday, August 4, 2023",Week of 19th Sunday in Ordinary Time,Psalm 31; Jeremiah 35; James 4:13–5:6,Psalm 35; 1 Samuel 17:31–54; Luke 24:13–35
-2023/08/05,"Saturday, August 5, 2023",Week of 19th Sunday in Ordinary Time,Psalm 42; Jeremiah 36:1–18; James 5:7–end,Psalm 46; 1 Samuel 17:55–18:16; Luke 24:36–end
-2023/08/06,"Sunday, August 6, 2023",20th Sunday in Ordinary Time,"Psalm 27,150; 1 Kings 19:1-16; 1 John 3:1-3",Psalm 72; Exodus 34:29-35; 2 Corinthians 3
+2023/08/05,"Saturday, August 5, 2023",Week of 19th Sunday in Ordinary Time,Psalm 42; Jeremiah 36:1–18; James 5:7–end,"Psalm 99,110; Exodus 24:12-18; John 12:27-36a"
+2023/08/06,"Sunday, August 6, 2023",The Transfiguration of the Beloved Son,"Psalm 27,150; 1 Kings 19:1-16; 1 John 3:1-3",Psalm 72; Exodus 34:29-35; 2 Corinthians 3
 2023/08/07,"Monday, August 7, 2023",Week of 20th Sunday in Ordinary Time,Psalm 44; Jeremiah 36:19–end; Mark 1:1–13,Psalm 47; 1 Samuel 19:1–18; Acts 1:1–14
 2023/08/08,"Tuesday, August 8, 2023",Week of 20th Sunday in Ordinary Time,Psalm 48; Jeremiah 37; Mark 1:14–20,Psalm 50; 1 Samuel 20:1–17; Acts 1:15–end
 2023/08/09,"Wednesday, August 9, 2023",Week of 20th Sunday in Ordinary Time,Psalm 119:57-80; Jeremiah 38:1–13; Mark 1:21–28,Psalm 59; 1 Samuel 20:18–end; Acts 2:1–21
@@ -259,8 +259,8 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/08/11,"Friday, August 11, 2023",Week of 20th Sunday in Ordinary Time,Psalm 51; Jeremiah 39; Mark 2:1–12,Psalm 38; 1 Samuel 22:6–end; Acts 2:37–end
 2023/08/12,"Saturday, August 12, 2023",Week of 20th Sunday in Ordinary Time,Psalm 68; Jeremiah 40; Mark 2:13–22,Psalm 66; 1 Samuel 23; Acts 3:1–10
 2023/08/13,"Sunday, August 13, 2023",21st Sunday in Ordinary Time,Psalm 88; Song of Solomon 8:5-7; 2 Peter 3:8-13,"Psalm 86; 1 Kings 11:41–end,12:1-20; Acts 14:8-20"
-2023/08/14,"Monday, August 14, 2023",Week of 21st Sunday in Ordinary Time,Psalm 71; Jeremiah 41; Mark 2:23–3:6,Psalm 72; 1 Samuel 24; Acts 3:11–end
-2023/08/15,"Tuesday, August 15, 2023",Week of 21st Sunday in Ordinary Time,Psalm 73; Jeremiah 42; Mark 3:7–19a,Psalm 74; 1 Samuel 26; Acts 4:1–12
+2023/08/14,"Monday, August 14, 2023",Week of 21st Sunday in Ordinary Time,Psalm 71; Jeremiah 41; Mark 2:23–3:6,Psalm 72; Proverbs 8:22-31; John 19:23-27
+2023/08/15,"Tuesday, August 15, 2023",The Blessed Virgin Mary,"Psalm 98,138,147:1-11; Isaiah 7:10-15; Luke 11:27-28",Psalm 132; Song of Solomon 2:1-7; Acts 1:6-14
 2023/08/16,"Wednesday, August 16, 2023",Week of 21st Sunday in Ordinary Time,Psalm 77; Jeremiah 43; Mark 3:19b–end,Psalm 119:81-104; 1 Samuel 28:3–end; Acts 4:13–31
 2023/08/17,"Thursday, August 17, 2023",Week of 21st Sunday in Ordinary Time,Psalm 78:1-39*; Jeremiah 44:1–14; Mark 4:1–20,Psalm 78:40-end; 1 Samuel 31; Acts 4:32–5:11
 2023/08/18,"Friday, August 18, 2023",Week of 21st Sunday in Ordinary Time,Psalm 55; Jeremiah 44:15–end; Mark 4:21–34,Psalm 69; 2 Samuel 1; Acts 5:12–26
@@ -268,8 +268,8 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/08/20,"Sunday, August 20, 2023",22nd Sunday in Ordinary Time,Psalm 92; Jonah 1; 2 Peter 3:14-18,Psalm 90; 2 Kings 4:1-37; Acts 16:1-15
 2023/08/21,"Monday, August 21, 2023",Week of 22nd Sunday in Ordinary Time,Psalm 80; Micah 1:1–9; Mark 5:1–20,Psalm 85; 2 Samuel 3:12–end; Acts 6
 2023/08/22,"Tuesday, August 22, 2023",Week of 22nd Sunday in Ordinary Time,Psalm 89:1-18; Micah 2; Mark 5:21–34,Psalm 89:19-end; 2 Samuel 5:1–12; Acts 7:1–16
-2023/08/23,"Wednesday, August 23, 2023",Week of 22nd Sunday in Ordinary Time,Psalm 119:105-128; Micah 3; Mark 5:35–end,Psalm 91; 2 Samuel 6:1–19; Acts 7:17–43
-2023/08/24,"Thursday, August 24, 2023",Week of 22nd Sunday in Ordinary Time,Psalm 92; Micah 4:1–5:1; Mark 6:1–13,Psalm 94; 2 Samuel 7:1–17; Acts 7:44–53
+2023/08/23,"Wednesday, August 23, 2023",Week of 22nd Sunday in Ordinary Time,Psalm 119:105-128; Micah 3; Mark 5:35–end,Psalm 97; Isaiah 61:1-9; 2 Corinthians 6:1-10
+2023/08/24,"Thursday, August 24, 2023",St Bartholomew the Apostle,"Psalm 86,117; Genesis 28:10-17; John 1:43-51","Psalm 91,116; Deuteronomy 18:15-19; Matthew 10:1-22"
 2023/08/25,"Friday, August 25, 2023",Week of 22nd Sunday in Ordinary Time,Psalm 88; Micah 5:2–end; Mark 6:14–29,Psalm 102; 2 Samuel 7:18–end; Acts 7:54–8:3
 2023/08/26,"Saturday, August 26, 2023",Week of 22nd Sunday in Ordinary Time,Psalm 97; Micah 6; Mark 6:30–44,Psalm 104; 2 Samuel 9; Acts 8:4–25
 2023/08/27,"Sunday, August 27, 2023",23rd Sunday in Ordinary Time,Psalm 104:1-25; Jonah 2; Revelation 1,Psalm 95; 2 Kings 6:8-23; Acts 17:15-34
@@ -289,23 +289,23 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/09/10,"Sunday, September 10, 2023",25th Sunday in Ordinary Time,Psalm 119:17-32; Jonah 3:10–4:11; Revelation 8:1-5,Psalm 108; Ezekiel 12:21–13:16; Acts 19:1-20
 2023/09/11,"Monday, September 11, 2023",Week of 25th Sunday in Ordinary Time,Psalm 1; Zechariah 4; Mark 9:38–end,Psalm 4; 1 Kings 1:5–31; Acts 13:13–43
 2023/09/12,"Tuesday, September 12, 2023",Week of 25th Sunday in Ordinary Time,Psalm 5; Zechariah 6:9–end; Mark 10:1–16,Psalm 9; 1 Kings 1:32–2:4; 1 Kings 2:10–12; Acts 13:44–14:7
-2023/09/13,"Wednesday, September 13, 2023",Week of 25th Sunday in Ordinary Time,Psalm 119:1-32; Zechariah 7; Mark 10:17–31,Psalm 11; 1 Kings 3; Acts 14:8–end
-2023/09/14,"Thursday, September 14, 2023",Week of 25th Sunday in Ordinary Time,Psalm 15; Zechariah 8:1–8; Mark 10:32–34,Psalm 18*; 1 Kings 4:29–5:12; Acts 15:1–21
+2023/09/13,"Wednesday, September 13, 2023",Week of 25th Sunday in Ordinary Time,Psalm 119:1-32; Zechariah 7; Mark 10:17–31,Psalm 66; Isaiah 52:13-53:12; Ephesians 2:11-22
+2023/09/14,"Thursday, September 14, 2023",Holy Cross Day,"Psalm 2,8,146; Genesis 3:1-15; John 12:27-36a","Psalm 110,150; Isaiah 63:1-16; 1 Corinthians 1:18-25"
 2023/09/15,"Friday, September 15, 2023",Week of 25th Sunday in Ordinary Time,Psalm 19; Zechariah 8:9–end; Mark 10:35–45,"Psalm 22; 1 Kings 6:1,6:11–28; Acts 15:22–35"
 2023/09/16,"Saturday, September 16, 2023",Week of 25th Sunday in Ordinary Time,Psalm 23; Zechariah 9:1–12; Mark 10:46–end,Psalm 24; 1 Kings 8:1–30; Acts 15:36–16:5
 2023/09/17,"Sunday, September 17, 2023",26th Sunday in Ordinary Time,Psalm 119:65-88; Isaiah 44:24–45:8; Revelation 12:1-12,"Psalm 119:41-48; Ezekiel 20:1-8,33-44; Acts 20:17-38"
 2023/09/18,"Monday, September 18, 2023",Week of 26th Sunday in Ordinary Time,Psalm 30; Zechariah 10; Mark 11:1–11,Psalm 28; 1 Kings 8:31–62; Acts 16:6–24
 2023/09/19,"Tuesday, September 19, 2023",Week of 26th Sunday in Ordinary Time,Psalm 36; Zechariah 11:4–end; Mark 11:12–26,Psalm 33; 1 Kings 8:63–9:9; Acts 16:25–end
-2023/09/20,"Wednesday, September 20, 2023",Week of 26th Sunday in Ordinary Time,Psalm 34; Zechariah 12:1–10; Mark 11:27–end,Psalm 119:33-56; 1 Kings 10:1–25; Acts 17:1–15
-2023/09/21,"Thursday, September 21, 2023",Week of 26th Sunday in Ordinary Time,Psalm 37; Zechariah 13; Mark 12:1–12,Psalm 40; 1 Kings 11:1–13; Acts 17:16–end
+2023/09/20,"Wednesday, September 20, 2023",Week of 26th Sunday in Ordinary Time,Psalm 34; Zechariah 12:1–10; Mark 11:27–end,Psalm 34; Isaiah 33:13-17; Matthew 6:19-34
+2023/09/21,"Thursday, September 21, 2023","St Matthew, Apostle and Evangelist","Psalm 49,117; 1 Kings 19:15-21; 2 Timothy 3:14-17","Psalm 119:33-40,119:89-96; Ecclesiastes 5:4-12; Matthew 19:16-30"
 2023/09/22,"Friday, September 22, 2023",Week of 26th Sunday in Ordinary Time,Psalm 31; Zechariah 14:1–11; Mark 12:13–17,Psalm 35; 1 Kings 11:26–end; Acts 18:1–21
 2023/09/23,"Saturday, September 23, 2023",Week of 26th Sunday in Ordinary Time,Psalm 42; Zechariah 14:12–end; Mark 12:18–27,Psalm 46; 1 Kings 12:1–24; Acts 18:22–19:7
 2023/09/24,"Sunday, September 24, 2023",27th Sunday in Ordinary Time,Psalm 119:153-176; Isaiah 45:9-22; Revelation 14:1-5,"Psalm 119:113-136; Ezekiel 33:23,33:30–end,34:10; Acts 26:1,9-25"
 2023/09/25,"Monday, September 25, 2023",Week of 27th Sunday in Ordinary Time,Psalm 44; Ezekiel 1:1–14; Mark 12:28–34,Psalm 47; 1 Kings 12:25–13:10; Acts 19:8–20
 2023/09/26,"Tuesday, September 26, 2023",Week of 27th Sunday in Ordinary Time,Psalm 48; Ezekiel 1:15–2:2; Mark 12:35–end,Psalm 50; 1 Kings 13:11–end; Acts 19:21–end
 2023/09/27,"Wednesday, September 27, 2023",Week of 27th Sunday in Ordinary Time,Psalm 119:57-80; Ezekiel 2:3–3:11; Mark 13:1–13,Psalm 59; 1 Kings 17; Acts 20:1–16
-2023/09/28,"Thursday, September 28, 2023",Week of 27th Sunday in Ordinary Time,Psalm 57; Ezekiel 3:12–end; Mark 13:14–23,Psalm 62; 1 Kings 18:1–20; Acts 20:17–end
-2023/09/29,"Friday, September 29, 2023",Week of 27th Sunday in Ordinary Time,Psalm 51; Ezekiel 8; Mark 13:24–31,Psalm 38; 1 Kings 18:21–end; Acts 21:1–16
+2023/09/28,"Thursday, September 28, 2023",Week of 27th Sunday in Ordinary Time,Psalm 57; Ezekiel 3:12–end; Mark 13:14–23,"Psalm 91; 2 Kings 6:8-17; Matthew 18:1-6,10"
+2023/09/29,"Friday, September 29, 2023",St Michael and All Angels / Michaelmas,"Psalm 34,150; Daniel 12:1-4; Acts 12:1-11","Psalm 138,148; Daniel 10:4-21; Revelations 5"
 2023/09/30,"Saturday, September 30, 2023",Week of 27th Sunday in Ordinary Time,Psalm 68; Ezekiel 9; Mark 13:32–end,Psalm 66; 1 Kings 19; Acts 21:17–36
 2023/10/01,"Sunday, October 1, 2023",28th Sunday in Ordinary Time,"Psalm 125,126,127; Isaiah 48:12-21; Luke 11:37-54",Psalm 124; Ezekiel 37:15-28; 1 John 2:22-29
 2023/10/02,"Monday, October 2, 2023",Week of 28th Sunday in Ordinary Time,Psalm 71; Ezekiel 10:1–19; Mark 14:1–11,Psalm 72; 1 Kings 21; Acts 21:37–22:21
@@ -323,8 +323,8 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/10/14,"Saturday, October 14, 2023",Week of 29th Sunday in Ordinary Time,Psalm 97; Ezekiel 24:15–end; Mark 16:9–end,Psalm 104; 2 Kings 17:1–23; Acts 28:17–end
 2023/10/15,"Sunday, October 15, 2023",30th Sunday in Ordinary Time,"Psalm 138,141; Isaiah 50:4-10; Luke 13:22-30",Psalm 139:1-18; Proverbs 3:1-18; 1 John 3:1-15
 2023/10/16,"Monday, October 16, 2023",Week of 30th Sunday in Ordinary Time,Psalm 98; Ezekiel 28:1–19; John 13:1–11,Psalm 105*; 2 Kings 17:24–end; Philippians 1:1–11
-2023/10/17,"Tuesday, October 17, 2023",Week of 30th Sunday in Ordinary Time,Psalm 106*; Ezekiel 33:1–20; John 13:12–20,Psalm 107*; 2 Kings 18:1–12; Philippians 1:12–end
-2023/10/18,"Wednesday, October 18, 2023",Week of 30th Sunday in Ordinary Time,Psalm 111; Ezekiel 33:21–end; John 13:21–30,Psalm 119:129-152; 2 Kings 18:13–end; Philippians 2:1–13
+2023/10/17,"Tuesday, October 17, 2023",Week of 30th Sunday in Ordinary Time,Psalm 106*; Ezekiel 33:1–20; John 13:12–20,Psalm 33; Hosea 6:1-3; 2 Timothy 3:10-17
+2023/10/18,"Wednesday, October 18, 2023",St Luke the Evangelist,"Psalm 145,146; Isaiah 55; Luke 1:1-4",Psalm 103; Isaiah 61:1-6; Colossians 4:7-18
 2023/10/19,"Thursday, October 19, 2023",Week of 30th Sunday in Ordinary Time,Psalm 115; Ezekiel 34:1–16; John 13:31–end,Psalm 116; 2 Kings 19:1–19; Philippians 2:14–end
 2023/10/20,"Friday, October 20, 2023",Week of 30th Sunday in Ordinary Time,Psalm 139; Ezekiel 34:17–end; John 14:1–14,Psalm 130; 2 Kings 19:20–36; Philippians 3:1–4:1
 2023/10/21,"Saturday, October 21, 2023",Week of 30th Sunday in Ordinary Time,Psalm 121; Ezekiel 36:16–36; John 14:15–end,Psalm 118; 2 Kings 20; Philippians 4:2–end
@@ -333,12 +333,40 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/10/24,"Tuesday, October 24, 2023",Week of 31st Sunday in Ordinary Time,Psalm 132; Ezekiel 37:15–end; John 15:12–17,Psalm 135; 2 Kings 22:1–23:3; 1 Timothy 1:18–end; 1 Timothy 2
 2023/10/25,"Wednesday, October 25, 2023",Week of 31st Sunday in Ordinary Time,Psalm 119:153-end; Ezekiel 39:21–end; John 15:18–end,Psalm 136; 2 Kings 23:4–25; 1 Timothy 3
 2023/10/26,"Thursday, October 26, 2023",Week of 31st Sunday in Ordinary Time,Psalm 143; Ezekiel 43:1–12; John 16:1–15,Psalm 138; 2 Kings 23:36–24:17; 1 Timothy 4
-2023/10/27,"Friday, October 27, 2023",Week of 31st Sunday in Ordinary Time,Psalm 144; Ezekiel 44:4–16; John 16:16–22,Psalm 145; 2 Kings 24:18–25:12; 1 Timothy 5:1–16
-2023/10/28,"Saturday, October 28, 2023",Week of 31st Sunday in Ordinary Time,Psalm 147; Ezekiel 47:1–12; John 16:23–end,Psalm 148; 2 Kings 25:22–end; 1 Timothy 5:17–end
+2023/10/27,"Friday, October 27, 2023",Week of 31st Sunday in Ordinary Time,Psalm 144; Ezekiel 44:4–16; John 16:16–22,"Psalm 124,125,126; Deuteronomy 32:1-4; John 14:15-26"
+2023/10/28,"Saturday, October 28, 2023","St Simon and St Jude, Apostles","Psalm 116,117; Isaiah 45:18-26; Luke 6:12-16","Psalm 119:1-16; Jeremiah 3:11-18; Jude 1-4,17-25"
 2023/10/29,"Sunday, October 29, 2023",32nd Sunday in Ordinary Time,Psalm 119:137-152; Isaiah 59:9-20; Luke 14:1-14,"Psalm 119:89-104; Eccles 11,12; 2 Tim 2:1-7"
 2023/10/30,"Monday, October 30, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 1; Ecclesiastes 1; John 17:1–5,Psalm 4; Exodus 22:21–27; Exodus 23:1–17; 1 Timothy 6:1–10
-2023/10/31,"Tuesday, October 31, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 5; Ecclesiastes 2; John 17:6–19,Psalm 9; Exodus 29:38–30:16; 1 Timothy 6:11–end
-2023/11/01,"Wednesday, November 1, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 119:1-32; Ecclesiastes 3:1–15; John 17:20–end,Psalm 11; Leviticus 8; 2 Timothy 1:1–14
+2023/10/31,"Tuesday, October 31, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 5; Ecclesiastes 2; John 17:6–19,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
+2023/11/01,"Wednesday, November 1, 2023",All Saints Day,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
 2023/11/02,"Thursday, November 2, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 15; Ecclesiastes 3:16–end; Ecclesiastes 4; John 18:1–11,Psalm 18*; Leviticus 9; 2 Timothy 1:15–2:13
 2023/11/03,"Friday, November 3, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 19; Ecclesiastes 5; John 18:12–27,Psalm 22; Leviticus 16:2–24; 2 Timothy 2:14–end
 2023/11/04,"Saturday, November 4, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 23; Ecclesiastes 6; John 18:28–end,Psalm 24; Leviticus 17; 2 Timothy 3
+2023/11/05,"Sunday, November 5, 2023",4th Sunday before Advent,Psalm 33; Isaiah 66:20-23; Ephesians 1:11-23,"Psalm 111,117; Daniel 7:1-18; Luke 6:17-31"
+2023/11/06,"Monday, November 6, 2023",Week of 4th Sunday before Advent,Psalm 2; Isaiah 1:1–20; Matthew 1:18–end,Psalm 92; Daniel 1; Revelation 1
+2023/11/07,"Tuesday, November 7, 2023",Week of 4th Sunday before Advent,Psalm 5; Isaiah 1:21–end; Matthew 2:1–15,Psalm 100; Daniel 2:1–24; Revelation 2:1–11
+2023/11/08,"Wednesday, November 8, 2023",Week of 4th Sunday before Advent,Psalm 9; Isaiah 2:1–11; Matthew 2:16–end,Psalm 112; Daniel 2:25–end; Revelation 2:12–end
+2023/11/09,"Thursday, November 9, 2023",Week of 4th Sunday before Advent,Psalm 15; Isaiah 2:12–end; Matthew 3,Psalm 118; Daniel 3:1–18; Revelation 3:1–13
+2023/11/10,"Friday, November 10, 2023",Week of 4th Sunday before Advent,Psalm 16; Isaiah 3:1–15; Matthew 4:1–11,Psalm 143; Daniel 3:19–end; Revelation 3:14–end
+2023/11/11,"Saturday, November 11, 2023",Week of 4th Sunday before Advent,Psalm 18.31-end; Isaiah 4:2–5:7; Matthew 4:12–22,Psalm 145; Daniel 4:1–18; Revelation 4
+2023/11/12,"Sunday, November 12, 2023",3rd Sunday before Advent,Psalm 91; Deuteronomy 17:14-20; 1 Timothy 2:1-7,Psalm 82; Judges 7:2-22; John 15:9-17
+2023/11/13,"Monday, November 13, 2023",Week of 3rd Sunday before Advent,Psalm 20; Isaiah 5:8–24; Matthew 4:23–5:12,Psalm 34; Daniel 4:19–end; Revelation 5
+2023/11/14,"Tuesday, November 14, 2023",Week of 3rd Sunday before Advent,Psalm 21; Isaiah 5:25–end; Matthew 5:13–20,Psalm 40; Daniel 5:1–12; Revelation 6
+2023/11/15,"Wednesday, November 15, 2023",Week of 3rd Sunday before Advent,Psalm 23; Isaiah 6; Matthew 5:21–37,"Psalm 37; Daniel 5:13–end; Revelation 7:1–4,9–end"
+2023/11/16,"Thursday, November 16, 2023",Week of 3rd Sunday before Advent,Psalm 26; Isaiah 7:1–17; Matthew 5:38–end,Psalm 43; Daniel 6; Revelation 8
+2023/11/17,"Friday, November 17, 2023",Week of 3rd Sunday before Advent,Psalm 32; Isaiah 8:1–15; Matthew 6:1–18,Psalm 31; Daniel 7:1–14; Revelation 9:1–12
+2023/11/18,"Saturday, November 18, 2023",Week of 3rd Sunday before Advent,Psalm 33; Isaiah 8:16–9:7; Matthew 6:19–end,Psalm 86; Daniel 7:15–end; Revelation 9:13–end
+2023/11/19,"Sunday, November 19, 2023",2nd Sunday before Advent,Psalm 98; Daniel 10:19-21; Revelation 4,Psalm 89:19-36; 1 Kings 1:15-40; Revelation 1:4-18
+2023/11/20,"Monday, November 20, 2023",Week of 2nd Sunday before Advent,Psalm 47; Isaiah 9:8–10:4; Matthew 7:1–12,Psalm 71; Daniel 8:1–14; Revelation 10
+2023/11/21,"Tuesday, November 21, 2023",Week of 2nd Sunday before Advent,Psalm 52; Isaiah 10:5–19; Matthew 7:13–end,Psalm 67; Daniel 8:15–end; Revelation 11:1–14
+2023/11/22,"Wednesday, November 22, 2023",Week of 2nd Sunday before Advent,Psalm 56; Isaiah 10:20–32; Matthew 8:1–13,Psalm 73; Daniel 9:1–19; Revelation 11:15–end
+2023/11/23,"Thursday, November 23, 2023",Week of 2nd Sunday before Advent,Psalm 62; Isaiah 10:33–11:9; Matthew 8:14–22,Psalm 76; Daniel 9:20–end; Revelation 12
+2023/11/24,"Friday, November 24, 2023",Week of 2nd Sunday before Advent,Psalm 63; Isaiah 11:10–end of 12; Matthew 8:23–end,Psalm 77; Daniel 10:1–11:1; Revelation 13:1–10
+2023/11/25,"Saturday, November 25, 2023",Week of 2nd Sunday before Advent,Psalm 78.1-39; Isaiah 13:1–13; Matthew 9:1–17,"Psalm 99,100; Isaiah 10:33-11:9; 1 Timothy 6:11-16"
+2023/11/26,"Sunday, November 26, 2023",Christ the King Sunday,"Psalm 29,110; Isaiah 4:2-end,5:1-7; Luke 19:29-38",Psalm 93; 2 Samuel 23:1-7; Matthew 28:16-20
+2023/11/27,"Monday, November 27, 2023",Week of 1st Sunday before Advent,Psalm 96; Isaiah 14:3–20; Matthew 9:18–34,Psalm 80; Isaiah 40:1–11; Revelation 14:1–13
+2023/11/28,"Tuesday, November 28, 2023",Week of 1st Sunday before Advent,Psalm 97; Isaiah 17; Matthew 9:35–10:15,"Psalm 101; Isaiah 40:12–26; Revelation 14:14–end,15:1-end"
+2023/11/29,"Wednesday, November 29, 2023",Week of 1st Sunday before Advent,Psalm 112; Isaiah 19; Matthew 10:16–33,Psalm 48; Isaiah 49:1-9a; 1 Corinthians 4:9-16
+2023/11/30,"Thursday, November 30, 2023",St Andrew the Apostle,"Psalm 47,147:1-11; Ezekiel 47:1-12; John 12:20-32","Psalm 87,96; Zechariah 8:20-23; John 1:35-42"
+2023/12/01,"Friday, December 1, 2023",Week of 1st Sunday before Advent,Psalm 139; Isaiah 22:1–14; Matthew 11:2–19,Psalm 146; Isaiah 41:21–42:9; Revelation 17
+2023/12/02,"Saturday, December 2, 2023",Week of 1st Sunday before Advent,Psalm 145; Isaiah 24; Matthew 11:20–end,Psalm 150; Isaiah 42:10–17; Revelation 18

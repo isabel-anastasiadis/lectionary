@@ -1,7 +1,7 @@
 date,date_pretty,day_description,morning_prayers_together,evening_prayers_together
 2021/11/28,"Sunday, November 28, 2021",1st Sunday of Advent,; ;,; ;
-2021/11/29,"Monday, November 29, 2021",Week of 1st Sunday of Advent,Psalm 50; Isaiah 25:1–9; Matthew 12:1–21,Psalm 71; Isaiah 42:18–end; Revelation 19
-2021/11/30,"Tuesday, November 30, 2021",Week of 1st Sunday of Advent,Psalm 80; Isaiah 26:1–13; Matthew 12:22–37,Psalm 74; Isaiah 43:1–13; Revelation 20
+2021/11/29,"Monday, November 29, 2021",Week of 1st Sunday of Advent,Psalm 50; Isaiah 25:1–9; Matthew 12:1–21,Psalm 48; Isaiah 49:1-9a; 1 Corinthians 4:9-16
+2021/11/30,"Tuesday, November 30, 2021",St Andrew the Apostle,"Psalm 47,147:1-11; Ezekiel 47:1-12; John 12:20-32","Psalm 87,96; Zechariah 8:20-23; John 1:35-42"
 2021/12/01,"Wednesday, December 1, 2021",Week of 1st Sunday of Advent,Psalm 7; Isaiah 28:1–13; Matthew 12:38–end,Psalm 77; Isaiah 43:14–end; Revelation 21:1–8
 2021/12/02,"Thursday, December 2, 2021",Week of 1st Sunday of Advent,Psalm 42; Isaiah 28:14–end; Matthew 13:1–23,Psalm 40; Isaiah 44:1–8; Revelation 21:9–21
 2021/12/03,"Friday, December 3, 2021",Week of 1st Sunday of Advent,Psalm 25; Isaiah 29:1–14; Matthew 13:24–43,Psalm 17; Isaiah 44:9–23; Revelation 21:22–22:5
@@ -26,14 +26,14 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2021/12/22,"Wednesday, December 22, 2021",Week of 4th Sunday of Advent,Psalm 124; Malachi 2:17–3:12; Matthew 19:16–end,Psalm 24; Isaiah 55; 2 Peter 2:4–end
 2021/12/23,"Thursday, December 23, 2021",Week of 4th Sunday of Advent,Psalm 130; Malachi 3:13–end; Malachi 4; Matthew 23:1–12,Psalm 89:1-37; Isaiah 56:1–8; 2 Peter 3
 2021/12/24,"Friday, December 24, 2021",Christmas eve,Psalm 45; Nahum 1; Matthew 23:13–28,Psalm 85; Zechariah 2; Revelation 1:1-8
-2021/12/25,"Saturday, December 25, 2021",Christmas day,Psalm 110; Isaiah 62:1-5; Matthew 1:18-25,Psalm 8; Isaiah 65:17-25; Philippians 2:5-11; Luke 2:1-20
+2021/12/25,"Saturday, December 25, 2021",Christmas day,Psalm 110; Isaiah 62:1-5; Matthew 1:18-25,Psalm 8; Isaiah 65:17-25; Philippians 2:5-11
 2021/12/26,"Sunday, December 26, 2021","St Stephen, the first Christian Martyr",Psalm 13; Jeremiah 26:12-15; Acts 6,Psalm 86; Genesis 4:1-10; Matthew 23:34-39
 2021/12/27,"Monday, December 27, 2021",St John the Evangelist,Psalm 21; Exodus 33:12-23; 1 John 2:1-11,Psalm 97; Isaiah 6:1-8; 1 John 5:1-12
 2021/12/28,"Tuesday, December 28, 2021",Holy Innocents,Psalm 36; Genesis 37:13-20; Matthew 18:1-10,Psalm 128; Isaiah 49:14-25; Mark 10:13-16
 2021/12/29,"Wednesday, December 29, 2021",Week of 1st Sunday of Christmas,Psalm 19; Jonah 1; Colossians 1:1–14,Psalm 132; Isaiah 57:15–end; John 1:1–18
 2021/12/30,"Thursday, December 30, 2021",Week of 1st Sunday of Christmas,Psalm 113; Jonah 2; Colossians 1:15–23,Psalm 65; Isaiah 59:1–15a; John 1:19–28
 2021/12/31,"Friday, December 31, 2021",Week of 1st Sunday of Christmas,Psalm 102; Jonah 3; Jonah 4; Colossians 1:24–2:7,Psalm 90; Isaiah 59:15b–end; John 1:29–34
-2022/01/01,"Saturday, January 1, 2022",The naming of Jesus,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:1-20; Acts 3:1-16
+2022/01/01,"Saturday, January 1, 2022",The naming of Jesus,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
 2022/01/02,"Sunday, January 2, 2022",2nd Sunday of Christmas,Psalm 87; Isaiah 12; 1 Thes 2:1-8,Psalm 135; 1 Samuel 1:20-end; 1 John 4:7-16
 2022/01/03,"Monday, January 3, 2022",Week of 2nd Sunday of Christmas,Psalm 127; Ruth 2; Colossians 3:1–11,Psalm 2; Isaiah 60:13–end; John 1:43–end
 2022/01/04,"Tuesday, January 4, 2022",Week of 2nd Sunday of Christmas,Psalm 89:1-37; Ruth 3; Colossians 3:12–4:1,Psalm 87; Isaiah 61; John 2:1–12
@@ -249,8 +249,8 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/08/02,"Tuesday, August 2, 2022",Week of 18th Sunday in Ordinary Time,Psalm 5; 1 Samuel 10:17–end; Luke 22:31–38,Psalm 9; Jeremiah 28; 2 Corinthians 11:16–end
 2022/08/03,"Wednesday, August 3, 2022",Week of 18th Sunday in Ordinary Time,Psalm 119:1-32; 1 Samuel 11; Luke 22:39–46,Psalm 11; Jeremiah 29:1–14; 2 Corinthians 12
 2022/08/04,"Thursday, August 4, 2022",Week of 18th Sunday in Ordinary Time,Psalm 15; 1 Samuel 12; Luke 22:47–62,Psalm 18*; Jeremiah 30:1–11; 2 Corinthians 13
-2022/08/05,"Friday, August 5, 2022",Week of 18th Sunday in Ordinary Time,Psalm 19; 1 Samuel 13:5–18; Luke 22:63–end,Psalm 22; Jeremiah 30:12–22; James 1:1–11
-2022/08/06,"Saturday, August 6, 2022",Week of 18th Sunday in Ordinary Time,Psalm 23; 1 Samuel 13:19–14:15; Luke 23:1–12,Psalm 24; Jeremiah 31:1–22; James 1:12–end
+2022/08/05,"Friday, August 5, 2022",Week of 18th Sunday in Ordinary Time,Psalm 19; 1 Samuel 13:5–18; Luke 22:63–end,"Psalm 99,110; Exodus 24:12-18; John 12:27-36a"
+2022/08/06,"Saturday, August 6, 2022",The Transfiguration of the Beloved Son,"Psalm 27,150; 1 Kings 19:1-16; 1 John 3:1-3",Psalm 72; Exodus 34:29-35; 2 Corinthians 3
 2022/08/07,"Sunday, August 7, 2022",19th Sunday in Ordinary Time,Psalm 115; Song of Solomon 8:5-7; 2 Peter 3:8-13,Psalm 108; Isaiah 11:10–12:6; 2 Corinthians 1:1-22
 2022/08/08,"Monday, August 8, 2022",Week of 19th Sunday in Ordinary Time,Psalm 30; 1 Samuel 14:24–46; Luke 23:13–25,"Psalm 28; Jeremiah 31:23–25,31:27–37; James 2:1–13"
 2022/08/09,"Tuesday, August 9, 2022",Week of 19th Sunday in Ordinary Time,Psalm 36; 1 Samuel 15:1–23; Luke 23:26–43,Psalm 33; Jeremiah 32:1–15; James 2:14–end
@@ -259,7 +259,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/08/12,"Friday, August 12, 2022",Week of 19th Sunday in Ordinary Time,Psalm 31; 1 Samuel 17:31–54; Luke 24:13–35,Psalm 35; Jeremiah 35; James 4:13–5:6
 2022/08/13,"Saturday, August 13, 2022",Week of 19th Sunday in Ordinary Time,Psalm 42; 1 Samuel 17:55–18:16; Luke 24:36–end,Psalm 46; Jeremiah 36:1–18; James 5:7–end
 2022/08/14,"Sunday, August 14, 2022",20th Sunday in Ordinary Time,Psalm 119:33-48; Jonah 1; 2 Peter 3:14-18,Psalm 72; Proverbs 8:22-31; John 19:23-27
-2022/08/15,"Monday, August 15, 2022",Week of 20th Sunday in Ordinary Time,Psalm 44; 1 Samuel 19:1–18; Acts 1:1–14,Psalm 47; Jeremiah 36:19–end; Mark 1:1–13
+2022/08/15,"Monday, August 15, 2022",The Blessed Virgin Mary,"Psalm 98,138,147:1-11; Isaiah 7:10-15; Luke 11:27-28",Psalm 132; Song of Solomon 2:1-7; Acts 1:6-14
 2022/08/16,"Tuesday, August 16, 2022",Week of 20th Sunday in Ordinary Time,Psalm 48; 1 Samuel 20:1–17; Acts 1:15–end,Psalm 50; Jeremiah 37; Mark 1:14–20
 2022/08/17,"Wednesday, August 17, 2022",Week of 20th Sunday in Ordinary Time,Psalm 119:57-80; 1 Samuel 20:18–end; Acts 2:1–21,Psalm 59; Jeremiah 38:1–13; Mark 1:21–28
 2022/08/18,"Thursday, August 18, 2022",Week of 20th Sunday in Ordinary Time,Psalm 57; 1 Samuel 21:1–22:5; Acts 2:22–36,Psalm 62; Jeremiah 38:14–end; Mark 1:29–end
@@ -267,8 +267,8 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/08/20,"Saturday, August 20, 2022",Week of 20th Sunday in Ordinary Time,Psalm 68; 1 Samuel 23; Acts 3:1–10,Psalm 66; Jeremiah 40; Mark 2:13–22
 2022/08/21,"Sunday, August 21, 2022",21st Sunday in Ordinary Time,Psalm 119:73-88; Jonah 2; Revelation 1,Psalm 119:49-72; Isaiah 30:8-21; 2 Corinthians 9
 2022/08/22,"Monday, August 22, 2022",Week of 21st Sunday in Ordinary Time,Psalm 71; 1 Samuel 24; Acts 3:11–end,Psalm 72; Jeremiah 41; Mark 2:23–3:6
-2022/08/23,"Tuesday, August 23, 2022",Week of 21st Sunday in Ordinary Time,Psalm 73; 1 Samuel 26; Acts 4:1–12,Psalm 74; Jeremiah 42; Mark 3:7–19a
-2022/08/24,"Wednesday, August 24, 2022",Week of 21st Sunday in Ordinary Time,Psalm 77; 1 Samuel 28:3–end; Acts 4:13–31,Psalm 119:81-104; Jeremiah 43; Mark 3:19b–end
+2022/08/23,"Tuesday, August 23, 2022",Week of 21st Sunday in Ordinary Time,Psalm 73; 1 Samuel 26; Acts 4:1–12,Psalm 97; Isaiah 61:1-9; 2 Corinthians 6:1-10
+2022/08/24,"Wednesday, August 24, 2022",St Bartholomew the Apostle,"Psalm 86,117; Genesis 28:10-17; John 1:43-51","Psalm 91,116; Deuteronomy 18:15-19; Matthew 10:1-22"
 2022/08/25,"Thursday, August 25, 2022",Week of 21st Sunday in Ordinary Time,Psalm 78:1-39*; 1 Samuel 31; Acts 4:32–5:11,Psalm 78:40-end; Jeremiah 44:1–14; Mark 4:1–20
 2022/08/26,"Friday, August 26, 2022",Week of 21st Sunday in Ordinary Time,Psalm 55; 2 Samuel 1; Acts 5:12–26,Psalm 69; Jeremiah 44:15–end; Mark 4:21–34
 2022/08/27,"Saturday, August 27, 2022",Week of 21st Sunday in Ordinary Time,Psalm 76; 2 Samuel 2:1–11; Acts 5:27–end,Psalm 84; Jeremiah 45; Mark 4:35–end
@@ -288,23 +288,23 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/09/10,"Saturday, September 10, 2022",Week of 23rd Sunday in Ordinary Time,Psalm 121; 2 Samuel 17:1–23; Acts 10:17–33,Psalm 118; Habakkuk 3:2–19a; Mark 8:1–10
 2022/09/11,"Sunday, September 11, 2022",24th Sunday in Ordinary Time,"Psalm 126,127; Isaiah 44:24–end,45:1-8; Revelation 12:1-12","Psalm 124,125; Isaiah 60; John 6:51-69"
 2022/09/12,"Monday, September 12, 2022",Week of 24th Sunday in Ordinary Time,Psalm 126; 2 Samuel 18:1–18; Acts 10:34–end,Psalm 127; Haggai 1:1–11; Mark 8:11–21
-2022/09/13,"Tuesday, September 13, 2022",Week of 24th Sunday in Ordinary Time,Psalm 132; 2 Samuel 18:19–19:8a; Acts 11:1–18,Psalm 135; Haggai 1:12–2:9; Mark 8:22–26
-2022/09/14,"Wednesday, September 14, 2022",Week of 24th Sunday in Ordinary Time,Psalm 119:153-end; 2 Samuel 19:8b–23; Acts 11:19–end,Psalm 136; Haggai 2:10–end; Mark 8:27–9:1
+2022/09/13,"Tuesday, September 13, 2022",Week of 24th Sunday in Ordinary Time,Psalm 132; 2 Samuel 18:19–19:8a; Acts 11:1–18,Psalm 66; Isaiah 52:13-53:12; Ephesians 2:11-22
+2022/09/14,"Wednesday, September 14, 2022",Holy Cross Day,"Psalm 2,8,146; Genesis 3:1-15; John 12:27-36a","Psalm 110,150; Isaiah 63:1-16; 1 Corinthians 1:18-25"
 2022/09/15,"Thursday, September 15, 2022",Week of 24th Sunday in Ordinary Time,Psalm 143; 2 Samuel 19:24–end; Acts 12:1–17,Psalm 138; Zechariah 1:1–17; Mark 9:2–13
 2022/09/16,"Friday, September 16, 2022",Week of 24th Sunday in Ordinary Time,Psalm 144; 2 Samuel 23:1–7; Acts 12:18–end,Psalm 145; Zechariah 1:18–end; Zechariah 2; Mark 9:14–29
 2022/09/17,"Saturday, September 17, 2022",Week of 24th Sunday in Ordinary Time,Psalm 147; 2 Samuel 24; Acts 13:1–12,Psalm 148; Zechariah 3; Mark 9:30–37
 2022/09/18,"Sunday, September 18, 2022",25th Sunday in Ordinary Time,"Psalm 130,131; Isaiah 45:9-22; Revelation 14:1-5",Psalm 129; Ezra 1; John 7:14-36
 2022/09/19,"Monday, September 19, 2022",Week of 25th Sunday in Ordinary Time,Psalm 1; 1 Kings 1:5–31; Acts 13:13–43,Psalm 4; Zechariah 4; Mark 9:38–end
-2022/09/20,"Tuesday, September 20, 2022",Week of 25th Sunday in Ordinary Time,Psalm 5; 1 Kings 1:32–2:4; 1 Kings 2:10–12; Acts 13:44–14:7,Psalm 9; Zechariah 6:9–end; Mark 10:1–16
-2022/09/21,"Wednesday, September 21, 2022",Week of 25th Sunday in Ordinary Time,Psalm 119:1-32; 1 Kings 3; Acts 14:8–end,Psalm 11; Zechariah 7; Mark 10:17–31
+2022/09/20,"Tuesday, September 20, 2022",Week of 25th Sunday in Ordinary Time,Psalm 5; 1 Kings 1:32–2:4; 1 Kings 2:10–12; Acts 13:44–14:7,Psalm 34; Isaiah 33:13-17; Matthew 6:19-34
+2022/09/21,"Wednesday, September 21, 2022","St Matthew, Apostle and Evangelist","Psalm 49,117; 1 Kings 19:15-21; 2 Timothy 3:14-17","Psalm 119:33-40,119:89-96; Ecclesiastes 5:4-12; Matthew 19:16-30"
 2022/09/22,"Thursday, September 22, 2022",Week of 25th Sunday in Ordinary Time,Psalm 15; 1 Kings 4:29–5:12; Acts 15:1–21,Psalm 18*; Zechariah 8:1–8; Mark 10:32–34
 2022/09/23,"Friday, September 23, 2022",Week of 25th Sunday in Ordinary Time,"Psalm 19; 1 Kings 6:1,6:11–28; Acts 15:22–35",Psalm 22; Zechariah 8:9–end; Mark 10:35–45
 2022/09/24,"Saturday, September 24, 2022",Week of 25th Sunday in Ordinary Time,Psalm 23; 1 Kings 8:1–30; Acts 15:36–16:5,Psalm 24; Zechariah 9:1–12; Mark 10:46–end
 2022/09/25,"Sunday, September 25, 2022",26th Sunday in Ordinary Time,Psalm 132; Isaiah 48:12-22; Luke 1:37-54,"Psalm 134,135; Nehemiah 2; John 8:31-38,48-59"
 2022/09/26,"Monday, September 26, 2022",Week of 26th Sunday in Ordinary Time,Psalm 30; 1 Kings 8:31–62; Acts 16:6–24,Psalm 28; Zechariah 10; Mark 11:1–11
 2022/09/27,"Tuesday, September 27, 2022",Week of 26th Sunday in Ordinary Time,Psalm 36; 1 Kings 8:63–9:9; Acts 16:25–end,Psalm 33; Zechariah 11:4–end; Mark 11:12–26
-2022/09/28,"Wednesday, September 28, 2022",Week of 26th Sunday in Ordinary Time,Psalm 34; 1 Kings 10:1–25; Acts 17:1–15,Psalm 119:33-56; Zechariah 12:1–10; Mark 11:27–end
-2022/09/29,"Thursday, September 29, 2022",Week of 26th Sunday in Ordinary Time,Psalm 37; 1 Kings 11:1–13; Acts 17:16–end,Psalm 40; Zechariah 13; Mark 12:1–12
+2022/09/28,"Wednesday, September 28, 2022",Week of 26th Sunday in Ordinary Time,Psalm 34; 1 Kings 10:1–25; Acts 17:1–15,"Psalm 91; 2 Kings 6:8-17; Matthew 18:1-6,10"
+2022/09/29,"Thursday, September 29, 2022",St Michael and All Angels / Michaelmas,"Psalm 34,150; Daniel 12:1-4; Acts 12:1-11","Psalm 138,148; Daniel 10:4-21; Revelations 5"
 2022/09/30,"Friday, September 30, 2022",Week of 26th Sunday in Ordinary Time,Psalm 31; 1 Kings 11:26–end; Acts 18:1–21,Psalm 35; Zechariah 14:1–11; Mark 12:13–17
 2022/10/01,"Saturday, October 1, 2022",Week of 26th Sunday in Ordinary Time,Psalm 42; 1 Kings 12:1–24; Acts 18:22–19:7,Psalm 46; Zechariah 14:12–end; Mark 12:18–27
 2022/10/02,"Sunday, October 2, 2022",27th Sunday in Ordinary Time,Psalm 141; Isaiah 49:13-23; Luke 12:1-12,Psalm 142; Nehemiah 5:1-13; John 9
@@ -322,8 +322,8 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/10/14,"Friday, October 14, 2022",Week of 28th Sunday in Ordinary Time,Psalm 55; 2 Kings 2:1–18; Acts 24:24–25:12,Psalm 69; Ezekiel 13:1–16; Mark 14:53–65
 2022/10/15,"Saturday, October 15, 2022",Week of 28th Sunday in Ordinary Time,Psalm 76; 2 Kings 4:1–37; Acts 25:13–end,Psalm 84; Ezekiel 14:1–11; Mark 14:66–end
 2022/10/16,"Sunday, October 16, 2022",29th Sunday in Ordinary Time,Psalm 147; Isaiah 54:1-14; Luke 13:31-35,Psalm 149; Nehemiah 8:9-18; John 16:1-11
-2022/10/17,"Monday, October 17, 2022",Week of 29th Sunday in Ordinary Time,Psalm 80; 2 Kings 5; Acts 26:1–23,Psalm 85; Ezekiel 14:12–end; Mark 15:1–15
-2022/10/18,"Tuesday, October 18, 2022",Week of 29th Sunday in Ordinary Time,Psalm 89:1-18; 2 Kings 6:1–23; Acts 26:24–end,Psalm 89:19-end; Ezekiel 18:1–20; Mark 15:16–32
+2022/10/17,"Monday, October 17, 2022",Week of 29th Sunday in Ordinary Time,Psalm 80; 2 Kings 5; Acts 26:1–23,Psalm 33; Hosea 6:1-3; 2 Timothy 3:10-17
+2022/10/18,"Tuesday, October 18, 2022",St Luke the Evangelist,"Psalm 145,146; Isaiah 55; Luke 1:1-4",Psalm 103; Isaiah 61:1-6; Colossians 4:7-18
 2022/10/19,"Wednesday, October 19, 2022",Week of 29th Sunday in Ordinary Time,Psalm 119:105-128; 2 Kings 9:1–16; Acts 27:1–26,Psalm 91; Ezekiel 18:21–32; Mark 15:33–41
 2022/10/20,"Thursday, October 20, 2022",Week of 29th Sunday in Ordinary Time,Psalm 92; 2 Kings 9:17–end; Acts 27:27–end,Psalm 94; Ezekiel 20:1–20; Mark 15:42–end
 2022/10/21,"Friday, October 21, 2022",Week of 29th Sunday in Ordinary Time,Psalm 88; 2 Kings 12:1–19; Acts 28:1–16,Psalm 102; Ezekiel 20:21–38; Mark 16:1–8
@@ -332,7 +332,34 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/10/24,"Monday, October 24, 2022",Week of 30th Sunday in Ordinary Time,Psalm 98; 2 Kings 17:24–end; Philippians 1:1–11,Psalm 105*; Ezekiel 28:1–19; John 13:1–11
 2022/10/25,"Tuesday, October 25, 2022",Week of 30th Sunday in Ordinary Time,Psalm 106*; 2 Kings 18:1–12; Philippians 1:12–end,Psalm 107*; Ezekiel 33:1–20; John 13:12–20
 2022/10/26,"Wednesday, October 26, 2022",Week of 30th Sunday in Ordinary Time,Psalm 111; 2 Kings 18:13–end; Philippians 2:1–13,Psalm 119:129-152; Ezekiel 33:21–end; John 13:21–30
-2022/10/27,"Thursday, October 27, 2022",Week of 30th Sunday in Ordinary Time,Psalm 115; 2 Kings 19:1–19; Philippians 2:14–end,Psalm 116; Ezekiel 34:1–16; John 13:31–end
-2022/10/28,"Friday, October 28, 2022",Week of 30th Sunday in Ordinary Time,Psalm 139; 2 Kings 19:20–36; Philippians 3:1–4:1,Psalm 130; Ezekiel 34:17–end; John 14:1–14
+2022/10/27,"Thursday, October 27, 2022",Week of 30th Sunday in Ordinary Time,Psalm 115; 2 Kings 19:1–19; Philippians 2:14–end,"Psalm 124,125,126; Deuteronomy 32:1-4; John 14:15-26"
+2022/10/28,"Friday, October 28, 2022","St Simon and St Jude, Apostles","Psalm 116,117; Isaiah 45:18-26; Luke 6:12-16","Psalm 119:1-16; Jeremiah 3:11-18; Jude 1-4,17-25"
 2022/10/29,"Saturday, October 29, 2022",Week of 30th Sunday in Ordinary Time,Psalm 121; 2 Kings 20; Philippians 4:2–end,Psalm 118; Ezekiel 36:16–36; John 14:15–end
-2022/10/30,"Sunday, October 30, 2022",31st Sunday in Ordinary Time,Psalm 87; Job 26; Colossians 1:9-14,Psalm 145; Lamentations 3:22-33; John 11:32-44
+2022/10/30,"Sunday, October 30, 2022",4th Sunday before Advent,Psalm 87; Job 26; Colossians 1:9-14,Psalm 145; Lamentations 3:22-33; John 11:32-44
+2022/10/31,"Monday, October 31, 2022",Week of 4th Sunday before Advent,Psalm 2; Daniel 1; Revelation 1,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
+2022/11/01,"Tuesday, November 1, 2022",All Saints Day,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
+2022/11/02,"Wednesday, November 2, 2022",Week of 4th Sunday before Advent,Psalm 9; Daniel 2:25–end; Revelation 2:12–end,Psalm 112; Isaiah 2:1–11; Matthew 2:16–end
+2022/11/03,"Thursday, November 3, 2022",Week of 4th Sunday before Advent,Psalm 15; Daniel 3:1–18; Revelation 3:1–13,Psalm 118; Isaiah 2:12–end; Matthew 3
+2022/11/04,"Friday, November 4, 2022",Week of 4th Sunday before Advent,Psalm 16; Daniel 3:19–end; Revelation 3:14–end,Psalm 143; Isaiah 3:1–15; Matthew 4:1–11
+2022/11/05,"Saturday, November 5, 2022",Week of 4th Sunday before Advent,Psalm 18.31-end; Daniel 4:1–18; Revelation 4,Psalm 145; Isaiah 4:2–5:7; Matthew 4:12–22
+2022/11/06,"Sunday, November 6, 2022",3rd Sunday before Advent,"Psalm 20,90; Isaiah 2:1-5; James 3:13-18",Psalm 40; 1 Kings 3:1-15; Romans 8:31-39
+2022/11/07,"Monday, November 7, 2022",Week of 3rd Sunday before Advent,Psalm 20; Daniel 4:19–end; Revelation 5,Psalm 34; Isaiah 5:8–24; Matthew 4:23–5:12
+2022/11/08,"Tuesday, November 8, 2022",Week of 3rd Sunday before Advent,Psalm 21; Daniel 5:1–12; Revelation 6,Psalm 40; Isaiah 5:25–end; Matthew 5:13–20
+2022/11/09,"Wednesday, November 9, 2022",Week of 3rd Sunday before Advent,"Psalm 23; Daniel 5:13–end; Revelation 7:1–4,9–end",Psalm 37; Isaiah 6; Matthew 5:21–37
+2022/11/10,"Thursday, November 10, 2022",Week of 3rd Sunday before Advent,Psalm 26; Daniel 6; Revelation 8,Psalm 43; Isaiah 7:1–17; Matthew 5:38–end
+2022/11/11,"Friday, November 11, 2022",Week of 3rd Sunday before Advent,Psalm 32; Daniel 7:1–14; Revelation 9:1–12,Psalm 31; Isaiah 8:1–15; Matthew 6:1–18
+2022/11/12,"Saturday, November 12, 2022",Week of 3rd Sunday before Advent,Psalm 33; Daniel 7:15–end; Revelation 9:13–end,Psalm 86; Isaiah 8:16–9:7; Matthew 6:19–end
+2022/11/13,"Sunday, November 13, 2022",2nd Sunday before Advent,Psalm 132; 1 Samuel 16:1-13; Matthew 13:44-52,"Psalm 97; Daniel 6; Matthew 13:1-9,18-23"
+2022/11/14,"Monday, November 14, 2022",Week of 2nd Sunday before Advent,Psalm 47; Daniel 8:1–14; Revelation 10,Psalm 71; Isaiah 9:8–10:4; Matthew 7:1–12
+2022/11/15,"Tuesday, November 15, 2022",Week of 2nd Sunday before Advent,Psalm 52; Daniel 8:15–end; Revelation 11:1–14,Psalm 67; Isaiah 10:5–19; Matthew 7:13–end
+2022/11/16,"Wednesday, November 16, 2022",Week of 2nd Sunday before Advent,Psalm 56; Daniel 9:1–19; Revelation 11:15–end,Psalm 73; Isaiah 10:20–32; Matthew 8:1–13
+2022/11/17,"Thursday, November 17, 2022",Week of 2nd Sunday before Advent,Psalm 62; Daniel 9:20–end; Revelation 12,Psalm 76; Isaiah 10:33–11:9; Matthew 8:14–22
+2022/11/18,"Friday, November 18, 2022",Week of 2nd Sunday before Advent,Psalm 63; Daniel 10:1–11:1; Revelation 13:1–10,Psalm 77; Isaiah 11:10–end of 12; Matthew 8:23–end
+2022/11/19,"Saturday, November 19, 2022",Week of 2nd Sunday before Advent,Psalm 78.1-39; Daniel 12; Revelation 13:11–end,"Psalm 99,100; Isaiah 10:33-11:9; 1 Timothy 6:11-16"
+2022/11/20,"Sunday, November 20, 2022",Christ the King Sunday,"Psalm 29,110; Zechariah 6:9-15; Revelation 11:15-18",Psalm 72; 1 Samuel 8:4-20; John 18:33-37
+2022/11/21,"Monday, November 21, 2022",Week of 1st Sunday before Advent,Psalm 96; Isaiah 40:1–11; Revelation 14:1–13,Psalm 80; Isaiah 14:3–20; Matthew 9:18–34
+2022/11/22,"Tuesday, November 22, 2022",Week of 1st Sunday before Advent,"Psalm 97; Isaiah 40:12–26; Revelation 14:14–end,15:1-end",Psalm 101; Isaiah 17; Matthew 9:35–10:15
+2022/11/23,"Wednesday, November 23, 2022",Week of 1st Sunday before Advent,Psalm 112; Isaiah 40:27–41:7; Revelation 16:1–11,Psalm 122; Isaiah 19; Matthew 10:16–33
+2022/11/24,"Thursday, November 24, 2022",Week of 1st Sunday before Advent,Psalm 125; Isaiah 41:8–20; Revelation 16:12–end,Psalm 133; Isaiah 21:1–12; Matthew 10:34–11:1
+2022/11/25,"Friday, November 25, 2022",Week of 1st Sunday before Advent,Psalm 139; Isaiah 41:21–42:9; Revelation 17,Psalm 146; Isaiah 22:1–14; Matthew 11:2–19
+2022/11/26,"Saturday, November 26, 2022",Week of 1st Sunday before Advent,Psalm 145; Isaiah 42:10–17; Revelation 18,Psalm 150; Isaiah 24; Matthew 11:20–end
