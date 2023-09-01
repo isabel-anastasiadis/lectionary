@@ -60,11 +60,9 @@ namespace Tests.Pipeline.Steps.Utility
 
         /// <summary>
         /// There is a heirarchy of steps to be applied within a year. 
-        /// If we've got multiple matching ones, then we've got more than a years data.
-        /// This could mess up the heirarchy.
-        /// </summary>
+        /// Sometimes we get two matching dates, but we shouldn't get 3
         [Test]
-        public void ThrowsExceptionIfARuleCouldApplyToMoreThanOneDateInTheResult()
+        public void DoesNotThrowExceptionIfARuleCouldApplyToTwoDatesInTheResult()
         {
             // arrange
             var applicableRules = new List<Rule>
@@ -78,6 +76,34 @@ namespace Tests.Pipeline.Steps.Utility
             var workingResult = new PipelineWorkingResult();
             workingResult.Result[new DateOnly(2021, 12, 1)] = new Option<Day, DayOptionType>();
             workingResult.Result[new DateOnly(2022, 12, 1)] = new Option<Day, DayOptionType>();
+
+            // act
+            ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, applicableRules);
+
+            // assert
+            Assert.Pass();
+
+        }
+
+        /// <summary>
+        /// There is a heirarchy of steps to be applied within a year. 
+        /// Sometimes we get two matching dates, but we shouldn't get 3
+        [Test]
+        public void ThrowsExceptionIfARuleCouldApplyToThreeOrMoreDatesInTheResult()
+        {
+            // arrange
+            var applicableRules = new List<Rule>
+            {
+                new Rule(){
+                    Day = 1,
+                    Month = 12
+                }
+            };
+
+            var workingResult = new PipelineWorkingResult();
+            workingResult.Result[new DateOnly(2021, 12, 1)] = new Option<Day, DayOptionType>();
+            workingResult.Result[new DateOnly(2022, 12, 1)] = new Option<Day, DayOptionType>();
+            workingResult.Result[new DateOnly(2023, 12, 1)] = new Option<Day, DayOptionType>();
 
             // act
             try
