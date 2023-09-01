@@ -16844,28 +16844,28 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 78.40\u2013end",
-                    "readQS": "Psalm+78.40-",
-                    "audioQS": "Ps.78.40\u2013end"
+                    "pretty": "Psalm 99,100",
+                    "readQS": "Psalm+99,100",
+                    "audioQS": "Ps.99,100"
                 },
                 {
-                    "pretty": "Daniel 12",
-                    "readQS": "Daniel+12",
-                    "audioQS": "Dan.12"
+                    "pretty": "Isaiah 10:33\u201311:9",
+                    "readQS": "Isaiah+10:33-11:9",
+                    "audioQS": "Isa.10"
                 },
                 {
-                    "pretty": "Revelation 13:11\u2013end",
-                    "readQS": "Revelation+13:11-",
-                    "audioQS": "Rev.13"
+                    "pretty": "1 Timothy 6:11\u201316",
+                    "readQS": "1+Timothy+6:11-16",
+                    "audioQS": "1Tim.6"
                 }
             ],
-            "readQS": "Psalm+78.40-%3B+Daniel+12%3B+Revelation+13:11-",
-            "audioQS": "Ps.78.40\u2013end,Dan.12,Rev.13"
+            "readQS": "Psalm+99,100%3B+Isaiah+10:33-11:9%3B+1+Timothy+6:11-16",
+            "audioQS": "Ps.99,100,Isa.10,1Tim.6"
         }
     },
     "2023/11/26": {
         "datePretty": "Sunday, November 26, 2023",
-        "calendar": "1st Sunday before Advent",
+        "calendar": "Christ the King Sunday",
         "morning": {
             "readings": [
                 {
@@ -17028,69 +17028,69 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 122",
-                    "readQS": "Psalm+122",
-                    "audioQS": "Ps.122"
+                    "pretty": "Psalm 48",
+                    "readQS": "Psalm+48",
+                    "audioQS": "Ps.48"
                 },
                 {
-                    "pretty": "Isaiah 40:27\u201341:7",
-                    "readQS": "Isaiah+40:27-41:7",
-                    "audioQS": "Isa.40"
+                    "pretty": "Isaiah 49:1\u20139a",
+                    "readQS": "Isaiah+49:1-9a",
+                    "audioQS": "Isa.49"
                 },
                 {
-                    "pretty": "Revelation 16:1\u201311",
-                    "readQS": "Revelation+16:1-11",
-                    "audioQS": "Rev.16"
+                    "pretty": "1 Corinthians 4:9\u201316",
+                    "readQS": "1+Corinthians+4:9-16",
+                    "audioQS": "1Cor.4"
                 }
             ],
-            "readQS": "Psalm+122%3B+Isaiah+40:27-41:7%3B+Revelation+16:1-11",
-            "audioQS": "Ps.122,Isa.40,Rev.16"
+            "readQS": "Psalm+48%3B+Isaiah+49:1-9a%3B+1+Corinthians+4:9-16",
+            "audioQS": "Ps.48,Isa.49,1Cor.4"
         }
     },
     "2023/11/30": {
         "datePretty": "Thursday, November 30, 2023",
-        "calendar": "Week of 1st Sunday before Advent",
+        "calendar": "St Andrew the Apostle",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 125",
-                    "readQS": "Psalm+125",
-                    "audioQS": "Ps.125"
+                    "pretty": "Psalm 47,147:1\u201311",
+                    "readQS": "Psalm+47,147:1-11",
+                    "audioQS": "Ps.47,147"
                 },
                 {
-                    "pretty": "Isaiah 21:1\u201312",
-                    "readQS": "Isaiah+21:1-12",
-                    "audioQS": "Isa.21"
+                    "pretty": "Ezekiel 47:1\u201312",
+                    "readQS": "Ezekiel+47:1-12",
+                    "audioQS": "Ezek.47"
                 },
                 {
-                    "pretty": "Matthew 10:34\u201311:1",
-                    "readQS": "Matthew+10:34-11:1",
-                    "audioQS": "Matt.10"
+                    "pretty": "John 12:20\u201332",
+                    "readQS": "John+12:20-32",
+                    "audioQS": "John.12"
                 }
             ],
-            "readQS": "Psalm+125%3B+Isaiah+21:1-12%3B+Matthew+10:34-11:1",
-            "audioQS": "Ps.125,Isa.21,Matt.10"
+            "readQS": "Psalm+47,147:1-11%3B+Ezekiel+47:1-12%3B+John+12:20-32",
+            "audioQS": "Ps.47,147,Ezek.47,John.12"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 133",
-                    "readQS": "Psalm+133",
-                    "audioQS": "Ps.133"
+                    "pretty": "Psalm 87,96",
+                    "readQS": "Psalm+87,96",
+                    "audioQS": "Ps.87,96"
                 },
                 {
-                    "pretty": "Isaiah 41:8\u201320",
-                    "readQS": "Isaiah+41:8-20",
-                    "audioQS": "Isa.41"
+                    "pretty": "Zechariah 8:20\u201323",
+                    "readQS": "Zechariah+8:20-23",
+                    "audioQS": "Zech.8"
                 },
                 {
-                    "pretty": "Revelation 16:12\u2013end",
-                    "readQS": "Revelation+16:12-",
-                    "audioQS": "Rev.16"
+                    "pretty": "John 1:35\u201342",
+                    "readQS": "John+1:35-42",
+                    "audioQS": "John.1"
                 }
             ],
-            "readQS": "Psalm+133%3B+Isaiah+41:8-20%3B+Revelation+16:12-",
-            "audioQS": "Ps.133,Isa.41,Rev.16"
+            "readQS": "Psalm+87,96%3B+Zechariah+8:20-23%3B+John+1:35-42",
+            "audioQS": "Ps.87,96,Zech.8,John.1"
         }
     },
     "2023/12/01": {
