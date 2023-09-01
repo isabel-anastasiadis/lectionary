@@ -22,7 +22,7 @@ namespace ReadingsBuilder
         public static readonly Input FOR_2022_TO_2023 = new()
         {
             StartDate = new DateOnly(2022, 11, 27), // first sun of advent
-            EndDate = new DateOnly(2023, 11, 4), // Sat before 4th Sun of Advent.  Haven't done Transfiguration of the Beloved Son and beyond for set feastival days.  Otherwise done until 4th Sun before Advent.
+            EndDate = new DateOnly(2023, 12, 2),
             FifthSundayAfterEpiphany = new DateOnly(2023, 2, 5),
             AshWednesday = new DateOnly(2023, 2, 22),
             PalmSunday = new DateOnly(2023, 4, 2),

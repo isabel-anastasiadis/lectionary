@@ -51,9 +51,13 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             int? yearValue = dateOverride != null ? dateOverride.Value.Year : rule.Year;
 
             var possibleDates = workingResult.Result.Keys.Where(date => (!yearValue.HasValue || date.Year == yearValue) && date.Month == monthValue && date.Day == dayValue).ToList();
-            if (possibleDates.Count() > 1)
+            if (possibleDates.Count() > 2)
             {
-                throw new ArgumentException($"There should only be one matching day per rule (Steps are only assumed to run on a year's worth of data, and previous steps might not have processed the necessary days)");
+                // We sometimes get the same date falling twice in a lectionary year
+                // A good example is 29th Nov in the 2022-2023 lectionary, which started 27th Nov 2022 - 1 Dec 2023
+                // In this case we pick the first one.
+                // But if there are more than two, then there's a problem.
+                throw new ArgumentException($"There should only be up to two matching days per rule (Steps are only assumed to run on a year's worth of data, and previous steps might not have processed the necessary days)");
             }
 
             if (!possibleDates.Any())
