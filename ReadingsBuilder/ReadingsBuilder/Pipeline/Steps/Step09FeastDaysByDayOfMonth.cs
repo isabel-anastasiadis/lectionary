@@ -20,11 +20,13 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
+
             // the rules alternate between eveningbefore and the festival
-            for (int i = 0; i < ApplicableRules.Count; i += 2)
+            for (int i = 0; i < applicableRules.Count; i += 2)
             { 
-                var eveningBeforeRule = ApplicableRules[i];
-                var festivalRule = ApplicableRules[(i + 1)];
+                var eveningBeforeRule = applicableRules[i];
+                var festivalRule = applicableRules[(i + 1)];
 
                 var dateKey = workingResult.Result.Keys.Where(key => key.Month == festivalRule.Month && key.Day == festivalRule.Day).FirstOrDefault();
                 if (dateKey == default)
@@ -62,18 +64,6 @@ namespace ReadingsBuilder.Pipeline.Steps
             }
 
             return workingResult;
-        }
-
-        private DateOnly FindNextAvailableDay(DateOnly originalDate, PipelineWorkingResult workingResult)
-        {
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-            return workingResult.Result
-                .Where(keyValue => keyValue.Key > originalDate)
-                .Where(keyValue => keyValue.Value.OptionOne != null)
-                .Select(keyValue => keyValue.Value.OptionOne)
-                .First(day => day?.CanHaveFestival == true)
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
-                .Date;
         }
 
     }

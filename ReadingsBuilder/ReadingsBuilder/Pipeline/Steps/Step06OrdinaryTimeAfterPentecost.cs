@@ -37,17 +37,20 @@ namespace ReadingsBuilder.Pipeline.Steps
                 throw new ArgumentNullException(nameof(workingResult.Input.FourthSundayBeforeAdvent));
             }
 
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
+
             // work out what date to start with
             var dateOfFirstDayTheRuleAppliesTo = workingResult.Input
                 .Pentecost
                 .Value
                 .AddDays(1);
 
+
             var dateOfLastDayRuleAppliesTo = workingResult.Input.FourthSundayBeforeAdvent.Value;
 
             return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult,
                 liturgicalYear,
-                ApplicableRules,
+                applicableRules,
                 dateOfFirstDayTheRuleAppliesTo,
                 RulesToStartWith: null,
                 dateOfLastDayRuleAppliesTo);

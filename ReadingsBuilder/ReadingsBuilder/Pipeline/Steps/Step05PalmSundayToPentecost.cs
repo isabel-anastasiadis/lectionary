@@ -32,12 +32,15 @@ namespace ReadingsBuilder.Pipeline.Steps
                 throw new ArgumentNullException(nameof(workingResult.Input.PalmSunday));
             }
 
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
+
             // work out what date to start with
             var dateOfFirstDayTheRuleAppliesTo = workingResult.Input.PalmSunday.Value;
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult,
+            return ruleSetApplier.ApplyRulesByDayOfWeek(
+                workingResult,
                 liturgicalYear,
-                ApplicableRules, 
+                applicableRules, 
                 dateOfFirstDayTheRuleAppliesTo, 
                 RulesToStartWith: null, 
                 dateOfLastDayRuleAppliesTo: null);

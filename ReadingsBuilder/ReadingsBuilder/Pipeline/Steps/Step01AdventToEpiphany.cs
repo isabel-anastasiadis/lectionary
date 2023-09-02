@@ -33,10 +33,12 @@ namespace ReadingsBuilder.Pipeline.Steps
                 throw new ArgumentException($"Expected the first day to be a Sunday, but it was {firstDate.DayOfWeek} ({firstDate}).  The first day should be the 1st Sunday of Advent.", nameof(workingResult.Result));
             }
 
-            // the first sunday of advent
-            var RulesToStartWith = ApplicableRules.FirstOrDefault();
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, ApplicableRules, firstDate, RulesToStartWith, null);
+            // the first sunday of advent
+            var RulesToStartWith = applicableRules.FirstOrDefault();
+
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, firstDate, RulesToStartWith, null);
         }
 
     }

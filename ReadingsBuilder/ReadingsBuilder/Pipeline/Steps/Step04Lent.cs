@@ -37,9 +37,11 @@ namespace ReadingsBuilder.Pipeline.Steps
 
             var firstRuleSetRow = RowOfRuleSetToStartFrom(startingDate, endingDate);
 
-            var RulesToStartWith = ApplicableRules.First(rule => rule.RowNumberInRuleSet == firstRuleSetRow);
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, ApplicableRules, startingDate, RulesToStartWith, null);
+            var RulesToStartWith = applicableRules.First(rule => rule.RowNumberInRuleSet == firstRuleSetRow);
+
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, startingDate, RulesToStartWith, null);
         }
 
         private int RowOfRuleSetToStartFrom(DateOnly startingDate, DateOnly endingDate) {

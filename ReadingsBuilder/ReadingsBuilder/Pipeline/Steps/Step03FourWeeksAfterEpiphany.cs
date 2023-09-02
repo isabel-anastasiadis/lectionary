@@ -32,9 +32,11 @@ namespace ReadingsBuilder.Pipeline.Steps
                 .Where(x => x.Month == 1 && x.Day > 6 && x.DayOfWeek == DayOfWeek.Saturday)  // The first Saturday after the 6th Jan
                 .FirstOrDefault();
 
-            var RulesToStartWith = ApplicableRules.FirstOrDefault();
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, RulesToStartWith, null);
+            var RulesToStartWith = applicableRules.FirstOrDefault();
+
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, dateOfFirstDayTheRuleAppliesTo, RulesToStartWith, null);
 
         }
     }

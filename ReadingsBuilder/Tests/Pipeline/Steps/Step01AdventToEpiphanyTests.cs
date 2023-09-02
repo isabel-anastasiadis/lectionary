@@ -5,7 +5,6 @@ using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model;
-using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps;
@@ -117,7 +116,7 @@ namespace Tests.Pipeline.Steps
 
         [TestCase(ClassName, RuleType.ByDayOfWeek, true)]
         [TestCase("SomeOtherClass.cs", RuleType.ByDayOfWeek, false)]
-        public void ConstructorRequiresAtLeastOneMatchingRule(string handlingClassName, RuleType ruleType, bool shouldPass)
+        public void ApplicableRulesRequiresAtLeastOneMatchingRule(string handlingClassName, RuleType ruleType, bool shouldPass)
         {
 
             // arrange
@@ -130,7 +129,8 @@ namespace Tests.Pipeline.Steps
                         HandlingClassName = handlingClassName,
                         RuleType = ruleType
                     }
-                });
+                }).ApplicableRules(RclYear.B);
+
                 if (!shouldPass)
                 {
                     Assert.Fail("Should have thrown ArgumentException");
@@ -146,6 +146,7 @@ namespace Tests.Pipeline.Steps
                 }
             }
         }
+
 
         [Test]
         public void RunStepEnsuresTheYearStartsWithSunday()

@@ -7,37 +7,38 @@ namespace ReadingsBuilder.Pipeline.Steps
 {
     public abstract class BaseStep
     {
-        protected readonly List<Rule> ApplicableRules;
-
         protected readonly IRuleApplier RuleApplier;
+
+        private readonly List<Rule> AllRules;
 
         protected abstract string RuleSetName { get; }
 
-        public BaseStep(IRuleApplier ruleApplier, IRulesFactory dataFactory)
+        public BaseStep(IRuleApplier ruleApplier, IRulesFactory rulesFactory)
         {
             RuleApplier = ruleApplier;
 
-            if (dataFactory == null)
+            if (rulesFactory == null)
             {
-                throw new ArgumentNullException(nameof(dataFactory));
+                throw new ArgumentNullException(nameof(rulesFactory));
             }
 
-            var allData = dataFactory.GenerateAllData();
+            // TODO consider passing these in the method, rather than recomputing in each step constructor
+            AllRules = rulesFactory.GenerateAllData();
+        }
 
-            ApplicableRules = allData
-                .Where(x => ShouldIncludeRule(x))
-                .OrderBy(x => x.RowNumberInRuleSet)
-                .ToList() ?? new List<Rule>();
+        public List<Rule> ApplicableRules(RclYear rclYear)
+        {
+            var result = AllRules
+                .Where(rule => rule.HandlingClassName == RuleSetName)
+                .Where(rule => rule.RclYear == RclYear.All || rule.RclYear == rclYear)
+                .OrderBy(rule => rule.RowNumberInRuleSet);
 
-            if (!ApplicableRules.Any())
+            if (!result.Any())
             {
                 throw new ArgumentException("No matching rules were passed in");
             }
-        }
 
-        protected virtual bool ShouldIncludeRule(Rule rule) {
-            return rule.HandlingClassName == this.RuleSetName;
+            return result.ToList();
         }
-
     }
 }
