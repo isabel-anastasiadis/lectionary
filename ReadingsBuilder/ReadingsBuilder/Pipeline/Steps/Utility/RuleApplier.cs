@@ -8,22 +8,8 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public class RuleApplier : IRuleApplier
     {
-        private readonly ILiturgicalYearFactory _liturgicalYearFactory;
-
-        public RuleApplier(ILiturgicalYearFactory liturgicalYearFactory)
+        public void ApplyRuleToDay(Rule rule, Day day, LiturgicalYear liturgicalYear, ReadingsOptionType optionType = default)
         {
-            _liturgicalYearFactory = liturgicalYearFactory;
-        }
-
-        public void ApplyRuleToDay(Rule rule, Day day, ReadingsOptionType optionType = default)
-        {
-            var liturgicalYear = _liturgicalYearFactory.Get(day.Date);
-
-            if (liturgicalYear == null)
-            {
-                throw new ArgumentException($"There was no liturgical year returned for date '{day.Date}'");
-            }
-
             InitialiseOptionTwoIfApplicable(rule, day, optionType);
 
             ApplyDayDescription(rule, day, optionType);
@@ -39,7 +25,6 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             ApplyRotatingReadings(liturgicalYear, rule, day);
 
             ApplySetReadings(rule, day, optionType);
-
         }
 
         private void InitialiseOptionTwoIfApplicable(Rule rule, Day day, ReadingsOptionType optionType) 

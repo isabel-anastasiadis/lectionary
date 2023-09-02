@@ -20,7 +20,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         private const int WeeksOfDataForPreLentTime = 5;
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {
             if (workingResult.Input?.FifthSundayAfterEpiphany == null)
             {
@@ -39,7 +39,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
             var RulesToStartWith = ApplicableRules.First(rule => rule.RowNumberInRuleSet == firstRuleSetRow);
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, startingDate, RulesToStartWith, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, ApplicableRules, startingDate, RulesToStartWith, null);
         }
 
         private int RowOfRuleSetToStartFrom(DateOnly startingDate, DateOnly endingDate) {

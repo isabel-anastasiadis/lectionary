@@ -1,4 +1,5 @@
 using ReadingsBuilder.Data.Rules;
+using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -19,7 +20,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         protected override string RuleSetName => "PalmSundayToPentecost.cs";
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {
             if (workingResult == null)
             {
@@ -34,7 +35,8 @@ namespace ReadingsBuilder.Pipeline.Steps
             // work out what date to start with
             var dateOfFirstDayTheRuleAppliesTo = workingResult.Input.PalmSunday.Value;
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, 
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult,
+                liturgicalYear,
                 ApplicableRules, 
                 dateOfFirstDayTheRuleAppliesTo, 
                 RulesToStartWith: null, 

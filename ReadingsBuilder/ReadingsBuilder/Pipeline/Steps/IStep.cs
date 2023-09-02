@@ -8,6 +8,6 @@ namespace ReadingsBuilder.Pipeline.Steps
     {
         public int Order { get; }
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult);
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear);
     }
 }

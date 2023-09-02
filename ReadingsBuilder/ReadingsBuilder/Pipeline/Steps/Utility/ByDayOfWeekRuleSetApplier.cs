@@ -13,6 +13,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
         }
 
         public PipelineWorkingResult ApplyRulesByDayOfWeek(PipelineWorkingResult workingResult,
+            LiturgicalYear liturgicalYear,
             List<Rule> applicableRules,
             DateOnly dateOfFirstDayRuleAppliesTo,
             Rule? RulesToStartWith,
@@ -68,7 +69,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                     throw new ArgumentException($"Expected {day.Date} to be a {rule.Weekday}, but it is {day.Date.DayOfWeek}.");
                 }
 
-                _ruleApplier.ApplyRuleToDay(rule, day);
+                _ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear);
 
                 currentDate = currentDate.AddDays(1);
             }

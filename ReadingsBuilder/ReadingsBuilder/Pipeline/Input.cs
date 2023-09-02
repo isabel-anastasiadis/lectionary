@@ -1,9 +1,9 @@
 ﻿namespace ReadingsBuilder.Pipeline
 {
     public class Input {
-        public DateOnly? StartDate { get; set; }
+        public DateOnly StartDate { get; set; }
 
-        public DateOnly? EndDate { get; set; }
+        public DateOnly EndDate { get; set; }
 
         /// <summary>
         /// Marks the start of the first season of ordinary time up until Lent

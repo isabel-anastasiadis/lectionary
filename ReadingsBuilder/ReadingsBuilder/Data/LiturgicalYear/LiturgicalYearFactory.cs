@@ -55,9 +55,11 @@ namespace ReadingsBuilder.Data.Result
             });
         }
 
-        public LiturgicalYear? Get(DateOnly date)
+        public LiturgicalYear Get(DateOnly startDate, DateOnly endDate)
         {
-            return _years.Where(x => x.FirstDay <= date && x.LastDay >= date).FirstOrDefault();
+            return _years
+                .Where(x => x.FirstDay <= startDate && x.LastDay >= startDate)
+                .Where(x => x.FirstDay <= endDate && x.LastDay >= endDate).Single();
         }
 
     }

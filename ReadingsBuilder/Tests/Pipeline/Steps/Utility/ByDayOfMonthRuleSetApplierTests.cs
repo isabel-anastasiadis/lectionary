@@ -32,7 +32,7 @@ namespace Tests.Pipeline.Steps.Utility
             try
             {
 
-                ClassUnderTest().ApplyRulesByDayOfMonth(null, new List<Rule>());
+                ClassUnderTest().ApplyRulesByDayOfMonth(null, Mock.Of<LiturgicalYear>(),new List<Rule>());
                 Assert.Fail();
             }
             catch (ArgumentNullException)
@@ -49,7 +49,7 @@ namespace Tests.Pipeline.Steps.Utility
             // act & assert
             try
             {
-                ClassUnderTest().ApplyRulesByDayOfMonth(new PipelineWorkingResult(), null);
+                ClassUnderTest().ApplyRulesByDayOfMonth(new PipelineWorkingResult(), Mock.Of<LiturgicalYear>(), null);
                 Assert.Fail();
             }
             catch (ArgumentNullException)
@@ -74,11 +74,12 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             var workingResult = new PipelineWorkingResult();
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
             workingResult.Result[new DateOnly(2021, 12, 1)] = new Option<Day, DayOptionType>();
             workingResult.Result[new DateOnly(2022, 12, 1)] = new Option<Day, DayOptionType>();
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, applicableRules);
+            ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, liturgicalYear, applicableRules);
 
             // assert
             Assert.Pass();
@@ -105,10 +106,12 @@ namespace Tests.Pipeline.Steps.Utility
             workingResult.Result[new DateOnly(2022, 12, 1)] = new Option<Day, DayOptionType>();
             workingResult.Result[new DateOnly(2023, 12, 1)] = new Option<Day, DayOptionType>();
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
             try
             {
-                ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, applicableRules);
+                ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, liturgicalYear, applicableRules);
                 Assert.Fail();
             }
             catch (ArgumentException)
@@ -132,8 +135,10 @@ namespace Tests.Pipeline.Steps.Utility
 
             var workingResult = new PipelineWorkingResult();
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, applicableRules);
+            ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, liturgicalYear, applicableRules);
 
             // assert
             Assert.IsEmpty(workingResult.Result.Keys);
@@ -156,12 +161,14 @@ namespace Tests.Pipeline.Steps.Utility
             var workingResult = new PipelineWorkingResult();
             workingResult.Result[new DateOnly(2021, 12, 1)] = new Option<Day, DayOptionType>() { OptionOne = resultDay };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, applicableRules);
+            ClassUnderTest().ApplyRulesByDayOfMonth(workingResult, liturgicalYear, applicableRules);
 
             // assert
 
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, default), times: Times.Once);
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, liturgicalYear, default), times: Times.Once);
 
 
         }

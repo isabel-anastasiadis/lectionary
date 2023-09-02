@@ -8,7 +8,7 @@ namespace ReadingsBuilder.Pipeline.Steps
     {
         public int Order => 0;
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {
             if (workingResult == null) {
                 throw new ArgumentNullException(nameof(workingResult));
@@ -28,7 +28,7 @@ namespace ReadingsBuilder.Pipeline.Steps
             }
 
 
-            var currentDate = workingResult.Input.StartDate.Value;
+            var currentDate = workingResult.Input.StartDate;
             while (true)
             {
                 workingResult.Result[currentDate] = new Option<Day, DayOptionType>() {

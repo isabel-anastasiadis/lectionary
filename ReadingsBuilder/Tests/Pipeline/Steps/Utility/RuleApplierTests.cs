@@ -26,10 +26,10 @@ namespace Tests.Pipeline.Steps.Utility
             rotatingReadingMappingProviderMock = new Mock<ILiturgicalYearFactory>();
 
             rotatingReadingMappingProviderMock
-                .Setup(m => m.Get(It.IsAny<DateOnly>()))
+                .Setup(m => m.Get(It.IsAny<DateOnly>(), It.IsAny<DateOnly>()))
                 .Returns(mappingToUse);
 
-            return new RuleApplier(rotatingReadingMappingProviderMock.Object);
+            return new RuleApplier();
         }
 
         [Test]
@@ -38,8 +38,10 @@ namespace Tests.Pipeline.Steps.Utility
             var day = new Day();
             var rule = new Rule();
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRuleToDay(rule, day, ReadingsOptionType.EveningBeforeFestival);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear, ReadingsOptionType.EveningBeforeFestival);
 
             // assert
             Assert.NotNull(day.EveningReadings.OptionTwo);
@@ -58,8 +60,10 @@ namespace Tests.Pipeline.Steps.Utility
                 EveningName = expected
             };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRuleToDay(rule, day, ReadingsOptionType.EveningBeforeFestival);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear, ReadingsOptionType.EveningBeforeFestival);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionTwoDescription);
@@ -97,8 +101,10 @@ namespace Tests.Pipeline.Steps.Utility
                 EveningNewTestament = option2NewTestament
             };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRuleToDay(rule, day, ReadingsOptionType.EveningBeforeFestival);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear, ReadingsOptionType.EveningBeforeFestival);
 
             // assert
             Assert.AreEqual(originalPsalm, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -124,7 +130,6 @@ namespace Tests.Pipeline.Steps.Utility
             {
                 MorningPsalmsMain = ruleValue,
             };
-
 
             // act
             ClassUnderTest().ApplyPsalms(rule, day, default);
@@ -176,9 +181,10 @@ namespace Tests.Pipeline.Steps.Utility
                 DayName = ruleValue
             };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
 
             // act
-            ClassUnderTest().ApplyRuleToDay(rule, day);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear);
 
             // assert
             Assert.AreEqual(expectedValue, day.DayDescription);
@@ -227,9 +233,10 @@ namespace Tests.Pipeline.Steps.Utility
                 FeastOrSeasonFlags = ruleValue
             };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
 
             // act
-            ClassUnderTest().ApplyRuleToDay(rule, day);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear);
 
             // assert
             Assert.AreEqual(expectedValue, day.FeastOrSeasonType);
@@ -241,7 +248,7 @@ namespace Tests.Pipeline.Steps.Utility
         {
 
             // arrange
-            var rotatingReadingMapping = new LiturgicalYear()
+            var liturgicalYear = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -268,7 +275,7 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, rule, day);
+            ClassUnderTest().ApplyRotatingReadings(liturgicalYear, rule, day);
 
             // assert
             Assert.AreEqual(rule.RotatingReadings[RotatingReadingType.NewTestament1], day?.MorningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
@@ -359,7 +366,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesMorningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new LiturgicalYear()
+            var liturgicalYear = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -381,7 +388,7 @@ namespace Tests.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(rule, day);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear);
 
             // assert
             Assert.AreEqual(expected, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);
@@ -393,7 +400,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesMorningNewTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new LiturgicalYear()
+            var liturgicalYear = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -415,7 +422,7 @@ namespace Tests.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(rule, day);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear);
 
             // assert
             Assert.AreEqual(expected, day.MorningReadings.OptionOne.NewTestament.OptionOne.RawString);
@@ -427,7 +434,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesEveningOldTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new LiturgicalYear()
+            var liturgicalYear = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -449,7 +456,7 @@ namespace Tests.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(rule, day);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString);
@@ -461,7 +468,7 @@ namespace Tests.Pipeline.Steps.Utility
         public void AppliesEveningNewTestamentSetReadingsCorrectly(string? ruleValue, string? existingDayValue, string? expected)
         {
             // arrange
-            var rotatingReadingMapping = new LiturgicalYear()
+            var liturgicalYear = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -483,7 +490,7 @@ namespace Tests.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(rule, day);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear);
 
             // assert
             Assert.AreEqual(expected, day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString);
@@ -498,7 +505,7 @@ namespace Tests.Pipeline.Steps.Utility
             var expectedEveningOldTestament = "Exodus 12:23-27";
             var expectedEveningNewTestament = "John 3:16-19";
 
-            var rotatingReadingMapping = new LiturgicalYear()
+            var liturgicalYear = new LiturgicalYear()
             {
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
@@ -529,7 +536,7 @@ namespace Tests.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest(rotatingReadingMapping).ApplyRuleToDay(rule, day);
+            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear);
 
             // assert
             Assert.AreEqual(expectedMorningOldTestament, day.MorningReadings.OptionOne.OldTestament.OptionOne.RawString);

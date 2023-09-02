@@ -18,14 +18,14 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         protected override string RuleSetName => "OrdinaryTimePsalms.cs";
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {
-            workingResult = ApplyForTimeBeforeEaster(workingResult);
-            workingResult = ApplyForTimeAfterEaster(workingResult);
+            workingResult = ApplyForTimeBeforeEaster(workingResult, liturgicalYear);
+            workingResult = ApplyForTimeAfterEaster(workingResult, liturgicalYear);
             return workingResult;
         }
 
-        private PipelineWorkingResult ApplyForTimeBeforeEaster(PipelineWorkingResult workingResult) {
+        private PipelineWorkingResult ApplyForTimeBeforeEaster(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear) {
             if (workingResult.Input?.FifthSundayAfterEpiphany == null)
             {
                 throw new ArgumentNullException(nameof(workingResult.Input.FifthSundayAfterEpiphany));
@@ -42,12 +42,12 @@ namespace ReadingsBuilder.Pipeline.Steps
             var shroveTuesday = workingResult.Input.AshWednesday.Value.Clone().AddDays(-1);
             var RulesToStartWith = ApplicableRules.First(rule => rule.Weekday == presentationOfJesus.DayOfWeek);
 
-            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, presentationOfJesus, RulesToStartWith, shroveTuesday);
+            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, ApplicableRules, presentationOfJesus, RulesToStartWith, shroveTuesday);
 
             return workingResult;
         }
 
-        private PipelineWorkingResult ApplyForTimeAfterEaster(PipelineWorkingResult workingResult)
+        private PipelineWorkingResult ApplyForTimeAfterEaster(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {
             if (workingResult.Input?.Pentecost == null)
             {
@@ -72,7 +72,8 @@ namespace ReadingsBuilder.Pipeline.Steps
                 .Value;
             var RulesToStartWith = ApplicableRules[ruleIndex];
 
-            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, 
+            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult,
+                liturgicalYear,
                 ApplicableRules, 
                 firstMondayDate, 
                 RulesToStartWith, 

@@ -12,7 +12,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             this.ruleApplier = ruleApplier;
         }
 
-        public PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, List<Rule> applicableRules)
+        public PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, List<Rule> applicableRules)
         {
 
             if (workingResult == null)
@@ -28,13 +28,13 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             foreach (var rule in applicableRules)
             {
 
-                ApplyRuleByDayOfMonth(workingResult, rule);
+                ApplyRuleByDayOfMonth(workingResult, liturgicalYear, rule);
             }
 
             return workingResult;
         }
 
-        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, Rule rule, DateOnly? dateOverride = null)
+        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, DateOnly? dateOverride = null)
         {
             if (workingResult == null)
             {
@@ -70,7 +70,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 var day = workingResult.Result[date].OptionOne;
                 if (day != null)
                 {
-                    ruleApplier.ApplyRuleToDay(rule, day);
+                    ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear);
                 }
             }
 

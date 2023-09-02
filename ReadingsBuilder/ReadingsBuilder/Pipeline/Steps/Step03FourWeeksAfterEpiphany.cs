@@ -18,7 +18,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         protected override string RuleSetName => "FourWeeksAfterEpiphany.cs";
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {
 
             if (workingResult == null)
@@ -34,7 +34,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
             var RulesToStartWith = ApplicableRules.FirstOrDefault();
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, RulesToStartWith, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, RulesToStartWith, null);
 
         }
     }

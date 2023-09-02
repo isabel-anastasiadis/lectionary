@@ -83,7 +83,7 @@ namespace Tests.Pipeline.Steps
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
 
-            return new Step01AdventToEpiphany(new RuleApplier(new LiturgicalYearFactory()), dataFactoryMock.Object, _ruleSetApplierMock.Object);
+            return new Step01AdventToEpiphany(new RuleApplier(), dataFactoryMock.Object, _ruleSetApplierMock.Object);
 
         }
 
@@ -158,13 +158,14 @@ namespace Tests.Pipeline.Steps
             {
                 OptionOne = new Day()
             };
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
 
             var classUnderTest = ClassUnderTest();
 
             // act & assert
             try
             {
-                classUnderTest.RunStep(workingResult);
+                classUnderTest.RunStep(workingResult, liturgicalYear: liturgicalYear);
                 Assert.Fail("Should have thrown ArgumentException");
 
             }
@@ -183,15 +184,16 @@ namespace Tests.Pipeline.Steps
             var dateOfDay = new DateOnly(2021, 11, 28); // 1st Sun Advent
             var workingResult = new PipelineWorkingResult();
             workingResult.Result[dateOfDay] = new Option<Day, DayOptionType>();
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
 
             var classUnderTest = ClassUnderTest();
             var expectedFirstRule = _defaultRules.First();
 
             // act
-            var result = classUnderTest.RunStep(workingResult);
+            var result = classUnderTest.RunStep(workingResult, liturgicalYear: liturgicalYear);
 
             // assert
-            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<List<Rule>>(), dateOfDay, expectedFirstRule, null, false));
+            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<LiturgicalYear>(), It.IsAny<List<Rule>>(), dateOfDay, expectedFirstRule, null, false));
 
         }
 

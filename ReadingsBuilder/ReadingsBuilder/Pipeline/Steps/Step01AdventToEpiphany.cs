@@ -21,7 +21,7 @@ namespace ReadingsBuilder.Pipeline.Steps
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {
 
             if (workingResult == null) {
@@ -36,7 +36,7 @@ namespace ReadingsBuilder.Pipeline.Steps
             // the first sunday of advent
             var RulesToStartWith = ApplicableRules.FirstOrDefault();
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, firstDate, RulesToStartWith, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, ApplicableRules, firstDate, RulesToStartWith, null);
         }
 
     }

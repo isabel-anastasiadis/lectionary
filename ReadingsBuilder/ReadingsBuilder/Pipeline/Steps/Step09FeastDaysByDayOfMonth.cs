@@ -18,7 +18,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         protected override string RuleSetName => "FeastDaysByDayOfMonth.cs";
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {
             // the rules alternate between eveningbefore and the festival
             for (int i = 0; i < ApplicableRules.Count; i += 2)
@@ -57,8 +57,8 @@ namespace ReadingsBuilder.Pipeline.Steps
                 // we need to apply them one by one (particularly for multiple festivals falling in Holy week that need moving)
                 // eg. if St George and St Mark both fall in Holy Week, then St George will be shifted to the
                 // first available day (prob. Monday), and St Mark the day after that.
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, eveningBeforeRule, newEveningBeforeDate);
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, festivalRule, newFestivalDate);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, newEveningBeforeDate);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, newFestivalDate);
             }
 
             return workingResult;
