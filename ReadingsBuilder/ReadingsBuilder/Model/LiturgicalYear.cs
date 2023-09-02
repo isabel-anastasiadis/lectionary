@@ -8,6 +8,7 @@
 
         // TODO add easter sunday dates too.  Can get from https://www.assa.org.au/edm/#List20
         // TODO load all from CSV
+        public RclYear RclYear { get; set; }
 
         public RotatingReadingType MorningOldTestamentOrdinary { get; set; }
 

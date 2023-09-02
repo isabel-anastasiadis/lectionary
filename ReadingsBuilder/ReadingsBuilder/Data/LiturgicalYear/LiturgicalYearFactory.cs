@@ -14,11 +14,11 @@ namespace ReadingsBuilder.Data.Result
         {
             _years = new List<LiturgicalYear>();
 
-            // See https://www.churchofengland.org/sites/default/files/2017-11/weekday%20lectionary%202005.pdf
+            // See https://www.churchofengland.org/sites/default/files/2018-02/weekday-lectionary-table-2020-2045.pdf
 
-            // Same as 2009-2010
             _years.Add(new LiturgicalYear()
             {
+                RclYear = RclYear.C,
                 FirstDay = new DateOnly(2021, 11, 28),
                 LastDay = new DateOnly(2022, 11, 26),
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
@@ -29,9 +29,9 @@ namespace ReadingsBuilder.Data.Result
                 EveningNewTestament = RotatingReadingType.NewTestament2
             });
 
-            // Same as 2010 - 2011
             _years.Add(new LiturgicalYear()
             {
+                RclYear = RclYear.A,
                 FirstDay = new DateOnly(2022, 11, 27),
                 LastDay = new DateOnly(2023, 12, 2),
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2a,
@@ -44,8 +44,9 @@ namespace ReadingsBuilder.Data.Result
 
             _years.Add(new LiturgicalYear()
             {
+                RclYear = RclYear.B,
                 FirstDay = new DateOnly(2023, 12, 3),
-                LastDay = new DateOnly(2023, 12, 31 ),
+                LastDay = new DateOnly(2023, 12, 31),
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament1,
                 EveningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
