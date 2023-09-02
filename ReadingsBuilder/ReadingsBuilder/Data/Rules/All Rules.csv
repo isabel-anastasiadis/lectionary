@@ -1,5 +1,7 @@
 Rule class order,Rule class name,RuleType,row (within class),extra data,feast / season type,evening name,day name,Is Seasonal Time,ByDayOfWeek-RclYear,ByDayOfWeek-Weekday,ByDayOfMonth-Year,ByDayOfMonth-Month,ByDayOfMonth-Day,OT1,OT2a,OT2b,NT1,NT2,Morning Apoc alt.,Morning OT,Morning NT,Evening Apoc. Alt.,Evening OT,Evening NT,M Psalm main,M Psalm optional,M omitted if canticle,E Psalm main,E optional,E omitted if canticle
-1,BaseAdvent.cs,ByDayOfWeek,0,,Advent,,1st Sunday of Advent,TRUE,,Su,,,,,,,,,,,,,,,,,,,,
+1,BaseAdvent.cs,ByDayOfWeek,0,,Advent,,1st Sunday of Advent,TRUE,A,Su,,,,,,,,,,Micah 4:1-7,1 Thessalonians 5:1-11,,Isaiah 52:1-12,Matthew 24:15-28,44,,,9*,,
+1,BaseAdvent.cs,ByDayOfWeek,0,,Advent,,1st Sunday of Advent,TRUE,B,Su,,,,,,,,,,Isaiah 2:1-5,Luke 12:35-48,,Isaiah 1:1-20,Matthew 21:1-13,44,,,25*,,
+1,BaseAdvent.cs,ByDayOfWeek,0,,Advent,,1st Sunday of Advent,TRUE,C,Su,,,,,,,,,,Isaiah 51:4-11,Romans 13:11-14,,Joel 3:9-21,Revelation 14:13-15:4,44,,,9*,,
 1,BaseAdvent.cs,ByDayOfWeek,1,,Advent,,Week of 1st Sunday of Advent,TRUE,,M,,,,Isaiah 25:1–9,Isaiah 42:18–end,N/A,Matthew 12:1–21,Revelation 19,,,,,,,50,54,,71,70,
 1,BaseAdvent.cs,ByDayOfWeek,2,,Advent,,Week of 1st Sunday of Advent,TRUE,,T,,,,Isaiah 26:1–13,Isaiah 43:1–13,N/A,Matthew 12:22–37,Revelation 20,,,,,,,80,82,,74,75,
 1,BaseAdvent.cs,ByDayOfWeek,3,,Advent,,Week of 1st Sunday of Advent,TRUE,,W,,,,Isaiah 28:1–13,Isaiah 43:14–end,N/A,Matthew 12:38–end,Revelation 21:1–8,,,,,,,7,5,,77,76,
@@ -567,8 +569,6 @@ Rule class order,Rule class name,RuleType,row (within class),extra data,feast / 
 10,ManuallyExtractedSundays.cs,ByDayOfMonth,48,,,,,,,,2022,11,6,,,,,,,Isaiah 2:1-5,James 3:13-18,,1 Kings 3:1-15,Romans 8:31-39,"20,90",,,40,,
 10,ManuallyExtractedSundays.cs,ByDayOfMonth,49,,,,,,,,2022,11,13,,,,,,,1 Samuel 16:1-13,Matthew 13:44-52,,Daniel 6,"Matthew 13:1-9,18-23",132,,,97,,
 10,ManuallyExtractedSundays.cs,ByDayOfMonth,50,,,,,,,,2022,11,20,,,,,,,Zechariah 6:9-15,Revelation 11:15-18,,1 Samuel 8:4-20,John 18:33-37,"29,110",,,72,,
-10,ManuallyExtractedSundays.cs,ByDayOfMonth,51,,,,,,,,2022,11,27,,,,,,,Micah 4:1-7,1 Thessalonians 5:1-11,,Isaiah 52:1-12,Matthew 24:15-28,44,,,9,,
-10,ManuallyExtractedSundays.cs,ByDayOfMonth,52,,,,,,,,2022,11,27,,,,,,,Micah 4:1-7,1 Thessalonians 5:1-11,,Isaiah 52:1-12,Matthew 24:15-28,44,,,9,,
 10,ManuallyExtractedSundays.cs,ByDayOfMonth,53,,,,,,,,2022,12,4,,,,,,,Amos 7,Luke 1:5-20,,1 Kings 18:17-39,John 1:19-28,80,,,11,,
 10,ManuallyExtractedSundays.cs,ByDayOfMonth,54,,,,,,,,2022,12,11,,,,,,,Zephaniah 3:14-20,Philippians 4:4-7,,Isaiah 5:8-30,Acts 13:13-41,68:1-19,,,12,,
 10,ManuallyExtractedSundays.cs,ByDayOfMonth,55,,,,,,,,2022,12,18,,,,,,,Micah 5:2-5a,Luke 1:26-38,,1 Samuel 1:1-20,Revelation 22:6-21,144,,,113,,
