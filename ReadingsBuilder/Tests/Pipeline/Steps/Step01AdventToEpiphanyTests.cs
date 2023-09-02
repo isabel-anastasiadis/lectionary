@@ -75,9 +75,9 @@ namespace Tests.Pipeline.Steps
         private Mock<IByDayOfWeekRuleSetApplier>? _ruleSetApplierMock;
 
 
-        private Step01AdventToEpiphany ClassUnderTest(List<Rule>? Rules = null)
+        private Step01AdventToEpiphany ClassUnderTest(List<Rule>? rules = null)
         {
-            var allData = Rules ?? _defaultRules;
+            var allData = rules ?? _defaultRules;
 
             var dataFactoryMock = new Mock<IRulesFactory>();
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);

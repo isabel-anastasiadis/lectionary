@@ -56,7 +56,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                     break;
                 }
 
-                var Rules = applicableRules[ruleIndex];
+                var rule = applicableRules[ruleIndex];
                 var day = workingResult.Result[currentDate]?.OptionOne;
 
                 if (day == null)
@@ -64,11 +64,11 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                     throw new ArgumentNullException($"Expected the {nameof(workingResult)}.{nameof(workingResult.Result)} to have a non-null day corresponding to '{currentDate}'");
                 }
 
-                if (day.Date.DayOfWeek != Rules.Weekday) {
-                    throw new ArgumentException($"Expected {day.Date} to be a {Rules.Weekday}, but it is {day.Date.DayOfWeek}.");
+                if (day.Date.DayOfWeek != rule.Weekday) {
+                    throw new ArgumentException($"Expected {day.Date} to be a {rule.Weekday}, but it is {day.Date.DayOfWeek}.");
                 }
 
-                _ruleApplier.ApplyRuleToDay(Rules, day);
+                _ruleApplier.ApplyRuleToDay(rule, day);
 
                 currentDate = currentDate.AddDays(1);
             }

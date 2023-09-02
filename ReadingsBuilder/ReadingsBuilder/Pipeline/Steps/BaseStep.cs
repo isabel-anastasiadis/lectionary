@@ -35,8 +35,8 @@ namespace ReadingsBuilder.Pipeline.Steps
             }
         }
 
-        protected virtual bool ShouldIncludeRule(Rule Rules) {
-            return Rules.HandlingClassName == this.RuleSetName;
+        protected virtual bool ShouldIncludeRule(Rule rule) {
+            return rule.HandlingClassName == this.RuleSetName;
         }
 
     }

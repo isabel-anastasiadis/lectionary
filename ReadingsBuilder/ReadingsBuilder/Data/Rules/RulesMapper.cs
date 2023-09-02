@@ -51,7 +51,7 @@ namespace ReadingsBuilder.Data.Rules
             foreach (var row in rows)
             {
 
-                var Rules = new Rule()
+                var rule = new Rule()
                 {
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),
@@ -68,39 +68,39 @@ namespace ReadingsBuilder.Data.Rules
                     EveningPsalmsMain = GetValueOrNull(row, ColumnIndexes.EveningPsalmMain)
                 };
 
-                Rules.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);
-                Rules.RotatingReadings[RotatingReadingType.OldTestament2a] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2a);
-                Rules.RotatingReadings[RotatingReadingType.OldTestament2b] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2b);
-                Rules.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
-                Rules.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
+                rule.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);
+                rule.RotatingReadings[RotatingReadingType.OldTestament2a] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2a);
+                rule.RotatingReadings[RotatingReadingType.OldTestament2b] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2b);
+                rule.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
+                rule.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
 
                 if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass))
                 {
-                    Rules.RowNumberInRuleSet = rowWithinClass;
+                    rule.RowNumberInRuleSet = rowWithinClass;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthYear], out int year))
                 {
-                    Rules.Year = year;
+                    rule.Year = year;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthMonth], out int month))
                 {
-                    Rules.Month = month;
+                    rule.Month = month;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthDay], out int day))
                 {
-                    Rules.Day = day;
+                    rule.Day = day;
                 }
 
                 if (Enum.TryParse(typeof(RuleType), row[(int)ColumnIndexes.RuleType], out object? ruleTypeObject))
                 {
-                    Rules.RuleType = (RuleType?)ruleTypeObject;
+                    rule.RuleType = (RuleType?)ruleTypeObject;
                 }
 
 
-                result.Add(Rules);
+                result.Add(rule);
             }
 
             return result;
