@@ -196,6 +196,25 @@ namespace Tests.Data.Rules
 			}
 		}
 
+		[TestCase("A", RclYear.A)]
+		[TestCase("B", RclYear.B)]
+		[TestCase("", RclYear.All)]
+		public void MapsRclYearCorrectly(string rawValue, RclYear expectedResult)
+		{
+
+			// arrange
+			var numberOfColumns = Enum.GetNames(typeof(ColumnIndexes)).Length;
+			var input = Enumerable.Repeat("", numberOfColumns).ToArray();
+			input[(int)ColumnIndexes.ByDayOfWeekRclYear] = rawValue;
+
+
+			// act
+			var result = new RulesMapper().MapRowsToRules(new List<List<string>>() { input.ToList<string>() });
+
+			// assert
+			Assert.AreEqual(expectedResult, result?.FirstOrDefault()?.RclYear);
+		}
+
 
 		[TestCase("", null)]
 		[TestCase("M", DayOfWeek.Monday)]

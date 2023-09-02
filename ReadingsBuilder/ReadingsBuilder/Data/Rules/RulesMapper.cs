@@ -16,6 +16,7 @@ namespace ReadingsBuilder.Data.Rules
         EveningName,
         DayName,
         IsSeasonalTime,
+        ByDayOfWeekRclYear,
         ByDayOfWeekWeekday,
         ByDayOfMonthYear,
         ByDayOfMonthMonth,
@@ -42,21 +43,22 @@ namespace ReadingsBuilder.Data.Rules
     public class RulesMapper : IRulesMapper
     {
 
-        public List<Model.Rule> MapRowsToRules(List<List<string>> rows)
+        public List<Rule> MapRowsToRules(List<List<string>> rows)
         {
 
-            var result = new List<Model.Rule>();
+            var result = new List<Rule>();
 
             foreach (var row in rows)
             {
 
-                var Rules = new Model.Rule()
+                var Rules = new Rule()
                 {
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),
                     EveningName = GetValueOrNull(row, ColumnIndexes.EveningName),
                     Weekday = MapWeekday(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekWeekday)),
                     IsSeasonalTime = MapIsSeasonalTime(GetValueOrNull(row, ColumnIndexes.IsSeasonalTime)),
+                    RclYear = MapRclYear(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekRclYear)),
                     FeastOrSeasonFlags = MapFeastOrSeasonType(GetValueOrNull(row, ColumnIndexes.FeastDaySeasonType)),
                     MorningOldTestament = GetValueOrNull(row, ColumnIndexes.MorningOldTestament),
                     MorningNewTestament = GetValueOrNull(row, ColumnIndexes.MorningNewTestament),
@@ -192,6 +194,21 @@ namespace ReadingsBuilder.Data.Rules
 
             }
 
+        }
+
+        private RclYear MapRclYear(string? rclYear)
+        {
+            switch (rclYear) 
+            {
+                case "A":
+                    return RclYear.A;
+                case "B":
+                    return RclYear.B;
+                case "C":
+                    return RclYear.C;
+                default:
+                    return RclYear.All;
+            }
         }
 
     }
