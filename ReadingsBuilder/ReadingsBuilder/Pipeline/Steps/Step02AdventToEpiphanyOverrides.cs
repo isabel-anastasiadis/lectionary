@@ -26,10 +26,5 @@ namespace ReadingsBuilder.Pipeline.Steps
         {
             return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, ApplicableRules);
         }
-
-        protected override bool ShouldIncludeRule(Rule Rules)
-        {
-            return base.ShouldIncludeRule(Rules) && Rules.RuleType == RuleType.ByDayOfMonth;
-        }
     }
 }
