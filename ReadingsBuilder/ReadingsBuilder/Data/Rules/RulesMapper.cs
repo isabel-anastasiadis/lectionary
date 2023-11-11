@@ -28,16 +28,32 @@ namespace ReadingsBuilder.Data.Rules
         RotatingNewTestament2,
         MorningApocryphalAlternative,
         MorningOldTestament,
+        MorningOldTestamentAlternative,
         MorningNewTestament,
+        MorningNewTestamentAlternative,
         EveningApocryphalAlternative,
         EveningOldTestament,
         EveningNewTestament,
+        EveningNewTestamentAlternative,
+        EveningGospelForCommunion,
         MorningPsalmMain,
         MorningPsalmOptional,
+        MorningPsalmAlternative,
         MorningPsalmOmittedIfCanticle,
         EveningPsalmMain,
         EveningPsalmOptional,
-        EveningPsalmOmittedIfCanticle
+        EveningPsalmAlternative,
+        EveningPsalmOmittedIfCanticle,
+        RclTrack1Other,
+        RclTrack1Apocryphal,
+        RclTrack1OldTestament,
+        RclTrack1Psalm,
+        RclTrack1PsalmAlternative,
+        RclTrack1Canticle,
+        RclTrack1ApocryphalCanticle,
+        RclTrack1NewTestament,
+        RclTrack1Gospel,
+        RclTrack1GospelAlternative
     }
 
     public class RulesMapper : IRulesMapper
