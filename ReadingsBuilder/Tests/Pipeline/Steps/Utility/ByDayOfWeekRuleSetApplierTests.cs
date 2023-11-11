@@ -29,12 +29,13 @@ namespace Tests.Pipeline.Steps.Utility
         [Test]
         public void ChecksForNullWorkingResult()
         {
-
             // act & assert
             try
             {
-                ClassUnderTest().ApplyRulesByDayOfWeek(null, 
-                    new List<Rule>(), 
+                ClassUnderTest().ApplyRulesByDayOfWeek(
+                    null,
+                    Mock.Of<LiturgicalYear>(),
+                    new List<Rule>(),
                     default, 
                     null,
                     null);
@@ -54,7 +55,9 @@ namespace Tests.Pipeline.Steps.Utility
             // act & assert
             try
             {
-                ClassUnderTest().ApplyRulesByDayOfWeek(new PipelineWorkingResult(), 
+                ClassUnderTest().ApplyRulesByDayOfWeek(
+                    new PipelineWorkingResult(),
+                    Mock.Of<LiturgicalYear>(),
                     null, 
                     default, 
                     null,
@@ -88,10 +91,11 @@ namespace Tests.Pipeline.Steps.Utility
                 }
             };
 
-            new Step00PopulateDates().RunStep(workingResult);
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+            new Step00PopulateDates().RunStep(workingResult, liturgicalYear: liturgicalYear);
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, dayTheRuleStarts, null, null);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, dayTheRuleStarts, null, null);
 
             // assert
             Assert.IsFalse(workingResult.Result.ContainsKey(dayTheRuleStarts));
@@ -150,20 +154,23 @@ namespace Tests.Pipeline.Steps.Utility
                 }
             };
 
-            new Step00PopulateDates().RunStep(workingResult);
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
+            new Step00PopulateDates().RunStep(workingResult, liturgicalYear: liturgicalYear);
             var lastDay = workingResult.Result[endDate]?.OptionOne;
 
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, 
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult,
+                liturgicalYear,
                 applicableRules, 
-                workingResult.Input.StartDate.Value, 
+                workingResult.Input.StartDate, 
                 null, 
                 null,
                 rulesLoopAround: true);
 
             // assert
             _ruleApplierMock.Verify(m => m
-                .ApplyRuleToDay(applicableRules[0], lastDay, default)
+                .ApplyRuleToDay(applicableRules[0], lastDay, liturgicalYear, default)
             );
 
         }
@@ -187,11 +194,13 @@ namespace Tests.Pipeline.Steps.Utility
             workingResult.Result[new DateOnly(2021, 12, 1)] = 
                 new Option<Day, DayOptionType>() { OptionOne = resultDay };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, null, null);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, resultDay.Date, null, null);
 
             // assert
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, default));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, liturgicalYear, default));
         }
 
         [Test]
@@ -216,11 +225,13 @@ namespace Tests.Pipeline.Steps.Utility
             workingResult.Result[new DateOnly(2021, 12, 1)] =
                 new Option<Day, DayOptionType>() { OptionOne = resultDay };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, applicableRules[1], null);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, resultDay.Date, applicableRules[1], null);
 
             // assert
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], resultDay, default));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], resultDay, liturgicalYear, default));
         }
 
         [Test]
@@ -252,13 +263,15 @@ namespace Tests.Pipeline.Steps.Utility
             workingResult.Result[new DateOnly(2021, 12, 2)] =
                 new Option<Day, DayOptionType>() { OptionOne = day2 };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
-            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, day1.Date, applicableRules[0], null);
+            ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, day1.Date, applicableRules[0], null);
 
             // assert
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[0], day1, default));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[0], day1, liturgicalYear, default));
 
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], day2, default));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], day2, liturgicalYear, default));
         }
 
         [Test]
@@ -280,10 +293,12 @@ namespace Tests.Pipeline.Steps.Utility
             workingResult.Result[new DateOnly(2021, 12, 1)] =
                 new Option<Day, DayOptionType>() { OptionOne = resultDay };
 
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
+
             // act
             try
             {
-                ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, applicableRules, resultDay.Date, null, null);
+                ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, resultDay.Date, null, null);
                 Assert.Fail();
             }
             catch (ArgumentException)

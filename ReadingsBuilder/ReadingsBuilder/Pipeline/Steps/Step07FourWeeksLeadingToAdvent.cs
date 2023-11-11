@@ -19,7 +19,7 @@ namespace ReadingsBuilder.Pipeline.Steps
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {
 
             if (workingResult == null)
@@ -33,11 +33,13 @@ namespace ReadingsBuilder.Pipeline.Steps
                 throw new ArgumentNullException("workingResult.Input.FourthSundayBeforeAdvent");
             }
 
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
+
             var dateOfFirstDayTheRuleAppliesTo = workingResult.Input.FourthSundayBeforeAdvent.Value;
 
-            var RulesToStartWith = ApplicableRules.FirstOrDefault();
+            var RulesToStartWith = applicableRules.FirstOrDefault();
 
-            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, ApplicableRules, dateOfFirstDayTheRuleAppliesTo, RulesToStartWith, null);
+            return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, dateOfFirstDayTheRuleAppliesTo, RulesToStartWith, null);
 
         }
     }

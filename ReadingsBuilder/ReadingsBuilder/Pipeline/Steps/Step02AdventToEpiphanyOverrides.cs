@@ -22,14 +22,9 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         protected override string RuleSetName => "SpecificDaysInAdventAndEpiphany.cs";
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {
-            return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, ApplicableRules);
-        }
-
-        protected override bool ShouldIncludeRule(Rule Rules)
-        {
-            return base.ShouldIncludeRule(Rules) && Rules.RuleType == RuleType.ByDayOfMonth;
+            return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, liturgicalYear, ApplicableRules(liturgicalYear.RclYear));
         }
     }
 }

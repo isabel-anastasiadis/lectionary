@@ -1,4 +1,5 @@
 ﻿using ReadingsBuilder.Data.Rules;
+using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
@@ -19,7 +20,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         protected override string RuleSetName => "OrdinaryTimeAfterPentecost.cs";
 
-        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult)
+        public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {
             if (workingResult == null)
             {
@@ -36,16 +37,20 @@ namespace ReadingsBuilder.Pipeline.Steps
                 throw new ArgumentNullException(nameof(workingResult.Input.FourthSundayBeforeAdvent));
             }
 
+            var applicableRules = ApplicableRules(liturgicalYear.RclYear);
+
             // work out what date to start with
             var dateOfFirstDayTheRuleAppliesTo = workingResult.Input
                 .Pentecost
                 .Value
                 .AddDays(1);
 
+
             var dateOfLastDayRuleAppliesTo = workingResult.Input.FourthSundayBeforeAdvent.Value;
 
             return ruleSetApplier.ApplyRulesByDayOfWeek(workingResult,
-                ApplicableRules,
+                liturgicalYear,
+                applicableRules,
                 dateOfFirstDayTheRuleAppliesTo,
                 RulesToStartWith: null,
                 dateOfLastDayRuleAppliesTo);

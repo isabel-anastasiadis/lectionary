@@ -26,6 +26,8 @@
         /// </summary>
         public bool? IsSeasonalTime { get; set; }
 
+        public RclYear RclYear { get; set; }
+
         public DayOfWeek? Weekday { get; set; }
 
         public int? Day { get; set; }
@@ -144,6 +146,14 @@
 
         FeastOrFestivalMask = Festival | PrincipalFeast | PrincipalHolyDay,
         AdventLentOrEastertideMask = Advent | Lent | Eastertide
+    }
+
+    public enum RclYear
+    { 
+        All = 0,
+        A = 1,
+        B = 2,
+        C = 3
     }
 
 }

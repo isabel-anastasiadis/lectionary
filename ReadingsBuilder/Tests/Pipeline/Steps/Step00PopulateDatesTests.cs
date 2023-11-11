@@ -1,5 +1,7 @@
 ﻿using System;
+using Moq;
 using NUnit.Framework;
+using ReadingsBuilder.Model;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Pipeline.Steps;
 
@@ -12,12 +14,13 @@ namespace Tests.Pipeline.Steps
 
             // arrange
             var pipelineResult = new PipelineWorkingResult();
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
             var classUnderTest = new Step00PopulateDates();
 
             // act & assert
             try
             {
-                classUnderTest.RunStep(pipelineResult);
+                classUnderTest.RunStep(pipelineResult, liturgicalYear: liturgicalYear);
                 Assert.Fail("Should have thrown ArgumentNullException");
 
             }
@@ -37,10 +40,11 @@ namespace Tests.Pipeline.Steps
                     EndDate = new DateOnly(2021, 1, 31)
                 }
             };
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
             var classUnderTest = new Step00PopulateDates();
 
             // act
-            var workingResult = classUnderTest.RunStep(pipelineResult);
+            var workingResult = classUnderTest.RunStep(pipelineResult, liturgicalYear: liturgicalYear);
 
             // assert
             Assert.IsNotNull(workingResult.Result);
@@ -56,10 +60,11 @@ namespace Tests.Pipeline.Steps
                     EndDate = new System.DateOnly(2021,1,31)
                 }
             };
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
             var classUnderTest = new Step00PopulateDates();
 
             // act
-            var workingResult = classUnderTest.RunStep(pipelineResult);
+            var workingResult = classUnderTest.RunStep(pipelineResult, liturgicalYear: liturgicalYear);
 
             // assert
             Assert.IsNotNull(workingResult);
@@ -80,10 +85,11 @@ namespace Tests.Pipeline.Steps
                     EndDate = date
                 }
             };
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
             var classUnderTest = new Step00PopulateDates();
 
             // act
-            var workingResult = classUnderTest.RunStep(pipelineResult);
+            var workingResult = classUnderTest.RunStep(pipelineResult, liturgicalYear: liturgicalYear);
 
             // assert
             Assert.IsNotNull(workingResult.Result[date]?.OptionOne);

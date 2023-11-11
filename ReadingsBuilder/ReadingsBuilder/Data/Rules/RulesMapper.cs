@@ -16,6 +16,7 @@ namespace ReadingsBuilder.Data.Rules
         EveningName,
         DayName,
         IsSeasonalTime,
+        ByDayOfWeekRclYear,
         ByDayOfWeekWeekday,
         ByDayOfMonthYear,
         ByDayOfMonthMonth,
@@ -27,36 +28,53 @@ namespace ReadingsBuilder.Data.Rules
         RotatingNewTestament2,
         MorningApocryphalAlternative,
         MorningOldTestament,
+        MorningOldTestamentAlternative,
         MorningNewTestament,
+        MorningNewTestamentAlternative,
         EveningApocryphalAlternative,
         EveningOldTestament,
         EveningNewTestament,
+        EveningNewTestamentAlternative,
+        EveningGospelForCommunion,
         MorningPsalmMain,
         MorningPsalmOptional,
+        MorningPsalmAlternative,
         MorningPsalmOmittedIfCanticle,
         EveningPsalmMain,
         EveningPsalmOptional,
-        EveningPsalmOmittedIfCanticle
+        EveningPsalmAlternative,
+        EveningPsalmOmittedIfCanticle,
+        RclTrack1Other,
+        RclTrack1Apocryphal,
+        RclTrack1OldTestament,
+        RclTrack1Psalm,
+        RclTrack1PsalmAlternative,
+        RclTrack1Canticle,
+        RclTrack1ApocryphalCanticle,
+        RclTrack1NewTestament,
+        RclTrack1Gospel,
+        RclTrack1GospelAlternative
     }
 
     public class RulesMapper : IRulesMapper
     {
 
-        public List<Model.Rule> MapRowsToRules(List<List<string>> rows)
+        public List<Rule> MapRowsToRules(List<List<string>> rows)
         {
 
-            var result = new List<Model.Rule>();
+            var result = new List<Rule>();
 
             foreach (var row in rows)
             {
 
-                var Rules = new Model.Rule()
+                var rule = new Rule()
                 {
                     HandlingClassName = GetValueOrNull(row, ColumnIndexes.RuleClassName),
                     DayName = GetValueOrNull(row, ColumnIndexes.DayName),
                     EveningName = GetValueOrNull(row, ColumnIndexes.EveningName),
                     Weekday = MapWeekday(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekWeekday)),
                     IsSeasonalTime = MapIsSeasonalTime(GetValueOrNull(row, ColumnIndexes.IsSeasonalTime)),
+                    RclYear = MapRclYear(GetValueOrNull(row, ColumnIndexes.ByDayOfWeekRclYear)),
                     FeastOrSeasonFlags = MapFeastOrSeasonType(GetValueOrNull(row, ColumnIndexes.FeastDaySeasonType)),
                     MorningOldTestament = GetValueOrNull(row, ColumnIndexes.MorningOldTestament),
                     MorningNewTestament = GetValueOrNull(row, ColumnIndexes.MorningNewTestament),
@@ -66,39 +84,39 @@ namespace ReadingsBuilder.Data.Rules
                     EveningPsalmsMain = GetValueOrNull(row, ColumnIndexes.EveningPsalmMain)
                 };
 
-                Rules.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);
-                Rules.RotatingReadings[RotatingReadingType.OldTestament2a] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2a);
-                Rules.RotatingReadings[RotatingReadingType.OldTestament2b] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2b);
-                Rules.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
-                Rules.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
+                rule.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);
+                rule.RotatingReadings[RotatingReadingType.OldTestament2a] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2a);
+                rule.RotatingReadings[RotatingReadingType.OldTestament2b] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament2b);
+                rule.RotatingReadings[RotatingReadingType.NewTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament1);
+                rule.RotatingReadings[RotatingReadingType.NewTestament2] = GetValueOrNull(row, ColumnIndexes.RotatingNewTestament2);
 
                 if (int.TryParse(row[(int)ColumnIndexes.RowWithinClass], out int rowWithinClass))
                 {
-                    Rules.RowNumberInRuleSet = rowWithinClass;
+                    rule.RowNumberInRuleSet = rowWithinClass;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthYear], out int year))
                 {
-                    Rules.Year = year;
+                    rule.Year = year;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthMonth], out int month))
                 {
-                    Rules.Month = month;
+                    rule.Month = month;
                 }
 
                 if (int.TryParse(row[(int)ColumnIndexes.ByDayOfMonthDay], out int day))
                 {
-                    Rules.Day = day;
+                    rule.Day = day;
                 }
 
                 if (Enum.TryParse(typeof(RuleType), row[(int)ColumnIndexes.RuleType], out object? ruleTypeObject))
                 {
-                    Rules.RuleType = (RuleType?)ruleTypeObject;
+                    rule.RuleType = (RuleType?)ruleTypeObject;
                 }
 
 
-                result.Add(Rules);
+                result.Add(rule);
             }
 
             return result;
@@ -192,6 +210,21 @@ namespace ReadingsBuilder.Data.Rules
 
             }
 
+        }
+
+        private RclYear MapRclYear(string? rclYear)
+        {
+            switch (rclYear) 
+            {
+                case "A":
+                    return RclYear.A;
+                case "B":
+                    return RclYear.B;
+                case "C":
+                    return RclYear.C;
+                default:
+                    return RclYear.All;
+            }
         }
 
     }

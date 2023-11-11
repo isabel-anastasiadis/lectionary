@@ -5,7 +5,6 @@ using Moq;
 using NUnit.Framework;
 using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model;
-using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Pipeline;
 using ReadingsBuilder.Model.Result;
 using ReadingsBuilder.Pipeline.Steps;
@@ -75,15 +74,15 @@ namespace Tests.Pipeline.Steps
         private Mock<IByDayOfWeekRuleSetApplier>? _ruleSetApplierMock;
 
 
-        private Step01AdventToEpiphany ClassUnderTest(List<Rule>? Rules = null)
+        private Step01AdventToEpiphany ClassUnderTest(List<Rule>? rules = null)
         {
-            var allData = Rules ?? _defaultRules;
+            var allData = rules ?? _defaultRules;
 
             var dataFactoryMock = new Mock<IRulesFactory>();
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
 
-            return new Step01AdventToEpiphany(new RuleApplier(new LiturgicalYearFactory()), dataFactoryMock.Object, _ruleSetApplierMock.Object);
+            return new Step01AdventToEpiphany(new RuleApplier(), dataFactoryMock.Object, _ruleSetApplierMock.Object);
 
         }
 
@@ -117,7 +116,7 @@ namespace Tests.Pipeline.Steps
 
         [TestCase(ClassName, RuleType.ByDayOfWeek, true)]
         [TestCase("SomeOtherClass.cs", RuleType.ByDayOfWeek, false)]
-        public void ConstructorRequiresAtLeastOneMatchingRule(string handlingClassName, RuleType ruleType, bool shouldPass)
+        public void ApplicableRulesRequiresAtLeastOneMatchingRule(string handlingClassName, RuleType ruleType, bool shouldPass)
         {
 
             // arrange
@@ -130,7 +129,8 @@ namespace Tests.Pipeline.Steps
                         HandlingClassName = handlingClassName,
                         RuleType = ruleType
                     }
-                });
+                }).ApplicableRules(RclYear.B);
+
                 if (!shouldPass)
                 {
                     Assert.Fail("Should have thrown ArgumentException");
@@ -147,6 +147,7 @@ namespace Tests.Pipeline.Steps
             }
         }
 
+
         [Test]
         public void RunStepEnsuresTheYearStartsWithSunday()
         {
@@ -158,13 +159,14 @@ namespace Tests.Pipeline.Steps
             {
                 OptionOne = new Day()
             };
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
 
             var classUnderTest = ClassUnderTest();
 
             // act & assert
             try
             {
-                classUnderTest.RunStep(workingResult);
+                classUnderTest.RunStep(workingResult, liturgicalYear: liturgicalYear);
                 Assert.Fail("Should have thrown ArgumentException");
 
             }
@@ -183,15 +185,16 @@ namespace Tests.Pipeline.Steps
             var dateOfDay = new DateOnly(2021, 11, 28); // 1st Sun Advent
             var workingResult = new PipelineWorkingResult();
             workingResult.Result[dateOfDay] = new Option<Day, DayOptionType>();
+            var liturgicalYear = Mock.Of<LiturgicalYear>();
 
             var classUnderTest = ClassUnderTest();
             var expectedFirstRule = _defaultRules.First();
 
             // act
-            var result = classUnderTest.RunStep(workingResult);
+            var result = classUnderTest.RunStep(workingResult, liturgicalYear: liturgicalYear);
 
             // assert
-            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<List<Rule>>(), dateOfDay, expectedFirstRule, null, false));
+            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<LiturgicalYear>(), It.IsAny<List<Rule>>(), dateOfDay, expectedFirstRule, null, false));
 
         }
 

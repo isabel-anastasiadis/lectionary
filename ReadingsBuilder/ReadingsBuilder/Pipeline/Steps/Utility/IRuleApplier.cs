@@ -5,6 +5,6 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public interface IRuleApplier
     {
-        void ApplyRuleToDay(Rule Rules, Day day, ReadingsOptionType optionType = default);
+        void ApplyRuleToDay(Rule rule, Day day, LiturgicalYear liturgicalYear, ReadingsOptionType optionType = default);
     }
 }
