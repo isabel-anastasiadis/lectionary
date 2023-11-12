@@ -5,11 +5,11 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step05PalmSundayToPentecost : BaseStep, IStep
+    public class Step06PalmSundayToPentecost : BaseStep, IStep
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step05PalmSundayToPentecost(IRuleApplier ruleApplier, 
+        public Step06PalmSundayToPentecost(IRuleApplier ruleApplier, 
             IRulesFactory dataFactory, 
             IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {

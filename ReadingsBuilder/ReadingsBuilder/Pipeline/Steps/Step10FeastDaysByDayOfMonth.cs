@@ -5,11 +5,11 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step09FeastDaysByDayOfMonth : BaseStep, IStep
+    public class Step10FeastDaysByDayOfMonth : BaseStep, IStep
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step09FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step10FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
@@ -59,8 +59,8 @@ namespace ReadingsBuilder.Pipeline.Steps
                 // we need to apply them one by one (particularly for multiple festivals falling in Holy week that need moving)
                 // eg. if St George and St Mark both fall in Holy Week, then St George will be shifted to the
                 // first available day (prob. Monday), and St Mark the day after that.
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, newEveningBeforeDate);
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, newFestivalDate);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, null, newEveningBeforeDate);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, null, newFestivalDate);
             }
 
             return workingResult;

@@ -2,15 +2,21 @@
 using ReadingsBuilder.Data.Rules;
 using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Result;
+using ReadingsBuilder.Pipeline.Steps.RuleExceptions;
 using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step02AdventToEpiphanyOverrides : BaseStep, IStep
+    /// <summary>
+    /// NOTE: the default Sunday readings (from the standard sunday lectionary) take precedence over the advent/epiphany overrides readings (that come from the weekday lectionary).
+    /// 
+    /// So we are applying the day names separately, and then when we apply the advent/epiphany overrides, we skip if it is a Sunday.
+    /// </summary>
+    public class Step03AdventToEpiphanyOverrides : BaseStep, IStep
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step02AdventToEpiphanyOverrides(IRuleApplier ruleApplier, 
+        public Step03AdventToEpiphanyOverrides(IRuleApplier ruleApplier, 
             IRulesFactory dataFactory,
             IByDayOfMonthRuleSetApplier ruleSetApplier)
             : base(ruleApplier, dataFactory)
@@ -24,7 +30,7 @@ namespace ReadingsBuilder.Pipeline.Steps
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {
-            return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, liturgicalYear, ApplicableRules(liturgicalYear.RclYear));
+            return ruleSetApplier.ApplyRulesByDayOfMonth(workingResult, liturgicalYear, ApplicableRules(liturgicalYear.RclYear), new NotWhenSundayRuleException());
         }
     }
 }

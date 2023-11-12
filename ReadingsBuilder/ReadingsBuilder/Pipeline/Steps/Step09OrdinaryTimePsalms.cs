@@ -5,11 +5,11 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step08OrdinaryTimePsalms : BaseStep, IStep
+    public class Step09OrdinaryTimePsalms : BaseStep, IStep
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step08OrdinaryTimePsalms(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step09OrdinaryTimePsalms(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }

@@ -1,5 +1,6 @@
 ﻿using ReadingsBuilder.Model;
 using ReadingsBuilder.Model.Result;
+using ReadingsBuilder.Pipeline.Steps.RuleExceptions;
 
 namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
@@ -12,7 +13,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             this.ruleApplier = ruleApplier;
         }
 
-        public PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, List<Rule> applicableRules)
+        public PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, List<Rule> applicableRules, IRuleException? ruleException = null)
         {
 
             if (workingResult == null)
@@ -28,13 +29,13 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             foreach (var rule in applicableRules)
             {
 
-                ApplyRuleByDayOfMonth(workingResult, liturgicalYear, rule);
+                ApplyRuleByDayOfMonth(workingResult, liturgicalYear, rule, ruleException);
             }
 
             return workingResult;
         }
 
-        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, DateOnly? dateOverride = null)
+        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, IRuleException? ruleException = null, DateOnly? dateOverride = null)
         {
             if (workingResult == null)
             {
@@ -66,8 +67,15 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 throw new ArgumentException($"There should only be up to two matching days per rule (Steps are only assumed to run on a year's worth of data, and previous steps might not have processed the necessary days)");
             }
 
+            // Max of 2 dates, but usually just one
             foreach (var date in possibleDates) {
+                if (ruleException != null && ruleException.ShouldSkip(date))
+                {
+                    continue;
+                }
+                
                 var day = workingResult.Result[date].OptionOne;
+
                 if (day != null)
                 {
                     ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear);

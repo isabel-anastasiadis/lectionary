@@ -6,11 +6,11 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step10ManuallyExtractedSundays : BaseStep, IStep
+    public class Step11ManuallyExtractedSundays : BaseStep, IStep
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step10ManuallyExtractedSundays(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step11ManuallyExtractedSundays(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
