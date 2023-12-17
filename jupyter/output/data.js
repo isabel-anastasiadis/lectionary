@@ -322,12 +322,11 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 68:1\u201319",
-                "Malachi 3:1\u20134",
-                "4",
+                "Malachi 3:1\u20134,4:1\u2013end",
                 "Philippians 4:4\u20137"
             ],
-            "reading_link": "Psalm+68:1-19%3B+Malachi+3:1-4%3B+4%3B+Philippians+4:4-7",
-            "audio_link": "Ps.68,Mal.3,4,Phil.4"
+            "reading_link": "Psalm+68:1-19%3B+Malachi+3:1-4,4:1-%3B+Philippians+4:4-7",
+            "audio_link": "Ps.68,Mal.3,Phil.4"
         }
     },
     "2023/12/18": {
@@ -464,7 +463,7 @@ class Data {  data = {
     },
     "2023/12/24": {
         "date_pretty": "Sunday, December 24, 2023",
-        "day_description": "Christmas eve",
+        "day_description": "4th Sunday of Advent",
         "morning": {
             "readings": [
                 "Psalm 144",
@@ -476,12 +475,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 113",
-                "Zechariah 2:10\u201313",
-                "Luke 1:39\u201355"
+                "Psalm 85",
+                "Zechariah 2",
+                "Revelation 1:1\u20138"
             ],
-            "reading_link": "Psalm+113%3B+Zechariah+2:10-13%3B+Luke+1:39-55",
-            "audio_link": "Ps.113,Zech.2,Luke.1"
+            "reading_link": "Psalm+85%3B+Zechariah+2%3B+Revelation+1:1-8",
+            "audio_link": "Ps.85,Zech.2,Rev.1"
         }
     },
     "2023/12/25": {
@@ -630,12 +629,12 @@ class Data {  data = {
         },
         "evening": {
             "readings": [
-                "Psalm 132",
-                "Isaiah 35",
-                "Colossians 1:9\u201320"
+                "Psalm 148",
+                "Jeremiah 23:1\u20136",
+                "Colossians 2:8\u201315"
             ],
-            "reading_link": "Psalm+132%3B+Isaiah+35%3B+Colossians+1:9-20",
-            "audio_link": "Ps.132,Isa.35,Col.1"
+            "reading_link": "Psalm+148%3B+Jeremiah+23:1-6%3B+Colossians+2:8-15",
+            "audio_link": "Ps.148,Jer.23,Col.2"
         }
     },
     "2024/01/01": {

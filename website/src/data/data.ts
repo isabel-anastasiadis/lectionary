@@ -675,14 +675,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.68"
                 },
                 {
-                    "pretty": "Malachi 3:1\u20134",
-                    "readQS": "Malachi+3:1-4",
+                    "pretty": "Malachi 3:1\u20134,4:1\u2013end",
+                    "readQS": "Malachi+3:1-4,4:1-",
                     "audioQS": "Mal.3"
-                },
-                {
-                    "pretty": "4",
-                    "readQS": "4",
-                    "audioQS": "4"
                 },
                 {
                     "pretty": "Philippians 4:4\u20137",
@@ -690,8 +685,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Phil.4"
                 }
             ],
-            "readQS": "Psalm+68:1-19%3B+Malachi+3:1-4%3B+4%3B+Philippians+4:4-7",
-            "audioQS": "Ps.68,Mal.3,4,Phil.4"
+            "readQS": "Psalm+68:1-19%3B+Malachi+3:1-4,4:1-%3B+Philippians+4:4-7",
+            "audioQS": "Ps.68,Mal.3,Phil.4"
         }
     },
     "2023/12/18": {
@@ -972,7 +967,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2023/12/24": {
         "datePretty": "Sunday, December 24, 2023",
-        "calendar": "Christmas eve",
+        "calendar": "4th Sunday of Advent",
         "morning": {
             "readings": [
                 {
@@ -997,23 +992,23 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 113",
-                    "readQS": "Psalm+113",
-                    "audioQS": "Ps.113"
+                    "pretty": "Psalm 85",
+                    "readQS": "Psalm+85",
+                    "audioQS": "Ps.85"
                 },
                 {
-                    "pretty": "Zechariah 2:10\u201313",
-                    "readQS": "Zechariah+2:10-13",
+                    "pretty": "Zechariah 2",
+                    "readQS": "Zechariah+2",
                     "audioQS": "Zech.2"
                 },
                 {
-                    "pretty": "Luke 1:39\u201355",
-                    "readQS": "Luke+1:39-55",
-                    "audioQS": "Luke.1"
+                    "pretty": "Revelation 1:1\u20138",
+                    "readQS": "Revelation+1:1-8",
+                    "audioQS": "Rev.1"
                 }
             ],
-            "readQS": "Psalm+113%3B+Zechariah+2:10-13%3B+Luke+1:39-55",
-            "audioQS": "Ps.113,Zech.2,Luke.1"
+            "readQS": "Psalm+85%3B+Zechariah+2%3B+Revelation+1:1-8",
+            "audioQS": "Ps.85,Zech.2,Rev.1"
         }
     },
     "2023/12/25": {
@@ -1319,23 +1314,23 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 132",
-                    "readQS": "Psalm+132",
-                    "audioQS": "Ps.132"
+                    "pretty": "Psalm 148",
+                    "readQS": "Psalm+148",
+                    "audioQS": "Ps.148"
                 },
                 {
-                    "pretty": "Isaiah 35",
-                    "readQS": "Isaiah+35",
-                    "audioQS": "Isa.35"
+                    "pretty": "Jeremiah 23:1\u20136",
+                    "readQS": "Jeremiah+23:1-6",
+                    "audioQS": "Jer.23"
                 },
                 {
-                    "pretty": "Colossians 1:9\u201320",
-                    "readQS": "Colossians+1:9-20",
-                    "audioQS": "Col.1"
+                    "pretty": "Colossians 2:8\u201315",
+                    "readQS": "Colossians+2:8-15",
+                    "audioQS": "Col.2"
                 }
             ],
-            "readQS": "Psalm+132%3B+Isaiah+35%3B+Colossians+1:9-20",
-            "audioQS": "Ps.132,Isa.35,Col.1"
+            "readQS": "Psalm+148%3B+Jeremiah+23:1-6%3B+Colossians+2:8-15",
+            "audioQS": "Ps.148,Jer.23,Col.2"
         }
     },
     "2024/01/01": {
