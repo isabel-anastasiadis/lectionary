@@ -4,7 +4,7 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step07FourWeeksLeadingToAdvent : BaseStep, IStep
+    public class Step08FourWeeksLeadingToAdvent : BaseStep, IStep
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
@@ -13,7 +13,7 @@ namespace ReadingsBuilder.Pipeline.Steps
         protected override string RuleSetName => "FourWeeksLeadingToAdvent.cs";
 
 
-        public Step07FourWeeksLeadingToAdvent(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier)
+        public Step08FourWeeksLeadingToAdvent(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier)
             : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
