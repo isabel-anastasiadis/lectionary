@@ -46,7 +46,7 @@ namespace ReadingsBuilder.Data.Result
             {
                 RclYear = RclYear.B,
                 FirstDay = new DateOnly(2023, 12, 3),
-                LastDay = new DateOnly(2023, 12, 31),
+                LastDay = new DateOnly(2024, 11, 30),
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament1,
                 EveningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
