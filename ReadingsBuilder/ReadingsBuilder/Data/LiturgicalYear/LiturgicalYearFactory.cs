@@ -49,6 +49,7 @@ namespace ReadingsBuilder.Data.Result
                 LastDay = new DateOnly(2024, 11, 30),
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament1,
+                MorningNewTestament = RotatingReadingType.NewTestament1,
                 EveningOldTestamentOrdinary = RotatingReadingType.OldTestament2b,
                 EveningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
                 EveningNewTestament = RotatingReadingType.NewTestament2

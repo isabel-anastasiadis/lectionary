@@ -28,10 +28,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 50",
                 "Isaiah 25:1\u20139",
-                "Isaiah 25:1\u20139"
+                "Matthew 12:1\u201321"
             ],
-            "reading_link": "Psalm+50%3B+Isaiah+25:1-9%3B+Isaiah+25:1-9",
-            "audio_link": "Ps.50,Isa.25,Isa.25"
+            "reading_link": "Psalm+50%3B+Isaiah+25:1-9%3B+Matthew+12:1-21",
+            "audio_link": "Ps.50,Isa.25,Matt.12"
         },
         "evening": {
             "readings": [
@@ -50,10 +50,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 80",
                 "Isaiah 26:1\u201313",
-                "Isaiah 26:1\u201313"
+                "Matthew 12:22\u201337"
             ],
-            "reading_link": "Psalm+80%3B+Isaiah+26:1-13%3B+Isaiah+26:1-13",
-            "audio_link": "Ps.80,Isa.26,Isa.26"
+            "reading_link": "Psalm+80%3B+Isaiah+26:1-13%3B+Matthew+12:22-37",
+            "audio_link": "Ps.80,Isa.26,Matt.12"
         },
         "evening": {
             "readings": [
@@ -72,10 +72,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 7",
                 "Isaiah 28:1\u201313",
-                "Isaiah 28:1\u201313"
+                "Matthew 12:38\u2013end"
             ],
-            "reading_link": "Psalm+7%3B+Isaiah+28:1-13%3B+Isaiah+28:1-13",
-            "audio_link": "Ps.7,Isa.28,Isa.28"
+            "reading_link": "Psalm+7%3B+Isaiah+28:1-13%3B+Matthew+12:38-",
+            "audio_link": "Ps.7,Isa.28,Matt.12"
         },
         "evening": {
             "readings": [
@@ -94,10 +94,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 42",
                 "Isaiah 28:14\u2013end",
-                "Isaiah 28:14\u2013end"
+                "Matthew 13:1\u201323"
             ],
-            "reading_link": "Psalm+42%3B+Isaiah+28:14-%3B+Isaiah+28:14-",
-            "audio_link": "Ps.42,Isa.28,Isa.28"
+            "reading_link": "Psalm+42%3B+Isaiah+28:14-%3B+Matthew+13:1-23",
+            "audio_link": "Ps.42,Isa.28,Matt.13"
         },
         "evening": {
             "readings": [
@@ -116,10 +116,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 25",
                 "Isaiah 29:1\u201314",
-                "Isaiah 29:1\u201314"
+                "Matthew 13:24\u201343"
             ],
-            "reading_link": "Psalm+25%3B+Isaiah+29:1-14%3B+Isaiah+29:1-14",
-            "audio_link": "Ps.25,Isa.29,Isa.29"
+            "reading_link": "Psalm+25%3B+Isaiah+29:1-14%3B+Matthew+13:24-43",
+            "audio_link": "Ps.25,Isa.29,Matt.13"
         },
         "evening": {
             "readings": [
@@ -138,10 +138,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 9",
                 "Isaiah 29:15\u2013end",
-                "Isaiah 29:15\u2013end"
+                "Matthew 13:44\u2013end"
             ],
-            "reading_link": "Psalm+9%3B+Isaiah+29:15-%3B+Isaiah+29:15-",
-            "audio_link": "Ps.9,Isa.29,Isa.29"
+            "reading_link": "Psalm+9%3B+Isaiah+29:15-%3B+Matthew+13:44-",
+            "audio_link": "Ps.9,Isa.29,Matt.13"
         },
         "evening": {
             "readings": [
@@ -182,10 +182,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 44",
                 "Isaiah 30:1\u201318",
-                "Isaiah 30:1\u201318"
+                "Matthew 14:1\u201312"
             ],
-            "reading_link": "Psalm+44%3B+Isaiah+30:1-18%3B+Isaiah+30:1-18",
-            "audio_link": "Ps.44,Isa.30,Isa.30"
+            "reading_link": "Psalm+44%3B+Isaiah+30:1-18%3B+Matthew+14:1-12",
+            "audio_link": "Ps.44,Isa.30,Matt.14"
         },
         "evening": {
             "readings": [
@@ -204,10 +204,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 56",
                 "Isaiah 30:19\u2013end",
-                "Isaiah 30:19\u2013end"
+                "Matthew 14:13\u2013end"
             ],
-            "reading_link": "Psalm+56%3B+Isaiah+30:19-%3B+Isaiah+30:19-",
-            "audio_link": "Ps.56,Isa.30,Isa.30"
+            "reading_link": "Psalm+56%3B+Isaiah+30:19-%3B+Matthew+14:13-",
+            "audio_link": "Ps.56,Isa.30,Matt.14"
         },
         "evening": {
             "readings": [
@@ -226,10 +226,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 62",
                 "Isaiah 31",
-                "Isaiah 31"
+                "Matthew 15:1\u201320"
             ],
-            "reading_link": "Psalm+62%3B+Isaiah+31%3B+Isaiah+31",
-            "audio_link": "Ps.62,Isa.31,Isa.31"
+            "reading_link": "Psalm+62%3B+Isaiah+31%3B+Matthew+15:1-20",
+            "audio_link": "Ps.62,Isa.31,Matt.15"
         },
         "evening": {
             "readings": [
@@ -248,10 +248,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 54",
                 "Isaiah 32",
-                "Isaiah 32"
+                "Matthew 15:21\u201328"
             ],
-            "reading_link": "Psalm+54%3B+Isaiah+32%3B+Isaiah+32",
-            "audio_link": "Ps.54,Isa.32,Isa.32"
+            "reading_link": "Psalm+54%3B+Isaiah+32%3B+Matthew+15:21-28",
+            "audio_link": "Ps.54,Isa.32,Matt.15"
         },
         "evening": {
             "readings": [
@@ -270,10 +270,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 86",
                 "Isaiah 33:1\u201322",
-                "Isaiah 33:1\u201322"
+                "Matthew 15:29\u2013end"
             ],
-            "reading_link": "Psalm+86%3B+Isaiah+33:1-22%3B+Isaiah+33:1-22",
-            "audio_link": "Ps.86,Isa.33,Isa.33"
+            "reading_link": "Psalm+86%3B+Isaiah+33:1-22%3B+Matthew+15:29-",
+            "audio_link": "Ps.86,Isa.33,Matt.15"
         },
         "evening": {
             "readings": [
@@ -292,10 +292,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 145",
                 "Isaiah 35",
-                "Isaiah 35"
+                "Matthew 16:1\u201312"
             ],
-            "reading_link": "Psalm+145%3B+Isaiah+35%3B+Isaiah+35",
-            "audio_link": "Ps.145,Isa.35,Isa.35"
+            "reading_link": "Psalm+145%3B+Isaiah+35%3B+Matthew+16:1-12",
+            "audio_link": "Ps.145,Isa.35,Matt.16"
         },
         "evening": {
             "readings": [
@@ -337,10 +337,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 40",
                 "Isaiah 38:1\u20138,38:21\u201322",
-                "Isaiah 38:1\u20138,38:21\u201322"
+                "Matthew 16:13\u2013end"
             ],
-            "reading_link": "Psalm+40%3B+Isaiah+38:1-8,38:21-22%3B+Isaiah+38:1-8,38:21-22",
-            "audio_link": "Ps.40,Isa.38,Isa.38"
+            "reading_link": "Psalm+40%3B+Isaiah+38:1-8,38:21-22%3B+Matthew+16:13-",
+            "audio_link": "Ps.40,Isa.38,Matt.16"
         },
         "evening": {
             "readings": [
@@ -359,10 +359,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 146",
                 "Isaiah 38:9\u201320",
-                "Isaiah 38:9\u201320"
+                "Matthew 17:1\u201313"
             ],
-            "reading_link": "Psalm+146%3B+Isaiah+38:9-20%3B+Isaiah+38:9-20",
-            "audio_link": "Ps.146,Isa.38,Isa.38"
+            "reading_link": "Psalm+146%3B+Isaiah+38:9-20%3B+Matthew+17:1-13",
+            "audio_link": "Ps.146,Isa.38,Matt.17"
         },
         "evening": {
             "readings": [
@@ -381,10 +381,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 46",
                 "Isaiah 39",
-                "Isaiah 39"
+                "Matthew 17:14\u201321"
             ],
-            "reading_link": "Psalm+46%3B+Isaiah+39%3B+Isaiah+39",
-            "audio_link": "Ps.46,Isa.39,Isa.39"
+            "reading_link": "Psalm+46%3B+Isaiah+39%3B+Matthew+17:14-21",
+            "audio_link": "Ps.46,Isa.39,Matt.17"
         },
         "evening": {
             "readings": [
@@ -403,10 +403,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 121",
                 "Zephaniah 1:1\u20132:3",
-                "Zephaniah 1:1\u20132:3"
+                "Matthew 17:22\u2013end"
             ],
-            "reading_link": "Psalm+121%3B+Zephaniah+1:1-2:3%3B+Zephaniah+1:1-2:3",
-            "audio_link": "Ps.121,Zeph.1,Zeph.1"
+            "reading_link": "Psalm+121%3B+Zephaniah+1:1-2:3%3B+Matthew+17:22-",
+            "audio_link": "Ps.121,Zeph.1,Matt.17"
         },
         "evening": {
             "readings": [
@@ -425,10 +425,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 124",
                 "Zephaniah 3:1\u201313",
-                "Zephaniah 3:1\u201313"
+                "Matthew 18:1\u201320"
             ],
-            "reading_link": "Psalm+124%3B+Zephaniah+3:1-13%3B+Zephaniah+3:1-13",
-            "audio_link": "Ps.124,Zeph.3,Zeph.3"
+            "reading_link": "Psalm+124%3B+Zephaniah+3:1-13%3B+Matthew+18:1-20",
+            "audio_link": "Ps.124,Zeph.3,Matt.18"
         },
         "evening": {
             "readings": [
@@ -447,10 +447,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 130",
                 "Zephaniah 3:14\u2013end",
-                "Zephaniah 3:14\u2013end"
+                "Matthew 18:21\u2013end"
             ],
-            "reading_link": "Psalm+130%3B+Zephaniah+3:14-%3B+Zephaniah+3:14-",
-            "audio_link": "Ps.130,Zeph.3,Zeph.3"
+            "reading_link": "Psalm+130%3B+Zephaniah+3:14-%3B+Matthew+18:21-",
+            "audio_link": "Ps.130,Zeph.3,Matt.18"
         },
         "evening": {
             "readings": [
@@ -579,10 +579,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 19",
                 "Jonah 1",
-                "Jonah 1"
+                "Colossians 1:1\u201314"
             ],
-            "reading_link": "Psalm+19%3B+Jonah+1%3B+Jonah+1",
-            "audio_link": "Ps.19,Jonah.1,Jonah.1"
+            "reading_link": "Psalm+19%3B+Jonah+1%3B+Colossians+1:1-14",
+            "audio_link": "Ps.19,Jonah.1,Col.1"
         },
         "evening": {
             "readings": [
@@ -601,10 +601,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 113",
                 "Jonah 2",
-                "Jonah 2"
+                "Colossians 1:15\u201323"
             ],
-            "reading_link": "Psalm+113%3B+Jonah+2%3B+Jonah+2",
-            "audio_link": "Ps.113,Jonah.2,Jonah.2"
+            "reading_link": "Psalm+113%3B+Jonah+2%3B+Colossians+1:15-23",
+            "audio_link": "Ps.113,Jonah.2,Col.1"
         },
         "evening": {
             "readings": [
@@ -667,10 +667,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 18:1\u201330",
                 "Ruth 1",
-                "Ruth 1"
+                "Colossians 2:8\u2013end"
             ],
-            "reading_link": "Psalm+18:1-30%3B+Ruth+1%3B+Ruth+1",
-            "audio_link": "Ps.18,Ruth.1,Ruth.1"
+            "reading_link": "Psalm+18:1-30%3B+Ruth+1%3B+Colossians+2:8-",
+            "audio_link": "Ps.18,Ruth.1,Col.2"
         },
         "evening": {
             "readings": [
@@ -689,10 +689,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 127",
                 "Ruth 2",
-                "Ruth 2"
+                "Colossians 3:1\u201311"
             ],
-            "reading_link": "Psalm+127%3B+Ruth+2%3B+Ruth+2",
-            "audio_link": "Ps.127,Ruth.2,Ruth.2"
+            "reading_link": "Psalm+127%3B+Ruth+2%3B+Colossians+3:1-11",
+            "audio_link": "Ps.127,Ruth.2,Col.3"
         },
         "evening": {
             "readings": [
@@ -711,10 +711,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 89:1\u201337",
                 "Ruth 3",
-                "Ruth 3"
+                "Colossians 3:12\u20134:1"
             ],
-            "reading_link": "Psalm+89:1-37%3B+Ruth+3%3B+Ruth+3",
-            "audio_link": "Ps.89,Ruth.3,Ruth.3"
+            "reading_link": "Psalm+89:1-37%3B+Ruth+3%3B+Colossians+3:12-4:1",
+            "audio_link": "Ps.89,Ruth.3,Col.3"
         },
         "evening": {
             "readings": [
@@ -733,10 +733,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 48",
                 "Ruth 4:1\u201317",
-                "Ruth 4:1\u201317"
+                "Colossians 4:2\u2013end"
             ],
-            "reading_link": "Psalm+48%3B+Ruth+4:1-17%3B+Ruth+4:1-17",
-            "audio_link": "Ps.48,Ruth.4,Ruth.4"
+            "reading_link": "Psalm+48%3B+Ruth+4:1-17%3B+Colossians+4:2-",
+            "audio_link": "Ps.48,Ruth.4,Col.4"
         },
         "evening": {
             "readings": [
@@ -799,10 +799,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 46",
                 "Jeremiah 30:1\u201317",
-                "Jeremiah 30:1\u201317"
+                "Matthew 20:17\u201328"
             ],
-            "reading_link": "Psalm+46%3B+Jeremiah+30:1-17%3B+Jeremiah+30:1-17",
-            "audio_link": "Ps.46,Jer.30,Jer.30"
+            "reading_link": "Psalm+46%3B+Jeremiah+30:1-17%3B+Matthew+20:17-28",
+            "audio_link": "Ps.46,Jer.30,Matt.20"
         },
         "evening": {
             "readings": [
@@ -821,10 +821,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 148",
                 "Jeremiah 30:18\u201331:9",
-                "Jeremiah 30:18\u201331:9"
+                "Matthew 20:29\u2013end"
             ],
-            "reading_link": "Psalm+148%3B+Jeremiah+30:18-31:9%3B+Jeremiah+30:18-31:9",
-            "audio_link": "Ps.148,Jer.30,Jer.30"
+            "reading_link": "Psalm+148%3B+Jeremiah+30:18-31:9%3B+Matthew+20:29-",
+            "audio_link": "Ps.148,Jer.30,Matt.20"
         },
         "evening": {
             "readings": [
@@ -843,10 +843,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 149",
                 "Jeremiah 31:10\u201317",
-                "Jeremiah 31:10\u201317"
+                "Matthew 23:1\u201312"
             ],
-            "reading_link": "Psalm+149%3B+Jeremiah+31:10-17%3B+Jeremiah+31:10-17",
-            "audio_link": "Ps.149,Jer.31,Jer.31"
+            "reading_link": "Psalm+149%3B+Jeremiah+31:10-17%3B+Matthew+23:1-12",
+            "audio_link": "Ps.149,Jer.31,Matt.23"
         },
         "evening": {
             "readings": [
@@ -865,10 +865,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 150",
                 "Jeremiah 33:14\u2013end",
-                "Jeremiah 33:14\u2013end"
+                "Matthew 23:13\u201328"
             ],
-            "reading_link": "Psalm+150%3B+Jeremiah+33:14-%3B+Jeremiah+33:14-",
-            "audio_link": "Ps.150,Jer.33,Jer.33"
+            "reading_link": "Psalm+150%3B+Jeremiah+33:14-%3B+Matthew+23:13-28",
+            "audio_link": "Ps.150,Jer.33,Matt.23"
         },
         "evening": {
             "readings": [
@@ -887,10 +887,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 96",
                 "Micah 5:2\u2013end",
-                "Micah 5:2\u2013end"
+                "Matthew 23:29\u2013end"
             ],
-            "reading_link": "Psalm+96%3B+Micah+5:2-%3B+Micah+5:2-",
-            "audio_link": "Ps.96,Mic.5,Mic.5"
+            "reading_link": "Psalm+96%3B+Micah+5:2-%3B+Matthew+23:29-",
+            "audio_link": "Ps.96,Mic.5,Matt.23"
         },
         "evening": {
             "readings": [
@@ -954,10 +954,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 2",
                 "Genesis 1:1\u201319",
-                "Genesis 1:1\u201319"
+                "Matthew 21:1\u201317"
             ],
-            "reading_link": "Psalm+2%3B+Genesis+1:1-19%3B+Genesis+1:1-19",
-            "audio_link": "Ps.2,Gen.1,Gen.1"
+            "reading_link": "Psalm+2%3B+Genesis+1:1-19%3B+Matthew+21:1-17",
+            "audio_link": "Ps.2,Gen.1,Matt.21"
         },
         "evening": {
             "readings": [
@@ -976,10 +976,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 9",
                 "Genesis 1:20\u20132:3",
-                "Genesis 1:20\u20132:3"
+                "Matthew 21:18\u201332"
             ],
-            "reading_link": "Psalm+9%3B+Genesis+1:20-2:3%3B+Genesis+1:20-2:3",
-            "audio_link": "Ps.9,Gen.1,Gen.1"
+            "reading_link": "Psalm+9%3B+Genesis+1:20-2:3%3B+Matthew+21:18-32",
+            "audio_link": "Ps.9,Gen.1,Matt.21"
         },
         "evening": {
             "readings": [
@@ -998,10 +998,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 20",
                 "Genesis 2:4\u2013end",
-                "Genesis 2:4\u2013end"
+                "Matthew 21:33\u2013end"
             ],
-            "reading_link": "Psalm+20%3B+Genesis+2:4-%3B+Genesis+2:4-",
-            "audio_link": "Ps.20,Gen.2,Gen.2"
+            "reading_link": "Psalm+20%3B+Genesis+2:4-%3B+Matthew+21:33-",
+            "audio_link": "Ps.20,Gen.2,Matt.21"
         },
         "evening": {
             "readings": [
@@ -1020,10 +1020,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 21",
                 "Genesis 3",
-                "Genesis 3"
+                "Matthew 22:1\u201314"
             ],
-            "reading_link": "Psalm+21%3B+Genesis+3%3B+Genesis+3",
-            "audio_link": "Ps.21,Gen.3,Gen.3"
+            "reading_link": "Psalm+21%3B+Genesis+3%3B+Matthew+22:1-14",
+            "audio_link": "Ps.21,Gen.3,Matt.22"
         },
         "evening": {
             "readings": [
@@ -1042,10 +1042,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 67",
                 "Genesis 4:1\u201316,4:25\u201326",
-                "Genesis 4:1\u201316,4:25\u201326"
+                "Matthew 22:15\u201333"
             ],
-            "reading_link": "Psalm+67%3B+Genesis+4:1-16,4:25-26%3B+Genesis+4:1-16,4:25-26",
-            "audio_link": "Ps.67,Gen.4,Gen.4"
+            "reading_link": "Psalm+67%3B+Genesis+4:1-16,4:25-26%3B+Matthew+22:15-33",
+            "audio_link": "Ps.67,Gen.4,Matt.22"
         },
         "evening": {
             "readings": [
@@ -1064,10 +1064,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 33",
                 "Genesis 6:1\u201310",
-                "Genesis 6:1\u201310"
+                "Matthew 22:34\u2013end"
             ],
-            "reading_link": "Psalm+33%3B+Genesis+6:1-10%3B+Genesis+6:1-10",
-            "audio_link": "Ps.33,Gen.6,Gen.6"
+            "reading_link": "Psalm+33%3B+Genesis+6:1-10%3B+Matthew+22:34-",
+            "audio_link": "Ps.33,Gen.6,Matt.22"
         },
         "evening": {
             "readings": [
@@ -1108,10 +1108,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 146",
                 "Genesis 6:11\u20137:10",
-                "Genesis 6:11\u20137:10"
+                "Matthew 24:1\u201314"
             ],
-            "reading_link": "Psalm+146%3B+Genesis+6:11-7:10%3B+Genesis+6:11-7:10",
-            "audio_link": "Ps.146,Gen.6,Gen.6"
+            "reading_link": "Psalm+146%3B+Genesis+6:11-7:10%3B+Matthew+24:1-14",
+            "audio_link": "Ps.146,Gen.6,Matt.24"
         },
         "evening": {
             "readings": [
@@ -1130,10 +1130,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 132",
                 "Genesis 7:11\u2013end",
-                "Genesis 7:11\u2013end"
+                "Matthew 24:15\u201328"
             ],
-            "reading_link": "Psalm+132%3B+Genesis+7:11-%3B+Genesis+7:11-",
-            "audio_link": "Ps.132,Gen.7,Gen.7"
+            "reading_link": "Psalm+132%3B+Genesis+7:11-%3B+Matthew+24:15-28",
+            "audio_link": "Ps.132,Gen.7,Matt.24"
         },
         "evening": {
             "readings": [
@@ -1152,10 +1152,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 81",
                 "Genesis 8:1\u201314",
-                "Genesis 8:1\u201314"
+                "Matthew 24:29\u2013end"
             ],
-            "reading_link": "Psalm+81%3B+Genesis+8:1-14%3B+Genesis+8:1-14",
-            "audio_link": "Ps.81,Gen.8,Gen.8"
+            "reading_link": "Psalm+81%3B+Genesis+8:1-14%3B+Matthew+24:29-",
+            "audio_link": "Ps.81,Gen.8,Matt.24"
         },
         "evening": {
             "readings": [
@@ -1198,10 +1198,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 27",
                 "Genesis 9:8\u201319",
-                "Genesis 9:8\u201319"
+                "Matthew 25:14\u201330"
             ],
-            "reading_link": "Psalm+27%3B+Genesis+9:8-19%3B+Genesis+9:8-19",
-            "audio_link": "Ps.27,Gen.9,Gen.9"
+            "reading_link": "Psalm+27%3B+Genesis+9:8-19%3B+Matthew+25:14-30",
+            "audio_link": "Ps.27,Gen.9,Matt.25"
         },
         "evening": {
             "readings": [
@@ -1220,10 +1220,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 122",
                 "Genesis 11:1\u20139",
-                "Genesis 11:1\u20139"
+                "Matthew 25:31\u2013end"
             ],
-            "reading_link": "Psalm+122%3B+Genesis+11:1-9%3B+Genesis+11:1-9",
-            "audio_link": "Ps.122,Gen.11,Gen.11"
+            "reading_link": "Psalm+122%3B+Genesis+11:1-9%3B+Matthew+25:31-",
+            "audio_link": "Ps.122,Gen.11,Matt.25"
         },
         "evening": {
             "readings": [
@@ -1264,10 +1264,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 108",
                 "Genesis 11:27\u201312:9",
-                "Genesis 11:27\u201312:9"
+                "Matthew 26:1\u201316"
             ],
-            "reading_link": "Psalm+108%3B+Genesis+11:27-12:9%3B+Genesis+11:27-12:9",
-            "audio_link": "Ps.108,Gen.11,Gen.11"
+            "reading_link": "Psalm+108%3B+Genesis+11:27-12:9%3B+Matthew+26:1-16",
+            "audio_link": "Ps.108,Gen.11,Matt.26"
         },
         "evening": {
             "readings": [
@@ -1287,10 +1287,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 36",
                 "Genesis 13:2\u2013end",
-                "Genesis 13:2\u2013end"
+                "Matthew 26:17\u201335"
             ],
-            "reading_link": "Psalm+36%3B+Genesis+13:2-%3B+Genesis+13:2-",
-            "audio_link": "Ps.36,Gen.13,Gen.13"
+            "reading_link": "Psalm+36%3B+Genesis+13:2-%3B+Matthew+26:17-35",
+            "audio_link": "Ps.36,Gen.13,Matt.26"
         },
         "evening": {
             "readings": [
@@ -1309,10 +1309,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 46",
                 "Genesis 14",
-                "Genesis 14"
+                "Matthew 26:36\u201346"
             ],
-            "reading_link": "Psalm+46%3B+Genesis+14%3B+Genesis+14",
-            "audio_link": "Ps.46,Gen.14,Gen.14"
+            "reading_link": "Psalm+46%3B+Genesis+14%3B+Matthew+26:36-46",
+            "audio_link": "Ps.46,Gen.14,Matt.26"
         },
         "evening": {
             "readings": [
@@ -1331,10 +1331,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 47",
                 "Genesis 15",
-                "Genesis 15"
+                "Matthew 26:47\u201356"
             ],
-            "reading_link": "Psalm+47%3B+Genesis+15%3B+Genesis+15",
-            "audio_link": "Ps.47,Gen.15,Gen.15"
+            "reading_link": "Psalm+47%3B+Genesis+15%3B+Matthew+26:47-56",
+            "audio_link": "Ps.47,Gen.15,Matt.26"
         },
         "evening": {
             "readings": [
@@ -1375,10 +1375,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 23",
                 "Genesis 17:1\u201322",
-                "Genesis 17:1\u201322"
+                "Matthew 27:1\u201310"
             ],
-            "reading_link": "Psalm+23%3B+Genesis+17:1-22%3B+Genesis+17:1-22",
-            "audio_link": "Ps.23,Gen.17,Gen.17"
+            "reading_link": "Psalm+23%3B+Genesis+17:1-22%3B+Matthew+27:1-10",
+            "audio_link": "Ps.23,Gen.17,Matt.27"
         },
         "evening": {
             "readings": [
@@ -1419,10 +1419,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 30",
                 "Genesis 29:31\u201330:24",
-                "Genesis 29:31\u201330:24"
+                "2 Timothy 4:1\u20138"
             ],
-            "reading_link": "Psalm+30%3B+Genesis+29:31-30:24%3B+Genesis+29:31-30:24",
-            "audio_link": "Ps.30,Gen.29,Gen.29"
+            "reading_link": "Psalm+30%3B+Genesis+29:31-30:24%3B+2+Timothy+4:1-8",
+            "audio_link": "Ps.30,Gen.29,2Tim.4"
         },
         "evening": {
             "readings": [
@@ -1441,10 +1441,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 36",
                 "Genesis 31:1\u201324",
-                "Genesis 31:1\u201324"
+                "2 Timothy 4:9\u2013end"
             ],
-            "reading_link": "Psalm+36%3B+Genesis+31:1-24%3B+Genesis+31:1-24",
-            "audio_link": "Ps.36,Gen.31,Gen.31"
+            "reading_link": "Psalm+36%3B+Genesis+31:1-24%3B+2+Timothy+4:9-",
+            "audio_link": "Ps.36,Gen.31,2Tim.4"
         },
         "evening": {
             "readings": [
@@ -1463,10 +1463,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 34",
                 "Genesis 31:25\u201332:2",
-                "Genesis 31:25\u201332:2"
+                "Titus 1"
             ],
-            "reading_link": "Psalm+34%3B+Genesis+31:25-32:2%3B+Genesis+31:25-32:2",
-            "audio_link": "Ps.34,Gen.31,Gen.31"
+            "reading_link": "Psalm+34%3B+Genesis+31:25-32:2%3B+Titus+1",
+            "audio_link": "Ps.34,Gen.31,Titus.1"
         },
         "evening": {
             "readings": [
@@ -1485,10 +1485,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 37",
                 "Genesis 32:3\u201330",
-                "Genesis 32:3\u201330"
+                "Titus 2"
             ],
-            "reading_link": "Psalm+37%3B+Genesis+32:3-30%3B+Genesis+32:3-30",
-            "audio_link": "Ps.37,Gen.32,Gen.32"
+            "reading_link": "Psalm+37%3B+Genesis+32:3-30%3B+Titus+2",
+            "audio_link": "Ps.37,Gen.32,Titus.2"
         },
         "evening": {
             "readings": [
@@ -1507,10 +1507,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 31",
                 "Genesis 33:1\u201317",
-                "Genesis 33:1\u201317"
+                "Titus 3"
             ],
-            "reading_link": "Psalm+31%3B+Genesis+33:1-17%3B+Genesis+33:1-17",
-            "audio_link": "Ps.31,Gen.33,Gen.33"
+            "reading_link": "Psalm+31%3B+Genesis+33:1-17%3B+Titus+3",
+            "audio_link": "Ps.31,Gen.33,Titus.3"
         },
         "evening": {
             "readings": [
@@ -1529,10 +1529,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 42",
                 "Genesis 35",
-                "Genesis 35"
+                "Philemon"
             ],
-            "reading_link": "Psalm+42%3B+Genesis+35%3B+Genesis+35",
-            "audio_link": "Ps.42,Gen.35,Gen.35"
+            "reading_link": "Psalm+42%3B+Genesis+35%3B+Philemon",
+            "audio_link": "Ps.42,Gen.35,Phlm"
         },
         "evening": {
             "readings": [
@@ -1574,10 +1574,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 44",
                 "Genesis 37:1\u201311",
-                "Genesis 37:1\u201311"
+                "Galatians 1"
             ],
-            "reading_link": "Psalm+44%3B+Genesis+37:1-11%3B+Genesis+37:1-11",
-            "audio_link": "Ps.44,Gen.37,Gen.37"
+            "reading_link": "Psalm+44%3B+Genesis+37:1-11%3B+Galatians+1",
+            "audio_link": "Ps.44,Gen.37,Gal.1"
         },
         "evening": {
             "readings": [
@@ -1596,10 +1596,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 48",
                 "Genesis 37:12\u2013end",
-                "Genesis 37:12\u2013end"
+                "Galatians 2:1\u201310"
             ],
-            "reading_link": "Psalm+48%3B+Genesis+37:12-%3B+Genesis+37:12-",
-            "audio_link": "Ps.48,Gen.37,Gen.37"
+            "reading_link": "Psalm+48%3B+Genesis+37:12-%3B+Galatians+2:1-10",
+            "audio_link": "Ps.48,Gen.37,Gal.2"
         },
         "evening": {
             "readings": [
@@ -1640,10 +1640,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 77",
                 "Genesis 39",
-                "Genesis 39"
+                "Galatians 2:11\u2013end"
             ],
-            "reading_link": "Psalm+77%3B+Genesis+39%3B+Genesis+39",
-            "audio_link": "Ps.77,Gen.39,Gen.39"
+            "reading_link": "Psalm+77%3B+Genesis+39%3B+Galatians+2:11-",
+            "audio_link": "Ps.77,Gen.39,Gal.2"
         },
         "evening": {
             "readings": [
@@ -1662,10 +1662,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 3",
                 "Genesis 40",
-                "Genesis 40"
+                "Galatians 3:1\u201314"
             ],
-            "reading_link": "Psalm+3%3B+Genesis+40%3B+Genesis+40",
-            "audio_link": "Ps.3,Gen.40,Gen.40"
+            "reading_link": "Psalm+3%3B+Genesis+40%3B+Galatians+3:1-14",
+            "audio_link": "Ps.3,Gen.40,Gal.3"
         },
         "evening": {
             "readings": [
@@ -1684,10 +1684,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 71",
                 "Genesis 41:1\u201324",
-                "Genesis 41:1\u201324"
+                "Galatians 3:15\u201322"
             ],
-            "reading_link": "Psalm+71%3B+Genesis+41:1-24%3B+Genesis+41:1-24",
-            "audio_link": "Ps.71,Gen.41,Gen.41"
+            "reading_link": "Psalm+71%3B+Genesis+41:1-24%3B+Galatians+3:15-22",
+            "audio_link": "Ps.71,Gen.41,Gal.3"
         },
         "evening": {
             "readings": [
@@ -1729,10 +1729,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 11",
                 "Genesis 41:25\u201345",
-                "Genesis 41:25\u201345"
+                "Galatians 3:23\u20134:7"
             ],
-            "reading_link": "Psalm+11%3B+Genesis+41:25-45%3B+Genesis+41:25-45",
-            "audio_link": "Ps.11,Gen.41,Gen.41"
+            "reading_link": "Psalm+11%3B+Genesis+41:25-45%3B+Galatians+3:23-4:7",
+            "audio_link": "Ps.11,Gen.41,Gal.3"
         },
         "evening": {
             "readings": [
@@ -1751,10 +1751,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 44",
                 "Genesis 41:46\u201342:5",
-                "Genesis 41:46\u201342:5"
+                "Galatians 4:8\u201320"
             ],
-            "reading_link": "Psalm+44%3B+Genesis+41:46-42:5%3B+Genesis+41:46-42:5",
-            "audio_link": "Ps.44,Gen.41,Gen.41"
+            "reading_link": "Psalm+44%3B+Genesis+41:46-42:5%3B+Galatians+4:8-20",
+            "audio_link": "Ps.44,Gen.41,Gal.4"
         },
         "evening": {
             "readings": [
@@ -1773,10 +1773,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 6",
                 "Genesis 42:6\u201317",
-                "Genesis 42:6\u201317"
+                "Galatians 4:21\u20135:1"
             ],
-            "reading_link": "Psalm+6%3B+Genesis+42:6-17%3B+Genesis+42:6-17",
-            "audio_link": "Ps.6,Gen.42,Gen.42"
+            "reading_link": "Psalm+6%3B+Genesis+42:6-17%3B+Galatians+4:21-5:1",
+            "audio_link": "Ps.6,Gen.42,Gal.4"
         },
         "evening": {
             "readings": [
@@ -1795,10 +1795,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 42",
                 "Genesis 42:18\u201328",
-                "Genesis 42:18\u201328"
+                "Galatians 5:2\u201315"
             ],
-            "reading_link": "Psalm+42%3B+Genesis+42:18-28%3B+Genesis+42:18-28",
-            "audio_link": "Ps.42,Gen.42,Gen.42"
+            "reading_link": "Psalm+42%3B+Genesis+42:18-28%3B+Galatians+5:2-15",
+            "audio_link": "Ps.42,Gen.42,Gal.5"
         },
         "evening": {
             "readings": [
@@ -1817,10 +1817,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 22",
                 "Genesis 42:29\u2013end",
-                "Genesis 42:29\u2013end"
+                "Galatians 5:16\u2013end"
             ],
-            "reading_link": "Psalm+22%3B+Genesis+42:29-%3B+Genesis+42:29-",
-            "audio_link": "Ps.22,Gen.42,Gen.42"
+            "reading_link": "Psalm+22%3B+Genesis+42:29-%3B+Galatians+5:16-",
+            "audio_link": "Ps.22,Gen.42,Gal.5"
         },
         "evening": {
             "readings": [
@@ -1839,10 +1839,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 63",
                 "Genesis 43:1\u201315",
-                "Genesis 43:1\u201315"
+                "Galatians 6"
             ],
-            "reading_link": "Psalm+63%3B+Genesis+43:1-15%3B+Genesis+43:1-15",
-            "audio_link": "Ps.63,Gen.43,Gen.43"
+            "reading_link": "Psalm+63%3B+Genesis+43:1-15%3B+Galatians+6",
+            "audio_link": "Ps.63,Gen.43,Gal.6"
         },
         "evening": {
             "readings": [
@@ -1883,10 +1883,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 32",
                 "Genesis 43:16\u2013end",
-                "Genesis 43:16\u2013end"
+                "Hebrews 1"
             ],
-            "reading_link": "Psalm+32%3B+Genesis+43:16-%3B+Genesis+43:16-",
-            "audio_link": "Ps.32,Gen.43,Gen.43"
+            "reading_link": "Psalm+32%3B+Genesis+43:16-%3B+Hebrews+1",
+            "audio_link": "Ps.32,Gen.43,Heb.1"
         },
         "evening": {
             "readings": [
@@ -1905,10 +1905,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 50",
                 "Genesis 44:1\u201317",
-                "Genesis 44:1\u201317"
+                "Hebrews 2:1\u20139"
             ],
-            "reading_link": "Psalm+50%3B+Genesis+44:1-17%3B+Genesis+44:1-17",
-            "audio_link": "Ps.50,Gen.44,Gen.44"
+            "reading_link": "Psalm+50%3B+Genesis+44:1-17%3B+Hebrews+2:1-9",
+            "audio_link": "Ps.50,Gen.44,Heb.2"
         },
         "evening": {
             "readings": [
@@ -1927,10 +1927,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 35",
                 "Genesis 44:18\u2013end",
-                "Genesis 44:18\u2013end"
+                "Hebrews 2:10\u2013end"
             ],
-            "reading_link": "Psalm+35%3B+Genesis+44:18-%3B+Genesis+44:18-",
-            "audio_link": "Ps.35,Gen.44,Gen.44"
+            "reading_link": "Psalm+35%3B+Genesis+44:18-%3B+Hebrews+2:10-",
+            "audio_link": "Ps.35,Gen.44,Heb.2"
         },
         "evening": {
             "readings": [
@@ -1949,10 +1949,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 34",
                 "Genesis 45:1\u201315",
-                "Genesis 45:1\u201315"
+                "Hebrews 3:1\u20136"
             ],
-            "reading_link": "Psalm+34%3B+Genesis+45:1-15%3B+Genesis+45:1-15",
-            "audio_link": "Ps.34,Gen.45,Gen.45"
+            "reading_link": "Psalm+34%3B+Genesis+45:1-15%3B+Hebrews+3:1-6",
+            "audio_link": "Ps.34,Gen.45,Heb.3"
         },
         "evening": {
             "readings": [
@@ -1971,10 +1971,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 41",
                 "Genesis 45:16\u2013end",
-                "Genesis 45:16\u2013end"
+                "Hebrews 3:7\u2013end"
             ],
-            "reading_link": "Psalm+41%3B+Genesis+45:16-%3B+Genesis+45:16-",
-            "audio_link": "Ps.41,Gen.45,Gen.45"
+            "reading_link": "Psalm+41%3B+Genesis+45:16-%3B+Hebrews+3:7-",
+            "audio_link": "Ps.41,Gen.45,Heb.3"
         },
         "evening": {
             "readings": [
@@ -1993,10 +1993,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 25",
                 "Genesis 46:1\u20137,46:28\u2013end",
-                "Genesis 46:1\u20137,46:28\u2013end"
+                "Hebrews 4:1\u201313"
             ],
-            "reading_link": "Psalm+25%3B+Genesis+46:1-7,46:28-%3B+Genesis+46:1-7,46:28-",
-            "audio_link": "Ps.25,Gen.46,Gen.46"
+            "reading_link": "Psalm+25%3B+Genesis+46:1-7,46:28-%3B+Hebrews+4:1-13",
+            "audio_link": "Ps.25,Gen.46,Heb.4"
         },
         "evening": {
             "readings": [
@@ -2037,10 +2037,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 5",
                 "Genesis 47:1\u201327",
-                "Genesis 47:1\u201327"
+                "Hebrews 4:14\u20135:10"
             ],
-            "reading_link": "Psalm+5%3B+Genesis+47:1-27%3B+Genesis+47:1-27",
-            "audio_link": "Ps.5,Gen.47,Gen.47"
+            "reading_link": "Psalm+5%3B+Genesis+47:1-27%3B+Hebrews+4:14-5:10",
+            "audio_link": "Ps.5,Gen.47,Heb.4"
         },
         "evening": {
             "readings": [
@@ -2060,11 +2060,10 @@ class Data {  data = {
                 "Psalm 9",
                 "Genesis 47:28\u2013end",
                 "Genesis 48",
-                "Genesis 47:28\u2013end",
-                "Genesis 48"
+                "Hebrews 5:11\u20136:12"
             ],
-            "reading_link": "Psalm+9%3B+Genesis+47:28-%3B+Genesis+48%3B+Genesis+47:28-%3B+Genesis+48",
-            "audio_link": "Ps.9,Gen.47,Gen.48,Gen.47,Gen.48"
+            "reading_link": "Psalm+9%3B+Genesis+47:28-%3B+Genesis+48%3B+Hebrews+5:11-6:12",
+            "audio_link": "Ps.9,Gen.47,Gen.48,Heb.5"
         },
         "evening": {
             "readings": [
@@ -2083,10 +2082,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 38",
                 "Genesis 49:1\u201332",
-                "Genesis 49:1\u201332"
+                "Hebrews 6:13\u2013end"
             ],
-            "reading_link": "Psalm+38%3B+Genesis+49:1-32%3B+Genesis+49:1-32",
-            "audio_link": "Ps.38,Gen.49,Gen.49"
+            "reading_link": "Psalm+38%3B+Genesis+49:1-32%3B+Hebrews+6:13-",
+            "audio_link": "Ps.38,Gen.49,Heb.6"
         },
         "evening": {
             "readings": [
@@ -2106,11 +2105,10 @@ class Data {  data = {
                 "Psalm 56",
                 "Genesis 49:33\u2013end",
                 "Genesis 50",
-                "Genesis 49:33\u2013end",
-                "Genesis 50"
+                "Hebrews 7:1\u201310"
             ],
-            "reading_link": "Psalm+56%3B+Genesis+49:33-%3B+Genesis+50%3B+Genesis+49:33-%3B+Genesis+50",
-            "audio_link": "Ps.56,Gen.49,Gen.50,Gen.49,Gen.50"
+            "reading_link": "Psalm+56%3B+Genesis+49:33-%3B+Genesis+50%3B+Hebrews+7:1-10",
+            "audio_link": "Ps.56,Gen.49,Gen.50,Heb.7"
         },
         "evening": {
             "readings": [
@@ -2129,10 +2127,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 22",
                 "Exodus 1:1\u201314",
-                "Exodus 1:1\u201314"
+                "Hebrews 7:11\u2013end"
             ],
-            "reading_link": "Psalm+22%3B+Exodus+1:1-14%3B+Exodus+1:1-14",
-            "audio_link": "Ps.22,Exod.1,Exod.1"
+            "reading_link": "Psalm+22%3B+Exodus+1:1-14%3B+Hebrews+7:11-",
+            "audio_link": "Ps.22,Exod.1,Heb.7"
         },
         "evening": {
             "readings": [
@@ -2151,10 +2149,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 31",
                 "Exodus 1:22\u20132:10",
-                "Exodus 1:22\u20132:10"
+                "Hebrews 8"
             ],
-            "reading_link": "Psalm+31%3B+Exodus+1:22-2:10%3B+Exodus+1:22-2:10",
-            "audio_link": "Ps.31,Exod.1,Exod.1"
+            "reading_link": "Psalm+31%3B+Exodus+1:22-2:10%3B+Hebrews+8",
+            "audio_link": "Ps.31,Exod.1,Heb.8"
         },
         "evening": {
             "readings": [
@@ -2195,10 +2193,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 77",
                 "Exodus 2:11\u201322",
-                "Exodus 2:11\u201322"
+                "Hebrews 9:1\u201314"
             ],
-            "reading_link": "Psalm+77%3B+Exodus+2:11-22%3B+Exodus+2:11-22",
-            "audio_link": "Ps.77,Exod.2,Exod.2"
+            "reading_link": "Psalm+77%3B+Exodus+2:11-22%3B+Hebrews+9:1-14",
+            "audio_link": "Ps.77,Exod.2,Heb.9"
         },
         "evening": {
             "readings": [
@@ -2217,10 +2215,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 79",
                 "Exodus 2:23\u20133:20",
-                "Exodus 2:23\u20133:20"
+                "Hebrews 9:15\u2013end"
             ],
-            "reading_link": "Psalm+79%3B+Exodus+2:23-3:20%3B+Exodus+2:23-3:20",
-            "audio_link": "Ps.79,Exod.2,Exod.2"
+            "reading_link": "Psalm+79%3B+Exodus+2:23-3:20%3B+Hebrews+9:15-",
+            "audio_link": "Ps.79,Exod.2,Heb.9"
         },
         "evening": {
             "readings": [
@@ -2239,10 +2237,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 90",
                 "Exodus 4:1\u201323",
-                "Exodus 4:1\u201323"
+                "Hebrews 10:1\u201318"
             ],
-            "reading_link": "Psalm+90%3B+Exodus+4:1-23%3B+Exodus+4:1-23",
-            "audio_link": "Ps.90,Exod.4,Exod.4"
+            "reading_link": "Psalm+90%3B+Exodus+4:1-23%3B+Hebrews+10:1-18",
+            "audio_link": "Ps.90,Exod.4,Heb.10"
         },
         "evening": {
             "readings": [
@@ -2261,10 +2259,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 86",
                 "Exodus 4:27\u20136:1",
-                "Exodus 4:27\u20136:1"
+                "Hebrews 10:19\u201325"
             ],
-            "reading_link": "Psalm+86%3B+Exodus+4:27-6:1%3B+Exodus+4:27-6:1",
-            "audio_link": "Ps.86,Exod.4,Exod.4"
+            "reading_link": "Psalm+86%3B+Exodus+4:27-6:1%3B+Hebrews+10:19-25",
+            "audio_link": "Ps.86,Exod.4,Heb.10"
         },
         "evening": {
             "readings": [
@@ -2283,10 +2281,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 102",
                 "Exodus 6:2\u201313",
-                "Exodus 6:2\u201313"
+                "Hebrews 10:26\u2013end"
             ],
-            "reading_link": "Psalm+102%3B+Exodus+6:2-13%3B+Exodus+6:2-13",
-            "audio_link": "Ps.102,Exod.6,Exod.6"
+            "reading_link": "Psalm+102%3B+Exodus+6:2-13%3B+Hebrews+10:26-",
+            "audio_link": "Ps.102,Exod.6,Heb.10"
         },
         "evening": {
             "readings": [
@@ -2305,10 +2303,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 32",
                 "Exodus 7:8\u2013end",
-                "Exodus 7:8\u2013end"
+                "Hebrews 11:1\u201316"
             ],
-            "reading_link": "Psalm+32%3B+Exodus+7:8-%3B+Exodus+7:8-",
-            "audio_link": "Ps.32,Exod.7,Exod.7"
+            "reading_link": "Psalm+32%3B+Exodus+7:8-%3B+Hebrews+11:1-16",
+            "audio_link": "Ps.32,Exod.7,Heb.11"
         },
         "evening": {
             "readings": [
@@ -2349,10 +2347,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 73",
                 "Exodus 8:1\u201319",
-                "Exodus 8:1\u201319"
+                "Hebrews 11:17\u201331"
             ],
-            "reading_link": "Psalm+73%3B+Exodus+8:1-19%3B+Exodus+8:1-19",
-            "audio_link": "Ps.73,Exod.8,Exod.8"
+            "reading_link": "Psalm+73%3B+Exodus+8:1-19%3B+Hebrews+11:17-31",
+            "audio_link": "Ps.73,Exod.8,Heb.11"
         },
         "evening": {
             "readings": [
@@ -2393,10 +2391,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 55",
                 "Exodus 9:1\u201312",
-                "Exodus 9:1\u201312"
+                "Hebrews 12:3\u201313"
             ],
-            "reading_link": "Psalm+55%3B+Exodus+9:1-12%3B+Exodus+9:1-12",
-            "audio_link": "Ps.55,Exod.9,Exod.9"
+            "reading_link": "Psalm+55%3B+Exodus+9:1-12%3B+Hebrews+12:3-13",
+            "audio_link": "Ps.55,Exod.9,Heb.12"
         },
         "evening": {
             "readings": [
@@ -2415,10 +2413,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 40",
                 "Exodus 9:13\u2013end",
-                "Exodus 9:13\u2013end"
+                "Hebrews 12:14\u2013end"
             ],
-            "reading_link": "Psalm+40%3B+Exodus+9:13-%3B+Exodus+9:13-",
-            "audio_link": "Ps.40,Exod.9,Exod.9"
+            "reading_link": "Psalm+40%3B+Exodus+9:13-%3B+Hebrews+12:14-",
+            "audio_link": "Ps.40,Exod.9,Heb.12"
         },
         "evening": {
             "readings": [
@@ -2437,10 +2435,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 22",
                 "Exodus 10",
-                "Exodus 10"
+                "Hebrews 13:1\u201316"
             ],
-            "reading_link": "Psalm+22%3B+Exodus+10%3B+Exodus+10",
-            "audio_link": "Ps.22,Exod.10,Exod.10"
+            "reading_link": "Psalm+22%3B+Exodus+10%3B+Hebrews+13:1-16",
+            "audio_link": "Ps.22,Exod.10,Heb.13"
         },
         "evening": {
             "readings": [
@@ -2459,10 +2457,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 23",
                 "Exodus 11",
-                "Exodus 11"
+                "Hebrews 13:17\u2013end"
             ],
-            "reading_link": "Psalm+23%3B+Exodus+11%3B+Exodus+11",
-            "audio_link": "Ps.23,Exod.11,Exod.11"
+            "reading_link": "Psalm+23%3B+Exodus+11%3B+Hebrews+13:17-",
+            "audio_link": "Ps.23,Exod.11,Heb.13"
         },
         "evening": {
             "readings": [

@@ -61,13 +61,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.25"
                 },
                 {
-                    "pretty": "Isaiah 25:1\u20139",
-                    "readQS": "Isaiah+25:1-9",
-                    "audioQS": "Isa.25"
+                    "pretty": "Matthew 12:1\u201321",
+                    "readQS": "Matthew+12:1-21",
+                    "audioQS": "Matt.12"
                 }
             ],
-            "readQS": "Psalm+50%3B+Isaiah+25:1-9%3B+Isaiah+25:1-9",
-            "audioQS": "Ps.50,Isa.25,Isa.25"
+            "readQS": "Psalm+50%3B+Isaiah+25:1-9%3B+Matthew+12:1-21",
+            "audioQS": "Ps.50,Isa.25,Matt.12"
         },
         "evening": {
             "readings": [
@@ -107,13 +107,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.26"
                 },
                 {
-                    "pretty": "Isaiah 26:1\u201313",
-                    "readQS": "Isaiah+26:1-13",
-                    "audioQS": "Isa.26"
+                    "pretty": "Matthew 12:22\u201337",
+                    "readQS": "Matthew+12:22-37",
+                    "audioQS": "Matt.12"
                 }
             ],
-            "readQS": "Psalm+80%3B+Isaiah+26:1-13%3B+Isaiah+26:1-13",
-            "audioQS": "Ps.80,Isa.26,Isa.26"
+            "readQS": "Psalm+80%3B+Isaiah+26:1-13%3B+Matthew+12:22-37",
+            "audioQS": "Ps.80,Isa.26,Matt.12"
         },
         "evening": {
             "readings": [
@@ -153,13 +153,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.28"
                 },
                 {
-                    "pretty": "Isaiah 28:1\u201313",
-                    "readQS": "Isaiah+28:1-13",
-                    "audioQS": "Isa.28"
+                    "pretty": "Matthew 12:38\u2013end",
+                    "readQS": "Matthew+12:38-",
+                    "audioQS": "Matt.12"
                 }
             ],
-            "readQS": "Psalm+7%3B+Isaiah+28:1-13%3B+Isaiah+28:1-13",
-            "audioQS": "Ps.7,Isa.28,Isa.28"
+            "readQS": "Psalm+7%3B+Isaiah+28:1-13%3B+Matthew+12:38-",
+            "audioQS": "Ps.7,Isa.28,Matt.12"
         },
         "evening": {
             "readings": [
@@ -199,13 +199,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.28"
                 },
                 {
-                    "pretty": "Isaiah 28:14\u2013end",
-                    "readQS": "Isaiah+28:14-",
-                    "audioQS": "Isa.28"
+                    "pretty": "Matthew 13:1\u201323",
+                    "readQS": "Matthew+13:1-23",
+                    "audioQS": "Matt.13"
                 }
             ],
-            "readQS": "Psalm+42%3B+Isaiah+28:14-%3B+Isaiah+28:14-",
-            "audioQS": "Ps.42,Isa.28,Isa.28"
+            "readQS": "Psalm+42%3B+Isaiah+28:14-%3B+Matthew+13:1-23",
+            "audioQS": "Ps.42,Isa.28,Matt.13"
         },
         "evening": {
             "readings": [
@@ -245,13 +245,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.29"
                 },
                 {
-                    "pretty": "Isaiah 29:1\u201314",
-                    "readQS": "Isaiah+29:1-14",
-                    "audioQS": "Isa.29"
+                    "pretty": "Matthew 13:24\u201343",
+                    "readQS": "Matthew+13:24-43",
+                    "audioQS": "Matt.13"
                 }
             ],
-            "readQS": "Psalm+25%3B+Isaiah+29:1-14%3B+Isaiah+29:1-14",
-            "audioQS": "Ps.25,Isa.29,Isa.29"
+            "readQS": "Psalm+25%3B+Isaiah+29:1-14%3B+Matthew+13:24-43",
+            "audioQS": "Ps.25,Isa.29,Matt.13"
         },
         "evening": {
             "readings": [
@@ -291,13 +291,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.29"
                 },
                 {
-                    "pretty": "Isaiah 29:15\u2013end",
-                    "readQS": "Isaiah+29:15-",
-                    "audioQS": "Isa.29"
+                    "pretty": "Matthew 13:44\u2013end",
+                    "readQS": "Matthew+13:44-",
+                    "audioQS": "Matt.13"
                 }
             ],
-            "readQS": "Psalm+9%3B+Isaiah+29:15-%3B+Isaiah+29:15-",
-            "audioQS": "Ps.9,Isa.29,Isa.29"
+            "readQS": "Psalm+9%3B+Isaiah+29:15-%3B+Matthew+13:44-",
+            "audioQS": "Ps.9,Isa.29,Matt.13"
         },
         "evening": {
             "readings": [
@@ -383,13 +383,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.30"
                 },
                 {
-                    "pretty": "Isaiah 30:1\u201318",
-                    "readQS": "Isaiah+30:1-18",
-                    "audioQS": "Isa.30"
+                    "pretty": "Matthew 14:1\u201312",
+                    "readQS": "Matthew+14:1-12",
+                    "audioQS": "Matt.14"
                 }
             ],
-            "readQS": "Psalm+44%3B+Isaiah+30:1-18%3B+Isaiah+30:1-18",
-            "audioQS": "Ps.44,Isa.30,Isa.30"
+            "readQS": "Psalm+44%3B+Isaiah+30:1-18%3B+Matthew+14:1-12",
+            "audioQS": "Ps.44,Isa.30,Matt.14"
         },
         "evening": {
             "readings": [
@@ -429,13 +429,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.30"
                 },
                 {
-                    "pretty": "Isaiah 30:19\u2013end",
-                    "readQS": "Isaiah+30:19-",
-                    "audioQS": "Isa.30"
+                    "pretty": "Matthew 14:13\u2013end",
+                    "readQS": "Matthew+14:13-",
+                    "audioQS": "Matt.14"
                 }
             ],
-            "readQS": "Psalm+56%3B+Isaiah+30:19-%3B+Isaiah+30:19-",
-            "audioQS": "Ps.56,Isa.30,Isa.30"
+            "readQS": "Psalm+56%3B+Isaiah+30:19-%3B+Matthew+14:13-",
+            "audioQS": "Ps.56,Isa.30,Matt.14"
         },
         "evening": {
             "readings": [
@@ -475,13 +475,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.31"
                 },
                 {
-                    "pretty": "Isaiah 31",
-                    "readQS": "Isaiah+31",
-                    "audioQS": "Isa.31"
+                    "pretty": "Matthew 15:1\u201320",
+                    "readQS": "Matthew+15:1-20",
+                    "audioQS": "Matt.15"
                 }
             ],
-            "readQS": "Psalm+62%3B+Isaiah+31%3B+Isaiah+31",
-            "audioQS": "Ps.62,Isa.31,Isa.31"
+            "readQS": "Psalm+62%3B+Isaiah+31%3B+Matthew+15:1-20",
+            "audioQS": "Ps.62,Isa.31,Matt.15"
         },
         "evening": {
             "readings": [
@@ -521,13 +521,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.32"
                 },
                 {
-                    "pretty": "Isaiah 32",
-                    "readQS": "Isaiah+32",
-                    "audioQS": "Isa.32"
+                    "pretty": "Matthew 15:21\u201328",
+                    "readQS": "Matthew+15:21-28",
+                    "audioQS": "Matt.15"
                 }
             ],
-            "readQS": "Psalm+54%3B+Isaiah+32%3B+Isaiah+32",
-            "audioQS": "Ps.54,Isa.32,Isa.32"
+            "readQS": "Psalm+54%3B+Isaiah+32%3B+Matthew+15:21-28",
+            "audioQS": "Ps.54,Isa.32,Matt.15"
         },
         "evening": {
             "readings": [
@@ -567,13 +567,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.33"
                 },
                 {
-                    "pretty": "Isaiah 33:1\u201322",
-                    "readQS": "Isaiah+33:1-22",
-                    "audioQS": "Isa.33"
+                    "pretty": "Matthew 15:29\u2013end",
+                    "readQS": "Matthew+15:29-",
+                    "audioQS": "Matt.15"
                 }
             ],
-            "readQS": "Psalm+86%3B+Isaiah+33:1-22%3B+Isaiah+33:1-22",
-            "audioQS": "Ps.86,Isa.33,Isa.33"
+            "readQS": "Psalm+86%3B+Isaiah+33:1-22%3B+Matthew+15:29-",
+            "audioQS": "Ps.86,Isa.33,Matt.15"
         },
         "evening": {
             "readings": [
@@ -613,13 +613,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.35"
                 },
                 {
-                    "pretty": "Isaiah 35",
-                    "readQS": "Isaiah+35",
-                    "audioQS": "Isa.35"
+                    "pretty": "Matthew 16:1\u201312",
+                    "readQS": "Matthew+16:1-12",
+                    "audioQS": "Matt.16"
                 }
             ],
-            "readQS": "Psalm+145%3B+Isaiah+35%3B+Isaiah+35",
-            "audioQS": "Ps.145,Isa.35,Isa.35"
+            "readQS": "Psalm+145%3B+Isaiah+35%3B+Matthew+16:1-12",
+            "audioQS": "Ps.145,Isa.35,Matt.16"
         },
         "evening": {
             "readings": [
@@ -710,13 +710,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.38"
                 },
                 {
-                    "pretty": "Isaiah 38:1\u20138,38:21\u201322",
-                    "readQS": "Isaiah+38:1-8,38:21-22",
-                    "audioQS": "Isa.38"
+                    "pretty": "Matthew 16:13\u2013end",
+                    "readQS": "Matthew+16:13-",
+                    "audioQS": "Matt.16"
                 }
             ],
-            "readQS": "Psalm+40%3B+Isaiah+38:1-8,38:21-22%3B+Isaiah+38:1-8,38:21-22",
-            "audioQS": "Ps.40,Isa.38,Isa.38"
+            "readQS": "Psalm+40%3B+Isaiah+38:1-8,38:21-22%3B+Matthew+16:13-",
+            "audioQS": "Ps.40,Isa.38,Matt.16"
         },
         "evening": {
             "readings": [
@@ -756,13 +756,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.38"
                 },
                 {
-                    "pretty": "Isaiah 38:9\u201320",
-                    "readQS": "Isaiah+38:9-20",
-                    "audioQS": "Isa.38"
+                    "pretty": "Matthew 17:1\u201313",
+                    "readQS": "Matthew+17:1-13",
+                    "audioQS": "Matt.17"
                 }
             ],
-            "readQS": "Psalm+146%3B+Isaiah+38:9-20%3B+Isaiah+38:9-20",
-            "audioQS": "Ps.146,Isa.38,Isa.38"
+            "readQS": "Psalm+146%3B+Isaiah+38:9-20%3B+Matthew+17:1-13",
+            "audioQS": "Ps.146,Isa.38,Matt.17"
         },
         "evening": {
             "readings": [
@@ -802,13 +802,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.39"
                 },
                 {
-                    "pretty": "Isaiah 39",
-                    "readQS": "Isaiah+39",
-                    "audioQS": "Isa.39"
+                    "pretty": "Matthew 17:14\u201321",
+                    "readQS": "Matthew+17:14-21",
+                    "audioQS": "Matt.17"
                 }
             ],
-            "readQS": "Psalm+46%3B+Isaiah+39%3B+Isaiah+39",
-            "audioQS": "Ps.46,Isa.39,Isa.39"
+            "readQS": "Psalm+46%3B+Isaiah+39%3B+Matthew+17:14-21",
+            "audioQS": "Ps.46,Isa.39,Matt.17"
         },
         "evening": {
             "readings": [
@@ -848,13 +848,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Zeph.1"
                 },
                 {
-                    "pretty": "Zephaniah 1:1\u20132:3",
-                    "readQS": "Zephaniah+1:1-2:3",
-                    "audioQS": "Zeph.1"
+                    "pretty": "Matthew 17:22\u2013end",
+                    "readQS": "Matthew+17:22-",
+                    "audioQS": "Matt.17"
                 }
             ],
-            "readQS": "Psalm+121%3B+Zephaniah+1:1-2:3%3B+Zephaniah+1:1-2:3",
-            "audioQS": "Ps.121,Zeph.1,Zeph.1"
+            "readQS": "Psalm+121%3B+Zephaniah+1:1-2:3%3B+Matthew+17:22-",
+            "audioQS": "Ps.121,Zeph.1,Matt.17"
         },
         "evening": {
             "readings": [
@@ -894,13 +894,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Zeph.3"
                 },
                 {
-                    "pretty": "Zephaniah 3:1\u201313",
-                    "readQS": "Zephaniah+3:1-13",
-                    "audioQS": "Zeph.3"
+                    "pretty": "Matthew 18:1\u201320",
+                    "readQS": "Matthew+18:1-20",
+                    "audioQS": "Matt.18"
                 }
             ],
-            "readQS": "Psalm+124%3B+Zephaniah+3:1-13%3B+Zephaniah+3:1-13",
-            "audioQS": "Ps.124,Zeph.3,Zeph.3"
+            "readQS": "Psalm+124%3B+Zephaniah+3:1-13%3B+Matthew+18:1-20",
+            "audioQS": "Ps.124,Zeph.3,Matt.18"
         },
         "evening": {
             "readings": [
@@ -940,13 +940,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Zeph.3"
                 },
                 {
-                    "pretty": "Zephaniah 3:14\u2013end",
-                    "readQS": "Zephaniah+3:14-",
-                    "audioQS": "Zeph.3"
+                    "pretty": "Matthew 18:21\u2013end",
+                    "readQS": "Matthew+18:21-",
+                    "audioQS": "Matt.18"
                 }
             ],
-            "readQS": "Psalm+130%3B+Zephaniah+3:14-%3B+Zephaniah+3:14-",
-            "audioQS": "Ps.130,Zeph.3,Zeph.3"
+            "readQS": "Psalm+130%3B+Zephaniah+3:14-%3B+Matthew+18:21-",
+            "audioQS": "Ps.130,Zeph.3,Matt.18"
         },
         "evening": {
             "readings": [
@@ -1216,13 +1216,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Jonah.1"
                 },
                 {
-                    "pretty": "Jonah 1",
-                    "readQS": "Jonah+1",
-                    "audioQS": "Jonah.1"
+                    "pretty": "Colossians 1:1\u201314",
+                    "readQS": "Colossians+1:1-14",
+                    "audioQS": "Col.1"
                 }
             ],
-            "readQS": "Psalm+19%3B+Jonah+1%3B+Jonah+1",
-            "audioQS": "Ps.19,Jonah.1,Jonah.1"
+            "readQS": "Psalm+19%3B+Jonah+1%3B+Colossians+1:1-14",
+            "audioQS": "Ps.19,Jonah.1,Col.1"
         },
         "evening": {
             "readings": [
@@ -1262,13 +1262,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Jonah.2"
                 },
                 {
-                    "pretty": "Jonah 2",
-                    "readQS": "Jonah+2",
-                    "audioQS": "Jonah.2"
+                    "pretty": "Colossians 1:15\u201323",
+                    "readQS": "Colossians+1:15-23",
+                    "audioQS": "Col.1"
                 }
             ],
-            "readQS": "Psalm+113%3B+Jonah+2%3B+Jonah+2",
-            "audioQS": "Ps.113,Jonah.2,Jonah.2"
+            "readQS": "Psalm+113%3B+Jonah+2%3B+Colossians+1:15-23",
+            "audioQS": "Ps.113,Jonah.2,Col.1"
         },
         "evening": {
             "readings": [
@@ -1400,13 +1400,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ruth.1"
                 },
                 {
-                    "pretty": "Ruth 1",
-                    "readQS": "Ruth+1",
-                    "audioQS": "Ruth.1"
+                    "pretty": "Colossians 2:8\u2013end",
+                    "readQS": "Colossians+2:8-",
+                    "audioQS": "Col.2"
                 }
             ],
-            "readQS": "Psalm+18:1-30%3B+Ruth+1%3B+Ruth+1",
-            "audioQS": "Ps.18,Ruth.1,Ruth.1"
+            "readQS": "Psalm+18:1-30%3B+Ruth+1%3B+Colossians+2:8-",
+            "audioQS": "Ps.18,Ruth.1,Col.2"
         },
         "evening": {
             "readings": [
@@ -1446,13 +1446,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ruth.2"
                 },
                 {
-                    "pretty": "Ruth 2",
-                    "readQS": "Ruth+2",
-                    "audioQS": "Ruth.2"
+                    "pretty": "Colossians 3:1\u201311",
+                    "readQS": "Colossians+3:1-11",
+                    "audioQS": "Col.3"
                 }
             ],
-            "readQS": "Psalm+127%3B+Ruth+2%3B+Ruth+2",
-            "audioQS": "Ps.127,Ruth.2,Ruth.2"
+            "readQS": "Psalm+127%3B+Ruth+2%3B+Colossians+3:1-11",
+            "audioQS": "Ps.127,Ruth.2,Col.3"
         },
         "evening": {
             "readings": [
@@ -1492,13 +1492,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ruth.3"
                 },
                 {
-                    "pretty": "Ruth 3",
-                    "readQS": "Ruth+3",
-                    "audioQS": "Ruth.3"
+                    "pretty": "Colossians 3:12\u20134:1",
+                    "readQS": "Colossians+3:12-4:1",
+                    "audioQS": "Col.3"
                 }
             ],
-            "readQS": "Psalm+89:1-37%3B+Ruth+3%3B+Ruth+3",
-            "audioQS": "Ps.89,Ruth.3,Ruth.3"
+            "readQS": "Psalm+89:1-37%3B+Ruth+3%3B+Colossians+3:12-4:1",
+            "audioQS": "Ps.89,Ruth.3,Col.3"
         },
         "evening": {
             "readings": [
@@ -1538,13 +1538,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ruth.4"
                 },
                 {
-                    "pretty": "Ruth 4:1\u201317",
-                    "readQS": "Ruth+4:1-17",
-                    "audioQS": "Ruth.4"
+                    "pretty": "Colossians 4:2\u2013end",
+                    "readQS": "Colossians+4:2-",
+                    "audioQS": "Col.4"
                 }
             ],
-            "readQS": "Psalm+48%3B+Ruth+4:1-17%3B+Ruth+4:1-17",
-            "audioQS": "Ps.48,Ruth.4,Ruth.4"
+            "readQS": "Psalm+48%3B+Ruth+4:1-17%3B+Colossians+4:2-",
+            "audioQS": "Ps.48,Ruth.4,Col.4"
         },
         "evening": {
             "readings": [
@@ -1676,13 +1676,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Jer.30"
                 },
                 {
-                    "pretty": "Jeremiah 30:1\u201317",
-                    "readQS": "Jeremiah+30:1-17",
-                    "audioQS": "Jer.30"
+                    "pretty": "Matthew 20:17\u201328",
+                    "readQS": "Matthew+20:17-28",
+                    "audioQS": "Matt.20"
                 }
             ],
-            "readQS": "Psalm+46%3B+Jeremiah+30:1-17%3B+Jeremiah+30:1-17",
-            "audioQS": "Ps.46,Jer.30,Jer.30"
+            "readQS": "Psalm+46%3B+Jeremiah+30:1-17%3B+Matthew+20:17-28",
+            "audioQS": "Ps.46,Jer.30,Matt.20"
         },
         "evening": {
             "readings": [
@@ -1722,13 +1722,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Jer.30"
                 },
                 {
-                    "pretty": "Jeremiah 30:18\u201331:9",
-                    "readQS": "Jeremiah+30:18-31:9",
-                    "audioQS": "Jer.30"
+                    "pretty": "Matthew 20:29\u2013end",
+                    "readQS": "Matthew+20:29-",
+                    "audioQS": "Matt.20"
                 }
             ],
-            "readQS": "Psalm+148%3B+Jeremiah+30:18-31:9%3B+Jeremiah+30:18-31:9",
-            "audioQS": "Ps.148,Jer.30,Jer.30"
+            "readQS": "Psalm+148%3B+Jeremiah+30:18-31:9%3B+Matthew+20:29-",
+            "audioQS": "Ps.148,Jer.30,Matt.20"
         },
         "evening": {
             "readings": [
@@ -1768,13 +1768,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Jer.31"
                 },
                 {
-                    "pretty": "Jeremiah 31:10\u201317",
-                    "readQS": "Jeremiah+31:10-17",
-                    "audioQS": "Jer.31"
+                    "pretty": "Matthew 23:1\u201312",
+                    "readQS": "Matthew+23:1-12",
+                    "audioQS": "Matt.23"
                 }
             ],
-            "readQS": "Psalm+149%3B+Jeremiah+31:10-17%3B+Jeremiah+31:10-17",
-            "audioQS": "Ps.149,Jer.31,Jer.31"
+            "readQS": "Psalm+149%3B+Jeremiah+31:10-17%3B+Matthew+23:1-12",
+            "audioQS": "Ps.149,Jer.31,Matt.23"
         },
         "evening": {
             "readings": [
@@ -1814,13 +1814,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Jer.33"
                 },
                 {
-                    "pretty": "Jeremiah 33:14\u2013end",
-                    "readQS": "Jeremiah+33:14-",
-                    "audioQS": "Jer.33"
+                    "pretty": "Matthew 23:13\u201328",
+                    "readQS": "Matthew+23:13-28",
+                    "audioQS": "Matt.23"
                 }
             ],
-            "readQS": "Psalm+150%3B+Jeremiah+33:14-%3B+Jeremiah+33:14-",
-            "audioQS": "Ps.150,Jer.33,Jer.33"
+            "readQS": "Psalm+150%3B+Jeremiah+33:14-%3B+Matthew+23:13-28",
+            "audioQS": "Ps.150,Jer.33,Matt.23"
         },
         "evening": {
             "readings": [
@@ -1860,13 +1860,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Mic.5"
                 },
                 {
-                    "pretty": "Micah 5:2\u2013end",
-                    "readQS": "Micah+5:2-",
-                    "audioQS": "Mic.5"
+                    "pretty": "Matthew 23:29\u2013end",
+                    "readQS": "Matthew+23:29-",
+                    "audioQS": "Matt.23"
                 }
             ],
-            "readQS": "Psalm+96%3B+Micah+5:2-%3B+Micah+5:2-",
-            "audioQS": "Ps.96,Mic.5,Mic.5"
+            "readQS": "Psalm+96%3B+Micah+5:2-%3B+Matthew+23:29-",
+            "audioQS": "Ps.96,Mic.5,Matt.23"
         },
         "evening": {
             "readings": [
@@ -2003,13 +2003,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.1"
                 },
                 {
-                    "pretty": "Genesis 1:1\u201319",
-                    "readQS": "Genesis+1:1-19",
-                    "audioQS": "Gen.1"
+                    "pretty": "Matthew 21:1\u201317",
+                    "readQS": "Matthew+21:1-17",
+                    "audioQS": "Matt.21"
                 }
             ],
-            "readQS": "Psalm+2%3B+Genesis+1:1-19%3B+Genesis+1:1-19",
-            "audioQS": "Ps.2,Gen.1,Gen.1"
+            "readQS": "Psalm+2%3B+Genesis+1:1-19%3B+Matthew+21:1-17",
+            "audioQS": "Ps.2,Gen.1,Matt.21"
         },
         "evening": {
             "readings": [
@@ -2049,13 +2049,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.1"
                 },
                 {
-                    "pretty": "Genesis 1:20\u20132:3",
-                    "readQS": "Genesis+1:20-2:3",
-                    "audioQS": "Gen.1"
+                    "pretty": "Matthew 21:18\u201332",
+                    "readQS": "Matthew+21:18-32",
+                    "audioQS": "Matt.21"
                 }
             ],
-            "readQS": "Psalm+9%3B+Genesis+1:20-2:3%3B+Genesis+1:20-2:3",
-            "audioQS": "Ps.9,Gen.1,Gen.1"
+            "readQS": "Psalm+9%3B+Genesis+1:20-2:3%3B+Matthew+21:18-32",
+            "audioQS": "Ps.9,Gen.1,Matt.21"
         },
         "evening": {
             "readings": [
@@ -2095,13 +2095,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.2"
                 },
                 {
-                    "pretty": "Genesis 2:4\u2013end",
-                    "readQS": "Genesis+2:4-",
-                    "audioQS": "Gen.2"
+                    "pretty": "Matthew 21:33\u2013end",
+                    "readQS": "Matthew+21:33-",
+                    "audioQS": "Matt.21"
                 }
             ],
-            "readQS": "Psalm+20%3B+Genesis+2:4-%3B+Genesis+2:4-",
-            "audioQS": "Ps.20,Gen.2,Gen.2"
+            "readQS": "Psalm+20%3B+Genesis+2:4-%3B+Matthew+21:33-",
+            "audioQS": "Ps.20,Gen.2,Matt.21"
         },
         "evening": {
             "readings": [
@@ -2141,13 +2141,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.3"
                 },
                 {
-                    "pretty": "Genesis 3",
-                    "readQS": "Genesis+3",
-                    "audioQS": "Gen.3"
+                    "pretty": "Matthew 22:1\u201314",
+                    "readQS": "Matthew+22:1-14",
+                    "audioQS": "Matt.22"
                 }
             ],
-            "readQS": "Psalm+21%3B+Genesis+3%3B+Genesis+3",
-            "audioQS": "Ps.21,Gen.3,Gen.3"
+            "readQS": "Psalm+21%3B+Genesis+3%3B+Matthew+22:1-14",
+            "audioQS": "Ps.21,Gen.3,Matt.22"
         },
         "evening": {
             "readings": [
@@ -2187,13 +2187,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.4"
                 },
                 {
-                    "pretty": "Genesis 4:1\u201316,4:25\u201326",
-                    "readQS": "Genesis+4:1-16,4:25-26",
-                    "audioQS": "Gen.4"
+                    "pretty": "Matthew 22:15\u201333",
+                    "readQS": "Matthew+22:15-33",
+                    "audioQS": "Matt.22"
                 }
             ],
-            "readQS": "Psalm+67%3B+Genesis+4:1-16,4:25-26%3B+Genesis+4:1-16,4:25-26",
-            "audioQS": "Ps.67,Gen.4,Gen.4"
+            "readQS": "Psalm+67%3B+Genesis+4:1-16,4:25-26%3B+Matthew+22:15-33",
+            "audioQS": "Ps.67,Gen.4,Matt.22"
         },
         "evening": {
             "readings": [
@@ -2233,13 +2233,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.6"
                 },
                 {
-                    "pretty": "Genesis 6:1\u201310",
-                    "readQS": "Genesis+6:1-10",
-                    "audioQS": "Gen.6"
+                    "pretty": "Matthew 22:34\u2013end",
+                    "readQS": "Matthew+22:34-",
+                    "audioQS": "Matt.22"
                 }
             ],
-            "readQS": "Psalm+33%3B+Genesis+6:1-10%3B+Genesis+6:1-10",
-            "audioQS": "Ps.33,Gen.6,Gen.6"
+            "readQS": "Psalm+33%3B+Genesis+6:1-10%3B+Matthew+22:34-",
+            "audioQS": "Ps.33,Gen.6,Matt.22"
         },
         "evening": {
             "readings": [
@@ -2325,13 +2325,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.6"
                 },
                 {
-                    "pretty": "Genesis 6:11\u20137:10",
-                    "readQS": "Genesis+6:11-7:10",
-                    "audioQS": "Gen.6"
+                    "pretty": "Matthew 24:1\u201314",
+                    "readQS": "Matthew+24:1-14",
+                    "audioQS": "Matt.24"
                 }
             ],
-            "readQS": "Psalm+146%3B+Genesis+6:11-7:10%3B+Genesis+6:11-7:10",
-            "audioQS": "Ps.146,Gen.6,Gen.6"
+            "readQS": "Psalm+146%3B+Genesis+6:11-7:10%3B+Matthew+24:1-14",
+            "audioQS": "Ps.146,Gen.6,Matt.24"
         },
         "evening": {
             "readings": [
@@ -2371,13 +2371,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.7"
                 },
                 {
-                    "pretty": "Genesis 7:11\u2013end",
-                    "readQS": "Genesis+7:11-",
-                    "audioQS": "Gen.7"
+                    "pretty": "Matthew 24:15\u201328",
+                    "readQS": "Matthew+24:15-28",
+                    "audioQS": "Matt.24"
                 }
             ],
-            "readQS": "Psalm+132%3B+Genesis+7:11-%3B+Genesis+7:11-",
-            "audioQS": "Ps.132,Gen.7,Gen.7"
+            "readQS": "Psalm+132%3B+Genesis+7:11-%3B+Matthew+24:15-28",
+            "audioQS": "Ps.132,Gen.7,Matt.24"
         },
         "evening": {
             "readings": [
@@ -2417,13 +2417,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.8"
                 },
                 {
-                    "pretty": "Genesis 8:1\u201314",
-                    "readQS": "Genesis+8:1-14",
-                    "audioQS": "Gen.8"
+                    "pretty": "Matthew 24:29\u2013end",
+                    "readQS": "Matthew+24:29-",
+                    "audioQS": "Matt.24"
                 }
             ],
-            "readQS": "Psalm+81%3B+Genesis+8:1-14%3B+Genesis+8:1-14",
-            "audioQS": "Ps.81,Gen.8,Gen.8"
+            "readQS": "Psalm+81%3B+Genesis+8:1-14%3B+Matthew+24:29-",
+            "audioQS": "Ps.81,Gen.8,Matt.24"
         },
         "evening": {
             "readings": [
@@ -2519,13 +2519,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.9"
                 },
                 {
-                    "pretty": "Genesis 9:8\u201319",
-                    "readQS": "Genesis+9:8-19",
-                    "audioQS": "Gen.9"
+                    "pretty": "Matthew 25:14\u201330",
+                    "readQS": "Matthew+25:14-30",
+                    "audioQS": "Matt.25"
                 }
             ],
-            "readQS": "Psalm+27%3B+Genesis+9:8-19%3B+Genesis+9:8-19",
-            "audioQS": "Ps.27,Gen.9,Gen.9"
+            "readQS": "Psalm+27%3B+Genesis+9:8-19%3B+Matthew+25:14-30",
+            "audioQS": "Ps.27,Gen.9,Matt.25"
         },
         "evening": {
             "readings": [
@@ -2565,13 +2565,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.11"
                 },
                 {
-                    "pretty": "Genesis 11:1\u20139",
-                    "readQS": "Genesis+11:1-9",
-                    "audioQS": "Gen.11"
+                    "pretty": "Matthew 25:31\u2013end",
+                    "readQS": "Matthew+25:31-",
+                    "audioQS": "Matt.25"
                 }
             ],
-            "readQS": "Psalm+122%3B+Genesis+11:1-9%3B+Genesis+11:1-9",
-            "audioQS": "Ps.122,Gen.11,Gen.11"
+            "readQS": "Psalm+122%3B+Genesis+11:1-9%3B+Matthew+25:31-",
+            "audioQS": "Ps.122,Gen.11,Matt.25"
         },
         "evening": {
             "readings": [
@@ -2657,13 +2657,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.11"
                 },
                 {
-                    "pretty": "Genesis 11:27\u201312:9",
-                    "readQS": "Genesis+11:27-12:9",
-                    "audioQS": "Gen.11"
+                    "pretty": "Matthew 26:1\u201316",
+                    "readQS": "Matthew+26:1-16",
+                    "audioQS": "Matt.26"
                 }
             ],
-            "readQS": "Psalm+108%3B+Genesis+11:27-12:9%3B+Genesis+11:27-12:9",
-            "audioQS": "Ps.108,Gen.11,Gen.11"
+            "readQS": "Psalm+108%3B+Genesis+11:27-12:9%3B+Matthew+26:1-16",
+            "audioQS": "Ps.108,Gen.11,Matt.26"
         },
         "evening": {
             "readings": [
@@ -2708,13 +2708,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.13"
                 },
                 {
-                    "pretty": "Genesis 13:2\u2013end",
-                    "readQS": "Genesis+13:2-",
-                    "audioQS": "Gen.13"
+                    "pretty": "Matthew 26:17\u201335",
+                    "readQS": "Matthew+26:17-35",
+                    "audioQS": "Matt.26"
                 }
             ],
-            "readQS": "Psalm+36%3B+Genesis+13:2-%3B+Genesis+13:2-",
-            "audioQS": "Ps.36,Gen.13,Gen.13"
+            "readQS": "Psalm+36%3B+Genesis+13:2-%3B+Matthew+26:17-35",
+            "audioQS": "Ps.36,Gen.13,Matt.26"
         },
         "evening": {
             "readings": [
@@ -2754,13 +2754,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.14"
                 },
                 {
-                    "pretty": "Genesis 14",
-                    "readQS": "Genesis+14",
-                    "audioQS": "Gen.14"
+                    "pretty": "Matthew 26:36\u201346",
+                    "readQS": "Matthew+26:36-46",
+                    "audioQS": "Matt.26"
                 }
             ],
-            "readQS": "Psalm+46%3B+Genesis+14%3B+Genesis+14",
-            "audioQS": "Ps.46,Gen.14,Gen.14"
+            "readQS": "Psalm+46%3B+Genesis+14%3B+Matthew+26:36-46",
+            "audioQS": "Ps.46,Gen.14,Matt.26"
         },
         "evening": {
             "readings": [
@@ -2800,13 +2800,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.15"
                 },
                 {
-                    "pretty": "Genesis 15",
-                    "readQS": "Genesis+15",
-                    "audioQS": "Gen.15"
+                    "pretty": "Matthew 26:47\u201356",
+                    "readQS": "Matthew+26:47-56",
+                    "audioQS": "Matt.26"
                 }
             ],
-            "readQS": "Psalm+47%3B+Genesis+15%3B+Genesis+15",
-            "audioQS": "Ps.47,Gen.15,Gen.15"
+            "readQS": "Psalm+47%3B+Genesis+15%3B+Matthew+26:47-56",
+            "audioQS": "Ps.47,Gen.15,Matt.26"
         },
         "evening": {
             "readings": [
@@ -2892,13 +2892,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.17"
                 },
                 {
-                    "pretty": "Genesis 17:1\u201322",
-                    "readQS": "Genesis+17:1-22",
-                    "audioQS": "Gen.17"
+                    "pretty": "Matthew 27:1\u201310",
+                    "readQS": "Matthew+27:1-10",
+                    "audioQS": "Matt.27"
                 }
             ],
-            "readQS": "Psalm+23%3B+Genesis+17:1-22%3B+Genesis+17:1-22",
-            "audioQS": "Ps.23,Gen.17,Gen.17"
+            "readQS": "Psalm+23%3B+Genesis+17:1-22%3B+Matthew+27:1-10",
+            "audioQS": "Ps.23,Gen.17,Matt.27"
         },
         "evening": {
             "readings": [
@@ -2984,13 +2984,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.29"
                 },
                 {
-                    "pretty": "Genesis 29:31\u201330:24",
-                    "readQS": "Genesis+29:31-30:24",
-                    "audioQS": "Gen.29"
+                    "pretty": "2 Timothy 4:1\u20138",
+                    "readQS": "2+Timothy+4:1-8",
+                    "audioQS": "2Tim.4"
                 }
             ],
-            "readQS": "Psalm+30%3B+Genesis+29:31-30:24%3B+Genesis+29:31-30:24",
-            "audioQS": "Ps.30,Gen.29,Gen.29"
+            "readQS": "Psalm+30%3B+Genesis+29:31-30:24%3B+2+Timothy+4:1-8",
+            "audioQS": "Ps.30,Gen.29,2Tim.4"
         },
         "evening": {
             "readings": [
@@ -3030,13 +3030,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.31"
                 },
                 {
-                    "pretty": "Genesis 31:1\u201324",
-                    "readQS": "Genesis+31:1-24",
-                    "audioQS": "Gen.31"
+                    "pretty": "2 Timothy 4:9\u2013end",
+                    "readQS": "2+Timothy+4:9-",
+                    "audioQS": "2Tim.4"
                 }
             ],
-            "readQS": "Psalm+36%3B+Genesis+31:1-24%3B+Genesis+31:1-24",
-            "audioQS": "Ps.36,Gen.31,Gen.31"
+            "readQS": "Psalm+36%3B+Genesis+31:1-24%3B+2+Timothy+4:9-",
+            "audioQS": "Ps.36,Gen.31,2Tim.4"
         },
         "evening": {
             "readings": [
@@ -3076,13 +3076,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.31"
                 },
                 {
-                    "pretty": "Genesis 31:25\u201332:2",
-                    "readQS": "Genesis+31:25-32:2",
-                    "audioQS": "Gen.31"
+                    "pretty": "Titus 1",
+                    "readQS": "Titus+1",
+                    "audioQS": "Titus.1"
                 }
             ],
-            "readQS": "Psalm+34%3B+Genesis+31:25-32:2%3B+Genesis+31:25-32:2",
-            "audioQS": "Ps.34,Gen.31,Gen.31"
+            "readQS": "Psalm+34%3B+Genesis+31:25-32:2%3B+Titus+1",
+            "audioQS": "Ps.34,Gen.31,Titus.1"
         },
         "evening": {
             "readings": [
@@ -3122,13 +3122,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.32"
                 },
                 {
-                    "pretty": "Genesis 32:3\u201330",
-                    "readQS": "Genesis+32:3-30",
-                    "audioQS": "Gen.32"
+                    "pretty": "Titus 2",
+                    "readQS": "Titus+2",
+                    "audioQS": "Titus.2"
                 }
             ],
-            "readQS": "Psalm+37%3B+Genesis+32:3-30%3B+Genesis+32:3-30",
-            "audioQS": "Ps.37,Gen.32,Gen.32"
+            "readQS": "Psalm+37%3B+Genesis+32:3-30%3B+Titus+2",
+            "audioQS": "Ps.37,Gen.32,Titus.2"
         },
         "evening": {
             "readings": [
@@ -3168,13 +3168,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.33"
                 },
                 {
-                    "pretty": "Genesis 33:1\u201317",
-                    "readQS": "Genesis+33:1-17",
-                    "audioQS": "Gen.33"
+                    "pretty": "Titus 3",
+                    "readQS": "Titus+3",
+                    "audioQS": "Titus.3"
                 }
             ],
-            "readQS": "Psalm+31%3B+Genesis+33:1-17%3B+Genesis+33:1-17",
-            "audioQS": "Ps.31,Gen.33,Gen.33"
+            "readQS": "Psalm+31%3B+Genesis+33:1-17%3B+Titus+3",
+            "audioQS": "Ps.31,Gen.33,Titus.3"
         },
         "evening": {
             "readings": [
@@ -3214,13 +3214,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.35"
                 },
                 {
-                    "pretty": "Genesis 35",
-                    "readQS": "Genesis+35",
-                    "audioQS": "Gen.35"
+                    "pretty": "Philemon",
+                    "readQS": "Philemon",
+                    "audioQS": "Phlm"
                 }
             ],
-            "readQS": "Psalm+42%3B+Genesis+35%3B+Genesis+35",
-            "audioQS": "Ps.42,Gen.35,Gen.35"
+            "readQS": "Psalm+42%3B+Genesis+35%3B+Philemon",
+            "audioQS": "Ps.42,Gen.35,Phlm"
         },
         "evening": {
             "readings": [
@@ -3311,13 +3311,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.37"
                 },
                 {
-                    "pretty": "Genesis 37:1\u201311",
-                    "readQS": "Genesis+37:1-11",
-                    "audioQS": "Gen.37"
+                    "pretty": "Galatians 1",
+                    "readQS": "Galatians+1",
+                    "audioQS": "Gal.1"
                 }
             ],
-            "readQS": "Psalm+44%3B+Genesis+37:1-11%3B+Genesis+37:1-11",
-            "audioQS": "Ps.44,Gen.37,Gen.37"
+            "readQS": "Psalm+44%3B+Genesis+37:1-11%3B+Galatians+1",
+            "audioQS": "Ps.44,Gen.37,Gal.1"
         },
         "evening": {
             "readings": [
@@ -3357,13 +3357,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.37"
                 },
                 {
-                    "pretty": "Genesis 37:12\u2013end",
-                    "readQS": "Genesis+37:12-",
-                    "audioQS": "Gen.37"
+                    "pretty": "Galatians 2:1\u201310",
+                    "readQS": "Galatians+2:1-10",
+                    "audioQS": "Gal.2"
                 }
             ],
-            "readQS": "Psalm+48%3B+Genesis+37:12-%3B+Genesis+37:12-",
-            "audioQS": "Ps.48,Gen.37,Gen.37"
+            "readQS": "Psalm+48%3B+Genesis+37:12-%3B+Galatians+2:1-10",
+            "audioQS": "Ps.48,Gen.37,Gal.2"
         },
         "evening": {
             "readings": [
@@ -3449,13 +3449,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.39"
                 },
                 {
-                    "pretty": "Genesis 39",
-                    "readQS": "Genesis+39",
-                    "audioQS": "Gen.39"
+                    "pretty": "Galatians 2:11\u2013end",
+                    "readQS": "Galatians+2:11-",
+                    "audioQS": "Gal.2"
                 }
             ],
-            "readQS": "Psalm+77%3B+Genesis+39%3B+Genesis+39",
-            "audioQS": "Ps.77,Gen.39,Gen.39"
+            "readQS": "Psalm+77%3B+Genesis+39%3B+Galatians+2:11-",
+            "audioQS": "Ps.77,Gen.39,Gal.2"
         },
         "evening": {
             "readings": [
@@ -3495,13 +3495,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.40"
                 },
                 {
-                    "pretty": "Genesis 40",
-                    "readQS": "Genesis+40",
-                    "audioQS": "Gen.40"
+                    "pretty": "Galatians 3:1\u201314",
+                    "readQS": "Galatians+3:1-14",
+                    "audioQS": "Gal.3"
                 }
             ],
-            "readQS": "Psalm+3%3B+Genesis+40%3B+Genesis+40",
-            "audioQS": "Ps.3,Gen.40,Gen.40"
+            "readQS": "Psalm+3%3B+Genesis+40%3B+Galatians+3:1-14",
+            "audioQS": "Ps.3,Gen.40,Gal.3"
         },
         "evening": {
             "readings": [
@@ -3541,13 +3541,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.41"
                 },
                 {
-                    "pretty": "Genesis 41:1\u201324",
-                    "readQS": "Genesis+41:1-24",
-                    "audioQS": "Gen.41"
+                    "pretty": "Galatians 3:15\u201322",
+                    "readQS": "Galatians+3:15-22",
+                    "audioQS": "Gal.3"
                 }
             ],
-            "readQS": "Psalm+71%3B+Genesis+41:1-24%3B+Genesis+41:1-24",
-            "audioQS": "Ps.71,Gen.41,Gen.41"
+            "readQS": "Psalm+71%3B+Genesis+41:1-24%3B+Galatians+3:15-22",
+            "audioQS": "Ps.71,Gen.41,Gal.3"
         },
         "evening": {
             "readings": [
@@ -3638,13 +3638,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.41"
                 },
                 {
-                    "pretty": "Genesis 41:25\u201345",
-                    "readQS": "Genesis+41:25-45",
-                    "audioQS": "Gen.41"
+                    "pretty": "Galatians 3:23\u20134:7",
+                    "readQS": "Galatians+3:23-4:7",
+                    "audioQS": "Gal.3"
                 }
             ],
-            "readQS": "Psalm+11%3B+Genesis+41:25-45%3B+Genesis+41:25-45",
-            "audioQS": "Ps.11,Gen.41,Gen.41"
+            "readQS": "Psalm+11%3B+Genesis+41:25-45%3B+Galatians+3:23-4:7",
+            "audioQS": "Ps.11,Gen.41,Gal.3"
         },
         "evening": {
             "readings": [
@@ -3684,13 +3684,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.41"
                 },
                 {
-                    "pretty": "Genesis 41:46\u201342:5",
-                    "readQS": "Genesis+41:46-42:5",
-                    "audioQS": "Gen.41"
+                    "pretty": "Galatians 4:8\u201320",
+                    "readQS": "Galatians+4:8-20",
+                    "audioQS": "Gal.4"
                 }
             ],
-            "readQS": "Psalm+44%3B+Genesis+41:46-42:5%3B+Genesis+41:46-42:5",
-            "audioQS": "Ps.44,Gen.41,Gen.41"
+            "readQS": "Psalm+44%3B+Genesis+41:46-42:5%3B+Galatians+4:8-20",
+            "audioQS": "Ps.44,Gen.41,Gal.4"
         },
         "evening": {
             "readings": [
@@ -3730,13 +3730,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.42"
                 },
                 {
-                    "pretty": "Genesis 42:6\u201317",
-                    "readQS": "Genesis+42:6-17",
-                    "audioQS": "Gen.42"
+                    "pretty": "Galatians 4:21\u20135:1",
+                    "readQS": "Galatians+4:21-5:1",
+                    "audioQS": "Gal.4"
                 }
             ],
-            "readQS": "Psalm+6%3B+Genesis+42:6-17%3B+Genesis+42:6-17",
-            "audioQS": "Ps.6,Gen.42,Gen.42"
+            "readQS": "Psalm+6%3B+Genesis+42:6-17%3B+Galatians+4:21-5:1",
+            "audioQS": "Ps.6,Gen.42,Gal.4"
         },
         "evening": {
             "readings": [
@@ -3776,13 +3776,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.42"
                 },
                 {
-                    "pretty": "Genesis 42:18\u201328",
-                    "readQS": "Genesis+42:18-28",
-                    "audioQS": "Gen.42"
+                    "pretty": "Galatians 5:2\u201315",
+                    "readQS": "Galatians+5:2-15",
+                    "audioQS": "Gal.5"
                 }
             ],
-            "readQS": "Psalm+42%3B+Genesis+42:18-28%3B+Genesis+42:18-28",
-            "audioQS": "Ps.42,Gen.42,Gen.42"
+            "readQS": "Psalm+42%3B+Genesis+42:18-28%3B+Galatians+5:2-15",
+            "audioQS": "Ps.42,Gen.42,Gal.5"
         },
         "evening": {
             "readings": [
@@ -3822,13 +3822,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.42"
                 },
                 {
-                    "pretty": "Genesis 42:29\u2013end",
-                    "readQS": "Genesis+42:29-",
-                    "audioQS": "Gen.42"
+                    "pretty": "Galatians 5:16\u2013end",
+                    "readQS": "Galatians+5:16-",
+                    "audioQS": "Gal.5"
                 }
             ],
-            "readQS": "Psalm+22%3B+Genesis+42:29-%3B+Genesis+42:29-",
-            "audioQS": "Ps.22,Gen.42,Gen.42"
+            "readQS": "Psalm+22%3B+Genesis+42:29-%3B+Galatians+5:16-",
+            "audioQS": "Ps.22,Gen.42,Gal.5"
         },
         "evening": {
             "readings": [
@@ -3868,13 +3868,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.43"
                 },
                 {
-                    "pretty": "Genesis 43:1\u201315",
-                    "readQS": "Genesis+43:1-15",
-                    "audioQS": "Gen.43"
+                    "pretty": "Galatians 6",
+                    "readQS": "Galatians+6",
+                    "audioQS": "Gal.6"
                 }
             ],
-            "readQS": "Psalm+63%3B+Genesis+43:1-15%3B+Genesis+43:1-15",
-            "audioQS": "Ps.63,Gen.43,Gen.43"
+            "readQS": "Psalm+63%3B+Genesis+43:1-15%3B+Galatians+6",
+            "audioQS": "Ps.63,Gen.43,Gal.6"
         },
         "evening": {
             "readings": [
@@ -3960,13 +3960,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.43"
                 },
                 {
-                    "pretty": "Genesis 43:16\u2013end",
-                    "readQS": "Genesis+43:16-",
-                    "audioQS": "Gen.43"
+                    "pretty": "Hebrews 1",
+                    "readQS": "Hebrews+1",
+                    "audioQS": "Heb.1"
                 }
             ],
-            "readQS": "Psalm+32%3B+Genesis+43:16-%3B+Genesis+43:16-",
-            "audioQS": "Ps.32,Gen.43,Gen.43"
+            "readQS": "Psalm+32%3B+Genesis+43:16-%3B+Hebrews+1",
+            "audioQS": "Ps.32,Gen.43,Heb.1"
         },
         "evening": {
             "readings": [
@@ -4006,13 +4006,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.44"
                 },
                 {
-                    "pretty": "Genesis 44:1\u201317",
-                    "readQS": "Genesis+44:1-17",
-                    "audioQS": "Gen.44"
+                    "pretty": "Hebrews 2:1\u20139",
+                    "readQS": "Hebrews+2:1-9",
+                    "audioQS": "Heb.2"
                 }
             ],
-            "readQS": "Psalm+50%3B+Genesis+44:1-17%3B+Genesis+44:1-17",
-            "audioQS": "Ps.50,Gen.44,Gen.44"
+            "readQS": "Psalm+50%3B+Genesis+44:1-17%3B+Hebrews+2:1-9",
+            "audioQS": "Ps.50,Gen.44,Heb.2"
         },
         "evening": {
             "readings": [
@@ -4052,13 +4052,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.44"
                 },
                 {
-                    "pretty": "Genesis 44:18\u2013end",
-                    "readQS": "Genesis+44:18-",
-                    "audioQS": "Gen.44"
+                    "pretty": "Hebrews 2:10\u2013end",
+                    "readQS": "Hebrews+2:10-",
+                    "audioQS": "Heb.2"
                 }
             ],
-            "readQS": "Psalm+35%3B+Genesis+44:18-%3B+Genesis+44:18-",
-            "audioQS": "Ps.35,Gen.44,Gen.44"
+            "readQS": "Psalm+35%3B+Genesis+44:18-%3B+Hebrews+2:10-",
+            "audioQS": "Ps.35,Gen.44,Heb.2"
         },
         "evening": {
             "readings": [
@@ -4098,13 +4098,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.45"
                 },
                 {
-                    "pretty": "Genesis 45:1\u201315",
-                    "readQS": "Genesis+45:1-15",
-                    "audioQS": "Gen.45"
+                    "pretty": "Hebrews 3:1\u20136",
+                    "readQS": "Hebrews+3:1-6",
+                    "audioQS": "Heb.3"
                 }
             ],
-            "readQS": "Psalm+34%3B+Genesis+45:1-15%3B+Genesis+45:1-15",
-            "audioQS": "Ps.34,Gen.45,Gen.45"
+            "readQS": "Psalm+34%3B+Genesis+45:1-15%3B+Hebrews+3:1-6",
+            "audioQS": "Ps.34,Gen.45,Heb.3"
         },
         "evening": {
             "readings": [
@@ -4144,13 +4144,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.45"
                 },
                 {
-                    "pretty": "Genesis 45:16\u2013end",
-                    "readQS": "Genesis+45:16-",
-                    "audioQS": "Gen.45"
+                    "pretty": "Hebrews 3:7\u2013end",
+                    "readQS": "Hebrews+3:7-",
+                    "audioQS": "Heb.3"
                 }
             ],
-            "readQS": "Psalm+41%3B+Genesis+45:16-%3B+Genesis+45:16-",
-            "audioQS": "Ps.41,Gen.45,Gen.45"
+            "readQS": "Psalm+41%3B+Genesis+45:16-%3B+Hebrews+3:7-",
+            "audioQS": "Ps.41,Gen.45,Heb.3"
         },
         "evening": {
             "readings": [
@@ -4190,13 +4190,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.46"
                 },
                 {
-                    "pretty": "Genesis 46:1\u20137,46:28\u2013end",
-                    "readQS": "Genesis+46:1-7,46:28-",
-                    "audioQS": "Gen.46"
+                    "pretty": "Hebrews 4:1\u201313",
+                    "readQS": "Hebrews+4:1-13",
+                    "audioQS": "Heb.4"
                 }
             ],
-            "readQS": "Psalm+25%3B+Genesis+46:1-7,46:28-%3B+Genesis+46:1-7,46:28-",
-            "audioQS": "Ps.25,Gen.46,Gen.46"
+            "readQS": "Psalm+25%3B+Genesis+46:1-7,46:28-%3B+Hebrews+4:1-13",
+            "audioQS": "Ps.25,Gen.46,Heb.4"
         },
         "evening": {
             "readings": [
@@ -4282,13 +4282,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.47"
                 },
                 {
-                    "pretty": "Genesis 47:1\u201327",
-                    "readQS": "Genesis+47:1-27",
-                    "audioQS": "Gen.47"
+                    "pretty": "Hebrews 4:14\u20135:10",
+                    "readQS": "Hebrews+4:14-5:10",
+                    "audioQS": "Heb.4"
                 }
             ],
-            "readQS": "Psalm+5%3B+Genesis+47:1-27%3B+Genesis+47:1-27",
-            "audioQS": "Ps.5,Gen.47,Gen.47"
+            "readQS": "Psalm+5%3B+Genesis+47:1-27%3B+Hebrews+4:14-5:10",
+            "audioQS": "Ps.5,Gen.47,Heb.4"
         },
         "evening": {
             "readings": [
@@ -4333,18 +4333,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.48"
                 },
                 {
-                    "pretty": "Genesis 47:28\u2013end",
-                    "readQS": "Genesis+47:28-",
-                    "audioQS": "Gen.47"
-                },
-                {
-                    "pretty": "Genesis 48",
-                    "readQS": "Genesis+48",
-                    "audioQS": "Gen.48"
+                    "pretty": "Hebrews 5:11\u20136:12",
+                    "readQS": "Hebrews+5:11-6:12",
+                    "audioQS": "Heb.5"
                 }
             ],
-            "readQS": "Psalm+9%3B+Genesis+47:28-%3B+Genesis+48%3B+Genesis+47:28-%3B+Genesis+48",
-            "audioQS": "Ps.9,Gen.47,Gen.48,Gen.47,Gen.48"
+            "readQS": "Psalm+9%3B+Genesis+47:28-%3B+Genesis+48%3B+Hebrews+5:11-6:12",
+            "audioQS": "Ps.9,Gen.47,Gen.48,Heb.5"
         },
         "evening": {
             "readings": [
@@ -4384,13 +4379,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.49"
                 },
                 {
-                    "pretty": "Genesis 49:1\u201332",
-                    "readQS": "Genesis+49:1-32",
-                    "audioQS": "Gen.49"
+                    "pretty": "Hebrews 6:13\u2013end",
+                    "readQS": "Hebrews+6:13-",
+                    "audioQS": "Heb.6"
                 }
             ],
-            "readQS": "Psalm+38%3B+Genesis+49:1-32%3B+Genesis+49:1-32",
-            "audioQS": "Ps.38,Gen.49,Gen.49"
+            "readQS": "Psalm+38%3B+Genesis+49:1-32%3B+Hebrews+6:13-",
+            "audioQS": "Ps.38,Gen.49,Heb.6"
         },
         "evening": {
             "readings": [
@@ -4435,18 +4430,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Gen.50"
                 },
                 {
-                    "pretty": "Genesis 49:33\u2013end",
-                    "readQS": "Genesis+49:33-",
-                    "audioQS": "Gen.49"
-                },
-                {
-                    "pretty": "Genesis 50",
-                    "readQS": "Genesis+50",
-                    "audioQS": "Gen.50"
+                    "pretty": "Hebrews 7:1\u201310",
+                    "readQS": "Hebrews+7:1-10",
+                    "audioQS": "Heb.7"
                 }
             ],
-            "readQS": "Psalm+56%3B+Genesis+49:33-%3B+Genesis+50%3B+Genesis+49:33-%3B+Genesis+50",
-            "audioQS": "Ps.56,Gen.49,Gen.50,Gen.49,Gen.50"
+            "readQS": "Psalm+56%3B+Genesis+49:33-%3B+Genesis+50%3B+Hebrews+7:1-10",
+            "audioQS": "Ps.56,Gen.49,Gen.50,Heb.7"
         },
         "evening": {
             "readings": [
@@ -4486,13 +4476,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.1"
                 },
                 {
-                    "pretty": "Exodus 1:1\u201314",
-                    "readQS": "Exodus+1:1-14",
-                    "audioQS": "Exod.1"
+                    "pretty": "Hebrews 7:11\u2013end",
+                    "readQS": "Hebrews+7:11-",
+                    "audioQS": "Heb.7"
                 }
             ],
-            "readQS": "Psalm+22%3B+Exodus+1:1-14%3B+Exodus+1:1-14",
-            "audioQS": "Ps.22,Exod.1,Exod.1"
+            "readQS": "Psalm+22%3B+Exodus+1:1-14%3B+Hebrews+7:11-",
+            "audioQS": "Ps.22,Exod.1,Heb.7"
         },
         "evening": {
             "readings": [
@@ -4532,13 +4522,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.1"
                 },
                 {
-                    "pretty": "Exodus 1:22\u20132:10",
-                    "readQS": "Exodus+1:22-2:10",
-                    "audioQS": "Exod.1"
+                    "pretty": "Hebrews 8",
+                    "readQS": "Hebrews+8",
+                    "audioQS": "Heb.8"
                 }
             ],
-            "readQS": "Psalm+31%3B+Exodus+1:22-2:10%3B+Exodus+1:22-2:10",
-            "audioQS": "Ps.31,Exod.1,Exod.1"
+            "readQS": "Psalm+31%3B+Exodus+1:22-2:10%3B+Hebrews+8",
+            "audioQS": "Ps.31,Exod.1,Heb.8"
         },
         "evening": {
             "readings": [
@@ -4624,13 +4614,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.2"
                 },
                 {
-                    "pretty": "Exodus 2:11\u201322",
-                    "readQS": "Exodus+2:11-22",
-                    "audioQS": "Exod.2"
+                    "pretty": "Hebrews 9:1\u201314",
+                    "readQS": "Hebrews+9:1-14",
+                    "audioQS": "Heb.9"
                 }
             ],
-            "readQS": "Psalm+77%3B+Exodus+2:11-22%3B+Exodus+2:11-22",
-            "audioQS": "Ps.77,Exod.2,Exod.2"
+            "readQS": "Psalm+77%3B+Exodus+2:11-22%3B+Hebrews+9:1-14",
+            "audioQS": "Ps.77,Exod.2,Heb.9"
         },
         "evening": {
             "readings": [
@@ -4670,13 +4660,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.2"
                 },
                 {
-                    "pretty": "Exodus 2:23\u20133:20",
-                    "readQS": "Exodus+2:23-3:20",
-                    "audioQS": "Exod.2"
+                    "pretty": "Hebrews 9:15\u2013end",
+                    "readQS": "Hebrews+9:15-",
+                    "audioQS": "Heb.9"
                 }
             ],
-            "readQS": "Psalm+79%3B+Exodus+2:23-3:20%3B+Exodus+2:23-3:20",
-            "audioQS": "Ps.79,Exod.2,Exod.2"
+            "readQS": "Psalm+79%3B+Exodus+2:23-3:20%3B+Hebrews+9:15-",
+            "audioQS": "Ps.79,Exod.2,Heb.9"
         },
         "evening": {
             "readings": [
@@ -4716,13 +4706,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.4"
                 },
                 {
-                    "pretty": "Exodus 4:1\u201323",
-                    "readQS": "Exodus+4:1-23",
-                    "audioQS": "Exod.4"
+                    "pretty": "Hebrews 10:1\u201318",
+                    "readQS": "Hebrews+10:1-18",
+                    "audioQS": "Heb.10"
                 }
             ],
-            "readQS": "Psalm+90%3B+Exodus+4:1-23%3B+Exodus+4:1-23",
-            "audioQS": "Ps.90,Exod.4,Exod.4"
+            "readQS": "Psalm+90%3B+Exodus+4:1-23%3B+Hebrews+10:1-18",
+            "audioQS": "Ps.90,Exod.4,Heb.10"
         },
         "evening": {
             "readings": [
@@ -4762,13 +4752,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.4"
                 },
                 {
-                    "pretty": "Exodus 4:27\u20136:1",
-                    "readQS": "Exodus+4:27-6:1",
-                    "audioQS": "Exod.4"
+                    "pretty": "Hebrews 10:19\u201325",
+                    "readQS": "Hebrews+10:19-25",
+                    "audioQS": "Heb.10"
                 }
             ],
-            "readQS": "Psalm+86%3B+Exodus+4:27-6:1%3B+Exodus+4:27-6:1",
-            "audioQS": "Ps.86,Exod.4,Exod.4"
+            "readQS": "Psalm+86%3B+Exodus+4:27-6:1%3B+Hebrews+10:19-25",
+            "audioQS": "Ps.86,Exod.4,Heb.10"
         },
         "evening": {
             "readings": [
@@ -4808,13 +4798,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.6"
                 },
                 {
-                    "pretty": "Exodus 6:2\u201313",
-                    "readQS": "Exodus+6:2-13",
-                    "audioQS": "Exod.6"
+                    "pretty": "Hebrews 10:26\u2013end",
+                    "readQS": "Hebrews+10:26-",
+                    "audioQS": "Heb.10"
                 }
             ],
-            "readQS": "Psalm+102%3B+Exodus+6:2-13%3B+Exodus+6:2-13",
-            "audioQS": "Ps.102,Exod.6,Exod.6"
+            "readQS": "Psalm+102%3B+Exodus+6:2-13%3B+Hebrews+10:26-",
+            "audioQS": "Ps.102,Exod.6,Heb.10"
         },
         "evening": {
             "readings": [
@@ -4854,13 +4844,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.7"
                 },
                 {
-                    "pretty": "Exodus 7:8\u2013end",
-                    "readQS": "Exodus+7:8-",
-                    "audioQS": "Exod.7"
+                    "pretty": "Hebrews 11:1\u201316",
+                    "readQS": "Hebrews+11:1-16",
+                    "audioQS": "Heb.11"
                 }
             ],
-            "readQS": "Psalm+32%3B+Exodus+7:8-%3B+Exodus+7:8-",
-            "audioQS": "Ps.32,Exod.7,Exod.7"
+            "readQS": "Psalm+32%3B+Exodus+7:8-%3B+Hebrews+11:1-16",
+            "audioQS": "Ps.32,Exod.7,Heb.11"
         },
         "evening": {
             "readings": [
@@ -4946,13 +4936,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.8"
                 },
                 {
-                    "pretty": "Exodus 8:1\u201319",
-                    "readQS": "Exodus+8:1-19",
-                    "audioQS": "Exod.8"
+                    "pretty": "Hebrews 11:17\u201331",
+                    "readQS": "Hebrews+11:17-31",
+                    "audioQS": "Heb.11"
                 }
             ],
-            "readQS": "Psalm+73%3B+Exodus+8:1-19%3B+Exodus+8:1-19",
-            "audioQS": "Ps.73,Exod.8,Exod.8"
+            "readQS": "Psalm+73%3B+Exodus+8:1-19%3B+Hebrews+11:17-31",
+            "audioQS": "Ps.73,Exod.8,Heb.11"
         },
         "evening": {
             "readings": [
@@ -5038,13 +5028,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.9"
                 },
                 {
-                    "pretty": "Exodus 9:1\u201312",
-                    "readQS": "Exodus+9:1-12",
-                    "audioQS": "Exod.9"
+                    "pretty": "Hebrews 12:3\u201313",
+                    "readQS": "Hebrews+12:3-13",
+                    "audioQS": "Heb.12"
                 }
             ],
-            "readQS": "Psalm+55%3B+Exodus+9:1-12%3B+Exodus+9:1-12",
-            "audioQS": "Ps.55,Exod.9,Exod.9"
+            "readQS": "Psalm+55%3B+Exodus+9:1-12%3B+Hebrews+12:3-13",
+            "audioQS": "Ps.55,Exod.9,Heb.12"
         },
         "evening": {
             "readings": [
@@ -5084,13 +5074,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.9"
                 },
                 {
-                    "pretty": "Exodus 9:13\u2013end",
-                    "readQS": "Exodus+9:13-",
-                    "audioQS": "Exod.9"
+                    "pretty": "Hebrews 12:14\u2013end",
+                    "readQS": "Hebrews+12:14-",
+                    "audioQS": "Heb.12"
                 }
             ],
-            "readQS": "Psalm+40%3B+Exodus+9:13-%3B+Exodus+9:13-",
-            "audioQS": "Ps.40,Exod.9,Exod.9"
+            "readQS": "Psalm+40%3B+Exodus+9:13-%3B+Hebrews+12:14-",
+            "audioQS": "Ps.40,Exod.9,Heb.12"
         },
         "evening": {
             "readings": [
@@ -5130,13 +5120,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.10"
                 },
                 {
-                    "pretty": "Exodus 10",
-                    "readQS": "Exodus+10",
-                    "audioQS": "Exod.10"
+                    "pretty": "Hebrews 13:1\u201316",
+                    "readQS": "Hebrews+13:1-16",
+                    "audioQS": "Heb.13"
                 }
             ],
-            "readQS": "Psalm+22%3B+Exodus+10%3B+Exodus+10",
-            "audioQS": "Ps.22,Exod.10,Exod.10"
+            "readQS": "Psalm+22%3B+Exodus+10%3B+Hebrews+13:1-16",
+            "audioQS": "Ps.22,Exod.10,Heb.13"
         },
         "evening": {
             "readings": [
@@ -5176,13 +5166,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Exod.11"
                 },
                 {
-                    "pretty": "Exodus 11",
-                    "readQS": "Exodus+11",
-                    "audioQS": "Exod.11"
+                    "pretty": "Hebrews 13:17\u2013end",
+                    "readQS": "Hebrews+13:17-",
+                    "audioQS": "Heb.13"
                 }
             ],
-            "readQS": "Psalm+23%3B+Exodus+11%3B+Exodus+11",
-            "audioQS": "Ps.23,Exod.11,Exod.11"
+            "readQS": "Psalm+23%3B+Exodus+11%3B+Hebrews+13:17-",
+            "audioQS": "Ps.23,Exod.11,Heb.13"
         },
         "evening": {
             "readings": [
