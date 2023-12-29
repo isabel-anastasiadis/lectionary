@@ -1611,333 +1611,6 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2024/01/07": {
         "datePretty": "Sunday, January 7, 2024",
-        "calendar": "2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                {
-                    "pretty": "Psalm 87",
-                    "readQS": "Psalm+87",
-                    "audioQS": "Ps.87"
-                },
-                {
-                    "pretty": "Zechariah 8:1\u20138",
-                    "readQS": "Zechariah+8:1-8",
-                    "audioQS": "Zech.8"
-                },
-                {
-                    "pretty": "Luke 2:41\u201352",
-                    "readQS": "Luke+2:41-52",
-                    "audioQS": "Luke.2"
-                }
-            ],
-            "readQS": "Psalm+87%3B+Zechariah+8:1-8%3B+Luke+2:41-52",
-            "audioQS": "Ps.87,Zech.8,Luke.2"
-        },
-        "evening": {
-            "readings": [
-                {
-                    "pretty": "Psalm 135",
-                    "readQS": "Psalm+135",
-                    "audioQS": "Ps.135"
-                },
-                {
-                    "pretty": "Isaiah 46:3\u201313",
-                    "readQS": "Isaiah+46:3-13",
-                    "audioQS": "Isa.46"
-                },
-                {
-                    "pretty": "Romans 12:1\u20138",
-                    "readQS": "Romans+12:1-8",
-                    "audioQS": "Rom.12"
-                }
-            ],
-            "readQS": "Psalm+135%3B+Isaiah+46:3-13%3B+Romans+12:1-8",
-            "audioQS": "Ps.135,Isa.46,Rom.12"
-        }
-    },
-    "2024/01/08": {
-        "datePretty": "Monday, January 8, 2024",
-        "calendar": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                {
-                    "pretty": "Psalm 46",
-                    "readQS": "Psalm+46",
-                    "audioQS": "Ps.46"
-                },
-                {
-                    "pretty": "Jeremiah 30:1\u201317",
-                    "readQS": "Jeremiah+30:1-17",
-                    "audioQS": "Jer.30"
-                },
-                {
-                    "pretty": "Matthew 20:17\u201328",
-                    "readQS": "Matthew+20:17-28",
-                    "audioQS": "Matt.20"
-                }
-            ],
-            "readQS": "Psalm+46%3B+Jeremiah+30:1-17%3B+Matthew+20:17-28",
-            "audioQS": "Ps.46,Jer.30,Matt.20"
-        },
-        "evening": {
-            "readings": [
-                {
-                    "pretty": "Psalm 145",
-                    "readQS": "Psalm+145",
-                    "audioQS": "Ps.145"
-                },
-                {
-                    "pretty": "Isaiah 64",
-                    "readQS": "Isaiah+64",
-                    "audioQS": "Isa.64"
-                },
-                {
-                    "pretty": "1 John 4:7\u2013end",
-                    "readQS": "1+John+4:7-",
-                    "audioQS": "1John.4"
-                }
-            ],
-            "readQS": "Psalm+145%3B+Isaiah+64%3B+1+John+4:7-",
-            "audioQS": "Ps.145,Isa.64,1John.4"
-        }
-    },
-    "2024/01/09": {
-        "datePretty": "Tuesday, January 9, 2024",
-        "calendar": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                {
-                    "pretty": "Psalm 148",
-                    "readQS": "Psalm+148",
-                    "audioQS": "Ps.148"
-                },
-                {
-                    "pretty": "Jeremiah 30:18\u201331:9",
-                    "readQS": "Jeremiah+30:18-31:9",
-                    "audioQS": "Jer.30"
-                },
-                {
-                    "pretty": "Matthew 20:29\u2013end",
-                    "readQS": "Matthew+20:29-",
-                    "audioQS": "Matt.20"
-                }
-            ],
-            "readQS": "Psalm+148%3B+Jeremiah+30:18-31:9%3B+Matthew+20:29-",
-            "audioQS": "Ps.148,Jer.30,Matt.20"
-        },
-        "evening": {
-            "readings": [
-                {
-                    "pretty": "Psalm 67",
-                    "readQS": "Psalm+67",
-                    "audioQS": "Ps.67"
-                },
-                {
-                    "pretty": "Isaiah 65:1\u201316",
-                    "readQS": "Isaiah+65:1-16",
-                    "audioQS": "Isa.65"
-                },
-                {
-                    "pretty": "1 John 5:1\u201312",
-                    "readQS": "1+John+5:1-12",
-                    "audioQS": "1John.5"
-                }
-            ],
-            "readQS": "Psalm+67%3B+Isaiah+65:1-16%3B+1+John+5:1-12",
-            "audioQS": "Ps.67,Isa.65,1John.5"
-        }
-    },
-    "2024/01/10": {
-        "datePretty": "Wednesday, January 10, 2024",
-        "calendar": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                {
-                    "pretty": "Psalm 149",
-                    "readQS": "Psalm+149",
-                    "audioQS": "Ps.149"
-                },
-                {
-                    "pretty": "Jeremiah 31:10\u201317",
-                    "readQS": "Jeremiah+31:10-17",
-                    "audioQS": "Jer.31"
-                },
-                {
-                    "pretty": "Matthew 23:1\u201312",
-                    "readQS": "Matthew+23:1-12",
-                    "audioQS": "Matt.23"
-                }
-            ],
-            "readQS": "Psalm+149%3B+Jeremiah+31:10-17%3B+Matthew+23:1-12",
-            "audioQS": "Ps.149,Jer.31,Matt.23"
-        },
-        "evening": {
-            "readings": [
-                {
-                    "pretty": "Psalm 29",
-                    "readQS": "Psalm+29",
-                    "audioQS": "Ps.29"
-                },
-                {
-                    "pretty": "Isaiah 65:17\u2013end",
-                    "readQS": "Isaiah+65:17-",
-                    "audioQS": "Isa.65"
-                },
-                {
-                    "pretty": "1 John 5:13\u2013end",
-                    "readQS": "1+John+5:13-",
-                    "audioQS": "1John.5"
-                }
-            ],
-            "readQS": "Psalm+29%3B+Isaiah+65:17-%3B+1+John+5:13-",
-            "audioQS": "Ps.29,Isa.65,1John.5"
-        }
-    },
-    "2024/01/11": {
-        "datePretty": "Thursday, January 11, 2024",
-        "calendar": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                {
-                    "pretty": "Psalm 150",
-                    "readQS": "Psalm+150",
-                    "audioQS": "Ps.150"
-                },
-                {
-                    "pretty": "Jeremiah 33:14\u2013end",
-                    "readQS": "Jeremiah+33:14-",
-                    "audioQS": "Jer.33"
-                },
-                {
-                    "pretty": "Matthew 23:13\u201328",
-                    "readQS": "Matthew+23:13-28",
-                    "audioQS": "Matt.23"
-                }
-            ],
-            "readQS": "Psalm+150%3B+Jeremiah+33:14-%3B+Matthew+23:13-28",
-            "audioQS": "Ps.150,Jer.33,Matt.23"
-        },
-        "evening": {
-            "readings": [
-                {
-                    "pretty": "Psalm 93",
-                    "readQS": "Psalm+93",
-                    "audioQS": "Ps.93"
-                },
-                {
-                    "pretty": "Isaiah 66:1\u201311",
-                    "readQS": "Isaiah+66:1-11",
-                    "audioQS": "Isa.66"
-                },
-                {
-                    "pretty": "2 John",
-                    "readQS": "2+John",
-                    "audioQS": "2John"
-                }
-            ],
-            "readQS": "Psalm+93%3B+Isaiah+66:1-11%3B+2+John",
-            "audioQS": "Ps.93,Isa.66,2John"
-        }
-    },
-    "2024/01/12": {
-        "datePretty": "Friday, January 12, 2024",
-        "calendar": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                {
-                    "pretty": "Psalm 96",
-                    "readQS": "Psalm+96",
-                    "audioQS": "Ps.96"
-                },
-                {
-                    "pretty": "Micah 5:2\u2013end",
-                    "readQS": "Micah+5:2-",
-                    "audioQS": "Mic.5"
-                },
-                {
-                    "pretty": "Matthew 23:29\u2013end",
-                    "readQS": "Matthew+23:29-",
-                    "audioQS": "Matt.23"
-                }
-            ],
-            "readQS": "Psalm+96%3B+Micah+5:2-%3B+Matthew+23:29-",
-            "audioQS": "Ps.96,Mic.5,Matt.23"
-        },
-        "evening": {
-            "readings": [
-                {
-                    "pretty": "Psalm 66",
-                    "readQS": "Psalm+66",
-                    "audioQS": "Ps.66"
-                },
-                {
-                    "pretty": "Isaiah 66:12\u201323",
-                    "readQS": "Isaiah+66:12-23",
-                    "audioQS": "Isa.66"
-                },
-                {
-                    "pretty": "3 John",
-                    "readQS": "3+John",
-                    "audioQS": "3John"
-                }
-            ],
-            "readQS": "Psalm+66%3B+Isaiah+66:12-23%3B+3+John",
-            "audioQS": "Ps.66,Isa.66,3John"
-        }
-    },
-    "2024/01/13": {
-        "datePretty": "Saturday, January 13, 2024",
-        "calendar": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                {
-                    "pretty": "",
-                    "readQS": "",
-                    "audioQS": ""
-                },
-                {
-                    "pretty": "",
-                    "readQS": "",
-                    "audioQS": ""
-                },
-                {
-                    "pretty": "",
-                    "readQS": "",
-                    "audioQS": ""
-                }
-            ],
-            "readQS": "%3B+%3B",
-            "audioQS": ",,"
-        },
-        "evening": {
-            "readings": [
-                {
-                    "pretty": "Psalm 36",
-                    "readQS": "Psalm+36",
-                    "audioQS": "Ps.36"
-                },
-                {
-                    "pretty": "Isaiah 61",
-                    "readQS": "Isaiah+61",
-                    "audioQS": "Isa.61"
-                },
-                {
-                    "pretty": "Titus 2:11\u201314",
-                    "readQS": "Titus+2:11-14",
-                    "audioQS": "Titus.2"
-                },
-                {
-                    "pretty": "Titus 3:4\u20137",
-                    "readQS": "Titus+3:4-7",
-                    "audioQS": "Titus.3"
-                }
-            ],
-            "readQS": "Psalm+36%3B+Isaiah+61%3B+Titus+2:11-14%3BTitus+3:4-7",
-            "audioQS": "Ps.36,Isa.61,Titus.2,Titus.3"
-        }
-    },
-    "2024/01/14": {
-        "datePretty": "Sunday, January 14, 2024",
         "calendar": "The Baptism of the Lord",
         "morning": {
             "readings": [
@@ -1982,8 +1655,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.46,Isa.42,Eph.2"
         }
     },
-    "2024/01/15": {
-        "datePretty": "Monday, January 15, 2024",
+    "2024/01/08": {
+        "datePretty": "Monday, January 8, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2028,8 +1701,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.34,Amos.1,1Cor.1"
         }
     },
-    "2024/01/16": {
-        "datePretty": "Tuesday, January 16, 2024",
+    "2024/01/09": {
+        "datePretty": "Tuesday, January 9, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2074,8 +1747,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.45,Amos.2,1Cor.1"
         }
     },
-    "2024/01/17": {
-        "datePretty": "Wednesday, January 17, 2024",
+    "2024/01/10": {
+        "datePretty": "Wednesday, January 10, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2120,8 +1793,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.47,Amos.3,1Cor.2"
         }
     },
-    "2024/01/18": {
-        "datePretty": "Thursday, January 18, 2024",
+    "2024/01/11": {
+        "datePretty": "Thursday, January 11, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2166,8 +1839,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.61,Amos.4,1Cor.3"
         }
     },
-    "2024/01/19": {
-        "datePretty": "Friday, January 19, 2024",
+    "2024/01/12": {
+        "datePretty": "Friday, January 12, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2212,8 +1885,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.68,Amos.5,1Cor.4"
         }
     },
-    "2024/01/20": {
-        "datePretty": "Saturday, January 20, 2024",
+    "2024/01/13": {
+        "datePretty": "Saturday, January 13, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2258,8 +1931,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.85,Amos.5,1Cor.5"
         }
     },
-    "2024/01/21": {
-        "datePretty": "Sunday, January 21, 2024",
+    "2024/01/14": {
+        "datePretty": "Sunday, January 14, 2024",
         "calendar": "2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2304,8 +1977,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.96,Isa.60,Heb.6"
         }
     },
-    "2024/01/22": {
-        "datePretty": "Monday, January 22, 2024",
+    "2024/01/15": {
+        "datePretty": "Monday, January 15, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2350,8 +2023,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.71,Amos.6,1Cor.6"
         }
     },
-    "2024/01/23": {
-        "datePretty": "Tuesday, January 23, 2024",
+    "2024/01/16": {
+        "datePretty": "Tuesday, January 16, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2396,8 +2069,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "audioQS": "Ps.89,Amos.7,1Cor.6"
         }
     },
-    "2024/01/24": {
-        "datePretty": "Wednesday, January 24, 2024",
+    "2024/01/17": {
+        "datePretty": "Wednesday, January 17, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -2419,6 +2092,333 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             ],
             "readQS": "Psalm+81%3B+Genesis+8:1-14%3B+Matthew+24:29-",
             "audioQS": "Ps.81,Gen.8,Matt.24"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 97",
+                    "readQS": "Psalm+97",
+                    "audioQS": "Ps.97"
+                },
+                {
+                    "pretty": "Amos 8",
+                    "readQS": "Amos+8",
+                    "audioQS": "Amos.8"
+                },
+                {
+                    "pretty": "1 Corinthians 7:1\u201324",
+                    "readQS": "1+Corinthians+7:1-24",
+                    "audioQS": "1Cor.7"
+                }
+            ],
+            "readQS": "Psalm+97%3B+Amos+8%3B+1+Corinthians+7:1-24",
+            "audioQS": "Ps.97,Amos.8,1Cor.7"
+        }
+    },
+    "2024/01/18": {
+        "datePretty": "Thursday, January 18, 2024",
+        "calendar": "Week of 2nd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 76",
+                    "readQS": "Psalm+76",
+                    "audioQS": "Ps.76"
+                },
+                {
+                    "pretty": "Genesis 8:15\u20139:7",
+                    "readQS": "Genesis+8:15-9:7",
+                    "audioQS": "Gen.8"
+                },
+                {
+                    "pretty": "Matthew 25:1\u201313",
+                    "readQS": "Matthew+25:1-13",
+                    "audioQS": "Matt.25"
+                }
+            ],
+            "readQS": "Psalm+76%3B+Genesis+8:15-9:7%3B+Matthew+25:1-13",
+            "audioQS": "Ps.76,Gen.8,Matt.25"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 111",
+                    "readQS": "Psalm+111",
+                    "audioQS": "Ps.111"
+                },
+                {
+                    "pretty": "Amos 9",
+                    "readQS": "Amos+9",
+                    "audioQS": "Amos.9"
+                },
+                {
+                    "pretty": "1 Corinthians 7:25\u2013end",
+                    "readQS": "1+Corinthians+7:25-",
+                    "audioQS": "1Cor.7"
+                }
+            ],
+            "readQS": "Psalm+111%3B+Amos+9%3B+1+Corinthians+7:25-",
+            "audioQS": "Ps.111,Amos.9,1Cor.7"
+        }
+    },
+    "2024/01/19": {
+        "datePretty": "Friday, January 19, 2024",
+        "calendar": "Week of 2nd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 27",
+                    "readQS": "Psalm+27",
+                    "audioQS": "Ps.27"
+                },
+                {
+                    "pretty": "Genesis 9:8\u201319",
+                    "readQS": "Genesis+9:8-19",
+                    "audioQS": "Gen.9"
+                },
+                {
+                    "pretty": "Matthew 25:14\u201330",
+                    "readQS": "Matthew+25:14-30",
+                    "audioQS": "Matt.25"
+                }
+            ],
+            "readQS": "Psalm+27%3B+Genesis+9:8-19%3B+Matthew+25:14-30",
+            "audioQS": "Ps.27,Gen.9,Matt.25"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 73",
+                    "readQS": "Psalm+73",
+                    "audioQS": "Ps.73"
+                },
+                {
+                    "pretty": "Hosea 1:1\u20132:1",
+                    "readQS": "Hosea+1:1-2:1",
+                    "audioQS": "Hos.1"
+                },
+                {
+                    "pretty": "1 Corinthians 8",
+                    "readQS": "1+Corinthians+8",
+                    "audioQS": "1Cor.8"
+                }
+            ],
+            "readQS": "Psalm+73%3B+Hosea+1:1-2:1%3B+1+Corinthians+8",
+            "audioQS": "Ps.73,Hos.1,1Cor.8"
+        }
+    },
+    "2024/01/20": {
+        "datePretty": "Saturday, January 20, 2024",
+        "calendar": "Week of 2nd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 122",
+                    "readQS": "Psalm+122",
+                    "audioQS": "Ps.122"
+                },
+                {
+                    "pretty": "Genesis 11:1\u20139",
+                    "readQS": "Genesis+11:1-9",
+                    "audioQS": "Gen.11"
+                },
+                {
+                    "pretty": "Matthew 25:31\u2013end",
+                    "readQS": "Matthew+25:31-",
+                    "audioQS": "Matt.25"
+                }
+            ],
+            "readQS": "Psalm+122%3B+Genesis+11:1-9%3B+Matthew+25:31-",
+            "audioQS": "Ps.122,Gen.11,Matt.25"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 61",
+                    "readQS": "Psalm+61",
+                    "audioQS": "Ps.61"
+                },
+                {
+                    "pretty": "Hosea 2:2\u201317",
+                    "readQS": "Hosea+2:2-17",
+                    "audioQS": "Hos.2"
+                },
+                {
+                    "pretty": "1 Corinthians 9:1\u201314",
+                    "readQS": "1+Corinthians+9:1-14",
+                    "audioQS": "1Cor.9"
+                }
+            ],
+            "readQS": "Psalm+61%3B+Hosea+2:2-17%3B+1+Corinthians+9:1-14",
+            "audioQS": "Ps.61,Hos.2,1Cor.9"
+        }
+    },
+    "2024/01/21": {
+        "datePretty": "Sunday, January 21, 2024",
+        "calendar": "3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 113",
+                    "readQS": "Psalm+113",
+                    "audioQS": "Ps.113"
+                },
+                {
+                    "pretty": "Jonah 3:1\u20135,10",
+                    "readQS": "Jonah+3:1-5,10",
+                    "audioQS": "Jonah.3"
+                },
+                {
+                    "pretty": "John 3:16\u201321",
+                    "readQS": "John+3:16-21",
+                    "audioQS": "John.3"
+                }
+            ],
+            "readQS": "Psalm+113%3B+Jonah+3:1-5,10%3B+John+3:16-21",
+            "audioQS": "Ps.113,Jonah.3,John.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "Jeremiah 3:21\u20134:2",
+                    "readQS": "Jeremiah+3:21-4:2",
+                    "audioQS": "Jer.3"
+                },
+                {
+                    "pretty": "Titus 2:1\u20138,11\u201314",
+                    "readQS": "Titus+2:1-8,11-14",
+                    "audioQS": "Titus.2"
+                }
+            ],
+            "readQS": "Psalm+33%3B+Jeremiah+3:21-4:2%3B+Titus+2:1-8,11-14",
+            "audioQS": "Ps.33,Jer.3,Titus.2"
+        }
+    },
+    "2024/01/22": {
+        "datePretty": "Monday, January 22, 2024",
+        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 108",
+                    "readQS": "Psalm+108",
+                    "audioQS": "Ps.108"
+                },
+                {
+                    "pretty": "Genesis 11:27\u201312:9",
+                    "readQS": "Genesis+11:27-12:9",
+                    "audioQS": "Gen.11"
+                },
+                {
+                    "pretty": "Matthew 26:1\u201316",
+                    "readQS": "Matthew+26:1-16",
+                    "audioQS": "Matt.26"
+                }
+            ],
+            "readQS": "Psalm+108%3B+Genesis+11:27-12:9%3B+Matthew+26:1-16",
+            "audioQS": "Ps.108,Gen.11,Matt.26"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 138",
+                    "readQS": "Psalm+138",
+                    "audioQS": "Ps.138"
+                },
+                {
+                    "pretty": "Hosea 2:18\u2013end",
+                    "readQS": "Hosea+2:18-",
+                    "audioQS": "Hos.2"
+                },
+                {
+                    "pretty": "Hosea 3",
+                    "readQS": "Hosea+3",
+                    "audioQS": "Hos.3"
+                },
+                {
+                    "pretty": "1 Corinthians 9:15\u2013end",
+                    "readQS": "1+Corinthians+9:15-",
+                    "audioQS": "1Cor.9"
+                }
+            ],
+            "readQS": "Psalm+138%3B+Hosea+2:18-%3B+Hosea+3%3B+1+Corinthians+9:15-",
+            "audioQS": "Ps.138,Hos.2,Hos.3,1Cor.9"
+        }
+    },
+    "2024/01/23": {
+        "datePretty": "Tuesday, January 23, 2024",
+        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36",
+                    "readQS": "Psalm+36",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "Genesis 13:2\u2013end",
+                    "readQS": "Genesis+13:2-",
+                    "audioQS": "Gen.13"
+                },
+                {
+                    "pretty": "Matthew 26:17\u201335",
+                    "readQS": "Matthew+26:17-35",
+                    "audioQS": "Matt.26"
+                }
+            ],
+            "readQS": "Psalm+36%3B+Genesis+13:2-%3B+Matthew+26:17-35",
+            "audioQS": "Ps.36,Gen.13,Matt.26"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 145",
+                    "readQS": "Psalm+145",
+                    "audioQS": "Ps.145"
+                },
+                {
+                    "pretty": "Hosea 4:1\u201316",
+                    "readQS": "Hosea+4:1-16",
+                    "audioQS": "Hos.4"
+                },
+                {
+                    "pretty": "1 Corinthians 10:1\u201313",
+                    "readQS": "1+Corinthians+10:1-13",
+                    "audioQS": "1Cor.10"
+                }
+            ],
+            "readQS": "Psalm+145%3B+Hosea+4:1-16%3B+1+Corinthians+10:1-13",
+            "audioQS": "Ps.145,Hos.4,1Cor.10"
+        }
+    },
+    "2024/01/24": {
+        "datePretty": "Wednesday, January 24, 2024",
+        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 46",
+                    "readQS": "Psalm+46",
+                    "audioQS": "Ps.46"
+                },
+                {
+                    "pretty": "Genesis 14",
+                    "readQS": "Genesis+14",
+                    "audioQS": "Gen.14"
+                },
+                {
+                    "pretty": "Matthew 26:36\u201346",
+                    "readQS": "Matthew+26:36-46",
+                    "audioQS": "Matt.26"
+                }
+            ],
+            "readQS": "Psalm+46%3B+Genesis+14%3B+Matthew+26:36-46",
+            "audioQS": "Ps.46,Gen.14,Matt.26"
         },
         "evening": {
             "readings": [
@@ -2500,308 +2500,303 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2024/01/26": {
         "datePretty": "Friday, January 26, 2024",
-        "calendar": "Week of 2nd Sunday after the Epiphany",
+        "calendar": "Week of 3rd Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 27",
-                    "readQS": "Psalm+27",
-                    "audioQS": "Ps.27"
+                    "pretty": "Psalm 65",
+                    "readQS": "Psalm+65",
+                    "audioQS": "Ps.65"
                 },
                 {
-                    "pretty": "Genesis 9:8\u201319",
-                    "readQS": "Genesis+9:8-19",
-                    "audioQS": "Gen.9"
+                    "pretty": "Genesis 16",
+                    "readQS": "Genesis+16",
+                    "audioQS": "Gen.16"
                 },
                 {
-                    "pretty": "Matthew 25:14\u201330",
-                    "readQS": "Matthew+25:14-30",
-                    "audioQS": "Matt.25"
+                    "pretty": "Matthew 26:57\u2013end",
+                    "readQS": "Matthew+26:57-",
+                    "audioQS": "Matt.26"
                 }
             ],
-            "readQS": "Psalm+27%3B+Genesis+9:8-19%3B+Matthew+25:14-30",
-            "audioQS": "Ps.27,Gen.9,Matt.25"
+            "readQS": "Psalm+65%3B+Genesis+16%3B+Matthew+26:57-",
+            "audioQS": "Ps.65,Gen.16,Matt.26"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 73",
-                    "readQS": "Psalm+73",
-                    "audioQS": "Ps.73"
+                    "pretty": "Psalm 67",
+                    "readQS": "Psalm+67",
+                    "audioQS": "Ps.67"
                 },
                 {
-                    "pretty": "Hosea 1:1\u20132:1",
-                    "readQS": "Hosea+1:1-2:1",
-                    "audioQS": "Hos.1"
+                    "pretty": "Hosea 6:7\u20137:2",
+                    "readQS": "Hosea+6:7-7:2",
+                    "audioQS": "Hos.6"
                 },
                 {
-                    "pretty": "1 Corinthians 8",
-                    "readQS": "1+Corinthians+8",
-                    "audioQS": "1Cor.8"
+                    "pretty": "1 Corinthians 11:17\u2013end",
+                    "readQS": "1+Corinthians+11:17-",
+                    "audioQS": "1Cor.11"
                 }
             ],
-            "readQS": "Psalm+73%3B+Hosea+1:1-2:1%3B+1+Corinthians+8",
-            "audioQS": "Ps.73,Hos.1,1Cor.8"
+            "readQS": "Psalm+67%3B+Hosea+6:7-7:2%3B+1+Corinthians+11:17-",
+            "audioQS": "Ps.67,Hos.6,1Cor.11"
         }
     },
     "2024/01/27": {
         "datePretty": "Saturday, January 27, 2024",
-        "calendar": "Week of 2nd Sunday after the Epiphany",
+        "calendar": "Week of 3rd Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 122",
-                    "readQS": "Psalm+122",
-                    "audioQS": "Ps.122"
+                    "pretty": "Psalm 68",
+                    "readQS": "Psalm+68",
+                    "audioQS": "Ps.68"
                 },
                 {
-                    "pretty": "Genesis 11:1\u20139",
-                    "readQS": "Genesis+11:1-9",
-                    "audioQS": "Gen.11"
+                    "pretty": "Genesis 17:1\u201322",
+                    "readQS": "Genesis+17:1-22",
+                    "audioQS": "Gen.17"
                 },
                 {
-                    "pretty": "Matthew 25:31\u2013end",
-                    "readQS": "Matthew+25:31-",
-                    "audioQS": "Matt.25"
+                    "pretty": "Matthew 27:1\u201310",
+                    "readQS": "Matthew+27:1-10",
+                    "audioQS": "Matt.27"
                 }
             ],
-            "readQS": "Psalm+122%3B+Genesis+11:1-9%3B+Matthew+25:31-",
-            "audioQS": "Ps.122,Gen.11,Matt.25"
+            "readQS": "Psalm+68%3B+Genesis+17:1-22%3B+Matthew+27:1-10",
+            "audioQS": "Ps.68,Gen.17,Matt.27"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 61",
-                    "readQS": "Psalm+61",
-                    "audioQS": "Ps.61"
+                    "pretty": "Psalm 72",
+                    "readQS": "Psalm+72",
+                    "audioQS": "Ps.72"
                 },
                 {
-                    "pretty": "Hosea 2:2\u201317",
-                    "readQS": "Hosea+2:2-17",
-                    "audioQS": "Hos.2"
+                    "pretty": "Hosea 8",
+                    "readQS": "Hosea+8",
+                    "audioQS": "Hos.8"
                 },
                 {
-                    "pretty": "1 Corinthians 9:1\u201314",
-                    "readQS": "1+Corinthians+9:1-14",
-                    "audioQS": "1Cor.9"
+                    "pretty": "1 Corinthians 12:1\u201311",
+                    "readQS": "1+Corinthians+12:1-11",
+                    "audioQS": "1Cor.12"
                 }
             ],
-            "readQS": "Psalm+61%3B+Hosea+2:2-17%3B+1+Corinthians+9:1-14",
-            "audioQS": "Ps.61,Hos.2,1Cor.9"
+            "readQS": "Psalm+72%3B+Hosea+8%3B+1+Corinthians+12:1-11",
+            "audioQS": "Ps.72,Hos.8,1Cor.12"
         }
     },
     "2024/01/28": {
         "datePretty": "Sunday, January 28, 2024",
-        "calendar": "3rd Sunday after the Epiphany",
+        "calendar": "4th Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 113",
-                    "readQS": "Psalm+113",
-                    "audioQS": "Ps.113"
+                    "pretty": "Psalm 71:1\u20136,15\u201317",
+                    "readQS": "Psalm+71:1-6,15-17",
+                    "audioQS": "Ps.71"
                 },
                 {
-                    "pretty": "Jonah 3:1\u20135,10",
-                    "readQS": "Jonah+3:1-5,10",
-                    "audioQS": "Jonah.3"
+                    "pretty": "Jeremiah 1:4\u201310",
+                    "readQS": "Jeremiah+1:4-10",
+                    "audioQS": "Jer.1"
                 },
                 {
-                    "pretty": "John 3:16\u201321",
-                    "readQS": "John+3:16-21",
-                    "audioQS": "John.3"
+                    "pretty": "Mark 1:40\u201345",
+                    "readQS": "Mark+1:40-45",
+                    "audioQS": "Mark.1"
                 }
             ],
-            "readQS": "Psalm+113%3B+Jonah+3:1-5,10%3B+John+3:16-21",
-            "audioQS": "Ps.113,Jonah.3,John.3"
+            "readQS": "Psalm+71:1-6,15-17%3B+Jeremiah+1:4-10%3B+Mark+1:40-45",
+            "audioQS": "Ps.71,Jer.1,Mark.1"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 33",
-                    "readQS": "Psalm+33",
-                    "audioQS": "Ps.33"
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
                 },
                 {
-                    "pretty": "Jeremiah 3:21\u20134:2",
-                    "readQS": "Jeremiah+3:21-4:2",
-                    "audioQS": "Jer.3"
+                    "pretty": "1 Samuel 3:1\u201320",
+                    "readQS": "1+Samuel+3:1-20",
+                    "audioQS": "1Sam.3"
                 },
                 {
-                    "pretty": "Titus 2:1\u20138,11\u201314",
-                    "readQS": "Titus+2:1-8,11-14",
-                    "audioQS": "Titus.2"
+                    "pretty": "1 Corinthians 14:12\u201320",
+                    "readQS": "1+Corinthians+14:12-20",
+                    "audioQS": "1Cor.14"
                 }
             ],
-            "readQS": "Psalm+33%3B+Jeremiah+3:21-4:2%3B+Titus+2:1-8,11-14",
-            "audioQS": "Ps.33,Jer.3,Titus.2"
+            "readQS": "Psalm+34%3B+1+Samuel+3:1-20%3B+1+Corinthians+14:12-20",
+            "audioQS": "Ps.34,1Sam.3,1Cor.14"
         }
     },
     "2024/01/29": {
         "datePretty": "Monday, January 29, 2024",
-        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "calendar": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 108",
-                    "readQS": "Psalm+108",
-                    "audioQS": "Ps.108"
+                    "pretty": "Psalm 57",
+                    "readQS": "Psalm+57",
+                    "audioQS": "Ps.57"
                 },
                 {
-                    "pretty": "Genesis 11:27\u201312:9",
-                    "readQS": "Genesis+11:27-12:9",
-                    "audioQS": "Gen.11"
+                    "pretty": "Genesis 18:1\u201315",
+                    "readQS": "Genesis+18:1-15",
+                    "audioQS": "Gen.18"
                 },
                 {
-                    "pretty": "Matthew 26:1\u201316",
-                    "readQS": "Matthew+26:1-16",
-                    "audioQS": "Matt.26"
+                    "pretty": "Matthew 27:11\u201326",
+                    "readQS": "Matthew+27:11-26",
+                    "audioQS": "Matt.27"
                 }
             ],
-            "readQS": "Psalm+108%3B+Genesis+11:27-12:9%3B+Matthew+26:1-16",
-            "audioQS": "Ps.108,Gen.11,Matt.26"
+            "readQS": "Psalm+57%3B+Genesis+18:1-15%3B+Matthew+27:11-26",
+            "audioQS": "Ps.57,Gen.18,Matt.27"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 138",
-                    "readQS": "Psalm+138",
-                    "audioQS": "Ps.138"
+                    "pretty": "Psalm 20",
+                    "readQS": "Psalm+20",
+                    "audioQS": "Ps.20"
                 },
                 {
-                    "pretty": "Hosea 2:18\u2013end",
-                    "readQS": "Hosea+2:18-",
-                    "audioQS": "Hos.2"
+                    "pretty": "Hosea 9",
+                    "readQS": "Hosea+9",
+                    "audioQS": "Hos.9"
                 },
                 {
-                    "pretty": "Hosea 3",
-                    "readQS": "Hosea+3",
-                    "audioQS": "Hos.3"
-                },
-                {
-                    "pretty": "1 Corinthians 9:15\u2013end",
-                    "readQS": "1+Corinthians+9:15-",
-                    "audioQS": "1Cor.9"
+                    "pretty": "1 Corinthians 12:12\u2013end",
+                    "readQS": "1+Corinthians+12:12-",
+                    "audioQS": "1Cor.12"
                 }
             ],
-            "readQS": "Psalm+138%3B+Hosea+2:18-%3B+Hosea+3%3B+1+Corinthians+9:15-",
-            "audioQS": "Ps.138,Hos.2,Hos.3,1Cor.9"
+            "readQS": "Psalm+20%3B+Hosea+9%3B+1+Corinthians+12:12-",
+            "audioQS": "Ps.20,Hos.9,1Cor.12"
         }
     },
     "2024/01/30": {
         "datePretty": "Tuesday, January 30, 2024",
-        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "calendar": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 36",
-                    "readQS": "Psalm+36",
-                    "audioQS": "Ps.36"
+                    "pretty": "Psalm 93",
+                    "readQS": "Psalm+93",
+                    "audioQS": "Ps.93"
                 },
                 {
-                    "pretty": "Genesis 13:2\u2013end",
-                    "readQS": "Genesis+13:2-",
-                    "audioQS": "Gen.13"
+                    "pretty": "Genesis 18:16\u2013end",
+                    "readQS": "Genesis+18:16-",
+                    "audioQS": "Gen.18"
                 },
                 {
-                    "pretty": "Matthew 26:17\u201335",
-                    "readQS": "Matthew+26:17-35",
-                    "audioQS": "Matt.26"
+                    "pretty": "Matthew 27:27\u201344",
+                    "readQS": "Matthew+27:27-44",
+                    "audioQS": "Matt.27"
                 }
             ],
-            "readQS": "Psalm+36%3B+Genesis+13:2-%3B+Matthew+26:17-35",
-            "audioQS": "Ps.36,Gen.13,Matt.26"
+            "readQS": "Psalm+93%3B+Genesis+18:16-%3B+Matthew+27:27-44",
+            "audioQS": "Ps.93,Gen.18,Matt.27"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 145",
-                    "readQS": "Psalm+145",
-                    "audioQS": "Ps.145"
+                    "pretty": "Psalm 19",
+                    "readQS": "Psalm+19",
+                    "audioQS": "Ps.19"
                 },
                 {
-                    "pretty": "Hosea 4:1\u201316",
-                    "readQS": "Hosea+4:1-16",
-                    "audioQS": "Hos.4"
+                    "pretty": "Hosea 10",
+                    "readQS": "Hosea+10",
+                    "audioQS": "Hos.10"
                 },
                 {
-                    "pretty": "1 Corinthians 10:1\u201313",
-                    "readQS": "1+Corinthians+10:1-13",
-                    "audioQS": "1Cor.10"
+                    "pretty": "1 Corinthians 13",
+                    "readQS": "1+Corinthians+13",
+                    "audioQS": "1Cor.13"
                 }
             ],
-            "readQS": "Psalm+145%3B+Hosea+4:1-16%3B+1+Corinthians+10:1-13",
-            "audioQS": "Ps.145,Hos.4,1Cor.10"
+            "readQS": "Psalm+19%3B+Hosea+10%3B+1+Corinthians+13",
+            "audioQS": "Ps.19,Hos.10,1Cor.13"
         }
     },
     "2024/01/31": {
         "datePretty": "Wednesday, January 31, 2024",
-        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "calendar": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 46",
-                    "readQS": "Psalm+46",
-                    "audioQS": "Ps.46"
+                    "pretty": "Psalm 95",
+                    "readQS": "Psalm+95",
+                    "audioQS": "Ps.95"
                 },
                 {
-                    "pretty": "Genesis 14",
-                    "readQS": "Genesis+14",
-                    "audioQS": "Gen.14"
+                    "pretty": "Genesis 19:1\u20133,19:12\u201329",
+                    "readQS": "Genesis+19:1-3,19:12-29",
+                    "audioQS": "Gen.19"
                 },
                 {
-                    "pretty": "Matthew 26:36\u201346",
-                    "readQS": "Matthew+26:36-46",
-                    "audioQS": "Matt.26"
+                    "pretty": "Matthew 27:45\u201356",
+                    "readQS": "Matthew+27:45-56",
+                    "audioQS": "Matt.27"
                 }
             ],
-            "readQS": "Psalm+46%3B+Genesis+14%3B+Matthew+26:36-46",
-            "audioQS": "Ps.46,Gen.14,Matt.26"
+            "readQS": "Psalm+95%3B+Genesis+19:1-3,19:12-29%3B+Matthew+27:45-56",
+            "audioQS": "Ps.95,Gen.19,Matt.27"
         },
         "evening": {
             "readings": [
                 {
-                    "pretty": "Psalm 29",
-                    "readQS": "Psalm+29",
-                    "audioQS": "Ps.29"
+                    "pretty": "Psalm 81",
+                    "readQS": "Psalm+81",
+                    "audioQS": "Ps.81"
                 },
                 {
-                    "pretty": "Hosea 5:1\u20137",
-                    "readQS": "Hosea+5:1-7",
-                    "audioQS": "Hos.5"
+                    "pretty": "Hosea 11:1\u201311",
+                    "readQS": "Hosea+11:1-11",
+                    "audioQS": "Hos.11"
                 },
                 {
-                    "pretty": "1 Corinthians 10:14\u201311:1",
-                    "readQS": "1+Corinthians+10:14-11:1",
-                    "audioQS": "1Cor.10"
+                    "pretty": "1 Corinthians 14:1\u201319",
+                    "readQS": "1+Corinthians+14:1-19",
+                    "audioQS": "1Cor.14"
                 }
             ],
-            "readQS": "Psalm+29%3B+Hosea+5:1-7%3B+1+Corinthians+10:14-11:1",
-            "audioQS": "Ps.29,Hos.5,1Cor.10"
+            "readQS": "Psalm+81%3B+Hosea+11:1-11%3B+1+Corinthians+14:1-19",
+            "audioQS": "Ps.81,Hos.11,1Cor.14"
         }
     },
     "2024/02/01": {
         "datePretty": "Thursday, February 1, 2024",
-        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "calendar": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
-                    "pretty": "Psalm 47",
-                    "readQS": "Psalm+47",
-                    "audioQS": "Ps.47"
+                    "pretty": "Psalm 110",
+                    "readQS": "Psalm+110",
+                    "audioQS": "Ps.110"
                 },
                 {
-                    "pretty": "Genesis 15",
-                    "readQS": "Genesis+15",
-                    "audioQS": "Gen.15"
+                    "pretty": "Genesis 21:1\u201321",
+                    "readQS": "Genesis+21:1-21",
+                    "audioQS": "Gen.21"
                 },
                 {
-                    "pretty": "Matthew 26:47\u201356",
-                    "readQS": "Matthew+26:47-56",
-                    "audioQS": "Matt.26"
+                    "pretty": "Matthew 27:57\u2013end",
+                    "readQS": "Matthew+27:57-",
+                    "audioQS": "Matt.27"
                 }
             ],
-            "readQS": "Psalm+47%3B+Genesis+15%3B+Matthew+26:47-56",
-            "audioQS": "Ps.47,Gen.15,Matt.26"
+            "readQS": "Psalm+110%3B+Genesis+21:1-21%3B+Matthew+27:57-",
+            "audioQS": "Ps.110,Gen.21,Matt.27"
         },
         "evening": {
             "readings": [
@@ -2873,7 +2868,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2024/02/03": {
         "datePretty": "Saturday, February 3, 2024",
-        "calendar": "Week of 3rd Sunday after the Epiphany",
+        "calendar": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
                 {
@@ -2882,18 +2877,18 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.23"
                 },
                 {
-                    "pretty": "Genesis 17:1\u201322",
-                    "readQS": "Genesis+17:1-22",
-                    "audioQS": "Gen.17"
+                    "pretty": "Genesis 23",
+                    "readQS": "Genesis+23",
+                    "audioQS": "Gen.23"
                 },
                 {
-                    "pretty": "Matthew 27:1\u201310",
-                    "readQS": "Matthew+27:1-10",
-                    "audioQS": "Matt.27"
+                    "pretty": "Matthew 28:16\u2013end",
+                    "readQS": "Matthew+28:16-",
+                    "audioQS": "Matt.28"
                 }
             ],
-            "readQS": "Psalm+23%3B+Genesis+17:1-22%3B+Matthew+27:1-10",
-            "audioQS": "Ps.23,Gen.17,Matt.27"
+            "readQS": "Psalm+23%3B+Genesis+23%3B+Matthew+28:16-",
+            "audioQS": "Ps.23,Gen.23,Matt.28"
         },
         "evening": {
             "readings": [
@@ -2903,18 +2898,18 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.24"
                 },
                 {
-                    "pretty": "Hosea 8",
-                    "readQS": "Hosea+8",
-                    "audioQS": "Hos.8"
+                    "pretty": "Hosea 14",
+                    "readQS": "Hosea+14",
+                    "audioQS": "Hos.14"
                 },
                 {
-                    "pretty": "1 Corinthians 12:1\u201311",
-                    "readQS": "1+Corinthians+12:1-11",
-                    "audioQS": "1Cor.12"
+                    "pretty": "1 Corinthians 16:10\u2013end",
+                    "readQS": "1+Corinthians+16:10-",
+                    "audioQS": "1Cor.16"
                 }
             ],
-            "readQS": "Psalm+24%3B+Hosea+8%3B+1+Corinthians+12:1-11",
-            "audioQS": "Ps.24,Hos.8,1Cor.12"
+            "readQS": "Psalm+24%3B+Hosea+14%3B+1+Corinthians+16:10-",
+            "audioQS": "Ps.24,Hos.14,1Cor.16"
         }
     },
     "2024/02/04": {

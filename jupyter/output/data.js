@@ -771,161 +771,6 @@ class Data {  data = {
     },
     "2024/01/07": {
         "date_pretty": "Sunday, January 7, 2024",
-        "day_description": "2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                "Psalm 87",
-                "Zechariah 8:1\u20138",
-                "Luke 2:41\u201352"
-            ],
-            "reading_link": "Psalm+87%3B+Zechariah+8:1-8%3B+Luke+2:41-52",
-            "audio_link": "Ps.87,Zech.8,Luke.2"
-        },
-        "evening": {
-            "readings": [
-                "Psalm 135",
-                "Isaiah 46:3\u201313",
-                "Romans 12:1\u20138"
-            ],
-            "reading_link": "Psalm+135%3B+Isaiah+46:3-13%3B+Romans+12:1-8",
-            "audio_link": "Ps.135,Isa.46,Rom.12"
-        }
-    },
-    "2024/01/08": {
-        "date_pretty": "Monday, January 8, 2024",
-        "day_description": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                "Psalm 46",
-                "Jeremiah 30:1\u201317",
-                "Matthew 20:17\u201328"
-            ],
-            "reading_link": "Psalm+46%3B+Jeremiah+30:1-17%3B+Matthew+20:17-28",
-            "audio_link": "Ps.46,Jer.30,Matt.20"
-        },
-        "evening": {
-            "readings": [
-                "Psalm 145",
-                "Isaiah 64",
-                "1 John 4:7\u2013end"
-            ],
-            "reading_link": "Psalm+145%3B+Isaiah+64%3B+1+John+4:7-",
-            "audio_link": "Ps.145,Isa.64,1John.4"
-        }
-    },
-    "2024/01/09": {
-        "date_pretty": "Tuesday, January 9, 2024",
-        "day_description": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                "Psalm 148",
-                "Jeremiah 30:18\u201331:9",
-                "Matthew 20:29\u2013end"
-            ],
-            "reading_link": "Psalm+148%3B+Jeremiah+30:18-31:9%3B+Matthew+20:29-",
-            "audio_link": "Ps.148,Jer.30,Matt.20"
-        },
-        "evening": {
-            "readings": [
-                "Psalm 67",
-                "Isaiah 65:1\u201316",
-                "1 John 5:1\u201312"
-            ],
-            "reading_link": "Psalm+67%3B+Isaiah+65:1-16%3B+1+John+5:1-12",
-            "audio_link": "Ps.67,Isa.65,1John.5"
-        }
-    },
-    "2024/01/10": {
-        "date_pretty": "Wednesday, January 10, 2024",
-        "day_description": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                "Psalm 149",
-                "Jeremiah 31:10\u201317",
-                "Matthew 23:1\u201312"
-            ],
-            "reading_link": "Psalm+149%3B+Jeremiah+31:10-17%3B+Matthew+23:1-12",
-            "audio_link": "Ps.149,Jer.31,Matt.23"
-        },
-        "evening": {
-            "readings": [
-                "Psalm 29",
-                "Isaiah 65:17\u2013end",
-                "1 John 5:13\u2013end"
-            ],
-            "reading_link": "Psalm+29%3B+Isaiah+65:17-%3B+1+John+5:13-",
-            "audio_link": "Ps.29,Isa.65,1John.5"
-        }
-    },
-    "2024/01/11": {
-        "date_pretty": "Thursday, January 11, 2024",
-        "day_description": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                "Psalm 150",
-                "Jeremiah 33:14\u2013end",
-                "Matthew 23:13\u201328"
-            ],
-            "reading_link": "Psalm+150%3B+Jeremiah+33:14-%3B+Matthew+23:13-28",
-            "audio_link": "Ps.150,Jer.33,Matt.23"
-        },
-        "evening": {
-            "readings": [
-                "Psalm 93",
-                "Isaiah 66:1\u201311",
-                "2 John"
-            ],
-            "reading_link": "Psalm+93%3B+Isaiah+66:1-11%3B+2+John",
-            "audio_link": "Ps.93,Isa.66,2John"
-        }
-    },
-    "2024/01/12": {
-        "date_pretty": "Friday, January 12, 2024",
-        "day_description": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                "Psalm 96",
-                "Micah 5:2\u2013end",
-                "Matthew 23:29\u2013end"
-            ],
-            "reading_link": "Psalm+96%3B+Micah+5:2-%3B+Matthew+23:29-",
-            "audio_link": "Ps.96,Mic.5,Matt.23"
-        },
-        "evening": {
-            "readings": [
-                "Psalm 66",
-                "Isaiah 66:12\u201323",
-                "3 John"
-            ],
-            "reading_link": "Psalm+66%3B+Isaiah+66:12-23%3B+3+John",
-            "audio_link": "Ps.66,Isa.66,3John"
-        }
-    },
-    "2024/01/13": {
-        "date_pretty": "Saturday, January 13, 2024",
-        "day_description": "Week of 2nd Sunday of Christmas",
-        "morning": {
-            "readings": [
-                "",
-                "",
-                ""
-            ],
-            "reading_link": "%3B+%3B",
-            "audio_link": ",,"
-        },
-        "evening": {
-            "readings": [
-                "Psalm 36",
-                "Isaiah 61",
-                "Titus 2:11\u201314",
-                "Titus 3:4\u20137"
-            ],
-            "reading_link": "Psalm+36%3B+Isaiah+61%3B+Titus+2:11-14%3BTitus+3:4-7",
-            "audio_link": "Ps.36,Isa.61,Titus.2,Titus.3"
-        }
-    },
-    "2024/01/14": {
-        "date_pretty": "Sunday, January 14, 2024",
         "day_description": "The Baptism of the Lord",
         "morning": {
             "readings": [
@@ -946,8 +791,8 @@ class Data {  data = {
             "audio_link": "Ps.46,Isa.42,Eph.2"
         }
     },
-    "2024/01/15": {
-        "date_pretty": "Monday, January 15, 2024",
+    "2024/01/08": {
+        "date_pretty": "Monday, January 8, 2024",
         "day_description": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -968,8 +813,8 @@ class Data {  data = {
             "audio_link": "Ps.34,Amos.1,1Cor.1"
         }
     },
-    "2024/01/16": {
-        "date_pretty": "Tuesday, January 16, 2024",
+    "2024/01/09": {
+        "date_pretty": "Tuesday, January 9, 2024",
         "day_description": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -990,8 +835,8 @@ class Data {  data = {
             "audio_link": "Ps.45,Amos.2,1Cor.1"
         }
     },
-    "2024/01/17": {
-        "date_pretty": "Wednesday, January 17, 2024",
+    "2024/01/10": {
+        "date_pretty": "Wednesday, January 10, 2024",
         "day_description": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1012,8 +857,8 @@ class Data {  data = {
             "audio_link": "Ps.47,Amos.3,1Cor.2"
         }
     },
-    "2024/01/18": {
-        "date_pretty": "Thursday, January 18, 2024",
+    "2024/01/11": {
+        "date_pretty": "Thursday, January 11, 2024",
         "day_description": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1034,8 +879,8 @@ class Data {  data = {
             "audio_link": "Ps.61,Amos.4,1Cor.3"
         }
     },
-    "2024/01/19": {
-        "date_pretty": "Friday, January 19, 2024",
+    "2024/01/12": {
+        "date_pretty": "Friday, January 12, 2024",
         "day_description": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1056,8 +901,8 @@ class Data {  data = {
             "audio_link": "Ps.68,Amos.5,1Cor.4"
         }
     },
-    "2024/01/20": {
-        "date_pretty": "Saturday, January 20, 2024",
+    "2024/01/13": {
+        "date_pretty": "Saturday, January 13, 2024",
         "day_description": "Week of 1st Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1078,8 +923,8 @@ class Data {  data = {
             "audio_link": "Ps.85,Amos.5,1Cor.5"
         }
     },
-    "2024/01/21": {
-        "date_pretty": "Sunday, January 21, 2024",
+    "2024/01/14": {
+        "date_pretty": "Sunday, January 14, 2024",
         "day_description": "2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1100,8 +945,8 @@ class Data {  data = {
             "audio_link": "Ps.96,Isa.60,Heb.6"
         }
     },
-    "2024/01/22": {
-        "date_pretty": "Monday, January 22, 2024",
+    "2024/01/15": {
+        "date_pretty": "Monday, January 15, 2024",
         "day_description": "Week of 2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1122,8 +967,8 @@ class Data {  data = {
             "audio_link": "Ps.71,Amos.6,1Cor.6"
         }
     },
-    "2024/01/23": {
-        "date_pretty": "Tuesday, January 23, 2024",
+    "2024/01/16": {
+        "date_pretty": "Tuesday, January 16, 2024",
         "day_description": "Week of 2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1144,8 +989,8 @@ class Data {  data = {
             "audio_link": "Ps.89,Amos.7,1Cor.6"
         }
     },
-    "2024/01/24": {
-        "date_pretty": "Wednesday, January 24, 2024",
+    "2024/01/17": {
+        "date_pretty": "Wednesday, January 17, 2024",
         "day_description": "Week of 2nd Sunday after the Epiphany",
         "morning": {
             "readings": [
@@ -1155,6 +1000,161 @@ class Data {  data = {
             ],
             "reading_link": "Psalm+81%3B+Genesis+8:1-14%3B+Matthew+24:29-",
             "audio_link": "Ps.81,Gen.8,Matt.24"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 97",
+                "Amos 8",
+                "1 Corinthians 7:1\u201324"
+            ],
+            "reading_link": "Psalm+97%3B+Amos+8%3B+1+Corinthians+7:1-24",
+            "audio_link": "Ps.97,Amos.8,1Cor.7"
+        }
+    },
+    "2024/01/18": {
+        "date_pretty": "Thursday, January 18, 2024",
+        "day_description": "Week of 2nd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                "Psalm 76",
+                "Genesis 8:15\u20139:7",
+                "Matthew 25:1\u201313"
+            ],
+            "reading_link": "Psalm+76%3B+Genesis+8:15-9:7%3B+Matthew+25:1-13",
+            "audio_link": "Ps.76,Gen.8,Matt.25"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 111",
+                "Amos 9",
+                "1 Corinthians 7:25\u2013end"
+            ],
+            "reading_link": "Psalm+111%3B+Amos+9%3B+1+Corinthians+7:25-",
+            "audio_link": "Ps.111,Amos.9,1Cor.7"
+        }
+    },
+    "2024/01/19": {
+        "date_pretty": "Friday, January 19, 2024",
+        "day_description": "Week of 2nd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                "Psalm 27",
+                "Genesis 9:8\u201319",
+                "Matthew 25:14\u201330"
+            ],
+            "reading_link": "Psalm+27%3B+Genesis+9:8-19%3B+Matthew+25:14-30",
+            "audio_link": "Ps.27,Gen.9,Matt.25"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 73",
+                "Hosea 1:1\u20132:1",
+                "1 Corinthians 8"
+            ],
+            "reading_link": "Psalm+73%3B+Hosea+1:1-2:1%3B+1+Corinthians+8",
+            "audio_link": "Ps.73,Hos.1,1Cor.8"
+        }
+    },
+    "2024/01/20": {
+        "date_pretty": "Saturday, January 20, 2024",
+        "day_description": "Week of 2nd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                "Psalm 122",
+                "Genesis 11:1\u20139",
+                "Matthew 25:31\u2013end"
+            ],
+            "reading_link": "Psalm+122%3B+Genesis+11:1-9%3B+Matthew+25:31-",
+            "audio_link": "Ps.122,Gen.11,Matt.25"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 61",
+                "Hosea 2:2\u201317",
+                "1 Corinthians 9:1\u201314"
+            ],
+            "reading_link": "Psalm+61%3B+Hosea+2:2-17%3B+1+Corinthians+9:1-14",
+            "audio_link": "Ps.61,Hos.2,1Cor.9"
+        }
+    },
+    "2024/01/21": {
+        "date_pretty": "Sunday, January 21, 2024",
+        "day_description": "3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                "Psalm 113",
+                "Jonah 3:1\u20135,10",
+                "John 3:16\u201321"
+            ],
+            "reading_link": "Psalm+113%3B+Jonah+3:1-5,10%3B+John+3:16-21",
+            "audio_link": "Ps.113,Jonah.3,John.3"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 33",
+                "Jeremiah 3:21\u20134:2",
+                "Titus 2:1\u20138,11\u201314"
+            ],
+            "reading_link": "Psalm+33%3B+Jeremiah+3:21-4:2%3B+Titus+2:1-8,11-14",
+            "audio_link": "Ps.33,Jer.3,Titus.2"
+        }
+    },
+    "2024/01/22": {
+        "date_pretty": "Monday, January 22, 2024",
+        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                "Psalm 108",
+                "Genesis 11:27\u201312:9",
+                "Matthew 26:1\u201316"
+            ],
+            "reading_link": "Psalm+108%3B+Genesis+11:27-12:9%3B+Matthew+26:1-16",
+            "audio_link": "Ps.108,Gen.11,Matt.26"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 138",
+                "Hosea 2:18\u2013end",
+                "Hosea 3",
+                "1 Corinthians 9:15\u2013end"
+            ],
+            "reading_link": "Psalm+138%3B+Hosea+2:18-%3B+Hosea+3%3B+1+Corinthians+9:15-",
+            "audio_link": "Ps.138,Hos.2,Hos.3,1Cor.9"
+        }
+    },
+    "2024/01/23": {
+        "date_pretty": "Tuesday, January 23, 2024",
+        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                "Psalm 36",
+                "Genesis 13:2\u2013end",
+                "Matthew 26:17\u201335"
+            ],
+            "reading_link": "Psalm+36%3B+Genesis+13:2-%3B+Matthew+26:17-35",
+            "audio_link": "Ps.36,Gen.13,Matt.26"
+        },
+        "evening": {
+            "readings": [
+                "Psalm 145",
+                "Hosea 4:1\u201316",
+                "1 Corinthians 10:1\u201313"
+            ],
+            "reading_link": "Psalm+145%3B+Hosea+4:1-16%3B+1+Corinthians+10:1-13",
+            "audio_link": "Ps.145,Hos.4,1Cor.10"
+        }
+    },
+    "2024/01/24": {
+        "date_pretty": "Wednesday, January 24, 2024",
+        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "morning": {
+            "readings": [
+                "Psalm 46",
+                "Genesis 14",
+                "Matthew 26:36\u201346"
+            ],
+            "reading_link": "Psalm+46%3B+Genesis+14%3B+Matthew+26:36-46",
+            "audio_link": "Ps.46,Gen.14,Matt.26"
         },
         "evening": {
             "readings": [
@@ -1192,148 +1192,147 @@ class Data {  data = {
     },
     "2024/01/26": {
         "date_pretty": "Friday, January 26, 2024",
-        "day_description": "Week of 2nd Sunday after the Epiphany",
+        "day_description": "Week of 3rd Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 27",
-                "Genesis 9:8\u201319",
-                "Matthew 25:14\u201330"
+                "Psalm 65",
+                "Genesis 16",
+                "Matthew 26:57\u2013end"
             ],
-            "reading_link": "Psalm+27%3B+Genesis+9:8-19%3B+Matthew+25:14-30",
-            "audio_link": "Ps.27,Gen.9,Matt.25"
+            "reading_link": "Psalm+65%3B+Genesis+16%3B+Matthew+26:57-",
+            "audio_link": "Ps.65,Gen.16,Matt.26"
         },
         "evening": {
             "readings": [
-                "Psalm 73",
-                "Hosea 1:1\u20132:1",
-                "1 Corinthians 8"
+                "Psalm 67",
+                "Hosea 6:7\u20137:2",
+                "1 Corinthians 11:17\u2013end"
             ],
-            "reading_link": "Psalm+73%3B+Hosea+1:1-2:1%3B+1+Corinthians+8",
-            "audio_link": "Ps.73,Hos.1,1Cor.8"
+            "reading_link": "Psalm+67%3B+Hosea+6:7-7:2%3B+1+Corinthians+11:17-",
+            "audio_link": "Ps.67,Hos.6,1Cor.11"
         }
     },
     "2024/01/27": {
         "date_pretty": "Saturday, January 27, 2024",
-        "day_description": "Week of 2nd Sunday after the Epiphany",
+        "day_description": "Week of 3rd Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 122",
-                "Genesis 11:1\u20139",
-                "Matthew 25:31\u2013end"
+                "Psalm 68",
+                "Genesis 17:1\u201322",
+                "Matthew 27:1\u201310"
             ],
-            "reading_link": "Psalm+122%3B+Genesis+11:1-9%3B+Matthew+25:31-",
-            "audio_link": "Ps.122,Gen.11,Matt.25"
+            "reading_link": "Psalm+68%3B+Genesis+17:1-22%3B+Matthew+27:1-10",
+            "audio_link": "Ps.68,Gen.17,Matt.27"
         },
         "evening": {
             "readings": [
-                "Psalm 61",
-                "Hosea 2:2\u201317",
-                "1 Corinthians 9:1\u201314"
+                "Psalm 72",
+                "Hosea 8",
+                "1 Corinthians 12:1\u201311"
             ],
-            "reading_link": "Psalm+61%3B+Hosea+2:2-17%3B+1+Corinthians+9:1-14",
-            "audio_link": "Ps.61,Hos.2,1Cor.9"
+            "reading_link": "Psalm+72%3B+Hosea+8%3B+1+Corinthians+12:1-11",
+            "audio_link": "Ps.72,Hos.8,1Cor.12"
         }
     },
     "2024/01/28": {
         "date_pretty": "Sunday, January 28, 2024",
-        "day_description": "3rd Sunday after the Epiphany",
+        "day_description": "4th Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 113",
-                "Jonah 3:1\u20135,10",
-                "John 3:16\u201321"
+                "Psalm 71:1\u20136,15\u201317",
+                "Jeremiah 1:4\u201310",
+                "Mark 1:40\u201345"
             ],
-            "reading_link": "Psalm+113%3B+Jonah+3:1-5,10%3B+John+3:16-21",
-            "audio_link": "Ps.113,Jonah.3,John.3"
+            "reading_link": "Psalm+71:1-6,15-17%3B+Jeremiah+1:4-10%3B+Mark+1:40-45",
+            "audio_link": "Ps.71,Jer.1,Mark.1"
         },
         "evening": {
             "readings": [
-                "Psalm 33",
-                "Jeremiah 3:21\u20134:2",
-                "Titus 2:1\u20138,11\u201314"
+                "Psalm 34",
+                "1 Samuel 3:1\u201320",
+                "1 Corinthians 14:12\u201320"
             ],
-            "reading_link": "Psalm+33%3B+Jeremiah+3:21-4:2%3B+Titus+2:1-8,11-14",
-            "audio_link": "Ps.33,Jer.3,Titus.2"
+            "reading_link": "Psalm+34%3B+1+Samuel+3:1-20%3B+1+Corinthians+14:12-20",
+            "audio_link": "Ps.34,1Sam.3,1Cor.14"
         }
     },
     "2024/01/29": {
         "date_pretty": "Monday, January 29, 2024",
-        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "day_description": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 108",
-                "Genesis 11:27\u201312:9",
-                "Matthew 26:1\u201316"
+                "Psalm 57",
+                "Genesis 18:1\u201315",
+                "Matthew 27:11\u201326"
             ],
-            "reading_link": "Psalm+108%3B+Genesis+11:27-12:9%3B+Matthew+26:1-16",
-            "audio_link": "Ps.108,Gen.11,Matt.26"
+            "reading_link": "Psalm+57%3B+Genesis+18:1-15%3B+Matthew+27:11-26",
+            "audio_link": "Ps.57,Gen.18,Matt.27"
         },
         "evening": {
             "readings": [
-                "Psalm 138",
-                "Hosea 2:18\u2013end",
-                "Hosea 3",
-                "1 Corinthians 9:15\u2013end"
+                "Psalm 20",
+                "Hosea 9",
+                "1 Corinthians 12:12\u2013end"
             ],
-            "reading_link": "Psalm+138%3B+Hosea+2:18-%3B+Hosea+3%3B+1+Corinthians+9:15-",
-            "audio_link": "Ps.138,Hos.2,Hos.3,1Cor.9"
+            "reading_link": "Psalm+20%3B+Hosea+9%3B+1+Corinthians+12:12-",
+            "audio_link": "Ps.20,Hos.9,1Cor.12"
         }
     },
     "2024/01/30": {
         "date_pretty": "Tuesday, January 30, 2024",
-        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "day_description": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 36",
-                "Genesis 13:2\u2013end",
-                "Matthew 26:17\u201335"
+                "Psalm 93",
+                "Genesis 18:16\u2013end",
+                "Matthew 27:27\u201344"
             ],
-            "reading_link": "Psalm+36%3B+Genesis+13:2-%3B+Matthew+26:17-35",
-            "audio_link": "Ps.36,Gen.13,Matt.26"
+            "reading_link": "Psalm+93%3B+Genesis+18:16-%3B+Matthew+27:27-44",
+            "audio_link": "Ps.93,Gen.18,Matt.27"
         },
         "evening": {
             "readings": [
-                "Psalm 145",
-                "Hosea 4:1\u201316",
-                "1 Corinthians 10:1\u201313"
+                "Psalm 19",
+                "Hosea 10",
+                "1 Corinthians 13"
             ],
-            "reading_link": "Psalm+145%3B+Hosea+4:1-16%3B+1+Corinthians+10:1-13",
-            "audio_link": "Ps.145,Hos.4,1Cor.10"
+            "reading_link": "Psalm+19%3B+Hosea+10%3B+1+Corinthians+13",
+            "audio_link": "Ps.19,Hos.10,1Cor.13"
         }
     },
     "2024/01/31": {
         "date_pretty": "Wednesday, January 31, 2024",
-        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "day_description": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 46",
-                "Genesis 14",
-                "Matthew 26:36\u201346"
+                "Psalm 95",
+                "Genesis 19:1\u20133,19:12\u201329",
+                "Matthew 27:45\u201356"
             ],
-            "reading_link": "Psalm+46%3B+Genesis+14%3B+Matthew+26:36-46",
-            "audio_link": "Ps.46,Gen.14,Matt.26"
+            "reading_link": "Psalm+95%3B+Genesis+19:1-3,19:12-29%3B+Matthew+27:45-56",
+            "audio_link": "Ps.95,Gen.19,Matt.27"
         },
         "evening": {
             "readings": [
-                "Psalm 29",
-                "Hosea 5:1\u20137",
-                "1 Corinthians 10:14\u201311:1"
+                "Psalm 81",
+                "Hosea 11:1\u201311",
+                "1 Corinthians 14:1\u201319"
             ],
-            "reading_link": "Psalm+29%3B+Hosea+5:1-7%3B+1+Corinthians+10:14-11:1",
-            "audio_link": "Ps.29,Hos.5,1Cor.10"
+            "reading_link": "Psalm+81%3B+Hosea+11:1-11%3B+1+Corinthians+14:1-19",
+            "audio_link": "Ps.81,Hos.11,1Cor.14"
         }
     },
     "2024/02/01": {
         "date_pretty": "Thursday, February 1, 2024",
-        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "day_description": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
-                "Psalm 47",
-                "Genesis 15",
-                "Matthew 26:47\u201356"
+                "Psalm 110",
+                "Genesis 21:1\u201321",
+                "Matthew 27:57\u2013end"
             ],
-            "reading_link": "Psalm+47%3B+Genesis+15%3B+Matthew+26:47-56",
-            "audio_link": "Ps.47,Gen.15,Matt.26"
+            "reading_link": "Psalm+110%3B+Genesis+21:1-21%3B+Matthew+27:57-",
+            "audio_link": "Ps.110,Gen.21,Matt.27"
         },
         "evening": {
             "readings": [
@@ -1369,24 +1368,24 @@ class Data {  data = {
     },
     "2024/02/03": {
         "date_pretty": "Saturday, February 3, 2024",
-        "day_description": "Week of 3rd Sunday after the Epiphany",
+        "day_description": "Week of 4th Sunday after the Epiphany",
         "morning": {
             "readings": [
                 "Psalm 23",
-                "Genesis 17:1\u201322",
-                "Matthew 27:1\u201310"
+                "Genesis 23",
+                "Matthew 28:16\u2013end"
             ],
-            "reading_link": "Psalm+23%3B+Genesis+17:1-22%3B+Matthew+27:1-10",
-            "audio_link": "Ps.23,Gen.17,Matt.27"
+            "reading_link": "Psalm+23%3B+Genesis+23%3B+Matthew+28:16-",
+            "audio_link": "Ps.23,Gen.23,Matt.28"
         },
         "evening": {
             "readings": [
                 "Psalm 24",
-                "Hosea 8",
-                "1 Corinthians 12:1\u201311"
+                "Hosea 14",
+                "1 Corinthians 16:10\u2013end"
             ],
-            "reading_link": "Psalm+24%3B+Hosea+8%3B+1+Corinthians+12:1-11",
-            "audio_link": "Ps.24,Hos.8,1Cor.12"
+            "reading_link": "Psalm+24%3B+Hosea+14%3B+1+Corinthians+16:10-",
+            "audio_link": "Ps.24,Hos.14,1Cor.16"
         }
     },
     "2024/02/04": {

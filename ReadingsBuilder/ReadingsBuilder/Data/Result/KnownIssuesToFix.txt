@@ -16,6 +16,6 @@ So this needs to be done in a new ruleset to be correct.
 - 2024 starts on a Saturday, and they seem to take the last sat one before starting, whereas we've skipped the first week until the first saturday
 
 6. When epiphany falls on a Sunday (it is usually before Sunday), then the other readings shuffle later by one week, and the last one (4th Sunday after ephiph) goes on the 3rd of Feb.
-- 2019
+- Last happened 2019, won't happen for ages
 
 Only tested 2024 until 6th Jan so far...
