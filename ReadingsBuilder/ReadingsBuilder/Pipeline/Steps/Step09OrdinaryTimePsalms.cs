@@ -38,13 +38,29 @@ namespace ReadingsBuilder.Pipeline.Steps
 
             var applicableRules = ApplicableRules(liturgicalYear.RclYear);
 
-            // Presentation of Jesus on 2nd Feb seems to be the first day of ordinary time Psalms
-            // Presentation of Jesus has its own readings, but if not celebrated, then the psalm readings are ordinary time ones.
-            var presentationOfJesus = workingResult.Result.Keys.FirstOrDefault(date => date.Month == 2 && date.Day == 2);
-            var shroveTuesday = workingResult.Input.AshWednesday.Value.Clone().AddDays(-1);
-            var RulesToStartWith = applicableRules.First(rule => rule.Weekday == presentationOfJesus.DayOfWeek);
+            // The day after the presentation of Jesus on 2nd Feb is first day of ordinary time Psalms (as per weekday lectionary p.28)
+            // The cycle start is defined by week 4 starting on the Mon between 2-8th of Jan, even though the first day it applies is the 3rd of Feb (p32)
+            // This usually works out to mean we're starting after the presentation on Week 1, but not always!
+            var firstDay = workingResult.Result.Keys.FirstOrDefault(date => date.Month == 2 && date.Day == 3);
+            var lastDay = workingResult.Input.AshWednesday.Value.Clone().AddDays(-1);
 
-            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, presentationOfJesus, RulesToStartWith, shroveTuesday);
+            var mondayThatIsWeek4 = workingResult.Result.Keys.FirstOrDefault(date => date.Month == 1 && date.Day >= 2 && date.DayOfWeek == DayOfWeek.Monday);
+            var mondayOfWeekOfTheFirstDay = workingResult.Result
+                                                         .Keys
+                                                         .LastOrDefault(date =>
+                                                            date.DayNumber <= firstDay.DayNumber
+                                                            && date.DayOfWeek == DayOfWeek.Monday
+                                                         );
+
+            var weeksBetweenWeek4AndStartingDayWeek = (mondayOfWeekOfTheFirstDay.DayNumber - mondayThatIsWeek4.DayNumber) / 7;
+            
+            var zeroBasedStartingCycleWeek = (weeksBetweenWeek4AndStartingDayWeek + 3) % 7; // week 4 is 3 in zero based system, and mod needs 0 based anyway
+            var zeroBasedStartingDay = (int)firstDay.DayOfWeek;  // for this enum, Sunday = 0, and that is also where we start our week from
+            var indexOfRuleToStartWith = (zeroBasedStartingCycleWeek) * 7 + zeroBasedStartingDay;
+
+            var RulesToStartWith = applicableRules[indexOfRuleToStartWith];
+
+            ruleSetApplier.ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, firstDay, RulesToStartWith, lastDay, rulesLoopAround: true);
 
             return workingResult;
         }
@@ -61,19 +77,16 @@ namespace ReadingsBuilder.Pipeline.Steps
                 throw new ArgumentNullException(nameof(workingResult.Input.FourthSundayBeforeAdvent));
             }
 
-            if (workingResult.Input?.OrdinaryTimePsalmsSecondChunkStartingIndex == null)
-            {
-                throw new ArgumentNullException(nameof(workingResult.Input.OrdinaryTimePsalmsSecondChunkStartingIndex));
-            }
-
             var applicableRules = ApplicableRules(liturgicalYear.RclYear);
+
+            // The day after pentecost is first day of ordinary time Psalms (as per weekday lectionary p.28)
+            // The cycle start is defined by week 1 starting on the monday after 2nd Sunday of easter (see p.32)
+            // But because there are always exactly the same number of weeks between pentecost and 2nd sunday of easter
+            // we don't need to calculate it, we can just always start on Mon of week 7 (ie. the rule with index 43).
 
             var firstMondayDate = workingResult.Input.Pentecost.Value.AddDays(1);
             var lastSaturdayDate = workingResult.Input.FourthSundayBeforeAdvent.Value.AddDays(-1);
-            var ruleIndex = workingResult
-                .Input
-                .OrdinaryTimePsalmsSecondChunkStartingIndex
-                .Value;
+            var ruleIndex = 43; // zero based week(ie. 6) * 7 + dayIndex(ie. 1) = 43
             var RulesToStartWith = applicableRules[ruleIndex];
 
             ruleSetApplier.ApplyRulesByDayOfWeek(workingResult,
