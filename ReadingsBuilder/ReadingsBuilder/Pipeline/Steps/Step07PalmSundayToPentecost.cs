@@ -5,20 +5,20 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step06PalmSundayToPentecost : BaseStep, IStep
+    public class Step07PalmSundayToPentecost : BaseStep, IStep
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step06PalmSundayToPentecost(IRuleApplier ruleApplier, 
+        public Step07PalmSundayToPentecost(IRuleApplier ruleApplier, 
             IRulesFactory dataFactory, 
             IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 5;
+        public int Order => 7;
 
-        protected override string RuleSetName => "PalmSundayToPentecost.cs";
+        protected override string RuleSetName => "PalmSundayToPentecost";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {

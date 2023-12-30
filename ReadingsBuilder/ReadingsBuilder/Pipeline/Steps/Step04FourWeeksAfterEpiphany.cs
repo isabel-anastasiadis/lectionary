@@ -14,9 +14,9 @@ namespace ReadingsBuilder.Pipeline.Steps
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 3;
+        public int Order => 4;
 
-        protected override string RuleSetName => "FourWeeksAfterEpiphany.cs";
+        protected override string RuleSetName => "FourWeeksAfterEpiphany";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {

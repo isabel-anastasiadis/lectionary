@@ -5,18 +5,18 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step09OrdinaryTimePsalms : BaseStep, IStep
+    public class Step10OrdinaryTimePsalms : BaseStep, IStep
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step09OrdinaryTimePsalms(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step10OrdinaryTimePsalms(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 8;
+        public int Order => 10;
 
-        protected override string RuleSetName => "OrdinaryTimePsalms.cs";
+        protected override string RuleSetName => "OrdinaryTimePsalms";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {

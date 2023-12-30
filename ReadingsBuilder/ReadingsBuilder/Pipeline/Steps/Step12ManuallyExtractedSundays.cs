@@ -6,18 +6,18 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step11ManuallyExtractedSundays : BaseStep, IStep
+    public class Step12ManuallyExtractedSundays : BaseStep, IStep
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step11ManuallyExtractedSundays(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step12ManuallyExtractedSundays(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 10;
+        public int Order => 12;
 
-        protected override string RuleSetName => "ManuallyExtractedSundays.cs";
+        protected override string RuleSetName => "ManuallyExtractedSundays";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {

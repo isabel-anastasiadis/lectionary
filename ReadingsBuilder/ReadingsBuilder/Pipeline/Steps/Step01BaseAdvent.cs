@@ -6,16 +6,16 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step01AdventToEpiphany : BaseStep, IStep
+    public class Step01BaseAdvent : BaseStep, IStep
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
         public int Order => 1;
 
-        protected override string RuleSetName => "BaseAdvent.cs";
+        protected override string RuleSetName => "BaseAdvent";
 
 
-        public Step01AdventToEpiphany(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier ) 
+        public Step01BaseAdvent(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfWeekRuleSetApplier ruleSetApplier ) 
             : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
