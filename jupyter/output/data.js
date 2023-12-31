@@ -1580,11 +1580,11 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 28",
-                "N/A",
+                "Jeremiah 1",
                 "John 3:1\u201321"
             ],
-            "reading_link": "Psalm+28%3B+N/A%3B+John+3:1-21",
-            "audio_link": "Ps.28,N/A,John.3"
+            "reading_link": "Psalm+28%3B+Jeremiah+1%3B+John+3:1-21",
+            "audio_link": "Ps.28,Jer.1,John.3"
         }
     },
     "2024/02/13": {
@@ -1602,11 +1602,11 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 33",
-                "N/A",
+                "Jeremiah 2:1\u201313",
                 "John 3:22\u2013end"
             ],
-            "reading_link": "Psalm+33%3B+N/A%3B+John+3:22-",
-            "audio_link": "Ps.33,N/A,John.3"
+            "reading_link": "Psalm+33%3B+Jeremiah+2:1-13%3B+John+3:22-",
+            "audio_link": "Ps.33,Jer.2,John.3"
         }
     },
     "2024/02/14": {
@@ -1712,12 +1712,11 @@ class Data {  data = {
         "evening": {
             "readings": [
                 "Psalm 119:17\u201332",
-                "Genesis 2:15\u201317",
-                "3:1\u20137",
+                "Genesis 2:15\u201317,3:1\u20137",
                 "Romans 5:12\u201319"
             ],
-            "reading_link": "Psalm+119:17-32%3B+Genesis+2:15-17%3B+3:1-7%3B+Romans+5:12-19",
-            "audio_link": "Ps.119,Gen.2,3,Rom.5"
+            "reading_link": "Psalm+119:17-32%3B+Genesis+2:15-17,3:1-7%3B+Romans+5:12-19",
+            "audio_link": "Ps.119,Gen.2,Rom.5"
         }
     },
     "2024/02/19": {

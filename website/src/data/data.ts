@@ -3317,9 +3317,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.28"
                 },
                 {
-                    "pretty": "N/A",
-                    "readQS": "N/A",
-                    "audioQS": "N/A"
+                    "pretty": "Jeremiah 1",
+                    "readQS": "Jeremiah+1",
+                    "audioQS": "Jer.1"
                 },
                 {
                     "pretty": "John 3:1\u201321",
@@ -3327,8 +3327,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "John.3"
                 }
             ],
-            "readQS": "Psalm+28%3B+N/A%3B+John+3:1-21",
-            "audioQS": "Ps.28,N/A,John.3"
+            "readQS": "Psalm+28%3B+Jeremiah+1%3B+John+3:1-21",
+            "audioQS": "Ps.28,Jer.1,John.3"
         }
     },
     "2024/02/13": {
@@ -3363,9 +3363,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.33"
                 },
                 {
-                    "pretty": "N/A",
-                    "readQS": "N/A",
-                    "audioQS": "N/A"
+                    "pretty": "Jeremiah 2:1\u201313",
+                    "readQS": "Jeremiah+2:1-13",
+                    "audioQS": "Jer.2"
                 },
                 {
                     "pretty": "John 3:22\u2013end",
@@ -3373,8 +3373,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "John.3"
                 }
             ],
-            "readQS": "Psalm+33%3B+N/A%3B+John+3:22-",
-            "audioQS": "Ps.33,N/A,John.3"
+            "readQS": "Psalm+33%3B+Jeremiah+2:1-13%3B+John+3:22-",
+            "audioQS": "Ps.33,Jer.2,John.3"
         }
     },
     "2024/02/14": {
@@ -3593,14 +3593,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Ps.119"
                 },
                 {
-                    "pretty": "Genesis 2:15\u201317",
-                    "readQS": "Genesis+2:15-17",
+                    "pretty": "Genesis 2:15\u201317,3:1\u20137",
+                    "readQS": "Genesis+2:15-17,3:1-7",
                     "audioQS": "Gen.2"
-                },
-                {
-                    "pretty": "3:1\u20137",
-                    "readQS": "3:1-7",
-                    "audioQS": "3"
                 },
                 {
                     "pretty": "Romans 5:12\u201319",
@@ -3608,8 +3603,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Rom.5"
                 }
             ],
-            "readQS": "Psalm+119:17-32%3B+Genesis+2:15-17%3B+3:1-7%3B+Romans+5:12-19",
-            "audioQS": "Ps.119,Gen.2,3,Rom.5"
+            "readQS": "Psalm+119:17-32%3B+Genesis+2:15-17,3:1-7%3B+Romans+5:12-19",
+            "audioQS": "Ps.119,Gen.2,Rom.5"
         }
     },
     "2024/02/19": {
