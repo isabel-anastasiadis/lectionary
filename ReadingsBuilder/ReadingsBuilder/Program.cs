@@ -24,14 +24,8 @@ var pipeline = DependencyInjector.GetInstance<IPipeline>();
 var resultWriter = DependencyInjector.GetInstance<IResultWriter>();
 
 // previous years results (for regression detection)
-var previousYearsInputs = new List<Input>() 
-{
-    Inputs.FOR_2021_TO_2022,
-    Inputs.FOR_2022_TO_2023
-};
-
 File.Delete(Path.Combine(ResultWriter.DefaultFilePath, "PreviousResults.csv"));
-foreach (var previousYearsInput in previousYearsInputs)
+foreach (var previousYearsInput in Inputs.All)
 {
     var previousYearsResults = pipeline.Run(previousYearsInput);
     resultWriter.WriteResult(previousYearsResults, "PreviousResults.csv", overwrite: false, logToConsole: false);

@@ -12,9 +12,9 @@ namespace ReadingsBuilder.Pipeline.Steps
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 4;
+        public int Order => 5;
 
-        protected override string RuleSetName => "Lent.cs";
+        protected override string RuleSetName => "Lent";
 
         private const int WeeksInLent = 5;
         private const int WeeksOfDataForPreLentTime = 5;

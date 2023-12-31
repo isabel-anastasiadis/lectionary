@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using NUnit.Framework;
 using ReadingsBuilder;
@@ -23,12 +24,16 @@ namespace Tests.Pipeline
             var resultToRowsMapper = DependencyInjector.GetInstance<IResultToRowsMapper>();
             var csvWriter = DependencyInjector.GetInstance<ICsvWriter>();
 
-            var input = Inputs.FOR_2021_TO_2022;
-
             // act
-            var result = classUnderTest.Run(input);
-            var resultAsRowsOfRowsOfString = resultToRowsMapper.Map(result.Result);
-            var csvString = csvWriter.WriteToCSV(resultAsRowsOfRowsOfString);
+            var allRowsOfRowsOfString = new List<List<string>>();
+            foreach (var input in Inputs.All)
+            {
+                var result = classUnderTest.Run(input);
+                var resultAsRowsOfRowsOfString = resultToRowsMapper.Map(result.Result);
+                allRowsOfRowsOfString.AddRange(resultAsRowsOfRowsOfString);
+            }
+           
+            var csvString = csvWriter.WriteToCSV(allRowsOfRowsOfString);
 
             var expectedCsvString = File.ReadAllText(snapshotDirectory + @"\PreviousResults.csv");
 
@@ -45,7 +50,7 @@ namespace Tests.Pipeline
             var resultToRowsMapper = DependencyInjector.GetInstance<IResultToRowsMapper>();
             var csvWriter = DependencyInjector.GetInstance<ICsvWriter>();
 
-            var input = Inputs.FOR_2022_TO_2023;
+            var input = Inputs.FOR_2023_TO_2024;
 
             // act
             var result = classUnderTest.Run(input);

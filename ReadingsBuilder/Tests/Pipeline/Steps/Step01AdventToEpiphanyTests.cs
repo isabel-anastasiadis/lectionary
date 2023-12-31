@@ -17,7 +17,7 @@ namespace Tests.Pipeline.Steps
     public class Step01AdventToEpiphanyTests
     {
 
-        private const string ClassName = "BaseAdvent.cs";
+        private const string ClassName = "BaseAdvent";
 
         private List<Rule> _defaultRules = new List<Rule>() {
             new Rule(){
@@ -74,7 +74,7 @@ namespace Tests.Pipeline.Steps
         private Mock<IByDayOfWeekRuleSetApplier>? _ruleSetApplierMock;
 
 
-        private Step01AdventToEpiphany ClassUnderTest(List<Rule>? rules = null)
+        private Step01BaseAdvent ClassUnderTest(List<Rule>? rules = null)
         {
             var allData = rules ?? _defaultRules;
 
@@ -82,7 +82,7 @@ namespace Tests.Pipeline.Steps
             dataFactoryMock.Setup(m => m.GenerateAllData(null)).Returns(allData);
 
 
-            return new Step01AdventToEpiphany(new RuleApplier(), dataFactoryMock.Object, _ruleSetApplierMock.Object);
+            return new Step01BaseAdvent(new RuleApplier(), dataFactoryMock.Object, _ruleSetApplierMock.Object);
 
         }
 
@@ -103,7 +103,7 @@ namespace Tests.Pipeline.Steps
             try
             {
 
-                new Step01AdventToEpiphany(Mock.Of<IRuleApplier>(), null, Mock.Of<IByDayOfWeekRuleSetApplier>());
+                new Step01BaseAdvent(Mock.Of<IRuleApplier>(), null, Mock.Of<IByDayOfWeekRuleSetApplier>());
 
                 Assert.Fail("Should have thrown ArgumentNullException");
 
@@ -115,7 +115,7 @@ namespace Tests.Pipeline.Steps
         }
 
         [TestCase(ClassName, RuleType.ByDayOfWeek, true)]
-        [TestCase("SomeOtherClass.cs", RuleType.ByDayOfWeek, false)]
+        [TestCase("SomeOtherClass", RuleType.ByDayOfWeek, false)]
         public void ApplicableRulesRequiresAtLeastOneMatchingRule(string handlingClassName, RuleType ruleType, bool shouldPass)
         {
 

@@ -1,16 +1,11 @@
 ﻿
-2. Rules when Naming of Jesus falls on a Sunday (still don't understand the rules here)
+2. Rules when Naming of Jesus and baptism of christ fall on a Sunday (happen at the same time)
 - When the Festival of the Naming and Circumcision of Jesus, falling on a Sunday, is transferred to Monday 2 January, the Sunday is kept as the Second Sunday of Christmas but the provision for the First Sunday of Christmas is used.
-- 2023/01/01
+- When the baptism of christ falls on a Sunday and the epiphany is celebrated on that sunday instead of the actual day, then the baptism of christ is pushed to Mon 9th.
+- I think this is because you can either celebrate feast days on their proper day, or shift them if they fall on a Sunday, 
+  and I'm keeping it simple by not shifting.  So until I want to make it more comprehensive, don't need to do anything here.
+- Both affect 2023/01/01
 
-3. Sundays between Ephiphany and 2nd Sun before Lent start from the beginning of the list of readings, and miss later ones (whereas weekday lectionary have a list they work backwards from).
-So this needs to be done in a new ruleset to be correct.
-- All years
-
-4. Special RCL for Christmas Eve, Christmas Day, Presentation of Christ
-
-
-5. When epiphany falls on a Sunday (it is usually before Sunday), then the other readings shuffle later by one week, and the last one (4th Sunday after ephiph) goes on the 3rd of Feb.
-- 2024/01/07+
-
-Only tested 2024 until 6th Jan so far...
+6. When epiphany falls on a Sunday (it is usually before Sunday), then the other readings shuffle later by one week, 
+   and the last one (4th Sunday after ephiph) goes on the 3rd of Feb.
+- Last happened 2019, won't happen for ages

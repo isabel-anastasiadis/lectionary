@@ -5,20 +5,20 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step07OrdinaryTimeAfterPentecost : BaseStep, IStep
+    public class Step08OrdinaryTimeAfterPentecost : BaseStep, IStep
     {
         private readonly IByDayOfWeekRuleSetApplier ruleSetApplier;
 
-        public Step07OrdinaryTimeAfterPentecost(IRuleApplier ruleApplier, 
+        public Step08OrdinaryTimeAfterPentecost(IRuleApplier ruleApplier, 
             IRulesFactory dataFactory, 
             IByDayOfWeekRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 6;
+        public int Order => 8;
 
-        protected override string RuleSetName => "OrdinaryTimeAfterPentecost.cs";
+        protected override string RuleSetName => "OrdinaryTimeAfterPentecost";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {

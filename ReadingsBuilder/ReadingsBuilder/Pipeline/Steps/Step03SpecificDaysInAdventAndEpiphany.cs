@@ -12,11 +12,11 @@ namespace ReadingsBuilder.Pipeline.Steps
     /// 
     /// So we are applying the day names separately, and then when we apply the advent/epiphany overrides, we skip if it is a Sunday.
     /// </summary>
-    public class Step03AdventToEpiphanyOverrides : BaseStep, IStep
+    public class Step03SpecificDaysInAdventAndEpiphany : BaseStep, IStep
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step03AdventToEpiphanyOverrides(IRuleApplier ruleApplier, 
+        public Step03SpecificDaysInAdventAndEpiphany(IRuleApplier ruleApplier, 
             IRulesFactory dataFactory,
             IByDayOfMonthRuleSetApplier ruleSetApplier)
             : base(ruleApplier, dataFactory)
@@ -24,9 +24,9 @@ namespace ReadingsBuilder.Pipeline.Steps
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 2;
+        public int Order => 3;
 
-        protected override string RuleSetName => "SpecificDaysInAdventAndEpiphany.cs";
+        protected override string RuleSetName => "SpecificDaysInAdventAndEpiphany";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear)
         {

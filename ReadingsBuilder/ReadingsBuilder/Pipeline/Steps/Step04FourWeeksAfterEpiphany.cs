@@ -14,9 +14,9 @@ namespace ReadingsBuilder.Pipeline.Steps
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 3;
+        public int Order => 4;
 
-        protected override string RuleSetName => "FourWeeksAfterEpiphany.cs";
+        protected override string RuleSetName => "FourWeeksAfterEpiphany";
 
         public PipelineWorkingResult RunStep(PipelineWorkingResult workingResult, Model.LiturgicalYear liturgicalYear)
         {
@@ -27,9 +27,10 @@ namespace ReadingsBuilder.Pipeline.Steps
             }
 
             // work out what one to start with
+            // Baptism of the lord is the first Sun after epiphany, so need the sat before to do the EP before
             var dateOfFirstDayTheRuleAppliesTo = workingResult.Result.Keys
                 .OrderBy(x => x)
-                .Where(x => x.Month == 1 && x.Day > 6 && x.DayOfWeek == DayOfWeek.Saturday)  // The first Saturday after the 6th Jan
+                .Where(x => x.Month == 1 && x.Day >= 6 && x.DayOfWeek == DayOfWeek.Saturday)  // The first Saturday including or after the 6th Jan
                 .FirstOrDefault();
 
             var applicableRules = ApplicableRules(liturgicalYear.RclYear);
