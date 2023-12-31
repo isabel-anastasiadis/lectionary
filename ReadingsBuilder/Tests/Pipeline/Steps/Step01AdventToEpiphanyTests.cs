@@ -17,7 +17,7 @@ namespace Tests.Pipeline.Steps
     public class Step01AdventToEpiphanyTests
     {
 
-        private const string ClassName = "BaseAdvent.cs";
+        private const string ClassName = "BaseAdvent";
 
         private List<Rule> _defaultRules = new List<Rule>() {
             new Rule(){
@@ -115,7 +115,7 @@ namespace Tests.Pipeline.Steps
         }
 
         [TestCase(ClassName, RuleType.ByDayOfWeek, true)]
-        [TestCase("SomeOtherClass.cs", RuleType.ByDayOfWeek, false)]
+        [TestCase("SomeOtherClass", RuleType.ByDayOfWeek, false)]
         public void ApplicableRulesRequiresAtLeastOneMatchingRule(string handlingClassName, RuleType ruleType, bool shouldPass)
         {
 
