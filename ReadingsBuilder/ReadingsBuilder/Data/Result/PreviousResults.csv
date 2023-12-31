@@ -735,3 +735,117 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/11/30,"Thursday, November 30, 2023",St Andrew the Apostle,"Psalm 47,147:1-11; Ezekiel 47:1-12; John 12:20-32","Psalm 87,96; Zechariah 8:20-23; John 1:35-42"
 2023/12/01,"Friday, December 1, 2023",Week of 1st Sunday before Advent,Psalm 139; Isaiah 22:1–14; Matthew 11:2–19,Psalm 146; Isaiah 41:21–42:9; Revelation 17
 2023/12/02,"Saturday, December 2, 2023",Week of 1st Sunday before Advent,Psalm 145; Isaiah 24; Matthew 11:20–end,Psalm 150; Isaiah 42:10–17; Revelation 18
+date,date_pretty,day_description,morning_prayers_together,evening_prayers_together
+2023/12/03,"Sunday, December 3, 2023",1st Sunday of Advent,Psalm 44; Isaiah 2:1-5; Luke 12:35-48,Psalm 25*; Isaiah 1:1-20; Matthew 21:1-13
+2023/12/04,"Monday, December 4, 2023",Week of 1st Sunday of Advent,Psalm 50; Isaiah 25:1–9; Matthew 12:1–21,Psalm 71; Isaiah 42:18–end; Revelation 19
+2023/12/05,"Tuesday, December 5, 2023",Week of 1st Sunday of Advent,Psalm 80; Isaiah 26:1–13; Matthew 12:22–37,Psalm 74; Isaiah 43:1–13; Revelation 20
+2023/12/06,"Wednesday, December 6, 2023",Week of 1st Sunday of Advent,Psalm 7; Isaiah 28:1–13; Matthew 12:38–end,Psalm 77; Isaiah 43:14–end; Revelation 21:1–8
+2023/12/07,"Thursday, December 7, 2023",Week of 1st Sunday of Advent,Psalm 42; Isaiah 28:14–end; Matthew 13:1–23,Psalm 40; Isaiah 44:1–8; Revelation 21:9–21
+2023/12/08,"Friday, December 8, 2023",Week of 1st Sunday of Advent,Psalm 25; Isaiah 29:1–14; Matthew 13:24–43,Psalm 17; Isaiah 44:9–23; Revelation 21:22–22:5
+2023/12/09,"Saturday, December 9, 2023",Week of 1st Sunday of Advent,Psalm 9; Isaiah 29:15–end; Matthew 13:44–end,Psalm 27; Isaiah 44:24–45:13; Revelation 22:6–end
+2023/12/10,"Sunday, December 10, 2023",2nd Sunday of Advent,Psalm 80; Zephaniah 3:14-20; Luke 1:5-20,Psalm 40*; 1 Kings 22:1-28; Romans 15:4-13
+2023/12/11,"Monday, December 11, 2023",Week of 2nd Sunday of Advent,Psalm 44; Isaiah 30:1–18; Matthew 14:1–12,Psalm 144; Isaiah 45:14–end; 1 Thessalonians 1
+2023/12/12,"Tuesday, December 12, 2023",Week of 2nd Sunday of Advent,Psalm 56; Isaiah 30:19–end; Matthew 14:13–end,Psalm 11; Isaiah 46; 1 Thessalonians 2:1–12
+2023/12/13,"Wednesday, December 13, 2023",Week of 2nd Sunday of Advent,Psalm 62; Isaiah 31; Matthew 15:1–20,Psalm 10; Isaiah 47; 1 Thessalonians 2:13–end
+2023/12/14,"Thursday, December 14, 2023",Week of 2nd Sunday of Advent,Psalm 54; Isaiah 32; Matthew 15:21–28,Psalm 73; Isaiah 48:1–11; 1 Thessalonians 3
+2023/12/15,"Friday, December 15, 2023",Week of 2nd Sunday of Advent,Psalm 86; Isaiah 33:1–22; Matthew 15:29–end,Psalm 90; Isaiah 48:12–end; 1 Thessalonians 4:1–12
+2023/12/16,"Saturday, December 16, 2023",Week of 2nd Sunday of Advent,Psalm 145; Isaiah 35; Matthew 16:1–12,Psalm 94; Isaiah 49:1–13; 1 Thessalonians 4:13–end
+2023/12/17,"Sunday, December 17, 2023",3rd Sunday of Advent,"Psalm 50:1-6,62; Isaiah 12; Luke 1:57-66","Psalm 68:1-19*; Malachi 3:1-4,4:1-end; Philippians 4:4-7"
+2023/12/18,"Monday, December 18, 2023",Week of 3rd Sunday of Advent,"Psalm 40; Isaiah 38:1–8,38:21–22; Matthew 16:13–end",Psalm 26; Isaiah 49:14–25; 1 Thessalonians 5:1–11
+2023/12/19,"Tuesday, December 19, 2023",Week of 3rd Sunday of Advent,Psalm 146; Isaiah 38:9–20; Matthew 17:1–13,Psalm 57; Isaiah 50; 1 Thessalonians 5:12–end
+2023/12/20,"Wednesday, December 20, 2023",Week of 3rd Sunday of Advent,Psalm 46; Isaiah 39; Matthew 17:14–21,Psalm 4; Isaiah 51:1–8; 2 Thessalonians 1
+2023/12/21,"Thursday, December 21, 2023",Week of 3rd Sunday of Advent,Psalm 121; Zephaniah 1:1–2:3; Matthew 17:22–end,Psalm 84; Isaiah 51:9–16; 2 Thessalonians 2
+2023/12/22,"Friday, December 22, 2023",Week of 3rd Sunday of Advent,Psalm 124; Zephaniah 3:1–13; Matthew 18:1–20,Psalm 24; Isaiah 51:17–end; 2 Thessalonians 3
+2023/12/23,"Saturday, December 23, 2023",Week of 3rd Sunday of Advent,Psalm 130; Zephaniah 3:14–end; Matthew 18:21–end,Psalm 89:1-37; Isaiah 52:1–12; Jude
+2023/12/24,"Sunday, December 24, 2023",4th Sunday of Advent,Psalm 144; Isaiah 7:10-16; Romans 1:1-7,Psalm 85; Zechariah 2; Revelation 1:1-8
+2023/12/25,"Monday, December 25, 2023",Christmas day,Psalm 110; Isaiah 62:1-5; Matthew 1:18-25,Psalm 8; Isaiah 65:17-25; Philippians 2:5-11
+2023/12/26,"Tuesday, December 26, 2023","St Stephen, the first Christian Martyr",Psalm 13; Jeremiah 26:12-15; Acts 6,Psalm 86; Genesis 4:1-10; Matthew 23:34-39
+2023/12/27,"Wednesday, December 27, 2023",St John the Evangelist,Psalm 21; Exodus 33:12-23; 1 John 2:1-11,Psalm 97; Isaiah 6:1-8; 1 John 5:1-12
+2023/12/28,"Thursday, December 28, 2023",Holy Innocents,Psalm 36; Genesis 37:13-20; Matthew 18:1-10,Psalm 128; Isaiah 49:14-25; Mark 10:13-16
+2023/12/29,"Friday, December 29, 2023",Week of 4th Sunday of Advent,Psalm 19; Jonah 1; Colossians 1:1–14,Psalm 132; Isaiah 57:15–end; John 1:1–18
+2023/12/30,"Saturday, December 30, 2023",Week of 4th Sunday of Advent,Psalm 113; Jonah 2; Colossians 1:15–23,Psalm 65; Isaiah 59:1–15a; John 1:19–28
+2023/12/31,"Sunday, December 31, 2023",1st Sunday of Christmas,Psalm 105:1-11; Isaiah 63:7-9; Ephesians 3:5-12,Psalm 148; Jeremiah 23:1-6; Colossians 2:8-15
+2024/01/01,"Monday, January 1, 2024",The naming of Jesus,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
+2024/01/02,"Tuesday, January 2, 2024",Week of 1st Sunday of Christmas,Psalm 18:1-30; Ruth 1; Colossians 2:8–end,Psalm 46; Isaiah 60:1–12; John 1:35–42
+2024/01/03,"Wednesday, January 3, 2024",Week of 1st Sunday of Christmas,Psalm 127; Ruth 2; Colossians 3:1–11,Psalm 2; Isaiah 60:13–end; John 1:43–end
+2024/01/04,"Thursday, January 4, 2024",Week of 1st Sunday of Christmas,Psalm 89:1-37; Ruth 3; Colossians 3:12–4:1,Psalm 87; Isaiah 61; John 2:1–12
+2024/01/05,"Friday, January 5, 2024",Week of 1st Sunday of Christmas,Psalm 48; Ruth 4:1–17; Colossians 4:2–end,Psalm 97; Isaiah 49:1-13; John 4:7-26
+2024/01/06,"Saturday, January 6, 2024",The Epiphany,Psalm 132; Jeremiah 31:7-14; John 1:29-34,"Psalm 98,100; Isaiah 60:1-9; John 2:1-11"
+2024/01/07,"Sunday, January 7, 2024",The Baptism of the Lord,"Psalm 89:19-29; 1 Samuel 16:1-3,13; John 1:29-34",Psalm 46; Isaiah 42:1-9; Ephesians 2:1-10
+2024/01/08,"Monday, January 8, 2024",Week of 1st Sunday after the Epiphany,Psalm 2; Genesis 1:1–19; Matthew 21:1–17,Psalm 34; Amos 1; 1 Corinthians 1:1–17
+2024/01/09,"Tuesday, January 9, 2024",Week of 1st Sunday after the Epiphany,Psalm 9; Genesis 1:20–2:3; Matthew 21:18–32,Psalm 45; Amos 2; 1 Corinthians 1:18–end
+2024/01/10,"Wednesday, January 10, 2024",Week of 1st Sunday after the Epiphany,Psalm 20; Genesis 2:4–end; Matthew 21:33–end,Psalm 47; Amos 3; 1 Corinthians 2
+2024/01/11,"Thursday, January 11, 2024",Week of 1st Sunday after the Epiphany,Psalm 21; Genesis 3; Matthew 22:1–14,Psalm 61; Amos 4; 1 Corinthians 3
+2024/01/12,"Friday, January 12, 2024",Week of 1st Sunday after the Epiphany,"Psalm 67; Genesis 4:1–16,4:25–26; Matthew 22:15–33",Psalm 68; Amos 5:1–17; 1 Corinthians 4
+2024/01/13,"Saturday, January 13, 2024",Week of 1st Sunday after the Epiphany,Psalm 33; Genesis 6:1–10; Matthew 22:34–end,Psalm 85; Amos 5:18–end; 1 Corinthians 5
+2024/01/14,"Sunday, January 14, 2024",2nd Sunday after the Epiphany,Psalm 145:1-12; Isaiah 62:1-5; 1 Corinthians 6:11-20,Psalm 96; Isaiah 60:9-22; Hebrews 6:17-7:10
+2024/01/15,"Monday, January 15, 2024",Week of 2nd Sunday after the Epiphany,Psalm 146; Genesis 6:11–7:10; Matthew 24:1–14,Psalm 71; Amos 6; 1 Corinthians 6:1–11
+2024/01/16,"Tuesday, January 16, 2024",Week of 2nd Sunday after the Epiphany,Psalm 132; Genesis 7:11–end; Matthew 24:15–28,Psalm 89:1-37; Amos 7; 1 Corinthians 6:12–end
+2024/01/17,"Wednesday, January 17, 2024",Week of 2nd Sunday after the Epiphany,Psalm 81; Genesis 8:1–14; Matthew 24:29–end,Psalm 97; Amos 8; 1 Corinthians 7:1–24
+2024/01/18,"Thursday, January 18, 2024",Week of 2nd Sunday after the Epiphany,Psalm 76; Genesis 8:15–9:7; Matthew 25:1–13,Psalm 111; Amos 9; 1 Corinthians 7:25–end
+2024/01/19,"Friday, January 19, 2024",Week of 2nd Sunday after the Epiphany,Psalm 27; Genesis 9:8–19; Matthew 25:14–30,Psalm 73; Hosea 1:1–2:1; 1 Corinthians 8
+2024/01/20,"Saturday, January 20, 2024",Week of 2nd Sunday after the Epiphany,Psalm 122; Genesis 11:1–9; Matthew 25:31–end,Psalm 61; Hosea 2:2–17; 1 Corinthians 9:1–14
+2024/01/21,"Sunday, January 21, 2024",3rd Sunday after the Epiphany,"Psalm 113; Jonah 3:1-5,10; John 3:16-21","Psalm 33*; Jeremiah 3:21-4:2; Titus 2:1-8,11-14"
+2024/01/22,"Monday, January 22, 2024",Week of 3rd Sunday after the Epiphany,Psalm 108; Genesis 11:27–12:9; Matthew 26:1–16,Psalm 138; Hosea 2:18–end; Hosea 3; 1 Corinthians 9:15–end
+2024/01/23,"Tuesday, January 23, 2024",Week of 3rd Sunday after the Epiphany,Psalm 36; Genesis 13:2–end; Matthew 26:17–35,Psalm 145; Hosea 4:1–16; 1 Corinthians 10:1–13
+2024/01/24,"Wednesday, January 24, 2024",Week of 3rd Sunday after the Epiphany,Psalm 46; Genesis 14; Matthew 26:36–46,Psalm 149; Isaiah 49:1-13; Acts 22:3-16
+2024/01/25,"Thursday, January 25, 2024",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14",Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end; Colossians 2:1-7;
+2024/01/26,"Friday, January 26, 2024",Week of 3rd Sunday after the Epiphany,Psalm 65; Genesis 16; Matthew 26:57–end,Psalm 67; Hosea 6:7–7:2; 1 Corinthians 11:17–end
+2024/01/27,"Saturday, January 27, 2024",Week of 3rd Sunday after the Epiphany,Psalm 68; Genesis 17:1–22; Matthew 27:1–10,Psalm 72; Hosea 8; 1 Corinthians 12:1–11
+2024/01/28,"Sunday, January 28, 2024",4th Sunday after the Epiphany,"Psalm 71:1-6,15-17; Jeremiah 1:4-10; Mark 1:40-45",Psalm 34*; 1 Samuel 3:1-20; 1 Corinthians 14:12-20
+2024/01/29,"Monday, January 29, 2024",Week of 4th Sunday after the Epiphany,Psalm 57; Genesis 18:1–15; Matthew 27:11–26,Psalm 20; Hosea 9; 1 Corinthians 12:12–end
+2024/01/30,"Tuesday, January 30, 2024",Week of 4th Sunday after the Epiphany,Psalm 93; Genesis 18:16–end; Matthew 27:27–44,Psalm 19; Hosea 10; 1 Corinthians 13
+2024/01/31,"Wednesday, January 31, 2024",Week of 4th Sunday after the Epiphany,"Psalm 95; Genesis 19:1–3,19:12–29; Matthew 27:45–56",Psalm 81; Hosea 11:1–11; 1 Corinthians 14:1–19
+2024/02/01,"Thursday, February 1, 2024",Week of 4th Sunday after the Epiphany,Psalm 110; Genesis 21:1–21; Matthew 27:57–end,Psalm 118; 1 Samuel 1:19b-28; Hebrews 4:11-16
+2024/02/02,"Friday, February 2, 2024",Presentation of Jesus at the Temple,"Psalm 48,146; Exodus 13:1-16; Romans 12:1-5","Psalm 122,132; Haggai 2:1-9; John 2:18-22"
+2024/02/03,"Saturday, February 3, 2024",Week of 4th Sunday after the Epiphany,Psalm 147; Genesis 23; Matthew 28:16–end,Psalm 148; Hosea 14; 1 Corinthians 16:10-end
+2024/02/04,"Sunday, February 4, 2024",2nd Sunday before Lent,"Psalm 29,67; Deuteronomy 8:1-10; Matthew 6:25-34",Psalm 65; Genesis 2:4b-25; Luke 8:22-35
+2024/02/05,"Monday, February 5, 2024",Week of 2nd Sunday before Lent,Psalm 1; Genesis 29:31–30:24; 2 Timothy 4:1–8,Psalm 4; Ecclesiastes 7:1–14; John 19:1–16
+2024/02/06,"Tuesday, February 6, 2024",Week of 2nd Sunday before Lent,Psalm 5; Genesis 31:1–24; 2 Timothy 4:9–end,Psalm 9; Ecclesiastes 7:15–end; John 19:17–30
+2024/02/07,"Wednesday, February 7, 2024",Week of 2nd Sunday before Lent,Psalm 119:1-32; Genesis 31:25–32:2; Titus 1,Psalm 11; Ecclesiastes 8; John 19:31–end
+2024/02/08,"Thursday, February 8, 2024",Week of 2nd Sunday before Lent,Psalm 15; Genesis 32:3–30; Titus 2,Psalm 18*; Ecclesiastes 9; John 20:1–10
+2024/02/09,"Friday, February 9, 2024",Week of 2nd Sunday before Lent,Psalm 19; Genesis 33:1–17; Titus 3,Psalm 22; Ecclesiastes 11:1–8; John 20:11–18
+2024/02/10,"Saturday, February 10, 2024",Week of 2nd Sunday before Lent,Psalm 23; Genesis 35; Philemon,Psalm 24; Ecclesiastes 11:9–end; Ecclesiastes 12; John 20:19–end
+2024/02/11,"Sunday, February 11, 2024",The Sunday before Lent,"Psalm 27,150; Exodus 24:12-18; 2 Corinthians 3:12-18",Psalm 2; 1 Kings 19:1-16; 2 Peter 1:16-21
+2024/02/12,"Monday, February 12, 2024",Week of the Sunday before Lent,Psalm 30; Genesis 37:1–11; Galatians 1,Psalm 28; N/A; John 3:1–21
+2024/02/13,"Tuesday, February 13, 2024",Shrove Tuesday,Psalm 36; Genesis 37:12–end; Galatians 2:1–10,Psalm 33; N/A; John 3:22–end
+2024/02/14,"Wednesday, February 14, 2024",Ash Wednesday,"Psalm 38; Daniel 9:3-6,17-19; 1 Timothy 6:6-19",Psalm 51; Isaiah 1:10-18; Luke 15:11-32
+2024/02/15,"Thursday, February 15, 2024",1st day of Lent,Psalm 77; Genesis 39; Galatians 2:11–end,Psalm 74; Jeremiah 2:14–32; John 4:1–26
+2024/02/16,"Friday, February 16, 2024",2nd day of Lent,Psalm 3; Genesis 40; Galatians 3:1–14,Psalm 31; Jeremiah 3:6–22; John 4:27–42
+2024/02/17,"Saturday, February 17, 2024",3rd day of Lent,Psalm 71; Genesis 41:1–24; Galatians 3:15–22,Psalm 73; Jeremiah 4:1–18; John 4:43–end
+2024/02/18,"Sunday, February 18, 2024",1st Sunday of Lent,Psalm 77; Exodus 34:1-10; Romans 10:8b-13,Psalm 119:17-32; Genesis 2:15-17; 3:1-7; Romans 5:12-19
+2024/02/19,"Monday, February 19, 2024",Week of 1st Sunday of Lent,Psalm 11; Genesis 41:25–45; Galatians 3:23–4:7,Psalm 13; Jeremiah 4:19–end; John 5:1–18
+2024/02/20,"Tuesday, February 20, 2024",Week of 1st Sunday of Lent,Psalm 44; Genesis 41:46–42:5; Galatians 4:8–20,Psalm 49; Jeremiah 5:1–19; John 5:19–29
+2024/02/21,"Wednesday, February 21, 2024",Week of 1st Sunday of Lent,Psalm 6; Genesis 42:6–17; Galatians 4:21–5:1,Psalm 28; Jeremiah 5:20–end; John 5:30–end
+2024/02/22,"Thursday, February 22, 2024",Week of 1st Sunday of Lent,Psalm 42; Genesis 42:18–28; Galatians 5:2–15,Psalm 142; Jeremiah 6:9–21; John 6:1–15
+2024/02/23,"Friday, February 23, 2024",Week of 1st Sunday of Lent,Psalm 22; Genesis 42:29–end; Galatians 5:16–end,Psalm 55; Jeremiah 6:22–end; John 6:16–27
+2024/02/24,"Saturday, February 24, 2024",Week of 1st Sunday of Lent,Psalm 63; Genesis 43:1–15; Galatians 6,Psalm 4; Jeremiah 7:1–20; John 6:27–40
+2024/02/25,"Sunday, February 25, 2024",2nd Sunday of Lent,"Psalm 105:1-6,37-45; Isaiah 51:1-11; Galatians 3:1-9,23-29","Psalm 135*; Genesis 12:1-9; Hebrews 11:1-3,8-16"
+2024/02/26,"Monday, February 26, 2024",Week of 2nd Sunday of Lent,Psalm 32; Genesis 43:16–end; Hebrews 1,Psalm 74; Jeremiah 7:21–end; John 6:41–51
+2024/02/27,"Tuesday, February 27, 2024",Week of 2nd Sunday of Lent,Psalm 50; Genesis 44:1–17; Hebrews 2:1–9,Psalm 52; Jeremiah 8:1–15; John 6:52–59
+2024/02/28,"Wednesday, February 28, 2024",Week of 2nd Sunday of Lent,Psalm 35; Genesis 44:18–end; Hebrews 2:10–end,Psalm 3; Jeremiah 8:18–9:11; John 6:60–end
+2024/02/29,"Thursday, February 29, 2024",Week of 2nd Sunday of Lent,Psalm 34; Genesis 45:1–15; Hebrews 3:1–6,Psalm 71; Jeremiah 9:12–24; John 7:1–13
+2024/03/01,"Friday, March 1, 2024",Week of 2nd Sunday of Lent,Psalm 41; Genesis 45:16–end; Hebrews 3:7–end,Psalm 6; Jeremiah 10:1–16; John 7:14–24
+2024/03/02,"Saturday, March 2, 2024",Week of 2nd Sunday of Lent,"Psalm 25; Genesis 46:1–7,46:28–end; Hebrews 4:1–13",Psalm 23; Jeremiah 10:17–24; John 7:25–36
+2024/03/03,"Sunday, March 3, 2024",3rd Sunday of Lent,Psalm 18:1-25; Jeremiah 38; Philippians 1:1-26,"Psalm 11,12; Exodus 5:1-6:1; Philippians 3:4b-14"
+2024/03/04,"Monday, March 4, 2024",Week of 3rd Sunday of Lent,Psalm 5; Genesis 47:1–27; Hebrews 4:14–5:10,Psalm 17; Jeremiah 11:1–17; John 7:37–52
+2024/03/05,"Tuesday, March 5, 2024",Week of 3rd Sunday of Lent,Psalm 9; Genesis 47:28–end; Genesis 48; Hebrews 5:11–6:12,Psalm 64; Jeremiah 11:18–12:6; John 7:53–8:11
+2024/03/06,"Wednesday, March 6, 2024",Week of 3rd Sunday of Lent,Psalm 38; Genesis 49:1–32; Hebrews 6:13–end,Psalm 39; Jeremiah 13:1–11; John 8:12–30
+2024/03/07,"Thursday, March 7, 2024",Week of 3rd Sunday of Lent,Psalm 56; Genesis 49:33–end; Genesis 50; Hebrews 7:1–10,Psalm 59; Jeremiah 14; John 8:31–47
+2024/03/08,"Friday, March 8, 2024",Week of 3rd Sunday of Lent,Psalm 22; Exodus 1:1–14; Hebrews 7:11–end,Psalm 69; Jeremiah 15:10–end; John 8:48–end
+2024/03/09,"Saturday, March 9, 2024",Week of 3rd Sunday of Lent,Psalm 31; Exodus 1:22–2:10; Hebrews 8,Psalm 116; Jeremiah 16:10–17:4; John 9:1–17
+2024/03/10,"Sunday, March 10, 2024",4th Sunday of Lent,Psalm 27; 1 Samuel 16:1-13; John 9:1-25,"Psalm 13,14; Exodus 6:2-13; Romans 5:1-11"
+2024/03/11,"Monday, March 11, 2024",Week of 4th Sunday of Lent,Psalm 77; Exodus 2:11–22; Hebrews 9:1–14,Psalm 25; Jeremiah 17:5–18; John 9:18–end
+2024/03/12,"Tuesday, March 12, 2024",Week of 4th Sunday of Lent,Psalm 79; Exodus 2:23–3:20; Hebrews 9:15–end,Psalm 80; Jeremiah 18:1–12; John 10:1–10
+2024/03/13,"Wednesday, March 13, 2024",Week of 4th Sunday of Lent,Psalm 90; Exodus 4:1–23; Hebrews 10:1–18,Psalm 91; Jeremiah 18:13–end; John 10:11–21
+2024/03/14,"Thursday, March 14, 2024",Week of 4th Sunday of Lent,Psalm 86; Exodus 4:27–6:1; Hebrews 10:19–25,Psalm 94; Jeremiah 19:1–13; John 10:22–end
+2024/03/15,"Friday, March 15, 2024",Week of 4th Sunday of Lent,Psalm 102; Exodus 6:2–13; Hebrews 10:26–end,Psalm 16; Jeremiah 19:14–20:6; John 11:1–16
+2024/03/16,"Saturday, March 16, 2024",Week of 4th Sunday of Lent,Psalm 32; Exodus 7:8–end; Hebrews 11:1–16,Psalm 140; Jeremiah 20:7–end; John 11:17–27
+2024/03/17,"Sunday, March 17, 2024",5th Sunday of Lent - Passion Sunday,Psalm 107:1-22; Exodus 24:3-8; Hebrews 12:18-29,Psalm 34*; Exodus 7:8-24; Romans 5:12-21
+2024/03/18,"Monday, March 18, 2024",Week of 5th Sunday of Lent,Psalm 73; Exodus 8:1–19; Hebrews 11:17–31,Psalm 132; Hosea 11:1-9; Luke 2:41-52
+2024/03/19,"Tuesday, March 19, 2024",St Joseph of Nazereth,"Psalm 25,147:1-12; Isaiah 11:1-10; Matthew 13:54-58","Psalm 1,112; Genesis 50:22-26; Matthew 2:13-23"
+2024/03/20,"Wednesday, March 20, 2024",Week of 5th Sunday of Lent,Psalm 55; Exodus 9:1–12; Hebrews 12:3–13,Psalm 62; Jeremiah 22:20–23:8; John 12:1–11
+2024/03/21,"Thursday, March 21, 2024",Week of 5th Sunday of Lent,Psalm 40; Exodus 9:13–end; Hebrews 12:14–end,Psalm 43; Jeremiah 23:9–32; John 12:12–19
+2024/03/22,"Friday, March 22, 2024",Week of 5th Sunday of Lent,Psalm 22; Exodus 10; Hebrews 13:1–16,Psalm 31; Jeremiah 24; John 12:20–36a
+2024/03/23,"Saturday, March 23, 2024",Week of 5th Sunday of Lent,Psalm 23; Exodus 11; Hebrews 13:17–end,Psalm 130; Jeremiah 25:1–14; John 12:36b–end
+2024/03/24,"Sunday, March 24, 2024",6th Sunday of Lent - Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 69:1-20; Isaiah 5:1-7; Mark 12:1-12

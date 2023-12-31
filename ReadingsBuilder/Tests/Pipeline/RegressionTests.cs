@@ -24,11 +24,9 @@ namespace Tests.Pipeline
             var resultToRowsMapper = DependencyInjector.GetInstance<IResultToRowsMapper>();
             var csvWriter = DependencyInjector.GetInstance<ICsvWriter>();
 
-            var inputs = new List<Input> { Inputs.FOR_2021_TO_2022, Inputs.FOR_2022_TO_2023 };
-
             // act
             var allRowsOfRowsOfString = new List<List<string>>();
-            foreach (var input in inputs)
+            foreach (var input in Inputs.All)
             {
                 var result = classUnderTest.Run(input);
                 var resultAsRowsOfRowsOfString = resultToRowsMapper.Map(result.Result);

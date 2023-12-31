@@ -6,7 +6,6 @@ namespace ReadingsBuilder
 {
     public class Inputs
     {
-
         public static readonly Input FOR_2021_TO_2022 = new()
         {
             StartDate = new DateOnly(2021, 11, 28),  // first sun of advent
@@ -35,6 +34,13 @@ namespace ReadingsBuilder
             AshWednesday = new DateOnly(2024, 2, 14),
             PalmSunday = new DateOnly(2024, 3, 24),
             FirstSundayOfAdventTheFollowingYear = new DateOnly(2024, 12, 1),
+        };
+
+        public static readonly List<Input> All = new()
+        {
+            FOR_2021_TO_2022,
+            FOR_2022_TO_2023,
+            FOR_2023_TO_2024
         };
     }
 }
