@@ -29,7 +29,7 @@ namespace ReadingsBuilder
         public static readonly Input FOR_2023_TO_2024 = new()
         {
             StartDate = new DateOnly(2023, 12, 3), // first sun of advent
-            EndDate = new DateOnly(2024, 5, 19), // Only pentecost
+            EndDate = new DateOnly(2024, 5, 26), // to trinity sunday
             FifthSundayAfterEpiphany = new DateOnly(2024, 2, 4),
             AshWednesday = new DateOnly(2024, 2, 14),
             PalmSunday = new DateOnly(2024, 3, 24),
