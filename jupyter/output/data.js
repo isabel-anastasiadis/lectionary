@@ -1182,12 +1182,10 @@ class Data {  data = {
             "readings": [
                 "Psalm 119:41\u201356",
                 "Isaiah 56:1\u20138",
-                "Colossians 1:24\u2013end",
-                "Colossians 2:1\u20137",
-                ""
+                "Colossians 1:24\u2013end,2:1\u20137"
             ],
-            "reading_link": "Psalm+119:41-56%3B+Isaiah+56:1-8%3B+Colossians+1:24-%3B+Colossians+2:1-7%3B",
-            "audio_link": "Ps.119,Isa.56,Col.1,Col.2,"
+            "reading_link": "Psalm+119:41-56%3B+Isaiah+56:1-8%3B+Colossians+1:24-,2:1-7",
+            "audio_link": "Ps.119,Isa.56,Col.1"
         }
     },
     "2024/01/26": {

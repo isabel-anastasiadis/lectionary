@@ -2479,23 +2479,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     "audioQS": "Isa.56"
                 },
                 {
-                    "pretty": "Colossians 1:24\u2013end",
-                    "readQS": "Colossians+1:24-",
+                    "pretty": "Colossians 1:24\u2013end,2:1\u20137",
+                    "readQS": "Colossians+1:24-,2:1-7",
                     "audioQS": "Col.1"
-                },
-                {
-                    "pretty": "Colossians 2:1\u20137",
-                    "readQS": "Colossians+2:1-7",
-                    "audioQS": "Col.2"
-                },
-                {
-                    "pretty": "",
-                    "readQS": "",
-                    "audioQS": ""
                 }
             ],
-            "readQS": "Psalm+119:41-56%3B+Isaiah+56:1-8%3B+Colossians+1:24-%3B+Colossians+2:1-7%3B",
-            "audioQS": "Ps.119,Isa.56,Col.1,Col.2,"
+            "readQS": "Psalm+119:41-56%3B+Isaiah+56:1-8%3B+Colossians+1:24-,2:1-7",
+            "audioQS": "Ps.119,Isa.56,Col.1"
         }
     },
     "2024/01/26": {

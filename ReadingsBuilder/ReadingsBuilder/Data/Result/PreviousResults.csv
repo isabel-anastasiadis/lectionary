@@ -13,7 +13,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2021/12/09,"Thursday, December 9, 2021",Week of 2nd Sunday of Advent,Psalm 54; Isaiah 32; Matthew 15:21–28,Psalm 73; Isaiah 48:1–11; 1 Thessalonians 3
 2021/12/10,"Friday, December 10, 2021",Week of 2nd Sunday of Advent,Psalm 86; Isaiah 33:1–22; Matthew 15:29–end,Psalm 90; Isaiah 48:12–end; 1 Thessalonians 4:1–12
 2021/12/11,"Saturday, December 11, 2021",Week of 2nd Sunday of Advent,Psalm 145; Isaiah 35; Matthew 16:1–12,Psalm 94; Isaiah 49:1–13; 1 Thessalonians 4:13–end
-2021/12/12,"Sunday, December 12, 2021",3rd Sunday of Advent,"Psalm 12,14; Isaiah 25:1-9; 1 Corinthians 4:1-5","Psalm 50:1-6; Isaiah 35; Luke 1:57-66,[67-80]"
+2021/12/12,"Sunday, December 12, 2021",3rd Sunday of Advent,"Psalm 12,14; Isaiah 25:1-9; 1 Corinthians 4:1-5","Psalm 50:1-6; Isaiah 35; Luke 1:57-66,(67-80)"
 2021/12/13,"Monday, December 13, 2021",Week of 3rd Sunday of Advent,"Psalm 40; Isaiah 38:1–8,38:21–22; Matthew 16:13–end",Psalm 26; Isaiah 49:14–25; 1 Thessalonians 5:1–11
 2021/12/14,"Tuesday, December 14, 2021",Week of 3rd Sunday of Advent,Psalm 70; Isaiah 38:9–20; Matthew 17:1–13,Psalm 50; Isaiah 50; 1 Thessalonians 5:12–end
 2021/12/15,"Wednesday, December 15, 2021",Week of 3rd Sunday of Advent,Psalm 75; Isaiah 39; Matthew 17:14–21,Psalm 82; Isaiah 51:1–8; 2 Thessalonians 1
@@ -57,7 +57,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/01/22,"Saturday, January 22, 2022",Week of 2nd Sunday after the Epiphany,Psalm 122; Genesis 11:1–9; Matthew 25:31–end,Psalm 61; Hosea 2:2–17; 1 Corinthians 9:1–14
 2022/01/23,"Sunday, January 23, 2022",3rd Sunday after the Epiphany,"Psalm 113; Deuteronomy 30:11-15; 3 John 1,5-8",Psalm 33; Numbers 9:15-23; 1 Corinthians 7:17-24
 2022/01/24,"Monday, January 24, 2022",Week of 3rd Sunday after the Epiphany,Psalm 108; Genesis 11:27–12:9; Matthew 26:1–16,Psalm 149; Isaiah 49:1-13; Acts 22:3-16
-2022/01/25,"Tuesday, January 25, 2022",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14",Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end; Colossians 2:1-7;
+2022/01/25,"Tuesday, January 25, 2022",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14","Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end,2:1-7"
 2022/01/26,"Wednesday, January 26, 2022",Week of 3rd Sunday after the Epiphany,Psalm 46; Genesis 14; Matthew 26:36–46,Psalm 29; Hosea 5:1–7; 1 Corinthians 10:14–11:1
 2022/01/27,"Thursday, January 27, 2022",Week of 3rd Sunday after the Epiphany,Psalm 47; Genesis 15; Matthew 26:47–56,Psalm 24; Hosea 5:8–6:6; 1 Corinthians 11:2–16
 2022/01/28,"Friday, January 28, 2022",Week of 3rd Sunday after the Epiphany,Psalm 65; Genesis 16; Matthew 26:57–end,Psalm 67; Hosea 6:7–7:2; 1 Corinthians 11:17–end
@@ -135,9 +135,9 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/04/10,"Sunday, April 10, 2022",6th Sunday of Lent - Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 69:1-20; Isaiah 5:1-7; Luke 20:9-19
 2022/04/11,"Monday, April 11, 2022",Monday in Holy Week,Psalm 41; Lamentations 1:1-12a; Luke 22:1-23,Psalm 25; Lamentations 2:8-19; Colossians 1:18-23
 2022/04/12,"Tuesday, April 12, 2022",Tuesday in Holy Week,Psalm 27; Lamentations 3:1-18; Luke 22:24-53,Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-18
-2022/04/13,"Wednesday, April 13, 2022",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,Psalm 88; Isaiah 63:1-9; Revelation 14:18-end; Revelation 15:1-4
+2022/04/13,"Wednesday, April 13, 2022",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,"Psalm 88; Isaiah 63:1-9; Revelation 14:18-end,15:1-4"
 2022/04/14,"Thursday, April 14, 2022",Maundy Thursday,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
-2022/04/15,"Friday, April 15, 2022",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; Colossians 1:18-23; John 19:38-end"
+2022/04/15,"Friday, April 15, 2022",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; Colossians 1:18-23;"
 2022/04/16,"Saturday, April 16, 2022",Holy Saturday,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
 2022/04/17,"Sunday, April 17, 2022",Easter Sunday,"Psalm 114,117; Ezekiel 47:1-12; John 2:13-22",Psalm 105; Isaiah 43:1-21; 1 Corinthians 15:1-11
 2022/04/18,"Monday, April 18, 2022",Monday in Easter Week,Psalm 111; Exodus 12:1–14; 1 Corinthians 15:1–11,Psalm 135; Song of Solomon 1:9–2:7; Mark 16:1–8
@@ -148,7 +148,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/04/23,"Saturday, April 23, 2022",Saturday in Easter Week,Psalm 116; Exodus 14:15–end; 1 Corinthians 15:51–end,Psalm 145; Song of Solomon 8:5–7; John 11:17–44
 2022/04/24,"Sunday, April 24, 2022",2nd Sunday of Easter,Psalm 136:1-16; Exodus 12:1-13; 1 Peter 1:3-12,Psalm 16; Isaiah 52:13-53:12; Luke 24:13-35
 2022/04/25,"Monday, April 25, 2022",Week of 2nd Sunday of Easter,Psalm 19; Exodus 15:1–21; Colossians 1:1–14,Psalm 19; Isaiah 52:7-10; Mark 1:1-15
-2022/04/26,"Tuesday, April 26, 2022",St Mark the Evangelist,"Psalm 37:23-41,148; Isaiah 62:6-10; Acts 12:25-end; Acts 13:1-13",Psalm 45; Ezekiel 1:4-14; 2 Timothy 4:1-11
+2022/04/26,"Tuesday, April 26, 2022",St Mark the Evangelist,"Psalm 37:23-41,148; Isaiah 62:6-10; Acts 12:25-end,13:1-13",Psalm 45; Ezekiel 1:4-14; 2 Timothy 4:1-11
 2022/04/27,"Wednesday, April 27, 2022",Week of 2nd Sunday of Easter,Psalm 30; Exodus 16:11–end; Colossians 2:1–15,Psalm 33; Deuteronomy 3:18–end; John 20:19–end
 2022/04/28,"Thursday, April 28, 2022",Week of 2nd Sunday of Easter,Psalm 28; Exodus 17; Colossians 2:16–3:11,Psalm 34; Deuteronomy 4:1–14; John 21:1–14
 2022/04/29,"Friday, April 29, 2022",Week of 2nd Sunday of Easter,Psalm 61; Exodus 18:1–12; Colossians 3:12–4:1,Psalm 118; Deuteronomy 4:15–31; John 21:15–19
@@ -168,7 +168,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/05/13,"Friday, May 13, 2022",Week of 4th Sunday of Easter,Psalm 33; Exodus 35:20–36:7; Luke 4:14–30,"Psalm 147; Isaiah 22:15-22; Philippians 3:13b-end,4:1"
 2022/05/14,"Saturday, May 14, 2022",St Matthias the Apostle,Psalm 16; 1 Samuel 2:27-35; Acts 2:37-47,Psalm 80; 1 Samuel 16:1-13a; Matthew 7:15-27
 2022/05/15,"Sunday, May 15, 2022",5th Sunday of Easter,"Psalm 16; 2 Samuel 7:4-13; Acts 2:14a,2:22-32",Psalm 98; Daniel 6:6-23; Mark 15:46–16:8
-2022/05/16,"Monday, May 16, 2022",Week of 5th Sunday of Easter,Psalm 145; Numbers 9:15–end; Numbers 10:33–end; Luke 4:38–end,Psalm 105; Deuteronomy 16:1–20; 1 Peter 1:1–12
+2022/05/16,"Monday, May 16, 2022",Week of 5th Sunday of Easter,"Psalm 145; Numbers 9:15–end,10:33–end; Luke 4:38–end",Psalm 105; Deuteronomy 16:1–20; 1 Peter 1:1–12
 2022/05/17,"Tuesday, May 17, 2022",Week of 5th Sunday of Easter,Psalm 19; Numbers 11:1–33; Luke 5:1–11,Psalm 97; Deuteronomy 17:8–end; 1 Peter 1:13–end
 2022/05/18,"Wednesday, May 18, 2022",Week of 5th Sunday of Easter,Psalm 30; Numbers 12; Luke 5:12–26,Psalm 99; Deuteronomy 18:9–end; 1 Peter 2:1–10
 2022/05/19,"Thursday, May 19, 2022",Week of 5th Sunday of Easter,"Psalm 57; Numbers 13:1–3,13:17–end; Luke 5:27–end",Psalm 104; Deuteronomy 19; 1 Peter 2:11–end
@@ -177,7 +177,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/05/22,"Sunday, May 22, 2022",6th Sunday of Easter,Psalm 40:1-9; Genesis 1:26-28; Colossians 3:1-11,"Psalm 126,127; Zephaniah 3:14-20; Matthew 28:1-10,28:16-20"
 2022/05/23,"Monday, May 23, 2022",Week of 6th Sunday of Easter,Psalm 65; Numbers 16:1–35; Luke 6:27–38,Psalm 121; Deuteronomy 26; 1 Peter 4:1–11
 2022/05/24,"Tuesday, May 24, 2022",Week of 6th Sunday of Easter,Psalm 126; Numbers 16:36–end; Luke 6:39–end,Psalm 128; Deuteronomy 28:1–14; 1 Peter 4:12–end
-2022/05/25,"Wednesday, May 25, 2022",Week of 6th Sunday of Easter,Psalm 132; Numbers 17:1–11; Luke 7:1–10,"Psalm 15,24; 2 Samuel 23:1-5; Colossians 2:20-end; Colossians 3:1-4"
+2022/05/25,"Wednesday, May 25, 2022",Week of 6th Sunday of Easter,Psalm 132; Numbers 17:1–11; Luke 7:1–10,"Psalm 15,24; 2 Samuel 23:1-5; Colossians 2:20-end,3:1-4"
 2022/05/26,"Thursday, May 26, 2022",Ascension Day,"Psalm 110,150; Isaiah 52:7-15; Hebrews 7:11-28",Psalm 8; 2 Kings 2:1-15; Revelation 5
 2022/05/27,"Friday, May 27, 2022",10 days between Ascension Day and Pentecost,Psalm 81; Numbers 20:1–13; Luke 7:11–17,Psalm 145; Deuteronomy 29:2–15; 1 John 1:1–2:6
 2022/05/28,"Saturday, May 28, 2022",10 days between Ascension Day and Pentecost,Psalm 47; Numbers 21:4–9; Luke 7:18–35,Psalm 85; Deuteronomy 30; 1 John 2:7–17
@@ -295,7 +295,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/09/17,"Saturday, September 17, 2022",Week of 24th Sunday in Ordinary Time,Psalm 147; 2 Samuel 24; Acts 13:1–12,Psalm 148; Zechariah 3; Mark 9:30–37
 2022/09/18,"Sunday, September 18, 2022",25th Sunday in Ordinary Time,"Psalm 130,131; Isaiah 45:9-22; Revelation 14:1-5",Psalm 129; Ezra 1; John 7:14-36
 2022/09/19,"Monday, September 19, 2022",Week of 25th Sunday in Ordinary Time,Psalm 1; 1 Kings 1:5–31; Acts 13:13–43,Psalm 4; Zechariah 4; Mark 9:38–end
-2022/09/20,"Tuesday, September 20, 2022",Week of 25th Sunday in Ordinary Time,Psalm 5; 1 Kings 1:32–2:4; 1 Kings 2:10–12; Acts 13:44–14:7,Psalm 34; Isaiah 33:13-17; Matthew 6:19-34
+2022/09/20,"Tuesday, September 20, 2022",Week of 25th Sunday in Ordinary Time,"Psalm 5; 1 Kings 1:32–2:4,2:10–12; Acts 13:44–14:7",Psalm 34; Isaiah 33:13-17; Matthew 6:19-34
 2022/09/21,"Wednesday, September 21, 2022","St Matthew, Apostle and Evangelist","Psalm 49,117; 1 Kings 19:15-21; 2 Timothy 3:14-17","Psalm 119:33-40,119:89-96; Ecclesiastes 5:4-12; Matthew 19:16-30"
 2022/09/22,"Thursday, September 22, 2022",Week of 25th Sunday in Ordinary Time,Psalm 15; 1 Kings 4:29–5:12; Acts 15:1–21,Psalm 18*; Zechariah 8:1–8; Mark 10:32–34
 2022/09/23,"Friday, September 23, 2022",Week of 25th Sunday in Ordinary Time,"Psalm 19; 1 Kings 6:1,6:11–28; Acts 15:22–35",Psalm 22; Zechariah 8:9–end; Mark 10:35–45
@@ -423,7 +423,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/01/22,"Sunday, January 22, 2023",3rd Sunday after the Epiphany,Psalm 113; Amos 3:1-8; 1 John 1:1-4,Psalm 33*; Ecclesiastes 3:1-11; 1 Peter 1:3-12
 2023/01/23,"Monday, January 23, 2023",Week of 3rd Sunday after the Epiphany,Psalm 108; Hosea 2:18–end; Hosea 3; 1 Corinthians 9:15–end,Psalm 138; Genesis 11:27–12:9; Matthew 26:1–16
 2023/01/24,"Tuesday, January 24, 2023",Week of 3rd Sunday after the Epiphany,Psalm 36; Hosea 4:1–16; 1 Corinthians 10:1–13,Psalm 149; Isaiah 49:1-13; Acts 22:3-16
-2023/01/25,"Wednesday, January 25, 2023",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14",Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end; Colossians 2:1-7;
+2023/01/25,"Wednesday, January 25, 2023",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14","Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end,2:1-7"
 2023/01/26,"Thursday, January 26, 2023",Week of 3rd Sunday after the Epiphany,Psalm 47; Hosea 5:8–6:6; 1 Corinthians 11:2–16,Psalm 24; Genesis 15; Matthew 26:47–56
 2023/01/27,"Friday, January 27, 2023",Week of 3rd Sunday after the Epiphany,Psalm 65; Hosea 6:7–7:2; 1 Corinthians 11:17–end,Psalm 67; Genesis 16; Matthew 26:57–end
 2023/01/28,"Saturday, January 28, 2023",Week of 3rd Sunday after the Epiphany,Psalm 68; Hosea 8; 1 Corinthians 12:1–11,Psalm 72; Genesis 17:1–22; Matthew 27:1–10
@@ -493,9 +493,9 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/04/02,"Sunday, April 2, 2023",6th Sunday of Lent - Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; Luke 16:19-31",Psalm 80; Isaiah 5:1-7; Matthew 21:33-46
 2023/04/03,"Monday, April 3, 2023",Monday in Holy Week,Psalm 41; Lamentations 1:1-12a; Luke 22:1-23,Psalm 25; Lamentations 2:8-19; Colossians 1:18-23
 2023/04/04,"Tuesday, April 4, 2023",Tuesday in Holy Week,Psalm 27; Lamentations 3:1-18; Luke 22:24-53,Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-18
-2023/04/05,"Wednesday, April 5, 2023",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,Psalm 88; Isaiah 63:1-9; Revelation 14:18-end; Revelation 15:1-4
+2023/04/05,"Wednesday, April 5, 2023",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,"Psalm 88; Isaiah 63:1-9; Revelation 14:18-end,15:1-4"
 2023/04/06,"Thursday, April 6, 2023",Maundy Thursday,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
-2023/04/07,"Friday, April 7, 2023",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; Colossians 1:18-23; John 19:38-end"
+2023/04/07,"Friday, April 7, 2023",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; Colossians 1:18-23;"
 2023/04/08,"Saturday, April 8, 2023",Holy Saturday,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
 2023/04/09,"Sunday, April 9, 2023",Easter Sunday,"Psalm 114,117; Exodus 14:10-18,14:26–end,15:1-2; Revelation 15:2-4","Psalm 105; Song of Solomon 3:2-5,8:6-7; John 20:11-18"
 2023/04/10,"Monday, April 10, 2023",Monday in Easter Week,Psalm 111; Song of Solomon 1:9–2:7; Mark 16:1–8,Psalm 135; Exodus 12:1–14; 1 Corinthians 15:1–11
@@ -514,7 +514,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/04/23,"Sunday, April 23, 2023",3rd Sunday of Easter,Psalm 23; Isaiah 40:1-11; 1 Peter 5:1-11,Psalm 48; Haggai 1:13 – 2:9; 1 Cor 3:10-17
 2023/04/24,"Monday, April 24, 2023",Week of 3rd Sunday of Easter,Psalm 96; Deuteronomy 5:1–22; Ephesians 1:1–14,Psalm 61; Exodus 19; Luke 1:1–25
 2023/04/25,"Tuesday, April 25, 2023",Week of 3rd Sunday of Easter,Psalm 98; Deuteronomy 5:22–end; Ephesians 1:15–end,Psalm 19; Isaiah 52:7-10; Mark 1:1-15
-2023/04/26,"Wednesday, April 26, 2023",St Mark the Evangelist,"Psalm 37:23-41,148; Isaiah 62:6-10; Acts 12:25-end; Acts 13:1-13",Psalm 45; Ezekiel 1:4-14; 2 Timothy 4:1-11
+2023/04/26,"Wednesday, April 26, 2023",St Mark the Evangelist,"Psalm 37:23-41,148; Isaiah 62:6-10; Acts 12:25-end,13:1-13",Psalm 45; Ezekiel 1:4-14; 2 Timothy 4:1-11
 2023/04/27,"Thursday, April 27, 2023",Week of 3rd Sunday of Easter,Psalm 136; Deuteronomy 7:1–11; Ephesians 2:11–end,Psalm 73; Exodus 25:1–22; Luke 1:57–end
 2023/04/28,"Friday, April 28, 2023",Week of 3rd Sunday of Easter,Psalm 107; Deuteronomy 7:12–end; Ephesians 3:1–13,"Psalm 77; Exodus 28:1–4a,28:29–38; Luke 2:1–20"
 2023/04/29,"Saturday, April 29, 2023",Week of 3rd Sunday of Easter,Psalm 110; Deuteronomy 8; Ephesians 3:14–end,Psalm 27; Exodus 29:1–9; Luke 2:21–40
@@ -526,7 +526,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/05/05,"Friday, May 5, 2023",Week of 4th Sunday of Easter,Psalm 33; Deuteronomy 12:1–14; Ephesians 6:1–9,Psalm 36; Exodus 35:20–36:7; Luke 4:14–30
 2023/05/06,"Saturday, May 6, 2023",Week of 4th Sunday of Easter,Psalm 34; Deuteronomy 15:1–18; Ephesians 6:10–end,Psalm 84; Exodus 40:17–end; Luke 4:31–37
 2023/05/07,"Sunday, May 7, 2023",5th Sunday of Easter,Psalm 30; Ezekiel 37:1-12; John 5:19-29,Psalm 147:1-12; Zechariah 4:1-10; Revelation 21:1-14
-2023/05/08,"Monday, May 8, 2023",Week of 5th Sunday of Easter,Psalm 145; Deuteronomy 16:1–20; 1 Peter 1:1–12,Psalm 105; Numbers 9:15–end; Numbers 10:33–end; Luke 4:38–end
+2023/05/08,"Monday, May 8, 2023",Week of 5th Sunday of Easter,Psalm 145; Deuteronomy 16:1–20; 1 Peter 1:1–12,"Psalm 105; Numbers 9:15–end,10:33–end; Luke 4:38–end"
 2023/05/09,"Tuesday, May 9, 2023",Week of 5th Sunday of Easter,Psalm 19; Deuteronomy 17:8–end; 1 Peter 1:13–end,Psalm 97; Numbers 11:1–33; Luke 5:1–11
 2023/05/10,"Wednesday, May 10, 2023",Week of 5th Sunday of Easter,Psalm 30; Deuteronomy 18:9–end; 1 Peter 2:1–10,Psalm 99; Numbers 12; Luke 5:12–26
 2023/05/11,"Thursday, May 11, 2023",Week of 5th Sunday of Easter,Psalm 57; Deuteronomy 19; 1 Peter 2:11–end,"Psalm 104; Numbers 13:1–3,13:17–end; Luke 5:27–end"
@@ -535,7 +535,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/05/14,"Sunday, May 14, 2023",6th Sunday of Easter,"Psalm 73:21-28; Job 14:1-2,14:7-15,19:23-27a; Thess 4:13-18","Psalm 87,36:5-10; Zechariah 8:1-13; Revelation 21:22–end,22:1-5"
 2023/05/15,"Monday, May 15, 2023",Week of 6th Sunday of Easter,Psalm 65; Deuteronomy 26; 1 Peter 4:1–11,Psalm 121; Numbers 16:1–35; Luke 6:27–38
 2023/05/16,"Tuesday, May 16, 2023",Week of 6th Sunday of Easter,Psalm 126; Deuteronomy 28:1–14; 1 Peter 4:12–end,Psalm 128; Numbers 16:36–end; Luke 6:39–end
-2023/05/17,"Wednesday, May 17, 2023",Week of 6th Sunday of Easter,Psalm 132; Deuteronomy 28:58–end; 1 Peter 5,"Psalm 15,24; 2 Samuel 23:1-5; Colossians 2:20-end; Colossians 3:1-4"
+2023/05/17,"Wednesday, May 17, 2023",Week of 6th Sunday of Easter,Psalm 132; Deuteronomy 28:58–end; 1 Peter 5,"Psalm 15,24; 2 Samuel 23:1-5; Colossians 2:20-end,3:1-4"
 2023/05/18,"Thursday, May 18, 2023",Ascension Day,"Psalm 110,150; Isaiah 52:7-15; Hebrews 7:11-28",Psalm 8; 2 Kings 2:1-15; Revelation 5
 2023/05/19,"Friday, May 19, 2023",10 days between Ascension Day and Pentecost,Psalm 81; Deuteronomy 29:2–15; 1 John 1:1–2:6,Psalm 145; Numbers 20:1–13; Luke 7:11–17
 2023/05/20,"Saturday, May 20, 2023",10 days between Ascension Day and Pentecost,Psalm 47; Deuteronomy 30; 1 John 2:7–17,Psalm 85; Numbers 21:4–9; Luke 7:18–35
@@ -653,7 +653,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/09/09,"Saturday, September 9, 2023",Week of 24th Sunday in Ordinary Time,Psalm 147; Zechariah 3; Mark 9:30–37,Psalm 148; 2 Samuel 24; Acts 13:1–12
 2023/09/10,"Sunday, September 10, 2023",25th Sunday in Ordinary Time,Psalm 119:17-32; Jonah 3:10–4:11; Revelation 8:1-5,Psalm 108; Ezekiel 12:21–13:16; Acts 19:1-20
 2023/09/11,"Monday, September 11, 2023",Week of 25th Sunday in Ordinary Time,Psalm 1; Zechariah 4; Mark 9:38–end,Psalm 4; 1 Kings 1:5–31; Acts 13:13–43
-2023/09/12,"Tuesday, September 12, 2023",Week of 25th Sunday in Ordinary Time,Psalm 5; Zechariah 6:9–end; Mark 10:1–16,Psalm 9; 1 Kings 1:32–2:4; 1 Kings 2:10–12; Acts 13:44–14:7
+2023/09/12,"Tuesday, September 12, 2023",Week of 25th Sunday in Ordinary Time,Psalm 5; Zechariah 6:9–end; Mark 10:1–16,"Psalm 9; 1 Kings 1:32–2:4,2:10–12; Acts 13:44–14:7"
 2023/09/13,"Wednesday, September 13, 2023",Week of 25th Sunday in Ordinary Time,Psalm 119:1-32; Zechariah 7; Mark 10:17–31,Psalm 66; Isaiah 52:13-53:12; Ephesians 2:11-22
 2023/09/14,"Thursday, September 14, 2023",Holy Cross Day,"Psalm 2,8,146; Genesis 3:1-15; John 12:27-36a","Psalm 110,150; Isaiah 63:1-16; 1 Corinthians 1:18-25"
 2023/09/15,"Friday, September 15, 2023",Week of 25th Sunday in Ordinary Time,Psalm 19; Zechariah 8:9–end; Mark 10:35–45,"Psalm 22; 1 Kings 6:1,6:11–28; Acts 15:22–35"
@@ -701,7 +701,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/10/27,"Friday, October 27, 2023",Week of 31st Sunday in Ordinary Time,Psalm 144; Ezekiel 44:4–16; John 16:16–22,"Psalm 124,125,126; Deuteronomy 32:1-4; John 14:15-26"
 2023/10/28,"Saturday, October 28, 2023","St Simon and St Jude, Apostles","Psalm 116,117; Isaiah 45:18-26; Luke 6:12-16","Psalm 119:1-16; Jeremiah 3:11-18; Jude 1-4,17-25"
 2023/10/29,"Sunday, October 29, 2023",32nd Sunday in Ordinary Time,Psalm 119:137-152; Isaiah 59:9-20; Luke 14:1-14,"Psalm 119:89-104; Eccles 11,12; 2 Tim 2:1-7"
-2023/10/30,"Monday, October 30, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 1; Ecclesiastes 1; John 17:1–5,Psalm 4; Exodus 22:21–27; Exodus 23:1–17; 1 Timothy 6:1–10
+2023/10/30,"Monday, October 30, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 1; Ecclesiastes 1; John 17:1–5,"Psalm 4; Exodus 22:21–27,23:1–17; 1 Timothy 6:1–10"
 2023/10/31,"Tuesday, October 31, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 5; Ecclesiastes 2; John 17:6–19,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
 2023/11/01,"Wednesday, November 1, 2023",All Saints Day,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
 2023/11/02,"Thursday, November 2, 2023",Week of 32nd Sunday in Ordinary Time,Psalm 15; Ecclesiastes 3:16–end; Ecclesiastes 4; John 18:1–11,Psalm 18*; Leviticus 9; 2 Timothy 1:15–2:13
@@ -789,7 +789,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2024/01/22,"Monday, January 22, 2024",Week of 3rd Sunday after the Epiphany,Psalm 108; Genesis 11:27–12:9; Matthew 26:1–16,Psalm 138; Hosea 2:18–end; Hosea 3; 1 Corinthians 9:15–end
 2024/01/23,"Tuesday, January 23, 2024",Week of 3rd Sunday after the Epiphany,Psalm 36; Genesis 13:2–end; Matthew 26:17–35,Psalm 145; Hosea 4:1–16; 1 Corinthians 10:1–13
 2024/01/24,"Wednesday, January 24, 2024",Week of 3rd Sunday after the Epiphany,Psalm 46; Genesis 14; Matthew 26:36–46,Psalm 149; Isaiah 49:1-13; Acts 22:3-16
-2024/01/25,"Thursday, January 25, 2024",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14",Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end; Colossians 2:1-7;
+2024/01/25,"Thursday, January 25, 2024",The Conversion of Saint Paul,"Psalm 66,147:12-20; Ezekiel 3:22-27; Philippians 3:1-14","Psalm 119:41-56; Isaiah 56:1-8; Colossians 1:24-end,2:1-7"
 2024/01/26,"Friday, January 26, 2024",Week of 3rd Sunday after the Epiphany,Psalm 65; Genesis 16; Matthew 26:57–end,Psalm 67; Hosea 6:7–7:2; 1 Corinthians 11:17–end
 2024/01/27,"Saturday, January 27, 2024",Week of 3rd Sunday after the Epiphany,Psalm 68; Genesis 17:1–22; Matthew 27:1–10,Psalm 72; Hosea 8; 1 Corinthians 12:1–11
 2024/01/28,"Sunday, January 28, 2024",4th Sunday after the Epiphany,"Psalm 71:1-6,15-17; Jeremiah 1:4-10; Mark 1:40-45",Psalm 34*; 1 Samuel 3:1-20; 1 Corinthians 14:12-20
