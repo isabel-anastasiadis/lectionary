@@ -134,10 +134,10 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/04/09,"Saturday, April 9, 2022",Week of 5th Sunday of Lent,Psalm 23; Exodus 11; Hebrews 13:17–end,Psalm 130; Jeremiah 25:1–14; John 12:36b–end
 2022/04/10,"Sunday, April 10, 2022",6th Sunday of Lent - Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 69:1-20; Isaiah 5:1-7; Luke 20:9-19
 2022/04/11,"Monday, April 11, 2022",Monday in Holy Week,Psalm 41; Lamentations 1:1-12a; Luke 22:1-23,Psalm 25; Lamentations 2:8-19; Colossians 1:18-23
-2022/04/12,"Tuesday, April 12, 2022",Tuesday in Holy Week,Psalm 27; Lamentations 3:1-18; Luke 22:24-53,Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-18
-2022/04/13,"Wednesday, April 13, 2022",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,"Psalm 88; Isaiah 63:1-9; Revelation 14:18-end,15:1-4"
+2022/04/12,"Tuesday, April 12, 2022",Tuesday in Holy Week,"Psalm 27; Lamentations 3:1-18; Luke 22:(24-38),39-53",Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-end
+2022/04/13,"Wednesday, April 13, 2022",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,Psalm 88; Isaiah 63:1-9; Revelation 14:18-15:4
 2022/04/14,"Thursday, April 14, 2022",Maundy Thursday,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
-2022/04/15,"Friday, April 15, 2022",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; Colossians 1:18-23;"
+2022/04/15,"Friday, April 15, 2022",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
 2022/04/16,"Saturday, April 16, 2022",Holy Saturday,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
 2022/04/17,"Sunday, April 17, 2022",Easter Sunday,"Psalm 114,117; Ezekiel 47:1-12; John 2:13-22",Psalm 105; Isaiah 43:1-21; 1 Corinthians 15:1-11
 2022/04/18,"Monday, April 18, 2022",Monday in Easter Week,Psalm 111; Exodus 12:1–14; 1 Corinthians 15:1–11,Psalm 135; Song of Solomon 1:9–2:7; Mark 16:1–8
@@ -492,10 +492,10 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/04/01,"Saturday, April 1, 2023",Week of 5th Sunday of Lent,Psalm 23; Jeremiah 25:1–14; John 12:36b–end,Psalm 130; Exodus 11; Hebrews 13:17–end
 2023/04/02,"Sunday, April 2, 2023",6th Sunday of Lent - Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; Luke 16:19-31",Psalm 80; Isaiah 5:1-7; Matthew 21:33-46
 2023/04/03,"Monday, April 3, 2023",Monday in Holy Week,Psalm 41; Lamentations 1:1-12a; Luke 22:1-23,Psalm 25; Lamentations 2:8-19; Colossians 1:18-23
-2023/04/04,"Tuesday, April 4, 2023",Tuesday in Holy Week,Psalm 27; Lamentations 3:1-18; Luke 22:24-53,Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-18
-2023/04/05,"Wednesday, April 5, 2023",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,"Psalm 88; Isaiah 63:1-9; Revelation 14:18-end,15:1-4"
+2023/04/04,"Tuesday, April 4, 2023",Tuesday in Holy Week,"Psalm 27; Lamentations 3:1-18; Luke 22:(24-38),39-53",Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-end
+2023/04/05,"Wednesday, April 5, 2023",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,Psalm 88; Isaiah 63:1-9; Revelation 14:18-15:4
 2023/04/06,"Thursday, April 6, 2023",Maundy Thursday,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
-2023/04/07,"Friday, April 7, 2023",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; Colossians 1:18-23;"
+2023/04/07,"Friday, April 7, 2023",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
 2023/04/08,"Saturday, April 8, 2023",Holy Saturday,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
 2023/04/09,"Sunday, April 9, 2023",Easter Sunday,"Psalm 114,117; Exodus 14:10-18,14:26–end,15:1-2; Revelation 15:2-4","Psalm 105; Song of Solomon 3:2-5,8:6-7; John 20:11-18"
 2023/04/10,"Monday, April 10, 2023",Monday in Easter Week,Psalm 111; Song of Solomon 1:9–2:7; Mark 16:1–8,Psalm 135; Exodus 12:1–14; 1 Corinthians 15:1–11
@@ -848,4 +848,10 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2024/03/21,"Thursday, March 21, 2024",Week of 5th Sunday of Lent,Psalm 40; Exodus 9:13–end; Hebrews 12:14–end,Psalm 43; Jeremiah 23:9–32; John 12:12–19
 2024/03/22,"Friday, March 22, 2024",Week of 5th Sunday of Lent,Psalm 22; Exodus 10; Hebrews 13:1–16,Psalm 31; Jeremiah 24; John 12:20–36a
 2024/03/23,"Saturday, March 23, 2024",Week of 5th Sunday of Lent,Psalm 23; Exodus 11; Hebrews 13:17–end,Psalm 130; Jeremiah 25:1–14; John 12:36b–end
-2024/03/24,"Sunday, March 24, 2024",6th Sunday of Lent - Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 69:1-20; Isaiah 5:1-7; Mark 12:1-12
+2024/03/24,"Sunday, March 24, 2024",6th Sunday of Lent - Palm Sunday,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 85; Genesis 3:8-15; Galatians 4:1-5
+2024/03/25,"Monday, March 25, 2024",The Annunciation,"Psalm 111,113; 1 Samuel 2:1-10; Romans 5:12-21","Psalm 131,146; Isaiah 52:1-12; Hebrews 2:5-18"
+2024/03/26,"Tuesday, March 26, 2024",Tuesday in Holy Week,"Psalm 27; Lamentations 3:1-18; Luke 22:(24-38),39-53",Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-end
+2024/03/27,"Wednesday, March 27, 2024",Wednesday in Holy Week,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,Psalm 88; Isaiah 63:1-9; Revelation 14:18-15:4
+2024/03/28,"Thursday, March 28, 2024",Maundy Thursday,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
+2024/03/29,"Friday, March 29, 2024",Good Friday,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
+2024/03/30,"Saturday, March 30, 2024",Holy Saturday,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
