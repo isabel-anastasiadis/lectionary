@@ -8,6 +8,6 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
     {
         PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, List<Rule> applicableRules, IRuleException? ruleException = null);
 
-        void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, IRuleException? ruleException = null, DateOnly ? dateOverride = null);
+        void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, ApplyToOption applyTo, IRuleException? ruleException = null, DateOnly ? dateOverride = null);
     }
 }

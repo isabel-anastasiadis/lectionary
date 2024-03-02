@@ -56,8 +56,8 @@ namespace ReadingsBuilder.Pipeline.Steps
                 DateOnly? festivalDayDateOverride = null;
 
 
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, null, eveningBeforeDateOverride);
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, null, festivalDayDateOverride);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, ApplyToOption.WholeDay, null, eveningBeforeDateOverride);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, ApplyToOption.WholeDay, null, festivalDayDateOverride);
             }
 
             return workingResult;
