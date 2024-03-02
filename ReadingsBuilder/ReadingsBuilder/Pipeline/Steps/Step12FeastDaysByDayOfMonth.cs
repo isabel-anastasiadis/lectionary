@@ -40,27 +40,24 @@ namespace ReadingsBuilder.Pipeline.Steps
                     continue;
                 }
 
-                DateOnly? newEveningBeforeDate = null;
-                DateOnly? newFestivalDate = null;
                 if ((festivalRule.FeastOrSeasonFlags & FeastOrSeasonType.Festival) == FeastOrSeasonType.Festival)
                 {
                     if (!festivalDay.CanHaveFestival)
                     {
-                        continue; // our NZ one seems to skip St George rather than shift..?
+                        continue;
                     }
                 }
 
-                // temporary while I haven't quite built the data for all festivals yet.  Don't apply if there aren't readings set yet.
-                if (!festivalRule.HasSetReadings && !festivalRule.HasSetEveningOverrides && !festivalRule.HasMorningPsalms && !festivalRule.HasEveningPsalms)
-                {
-                    continue;
-                }
-
-                // we need to apply them one by one (particularly for multiple festivals falling in Holy week that need moving)
+                // TODO - sometimes things falling in HolyWeek get shifted later
+                // Not doing this yet
                 // eg. if St George and St Mark both fall in Holy Week, then St George will be shifted to the
                 // first available day (prob. Monday), and St Mark the day after that.
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, null, newEveningBeforeDate);
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, null, newFestivalDate);
+                DateOnly? eveningBeforeDateOverride = null;
+                DateOnly? festivalDayDateOverride = null;
+
+
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, null, eveningBeforeDateOverride);
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, null, festivalDayDateOverride);
             }
 
             return workingResult;
