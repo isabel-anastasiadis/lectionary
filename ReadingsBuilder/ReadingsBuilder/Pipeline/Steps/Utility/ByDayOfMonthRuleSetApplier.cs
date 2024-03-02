@@ -78,7 +78,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
                 if (day != null)
                 {
-                    ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear);
+                    ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear, ApplyToOption.WholeDay);
                 }
             }
 

@@ -168,7 +168,7 @@ namespace Tests.Pipeline.Steps.Utility
 
             // assert
 
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, liturgicalYear), times: Times.Once);
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, liturgicalYear, ApplyToOption.WholeDay), times: Times.Once);
 
 
         }
