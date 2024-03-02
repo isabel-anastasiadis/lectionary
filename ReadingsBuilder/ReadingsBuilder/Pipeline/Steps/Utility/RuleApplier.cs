@@ -8,49 +8,26 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public class RuleApplier : IRuleApplier
     {
-        public void ApplyRuleToDay(Rule rule, Day day, LiturgicalYear liturgicalYear, ReadingsOptionType optionType = default)
+        public void ApplyRuleToDay(Rule rule, Day day, LiturgicalYear liturgicalYear)
         {
-            InitialiseOptionTwoIfApplicable(rule, day, optionType);
-
-            ApplyDayDescription(rule, day, optionType);
-
-            ApplyEveningDescription(rule, day, optionType);
-
+            ApplyDayDescription(rule, day);
             ApplyIsSeasonalTime(rule, day); // NOTE: this needs to happen before rotating readings
 
             ApplyFeastOrSeasonType(rule, day); 
 
-            ApplyPsalms(rule, day, optionType);
+            ApplyPsalms(rule, day);
 
             ApplyRotatingReadings(liturgicalYear, rule, day);
 
-            ApplySetReadings(rule, day, optionType);
+            ApplySetReadings(rule, day);
         }
 
-        private void InitialiseOptionTwoIfApplicable(Rule rule, Day day, ReadingsOptionType optionType) 
-        {
-            if (optionType == ReadingsOptionType.EveningBeforeFestival)
-            {
-                day.EveningReadings.OptionTwoType = optionType;
-                day.EveningReadings.OptionTwo = new EveningReadings();
-            }
-        }
-
-        public void ApplyDayDescription(Rule rule, Day day, ReadingsOptionType optionType)
+        public void ApplyDayDescription(Rule rule, Day day)
         {
 
             if (rule.DayName != null)
             {
                 day.DayDescription = rule.DayName;
-            }
-        }
-
-        public void ApplyEveningDescription(Rule rule, Day day, ReadingsOptionType optionType)
-        {
-
-            if (rule.EveningName != null && optionType == ReadingsOptionType.EveningBeforeFestival)
-            {
-                day.EveningReadings.OptionTwoDescription = rule.EveningName;
             }
         }
 
@@ -70,7 +47,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             }
         }
 
-        public void ApplyPsalms(Rule rule, Day day, ReadingsOptionType optionType)
+        public void ApplyPsalms(Rule rule, Day day)
         {
             if (rule.HasMorningPsalms)
             {
@@ -126,7 +103,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
         }
 
-        public void ApplySetReadings(Rule rule, Day day, ReadingsOptionType optionType)
+        public void ApplySetReadings(Rule rule, Day day)
         {
             if (rule.MorningOldTestament != null)
             {

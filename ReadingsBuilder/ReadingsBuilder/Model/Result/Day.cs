@@ -5,8 +5,7 @@ namespace ReadingsBuilder.Model.Result
 
     public enum ReadingsOptionType
     {
-        Default,
-        EveningBeforeFestival
+        Default
     }
 
 
