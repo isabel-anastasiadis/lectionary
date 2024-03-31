@@ -5,16 +5,16 @@ using ReadingsBuilder.Pipeline.Steps.Utility;
 
 namespace ReadingsBuilder.Pipeline.Steps
 {
-    public class Step11FeastDaysByDayOfMonth : BaseStep, IStep
+    public class Step12FeastDaysByDayOfMonth : BaseStep, IStep
     {
         private readonly IByDayOfMonthRuleSetApplier ruleSetApplier;
 
-        public Step11FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
+        public Step12FeastDaysByDayOfMonth(IRuleApplier ruleApplier, IRulesFactory dataFactory, IByDayOfMonthRuleSetApplier ruleSetApplier) : base(ruleApplier, dataFactory)
         {
             this.ruleSetApplier = ruleSetApplier;
         }
 
-        public int Order => 11;
+        public int Order => 12;
 
         protected override string RuleSetName => "FeastDaysByDayOfMonth";
 
@@ -40,31 +40,39 @@ namespace ReadingsBuilder.Pipeline.Steps
                     continue;
                 }
 
-                DateOnly? newEveningBeforeDate = null;
-                DateOnly? newFestivalDate = null;
                 if ((festivalRule.FeastOrSeasonFlags & FeastOrSeasonType.Festival) == FeastOrSeasonType.Festival)
                 {
                     if (!festivalDay.CanHaveFestival)
                     {
-                        continue; // our NZ one seems to skip St George rather than shift..?
+                        continue;
                     }
                 }
 
-                // temporary while I haven't quite built the data for all festivals yet.  Don't apply if there aren't readings set yet.
-                if (!festivalRule.HasSetReadings && !festivalRule.HasSetEveningOverrides && !festivalRule.HasMorningPsalms && !festivalRule.HasEveningPsalms)
-                {
-                    continue;
-                }
-
-                // we need to apply them one by one (particularly for multiple festivals falling in Holy week that need moving)
+                // TODO - sometimes things falling in HolyWeek get shifted later
+                // Not doing this yet
                 // eg. if St George and St Mark both fall in Holy Week, then St George will be shifted to the
                 // first available day (prob. Monday), and St Mark the day after that.
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, null, newEveningBeforeDate);
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, null, newFestivalDate);
+                DateOnly? eveningBeforeDateOverride = null;
+                DateOnly? festivalDayDateOverride = null;
+
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, 
+                    liturgicalYear, 
+                    eveningBeforeRule,
+                    null, 
+                    eveningBeforeDateOverride);
+
+                // Sometimes the readings apply in the Morning but not in the evening.
+                // 11/06/2022 is an example where morning readings are from Feast of St barnabas,
+                // but evening readings are the 1st EP of of Trinity Sunday (which has already
+                // been applied by an eariler rule)
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, 
+                    liturgicalYear, 
+                    festivalRule, 
+                    null, 
+                    festivalDayDateOverride);
             }
 
             return workingResult;
         }
-
     }
 }

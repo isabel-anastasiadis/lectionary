@@ -136,16 +136,24 @@
         Eastertide = 4,
         EasterWeek = 8,
 
-        EveningBefore = 16, // TODO convert to an option
+        Festival = 16,
+        HolyWeek = 32,
+        PrincipalHolyDay = 64,
+        PrincipalFeast = 128,
 
-        Festival = 32,
-        HolyWeek = 64,
-        PrincipalHolyDay = 128,
-        PrincipalFeast = 256,
+        EveningBeforeFestival = 256,
+        EveningBeforePrincipalHolyDay = 512,
+        EveningBeforePrincipalFeast = 1024,
 
-
-        FeastOrFestivalMask = Festival | PrincipalFeast | PrincipalHolyDay,
         AdventLentOrEastertideMask = Advent | Lent | Eastertide
+    }
+
+    public static class FeastOrSeasonTypeExtensions
+    {
+        public static bool HasFlag(this FeastOrSeasonType feastOrSeasonFlags, FeastOrSeasonType typeToCheckFor)
+        { 
+            return (feastOrSeasonFlags & typeToCheckFor) == typeToCheckFor;
+        }
     }
 
     public enum RclYear

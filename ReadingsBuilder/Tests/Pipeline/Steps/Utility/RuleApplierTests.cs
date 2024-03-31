@@ -32,87 +32,6 @@ namespace Tests.Pipeline.Steps.Utility
             return new RuleApplier();
         }
 
-        [Test]
-        public void InitialisesEveningOptionTwoForEveningBeforeFestivalOptionType() {
-            // arrange
-            var day = new Day();
-            var rule = new Rule();
-
-            var liturgicalYear = Mock.Of<LiturgicalYear>();
-
-            // act
-            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear, ReadingsOptionType.EveningBeforeFestival);
-
-            // assert
-            Assert.NotNull(day.EveningReadings.OptionTwo);
-            Assert.AreEqual(ReadingsOptionType.EveningBeforeFestival, day.EveningReadings.OptionTwoType);
-        }
-
-        [Test]
-        public void DescriptionIsSetForEveningBeforeFestivalOptionType()
-        {
-            // arrange
-            var expected = "1st EP of St Mark";
-
-            var day = new Day();
-            var rule = new Rule()
-            { 
-                EveningName = expected
-            };
-
-            var liturgicalYear = Mock.Of<LiturgicalYear>();
-
-            // act
-            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear, ReadingsOptionType.EveningBeforeFestival);
-
-            // assert
-            Assert.AreEqual(expected, day.EveningReadings.OptionTwoDescription);
-        }
-
-        /// <summary>
-        /// This test is eventually what we want to happen. We want EveningBeforeFestival 
-        /// readings to be option two, not overriding option one.
-        /// 
-        /// But I haven't done this yet, so it is failing.
-        /// </summary>
-        [Ignore("future desired behaviour, not implemented yet")]
-        [Test]
-        public void OptionOneReadingsAreNotOverriddenByEveningBeforeFestivalOptionType()
-        {
-            // arrange
-
-            var originalPsalm = "Psalm 1";
-            var originalOldTestament = "Job 1:1-3";
-            var originalNewTestament = "Mark 1:1-7";
-
-            var option2Psalm = "5";
-            var option2OldTestament = "Genesis 3:1-5";
-            var option2NewTestament = "John 3:16";
-
-            var day = new Day();
-            day.EveningReadings.OptionOne.Psalms.OptionOne.RawString = originalPsalm;
-            day.EveningReadings.OptionOne.OldTestament.OptionOne.RawString = originalOldTestament;
-            day.EveningReadings.OptionOne.NewTestament.OptionOne.RawString = originalNewTestament;
-
-            var rule = new Rule()
-            {
-                EveningPsalmsMain = option2Psalm,
-                EveningOldTestament = option2OldTestament,
-                EveningNewTestament = option2NewTestament
-            };
-
-            var liturgicalYear = Mock.Of<LiturgicalYear>();
-
-            // act
-            ClassUnderTest().ApplyRuleToDay(rule, day, liturgicalYear, ReadingsOptionType.EveningBeforeFestival);
-
-            // assert
-            Assert.AreEqual(originalPsalm, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
-            Assert.AreEqual(originalOldTestament, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
-            Assert.AreEqual(originalNewTestament, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
-        }
-
-
         [TestCase("6", null, "Psalm 6", Description = "Happy path")]
         [TestCase(null, "Psalm 6", "Psalm 6", Description = "Preexisting day value not overridden")]
         [TestCase("8", "Psalm 6", "Psalm 8", Description = "Rule value trumps preexisting day value")]
@@ -132,7 +51,7 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyPsalms(rule, day, default);
+            ClassUnderTest().ApplyPsalms(rule, day, true, true);
 
             // assert
             Assert.AreEqual(expectedValue, day.MorningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -157,7 +76,7 @@ namespace Tests.Pipeline.Steps.Utility
 
 
             // act
-            ClassUnderTest().ApplyPsalms(rule, day, default);
+            ClassUnderTest().ApplyPsalms(rule, day, true, true);
 
             // assert
             Assert.AreEqual(expectedValue, day.EveningReadings.OptionOne.Psalms.OptionOne.RawString);
@@ -275,7 +194,7 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRotatingReadings(liturgicalYear, rule, day);
+            ClassUnderTest().ApplyRotatingReadings(liturgicalYear, rule, day, true, true);
 
             // assert
             Assert.AreEqual(rule.RotatingReadings[RotatingReadingType.NewTestament1], day?.MorningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString);
@@ -314,7 +233,7 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, rule, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, rule, day, true, true);
 
             // assert
             Assert.AreEqual(rule.RotatingReadings[RotatingReadingType.OldTestament2a], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
@@ -353,7 +272,7 @@ namespace Tests.Pipeline.Steps.Utility
             };
 
             // act
-            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, rule, day);
+            ClassUnderTest().ApplyRotatingReadings(rotatingReadingMapping, rule, day, true, true);
 
             // assert
             Assert.AreEqual(rule.RotatingReadings[RotatingReadingType.OldTestament2b], day?.MorningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString);
