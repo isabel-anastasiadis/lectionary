@@ -10,6 +10,7 @@ import {
 import { Theme } from "../../data/interfaces";
 import ReadingsPage from "./ReadingsPage";
 import { AUDIO_TRANSLATIONS, READING_TRANSLATIONS } from "../../data/urls";
+import Alert from "../../components/common/Alert"
 
 const availableDates = getAvailableDates();
 
@@ -63,21 +64,26 @@ const ReadingsPageContainer = ({
     setReadingTranslation(readingTranslation);
   }
 
+  const message = `It appears we've run out of generated readings! No data for ${dateKey}.`;
+
   return (
-    <ReadingsPage
-      theme={theme}
-      dateKey={dateKey}
-      availableDates={availableDates}
-      todaysReadings={todaysReadings}
-      audioTranslation={audioTranslation}
-      readingTranslation={readingTranslation}
-      setAudioTranslation={saveAudioTranslation}
-      setReadingTranslation={saveReadingTranslation}
-      updateTheme={updateTheme}
-      updateDate={updateDateKey}
-      yesterdayOnClick={handleYesterdayClicked}
-      tomorrowOnClick={handleTomorrowClicked}
-    />
+    todaysReadings ?
+      <ReadingsPage
+        theme={theme}
+        dateKey={dateKey}
+        availableDates={availableDates}
+        todaysReadings={todaysReadings}
+        audioTranslation={audioTranslation}
+        readingTranslation={readingTranslation}
+        setAudioTranslation={saveAudioTranslation}
+        setReadingTranslation={saveReadingTranslation}
+        updateTheme={updateTheme}
+        updateDate={updateDateKey}
+        yesterdayOnClick={handleYesterdayClicked}
+        tomorrowOnClick={handleTomorrowClicked}
+      />
+      :
+      <Alert message={message}/>
   );
 };
 
