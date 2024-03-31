@@ -69,7 +69,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                     throw new ArgumentException($"Expected {day.Date} to be a {rule.Weekday}, but it is {day.Date.DayOfWeek}.");
                 }
 
-                _ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear, ApplyToOption.WholeDay);
+                _ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear);
 
                 currentDate = currentDate.AddDays(1);
             }

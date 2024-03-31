@@ -29,13 +29,13 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             foreach (var rule in applicableRules)
             {
 
-                ApplyRuleByDayOfMonth(workingResult, liturgicalYear, rule, ApplyToOption.WholeDay, ruleException);
+                ApplyRuleByDayOfMonth(workingResult, liturgicalYear, rule, ruleException);
             }
 
             return workingResult;
         }
 
-        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, ApplyToOption applyTo, IRuleException? ruleException = null, DateOnly? dateOverride = null)
+        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, IRuleException? ruleException = null, DateOnly? dateOverride = null)
         {
             if (workingResult == null)
             {
@@ -78,7 +78,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
                 if (day != null)
                 {
-                    ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear, applyTo);
+                    ruleApplier.ApplyRuleToDay(rule, day, liturgicalYear);
                 }
             }
 

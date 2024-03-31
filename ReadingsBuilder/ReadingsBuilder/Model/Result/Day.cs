@@ -39,7 +39,7 @@ namespace ReadingsBuilder.Model.Result
         public Option<EveningReadings, ReadingsOptionType> EveningReadings { get; set; }
 
         /// <summary>
-        /// This is true if it doesn't fall in Holy or Easter Week, on another festival, or another Sunday in Advent, Lent, or Eastertide.
+        /// This is true if it doesn't fall in Holy or Easter Week, or another Sunday in Advent, Lent, or Eastertide.
         /// </summary>
         public bool CanHaveFestival 
         { 
@@ -49,9 +49,8 @@ namespace ReadingsBuilder.Model.Result
                 var fallsOnSundayOfAdventLentOrEastertide = 
                     Date.DayOfWeek == DayOfWeek.Sunday
                     && (FeastOrSeasonType & FeastOrSeasonType.AdventLentOrEastertideMask) != 0;
-                var isAlreadyAFestival = (FeastOrSeasonType & FeastOrSeasonType.FeastOrFestivalMask) != 0;
 
-                return !fallsInHolyWeekOrEasterWeek && !fallsOnSundayOfAdventLentOrEastertide & !isAlreadyAFestival;
+                return !fallsInHolyWeekOrEasterWeek && !fallsOnSundayOfAdventLentOrEastertide;
             } 
         }
 

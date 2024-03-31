@@ -1,5 +1,4 @@
 ﻿using ReadingsBuilder.Model;
-using ReadingsBuilder.Data.Result;
 using ReadingsBuilder.Model.Result;
 
 
@@ -8,21 +7,84 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public class RuleApplier : IRuleApplier
     {
-        public void ApplyRuleToDay(Rule rule, Day day, LiturgicalYear liturgicalYear, ApplyToOption applyTo)
+        public void ApplyRuleToDay(Rule rule, Day day, LiturgicalYear liturgicalYear)
         {
+            // NOTE: most of the time, the higher priority things get applied later, but sometimes a higher step
+            // applies a rule that is trumped by one that has already been applied.
+            //
+            // Also, evening can be different to morning (because of 1st EP of ...).
+            //
+            // Eg. 2022-06-11
+            //   1st EP of Trinity Sunday(a principal feast) is applied by Step 8
+            //   Feast of St Barnabas is applied in Step 12
+            // In this case, we only want to apply feast of St Barnabas readings to the morning and not the evening.
+            var applyToMorning = CanApplyTo(rule, day, "Morning");
+            var applyToEvening = CanApplyTo(rule, day, "Evening");
+
+            if (!applyToMorning && !applyToEvening)
+            {
+                return;
+            }
+
             ApplyDayDescription(rule, day);
             ApplyIsSeasonalTime(rule, day); // NOTE: this needs to happen before rotating readings
 
-            ApplyFeastOrSeasonType(rule, day);
-
-            var applyToMorning = applyTo == ApplyToOption.MorningOnly || applyTo == ApplyToOption.WholeDay;
-            var applyToEvening = applyTo == ApplyToOption.EveningOnly || applyTo == ApplyToOption.WholeDay;
+            ApplyFeastOrSeasonType(rule, day, applyToEvening);
 
             ApplyPsalms(rule, day, applyToMorning, applyToEvening);
 
             ApplyRotatingReadings(liturgicalYear, rule, day, applyToMorning, applyToEvening);
 
             ApplySetReadings(rule, day, applyToMorning, applyToEvening);
+        }
+
+        private bool CanApplyTo(Rule rule, Day day, string timeOfDay)
+        {
+            var isEvening = timeOfDay == "Evening";
+
+            int rulePriority = GetPriority(rule.FeastOrSeasonFlags, isEvening);
+            int existingReadingsPriority = GetPriority(day.FeastOrSeasonType, isEvening);
+
+            var existingReadingsTrumpCurrentRule = existingReadingsPriority > rulePriority;
+
+            return !existingReadingsTrumpCurrentRule;
+        }
+
+        private int GetPriority(FeastOrSeasonType flags, bool isEvening)
+        {
+            int priority = 0;
+
+            if (flags.HasFlag(FeastOrSeasonType.Festival))
+            {
+                priority = 1;
+            }
+
+            if (isEvening && flags.HasFlag(FeastOrSeasonType.EveningBeforeFestival))
+            {
+                priority = 1;
+            }
+
+            if (flags.HasFlag(FeastOrSeasonType.PrincipalFeast))
+            {
+                priority = 2;
+            }
+
+            if (flags.HasFlag(FeastOrSeasonType.PrincipalHolyDay))
+            {
+                priority = 2;
+            }
+
+            if (isEvening && flags.HasFlag(FeastOrSeasonType.EveningBeforePrincipalFeast))
+            {
+                priority = 2;
+            }
+
+            if (isEvening && flags.HasFlag(FeastOrSeasonType.EveningBeforePrincipalHolyDay))
+            {
+                priority = 2;
+            }
+
+            return priority;
         }
 
         public void ApplyDayDescription(Rule rule, Day day)
@@ -42,12 +104,22 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             }
         }
 
-        public void ApplyFeastOrSeasonType(Rule rule, Day day)
+        public void ApplyFeastOrSeasonType(Rule rule, Day day, bool applyToEvening)
         {
-            if (rule.FeastOrSeasonFlags != FeastOrSeasonType.None)
+            if (rule.FeastOrSeasonFlags == FeastOrSeasonType.None)
             {
-                day.FeastOrSeasonType |= rule.FeastOrSeasonFlags;
+                return;
             }
+
+            var flagsToAdd = rule.FeastOrSeasonFlags;
+            if (!applyToEvening)
+            {
+                flagsToAdd &= ~FeastOrSeasonType.EveningBeforeFestival;
+                flagsToAdd &= ~FeastOrSeasonType.EveningBeforePrincipalFeast;
+                flagsToAdd &= ~FeastOrSeasonType.EveningBeforePrincipalHolyDay;
+            }
+
+            day.FeastOrSeasonType |= flagsToAdd;
         }
 
         public void ApplyPsalms(Rule rule, Day day, bool applyToMorning, bool applyToEvening)

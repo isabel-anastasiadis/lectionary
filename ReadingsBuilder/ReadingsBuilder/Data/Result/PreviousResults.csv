@@ -194,7 +194,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2022/06/08,"Wednesday, June 8, 2022",Week after Pentecost,Psalm 119:153-end; Joshua 3; Luke 9:37–50,Psalm 136; 2 Chronicles 18:28–end; 2 Chronicles 19; Romans 2:1–16
 2022/06/09,"Thursday, June 9, 2022",Week after Pentecost,Psalm 143; Joshua 4:1–5:1; Luke 9:51–end,Psalm 138; 2 Chronicles 20:1–23; Romans 2:17–end
 2022/06/10,"Friday, June 10, 2022",Week after Pentecost,Psalm 144; Joshua 5:2–end; Luke 10:1–16,"Psalm 1,15; Isaiah 42:5-12; Acts 14:8-28"
-2022/06/11,"Saturday, June 11, 2022",Barnabas the Apostle,"Psalm 100,101,117; Jeremaiah 9:23-24; Acts 4:32-37",Psalm 147; Ecclesiastes 12:9-24; Acts 9:26-31
+2022/06/11,"Saturday, June 11, 2022",Barnabas the Apostle,"Psalm 100,101,117; Jeremaiah 9:23-24; Acts 4:32-37","Psalm 97,98; Isaiah 40:12-31; Mark 1:1-13"
 2022/06/12,"Sunday, June 12, 2022",Trinity Sunday,Psalm 29; Isaiah 6:1-8; Revelation 4,"Psalm 73:1-3,16-28; Exodus 3:1-15; John 3:1-17"
 2022/06/13,"Monday, June 13, 2022",Week of Trinity Sunday,Psalm 1; Joshua 7:1–15; Luke 10:25–37,Psalm 4; 2 Chronicles 26:1–21; Romans 4:1–12
 2022/06/14,"Tuesday, June 14, 2022",Week of Trinity Sunday,Psalm 5; Joshua 7:16–end; Luke 10:38–end,Psalm 9; 2 Chronicles 28; Romans 4:13–end
@@ -552,7 +552,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2023/05/31,"Wednesday, May 31, 2023",The Visitation of Mary to Elizabeth,Psalm 85; 1 Samuel 2:1-10; Mark 3:31-35,Psalm 122; Zechariah 2:10-13; John 3:25-30
 2023/06/01,"Thursday, June 1, 2023",Week after Pentecost,Psalm 143; 2 Chronicles 20:1–23; Romans 2:17–end,Psalm 138; Joshua 4:1–5:1; Luke 9:51–end
 2023/06/02,"Friday, June 2, 2023",Week after Pentecost,Psalm 144; 2 Chronicles 22:10–end; 2 Chronicles 23; Romans 3:1–20,Psalm 145; Joshua 5:2–end; Luke 10:1–16
-2023/06/03,"Saturday, June 3, 2023",Week after Pentecost,Psalm 147; 2 Chronicles 24:1–22; Romans 3:21–end,Psalm 148; Exodus 34:1-10; Mark 1:1-13
+2023/06/03,"Saturday, June 3, 2023",Week after Pentecost,Psalm 147; 2 Chronicles 24:1–22; Romans 3:21–end,"Psalm 97,98; Exodus 34:1-10; Mark 1:1-13"
 2023/06/04,"Sunday, June 4, 2023",Trinity Sunday,"Psalm 86:8-13; Exodus 3:1-6,13-15; John 17:1-11","Psalm 93,150; Isaiah 6:1-8; John 16:5-15"
 2023/06/05,"Monday, June 5, 2023",Week of Trinity Sunday,Psalm 1; 2 Chronicles 26:1–21; Romans 4:1–12,Psalm 4; Joshua 7:1–15; Luke 10:25–37
 2023/06/06,"Tuesday, June 6, 2023",Week of Trinity Sunday,Psalm 5; 2 Chronicles 28; Romans 4:13–end,Psalm 9; Joshua 7:16–end; Luke 10:38–end
@@ -910,7 +910,7 @@ date,date_pretty,day_description,morning_prayers_together,evening_prayers_togeth
 2024/05/22,"Wednesday, May 22, 2024",Week after Pentecost,Psalm 119:153-end; Joshua 3; Luke 9:37–50,Psalm 136; Job 3; Romans 2:1–16
 2024/05/23,"Thursday, May 23, 2024",Week after Pentecost,Psalm 143; Joshua 4:1–5:1; Luke 9:51–end,Psalm 138; Job 4; Romans 2:17–end
 2024/05/24,"Friday, May 24, 2024",Week after Pentecost,Psalm 144; Joshua 5:2–end; Luke 10:1–16,Psalm 145; Job 5; Romans 3:1–20
-2024/05/25,"Saturday, May 25, 2024",Week after Pentecost,Psalm 147; Joshua 6:1–20; Luke 10:17–24,Psalm 148; Isaiah 40:12-31; Mark 1:1-13
+2024/05/25,"Saturday, May 25, 2024",Week after Pentecost,Psalm 147; Joshua 6:1–20; Luke 10:17–24,"Psalm 97,98; Isaiah 40:12-31; Mark 1:1-13"
 2024/05/26,"Sunday, May 26, 2024",Trinity Sunday,"Psalm 33:1-12; Proverbs 8:1-4,22-31; 2 Corinthians 13:(5-10),11-13","Psalm 104:1-10; Ezekiel 1:4-10,22-28a; Revelation 4"
 2024/05/27,"Monday, May 27, 2024",Week of Trinity Sunday,Psalm 1; Joshua 7:1–15; Luke 10:25–37,Psalm 4; Job 7; Romans 4:1–12
 2024/05/28,"Tuesday, May 28, 2024",Week of Trinity Sunday,Psalm 5; Joshua 7:16–end; Luke 10:38–end,Psalm 9; Job 8; Romans 4:13–end

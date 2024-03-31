@@ -55,13 +55,24 @@ namespace ReadingsBuilder.Pipeline.Steps
                 DateOnly? eveningBeforeDateOverride = null;
                 DateOnly? festivalDayDateOverride = null;
 
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, 
+                    liturgicalYear, 
+                    eveningBeforeRule,
+                    null, 
+                    eveningBeforeDateOverride);
 
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, eveningBeforeRule, ApplyToOption.WholeDay, null, eveningBeforeDateOverride);
-                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, liturgicalYear, festivalRule, ApplyToOption.WholeDay, null, festivalDayDateOverride);
+                // Sometimes the readings apply in the Morning but not in the evening.
+                // 11/06/2022 is an example where morning readings are from Feast of St barnabas,
+                // but evening readings are the 1st EP of of Trinity Sunday (which has already
+                // been applied by an eariler rule)
+                ruleSetApplier.ApplyRuleByDayOfMonth(workingResult, 
+                    liturgicalYear, 
+                    festivalRule, 
+                    null, 
+                    festivalDayDateOverride);
             }
 
             return workingResult;
         }
-
     }
 }

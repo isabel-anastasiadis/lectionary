@@ -170,7 +170,7 @@ namespace Tests.Pipeline.Steps.Utility
 
             // assert
             _ruleApplierMock.Verify(m => m
-                .ApplyRuleToDay(applicableRules[0], lastDay, liturgicalYear, ApplyToOption.WholeDay)
+                .ApplyRuleToDay(applicableRules[0], lastDay, liturgicalYear)
             );
 
         }
@@ -200,7 +200,7 @@ namespace Tests.Pipeline.Steps.Utility
             ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, resultDay.Date, null, null);
 
             // assert
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, liturgicalYear, ApplyToOption.WholeDay));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules.First(), resultDay, liturgicalYear));
         }
 
         [Test]
@@ -231,7 +231,7 @@ namespace Tests.Pipeline.Steps.Utility
             ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, resultDay.Date, applicableRules[1], null);
 
             // assert
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], resultDay, liturgicalYear, ApplyToOption.WholeDay));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], resultDay, liturgicalYear));
         }
 
         [Test]
@@ -269,9 +269,9 @@ namespace Tests.Pipeline.Steps.Utility
             ClassUnderTest().ApplyRulesByDayOfWeek(workingResult, liturgicalYear, applicableRules, day1.Date, applicableRules[0], null);
 
             // assert
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[0], day1, liturgicalYear, ApplyToOption.WholeDay));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[0], day1, liturgicalYear));
 
-            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], day2, liturgicalYear, ApplyToOption.WholeDay));
+            _ruleApplierMock.Verify(m => m.ApplyRuleToDay(applicableRules[1], day2, liturgicalYear));
         }
 
         [Test]
