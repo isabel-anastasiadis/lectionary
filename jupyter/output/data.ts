@@ -8436,5 +8436,8346 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             "readQS": "Psalm+35%3B+Jeremiah+5:1-19%3B+Romans+7:7-25",
             "audioQS": "Ps.35,Jer.5,Rom.7"
         }
+    },
+    "2024/06/03": {
+        "datePretty": "Monday, June 3, 2024",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 30",
+                    "readQS": "Psalm+30",
+                    "audioQS": "Ps.30"
+                },
+                {
+                    "pretty": "Joshua 14",
+                    "readQS": "Joshua+14",
+                    "audioQS": "Josh.14"
+                },
+                {
+                    "pretty": "Luke 12:1\u201312",
+                    "readQS": "Luke+12:1-12",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+30%3B+Joshua+14%3B+Luke+12:1-12",
+            "audioQS": "Ps.30,Josh.14,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 28",
+                    "readQS": "Psalm+28",
+                    "audioQS": "Ps.28"
+                },
+                {
+                    "pretty": "Job 13",
+                    "readQS": "Job+13",
+                    "audioQS": "Job.13"
+                },
+                {
+                    "pretty": "Romans 7:1\u20136",
+                    "readQS": "Romans+7:1-6",
+                    "audioQS": "Rom.7"
+                }
+            ],
+            "readQS": "Psalm+28%3B+Job+13%3B+Romans+7:1-6",
+            "audioQS": "Ps.28,Job.13,Rom.7"
+        }
+    },
+    "2024/06/04": {
+        "datePretty": "Tuesday, June 4, 2024",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36",
+                    "readQS": "Psalm+36",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "Joshua 21:43\u201322:8",
+                    "readQS": "Joshua+21:43-22:8",
+                    "audioQS": "Josh.21"
+                },
+                {
+                    "pretty": "Luke 12:13\u201321",
+                    "readQS": "Luke+12:13-21",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+36%3B+Joshua+21:43-22:8%3B+Luke+12:13-21",
+            "audioQS": "Ps.36,Josh.21,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "Job 14",
+                    "readQS": "Job+14",
+                    "audioQS": "Job.14"
+                },
+                {
+                    "pretty": "Romans 7:7\u2013end",
+                    "readQS": "Romans+7:7-",
+                    "audioQS": "Rom.7"
+                }
+            ],
+            "readQS": "Psalm+33%3B+Job+14%3B+Romans+7:7-",
+            "audioQS": "Ps.33,Job.14,Rom.7"
+        }
+    },
+    "2024/06/05": {
+        "datePretty": "Wednesday, June 5, 2024",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "Joshua 22:9\u2013end",
+                    "readQS": "Joshua+22:9-",
+                    "audioQS": "Josh.22"
+                },
+                {
+                    "pretty": "Luke 12:22\u201331",
+                    "readQS": "Luke+12:22-31",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+34%3B+Joshua+22:9-%3B+Luke+12:22-31",
+            "audioQS": "Ps.34,Josh.22,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:33\u201356",
+                    "readQS": "Psalm+119:33-56",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Job 15",
+                    "readQS": "Job+15",
+                    "audioQS": "Job.15"
+                },
+                {
+                    "pretty": "Romans 8:1\u201311",
+                    "readQS": "Romans+8:1-11",
+                    "audioQS": "Rom.8"
+                }
+            ],
+            "readQS": "Psalm+119:33-56%3B+Job+15%3B+Romans+8:1-11",
+            "audioQS": "Ps.119,Job.15,Rom.8"
+        }
+    },
+    "2024/06/06": {
+        "datePretty": "Thursday, June 6, 2024",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 37",
+                    "readQS": "Psalm+37",
+                    "audioQS": "Ps.37"
+                },
+                {
+                    "pretty": "Joshua 23",
+                    "readQS": "Joshua+23",
+                    "audioQS": "Josh.23"
+                },
+                {
+                    "pretty": "Luke 12:32\u201340",
+                    "readQS": "Luke+12:32-40",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+37%3B+Joshua+23%3B+Luke+12:32-40",
+            "audioQS": "Ps.37,Josh.23,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 40",
+                    "readQS": "Psalm+40",
+                    "audioQS": "Ps.40"
+                },
+                {
+                    "pretty": "Job 16:1\u201317:2",
+                    "readQS": "Job+16:1-17:2",
+                    "audioQS": "Job.16"
+                },
+                {
+                    "pretty": "Romans 8:12\u201317",
+                    "readQS": "Romans+8:12-17",
+                    "audioQS": "Rom.8"
+                }
+            ],
+            "readQS": "Psalm+40%3B+Job+16:1-17:2%3B+Romans+8:12-17",
+            "audioQS": "Ps.40,Job.16,Rom.8"
+        }
+    },
+    "2024/06/07": {
+        "datePretty": "Friday, June 7, 2024",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 31",
+                    "readQS": "Psalm+31",
+                    "audioQS": "Ps.31"
+                },
+                {
+                    "pretty": "Joshua 24:1\u201328",
+                    "readQS": "Joshua+24:1-28",
+                    "audioQS": "Josh.24"
+                },
+                {
+                    "pretty": "Luke 12:41\u201348",
+                    "readQS": "Luke+12:41-48",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+31%3B+Joshua+24:1-28%3B+Luke+12:41-48",
+            "audioQS": "Ps.31,Josh.24,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 35",
+                    "readQS": "Psalm+35",
+                    "audioQS": "Ps.35"
+                },
+                {
+                    "pretty": "Job 17:3\u2013end",
+                    "readQS": "Job+17:3-",
+                    "audioQS": "Job.17"
+                },
+                {
+                    "pretty": "Romans 8:18\u201330",
+                    "readQS": "Romans+8:18-30",
+                    "audioQS": "Rom.8"
+                }
+            ],
+            "readQS": "Psalm+35%3B+Job+17:3-%3B+Romans+8:18-30",
+            "audioQS": "Ps.35,Job.17,Rom.8"
+        }
+    },
+    "2024/06/08": {
+        "datePretty": "Saturday, June 8, 2024",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 42",
+                    "readQS": "Psalm+42",
+                    "audioQS": "Ps.42"
+                },
+                {
+                    "pretty": "Joshua 24:29\u2013end",
+                    "readQS": "Joshua+24:29-",
+                    "audioQS": "Josh.24"
+                },
+                {
+                    "pretty": "Luke 12:49\u2013end",
+                    "readQS": "Luke+12:49-",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+42%3B+Joshua+24:29-%3B+Luke+12:49-",
+            "audioQS": "Ps.42,Josh.24,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 46",
+                    "readQS": "Psalm+46",
+                    "audioQS": "Ps.46"
+                },
+                {
+                    "pretty": "Job 18",
+                    "readQS": "Job+18",
+                    "audioQS": "Job.18"
+                },
+                {
+                    "pretty": "Romans 8:31\u2013end",
+                    "readQS": "Romans+8:31-",
+                    "audioQS": "Rom.8"
+                }
+            ],
+            "readQS": "Psalm+46%3B+Job+18%3B+Romans+8:31-",
+            "audioQS": "Ps.46,Job.18,Rom.8"
+        }
+    },
+    "2024/06/09": {
+        "datePretty": "Sunday, June 9, 2024",
+        "calendar": "13th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36",
+                    "readQS": "Psalm+36",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "Deuteronomy 6:10\u201325",
+                    "readQS": "Deuteronomy+6:10-25",
+                    "audioQS": "Deut.6"
+                },
+                {
+                    "pretty": "Acts 22:22\u201323:11",
+                    "readQS": "Acts+22:22-23:11",
+                    "audioQS": "Acts.22"
+                }
+            ],
+            "readQS": "Psalm+36%3B+Deuteronomy+6:10-25%3B+Acts+22:22-23:11",
+            "audioQS": "Ps.36,Deut.6,Acts.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 37:1\u201311",
+                    "readQS": "Psalm+37:1-11",
+                    "audioQS": "Ps.37"
+                },
+                {
+                    "pretty": "Jeremiah 6:16\u201321",
+                    "readQS": "Jeremiah+6:16-21",
+                    "audioQS": "Jer.6"
+                },
+                {
+                    "pretty": "Romans 9:1\u201313",
+                    "readQS": "Romans+9:1-13",
+                    "audioQS": "Rom.9"
+                }
+            ],
+            "readQS": "Psalm+37:1-11%3B+Jeremiah+6:16-21%3B+Romans+9:1-13",
+            "audioQS": "Ps.37,Jer.6,Rom.9"
+        }
+    },
+    "2024/06/10": {
+        "datePretty": "Monday, June 10, 2024",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 44",
+                    "readQS": "Psalm+44",
+                    "audioQS": "Ps.44"
+                },
+                {
+                    "pretty": "Judges 2",
+                    "readQS": "Judges+2",
+                    "audioQS": "Judg.2"
+                },
+                {
+                    "pretty": "Luke 13:1\u20139",
+                    "readQS": "Luke+13:1-9",
+                    "audioQS": "Luke.13"
+                }
+            ],
+            "readQS": "Psalm+44%3B+Judges+2%3B+Luke+13:1-9",
+            "audioQS": "Ps.44,Judg.2,Luke.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1,15",
+                    "readQS": "Psalm+1,15",
+                    "audioQS": "Ps.1,15"
+                },
+                {
+                    "pretty": "Isaiah 42:5\u201312",
+                    "readQS": "Isaiah+42:5-12",
+                    "audioQS": "Isa.42"
+                },
+                {
+                    "pretty": "Acts 14:8\u201328",
+                    "readQS": "Acts+14:8-28",
+                    "audioQS": "Acts.14"
+                }
+            ],
+            "readQS": "Psalm+1,15%3B+Isaiah+42:5-12%3B+Acts+14:8-28",
+            "audioQS": "Ps.1,15,Isa.42,Acts.14"
+        }
+    },
+    "2024/06/11": {
+        "datePretty": "Tuesday, June 11, 2024",
+        "calendar": "Barnabas the Apostle",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 100,101,117",
+                    "readQS": "Psalm+100,101,117",
+                    "audioQS": "Ps.100,101,117"
+                },
+                {
+                    "pretty": "Jeremaiah 9:23\u201324",
+                    "readQS": "Jeremaiah+9:23-24",
+                    "audioQS": "Jeremaiah 9"
+                },
+                {
+                    "pretty": "Acts 4:32\u201337",
+                    "readQS": "Acts+4:32-37",
+                    "audioQS": "Acts.4"
+                }
+            ],
+            "readQS": "Psalm+100,101,117%3B+Jeremaiah+9:23-24%3B+Acts+4:32-37",
+            "audioQS": "Ps.100,101,117,Jeremaiah 9,Acts.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 147",
+                    "readQS": "Psalm+147",
+                    "audioQS": "Ps.147"
+                },
+                {
+                    "pretty": "Ecclesiastes 12:9\u201324",
+                    "readQS": "Ecclesiastes+12:9-24",
+                    "audioQS": "Eccl.12"
+                },
+                {
+                    "pretty": "Acts 9:26\u201331",
+                    "readQS": "Acts+9:26-31",
+                    "audioQS": "Acts.9"
+                }
+            ],
+            "readQS": "Psalm+147%3B+Ecclesiastes+12:9-24%3B+Acts+9:26-31",
+            "audioQS": "Ps.147,Eccl.12,Acts.9"
+        }
+    },
+    "2024/06/12": {
+        "datePretty": "Wednesday, June 12, 2024",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:57\u201380",
+                    "readQS": "Psalm+119:57-80",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Judges 5",
+                    "readQS": "Judges+5",
+                    "audioQS": "Judg.5"
+                },
+                {
+                    "pretty": "Luke 13:22\u2013end",
+                    "readQS": "Luke+13:22-",
+                    "audioQS": "Luke.13"
+                }
+            ],
+            "readQS": "Psalm+119:57-80%3B+Judges+5%3B+Luke+13:22-",
+            "audioQS": "Ps.119,Judg.5,Luke.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 59",
+                    "readQS": "Psalm+59",
+                    "audioQS": "Ps.59"
+                },
+                {
+                    "pretty": "Job 22",
+                    "readQS": "Job+22",
+                    "audioQS": "Job.22"
+                },
+                {
+                    "pretty": "Romans 10:1\u201310",
+                    "readQS": "Romans+10:1-10",
+                    "audioQS": "Rom.10"
+                }
+            ],
+            "readQS": "Psalm+59%3B+Job+22%3B+Romans+10:1-10",
+            "audioQS": "Ps.59,Job.22,Rom.10"
+        }
+    },
+    "2024/06/13": {
+        "datePretty": "Thursday, June 13, 2024",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 57",
+                    "readQS": "Psalm+57",
+                    "audioQS": "Ps.57"
+                },
+                {
+                    "pretty": "Judges 6:1\u201324",
+                    "readQS": "Judges+6:1-24",
+                    "audioQS": "Judg.6"
+                },
+                {
+                    "pretty": "Luke 14:1\u201311",
+                    "readQS": "Luke+14:1-11",
+                    "audioQS": "Luke.14"
+                }
+            ],
+            "readQS": "Psalm+57%3B+Judges+6:1-24%3B+Luke+14:1-11",
+            "audioQS": "Ps.57,Judg.6,Luke.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 62",
+                    "readQS": "Psalm+62",
+                    "audioQS": "Ps.62"
+                },
+                {
+                    "pretty": "Job 23",
+                    "readQS": "Job+23",
+                    "audioQS": "Job.23"
+                },
+                {
+                    "pretty": "Romans 10:11\u2013end",
+                    "readQS": "Romans+10:11-",
+                    "audioQS": "Rom.10"
+                }
+            ],
+            "readQS": "Psalm+62%3B+Job+23%3B+Romans+10:11-",
+            "audioQS": "Ps.62,Job.23,Rom.10"
+        }
+    },
+    "2024/06/14": {
+        "datePretty": "Friday, June 14, 2024",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 51",
+                    "readQS": "Psalm+51",
+                    "audioQS": "Ps.51"
+                },
+                {
+                    "pretty": "Judges 6:25\u2013end",
+                    "readQS": "Judges+6:25-",
+                    "audioQS": "Judg.6"
+                },
+                {
+                    "pretty": "Luke 14:12\u201324",
+                    "readQS": "Luke+14:12-24",
+                    "audioQS": "Luke.14"
+                }
+            ],
+            "readQS": "Psalm+51%3B+Judges+6:25-%3B+Luke+14:12-24",
+            "audioQS": "Ps.51,Judg.6,Luke.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 38",
+                    "readQS": "Psalm+38",
+                    "audioQS": "Ps.38"
+                },
+                {
+                    "pretty": "Job 24",
+                    "readQS": "Job+24",
+                    "audioQS": "Job.24"
+                },
+                {
+                    "pretty": "Romans 11:1\u201312",
+                    "readQS": "Romans+11:1-12",
+                    "audioQS": "Rom.11"
+                }
+            ],
+            "readQS": "Psalm+38%3B+Job+24%3B+Romans+11:1-12",
+            "audioQS": "Ps.38,Job.24,Rom.11"
+        }
+    },
+    "2024/06/15": {
+        "datePretty": "Saturday, June 15, 2024",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 68",
+                    "readQS": "Psalm+68",
+                    "audioQS": "Ps.68"
+                },
+                {
+                    "pretty": "Judges 7",
+                    "readQS": "Judges+7",
+                    "audioQS": "Judg.7"
+                },
+                {
+                    "pretty": "Luke 14:25\u2013end",
+                    "readQS": "Luke+14:25-",
+                    "audioQS": "Luke.14"
+                }
+            ],
+            "readQS": "Psalm+68%3B+Judges+7%3B+Luke+14:25-",
+            "audioQS": "Ps.68,Judg.7,Luke.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 66",
+                    "readQS": "Psalm+66",
+                    "audioQS": "Ps.66"
+                },
+                {
+                    "pretty": "Job 25\u201326",
+                    "readQS": "Job+25-26",
+                    "audioQS": "Job.25\u201326"
+                },
+                {
+                    "pretty": "Romans 11:13\u201324",
+                    "readQS": "Romans+11:13-24",
+                    "audioQS": "Rom.11"
+                }
+            ],
+            "readQS": "Psalm+66%3B+Job+25-26%3B+Romans+11:13-24",
+            "audioQS": "Ps.66,Job.25\u201326,Rom.11"
+        }
+    },
+    "2024/06/16": {
+        "datePretty": "Sunday, June 16, 2024",
+        "calendar": "14th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 42,43",
+                    "readQS": "Psalm+42,43",
+                    "audioQS": "Ps.42,43"
+                },
+                {
+                    "pretty": "Deuteronomy 10:12\u201311:1",
+                    "readQS": "Deuteronomy+10:12-11:1",
+                    "audioQS": "Deut.10"
+                },
+                {
+                    "pretty": "Acts 23:12\u201335",
+                    "readQS": "Acts+23:12-35",
+                    "audioQS": "Acts.23"
+                }
+            ],
+            "readQS": "Psalm+42,43%3B+Deuteronomy+10:12-11:1%3B+Acts+23:12-35",
+            "audioQS": "Ps.42,43,Deut.10,Acts.23"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 39",
+                    "readQS": "Psalm+39",
+                    "audioQS": "Ps.39"
+                },
+                {
+                    "pretty": "Jeremiah 7:1\u201316",
+                    "readQS": "Jeremiah+7:1-16",
+                    "audioQS": "Jer.7"
+                },
+                {
+                    "pretty": "Romans 9:14\u201326",
+                    "readQS": "Romans+9:14-26",
+                    "audioQS": "Rom.9"
+                }
+            ],
+            "readQS": "Psalm+39%3B+Jeremiah+7:1-16%3B+Romans+9:14-26",
+            "audioQS": "Ps.39,Jer.7,Rom.9"
+        }
+    },
+    "2024/06/17": {
+        "datePretty": "Monday, June 17, 2024",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 71",
+                    "readQS": "Psalm+71",
+                    "audioQS": "Ps.71"
+                },
+                {
+                    "pretty": "Judges 8:22\u2013end",
+                    "readQS": "Judges+8:22-",
+                    "audioQS": "Judg.8"
+                },
+                {
+                    "pretty": "Luke 15:1\u201310",
+                    "readQS": "Luke+15:1-10",
+                    "audioQS": "Luke.15"
+                }
+            ],
+            "readQS": "Psalm+71%3B+Judges+8:22-%3B+Luke+15:1-10",
+            "audioQS": "Ps.71,Judg.8,Luke.15"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 72",
+                    "readQS": "Psalm+72",
+                    "audioQS": "Ps.72"
+                },
+                {
+                    "pretty": "Job 27",
+                    "readQS": "Job+27",
+                    "audioQS": "Job.27"
+                },
+                {
+                    "pretty": "Romans 11:25\u2013end",
+                    "readQS": "Romans+11:25-",
+                    "audioQS": "Rom.11"
+                }
+            ],
+            "readQS": "Psalm+72%3B+Job+27%3B+Romans+11:25-",
+            "audioQS": "Ps.72,Job.27,Rom.11"
+        }
+    },
+    "2024/06/18": {
+        "datePretty": "Tuesday, June 18, 2024",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 73",
+                    "readQS": "Psalm+73",
+                    "audioQS": "Ps.73"
+                },
+                {
+                    "pretty": "Judges 9:1\u201321",
+                    "readQS": "Judges+9:1-21",
+                    "audioQS": "Judg.9"
+                },
+                {
+                    "pretty": "Luke 15:11\u2013end",
+                    "readQS": "Luke+15:11-",
+                    "audioQS": "Luke.15"
+                }
+            ],
+            "readQS": "Psalm+73%3B+Judges+9:1-21%3B+Luke+15:11-",
+            "audioQS": "Ps.73,Judg.9,Luke.15"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 74",
+                    "readQS": "Psalm+74",
+                    "audioQS": "Ps.74"
+                },
+                {
+                    "pretty": "Job 28",
+                    "readQS": "Job+28",
+                    "audioQS": "Job.28"
+                },
+                {
+                    "pretty": "Romans 12:1\u20138",
+                    "readQS": "Romans+12:1-8",
+                    "audioQS": "Rom.12"
+                }
+            ],
+            "readQS": "Psalm+74%3B+Job+28%3B+Romans+12:1-8",
+            "audioQS": "Ps.74,Job.28,Rom.12"
+        }
+    },
+    "2024/06/19": {
+        "datePretty": "Wednesday, June 19, 2024",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 77",
+                    "readQS": "Psalm+77",
+                    "audioQS": "Ps.77"
+                },
+                {
+                    "pretty": "Judges 9:22\u2013end",
+                    "readQS": "Judges+9:22-",
+                    "audioQS": "Judg.9"
+                },
+                {
+                    "pretty": "Luke 16:1\u201318",
+                    "readQS": "Luke+16:1-18",
+                    "audioQS": "Luke.16"
+                }
+            ],
+            "readQS": "Psalm+77%3B+Judges+9:22-%3B+Luke+16:1-18",
+            "audioQS": "Ps.77,Judg.9,Luke.16"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:81\u2013104",
+                    "readQS": "Psalm+119:81-104",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Job 29",
+                    "readQS": "Job+29",
+                    "audioQS": "Job.29"
+                },
+                {
+                    "pretty": "Romans 12:9\u2013end",
+                    "readQS": "Romans+12:9-",
+                    "audioQS": "Rom.12"
+                }
+            ],
+            "readQS": "Psalm+119:81-104%3B+Job+29%3B+Romans+12:9-",
+            "audioQS": "Ps.119,Job.29,Rom.12"
+        }
+    },
+    "2024/06/20": {
+        "datePretty": "Thursday, June 20, 2024",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78:1\u201339",
+                    "readQS": "Psalm+78:1-39",
+                    "audioQS": "Ps.78"
+                },
+                {
+                    "pretty": "Judges 11:1\u201311",
+                    "readQS": "Judges+11:1-11",
+                    "audioQS": "Judg.11"
+                },
+                {
+                    "pretty": "Luke 16:19\u2013end",
+                    "readQS": "Luke+16:19-",
+                    "audioQS": "Luke.16"
+                }
+            ],
+            "readQS": "Psalm+78:1-39%3B+Judges+11:1-11%3B+Luke+16:19-",
+            "audioQS": "Ps.78,Judg.11,Luke.16"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78:40\u2013end",
+                    "readQS": "Psalm+78:40-",
+                    "audioQS": "Ps.78"
+                },
+                {
+                    "pretty": "Job 30",
+                    "readQS": "Job+30",
+                    "audioQS": "Job.30"
+                },
+                {
+                    "pretty": "Romans 13:1\u20137",
+                    "readQS": "Romans+13:1-7",
+                    "audioQS": "Rom.13"
+                }
+            ],
+            "readQS": "Psalm+78:40-%3B+Job+30%3B+Romans+13:1-7",
+            "audioQS": "Ps.78,Job.30,Rom.13"
+        }
+    },
+    "2024/06/21": {
+        "datePretty": "Friday, June 21, 2024",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 55",
+                    "readQS": "Psalm+55",
+                    "audioQS": "Ps.55"
+                },
+                {
+                    "pretty": "Judges 11:29\u2013end",
+                    "readQS": "Judges+11:29-",
+                    "audioQS": "Judg.11"
+                },
+                {
+                    "pretty": "Luke 17:1\u201310",
+                    "readQS": "Luke+17:1-10",
+                    "audioQS": "Luke.17"
+                }
+            ],
+            "readQS": "Psalm+55%3B+Judges+11:29-%3B+Luke+17:1-10",
+            "audioQS": "Ps.55,Judg.11,Luke.17"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 69",
+                    "readQS": "Psalm+69",
+                    "audioQS": "Ps.69"
+                },
+                {
+                    "pretty": "Job 31",
+                    "readQS": "Job+31",
+                    "audioQS": "Job.31"
+                },
+                {
+                    "pretty": "Romans 13:8\u2013end",
+                    "readQS": "Romans+13:8-",
+                    "audioQS": "Rom.13"
+                }
+            ],
+            "readQS": "Psalm+69%3B+Job+31%3B+Romans+13:8-",
+            "audioQS": "Ps.69,Job.31,Rom.13"
+        }
+    },
+    "2024/06/22": {
+        "datePretty": "Saturday, June 22, 2024",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 76",
+                    "readQS": "Psalm+76",
+                    "audioQS": "Ps.76"
+                },
+                {
+                    "pretty": "Judges 12:1\u20137",
+                    "readQS": "Judges+12:1-7",
+                    "audioQS": "Judg.12"
+                },
+                {
+                    "pretty": "Luke 17:11\u201319",
+                    "readQS": "Luke+17:11-19",
+                    "audioQS": "Luke.17"
+                }
+            ],
+            "readQS": "Psalm+76%3B+Judges+12:1-7%3B+Luke+17:11-19",
+            "audioQS": "Ps.76,Judg.12,Luke.17"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 84",
+                    "readQS": "Psalm+84",
+                    "audioQS": "Ps.84"
+                },
+                {
+                    "pretty": "Job 32",
+                    "readQS": "Job+32",
+                    "audioQS": "Job.32"
+                },
+                {
+                    "pretty": "Romans 14:1\u201312",
+                    "readQS": "Romans+14:1-12",
+                    "audioQS": "Rom.14"
+                }
+            ],
+            "readQS": "Psalm+84%3B+Job+32%3B+Romans+14:1-12",
+            "audioQS": "Ps.84,Job.32,Rom.14"
+        }
+    },
+    "2024/06/23": {
+        "datePretty": "Sunday, June 23, 2024",
+        "calendar": "15th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 48",
+                    "readQS": "Psalm+48",
+                    "audioQS": "Ps.48"
+                },
+                {
+                    "pretty": "Deuteronomy 11:1\u201315",
+                    "readQS": "Deuteronomy+11:1-15",
+                    "audioQS": "Deut.11"
+                },
+                {
+                    "pretty": "Acts 27:1\u201312",
+                    "readQS": "Acts+27:1-12",
+                    "audioQS": "Acts.27"
+                }
+            ],
+            "readQS": "Psalm+48%3B+Deuteronomy+11:1-15%3B+Acts+27:1-12",
+            "audioQS": "Ps.48,Deut.11,Acts.27"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 71",
+                    "readQS": "Psalm+71",
+                    "audioQS": "Ps.71"
+                },
+                {
+                    "pretty": "Judges 13:2\u20137,13:24\u201325",
+                    "readQS": "Judges+13:2-7,13:24-25",
+                    "audioQS": "Judg.13"
+                },
+                {
+                    "pretty": "Luke 1:5\u201325",
+                    "readQS": "Luke+1:5-25",
+                    "audioQS": "Luke.1"
+                }
+            ],
+            "readQS": "Psalm+71%3B+Judges+13:2-7,13:24-25%3B+Luke+1:5-25",
+            "audioQS": "Ps.71,Judg.13,Luke.1"
+        }
+    },
+    "2024/06/24": {
+        "datePretty": "Monday, June 24, 2024",
+        "calendar": "St John the Baptist",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 50,149",
+                    "readQS": "Psalm+50,149",
+                    "audioQS": "Ps.50,149"
+                },
+                {
+                    "pretty": "Malachi 3:1\u20136",
+                    "readQS": "Malachi+3:1-6",
+                    "audioQS": "Mal.3"
+                },
+                {
+                    "pretty": "Luke 3:1\u201317",
+                    "readQS": "Luke+3:1-17",
+                    "audioQS": "Luke.3"
+                }
+            ],
+            "readQS": "Psalm+50,149%3B+Malachi+3:1-6%3B+Luke+3:1-17",
+            "audioQS": "Ps.50,149,Mal.3,Luke.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 80,82",
+                    "readQS": "Psalm+80,82",
+                    "audioQS": "Ps.80,82"
+                },
+                {
+                    "pretty": "Malachi 4",
+                    "readQS": "Malachi+4",
+                    "audioQS": "Mal.4"
+                },
+                {
+                    "pretty": "Matthew 11:2\u201319",
+                    "readQS": "Matthew+11:2-19",
+                    "audioQS": "Matt.11"
+                }
+            ],
+            "readQS": "Psalm+80,82%3B+Malachi+4%3B+Matthew+11:2-19",
+            "audioQS": "Ps.80,82,Mal.4,Matt.11"
+        }
+    },
+    "2024/06/25": {
+        "datePretty": "Tuesday, June 25, 2024",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 89:1\u201318",
+                    "readQS": "Psalm+89:1-18",
+                    "audioQS": "Ps.89"
+                },
+                {
+                    "pretty": "Judges 14",
+                    "readQS": "Judges+14",
+                    "audioQS": "Judg.14"
+                },
+                {
+                    "pretty": "Luke 18:1\u201314",
+                    "readQS": "Luke+18:1-14",
+                    "audioQS": "Luke.18"
+                }
+            ],
+            "readQS": "Psalm+89:1-18%3B+Judges+14%3B+Luke+18:1-14",
+            "audioQS": "Ps.89,Judg.14,Luke.18"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 89:19\u2013end",
+                    "readQS": "Psalm+89:19-",
+                    "audioQS": "Ps.89"
+                },
+                {
+                    "pretty": "Job 38",
+                    "readQS": "Job+38",
+                    "audioQS": "Job.38"
+                },
+                {
+                    "pretty": "Romans 15:1\u201313",
+                    "readQS": "Romans+15:1-13",
+                    "audioQS": "Rom.15"
+                }
+            ],
+            "readQS": "Psalm+89:19-%3B+Job+38%3B+Romans+15:1-13",
+            "audioQS": "Ps.89,Job.38,Rom.15"
+        }
+    },
+    "2024/06/26": {
+        "datePretty": "Wednesday, June 26, 2024",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:105\u2013128",
+                    "readQS": "Psalm+119:105-128",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Judges 15:1\u201316:3",
+                    "readQS": "Judges+15:1-16:3",
+                    "audioQS": "Judg.15"
+                },
+                {
+                    "pretty": "Luke 18:15\u201330",
+                    "readQS": "Luke+18:15-30",
+                    "audioQS": "Luke.18"
+                }
+            ],
+            "readQS": "Psalm+119:105-128%3B+Judges+15:1-16:3%3B+Luke+18:15-30",
+            "audioQS": "Ps.119,Judg.15,Luke.18"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 91",
+                    "readQS": "Psalm+91",
+                    "audioQS": "Ps.91"
+                },
+                {
+                    "pretty": "Job 39",
+                    "readQS": "Job+39",
+                    "audioQS": "Job.39"
+                },
+                {
+                    "pretty": "Romans 15:14\u201321",
+                    "readQS": "Romans+15:14-21",
+                    "audioQS": "Rom.15"
+                }
+            ],
+            "readQS": "Psalm+91%3B+Job+39%3B+Romans+15:14-21",
+            "audioQS": "Ps.91,Job.39,Rom.15"
+        }
+    },
+    "2024/06/27": {
+        "datePretty": "Thursday, June 27, 2024",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 92",
+                    "readQS": "Psalm+92",
+                    "audioQS": "Ps.92"
+                },
+                {
+                    "pretty": "Judges 16:4\u2013end",
+                    "readQS": "Judges+16:4-",
+                    "audioQS": "Judg.16"
+                },
+                {
+                    "pretty": "Luke 18:31\u2013end",
+                    "readQS": "Luke+18:31-",
+                    "audioQS": "Luke.18"
+                }
+            ],
+            "readQS": "Psalm+92%3B+Judges+16:4-%3B+Luke+18:31-",
+            "audioQS": "Ps.92,Judg.16,Luke.18"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 94",
+                    "readQS": "Psalm+94",
+                    "audioQS": "Ps.94"
+                },
+                {
+                    "pretty": "Job 40",
+                    "readQS": "Job+40",
+                    "audioQS": "Job.40"
+                },
+                {
+                    "pretty": "Romans 15:22\u2013end",
+                    "readQS": "Romans+15:22-",
+                    "audioQS": "Rom.15"
+                }
+            ],
+            "readQS": "Psalm+94%3B+Job+40%3B+Romans+15:22-",
+            "audioQS": "Ps.94,Job.40,Rom.15"
+        }
+    },
+    "2024/06/28": {
+        "datePretty": "Friday, June 28, 2024",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 88",
+                    "readQS": "Psalm+88",
+                    "audioQS": "Ps.88"
+                },
+                {
+                    "pretty": "Judges 17",
+                    "readQS": "Judges+17",
+                    "audioQS": "Judg.17"
+                },
+                {
+                    "pretty": "Luke 19:1\u201310",
+                    "readQS": "Luke+19:1-10",
+                    "audioQS": "Luke.19"
+                }
+            ],
+            "readQS": "Psalm+88%3B+Judges+17%3B+Luke+19:1-10",
+            "audioQS": "Ps.88,Judg.17,Luke.19"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 66,67",
+                    "readQS": "Psalm+66,67",
+                    "audioQS": "Ps.66,67"
+                },
+                {
+                    "pretty": "Ezekiel 3:4\u201311",
+                    "readQS": "Ezekiel+3:4-11",
+                    "audioQS": "Ezek.3"
+                },
+                {
+                    "pretty": "Galatians 1:13\u2013end,2:1\u20138",
+                    "readQS": "Galatians+1:13-,2:1-8",
+                    "audioQS": "Gal.1"
+                }
+            ],
+            "readQS": "Psalm+66,67%3B+Ezekiel+3:4-11%3B+Galatians+1:13-,2:1-8",
+            "audioQS": "Ps.66,67,Ezek.3,Gal.1"
+        }
+    },
+    "2024/06/29": {
+        "datePretty": "Saturday, June 29, 2024",
+        "calendar": "St Peter and St Paul, Apostles, Martyrs",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 71,113",
+                    "readQS": "Psalm+71,113",
+                    "audioQS": "Ps.71,113"
+                },
+                {
+                    "pretty": "Isaiah 49:1\u20136",
+                    "readQS": "Isaiah+49:1-6",
+                    "audioQS": "Isa.49"
+                },
+                {
+                    "pretty": "Acts 11:1\u201318",
+                    "readQS": "Acts+11:1-18",
+                    "audioQS": "Acts.11"
+                }
+            ],
+            "readQS": "Psalm+71,113%3B+Isaiah+49:1-6%3B+Acts+11:1-18",
+            "audioQS": "Ps.71,113,Isa.49,Acts.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 124,138",
+                    "readQS": "Psalm+124,138",
+                    "audioQS": "Ps.124,138"
+                },
+                {
+                    "pretty": "Ezekiel 34:11\u201316",
+                    "readQS": "Ezekiel+34:11-16",
+                    "audioQS": "Ezek.34"
+                },
+                {
+                    "pretty": "John 21:15\u201322",
+                    "readQS": "John+21:15-22",
+                    "audioQS": "John.21"
+                }
+            ],
+            "readQS": "Psalm+124,138%3B+Ezekiel+34:11-16%3B+John+21:15-22",
+            "audioQS": "Ps.124,138,Ezek.34,John.21"
+        }
+    },
+    "2024/06/30": {
+        "datePretty": "Sunday, June 30, 2024",
+        "calendar": "16th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 56",
+                    "readQS": "Psalm+56",
+                    "audioQS": "Ps.56"
+                },
+                {
+                    "pretty": "Deuteronomy 15:1\u201311",
+                    "readQS": "Deuteronomy+15:1-11",
+                    "audioQS": "Deut.15"
+                },
+                {
+                    "pretty": "Acts 27:(13\u201332),33\u201344",
+                    "readQS": "Acts+27:%2813-32%29,33-44",
+                    "audioQS": "Acts.27"
+                }
+            ],
+            "readQS": "Psalm+56%3B+Deuteronomy+15:1-11%3B+Acts+27:%2813-32%29,33-44",
+            "audioQS": "Ps.56,Deut.15,Acts.27"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 53",
+                    "readQS": "Psalm+53",
+                    "audioQS": "Ps.53"
+                },
+                {
+                    "pretty": "Jeremiah 11:1\u201314",
+                    "readQS": "Jeremiah+11:1-14",
+                    "audioQS": "Jer.11"
+                },
+                {
+                    "pretty": "Romans 13:1\u201310",
+                    "readQS": "Romans+13:1-10",
+                    "audioQS": "Rom.13"
+                }
+            ],
+            "readQS": "Psalm+53%3B+Jeremiah+11:1-14%3B+Romans+13:1-10",
+            "audioQS": "Ps.53,Jer.11,Rom.13"
+        }
+    },
+    "2024/07/01": {
+        "datePretty": "Monday, July 1, 2024",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 98",
+                    "readQS": "Psalm+98",
+                    "audioQS": "Ps.98"
+                },
+                {
+                    "pretty": "1 Samuel 1:1\u201320",
+                    "readQS": "1+Samuel+1:1-20",
+                    "audioQS": "1Sam.1"
+                },
+                {
+                    "pretty": "Luke 19:28\u201340",
+                    "readQS": "Luke+19:28-40",
+                    "audioQS": "Luke.19"
+                }
+            ],
+            "readQS": "Psalm+98%3B+1+Samuel+1:1-20%3B+Luke+19:28-40",
+            "audioQS": "Ps.98,1Sam.1,Luke.19"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 105",
+                    "readQS": "Psalm+105",
+                    "audioQS": "Ps.105"
+                },
+                {
+                    "pretty": "Ezekiel 1:1\u201314",
+                    "readQS": "Ezekiel+1:1-14",
+                    "audioQS": "Ezek.1"
+                },
+                {
+                    "pretty": "2 Corinthians 1:1\u201314",
+                    "readQS": "2+Corinthians+1:1-14",
+                    "audioQS": "2Cor.1"
+                }
+            ],
+            "readQS": "Psalm+105%3B+Ezekiel+1:1-14%3B+2+Corinthians+1:1-14",
+            "audioQS": "Ps.105,Ezek.1,2Cor.1"
+        }
+    },
+    "2024/07/02": {
+        "datePretty": "Tuesday, July 2, 2024",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 106",
+                    "readQS": "Psalm+106",
+                    "audioQS": "Ps.106"
+                },
+                {
+                    "pretty": "1 Samuel 1:21\u20132:11",
+                    "readQS": "1+Samuel+1:21-2:11",
+                    "audioQS": "1Sam.1"
+                },
+                {
+                    "pretty": "Luke 19:41\u2013end",
+                    "readQS": "Luke+19:41-",
+                    "audioQS": "Luke.19"
+                }
+            ],
+            "readQS": "Psalm+106%3B+1+Samuel+1:21-2:11%3B+Luke+19:41-",
+            "audioQS": "Ps.106,1Sam.1,Luke.19"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 27",
+                    "readQS": "Psalm+27",
+                    "audioQS": "Ps.27"
+                },
+                {
+                    "pretty": "Isaiah 35",
+                    "readQS": "Isaiah+35",
+                    "audioQS": "Isa.35"
+                },
+                {
+                    "pretty": "Hebrews 10:35\u2013end,11:1",
+                    "readQS": "Hebrews+10:35-,11:1",
+                    "audioQS": "Heb.10"
+                }
+            ],
+            "readQS": "Psalm+27%3B+Isaiah+35%3B+Hebrews+10:35-,11:1",
+            "audioQS": "Ps.27,Isa.35,Heb.10"
+        }
+    },
+    "2024/07/03": {
+        "datePretty": "Wednesday, July 3, 2024",
+        "calendar": "Thomas the Apostle",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 92,146",
+                    "readQS": "Psalm+92,146",
+                    "audioQS": "Ps.92,146"
+                },
+                {
+                    "pretty": "2 Samuel 15:17\u201321",
+                    "readQS": "2+Samuel+15:17-21",
+                    "audioQS": "2Sam.15"
+                },
+                {
+                    "pretty": "John 11:1\u201316",
+                    "readQS": "John+11:1-16",
+                    "audioQS": "John.11"
+                }
+            ],
+            "readQS": "Psalm+92,146%3B+2+Samuel+15:17-21%3B+John+11:1-16",
+            "audioQS": "Ps.92,146,2Sam.15,John.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 139",
+                    "readQS": "Psalm+139",
+                    "audioQS": "Ps.139"
+                },
+                {
+                    "pretty": "Job 42:1\u20136",
+                    "readQS": "Job+42:1-6",
+                    "audioQS": "Job.42"
+                },
+                {
+                    "pretty": "1 Peter 1:3\u201312",
+                    "readQS": "1+Peter+1:3-12",
+                    "audioQS": "1Pet.1"
+                }
+            ],
+            "readQS": "Psalm+139%3B+Job+42:1-6%3B+1+Peter+1:3-12",
+            "audioQS": "Ps.139,Job.42,1Pet.1"
+        }
+    },
+    "2024/07/04": {
+        "datePretty": "Thursday, July 4, 2024",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 115",
+                    "readQS": "Psalm+115",
+                    "audioQS": "Ps.115"
+                },
+                {
+                    "pretty": "1 Samuel 2:27\u2013end",
+                    "readQS": "1+Samuel+2:27-",
+                    "audioQS": "1Sam.2"
+                },
+                {
+                    "pretty": "Luke 20:9\u201319",
+                    "readQS": "Luke+20:9-19",
+                    "audioQS": "Luke.20"
+                }
+            ],
+            "readQS": "Psalm+115%3B+1+Samuel+2:27-%3B+Luke+20:9-19",
+            "audioQS": "Ps.115,1Sam.2,Luke.20"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 116",
+                    "readQS": "Psalm+116",
+                    "audioQS": "Ps.116"
+                },
+                {
+                    "pretty": "Ezekiel 3:12\u2013end",
+                    "readQS": "Ezekiel+3:12-",
+                    "audioQS": "Ezek.3"
+                },
+                {
+                    "pretty": "2 Corinthians 3",
+                    "readQS": "2+Corinthians+3",
+                    "audioQS": "2Cor.3"
+                }
+            ],
+            "readQS": "Psalm+116%3B+Ezekiel+3:12-%3B+2+Corinthians+3",
+            "audioQS": "Ps.116,Ezek.3,2Cor.3"
+        }
+    },
+    "2024/07/05": {
+        "datePretty": "Friday, July 5, 2024",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 139",
+                    "readQS": "Psalm+139",
+                    "audioQS": "Ps.139"
+                },
+                {
+                    "pretty": "1 Samuel 3:1\u20134:1a",
+                    "readQS": "1+Samuel+3:1-4:1a",
+                    "audioQS": "1Sam.3"
+                },
+                {
+                    "pretty": "Luke 20:20\u201326",
+                    "readQS": "Luke+20:20-26",
+                    "audioQS": "Luke.20"
+                }
+            ],
+            "readQS": "Psalm+139%3B+1+Samuel+3:1-4:1a%3B+Luke+20:20-26",
+            "audioQS": "Ps.139,1Sam.3,Luke.20"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 130",
+                    "readQS": "Psalm+130",
+                    "audioQS": "Ps.130"
+                },
+                {
+                    "pretty": "Ezekiel 8",
+                    "readQS": "Ezekiel+8",
+                    "audioQS": "Ezek.8"
+                },
+                {
+                    "pretty": "2 Corinthians 4",
+                    "readQS": "2+Corinthians+4",
+                    "audioQS": "2Cor.4"
+                }
+            ],
+            "readQS": "Psalm+130%3B+Ezekiel+8%3B+2+Corinthians+4",
+            "audioQS": "Ps.130,Ezek.8,2Cor.4"
+        }
+    },
+    "2024/07/06": {
+        "datePretty": "Saturday, July 6, 2024",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 121",
+                    "readQS": "Psalm+121",
+                    "audioQS": "Ps.121"
+                },
+                {
+                    "pretty": "1 Samuel 4:1b\u2013end",
+                    "readQS": "1+Samuel+4:1b-",
+                    "audioQS": "1Sam.4"
+                },
+                {
+                    "pretty": "Luke 20:27\u201340",
+                    "readQS": "Luke+20:27-40",
+                    "audioQS": "Luke.20"
+                }
+            ],
+            "readQS": "Psalm+121%3B+1+Samuel+4:1b-%3B+Luke+20:27-40",
+            "audioQS": "Ps.121,1Sam.4,Luke.20"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 118",
+                    "readQS": "Psalm+118",
+                    "audioQS": "Ps.118"
+                },
+                {
+                    "pretty": "Ezekiel 9",
+                    "readQS": "Ezekiel+9",
+                    "audioQS": "Ezek.9"
+                },
+                {
+                    "pretty": "2 Corinthians 5",
+                    "readQS": "2+Corinthians+5",
+                    "audioQS": "2Cor.5"
+                }
+            ],
+            "readQS": "Psalm+118%3B+Ezekiel+9%3B+2+Corinthians+5",
+            "audioQS": "Ps.118,Ezek.9,2Cor.5"
+        }
+    },
+    "2024/07/07": {
+        "datePretty": "Sunday, July 7, 2024",
+        "calendar": "17th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 57",
+                    "readQS": "Psalm+57",
+                    "audioQS": "Ps.57"
+                },
+                {
+                    "pretty": "Deuteronomy 24:10\u201322",
+                    "readQS": "Deuteronomy+24:10-22",
+                    "audioQS": "Deut.24"
+                },
+                {
+                    "pretty": "Acts 28:1\u201316",
+                    "readQS": "Acts+28:1-16",
+                    "audioQS": "Acts.28"
+                }
+            ],
+            "readQS": "Psalm+57%3B+Deuteronomy+24:10-22%3B+Acts+28:1-16",
+            "audioQS": "Ps.57,Deut.24,Acts.28"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 64",
+                    "readQS": "Psalm+64",
+                    "audioQS": "Ps.64"
+                },
+                {
+                    "pretty": "Jeremiah 20:1\u201311a",
+                    "readQS": "Jeremiah+20:1-11a",
+                    "audioQS": "Jer.20"
+                },
+                {
+                    "pretty": "Romans 14:1\u201317",
+                    "readQS": "Romans+14:1-17",
+                    "audioQS": "Rom.14"
+                }
+            ],
+            "readQS": "Psalm+64%3B+Jeremiah+20:1-11a%3B+Romans+14:1-17",
+            "audioQS": "Ps.64,Jer.20,Rom.14"
+        }
+    },
+    "2024/07/08": {
+        "datePretty": "Monday, July 8, 2024",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 126",
+                    "readQS": "Psalm+126",
+                    "audioQS": "Ps.126"
+                },
+                {
+                    "pretty": "1 Samuel 5",
+                    "readQS": "1+Samuel+5",
+                    "audioQS": "1Sam.5"
+                },
+                {
+                    "pretty": "Luke 20:41\u201321:4",
+                    "readQS": "Luke+20:41-21:4",
+                    "audioQS": "Luke.20"
+                }
+            ],
+            "readQS": "Psalm+126%3B+1+Samuel+5%3B+Luke+20:41-21:4",
+            "audioQS": "Ps.126,1Sam.5,Luke.20"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 127",
+                    "readQS": "Psalm+127",
+                    "audioQS": "Ps.127"
+                },
+                {
+                    "pretty": "Ezekiel 10:1\u201319",
+                    "readQS": "Ezekiel+10:1-19",
+                    "audioQS": "Ezek.10"
+                },
+                {
+                    "pretty": "2 Corinthians 6:1\u20137:1",
+                    "readQS": "2+Corinthians+6:1-7:1",
+                    "audioQS": "2Cor.6"
+                }
+            ],
+            "readQS": "Psalm+127%3B+Ezekiel+10:1-19%3B+2+Corinthians+6:1-7:1",
+            "audioQS": "Ps.127,Ezek.10,2Cor.6"
+        }
+    },
+    "2024/07/09": {
+        "datePretty": "Tuesday, July 9, 2024",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 132",
+                    "readQS": "Psalm+132",
+                    "audioQS": "Ps.132"
+                },
+                {
+                    "pretty": "1 Samuel 6:1\u201316",
+                    "readQS": "1+Samuel+6:1-16",
+                    "audioQS": "1Sam.6"
+                },
+                {
+                    "pretty": "Luke 21:5\u201319",
+                    "readQS": "Luke+21:5-19",
+                    "audioQS": "Luke.21"
+                }
+            ],
+            "readQS": "Psalm+132%3B+1+Samuel+6:1-16%3B+Luke+21:5-19",
+            "audioQS": "Ps.132,1Sam.6,Luke.21"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 135",
+                    "readQS": "Psalm+135",
+                    "audioQS": "Ps.135"
+                },
+                {
+                    "pretty": "Ezekiel 11:14\u2013end",
+                    "readQS": "Ezekiel+11:14-",
+                    "audioQS": "Ezek.11"
+                },
+                {
+                    "pretty": "2 Corinthians 7:2\u2013end",
+                    "readQS": "2+Corinthians+7:2-",
+                    "audioQS": "2Cor.7"
+                }
+            ],
+            "readQS": "Psalm+135%3B+Ezekiel+11:14-%3B+2+Corinthians+7:2-",
+            "audioQS": "Ps.135,Ezek.11,2Cor.7"
+        }
+    },
+    "2024/07/10": {
+        "datePretty": "Wednesday, July 10, 2024",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:153\u2013end",
+                    "readQS": "Psalm+119:153-",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "1 Samuel 7",
+                    "readQS": "1+Samuel+7",
+                    "audioQS": "1Sam.7"
+                },
+                {
+                    "pretty": "Luke 21:20\u201328",
+                    "readQS": "Luke+21:20-28",
+                    "audioQS": "Luke.21"
+                }
+            ],
+            "readQS": "Psalm+119:153-%3B+1+Samuel+7%3B+Luke+21:20-28",
+            "audioQS": "Ps.119,1Sam.7,Luke.21"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 136",
+                    "readQS": "Psalm+136",
+                    "audioQS": "Ps.136"
+                },
+                {
+                    "pretty": "Ezekiel 12:1\u201316",
+                    "readQS": "Ezekiel+12:1-16",
+                    "audioQS": "Ezek.12"
+                },
+                {
+                    "pretty": "2 Corinthians 8:1\u201315",
+                    "readQS": "2+Corinthians+8:1-15",
+                    "audioQS": "2Cor.8"
+                }
+            ],
+            "readQS": "Psalm+136%3B+Ezekiel+12:1-16%3B+2+Corinthians+8:1-15",
+            "audioQS": "Ps.136,Ezek.12,2Cor.8"
+        }
+    },
+    "2024/07/11": {
+        "datePretty": "Thursday, July 11, 2024",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 143",
+                    "readQS": "Psalm+143",
+                    "audioQS": "Ps.143"
+                },
+                {
+                    "pretty": "1 Samuel 8",
+                    "readQS": "1+Samuel+8",
+                    "audioQS": "1Sam.8"
+                },
+                {
+                    "pretty": "Luke 21:29\u2013end",
+                    "readQS": "Luke+21:29-",
+                    "audioQS": "Luke.21"
+                }
+            ],
+            "readQS": "Psalm+143%3B+1+Samuel+8%3B+Luke+21:29-",
+            "audioQS": "Ps.143,1Sam.8,Luke.21"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 138",
+                    "readQS": "Psalm+138",
+                    "audioQS": "Ps.138"
+                },
+                {
+                    "pretty": "Ezekiel 12:17\u2013end",
+                    "readQS": "Ezekiel+12:17-",
+                    "audioQS": "Ezek.12"
+                },
+                {
+                    "pretty": "2 Corinthians 8:16\u20139:5",
+                    "readQS": "2+Corinthians+8:16-9:5",
+                    "audioQS": "2Cor.8"
+                }
+            ],
+            "readQS": "Psalm+138%3B+Ezekiel+12:17-%3B+2+Corinthians+8:16-9:5",
+            "audioQS": "Ps.138,Ezek.12,2Cor.8"
+        }
+    },
+    "2024/07/12": {
+        "datePretty": "Friday, July 12, 2024",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 144",
+                    "readQS": "Psalm+144",
+                    "audioQS": "Ps.144"
+                },
+                {
+                    "pretty": "1 Samuel 9:1\u201314",
+                    "readQS": "1+Samuel+9:1-14",
+                    "audioQS": "1Sam.9"
+                },
+                {
+                    "pretty": "Luke 22:1\u201313",
+                    "readQS": "Luke+22:1-13",
+                    "audioQS": "Luke.22"
+                }
+            ],
+            "readQS": "Psalm+144%3B+1+Samuel+9:1-14%3B+Luke+22:1-13",
+            "audioQS": "Ps.144,1Sam.9,Luke.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 145",
+                    "readQS": "Psalm+145",
+                    "audioQS": "Ps.145"
+                },
+                {
+                    "pretty": "Ezekiel 13:1\u201316",
+                    "readQS": "Ezekiel+13:1-16",
+                    "audioQS": "Ezek.13"
+                },
+                {
+                    "pretty": "2 Corinthians 9:6\u2013end",
+                    "readQS": "2+Corinthians+9:6-",
+                    "audioQS": "2Cor.9"
+                }
+            ],
+            "readQS": "Psalm+145%3B+Ezekiel+13:1-16%3B+2+Corinthians+9:6-",
+            "audioQS": "Ps.145,Ezek.13,2Cor.9"
+        }
+    },
+    "2024/07/13": {
+        "datePretty": "Saturday, July 13, 2024",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 147",
+                    "readQS": "Psalm+147",
+                    "audioQS": "Ps.147"
+                },
+                {
+                    "pretty": "1 Samuel 9:15\u201310:1",
+                    "readQS": "1+Samuel+9:15-10:1",
+                    "audioQS": "1Sam.9"
+                },
+                {
+                    "pretty": "Luke 22:14\u201323",
+                    "readQS": "Luke+22:14-23",
+                    "audioQS": "Luke.22"
+                }
+            ],
+            "readQS": "Psalm+147%3B+1+Samuel+9:15-10:1%3B+Luke+22:14-23",
+            "audioQS": "Ps.147,1Sam.9,Luke.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 148",
+                    "readQS": "Psalm+148",
+                    "audioQS": "Ps.148"
+                },
+                {
+                    "pretty": "Ezekiel 14:1\u201311",
+                    "readQS": "Ezekiel+14:1-11",
+                    "audioQS": "Ezek.14"
+                },
+                {
+                    "pretty": "2 Corinthians 10",
+                    "readQS": "2+Corinthians+10",
+                    "audioQS": "2Cor.10"
+                }
+            ],
+            "readQS": "Psalm+148%3B+Ezekiel+14:1-11%3B+2+Corinthians+10",
+            "audioQS": "Ps.148,Ezek.14,2Cor.10"
+        }
+    },
+    "2024/07/14": {
+        "datePretty": "Sunday, July 14, 2024",
+        "calendar": "18th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 65",
+                    "readQS": "Psalm+65",
+                    "audioQS": "Ps.65"
+                },
+                {
+                    "pretty": "Deuteronomy 28:1\u201314",
+                    "readQS": "Deuteronomy+28:1-14",
+                    "audioQS": "Deut.28"
+                },
+                {
+                    "pretty": "Acts 28:17\u201331",
+                    "readQS": "Acts+28:17-31",
+                    "audioQS": "Acts.28"
+                }
+            ],
+            "readQS": "Psalm+65%3B+Deuteronomy+28:1-14%3B+Acts+28:17-31",
+            "audioQS": "Ps.65,Deut.28,Acts.28"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 66",
+                    "readQS": "Psalm+66",
+                    "audioQS": "Ps.66"
+                },
+                {
+                    "pretty": "Job 4:1,5:6\u201327",
+                    "readQS": "Job+4:1,5:6-27",
+                    "audioQS": "Job.4"
+                },
+                {
+                    "pretty": "Romans 15:14\u201329",
+                    "readQS": "Romans+15:14-29",
+                    "audioQS": "Rom.15"
+                }
+            ],
+            "readQS": "Psalm+66%3B+Job+4:1,5:6-27%3B+Romans+15:14-29",
+            "audioQS": "Ps.66,Job.4,Rom.15"
+        }
+    },
+    "2024/07/15": {
+        "datePretty": "Monday, July 15, 2024",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1",
+                    "readQS": "Psalm+1",
+                    "audioQS": "Ps.1"
+                },
+                {
+                    "pretty": "1 Samuel 10:1\u201316",
+                    "readQS": "1+Samuel+10:1-16",
+                    "audioQS": "1Sam.10"
+                },
+                {
+                    "pretty": "Luke 22:24\u201330",
+                    "readQS": "Luke+22:24-30",
+                    "audioQS": "Luke.22"
+                }
+            ],
+            "readQS": "Psalm+1%3B+1+Samuel+10:1-16%3B+Luke+22:24-30",
+            "audioQS": "Ps.1,1Sam.10,Luke.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 4",
+                    "readQS": "Psalm+4",
+                    "audioQS": "Ps.4"
+                },
+                {
+                    "pretty": "Ezekiel 14:12\u2013end",
+                    "readQS": "Ezekiel+14:12-",
+                    "audioQS": "Ezek.14"
+                },
+                {
+                    "pretty": "2 Corinthians 11:1\u201315",
+                    "readQS": "2+Corinthians+11:1-15",
+                    "audioQS": "2Cor.11"
+                }
+            ],
+            "readQS": "Psalm+4%3B+Ezekiel+14:12-%3B+2+Corinthians+11:1-15",
+            "audioQS": "Ps.4,Ezek.14,2Cor.11"
+        }
+    },
+    "2024/07/16": {
+        "datePretty": "Tuesday, July 16, 2024",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 5",
+                    "readQS": "Psalm+5",
+                    "audioQS": "Ps.5"
+                },
+                {
+                    "pretty": "1 Samuel 10:17\u2013end",
+                    "readQS": "1+Samuel+10:17-",
+                    "audioQS": "1Sam.10"
+                },
+                {
+                    "pretty": "Luke 22:31\u201338",
+                    "readQS": "Luke+22:31-38",
+                    "audioQS": "Luke.22"
+                }
+            ],
+            "readQS": "Psalm+5%3B+1+Samuel+10:17-%3B+Luke+22:31-38",
+            "audioQS": "Ps.5,1Sam.10,Luke.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 9",
+                    "readQS": "Psalm+9",
+                    "audioQS": "Ps.9"
+                },
+                {
+                    "pretty": "Ezekiel 18:1\u201320",
+                    "readQS": "Ezekiel+18:1-20",
+                    "audioQS": "Ezek.18"
+                },
+                {
+                    "pretty": "2 Corinthians 11:16\u2013end",
+                    "readQS": "2+Corinthians+11:16-",
+                    "audioQS": "2Cor.11"
+                }
+            ],
+            "readQS": "Psalm+9%3B+Ezekiel+18:1-20%3B+2+Corinthians+11:16-",
+            "audioQS": "Ps.9,Ezek.18,2Cor.11"
+        }
+    },
+    "2024/07/17": {
+        "datePretty": "Wednesday, July 17, 2024",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:1\u201332",
+                    "readQS": "Psalm+119:1-32",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "1 Samuel 11",
+                    "readQS": "1+Samuel+11",
+                    "audioQS": "1Sam.11"
+                },
+                {
+                    "pretty": "Luke 22:39\u201346",
+                    "readQS": "Luke+22:39-46",
+                    "audioQS": "Luke.22"
+                }
+            ],
+            "readQS": "Psalm+119:1-32%3B+1+Samuel+11%3B+Luke+22:39-46",
+            "audioQS": "Ps.119,1Sam.11,Luke.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 11",
+                    "readQS": "Psalm+11",
+                    "audioQS": "Ps.11"
+                },
+                {
+                    "pretty": "Ezekiel 18:21\u201332",
+                    "readQS": "Ezekiel+18:21-32",
+                    "audioQS": "Ezek.18"
+                },
+                {
+                    "pretty": "2 Corinthians 12",
+                    "readQS": "2+Corinthians+12",
+                    "audioQS": "2Cor.12"
+                }
+            ],
+            "readQS": "Psalm+11%3B+Ezekiel+18:21-32%3B+2+Corinthians+12",
+            "audioQS": "Ps.11,Ezek.18,2Cor.12"
+        }
+    },
+    "2024/07/18": {
+        "datePretty": "Thursday, July 18, 2024",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 15",
+                    "readQS": "Psalm+15",
+                    "audioQS": "Ps.15"
+                },
+                {
+                    "pretty": "1 Samuel 12",
+                    "readQS": "1+Samuel+12",
+                    "audioQS": "1Sam.12"
+                },
+                {
+                    "pretty": "Luke 22:47\u201362",
+                    "readQS": "Luke+22:47-62",
+                    "audioQS": "Luke.22"
+                }
+            ],
+            "readQS": "Psalm+15%3B+1+Samuel+12%3B+Luke+22:47-62",
+            "audioQS": "Ps.15,1Sam.12,Luke.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 18",
+                    "readQS": "Psalm+18",
+                    "audioQS": "Ps.18"
+                },
+                {
+                    "pretty": "Ezekiel 20:1\u201320",
+                    "readQS": "Ezekiel+20:1-20",
+                    "audioQS": "Ezek.20"
+                },
+                {
+                    "pretty": "2 Corinthians 13",
+                    "readQS": "2+Corinthians+13",
+                    "audioQS": "2Cor.13"
+                }
+            ],
+            "readQS": "Psalm+18%3B+Ezekiel+20:1-20%3B+2+Corinthians+13",
+            "audioQS": "Ps.18,Ezek.20,2Cor.13"
+        }
+    },
+    "2024/07/19": {
+        "datePretty": "Friday, July 19, 2024",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 19",
+                    "readQS": "Psalm+19",
+                    "audioQS": "Ps.19"
+                },
+                {
+                    "pretty": "1 Samuel 13:5\u201318",
+                    "readQS": "1+Samuel+13:5-18",
+                    "audioQS": "1Sam.13"
+                },
+                {
+                    "pretty": "Luke 22:63\u2013end",
+                    "readQS": "Luke+22:63-",
+                    "audioQS": "Luke.22"
+                }
+            ],
+            "readQS": "Psalm+19%3B+1+Samuel+13:5-18%3B+Luke+22:63-",
+            "audioQS": "Ps.19,1Sam.13,Luke.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 22",
+                    "readQS": "Psalm+22",
+                    "audioQS": "Ps.22"
+                },
+                {
+                    "pretty": "Ezekiel 20:21\u201338",
+                    "readQS": "Ezekiel+20:21-38",
+                    "audioQS": "Ezek.20"
+                },
+                {
+                    "pretty": "James 1:1\u201311",
+                    "readQS": "James+1:1-11",
+                    "audioQS": "Jas.1"
+                }
+            ],
+            "readQS": "Psalm+22%3B+Ezekiel+20:21-38%3B+James+1:1-11",
+            "audioQS": "Ps.22,Ezek.20,Jas.1"
+        }
+    },
+    "2024/07/20": {
+        "datePretty": "Saturday, July 20, 2024",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
+                },
+                {
+                    "pretty": "1 Samuel 13:19\u201314:15",
+                    "readQS": "1+Samuel+13:19-14:15",
+                    "audioQS": "1Sam.13"
+                },
+                {
+                    "pretty": "Luke 23:1\u201312",
+                    "readQS": "Luke+23:1-12",
+                    "audioQS": "Luke.23"
+                }
+            ],
+            "readQS": "Psalm+23%3B+1+Samuel+13:19-14:15%3B+Luke+23:1-12",
+            "audioQS": "Ps.23,1Sam.13,Luke.23"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 24",
+                    "readQS": "Psalm+24",
+                    "audioQS": "Ps.24"
+                },
+                {
+                    "pretty": "Ezekiel 24:15\u2013end",
+                    "readQS": "Ezekiel+24:15-",
+                    "audioQS": "Ezek.24"
+                },
+                {
+                    "pretty": "James 1:12\u2013end",
+                    "readQS": "James+1:12-",
+                    "audioQS": "Jas.1"
+                }
+            ],
+            "readQS": "Psalm+24%3B+Ezekiel+24:15-%3B+James+1:12-",
+            "audioQS": "Ps.24,Ezek.24,Jas.1"
+        }
+    },
+    "2024/07/21": {
+        "datePretty": "Sunday, July 21, 2024",
+        "calendar": "19th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 67,70",
+                    "readQS": "Psalm+67,70",
+                    "audioQS": "Ps.67,70"
+                },
+                {
+                    "pretty": "Deuteronomy 30:1\u201310",
+                    "readQS": "Deuteronomy+30:1-10",
+                    "audioQS": "Deut.30"
+                },
+                {
+                    "pretty": "1 Peter 3:8\u201318",
+                    "readQS": "1+Peter+3:8-18",
+                    "audioQS": "1Pet.3"
+                }
+            ],
+            "readQS": "Psalm+67,70%3B+Deuteronomy+30:1-10%3B+1+Peter+3:8-18",
+            "audioQS": "Ps.67,70,Deut.30,1Pet.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 139",
+                    "readQS": "Psalm+139",
+                    "audioQS": "Ps.139"
+                },
+                {
+                    "pretty": "Isaiah 25:1\u20139",
+                    "readQS": "Isaiah+25:1-9",
+                    "audioQS": "Isa.25"
+                },
+                {
+                    "pretty": "2 Corinthians 1:3\u20137",
+                    "readQS": "2+Corinthians+1:3-7",
+                    "audioQS": "2Cor.1"
+                }
+            ],
+            "readQS": "Psalm+139%3B+Isaiah+25:1-9%3B+2+Corinthians+1:3-7",
+            "audioQS": "Ps.139,Isa.25,2Cor.1"
+        }
+    },
+    "2024/07/22": {
+        "datePretty": "Monday, July 22, 2024",
+        "calendar": "St Mary Magdalene",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 30,32,150",
+                    "readQS": "Psalm+30,32,150",
+                    "audioQS": "Ps.30,32,150"
+                },
+                {
+                    "pretty": "1 Samuel 16:14\u201323",
+                    "readQS": "1+Samuel+16:14-23",
+                    "audioQS": "1Sam.16"
+                },
+                {
+                    "pretty": "Luke 8:1\u20133",
+                    "readQS": "Luke+8:1-3",
+                    "audioQS": "Luke.8"
+                }
+            ],
+            "readQS": "Psalm+30,32,150%3B+1+Samuel+16:14-23%3B+Luke+8:1-3",
+            "audioQS": "Ps.30,32,150,1Sam.16,Luke.8"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 63",
+                    "readQS": "Psalm+63",
+                    "audioQS": "Ps.63"
+                },
+                {
+                    "pretty": "Zephaniah 3:14\u201320",
+                    "readQS": "Zephaniah+3:14-20",
+                    "audioQS": "Zeph.3"
+                },
+                {
+                    "pretty": "Mark 15:40\u2013end,16:1\u20137",
+                    "readQS": "Mark+15:40-,16:1-7",
+                    "audioQS": "Mark.15"
+                }
+            ],
+            "readQS": "Psalm+63%3B+Zephaniah+3:14-20%3B+Mark+15:40-,16:1-7",
+            "audioQS": "Ps.63,Zeph.3,Mark.15"
+        }
+    },
+    "2024/07/23": {
+        "datePretty": "Tuesday, July 23, 2024",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36",
+                    "readQS": "Psalm+36",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "1 Samuel 15:1\u201323",
+                    "readQS": "1+Samuel+15:1-23",
+                    "audioQS": "1Sam.15"
+                },
+                {
+                    "pretty": "Luke 23:26\u201343",
+                    "readQS": "Luke+23:26-43",
+                    "audioQS": "Luke.23"
+                }
+            ],
+            "readQS": "Psalm+36%3B+1+Samuel+15:1-23%3B+Luke+23:26-43",
+            "audioQS": "Ps.36,1Sam.15,Luke.23"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "Ezekiel 33:1\u201320",
+                    "readQS": "Ezekiel+33:1-20",
+                    "audioQS": "Ezek.33"
+                },
+                {
+                    "pretty": "James 2:14\u2013end",
+                    "readQS": "James+2:14-",
+                    "audioQS": "Jas.2"
+                }
+            ],
+            "readQS": "Psalm+33%3B+Ezekiel+33:1-20%3B+James+2:14-",
+            "audioQS": "Ps.33,Ezek.33,Jas.2"
+        }
+    },
+    "2024/07/24": {
+        "datePretty": "Wednesday, July 24, 2024",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "1 Samuel 16",
+                    "readQS": "1+Samuel+16",
+                    "audioQS": "1Sam.16"
+                },
+                {
+                    "pretty": "Luke 23:44\u201356a",
+                    "readQS": "Luke+23:44-56a",
+                    "audioQS": "Luke.23"
+                }
+            ],
+            "readQS": "Psalm+34%3B+1+Samuel+16%3B+Luke+23:44-56a",
+            "audioQS": "Ps.34,1Sam.16,Luke.23"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 144",
+                    "readQS": "Psalm+144",
+                    "audioQS": "Ps.144"
+                },
+                {
+                    "pretty": "Deuteronomy 30:11\u201320",
+                    "readQS": "Deuteronomy+30:11-20",
+                    "audioQS": "Deut.30"
+                },
+                {
+                    "pretty": "Mark 5:21\u201343",
+                    "readQS": "Mark+5:21-43",
+                    "audioQS": "Mark.5"
+                }
+            ],
+            "readQS": "Psalm+144%3B+Deuteronomy+30:11-20%3B+Mark+5:21-43",
+            "audioQS": "Ps.144,Deut.30,Mark.5"
+        }
+    },
+    "2024/07/25": {
+        "datePretty": "Thursday, July 25, 2024",
+        "calendar": "St James the Apostle",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 7,29,117",
+                    "readQS": "Psalm+7,29,117",
+                    "audioQS": "Ps.7,29,117"
+                },
+                {
+                    "pretty": "2 Kings 1:9\u201315",
+                    "readQS": "2+Kings+1:9-15",
+                    "audioQS": "2Kgs.1"
+                },
+                {
+                    "pretty": "Luke 9:46\u201356",
+                    "readQS": "Luke+9:46-56",
+                    "audioQS": "Luke.9"
+                }
+            ],
+            "readQS": "Psalm+7,29,117%3B+2+Kings+1:9-15%3B+Luke+9:46-56",
+            "audioQS": "Ps.7,29,117,2Kgs.1,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 94",
+                    "readQS": "Psalm+94",
+                    "audioQS": "Ps.94"
+                },
+                {
+                    "pretty": "Jeremiah 26:1\u201315",
+                    "readQS": "Jeremiah+26:1-15",
+                    "audioQS": "Jer.26"
+                },
+                {
+                    "pretty": "Mark 1:14\u201320",
+                    "readQS": "Mark+1:14-20",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+94%3B+Jeremiah+26:1-15%3B+Mark+1:14-20",
+            "audioQS": "Ps.94,Jer.26,Mark.1"
+        }
+    },
+    "2024/07/26": {
+        "datePretty": "Friday, July 26, 2024",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 31",
+                    "readQS": "Psalm+31",
+                    "audioQS": "Ps.31"
+                },
+                {
+                    "pretty": "1 Samuel 17:31\u201354",
+                    "readQS": "1+Samuel+17:31-54",
+                    "audioQS": "1Sam.17"
+                },
+                {
+                    "pretty": "Luke 24:13\u201335",
+                    "readQS": "Luke+24:13-35",
+                    "audioQS": "Luke.24"
+                }
+            ],
+            "readQS": "Psalm+31%3B+1+Samuel+17:31-54%3B+Luke+24:13-35",
+            "audioQS": "Ps.31,1Sam.17,Luke.24"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 35",
+                    "readQS": "Psalm+35",
+                    "audioQS": "Ps.35"
+                },
+                {
+                    "pretty": "Ezekiel 34:17\u2013end",
+                    "readQS": "Ezekiel+34:17-",
+                    "audioQS": "Ezek.34"
+                },
+                {
+                    "pretty": "James 4:13\u20135:6",
+                    "readQS": "James+4:13-5:6",
+                    "audioQS": "Jas.4"
+                }
+            ],
+            "readQS": "Psalm+35%3B+Ezekiel+34:17-%3B+James+4:13-5:6",
+            "audioQS": "Ps.35,Ezek.34,Jas.4"
+        }
+    },
+    "2024/07/27": {
+        "datePretty": "Saturday, July 27, 2024",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 42",
+                    "readQS": "Psalm+42",
+                    "audioQS": "Ps.42"
+                },
+                {
+                    "pretty": "1 Samuel 17:55\u201318:16",
+                    "readQS": "1+Samuel+17:55-18:16",
+                    "audioQS": "1Sam.17"
+                },
+                {
+                    "pretty": "Luke 24:36\u2013end",
+                    "readQS": "Luke+24:36-",
+                    "audioQS": "Luke.24"
+                }
+            ],
+            "readQS": "Psalm+42%3B+1+Samuel+17:55-18:16%3B+Luke+24:36-",
+            "audioQS": "Ps.42,1Sam.17,Luke.24"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 46",
+                    "readQS": "Psalm+46",
+                    "audioQS": "Ps.46"
+                },
+                {
+                    "pretty": "Ezekiel 36:16\u201336",
+                    "readQS": "Ezekiel+36:16-36",
+                    "audioQS": "Ezek.36"
+                },
+                {
+                    "pretty": "James 5:7\u2013end",
+                    "readQS": "James+5:7-",
+                    "audioQS": "Jas.5"
+                }
+            ],
+            "readQS": "Psalm+46%3B+Ezekiel+36:16-36%3B+James+5:7-",
+            "audioQS": "Ps.46,Ezek.36,Jas.5"
+        }
+    },
+    "2024/07/28": {
+        "datePretty": "Sunday, July 28, 2024",
+        "calendar": "20th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 75",
+                    "readQS": "Psalm+75",
+                    "audioQS": "Ps.75"
+                },
+                {
+                    "pretty": "Song of Solomon 2",
+                    "readQS": "Song+of+Solomon+2",
+                    "audioQS": "Song.2"
+                },
+                {
+                    "pretty": "1 Peter 4:7\u201314",
+                    "readQS": "1+Peter+4:7-14",
+                    "audioQS": "1Pet.4"
+                }
+            ],
+            "readQS": "Psalm+75%3B+Song+of+Solomon+2%3B+1+Peter+4:7-14",
+            "audioQS": "Ps.75,Song.2,1Pet.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 74",
+                    "readQS": "Psalm+74",
+                    "audioQS": "Ps.74"
+                },
+                {
+                    "pretty": "Job 19:1\u201327a",
+                    "readQS": "Job+19:1-27a",
+                    "audioQS": "Job.19"
+                },
+                {
+                    "pretty": "Hebrews 8",
+                    "readQS": "Hebrews+8",
+                    "audioQS": "Heb.8"
+                }
+            ],
+            "readQS": "Psalm+74%3B+Job+19:1-27a%3B+Hebrews+8",
+            "audioQS": "Ps.74,Job.19,Heb.8"
+        }
+    },
+    "2024/07/29": {
+        "datePretty": "Monday, July 29, 2024",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 44",
+                    "readQS": "Psalm+44",
+                    "audioQS": "Ps.44"
+                },
+                {
+                    "pretty": "1 Samuel 19:1\u201318",
+                    "readQS": "1+Samuel+19:1-18",
+                    "audioQS": "1Sam.19"
+                },
+                {
+                    "pretty": "Acts 1:1\u201314",
+                    "readQS": "Acts+1:1-14",
+                    "audioQS": "Acts.1"
+                }
+            ],
+            "readQS": "Psalm+44%3B+1+Samuel+19:1-18%3B+Acts+1:1-14",
+            "audioQS": "Ps.44,1Sam.19,Acts.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 47",
+                    "readQS": "Psalm+47",
+                    "audioQS": "Ps.47"
+                },
+                {
+                    "pretty": "Ezekiel 37:1\u201314",
+                    "readQS": "Ezekiel+37:1-14",
+                    "audioQS": "Ezek.37"
+                },
+                {
+                    "pretty": "Mark 1:1\u201313",
+                    "readQS": "Mark+1:1-13",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+47%3B+Ezekiel+37:1-14%3B+Mark+1:1-13",
+            "audioQS": "Ps.47,Ezek.37,Mark.1"
+        }
+    },
+    "2024/07/30": {
+        "datePretty": "Tuesday, July 30, 2024",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 48",
+                    "readQS": "Psalm+48",
+                    "audioQS": "Ps.48"
+                },
+                {
+                    "pretty": "1 Samuel 20:1\u201317",
+                    "readQS": "1+Samuel+20:1-17",
+                    "audioQS": "1Sam.20"
+                },
+                {
+                    "pretty": "Acts 1:15\u2013end",
+                    "readQS": "Acts+1:15-",
+                    "audioQS": "Acts.1"
+                }
+            ],
+            "readQS": "Psalm+48%3B+1+Samuel+20:1-17%3B+Acts+1:15-",
+            "audioQS": "Ps.48,1Sam.20,Acts.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 50",
+                    "readQS": "Psalm+50",
+                    "audioQS": "Ps.50"
+                },
+                {
+                    "pretty": "Ezekiel 37:15\u2013end",
+                    "readQS": "Ezekiel+37:15-",
+                    "audioQS": "Ezek.37"
+                },
+                {
+                    "pretty": "Mark 1:14\u201320",
+                    "readQS": "Mark+1:14-20",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+50%3B+Ezekiel+37:15-%3B+Mark+1:14-20",
+            "audioQS": "Ps.50,Ezek.37,Mark.1"
+        }
+    },
+    "2024/07/31": {
+        "datePretty": "Wednesday, July 31, 2024",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:57\u201380",
+                    "readQS": "Psalm+119:57-80",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "1 Samuel 20:18\u2013end",
+                    "readQS": "1+Samuel+20:18-",
+                    "audioQS": "1Sam.20"
+                },
+                {
+                    "pretty": "Acts 2:1\u201321",
+                    "readQS": "Acts+2:1-21",
+                    "audioQS": "Acts.2"
+                }
+            ],
+            "readQS": "Psalm+119:57-80%3B+1+Samuel+20:18-%3B+Acts+2:1-21",
+            "audioQS": "Ps.119,1Sam.20,Acts.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 59",
+                    "readQS": "Psalm+59",
+                    "audioQS": "Ps.59"
+                },
+                {
+                    "pretty": "Ezekiel 39:21\u2013end",
+                    "readQS": "Ezekiel+39:21-",
+                    "audioQS": "Ezek.39"
+                },
+                {
+                    "pretty": "Mark 1:21\u201328",
+                    "readQS": "Mark+1:21-28",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+59%3B+Ezekiel+39:21-%3B+Mark+1:21-28",
+            "audioQS": "Ps.59,Ezek.39,Mark.1"
+        }
+    },
+    "2024/08/01": {
+        "datePretty": "Thursday, August 1, 2024",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 57",
+                    "readQS": "Psalm+57",
+                    "audioQS": "Ps.57"
+                },
+                {
+                    "pretty": "1 Samuel 21:1\u201322:5",
+                    "readQS": "1+Samuel+21:1-22:5",
+                    "audioQS": "1Sam.21"
+                },
+                {
+                    "pretty": "Acts 2:22\u201336",
+                    "readQS": "Acts+2:22-36",
+                    "audioQS": "Acts.2"
+                }
+            ],
+            "readQS": "Psalm+57%3B+1+Samuel+21:1-22:5%3B+Acts+2:22-36",
+            "audioQS": "Ps.57,1Sam.21,Acts.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 62",
+                    "readQS": "Psalm+62",
+                    "audioQS": "Ps.62"
+                },
+                {
+                    "pretty": "Ezekiel 43:1\u201312",
+                    "readQS": "Ezekiel+43:1-12",
+                    "audioQS": "Ezek.43"
+                },
+                {
+                    "pretty": "Mark 1:29\u2013end",
+                    "readQS": "Mark+1:29-",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+62%3B+Ezekiel+43:1-12%3B+Mark+1:29-",
+            "audioQS": "Ps.62,Ezek.43,Mark.1"
+        }
+    },
+    "2024/08/02": {
+        "datePretty": "Friday, August 2, 2024",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 51",
+                    "readQS": "Psalm+51",
+                    "audioQS": "Ps.51"
+                },
+                {
+                    "pretty": "1 Samuel 22:6\u2013end",
+                    "readQS": "1+Samuel+22:6-",
+                    "audioQS": "1Sam.22"
+                },
+                {
+                    "pretty": "Acts 2:37\u2013end",
+                    "readQS": "Acts+2:37-",
+                    "audioQS": "Acts.2"
+                }
+            ],
+            "readQS": "Psalm+51%3B+1+Samuel+22:6-%3B+Acts+2:37-",
+            "audioQS": "Ps.51,1Sam.22,Acts.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 38",
+                    "readQS": "Psalm+38",
+                    "audioQS": "Ps.38"
+                },
+                {
+                    "pretty": "Ezekiel 44:4\u201316",
+                    "readQS": "Ezekiel+44:4-16",
+                    "audioQS": "Ezek.44"
+                },
+                {
+                    "pretty": "Mark 2:1\u201312",
+                    "readQS": "Mark+2:1-12",
+                    "audioQS": "Mark.2"
+                }
+            ],
+            "readQS": "Psalm+38%3B+Ezekiel+44:4-16%3B+Mark+2:1-12",
+            "audioQS": "Ps.38,Ezek.44,Mark.2"
+        }
+    },
+    "2024/08/03": {
+        "datePretty": "Saturday, August 3, 2024",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 68",
+                    "readQS": "Psalm+68",
+                    "audioQS": "Ps.68"
+                },
+                {
+                    "pretty": "1 Samuel 23",
+                    "readQS": "1+Samuel+23",
+                    "audioQS": "1Sam.23"
+                },
+                {
+                    "pretty": "Acts 3:1\u201310",
+                    "readQS": "Acts+3:1-10",
+                    "audioQS": "Acts.3"
+                }
+            ],
+            "readQS": "Psalm+68%3B+1+Samuel+23%3B+Acts+3:1-10",
+            "audioQS": "Ps.68,1Sam.23,Acts.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 66",
+                    "readQS": "Psalm+66",
+                    "audioQS": "Ps.66"
+                },
+                {
+                    "pretty": "Ezekiel 47:1\u201312",
+                    "readQS": "Ezekiel+47:1-12",
+                    "audioQS": "Ezek.47"
+                },
+                {
+                    "pretty": "Mark 2:13\u201322",
+                    "readQS": "Mark+2:13-22",
+                    "audioQS": "Mark.2"
+                }
+            ],
+            "readQS": "Psalm+66%3B+Ezekiel+47:1-12%3B+Mark+2:13-22",
+            "audioQS": "Ps.66,Ezek.47,Mark.2"
+        }
+    },
+    "2024/08/04": {
+        "datePretty": "Sunday, August 4, 2024",
+        "calendar": "21st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 86",
+                    "readQS": "Psalm+86",
+                    "audioQS": "Ps.86"
+                },
+                {
+                    "pretty": "Song of Solomon 5:2\u201316",
+                    "readQS": "Song+of+Solomon+5:2-16",
+                    "audioQS": "Song.5"
+                },
+                {
+                    "pretty": "2 Peter 1:1\u201315",
+                    "readQS": "2+Peter+1:1-15",
+                    "audioQS": "2Pet.1"
+                }
+            ],
+            "readQS": "Psalm+86%3B+Song+of+Solomon+5:2-16%3B+2+Peter+1:1-15",
+            "audioQS": "Ps.86,Song.5,2Pet.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 88",
+                    "readQS": "Psalm+88",
+                    "audioQS": "Ps.88"
+                },
+                {
+                    "pretty": "Job 28",
+                    "readQS": "Job+28",
+                    "audioQS": "Job.28"
+                },
+                {
+                    "pretty": "Hebrews 11:17\u201331",
+                    "readQS": "Hebrews+11:17-31",
+                    "audioQS": "Heb.11"
+                }
+            ],
+            "readQS": "Psalm+88%3B+Job+28%3B+Hebrews+11:17-31",
+            "audioQS": "Ps.88,Job.28,Heb.11"
+        }
+    },
+    "2024/08/05": {
+        "datePretty": "Monday, August 5, 2024",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 71",
+                    "readQS": "Psalm+71",
+                    "audioQS": "Ps.71"
+                },
+                {
+                    "pretty": "1 Samuel 24",
+                    "readQS": "1+Samuel+24",
+                    "audioQS": "1Sam.24"
+                },
+                {
+                    "pretty": "Acts 3:11\u2013end",
+                    "readQS": "Acts+3:11-",
+                    "audioQS": "Acts.3"
+                }
+            ],
+            "readQS": "Psalm+71%3B+1+Samuel+24%3B+Acts+3:11-",
+            "audioQS": "Ps.71,1Sam.24,Acts.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 99,110",
+                    "readQS": "Psalm+99,110",
+                    "audioQS": "Ps.99,110"
+                },
+                {
+                    "pretty": "Exodus 24:12\u201318",
+                    "readQS": "Exodus+24:12-18",
+                    "audioQS": "Exod.24"
+                },
+                {
+                    "pretty": "John 12:27\u201336a",
+                    "readQS": "John+12:27-36a",
+                    "audioQS": "John.12"
+                }
+            ],
+            "readQS": "Psalm+99,110%3B+Exodus+24:12-18%3B+John+12:27-36a",
+            "audioQS": "Ps.99,110,Exod.24,John.12"
+        }
+    },
+    "2024/08/06": {
+        "datePretty": "Tuesday, August 6, 2024",
+        "calendar": "The Transfiguration of the Beloved Son",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 27,150",
+                    "readQS": "Psalm+27,150",
+                    "audioQS": "Ps.27,150"
+                },
+                {
+                    "pretty": "1 Kings 19:1\u201316",
+                    "readQS": "1+Kings+19:1-16",
+                    "audioQS": "1Kgs.19"
+                },
+                {
+                    "pretty": "1 John 3:1\u20133",
+                    "readQS": "1+John+3:1-3",
+                    "audioQS": "1John.3"
+                }
+            ],
+            "readQS": "Psalm+27,150%3B+1+Kings+19:1-16%3B+1+John+3:1-3",
+            "audioQS": "Ps.27,150,1Kgs.19,1John.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 72",
+                    "readQS": "Psalm+72",
+                    "audioQS": "Ps.72"
+                },
+                {
+                    "pretty": "Exodus 34:29\u201335",
+                    "readQS": "Exodus+34:29-35",
+                    "audioQS": "Exod.34"
+                },
+                {
+                    "pretty": "2 Corinthians 3",
+                    "readQS": "2+Corinthians+3",
+                    "audioQS": "2Cor.3"
+                }
+            ],
+            "readQS": "Psalm+72%3B+Exodus+34:29-35%3B+2+Corinthians+3",
+            "audioQS": "Ps.72,Exod.34,2Cor.3"
+        }
+    },
+    "2024/08/07": {
+        "datePretty": "Wednesday, August 7, 2024",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 77",
+                    "readQS": "Psalm+77",
+                    "audioQS": "Ps.77"
+                },
+                {
+                    "pretty": "1 Samuel 28:3\u2013end",
+                    "readQS": "1+Samuel+28:3-",
+                    "audioQS": "1Sam.28"
+                },
+                {
+                    "pretty": "Acts 4:13\u201331",
+                    "readQS": "Acts+4:13-31",
+                    "audioQS": "Acts.4"
+                }
+            ],
+            "readQS": "Psalm+77%3B+1+Samuel+28:3-%3B+Acts+4:13-31",
+            "audioQS": "Ps.77,1Sam.28,Acts.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:81\u2013104",
+                    "readQS": "Psalm+119:81-104",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Proverbs 2",
+                    "readQS": "Proverbs+2",
+                    "audioQS": "Prov.2"
+                },
+                {
+                    "pretty": "Mark 3:19b\u2013end",
+                    "readQS": "Mark+3:19b-",
+                    "audioQS": "Mark.3"
+                }
+            ],
+            "readQS": "Psalm+119:81-104%3B+Proverbs+2%3B+Mark+3:19b-",
+            "audioQS": "Ps.119,Prov.2,Mark.3"
+        }
+    },
+    "2024/08/08": {
+        "datePretty": "Thursday, August 8, 2024",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78:1\u201339",
+                    "readQS": "Psalm+78:1-39",
+                    "audioQS": "Ps.78"
+                },
+                {
+                    "pretty": "1 Samuel 31",
+                    "readQS": "1+Samuel+31",
+                    "audioQS": "1Sam.31"
+                },
+                {
+                    "pretty": "Acts 4:32\u20135:11",
+                    "readQS": "Acts+4:32-5:11",
+                    "audioQS": "Acts.4"
+                }
+            ],
+            "readQS": "Psalm+78:1-39%3B+1+Samuel+31%3B+Acts+4:32-5:11",
+            "audioQS": "Ps.78,1Sam.31,Acts.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78:40\u2013end",
+                    "readQS": "Psalm+78:40-",
+                    "audioQS": "Ps.78"
+                },
+                {
+                    "pretty": "Proverbs 3:1\u201326",
+                    "readQS": "Proverbs+3:1-26",
+                    "audioQS": "Prov.3"
+                },
+                {
+                    "pretty": "Mark 4:1\u201320",
+                    "readQS": "Mark+4:1-20",
+                    "audioQS": "Mark.4"
+                }
+            ],
+            "readQS": "Psalm+78:40-%3B+Proverbs+3:1-26%3B+Mark+4:1-20",
+            "audioQS": "Ps.78,Prov.3,Mark.4"
+        }
+    },
+    "2024/08/09": {
+        "datePretty": "Friday, August 9, 2024",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 55",
+                    "readQS": "Psalm+55",
+                    "audioQS": "Ps.55"
+                },
+                {
+                    "pretty": "2 Samuel 1",
+                    "readQS": "2+Samuel+1",
+                    "audioQS": "2Sam.1"
+                },
+                {
+                    "pretty": "Acts 5:12\u201326",
+                    "readQS": "Acts+5:12-26",
+                    "audioQS": "Acts.5"
+                }
+            ],
+            "readQS": "Psalm+55%3B+2+Samuel+1%3B+Acts+5:12-26",
+            "audioQS": "Ps.55,2Sam.1,Acts.5"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 69",
+                    "readQS": "Psalm+69",
+                    "audioQS": "Ps.69"
+                },
+                {
+                    "pretty": "Proverbs 3:27\u20134:19",
+                    "readQS": "Proverbs+3:27-4:19",
+                    "audioQS": "Prov.3"
+                },
+                {
+                    "pretty": "Mark 4:21\u201334",
+                    "readQS": "Mark+4:21-34",
+                    "audioQS": "Mark.4"
+                }
+            ],
+            "readQS": "Psalm+69%3B+Proverbs+3:27-4:19%3B+Mark+4:21-34",
+            "audioQS": "Ps.69,Prov.3,Mark.4"
+        }
+    },
+    "2024/08/10": {
+        "datePretty": "Saturday, August 10, 2024",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 76",
+                    "readQS": "Psalm+76",
+                    "audioQS": "Ps.76"
+                },
+                {
+                    "pretty": "2 Samuel 2:1\u201311",
+                    "readQS": "2+Samuel+2:1-11",
+                    "audioQS": "2Sam.2"
+                },
+                {
+                    "pretty": "Acts 5:27\u2013end",
+                    "readQS": "Acts+5:27-",
+                    "audioQS": "Acts.5"
+                }
+            ],
+            "readQS": "Psalm+76%3B+2+Samuel+2:1-11%3B+Acts+5:27-",
+            "audioQS": "Ps.76,2Sam.2,Acts.5"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 84",
+                    "readQS": "Psalm+84",
+                    "audioQS": "Ps.84"
+                },
+                {
+                    "pretty": "Proverbs 6:1\u201319",
+                    "readQS": "Proverbs+6:1-19",
+                    "audioQS": "Prov.6"
+                },
+                {
+                    "pretty": "Mark 4:35\u2013end",
+                    "readQS": "Mark+4:35-",
+                    "audioQS": "Mark.4"
+                }
+            ],
+            "readQS": "Psalm+84%3B+Proverbs+6:1-19%3B+Mark+4:35-",
+            "audioQS": "Ps.84,Prov.6,Mark.4"
+        }
+    },
+    "2024/08/11": {
+        "datePretty": "Sunday, August 11, 2024",
+        "calendar": "22nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 90",
+                    "readQS": "Psalm+90",
+                    "audioQS": "Ps.90"
+                },
+                {
+                    "pretty": "Song of Solomon 8:5\u20137",
+                    "readQS": "Song+of+Solomon+8:5-7",
+                    "audioQS": "Song.8"
+                },
+                {
+                    "pretty": "2 Peter 3:8\u201313",
+                    "readQS": "2+Peter+3:8-13",
+                    "audioQS": "2Pet.3"
+                }
+            ],
+            "readQS": "Psalm+90%3B+Song+of+Solomon+8:5-7%3B+2+Peter+3:8-13",
+            "audioQS": "Ps.90,Song.8,2Pet.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 91",
+                    "readQS": "Psalm+91",
+                    "audioQS": "Ps.91"
+                },
+                {
+                    "pretty": "Job 39:1\u201340:4",
+                    "readQS": "Job+39:1-40:4",
+                    "audioQS": "Job.39"
+                },
+                {
+                    "pretty": "Hebrews 12:1\u201317",
+                    "readQS": "Hebrews+12:1-17",
+                    "audioQS": "Heb.12"
+                }
+            ],
+            "readQS": "Psalm+91%3B+Job+39:1-40:4%3B+Hebrews+12:1-17",
+            "audioQS": "Ps.91,Job.39,Heb.12"
+        }
+    },
+    "2024/08/12": {
+        "datePretty": "Monday, August 12, 2024",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 80",
+                    "readQS": "Psalm+80",
+                    "audioQS": "Ps.80"
+                },
+                {
+                    "pretty": "2 Samuel 3:12\u2013end",
+                    "readQS": "2+Samuel+3:12-",
+                    "audioQS": "2Sam.3"
+                },
+                {
+                    "pretty": "Acts 6",
+                    "readQS": "Acts+6",
+                    "audioQS": "Acts.6"
+                }
+            ],
+            "readQS": "Psalm+80%3B+2+Samuel+3:12-%3B+Acts+6",
+            "audioQS": "Ps.80,2Sam.3,Acts.6"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 85",
+                    "readQS": "Psalm+85",
+                    "audioQS": "Ps.85"
+                },
+                {
+                    "pretty": "Proverbs 8:1\u201321",
+                    "readQS": "Proverbs+8:1-21",
+                    "audioQS": "Prov.8"
+                },
+                {
+                    "pretty": "Mark 5:1\u201320",
+                    "readQS": "Mark+5:1-20",
+                    "audioQS": "Mark.5"
+                }
+            ],
+            "readQS": "Psalm+85%3B+Proverbs+8:1-21%3B+Mark+5:1-20",
+            "audioQS": "Ps.85,Prov.8,Mark.5"
+        }
+    },
+    "2024/08/13": {
+        "datePretty": "Tuesday, August 13, 2024",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 89:1\u201318",
+                    "readQS": "Psalm+89:1-18",
+                    "audioQS": "Ps.89"
+                },
+                {
+                    "pretty": "2 Samuel 5:1\u201312",
+                    "readQS": "2+Samuel+5:1-12",
+                    "audioQS": "2Sam.5"
+                },
+                {
+                    "pretty": "Acts 7:1\u201316",
+                    "readQS": "Acts+7:1-16",
+                    "audioQS": "Acts.7"
+                }
+            ],
+            "readQS": "Psalm+89:1-18%3B+2+Samuel+5:1-12%3B+Acts+7:1-16",
+            "audioQS": "Ps.89,2Sam.5,Acts.7"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 89:19\u2013end",
+                    "readQS": "Psalm+89:19-",
+                    "audioQS": "Ps.89"
+                },
+                {
+                    "pretty": "Proverbs 8:22\u2013end",
+                    "readQS": "Proverbs+8:22-",
+                    "audioQS": "Prov.8"
+                },
+                {
+                    "pretty": "Mark 5:21\u201334",
+                    "readQS": "Mark+5:21-34",
+                    "audioQS": "Mark.5"
+                }
+            ],
+            "readQS": "Psalm+89:19-%3B+Proverbs+8:22-%3B+Mark+5:21-34",
+            "audioQS": "Ps.89,Prov.8,Mark.5"
+        }
+    },
+    "2024/08/14": {
+        "datePretty": "Wednesday, August 14, 2024",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:105\u2013128",
+                    "readQS": "Psalm+119:105-128",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "2 Samuel 6:1\u201319",
+                    "readQS": "2+Samuel+6:1-19",
+                    "audioQS": "2Sam.6"
+                },
+                {
+                    "pretty": "Acts 7:17\u201343",
+                    "readQS": "Acts+7:17-43",
+                    "audioQS": "Acts.7"
+                }
+            ],
+            "readQS": "Psalm+119:105-128%3B+2+Samuel+6:1-19%3B+Acts+7:17-43",
+            "audioQS": "Ps.119,2Sam.6,Acts.7"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 72",
+                    "readQS": "Psalm+72",
+                    "audioQS": "Ps.72"
+                },
+                {
+                    "pretty": "Proverbs 8:22\u201331",
+                    "readQS": "Proverbs+8:22-31",
+                    "audioQS": "Prov.8"
+                },
+                {
+                    "pretty": "John 19:23\u201327",
+                    "readQS": "John+19:23-27",
+                    "audioQS": "John.19"
+                }
+            ],
+            "readQS": "Psalm+72%3B+Proverbs+8:22-31%3B+John+19:23-27",
+            "audioQS": "Ps.72,Prov.8,John.19"
+        }
+    },
+    "2024/08/15": {
+        "datePretty": "Thursday, August 15, 2024",
+        "calendar": "The Blessed Virgin Mary",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 98,138,147:1\u201311",
+                    "readQS": "Psalm+98,138,147:1-11",
+                    "audioQS": "Ps.98,138,147"
+                },
+                {
+                    "pretty": "Isaiah 7:10\u201315",
+                    "readQS": "Isaiah+7:10-15",
+                    "audioQS": "Isa.7"
+                },
+                {
+                    "pretty": "Luke 11:27\u201328",
+                    "readQS": "Luke+11:27-28",
+                    "audioQS": "Luke.11"
+                }
+            ],
+            "readQS": "Psalm+98,138,147:1-11%3B+Isaiah+7:10-15%3B+Luke+11:27-28",
+            "audioQS": "Ps.98,138,147,Isa.7,Luke.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 132",
+                    "readQS": "Psalm+132",
+                    "audioQS": "Ps.132"
+                },
+                {
+                    "pretty": "Song of Solomon 2:1\u20137",
+                    "readQS": "Song+of+Solomon+2:1-7",
+                    "audioQS": "Song.2"
+                },
+                {
+                    "pretty": "Acts 1:6\u201314",
+                    "readQS": "Acts+1:6-14",
+                    "audioQS": "Acts.1"
+                }
+            ],
+            "readQS": "Psalm+132%3B+Song+of+Solomon+2:1-7%3B+Acts+1:6-14",
+            "audioQS": "Ps.132,Song.2,Acts.1"
+        }
+    },
+    "2024/08/16": {
+        "datePretty": "Friday, August 16, 2024",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 88",
+                    "readQS": "Psalm+88",
+                    "audioQS": "Ps.88"
+                },
+                {
+                    "pretty": "2 Samuel 7:18\u2013end",
+                    "readQS": "2+Samuel+7:18-",
+                    "audioQS": "2Sam.7"
+                },
+                {
+                    "pretty": "Acts 7:54\u20138:3",
+                    "readQS": "Acts+7:54-8:3",
+                    "audioQS": "Acts.7"
+                }
+            ],
+            "readQS": "Psalm+88%3B+2+Samuel+7:18-%3B+Acts+7:54-8:3",
+            "audioQS": "Ps.88,2Sam.7,Acts.7"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 102",
+                    "readQS": "Psalm+102",
+                    "audioQS": "Ps.102"
+                },
+                {
+                    "pretty": "Proverbs 11:1\u201312",
+                    "readQS": "Proverbs+11:1-12",
+                    "audioQS": "Prov.11"
+                },
+                {
+                    "pretty": "Mark 6:14\u201329",
+                    "readQS": "Mark+6:14-29",
+                    "audioQS": "Mark.6"
+                }
+            ],
+            "readQS": "Psalm+102%3B+Proverbs+11:1-12%3B+Mark+6:14-29",
+            "audioQS": "Ps.102,Prov.11,Mark.6"
+        }
+    },
+    "2024/08/17": {
+        "datePretty": "Saturday, August 17, 2024",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 97",
+                    "readQS": "Psalm+97",
+                    "audioQS": "Ps.97"
+                },
+                {
+                    "pretty": "2 Samuel 9",
+                    "readQS": "2+Samuel+9",
+                    "audioQS": "2Sam.9"
+                },
+                {
+                    "pretty": "Acts 8:4\u201325",
+                    "readQS": "Acts+8:4-25",
+                    "audioQS": "Acts.8"
+                }
+            ],
+            "readQS": "Psalm+97%3B+2+Samuel+9%3B+Acts+8:4-25",
+            "audioQS": "Ps.97,2Sam.9,Acts.8"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 104",
+                    "readQS": "Psalm+104",
+                    "audioQS": "Ps.104"
+                },
+                {
+                    "pretty": "Proverbs 12:10\u2013end",
+                    "readQS": "Proverbs+12:10-",
+                    "audioQS": "Prov.12"
+                },
+                {
+                    "pretty": "Mark 6:30\u201344",
+                    "readQS": "Mark+6:30-44",
+                    "audioQS": "Mark.6"
+                }
+            ],
+            "readQS": "Psalm+104%3B+Proverbs+12:10-%3B+Mark+6:30-44",
+            "audioQS": "Ps.104,Prov.12,Mark.6"
+        }
+    },
+    "2024/08/18": {
+        "datePretty": "Sunday, August 18, 2024",
+        "calendar": "23rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 106:1\u201310",
+                    "readQS": "Psalm+106:1-10",
+                    "audioQS": "Ps.106"
+                },
+                {
+                    "pretty": "Jonah 1",
+                    "readQS": "Jonah+1",
+                    "audioQS": "Jonah.1"
+                },
+                {
+                    "pretty": "2 Peter 3:14\u201318",
+                    "readQS": "2+Peter+3:14-18",
+                    "audioQS": "2Pet.3"
+                }
+            ],
+            "readQS": "Psalm+106:1-10%3B+Jonah+1%3B+2+Peter+3:14-18",
+            "audioQS": "Ps.106,Jonah.1,2Pet.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 100",
+                    "readQS": "Psalm+100",
+                    "audioQS": "Ps.100"
+                },
+                {
+                    "pretty": "Exodus 2:23\u20133:10",
+                    "readQS": "Exodus+2:23-3:10",
+                    "audioQS": "Exod.2"
+                },
+                {
+                    "pretty": "Hebrews 13:1\u201315",
+                    "readQS": "Hebrews+13:1-15",
+                    "audioQS": "Heb.13"
+                }
+            ],
+            "readQS": "Psalm+100%3B+Exodus+2:23-3:10%3B+Hebrews+13:1-15",
+            "audioQS": "Ps.100,Exod.2,Heb.13"
+        }
+    },
+    "2024/08/19": {
+        "datePretty": "Monday, August 19, 2024",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 98",
+                    "readQS": "Psalm+98",
+                    "audioQS": "Ps.98"
+                },
+                {
+                    "pretty": "2 Samuel 11",
+                    "readQS": "2+Samuel+11",
+                    "audioQS": "2Sam.11"
+                },
+                {
+                    "pretty": "Acts 8:26\u2013end",
+                    "readQS": "Acts+8:26-",
+                    "audioQS": "Acts.8"
+                }
+            ],
+            "readQS": "Psalm+98%3B+2+Samuel+11%3B+Acts+8:26-",
+            "audioQS": "Ps.98,2Sam.11,Acts.8"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 105",
+                    "readQS": "Psalm+105",
+                    "audioQS": "Ps.105"
+                },
+                {
+                    "pretty": "Proverbs 14:31\u201315:17",
+                    "readQS": "Proverbs+14:31-15:17",
+                    "audioQS": "Prov.14"
+                },
+                {
+                    "pretty": "Mark 6:45\u2013end",
+                    "readQS": "Mark+6:45-",
+                    "audioQS": "Mark.6"
+                }
+            ],
+            "readQS": "Psalm+105%3B+Proverbs+14:31-15:17%3B+Mark+6:45-",
+            "audioQS": "Ps.105,Prov.14,Mark.6"
+        }
+    },
+    "2024/08/20": {
+        "datePretty": "Tuesday, August 20, 2024",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 106",
+                    "readQS": "Psalm+106",
+                    "audioQS": "Ps.106"
+                },
+                {
+                    "pretty": "2 Samuel 12:1\u201325",
+                    "readQS": "2+Samuel+12:1-25",
+                    "audioQS": "2Sam.12"
+                },
+                {
+                    "pretty": "Acts 9:1\u201319a",
+                    "readQS": "Acts+9:1-19a",
+                    "audioQS": "Acts.9"
+                }
+            ],
+            "readQS": "Psalm+106%3B+2+Samuel+12:1-25%3B+Acts+9:1-19a",
+            "audioQS": "Ps.106,2Sam.12,Acts.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 107",
+                    "readQS": "Psalm+107",
+                    "audioQS": "Ps.107"
+                },
+                {
+                    "pretty": "Proverbs 15:18\u2013end",
+                    "readQS": "Proverbs+15:18-",
+                    "audioQS": "Prov.15"
+                },
+                {
+                    "pretty": "Mark 7:1\u201313",
+                    "readQS": "Mark+7:1-13",
+                    "audioQS": "Mark.7"
+                }
+            ],
+            "readQS": "Psalm+107%3B+Proverbs+15:18-%3B+Mark+7:1-13",
+            "audioQS": "Ps.107,Prov.15,Mark.7"
+        }
+    },
+    "2024/08/21": {
+        "datePretty": "Wednesday, August 21, 2024",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 111",
+                    "readQS": "Psalm+111",
+                    "audioQS": "Ps.111"
+                },
+                {
+                    "pretty": "2 Samuel 15:1\u201312",
+                    "readQS": "2+Samuel+15:1-12",
+                    "audioQS": "2Sam.15"
+                },
+                {
+                    "pretty": "Acts 9:19b\u201331",
+                    "readQS": "Acts+9:19b-31",
+                    "audioQS": "Acts.9"
+                }
+            ],
+            "readQS": "Psalm+111%3B+2+Samuel+15:1-12%3B+Acts+9:19b-31",
+            "audioQS": "Ps.111,2Sam.15,Acts.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:129\u2013152",
+                    "readQS": "Psalm+119:129-152",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Proverbs 18:10\u2013end",
+                    "readQS": "Proverbs+18:10-",
+                    "audioQS": "Prov.18"
+                },
+                {
+                    "pretty": "Mark 7:14\u201323",
+                    "readQS": "Mark+7:14-23",
+                    "audioQS": "Mark.7"
+                }
+            ],
+            "readQS": "Psalm+119:129-152%3B+Proverbs+18:10-%3B+Mark+7:14-23",
+            "audioQS": "Ps.119,Prov.18,Mark.7"
+        }
+    },
+    "2024/08/22": {
+        "datePretty": "Thursday, August 22, 2024",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 115",
+                    "readQS": "Psalm+115",
+                    "audioQS": "Ps.115"
+                },
+                {
+                    "pretty": "2 Samuel 15:13\u2013end",
+                    "readQS": "2+Samuel+15:13-",
+                    "audioQS": "2Sam.15"
+                },
+                {
+                    "pretty": "Acts 9:32\u2013end",
+                    "readQS": "Acts+9:32-",
+                    "audioQS": "Acts.9"
+                }
+            ],
+            "readQS": "Psalm+115%3B+2+Samuel+15:13-%3B+Acts+9:32-",
+            "audioQS": "Ps.115,2Sam.15,Acts.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 116",
+                    "readQS": "Psalm+116",
+                    "audioQS": "Ps.116"
+                },
+                {
+                    "pretty": "Proverbs 20:1\u201322",
+                    "readQS": "Proverbs+20:1-22",
+                    "audioQS": "Prov.20"
+                },
+                {
+                    "pretty": "Mark 7:24\u201330",
+                    "readQS": "Mark+7:24-30",
+                    "audioQS": "Mark.7"
+                }
+            ],
+            "readQS": "Psalm+116%3B+Proverbs+20:1-22%3B+Mark+7:24-30",
+            "audioQS": "Ps.116,Prov.20,Mark.7"
+        }
+    },
+    "2024/08/23": {
+        "datePretty": "Friday, August 23, 2024",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 139",
+                    "readQS": "Psalm+139",
+                    "audioQS": "Ps.139"
+                },
+                {
+                    "pretty": "2 Samuel 16:1\u201314",
+                    "readQS": "2+Samuel+16:1-14",
+                    "audioQS": "2Sam.16"
+                },
+                {
+                    "pretty": "Acts 10:1\u201316",
+                    "readQS": "Acts+10:1-16",
+                    "audioQS": "Acts.10"
+                }
+            ],
+            "readQS": "Psalm+139%3B+2+Samuel+16:1-14%3B+Acts+10:1-16",
+            "audioQS": "Ps.139,2Sam.16,Acts.10"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 97",
+                    "readQS": "Psalm+97",
+                    "audioQS": "Ps.97"
+                },
+                {
+                    "pretty": "Isaiah 61:1\u20139",
+                    "readQS": "Isaiah+61:1-9",
+                    "audioQS": "Isa.61"
+                },
+                {
+                    "pretty": "2 Corinthians 6:1\u201310",
+                    "readQS": "2+Corinthians+6:1-10",
+                    "audioQS": "2Cor.6"
+                }
+            ],
+            "readQS": "Psalm+97%3B+Isaiah+61:1-9%3B+2+Corinthians+6:1-10",
+            "audioQS": "Ps.97,Isa.61,2Cor.6"
+        }
+    },
+    "2024/08/24": {
+        "datePretty": "Saturday, August 24, 2024",
+        "calendar": "St Bartholomew the Apostle",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 86,117",
+                    "readQS": "Psalm+86,117",
+                    "audioQS": "Ps.86,117"
+                },
+                {
+                    "pretty": "Genesis 28:10\u201317",
+                    "readQS": "Genesis+28:10-17",
+                    "audioQS": "Gen.28"
+                },
+                {
+                    "pretty": "John 1:43\u201351",
+                    "readQS": "John+1:43-51",
+                    "audioQS": "John.1"
+                }
+            ],
+            "readQS": "Psalm+86,117%3B+Genesis+28:10-17%3B+John+1:43-51",
+            "audioQS": "Ps.86,117,Gen.28,John.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 91,116",
+                    "readQS": "Psalm+91,116",
+                    "audioQS": "Ps.91,116"
+                },
+                {
+                    "pretty": "Deuteronomy 18:15\u201319",
+                    "readQS": "Deuteronomy+18:15-19",
+                    "audioQS": "Deut.18"
+                },
+                {
+                    "pretty": "Matthew 10:1\u201322",
+                    "readQS": "Matthew+10:1-22",
+                    "audioQS": "Matt.10"
+                }
+            ],
+            "readQS": "Psalm+91,116%3B+Deuteronomy+18:15-19%3B+Matthew+10:1-22",
+            "audioQS": "Ps.91,116,Deut.18,Matt.10"
+        }
+    },
+    "2024/08/25": {
+        "datePretty": "Sunday, August 25, 2024",
+        "calendar": "24th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 115",
+                    "readQS": "Psalm+115",
+                    "audioQS": "Ps.115"
+                },
+                {
+                    "pretty": "Jonah 2",
+                    "readQS": "Jonah+2",
+                    "audioQS": "Jonah.2"
+                },
+                {
+                    "pretty": "Revelation 1",
+                    "readQS": "Revelation+1",
+                    "audioQS": "Rev.1"
+                }
+            ],
+            "readQS": "Psalm+115%3B+Jonah+2%3B+Revelation+1",
+            "audioQS": "Ps.115,Jonah.2,Rev.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 116",
+                    "readQS": "Psalm+116",
+                    "audioQS": "Ps.116"
+                },
+                {
+                    "pretty": "Exodus 4:27\u20135:1",
+                    "readQS": "Exodus+4:27-5:1",
+                    "audioQS": "Exod.4"
+                },
+                {
+                    "pretty": "Hebrews 13:16\u201321",
+                    "readQS": "Hebrews+13:16-21",
+                    "audioQS": "Heb.13"
+                }
+            ],
+            "readQS": "Psalm+116%3B+Exodus+4:27-5:1%3B+Hebrews+13:16-21",
+            "audioQS": "Ps.116,Exod.4,Heb.13"
+        }
+    },
+    "2024/08/26": {
+        "datePretty": "Monday, August 26, 2024",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 126",
+                    "readQS": "Psalm+126",
+                    "audioQS": "Ps.126"
+                },
+                {
+                    "pretty": "2 Samuel 18:1\u201318",
+                    "readQS": "2+Samuel+18:1-18",
+                    "audioQS": "2Sam.18"
+                },
+                {
+                    "pretty": "Acts 10:34\u2013end",
+                    "readQS": "Acts+10:34-",
+                    "audioQS": "Acts.10"
+                }
+            ],
+            "readQS": "Psalm+126%3B+2+Samuel+18:1-18%3B+Acts+10:34-",
+            "audioQS": "Ps.126,2Sam.18,Acts.10"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 127",
+                    "readQS": "Psalm+127",
+                    "audioQS": "Ps.127"
+                },
+                {
+                    "pretty": "Proverbs 25:1\u201314",
+                    "readQS": "Proverbs+25:1-14",
+                    "audioQS": "Prov.25"
+                },
+                {
+                    "pretty": "Mark 8:11\u201321",
+                    "readQS": "Mark+8:11-21",
+                    "audioQS": "Mark.8"
+                }
+            ],
+            "readQS": "Psalm+127%3B+Proverbs+25:1-14%3B+Mark+8:11-21",
+            "audioQS": "Ps.127,Prov.25,Mark.8"
+        }
+    },
+    "2024/08/27": {
+        "datePretty": "Tuesday, August 27, 2024",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 132",
+                    "readQS": "Psalm+132",
+                    "audioQS": "Ps.132"
+                },
+                {
+                    "pretty": "2 Samuel 18:19\u201319:8a",
+                    "readQS": "2+Samuel+18:19-19:8a",
+                    "audioQS": "2Sam.18"
+                },
+                {
+                    "pretty": "Acts 11:1\u201318",
+                    "readQS": "Acts+11:1-18",
+                    "audioQS": "Acts.11"
+                }
+            ],
+            "readQS": "Psalm+132%3B+2+Samuel+18:19-19:8a%3B+Acts+11:1-18",
+            "audioQS": "Ps.132,2Sam.18,Acts.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 135",
+                    "readQS": "Psalm+135",
+                    "audioQS": "Ps.135"
+                },
+                {
+                    "pretty": "Proverbs 25:15\u2013end",
+                    "readQS": "Proverbs+25:15-",
+                    "audioQS": "Prov.25"
+                },
+                {
+                    "pretty": "Mark 8:22\u201326",
+                    "readQS": "Mark+8:22-26",
+                    "audioQS": "Mark.8"
+                }
+            ],
+            "readQS": "Psalm+135%3B+Proverbs+25:15-%3B+Mark+8:22-26",
+            "audioQS": "Ps.135,Prov.25,Mark.8"
+        }
+    },
+    "2024/08/28": {
+        "datePretty": "Wednesday, August 28, 2024",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:153\u2013end",
+                    "readQS": "Psalm+119:153-",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "2 Samuel 19:8b\u201323",
+                    "readQS": "2+Samuel+19:8b-23",
+                    "audioQS": "2Sam.19"
+                },
+                {
+                    "pretty": "Acts 11:19\u2013end",
+                    "readQS": "Acts+11:19-",
+                    "audioQS": "Acts.11"
+                }
+            ],
+            "readQS": "Psalm+119:153-%3B+2+Samuel+19:8b-23%3B+Acts+11:19-",
+            "audioQS": "Ps.119,2Sam.19,Acts.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 136",
+                    "readQS": "Psalm+136",
+                    "audioQS": "Ps.136"
+                },
+                {
+                    "pretty": "Proverbs 26:12\u2013end",
+                    "readQS": "Proverbs+26:12-",
+                    "audioQS": "Prov.26"
+                },
+                {
+                    "pretty": "Mark 8:27\u20139:1",
+                    "readQS": "Mark+8:27-9:1",
+                    "audioQS": "Mark.8"
+                }
+            ],
+            "readQS": "Psalm+136%3B+Proverbs+26:12-%3B+Mark+8:27-9:1",
+            "audioQS": "Ps.136,Prov.26,Mark.8"
+        }
+    },
+    "2024/08/29": {
+        "datePretty": "Thursday, August 29, 2024",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 143",
+                    "readQS": "Psalm+143",
+                    "audioQS": "Ps.143"
+                },
+                {
+                    "pretty": "2 Samuel 19:24\u2013end",
+                    "readQS": "2+Samuel+19:24-",
+                    "audioQS": "2Sam.19"
+                },
+                {
+                    "pretty": "Acts 12:1\u201317",
+                    "readQS": "Acts+12:1-17",
+                    "audioQS": "Acts.12"
+                }
+            ],
+            "readQS": "Psalm+143%3B+2+Samuel+19:24-%3B+Acts+12:1-17",
+            "audioQS": "Ps.143,2Sam.19,Acts.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 138",
+                    "readQS": "Psalm+138",
+                    "audioQS": "Ps.138"
+                },
+                {
+                    "pretty": "Proverbs 27:1\u201322",
+                    "readQS": "Proverbs+27:1-22",
+                    "audioQS": "Prov.27"
+                },
+                {
+                    "pretty": "Mark 9:2\u201313",
+                    "readQS": "Mark+9:2-13",
+                    "audioQS": "Mark.9"
+                }
+            ],
+            "readQS": "Psalm+138%3B+Proverbs+27:1-22%3B+Mark+9:2-13",
+            "audioQS": "Ps.138,Prov.27,Mark.9"
+        }
+    },
+    "2024/08/30": {
+        "datePretty": "Friday, August 30, 2024",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 144",
+                    "readQS": "Psalm+144",
+                    "audioQS": "Ps.144"
+                },
+                {
+                    "pretty": "2 Samuel 23:1\u20137",
+                    "readQS": "2+Samuel+23:1-7",
+                    "audioQS": "2Sam.23"
+                },
+                {
+                    "pretty": "Acts 12:18\u2013end",
+                    "readQS": "Acts+12:18-",
+                    "audioQS": "Acts.12"
+                }
+            ],
+            "readQS": "Psalm+144%3B+2+Samuel+23:1-7%3B+Acts+12:18-",
+            "audioQS": "Ps.144,2Sam.23,Acts.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 145",
+                    "readQS": "Psalm+145",
+                    "audioQS": "Ps.145"
+                },
+                {
+                    "pretty": "Proverbs 30:1\u20139,30:24\u201331",
+                    "readQS": "Proverbs+30:1-9,30:24-31",
+                    "audioQS": "Prov.30"
+                },
+                {
+                    "pretty": "Mark 9:14\u201329",
+                    "readQS": "Mark+9:14-29",
+                    "audioQS": "Mark.9"
+                }
+            ],
+            "readQS": "Psalm+145%3B+Proverbs+30:1-9,30:24-31%3B+Mark+9:14-29",
+            "audioQS": "Ps.145,Prov.30,Mark.9"
+        }
+    },
+    "2024/08/31": {
+        "datePretty": "Saturday, August 31, 2024",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 147",
+                    "readQS": "Psalm+147",
+                    "audioQS": "Ps.147"
+                },
+                {
+                    "pretty": "2 Samuel 24",
+                    "readQS": "2+Samuel+24",
+                    "audioQS": "2Sam.24"
+                },
+                {
+                    "pretty": "Acts 13:1\u201312",
+                    "readQS": "Acts+13:1-12",
+                    "audioQS": "Acts.13"
+                }
+            ],
+            "readQS": "Psalm+147%3B+2+Samuel+24%3B+Acts+13:1-12",
+            "audioQS": "Ps.147,2Sam.24,Acts.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 148",
+                    "readQS": "Psalm+148",
+                    "audioQS": "Ps.148"
+                },
+                {
+                    "pretty": "Proverbs 31:10\u2013end",
+                    "readQS": "Proverbs+31:10-",
+                    "audioQS": "Prov.31"
+                },
+                {
+                    "pretty": "Mark 9:30\u201337",
+                    "readQS": "Mark+9:30-37",
+                    "audioQS": "Mark.9"
+                }
+            ],
+            "readQS": "Psalm+148%3B+Proverbs+31:10-%3B+Mark+9:30-37",
+            "audioQS": "Ps.148,Prov.31,Mark.9"
+        }
+    },
+    "2024/09/01": {
+        "datePretty": "Sunday, September 1, 2024",
+        "calendar": "25th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:17\u201340",
+                    "readQS": "Psalm+119:17-40",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Jonah 3:1\u20139",
+                    "readQS": "Jonah+3:1-9",
+                    "audioQS": "Jonah.3"
+                },
+                {
+                    "pretty": "Revelation 3:14\u201322",
+                    "readQS": "Revelation+3:14-22",
+                    "audioQS": "Rev.3"
+                }
+            ],
+            "readQS": "Psalm+119:17-40%3B+Jonah+3:1-9%3B+Revelation+3:14-22",
+            "audioQS": "Ps.119,Jonah.3,Rev.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:1\u201316",
+                    "readQS": "Psalm+119:1-16",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Exodus 12:21\u201327",
+                    "readQS": "Exodus+12:21-27",
+                    "audioQS": "Exod.12"
+                },
+                {
+                    "pretty": "Matthew 4:23\u20135:20",
+                    "readQS": "Matthew+4:23-5:20",
+                    "audioQS": "Matt.4"
+                }
+            ],
+            "readQS": "Psalm+119:1-16%3B+Exodus+12:21-27%3B+Matthew+4:23-5:20",
+            "audioQS": "Ps.119,Exod.12,Matt.4"
+        }
+    },
+    "2024/09/02": {
+        "datePretty": "Monday, September 2, 2024",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1",
+                    "readQS": "Psalm+1",
+                    "audioQS": "Ps.1"
+                },
+                {
+                    "pretty": "1 Kings 1:5\u201331",
+                    "readQS": "1+Kings+1:5-31",
+                    "audioQS": "1Kgs.1"
+                },
+                {
+                    "pretty": "Acts 13:13\u201343",
+                    "readQS": "Acts+13:13-43",
+                    "audioQS": "Acts.13"
+                }
+            ],
+            "readQS": "Psalm+1%3B+1+Kings+1:5-31%3B+Acts+13:13-43",
+            "audioQS": "Ps.1,1Kgs.1,Acts.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 4",
+                    "readQS": "Psalm+4",
+                    "audioQS": "Ps.4"
+                },
+                {
+                    "pretty": "1 Chronicles 10:1\u201311:9",
+                    "readQS": "1+Chronicles+10:1-11:9",
+                    "audioQS": "1Chr.10"
+                },
+                {
+                    "pretty": "Mark 9:38\u2013end",
+                    "readQS": "Mark+9:38-",
+                    "audioQS": "Mark.9"
+                }
+            ],
+            "readQS": "Psalm+4%3B+1+Chronicles+10:1-11:9%3B+Mark+9:38-",
+            "audioQS": "Ps.4,1Chr.10,Mark.9"
+        }
+    },
+    "2024/09/03": {
+        "datePretty": "Tuesday, September 3, 2024",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 5",
+                    "readQS": "Psalm+5",
+                    "audioQS": "Ps.5"
+                },
+                {
+                    "pretty": "1 Kings 1:32\u20132:4,2:10\u201312",
+                    "readQS": "1+Kings+1:32-2:4,2:10-12",
+                    "audioQS": "1Kgs.1"
+                },
+                {
+                    "pretty": "Acts 13:44\u201314:7",
+                    "readQS": "Acts+13:44-14:7",
+                    "audioQS": "Acts.13"
+                }
+            ],
+            "readQS": "Psalm+5%3B+1+Kings+1:32-2:4,2:10-12%3B+Acts+13:44-14:7",
+            "audioQS": "Ps.5,1Kgs.1,Acts.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 9",
+                    "readQS": "Psalm+9",
+                    "audioQS": "Ps.9"
+                },
+                {
+                    "pretty": "1 Chronicles 13",
+                    "readQS": "1+Chronicles+13",
+                    "audioQS": "1Chr.13"
+                },
+                {
+                    "pretty": "Mark 10:1\u201316",
+                    "readQS": "Mark+10:1-16",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+9%3B+1+Chronicles+13%3B+Mark+10:1-16",
+            "audioQS": "Ps.9,1Chr.13,Mark.10"
+        }
+    },
+    "2024/09/04": {
+        "datePretty": "Wednesday, September 4, 2024",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:1\u201332",
+                    "readQS": "Psalm+119:1-32",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "1 Kings 3",
+                    "readQS": "1+Kings+3",
+                    "audioQS": "1Kgs.3"
+                },
+                {
+                    "pretty": "Acts 14:8\u2013end",
+                    "readQS": "Acts+14:8-",
+                    "audioQS": "Acts.14"
+                }
+            ],
+            "readQS": "Psalm+119:1-32%3B+1+Kings+3%3B+Acts+14:8-",
+            "audioQS": "Ps.119,1Kgs.3,Acts.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 11",
+                    "readQS": "Psalm+11",
+                    "audioQS": "Ps.11"
+                },
+                {
+                    "pretty": "1 Chronicles 15:1\u201316:3",
+                    "readQS": "1+Chronicles+15:1-16:3",
+                    "audioQS": "1Chr.15"
+                },
+                {
+                    "pretty": "Mark 10:17\u201331",
+                    "readQS": "Mark+10:17-31",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+11%3B+1+Chronicles+15:1-16:3%3B+Mark+10:17-31",
+            "audioQS": "Ps.11,1Chr.15,Mark.10"
+        }
+    },
+    "2024/09/05": {
+        "datePretty": "Thursday, September 5, 2024",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 15",
+                    "readQS": "Psalm+15",
+                    "audioQS": "Ps.15"
+                },
+                {
+                    "pretty": "1 Kings 4:29\u20135:12",
+                    "readQS": "1+Kings+4:29-5:12",
+                    "audioQS": "1Kgs.4"
+                },
+                {
+                    "pretty": "Acts 15:1\u201321",
+                    "readQS": "Acts+15:1-21",
+                    "audioQS": "Acts.15"
+                }
+            ],
+            "readQS": "Psalm+15%3B+1+Kings+4:29-5:12%3B+Acts+15:1-21",
+            "audioQS": "Ps.15,1Kgs.4,Acts.15"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 18",
+                    "readQS": "Psalm+18",
+                    "audioQS": "Ps.18"
+                },
+                {
+                    "pretty": "1 Chronicles 17",
+                    "readQS": "1+Chronicles+17",
+                    "audioQS": "1Chr.17"
+                },
+                {
+                    "pretty": "Mark 10:32\u201334",
+                    "readQS": "Mark+10:32-34",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+18%3B+1+Chronicles+17%3B+Mark+10:32-34",
+            "audioQS": "Ps.18,1Chr.17,Mark.10"
+        }
+    },
+    "2024/09/06": {
+        "datePretty": "Friday, September 6, 2024",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 19",
+                    "readQS": "Psalm+19",
+                    "audioQS": "Ps.19"
+                },
+                {
+                    "pretty": "1 Kings 6:1,6:11\u201328",
+                    "readQS": "1+Kings+6:1,6:11-28",
+                    "audioQS": "1Kgs.6"
+                },
+                {
+                    "pretty": "Acts 15:22\u201335",
+                    "readQS": "Acts+15:22-35",
+                    "audioQS": "Acts.15"
+                }
+            ],
+            "readQS": "Psalm+19%3B+1+Kings+6:1,6:11-28%3B+Acts+15:22-35",
+            "audioQS": "Ps.19,1Kgs.6,Acts.15"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 22",
+                    "readQS": "Psalm+22",
+                    "audioQS": "Ps.22"
+                },
+                {
+                    "pretty": "1 Chronicles 21:1\u201322:1",
+                    "readQS": "1+Chronicles+21:1-22:1",
+                    "audioQS": "1Chr.21"
+                },
+                {
+                    "pretty": "Mark 10:35\u201345",
+                    "readQS": "Mark+10:35-45",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+22%3B+1+Chronicles+21:1-22:1%3B+Mark+10:35-45",
+            "audioQS": "Ps.22,1Chr.21,Mark.10"
+        }
+    },
+    "2024/09/07": {
+        "datePretty": "Saturday, September 7, 2024",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
+                },
+                {
+                    "pretty": "1 Kings 8:1\u201330",
+                    "readQS": "1+Kings+8:1-30",
+                    "audioQS": "1Kgs.8"
+                },
+                {
+                    "pretty": "Acts 15:36\u201316:5",
+                    "readQS": "Acts+15:36-16:5",
+                    "audioQS": "Acts.15"
+                }
+            ],
+            "readQS": "Psalm+23%3B+1+Kings+8:1-30%3B+Acts+15:36-16:5",
+            "audioQS": "Ps.23,1Kgs.8,Acts.15"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 24",
+                    "readQS": "Psalm+24",
+                    "audioQS": "Ps.24"
+                },
+                {
+                    "pretty": "1 Chronicles 22:2\u2013end",
+                    "readQS": "1+Chronicles+22:2-",
+                    "audioQS": "1Chr.22"
+                },
+                {
+                    "pretty": "Mark 10:46\u2013end",
+                    "readQS": "Mark+10:46-",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+24%3B+1+Chronicles+22:2-%3B+Mark+10:46-",
+            "audioQS": "Ps.24,1Chr.22,Mark.10"
+        }
+    },
+    "2024/09/08": {
+        "datePretty": "Sunday, September 8, 2024",
+        "calendar": "26th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:57\u201372",
+                    "readQS": "Psalm+119:57-72",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Jonah 3:10\u20134:11",
+                    "readQS": "Jonah+3:10-4:11",
+                    "audioQS": "Jonah.3"
+                },
+                {
+                    "pretty": "Revelation 8:1\u20135",
+                    "readQS": "Revelation+8:1-5",
+                    "audioQS": "Rev.8"
+                }
+            ],
+            "readQS": "Psalm+119:57-72%3B+Jonah+3:10-4:11%3B+Revelation+8:1-5",
+            "audioQS": "Ps.119,Jonah.3,Rev.8"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:41\u201356",
+                    "readQS": "Psalm+119:41-56",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Exodus 14:5\u201331",
+                    "readQS": "Exodus+14:5-31",
+                    "audioQS": "Exod.14"
+                },
+                {
+                    "pretty": "Matthew 6:1\u201318",
+                    "readQS": "Matthew+6:1-18",
+                    "audioQS": "Matt.6"
+                }
+            ],
+            "readQS": "Psalm+119:41-56%3B+Exodus+14:5-31%3B+Matthew+6:1-18",
+            "audioQS": "Ps.119,Exod.14,Matt.6"
+        }
+    },
+    "2024/09/09": {
+        "datePretty": "Monday, September 9, 2024",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 30",
+                    "readQS": "Psalm+30",
+                    "audioQS": "Ps.30"
+                },
+                {
+                    "pretty": "1 Kings 8:31\u201362",
+                    "readQS": "1+Kings+8:31-62",
+                    "audioQS": "1Kgs.8"
+                },
+                {
+                    "pretty": "Acts 16:6\u201324",
+                    "readQS": "Acts+16:6-24",
+                    "audioQS": "Acts.16"
+                }
+            ],
+            "readQS": "Psalm+30%3B+1+Kings+8:31-62%3B+Acts+16:6-24",
+            "audioQS": "Ps.30,1Kgs.8,Acts.16"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 28",
+                    "readQS": "Psalm+28",
+                    "audioQS": "Ps.28"
+                },
+                {
+                    "pretty": "1 Chronicles 28:1\u201310",
+                    "readQS": "1+Chronicles+28:1-10",
+                    "audioQS": "1Chr.28"
+                },
+                {
+                    "pretty": "Mark 11:1\u201311",
+                    "readQS": "Mark+11:1-11",
+                    "audioQS": "Mark.11"
+                }
+            ],
+            "readQS": "Psalm+28%3B+1+Chronicles+28:1-10%3B+Mark+11:1-11",
+            "audioQS": "Ps.28,1Chr.28,Mark.11"
+        }
+    },
+    "2024/09/10": {
+        "datePretty": "Tuesday, September 10, 2024",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36",
+                    "readQS": "Psalm+36",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "1 Kings 8:63\u20139:9",
+                    "readQS": "1+Kings+8:63-9:9",
+                    "audioQS": "1Kgs.8"
+                },
+                {
+                    "pretty": "Acts 16:25\u2013end",
+                    "readQS": "Acts+16:25-",
+                    "audioQS": "Acts.16"
+                }
+            ],
+            "readQS": "Psalm+36%3B+1+Kings+8:63-9:9%3B+Acts+16:25-",
+            "audioQS": "Ps.36,1Kgs.8,Acts.16"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "1 Chronicles 28:11\u2013end",
+                    "readQS": "1+Chronicles+28:11-",
+                    "audioQS": "1Chr.28"
+                },
+                {
+                    "pretty": "Mark 11:12\u201326",
+                    "readQS": "Mark+11:12-26",
+                    "audioQS": "Mark.11"
+                }
+            ],
+            "readQS": "Psalm+33%3B+1+Chronicles+28:11-%3B+Mark+11:12-26",
+            "audioQS": "Ps.33,1Chr.28,Mark.11"
+        }
+    },
+    "2024/09/11": {
+        "datePretty": "Wednesday, September 11, 2024",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "1 Kings 10:1\u201325",
+                    "readQS": "1+Kings+10:1-25",
+                    "audioQS": "1Kgs.10"
+                },
+                {
+                    "pretty": "Acts 17:1\u201315",
+                    "readQS": "Acts+17:1-15",
+                    "audioQS": "Acts.17"
+                }
+            ],
+            "readQS": "Psalm+34%3B+1+Kings+10:1-25%3B+Acts+17:1-15",
+            "audioQS": "Ps.34,1Kgs.10,Acts.17"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:33\u201356",
+                    "readQS": "Psalm+119:33-56",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "1 Chronicles 29:1\u20139",
+                    "readQS": "1+Chronicles+29:1-9",
+                    "audioQS": "1Chr.29"
+                },
+                {
+                    "pretty": "Mark 11:27\u2013end",
+                    "readQS": "Mark+11:27-",
+                    "audioQS": "Mark.11"
+                }
+            ],
+            "readQS": "Psalm+119:33-56%3B+1+Chronicles+29:1-9%3B+Mark+11:27-",
+            "audioQS": "Ps.119,1Chr.29,Mark.11"
+        }
+    },
+    "2024/09/12": {
+        "datePretty": "Thursday, September 12, 2024",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 37",
+                    "readQS": "Psalm+37",
+                    "audioQS": "Ps.37"
+                },
+                {
+                    "pretty": "1 Kings 11:1\u201313",
+                    "readQS": "1+Kings+11:1-13",
+                    "audioQS": "1Kgs.11"
+                },
+                {
+                    "pretty": "Acts 17:16\u2013end",
+                    "readQS": "Acts+17:16-",
+                    "audioQS": "Acts.17"
+                }
+            ],
+            "readQS": "Psalm+37%3B+1+Kings+11:1-13%3B+Acts+17:16-",
+            "audioQS": "Ps.37,1Kgs.11,Acts.17"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 40",
+                    "readQS": "Psalm+40",
+                    "audioQS": "Ps.40"
+                },
+                {
+                    "pretty": "1 Chronicles 29:10\u201320",
+                    "readQS": "1+Chronicles+29:10-20",
+                    "audioQS": "1Chr.29"
+                },
+                {
+                    "pretty": "Mark 12:1\u201312",
+                    "readQS": "Mark+12:1-12",
+                    "audioQS": "Mark.12"
+                }
+            ],
+            "readQS": "Psalm+40%3B+1+Chronicles+29:10-20%3B+Mark+12:1-12",
+            "audioQS": "Ps.40,1Chr.29,Mark.12"
+        }
+    },
+    "2024/09/13": {
+        "datePretty": "Friday, September 13, 2024",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 31",
+                    "readQS": "Psalm+31",
+                    "audioQS": "Ps.31"
+                },
+                {
+                    "pretty": "1 Kings 11:26\u2013end",
+                    "readQS": "1+Kings+11:26-",
+                    "audioQS": "1Kgs.11"
+                },
+                {
+                    "pretty": "Acts 18:1\u201321",
+                    "readQS": "Acts+18:1-21",
+                    "audioQS": "Acts.18"
+                }
+            ],
+            "readQS": "Psalm+31%3B+1+Kings+11:26-%3B+Acts+18:1-21",
+            "audioQS": "Ps.31,1Kgs.11,Acts.18"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 66",
+                    "readQS": "Psalm+66",
+                    "audioQS": "Ps.66"
+                },
+                {
+                    "pretty": "Isaiah 52:13\u201353:12",
+                    "readQS": "Isaiah+52:13-53:12",
+                    "audioQS": "Isa.52"
+                },
+                {
+                    "pretty": "Ephesians 2:11\u201322",
+                    "readQS": "Ephesians+2:11-22",
+                    "audioQS": "Eph.2"
+                }
+            ],
+            "readQS": "Psalm+66%3B+Isaiah+52:13-53:12%3B+Ephesians+2:11-22",
+            "audioQS": "Ps.66,Isa.52,Eph.2"
+        }
+    },
+    "2024/09/14": {
+        "datePretty": "Saturday, September 14, 2024",
+        "calendar": "Holy Cross Day",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 2,8,146",
+                    "readQS": "Psalm+2,8,146",
+                    "audioQS": "Ps.2,8,146"
+                },
+                {
+                    "pretty": "Genesis 3:1\u201315",
+                    "readQS": "Genesis+3:1-15",
+                    "audioQS": "Gen.3"
+                },
+                {
+                    "pretty": "John 12:27\u201336a",
+                    "readQS": "John+12:27-36a",
+                    "audioQS": "John.12"
+                }
+            ],
+            "readQS": "Psalm+2,8,146%3B+Genesis+3:1-15%3B+John+12:27-36a",
+            "audioQS": "Ps.2,8,146,Gen.3,John.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 110,150",
+                    "readQS": "Psalm+110,150",
+                    "audioQS": "Ps.110,150"
+                },
+                {
+                    "pretty": "Isaiah 63:1\u201316",
+                    "readQS": "Isaiah+63:1-16",
+                    "audioQS": "Isa.63"
+                },
+                {
+                    "pretty": "1 Corinthians 1:18\u201325",
+                    "readQS": "1+Corinthians+1:18-25",
+                    "audioQS": "1Cor.1"
+                }
+            ],
+            "readQS": "Psalm+110,150%3B+Isaiah+63:1-16%3B+1+Corinthians+1:18-25",
+            "audioQS": "Ps.110,150,Isa.63,1Cor.1"
+        }
+    },
+    "2024/09/15": {
+        "datePretty": "Sunday, September 15, 2024",
+        "calendar": "27th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:105\u2013120",
+                    "readQS": "Psalm+119:105-120",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Isaiah 44:24\u201345:8",
+                    "readQS": "Isaiah+44:24-45:8",
+                    "audioQS": "Isa.44"
+                },
+                {
+                    "pretty": "Revelation 12:1\u201312",
+                    "readQS": "Revelation+12:1-12",
+                    "audioQS": "Rev.12"
+                }
+            ],
+            "readQS": "Psalm+119:105-120%3B+Isaiah+44:24-45:8%3B+Revelation+12:1-12",
+            "audioQS": "Ps.119,Isa.44,Rev.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:73\u201388",
+                    "readQS": "Psalm+119:73-88",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Exodus 18:13\u201326",
+                    "readQS": "Exodus+18:13-26",
+                    "audioQS": "Exod.18"
+                },
+                {
+                    "pretty": "Matthew 7:1\u201314",
+                    "readQS": "Matthew+7:1-14",
+                    "audioQS": "Matt.7"
+                }
+            ],
+            "readQS": "Psalm+119:73-88%3B+Exodus+18:13-26%3B+Matthew+7:1-14",
+            "audioQS": "Ps.119,Exod.18,Matt.7"
+        }
+    },
+    "2024/09/16": {
+        "datePretty": "Monday, September 16, 2024",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 44",
+                    "readQS": "Psalm+44",
+                    "audioQS": "Ps.44"
+                },
+                {
+                    "pretty": "1 Kings 12:25\u201313:10",
+                    "readQS": "1+Kings+12:25-13:10",
+                    "audioQS": "1Kgs.12"
+                },
+                {
+                    "pretty": "Acts 19:8\u201320",
+                    "readQS": "Acts+19:8-20",
+                    "audioQS": "Acts.19"
+                }
+            ],
+            "readQS": "Psalm+44%3B+1+Kings+12:25-13:10%3B+Acts+19:8-20",
+            "audioQS": "Ps.44,1Kgs.12,Acts.19"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 47",
+                    "readQS": "Psalm+47",
+                    "audioQS": "Ps.47"
+                },
+                {
+                    "pretty": "2 Chronicles 2:1\u201316",
+                    "readQS": "2+Chronicles+2:1-16",
+                    "audioQS": "2Chr.2"
+                },
+                {
+                    "pretty": "Mark 12:28\u201334",
+                    "readQS": "Mark+12:28-34",
+                    "audioQS": "Mark.12"
+                }
+            ],
+            "readQS": "Psalm+47%3B+2+Chronicles+2:1-16%3B+Mark+12:28-34",
+            "audioQS": "Ps.47,2Chr.2,Mark.12"
+        }
+    },
+    "2024/09/17": {
+        "datePretty": "Tuesday, September 17, 2024",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 48",
+                    "readQS": "Psalm+48",
+                    "audioQS": "Ps.48"
+                },
+                {
+                    "pretty": "1 Kings 13:11\u2013end",
+                    "readQS": "1+Kings+13:11-",
+                    "audioQS": "1Kgs.13"
+                },
+                {
+                    "pretty": "Acts 19:21\u2013end",
+                    "readQS": "Acts+19:21-",
+                    "audioQS": "Acts.19"
+                }
+            ],
+            "readQS": "Psalm+48%3B+1+Kings+13:11-%3B+Acts+19:21-",
+            "audioQS": "Ps.48,1Kgs.13,Acts.19"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 50",
+                    "readQS": "Psalm+50",
+                    "audioQS": "Ps.50"
+                },
+                {
+                    "pretty": "2 Chronicles 3",
+                    "readQS": "2+Chronicles+3",
+                    "audioQS": "2Chr.3"
+                },
+                {
+                    "pretty": "Mark 12:35\u2013end",
+                    "readQS": "Mark+12:35-",
+                    "audioQS": "Mark.12"
+                }
+            ],
+            "readQS": "Psalm+50%3B+2+Chronicles+3%3B+Mark+12:35-",
+            "audioQS": "Ps.50,2Chr.3,Mark.12"
+        }
+    },
+    "2024/09/18": {
+        "datePretty": "Wednesday, September 18, 2024",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:57\u201380",
+                    "readQS": "Psalm+119:57-80",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "1 Kings 17",
+                    "readQS": "1+Kings+17",
+                    "audioQS": "1Kgs.17"
+                },
+                {
+                    "pretty": "Acts 20:1\u201316",
+                    "readQS": "Acts+20:1-16",
+                    "audioQS": "Acts.20"
+                }
+            ],
+            "readQS": "Psalm+119:57-80%3B+1+Kings+17%3B+Acts+20:1-16",
+            "audioQS": "Ps.119,1Kgs.17,Acts.20"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 59",
+                    "readQS": "Psalm+59",
+                    "audioQS": "Ps.59"
+                },
+                {
+                    "pretty": "2 Chronicles 5",
+                    "readQS": "2+Chronicles+5",
+                    "audioQS": "2Chr.5"
+                },
+                {
+                    "pretty": "Mark 13:1\u201313",
+                    "readQS": "Mark+13:1-13",
+                    "audioQS": "Mark.13"
+                }
+            ],
+            "readQS": "Psalm+59%3B+2+Chronicles+5%3B+Mark+13:1-13",
+            "audioQS": "Ps.59,2Chr.5,Mark.13"
+        }
+    },
+    "2024/09/19": {
+        "datePretty": "Thursday, September 19, 2024",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 57",
+                    "readQS": "Psalm+57",
+                    "audioQS": "Ps.57"
+                },
+                {
+                    "pretty": "1 Kings 18:1\u201320",
+                    "readQS": "1+Kings+18:1-20",
+                    "audioQS": "1Kgs.18"
+                },
+                {
+                    "pretty": "Acts 20:17\u2013end",
+                    "readQS": "Acts+20:17-",
+                    "audioQS": "Acts.20"
+                }
+            ],
+            "readQS": "Psalm+57%3B+1+Kings+18:1-20%3B+Acts+20:17-",
+            "audioQS": "Ps.57,1Kgs.18,Acts.20"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 62",
+                    "readQS": "Psalm+62",
+                    "audioQS": "Ps.62"
+                },
+                {
+                    "pretty": "2 Chronicles 6:1\u201321",
+                    "readQS": "2+Chronicles+6:1-21",
+                    "audioQS": "2Chr.6"
+                },
+                {
+                    "pretty": "Mark 13:14\u201323",
+                    "readQS": "Mark+13:14-23",
+                    "audioQS": "Mark.13"
+                }
+            ],
+            "readQS": "Psalm+62%3B+2+Chronicles+6:1-21%3B+Mark+13:14-23",
+            "audioQS": "Ps.62,2Chr.6,Mark.13"
+        }
+    },
+    "2024/09/20": {
+        "datePretty": "Friday, September 20, 2024",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 51",
+                    "readQS": "Psalm+51",
+                    "audioQS": "Ps.51"
+                },
+                {
+                    "pretty": "1 Kings 18:21\u2013end",
+                    "readQS": "1+Kings+18:21-",
+                    "audioQS": "1Kgs.18"
+                },
+                {
+                    "pretty": "Acts 21:1\u201316",
+                    "readQS": "Acts+21:1-16",
+                    "audioQS": "Acts.21"
+                }
+            ],
+            "readQS": "Psalm+51%3B+1+Kings+18:21-%3B+Acts+21:1-16",
+            "audioQS": "Ps.51,1Kgs.18,Acts.21"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "Isaiah 33:13\u201317",
+                    "readQS": "Isaiah+33:13-17",
+                    "audioQS": "Isa.33"
+                },
+                {
+                    "pretty": "Matthew 6:19\u201334",
+                    "readQS": "Matthew+6:19-34",
+                    "audioQS": "Matt.6"
+                }
+            ],
+            "readQS": "Psalm+34%3B+Isaiah+33:13-17%3B+Matthew+6:19-34",
+            "audioQS": "Ps.34,Isa.33,Matt.6"
+        }
+    },
+    "2024/09/21": {
+        "datePretty": "Saturday, September 21, 2024",
+        "calendar": "St Matthew, Apostle and Evangelist",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 49,117",
+                    "readQS": "Psalm+49,117",
+                    "audioQS": "Ps.49,117"
+                },
+                {
+                    "pretty": "1 Kings 19:15\u201321",
+                    "readQS": "1+Kings+19:15-21",
+                    "audioQS": "1Kgs.19"
+                },
+                {
+                    "pretty": "2 Timothy 3:14\u201317",
+                    "readQS": "2+Timothy+3:14-17",
+                    "audioQS": "2Tim.3"
+                }
+            ],
+            "readQS": "Psalm+49,117%3B+1+Kings+19:15-21%3B+2+Timothy+3:14-17",
+            "audioQS": "Ps.49,117,1Kgs.19,2Tim.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:33\u201340,119:89\u201396",
+                    "readQS": "Psalm+119:33-40,119:89-96",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Ecclesiastes 5:4\u201312",
+                    "readQS": "Ecclesiastes+5:4-12",
+                    "audioQS": "Eccl.5"
+                },
+                {
+                    "pretty": "Matthew 19:16\u201330",
+                    "readQS": "Matthew+19:16-30",
+                    "audioQS": "Matt.19"
+                }
+            ],
+            "readQS": "Psalm+119:33-40,119:89-96%3B+Ecclesiastes+5:4-12%3B+Matthew+19:16-30",
+            "audioQS": "Ps.119,Eccl.5,Matt.19"
+        }
+    },
+    "2024/09/22": {
+        "datePretty": "Sunday, September 22, 2024",
+        "calendar": "28th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:153\u2013176",
+                    "readQS": "Psalm+119:153-176",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Isaiah 45:9\u201322",
+                    "readQS": "Isaiah+45:9-22",
+                    "audioQS": "Isa.45"
+                },
+                {
+                    "pretty": "Revelation 14:1\u20135",
+                    "readQS": "Revelation+14:1-5",
+                    "audioQS": "Rev.14"
+                }
+            ],
+            "readQS": "Psalm+119:153-176%3B+Isaiah+45:9-22%3B+Revelation+14:1-5",
+            "audioQS": "Ps.119,Isa.45,Rev.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:137\u2013152",
+                    "readQS": "Psalm+119:137-152",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Exodus 19:10\u201325",
+                    "readQS": "Exodus+19:10-25",
+                    "audioQS": "Exod.19"
+                },
+                {
+                    "pretty": "Matthew 8:23\u201334",
+                    "readQS": "Matthew+8:23-34",
+                    "audioQS": "Matt.8"
+                }
+            ],
+            "readQS": "Psalm+119:137-152%3B+Exodus+19:10-25%3B+Matthew+8:23-34",
+            "audioQS": "Ps.119,Exod.19,Matt.8"
+        }
+    },
+    "2024/09/23": {
+        "datePretty": "Monday, September 23, 2024",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 71",
+                    "readQS": "Psalm+71",
+                    "audioQS": "Ps.71"
+                },
+                {
+                    "pretty": "1 Kings 21",
+                    "readQS": "1+Kings+21",
+                    "audioQS": "1Kgs.21"
+                },
+                {
+                    "pretty": "Acts 21:37\u201322:21",
+                    "readQS": "Acts+21:37-22:21",
+                    "audioQS": "Acts.21"
+                }
+            ],
+            "readQS": "Psalm+71%3B+1+Kings+21%3B+Acts+21:37-22:21",
+            "audioQS": "Ps.71,1Kgs.21,Acts.21"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 72",
+                    "readQS": "Psalm+72",
+                    "audioQS": "Ps.72"
+                },
+                {
+                    "pretty": "2 Chronicles 9:1\u201312",
+                    "readQS": "2+Chronicles+9:1-12",
+                    "audioQS": "2Chr.9"
+                },
+                {
+                    "pretty": "Mark 14:1\u201311",
+                    "readQS": "Mark+14:1-11",
+                    "audioQS": "Mark.14"
+                }
+            ],
+            "readQS": "Psalm+72%3B+2+Chronicles+9:1-12%3B+Mark+14:1-11",
+            "audioQS": "Ps.72,2Chr.9,Mark.14"
+        }
+    },
+    "2024/09/24": {
+        "datePretty": "Tuesday, September 24, 2024",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 73",
+                    "readQS": "Psalm+73",
+                    "audioQS": "Ps.73"
+                },
+                {
+                    "pretty": "1 Kings 22:1\u201328",
+                    "readQS": "1+Kings+22:1-28",
+                    "audioQS": "1Kgs.22"
+                },
+                {
+                    "pretty": "Acts 22:22\u201323:11",
+                    "readQS": "Acts+22:22-23:11",
+                    "audioQS": "Acts.22"
+                }
+            ],
+            "readQS": "Psalm+73%3B+1+Kings+22:1-28%3B+Acts+22:22-23:11",
+            "audioQS": "Ps.73,1Kgs.22,Acts.22"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 74",
+                    "readQS": "Psalm+74",
+                    "audioQS": "Ps.74"
+                },
+                {
+                    "pretty": "2 Chronicles 10:1\u201311:4",
+                    "readQS": "2+Chronicles+10:1-11:4",
+                    "audioQS": "2Chr.10"
+                },
+                {
+                    "pretty": "Mark 14:12\u201325",
+                    "readQS": "Mark+14:12-25",
+                    "audioQS": "Mark.14"
+                }
+            ],
+            "readQS": "Psalm+74%3B+2+Chronicles+10:1-11:4%3B+Mark+14:12-25",
+            "audioQS": "Ps.74,2Chr.10,Mark.14"
+        }
+    },
+    "2024/09/25": {
+        "datePretty": "Wednesday, September 25, 2024",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 77",
+                    "readQS": "Psalm+77",
+                    "audioQS": "Ps.77"
+                },
+                {
+                    "pretty": "1 Kings 22:29\u201345",
+                    "readQS": "1+Kings+22:29-45",
+                    "audioQS": "1Kgs.22"
+                },
+                {
+                    "pretty": "Acts 23:12\u2013end",
+                    "readQS": "Acts+23:12-",
+                    "audioQS": "Acts.23"
+                }
+            ],
+            "readQS": "Psalm+77%3B+1+Kings+22:29-45%3B+Acts+23:12-",
+            "audioQS": "Ps.77,1Kgs.22,Acts.23"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:81\u2013104",
+                    "readQS": "Psalm+119:81-104",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "2 Chronicles 12",
+                    "readQS": "2+Chronicles+12",
+                    "audioQS": "2Chr.12"
+                },
+                {
+                    "pretty": "Mark 14:26\u201342",
+                    "readQS": "Mark+14:26-42",
+                    "audioQS": "Mark.14"
+                }
+            ],
+            "readQS": "Psalm+119:81-104%3B+2+Chronicles+12%3B+Mark+14:26-42",
+            "audioQS": "Ps.119,2Chr.12,Mark.14"
+        }
+    },
+    "2024/09/26": {
+        "datePretty": "Thursday, September 26, 2024",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78:1\u201339",
+                    "readQS": "Psalm+78:1-39",
+                    "audioQS": "Ps.78"
+                },
+                {
+                    "pretty": "2 Kings 1:2\u201317",
+                    "readQS": "2+Kings+1:2-17",
+                    "audioQS": "2Kgs.1"
+                },
+                {
+                    "pretty": "Acts 24:1\u201323",
+                    "readQS": "Acts+24:1-23",
+                    "audioQS": "Acts.24"
+                }
+            ],
+            "readQS": "Psalm+78:1-39%3B+2+Kings+1:2-17%3B+Acts+24:1-23",
+            "audioQS": "Ps.78,2Kgs.1,Acts.24"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78:40\u2013end",
+                    "readQS": "Psalm+78:40-",
+                    "audioQS": "Ps.78"
+                },
+                {
+                    "pretty": "2 Chronicles 13:1\u201314:1",
+                    "readQS": "2+Chronicles+13:1-14:1",
+                    "audioQS": "2Chr.13"
+                },
+                {
+                    "pretty": "Mark 14:43\u201352",
+                    "readQS": "Mark+14:43-52",
+                    "audioQS": "Mark.14"
+                }
+            ],
+            "readQS": "Psalm+78:40-%3B+2+Chronicles+13:1-14:1%3B+Mark+14:43-52",
+            "audioQS": "Ps.78,2Chr.13,Mark.14"
+        }
+    },
+    "2024/09/27": {
+        "datePretty": "Friday, September 27, 2024",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 55",
+                    "readQS": "Psalm+55",
+                    "audioQS": "Ps.55"
+                },
+                {
+                    "pretty": "2 Kings 2:1\u201318",
+                    "readQS": "2+Kings+2:1-18",
+                    "audioQS": "2Kgs.2"
+                },
+                {
+                    "pretty": "Acts 24:24\u201325:12",
+                    "readQS": "Acts+24:24-25:12",
+                    "audioQS": "Acts.24"
+                }
+            ],
+            "readQS": "Psalm+55%3B+2+Kings+2:1-18%3B+Acts+24:24-25:12",
+            "audioQS": "Ps.55,2Kgs.2,Acts.24"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 69",
+                    "readQS": "Psalm+69",
+                    "audioQS": "Ps.69"
+                },
+                {
+                    "pretty": "2 Chronicles 14:2\u2013end",
+                    "readQS": "2+Chronicles+14:2-",
+                    "audioQS": "2Chr.14"
+                },
+                {
+                    "pretty": "Mark 14:53\u201365",
+                    "readQS": "Mark+14:53-65",
+                    "audioQS": "Mark.14"
+                }
+            ],
+            "readQS": "Psalm+69%3B+2+Chronicles+14:2-%3B+Mark+14:53-65",
+            "audioQS": "Ps.69,2Chr.14,Mark.14"
+        }
+    },
+    "2024/09/28": {
+        "datePretty": "Saturday, September 28, 2024",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 76",
+                    "readQS": "Psalm+76",
+                    "audioQS": "Ps.76"
+                },
+                {
+                    "pretty": "2 Kings 4:1\u201337",
+                    "readQS": "2+Kings+4:1-37",
+                    "audioQS": "2Kgs.4"
+                },
+                {
+                    "pretty": "Acts 25:13\u2013end",
+                    "readQS": "Acts+25:13-",
+                    "audioQS": "Acts.25"
+                }
+            ],
+            "readQS": "Psalm+76%3B+2+Kings+4:1-37%3B+Acts+25:13-",
+            "audioQS": "Ps.76,2Kgs.4,Acts.25"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 91",
+                    "readQS": "Psalm+91",
+                    "audioQS": "Ps.91"
+                },
+                {
+                    "pretty": "2 Kings 6:8\u201317",
+                    "readQS": "2+Kings+6:8-17",
+                    "audioQS": "2Kgs.6"
+                },
+                {
+                    "pretty": "Matthew 18:1\u20136,10",
+                    "readQS": "Matthew+18:1-6,10",
+                    "audioQS": "Matt.18"
+                }
+            ],
+            "readQS": "Psalm+91%3B+2+Kings+6:8-17%3B+Matthew+18:1-6,10",
+            "audioQS": "Ps.91,2Kgs.6,Matt.18"
+        }
+    },
+    "2024/09/29": {
+        "datePretty": "Sunday, September 29, 2024",
+        "calendar": "St Michael and All Angels / Michaelmas",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34,150",
+                    "readQS": "Psalm+34,150",
+                    "audioQS": "Ps.34,150"
+                },
+                {
+                    "pretty": "Daniel 12:1\u20134",
+                    "readQS": "Daniel+12:1-4",
+                    "audioQS": "Dan.12"
+                },
+                {
+                    "pretty": "Acts 12:1\u201311",
+                    "readQS": "Acts+12:1-11",
+                    "audioQS": "Acts.12"
+                }
+            ],
+            "readQS": "Psalm+34,150%3B+Daniel+12:1-4%3B+Acts+12:1-11",
+            "audioQS": "Ps.34,150,Dan.12,Acts.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 138,148",
+                    "readQS": "Psalm+138,148",
+                    "audioQS": "Ps.138,148"
+                },
+                {
+                    "pretty": "Daniel 10:4\u201321",
+                    "readQS": "Daniel+10:4-21",
+                    "audioQS": "Dan.10"
+                },
+                {
+                    "pretty": "Revelations 5",
+                    "readQS": "Revelations+5",
+                    "audioQS": "Revs.5"
+                }
+            ],
+            "readQS": "Psalm+138,148%3B+Daniel+10:4-21%3B+Revelations+5",
+            "audioQS": "Ps.138,148,Dan.10,Revs.5"
+        }
+    },
+    "2024/09/30": {
+        "datePretty": "Monday, September 30, 2024",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 80",
+                    "readQS": "Psalm+80",
+                    "audioQS": "Ps.80"
+                },
+                {
+                    "pretty": "2 Kings 5",
+                    "readQS": "2+Kings+5",
+                    "audioQS": "2Kgs.5"
+                },
+                {
+                    "pretty": "Acts 26:1\u201323",
+                    "readQS": "Acts+26:1-23",
+                    "audioQS": "Acts.26"
+                }
+            ],
+            "readQS": "Psalm+80%3B+2+Kings+5%3B+Acts+26:1-23",
+            "audioQS": "Ps.80,2Kgs.5,Acts.26"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 85",
+                    "readQS": "Psalm+85",
+                    "audioQS": "Ps.85"
+                },
+                {
+                    "pretty": "2 Chronicles 17:1\u201312",
+                    "readQS": "2+Chronicles+17:1-12",
+                    "audioQS": "2Chr.17"
+                },
+                {
+                    "pretty": "Mark 15:1\u201315",
+                    "readQS": "Mark+15:1-15",
+                    "audioQS": "Mark.15"
+                }
+            ],
+            "readQS": "Psalm+85%3B+2+Chronicles+17:1-12%3B+Mark+15:1-15",
+            "audioQS": "Ps.85,2Chr.17,Mark.15"
+        }
+    },
+    "2024/10/01": {
+        "datePretty": "Tuesday, October 1, 2024",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 89:1\u201318",
+                    "readQS": "Psalm+89:1-18",
+                    "audioQS": "Ps.89"
+                },
+                {
+                    "pretty": "2 Kings 6:1\u201323",
+                    "readQS": "2+Kings+6:1-23",
+                    "audioQS": "2Kgs.6"
+                },
+                {
+                    "pretty": "Acts 26:24\u2013end",
+                    "readQS": "Acts+26:24-",
+                    "audioQS": "Acts.26"
+                }
+            ],
+            "readQS": "Psalm+89:1-18%3B+2+Kings+6:1-23%3B+Acts+26:24-",
+            "audioQS": "Ps.89,2Kgs.6,Acts.26"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 89:19\u2013end",
+                    "readQS": "Psalm+89:19-",
+                    "audioQS": "Ps.89"
+                },
+                {
+                    "pretty": "2 Chronicles 18:1\u201327",
+                    "readQS": "2+Chronicles+18:1-27",
+                    "audioQS": "2Chr.18"
+                },
+                {
+                    "pretty": "Mark 15:16\u201332",
+                    "readQS": "Mark+15:16-32",
+                    "audioQS": "Mark.15"
+                }
+            ],
+            "readQS": "Psalm+89:19-%3B+2+Chronicles+18:1-27%3B+Mark+15:16-32",
+            "audioQS": "Ps.89,2Chr.18,Mark.15"
+        }
+    },
+    "2024/10/02": {
+        "datePretty": "Wednesday, October 2, 2024",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:105\u2013128",
+                    "readQS": "Psalm+119:105-128",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "2 Kings 9:1\u201316",
+                    "readQS": "2+Kings+9:1-16",
+                    "audioQS": "2Kgs.9"
+                },
+                {
+                    "pretty": "Acts 27:1\u201326",
+                    "readQS": "Acts+27:1-26",
+                    "audioQS": "Acts.27"
+                }
+            ],
+            "readQS": "Psalm+119:105-128%3B+2+Kings+9:1-16%3B+Acts+27:1-26",
+            "audioQS": "Ps.119,2Kgs.9,Acts.27"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 91",
+                    "readQS": "Psalm+91",
+                    "audioQS": "Ps.91"
+                },
+                {
+                    "pretty": "2 Chronicles 18:28\u2013end",
+                    "readQS": "2+Chronicles+18:28-",
+                    "audioQS": "2Chr.18"
+                },
+                {
+                    "pretty": "2 Chronicles 19",
+                    "readQS": "2+Chronicles+19",
+                    "audioQS": "2Chr.19"
+                },
+                {
+                    "pretty": "Mark 15:33\u201341",
+                    "readQS": "Mark+15:33-41",
+                    "audioQS": "Mark.15"
+                }
+            ],
+            "readQS": "Psalm+91%3B+2+Chronicles+18:28-%3B+2+Chronicles+19%3B+Mark+15:33-41",
+            "audioQS": "Ps.91,2Chr.18,2Chr.19,Mark.15"
+        }
+    },
+    "2024/10/03": {
+        "datePretty": "Thursday, October 3, 2024",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 92",
+                    "readQS": "Psalm+92",
+                    "audioQS": "Ps.92"
+                },
+                {
+                    "pretty": "2 Kings 9:17\u2013end",
+                    "readQS": "2+Kings+9:17-",
+                    "audioQS": "2Kgs.9"
+                },
+                {
+                    "pretty": "Acts 27:27\u2013end",
+                    "readQS": "Acts+27:27-",
+                    "audioQS": "Acts.27"
+                }
+            ],
+            "readQS": "Psalm+92%3B+2+Kings+9:17-%3B+Acts+27:27-",
+            "audioQS": "Ps.92,2Kgs.9,Acts.27"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 94",
+                    "readQS": "Psalm+94",
+                    "audioQS": "Ps.94"
+                },
+                {
+                    "pretty": "2 Chronicles 20:1\u201323",
+                    "readQS": "2+Chronicles+20:1-23",
+                    "audioQS": "2Chr.20"
+                },
+                {
+                    "pretty": "Mark 15:42\u2013end",
+                    "readQS": "Mark+15:42-",
+                    "audioQS": "Mark.15"
+                }
+            ],
+            "readQS": "Psalm+94%3B+2+Chronicles+20:1-23%3B+Mark+15:42-",
+            "audioQS": "Ps.94,2Chr.20,Mark.15"
+        }
+    },
+    "2024/10/04": {
+        "datePretty": "Friday, October 4, 2024",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 88",
+                    "readQS": "Psalm+88",
+                    "audioQS": "Ps.88"
+                },
+                {
+                    "pretty": "2 Kings 12:1\u201319",
+                    "readQS": "2+Kings+12:1-19",
+                    "audioQS": "2Kgs.12"
+                },
+                {
+                    "pretty": "Acts 28:1\u201316",
+                    "readQS": "Acts+28:1-16",
+                    "audioQS": "Acts.28"
+                }
+            ],
+            "readQS": "Psalm+88%3B+2+Kings+12:1-19%3B+Acts+28:1-16",
+            "audioQS": "Ps.88,2Kgs.12,Acts.28"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 102",
+                    "readQS": "Psalm+102",
+                    "audioQS": "Ps.102"
+                },
+                {
+                    "pretty": "2 Chronicles 22:10\u2013end",
+                    "readQS": "2+Chronicles+22:10-",
+                    "audioQS": "2Chr.22"
+                },
+                {
+                    "pretty": "2 Chronicles 23",
+                    "readQS": "2+Chronicles+23",
+                    "audioQS": "2Chr.23"
+                },
+                {
+                    "pretty": "Mark 16:1\u20138",
+                    "readQS": "Mark+16:1-8",
+                    "audioQS": "Mark.16"
+                }
+            ],
+            "readQS": "Psalm+102%3B+2+Chronicles+22:10-%3B+2+Chronicles+23%3B+Mark+16:1-8",
+            "audioQS": "Ps.102,2Chr.22,2Chr.23,Mark.16"
+        }
+    },
+    "2024/10/05": {
+        "datePretty": "Saturday, October 5, 2024",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 97",
+                    "readQS": "Psalm+97",
+                    "audioQS": "Ps.97"
+                },
+                {
+                    "pretty": "2 Kings 17:1\u201323",
+                    "readQS": "2+Kings+17:1-23",
+                    "audioQS": "2Kgs.17"
+                },
+                {
+                    "pretty": "Acts 28:17\u2013end",
+                    "readQS": "Acts+28:17-",
+                    "audioQS": "Acts.28"
+                }
+            ],
+            "readQS": "Psalm+97%3B+2+Kings+17:1-23%3B+Acts+28:17-",
+            "audioQS": "Ps.97,2Kgs.17,Acts.28"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 104",
+                    "readQS": "Psalm+104",
+                    "audioQS": "Ps.104"
+                },
+                {
+                    "pretty": "2 Chronicles 24:1\u201322",
+                    "readQS": "2+Chronicles+24:1-22",
+                    "audioQS": "2Chr.24"
+                },
+                {
+                    "pretty": "Mark 16:9\u2013end",
+                    "readQS": "Mark+16:9-",
+                    "audioQS": "Mark.16"
+                }
+            ],
+            "readQS": "Psalm+104%3B+2+Chronicles+24:1-22%3B+Mark+16:9-",
+            "audioQS": "Ps.104,2Chr.24,Mark.16"
+        }
+    },
+    "2024/10/06": {
+        "datePretty": "Sunday, October 6, 2024",
+        "calendar": "30th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 123,124",
+                    "readQS": "Psalm+123,124",
+                    "audioQS": "Ps.123,124"
+                },
+                {
+                    "pretty": "Isaiah 49:13\u201323",
+                    "readQS": "Isaiah+49:13-23",
+                    "audioQS": "Isa.49"
+                },
+                {
+                    "pretty": "Luke 12:1\u201312",
+                    "readQS": "Luke+12:1-12",
+                    "audioQS": "Luke.12"
+                }
+            ],
+            "readQS": "Psalm+123,124%3B+Isaiah+49:13-23%3B+Luke+12:1-12",
+            "audioQS": "Ps.123,124,Isa.49,Luke.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 125,126",
+                    "readQS": "Psalm+125,126",
+                    "audioQS": "Ps.125,126"
+                },
+                {
+                    "pretty": "Joshua 3:7\u201317",
+                    "readQS": "Joshua+3:7-17",
+                    "audioQS": "Josh.3"
+                },
+                {
+                    "pretty": "Matthew 10:1\u201322",
+                    "readQS": "Matthew+10:1-22",
+                    "audioQS": "Matt.10"
+                }
+            ],
+            "readQS": "Psalm+125,126%3B+Joshua+3:7-17%3B+Matthew+10:1-22",
+            "audioQS": "Ps.125,126,Josh.3,Matt.10"
+        }
+    },
+    "2024/10/07": {
+        "datePretty": "Monday, October 7, 2024",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 98",
+                    "readQS": "Psalm+98",
+                    "audioQS": "Ps.98"
+                },
+                {
+                    "pretty": "2 Kings 17:24\u2013end",
+                    "readQS": "2+Kings+17:24-",
+                    "audioQS": "2Kgs.17"
+                },
+                {
+                    "pretty": "Philippians 1:1\u201311",
+                    "readQS": "Philippians+1:1-11",
+                    "audioQS": "Phil.1"
+                }
+            ],
+            "readQS": "Psalm+98%3B+2+Kings+17:24-%3B+Philippians+1:1-11",
+            "audioQS": "Ps.98,2Kgs.17,Phil.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 105",
+                    "readQS": "Psalm+105",
+                    "audioQS": "Ps.105"
+                },
+                {
+                    "pretty": "2 Chronicles 26:1\u201321",
+                    "readQS": "2+Chronicles+26:1-21",
+                    "audioQS": "2Chr.26"
+                },
+                {
+                    "pretty": "John 13:1\u201311",
+                    "readQS": "John+13:1-11",
+                    "audioQS": "John.13"
+                }
+            ],
+            "readQS": "Psalm+105%3B+2+Chronicles+26:1-21%3B+John+13:1-11",
+            "audioQS": "Ps.105,2Chr.26,John.13"
+        }
+    },
+    "2024/10/08": {
+        "datePretty": "Tuesday, October 8, 2024",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 106",
+                    "readQS": "Psalm+106",
+                    "audioQS": "Ps.106"
+                },
+                {
+                    "pretty": "2 Kings 18:1\u201312",
+                    "readQS": "2+Kings+18:1-12",
+                    "audioQS": "2Kgs.18"
+                },
+                {
+                    "pretty": "Philippians 1:12\u2013end",
+                    "readQS": "Philippians+1:12-",
+                    "audioQS": "Phil.1"
+                }
+            ],
+            "readQS": "Psalm+106%3B+2+Kings+18:1-12%3B+Philippians+1:12-",
+            "audioQS": "Ps.106,2Kgs.18,Phil.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 107",
+                    "readQS": "Psalm+107",
+                    "audioQS": "Ps.107"
+                },
+                {
+                    "pretty": "2 Chronicles 28",
+                    "readQS": "2+Chronicles+28",
+                    "audioQS": "2Chr.28"
+                },
+                {
+                    "pretty": "John 13:12\u201320",
+                    "readQS": "John+13:12-20",
+                    "audioQS": "John.13"
+                }
+            ],
+            "readQS": "Psalm+107%3B+2+Chronicles+28%3B+John+13:12-20",
+            "audioQS": "Ps.107,2Chr.28,John.13"
+        }
+    },
+    "2024/10/09": {
+        "datePretty": "Wednesday, October 9, 2024",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 111",
+                    "readQS": "Psalm+111",
+                    "audioQS": "Ps.111"
+                },
+                {
+                    "pretty": "2 Kings 18:13\u2013end",
+                    "readQS": "2+Kings+18:13-",
+                    "audioQS": "2Kgs.18"
+                },
+                {
+                    "pretty": "Philippians 2:1\u201313",
+                    "readQS": "Philippians+2:1-13",
+                    "audioQS": "Phil.2"
+                }
+            ],
+            "readQS": "Psalm+111%3B+2+Kings+18:13-%3B+Philippians+2:1-13",
+            "audioQS": "Ps.111,2Kgs.18,Phil.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:129\u2013152",
+                    "readQS": "Psalm+119:129-152",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "2 Chronicles 29:1\u201319",
+                    "readQS": "2+Chronicles+29:1-19",
+                    "audioQS": "2Chr.29"
+                },
+                {
+                    "pretty": "John 13:21\u201330",
+                    "readQS": "John+13:21-30",
+                    "audioQS": "John.13"
+                }
+            ],
+            "readQS": "Psalm+119:129-152%3B+2+Chronicles+29:1-19%3B+John+13:21-30",
+            "audioQS": "Ps.119,2Chr.29,John.13"
+        }
+    },
+    "2024/10/10": {
+        "datePretty": "Thursday, October 10, 2024",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 115",
+                    "readQS": "Psalm+115",
+                    "audioQS": "Ps.115"
+                },
+                {
+                    "pretty": "2 Kings 19:1\u201319",
+                    "readQS": "2+Kings+19:1-19",
+                    "audioQS": "2Kgs.19"
+                },
+                {
+                    "pretty": "Philippians 2:14\u2013end",
+                    "readQS": "Philippians+2:14-",
+                    "audioQS": "Phil.2"
+                }
+            ],
+            "readQS": "Psalm+115%3B+2+Kings+19:1-19%3B+Philippians+2:14-",
+            "audioQS": "Ps.115,2Kgs.19,Phil.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 116",
+                    "readQS": "Psalm+116",
+                    "audioQS": "Ps.116"
+                },
+                {
+                    "pretty": "2 Chronicles 29:20\u2013end",
+                    "readQS": "2+Chronicles+29:20-",
+                    "audioQS": "2Chr.29"
+                },
+                {
+                    "pretty": "John 13:31\u2013end",
+                    "readQS": "John+13:31-",
+                    "audioQS": "John.13"
+                }
+            ],
+            "readQS": "Psalm+116%3B+2+Chronicles+29:20-%3B+John+13:31-",
+            "audioQS": "Ps.116,2Chr.29,John.13"
+        }
+    },
+    "2024/10/11": {
+        "datePretty": "Friday, October 11, 2024",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 139",
+                    "readQS": "Psalm+139",
+                    "audioQS": "Ps.139"
+                },
+                {
+                    "pretty": "2 Kings 19:20\u201336",
+                    "readQS": "2+Kings+19:20-36",
+                    "audioQS": "2Kgs.19"
+                },
+                {
+                    "pretty": "Philippians 3:1\u20134:1",
+                    "readQS": "Philippians+3:1-4:1",
+                    "audioQS": "Phil.3"
+                }
+            ],
+            "readQS": "Psalm+139%3B+2+Kings+19:20-36%3B+Philippians+3:1-4:1",
+            "audioQS": "Ps.139,2Kgs.19,Phil.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 130",
+                    "readQS": "Psalm+130",
+                    "audioQS": "Ps.130"
+                },
+                {
+                    "pretty": "2 Chronicles 30",
+                    "readQS": "2+Chronicles+30",
+                    "audioQS": "2Chr.30"
+                },
+                {
+                    "pretty": "John 14:1\u201314",
+                    "readQS": "John+14:1-14",
+                    "audioQS": "John.14"
+                }
+            ],
+            "readQS": "Psalm+130%3B+2+Chronicles+30%3B+John+14:1-14",
+            "audioQS": "Ps.130,2Chr.30,John.14"
+        }
+    },
+    "2024/10/12": {
+        "datePretty": "Saturday, October 12, 2024",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 121",
+                    "readQS": "Psalm+121",
+                    "audioQS": "Ps.121"
+                },
+                {
+                    "pretty": "2 Kings 20",
+                    "readQS": "2+Kings+20",
+                    "audioQS": "2Kgs.20"
+                },
+                {
+                    "pretty": "Philippians 4:2\u2013end",
+                    "readQS": "Philippians+4:2-",
+                    "audioQS": "Phil.4"
+                }
+            ],
+            "readQS": "Psalm+121%3B+2+Kings+20%3B+Philippians+4:2-",
+            "audioQS": "Ps.121,2Kgs.20,Phil.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 118",
+                    "readQS": "Psalm+118",
+                    "audioQS": "Ps.118"
+                },
+                {
+                    "pretty": "2 Chronicles 32:1\u201322",
+                    "readQS": "2+Chronicles+32:1-22",
+                    "audioQS": "2Chr.32"
+                },
+                {
+                    "pretty": "John 14:15\u2013end",
+                    "readQS": "John+14:15-",
+                    "audioQS": "John.14"
+                }
+            ],
+            "readQS": "Psalm+118%3B+2+Chronicles+32:1-22%3B+John+14:15-",
+            "audioQS": "Ps.118,2Chr.32,John.14"
+        }
+    },
+    "2024/10/13": {
+        "datePretty": "Sunday, October 13, 2024",
+        "calendar": "31st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 129,130",
+                    "readQS": "Psalm+129,130",
+                    "audioQS": "Ps.129,130"
+                },
+                {
+                    "pretty": "Isaiah 50:4\u201310",
+                    "readQS": "Isaiah+50:4-10",
+                    "audioQS": "Isa.50"
+                },
+                {
+                    "pretty": "Luke 13:22\u201330",
+                    "readQS": "Luke+13:22-30",
+                    "audioQS": "Luke.13"
+                }
+            ],
+            "readQS": "Psalm+129,130%3B+Isaiah+50:4-10%3B+Luke+13:22-30",
+            "audioQS": "Ps.129,130,Isa.50,Luke.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 127",
+                    "readQS": "Psalm+127",
+                    "audioQS": "Ps.127"
+                },
+                {
+                    "pretty": "Joshua 5:13\u20136:20",
+                    "readQS": "Joshua+5:13-6:20",
+                    "audioQS": "Josh.5"
+                },
+                {
+                    "pretty": "Matthew 11:20\u201330",
+                    "readQS": "Matthew+11:20-30",
+                    "audioQS": "Matt.11"
+                }
+            ],
+            "readQS": "Psalm+127%3B+Joshua+5:13-6:20%3B+Matthew+11:20-30",
+            "audioQS": "Ps.127,Josh.5,Matt.11"
+        }
+    },
+    "2024/10/14": {
+        "datePretty": "Monday, October 14, 2024",
+        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 126",
+                    "readQS": "Psalm+126",
+                    "audioQS": "Ps.126"
+                },
+                {
+                    "pretty": "2 Kings 21:1\u201318",
+                    "readQS": "2+Kings+21:1-18",
+                    "audioQS": "2Kgs.21"
+                },
+                {
+                    "pretty": "1 Timothy 1:1\u201317",
+                    "readQS": "1+Timothy+1:1-17",
+                    "audioQS": "1Tim.1"
+                }
+            ],
+            "readQS": "Psalm+126%3B+2+Kings+21:1-18%3B+1+Timothy+1:1-17",
+            "audioQS": "Ps.126,2Kgs.21,1Tim.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 127",
+                    "readQS": "Psalm+127",
+                    "audioQS": "Ps.127"
+                },
+                {
+                    "pretty": "2 Chronicles 33:1\u201313",
+                    "readQS": "2+Chronicles+33:1-13",
+                    "audioQS": "2Chr.33"
+                },
+                {
+                    "pretty": "John 15:1\u201311",
+                    "readQS": "John+15:1-11",
+                    "audioQS": "John.15"
+                }
+            ],
+            "readQS": "Psalm+127%3B+2+Chronicles+33:1-13%3B+John+15:1-11",
+            "audioQS": "Ps.127,2Chr.33,John.15"
+        }
+    },
+    "2024/10/15": {
+        "datePretty": "Tuesday, October 15, 2024",
+        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 132",
+                    "readQS": "Psalm+132",
+                    "audioQS": "Ps.132"
+                },
+                {
+                    "pretty": "2 Kings 22:1\u201323:3",
+                    "readQS": "2+Kings+22:1-23:3",
+                    "audioQS": "2Kgs.22"
+                },
+                {
+                    "pretty": "1 Timothy 1:18\u2013end",
+                    "readQS": "1+Timothy+1:18-",
+                    "audioQS": "1Tim.1"
+                },
+                {
+                    "pretty": "1 Timothy 2",
+                    "readQS": "1+Timothy+2",
+                    "audioQS": "1Tim.2"
+                }
+            ],
+            "readQS": "Psalm+132%3B+2+Kings+22:1-23:3%3B+1+Timothy+1:18-%3B+1+Timothy+2",
+            "audioQS": "Ps.132,2Kgs.22,1Tim.1,1Tim.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 135",
+                    "readQS": "Psalm+135",
+                    "audioQS": "Ps.135"
+                },
+                {
+                    "pretty": "2 Chronicles 34:1\u201318",
+                    "readQS": "2+Chronicles+34:1-18",
+                    "audioQS": "2Chr.34"
+                },
+                {
+                    "pretty": "John 15:12\u201317",
+                    "readQS": "John+15:12-17",
+                    "audioQS": "John.15"
+                }
+            ],
+            "readQS": "Psalm+135%3B+2+Chronicles+34:1-18%3B+John+15:12-17",
+            "audioQS": "Ps.135,2Chr.34,John.15"
+        }
+    },
+    "2024/10/16": {
+        "datePretty": "Wednesday, October 16, 2024",
+        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:153\u2013end",
+                    "readQS": "Psalm+119:153-",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "2 Kings 23:4\u201325",
+                    "readQS": "2+Kings+23:4-25",
+                    "audioQS": "2Kgs.23"
+                },
+                {
+                    "pretty": "1 Timothy 3",
+                    "readQS": "1+Timothy+3",
+                    "audioQS": "1Tim.3"
+                }
+            ],
+            "readQS": "Psalm+119:153-%3B+2+Kings+23:4-25%3B+1+Timothy+3",
+            "audioQS": "Ps.119,2Kgs.23,1Tim.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 136",
+                    "readQS": "Psalm+136",
+                    "audioQS": "Ps.136"
+                },
+                {
+                    "pretty": "2 Chronicles 34:19\u2013end",
+                    "readQS": "2+Chronicles+34:19-",
+                    "audioQS": "2Chr.34"
+                },
+                {
+                    "pretty": "John 15:18\u2013end",
+                    "readQS": "John+15:18-",
+                    "audioQS": "John.15"
+                }
+            ],
+            "readQS": "Psalm+136%3B+2+Chronicles+34:19-%3B+John+15:18-",
+            "audioQS": "Ps.136,2Chr.34,John.15"
+        }
+    },
+    "2024/10/17": {
+        "datePretty": "Thursday, October 17, 2024",
+        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 143",
+                    "readQS": "Psalm+143",
+                    "audioQS": "Ps.143"
+                },
+                {
+                    "pretty": "2 Kings 23:36\u201324:17",
+                    "readQS": "2+Kings+23:36-24:17",
+                    "audioQS": "2Kgs.23"
+                },
+                {
+                    "pretty": "1 Timothy 4",
+                    "readQS": "1+Timothy+4",
+                    "audioQS": "1Tim.4"
+                }
+            ],
+            "readQS": "Psalm+143%3B+2+Kings+23:36-24:17%3B+1+Timothy+4",
+            "audioQS": "Ps.143,2Kgs.23,1Tim.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "Hosea 6:1\u20133",
+                    "readQS": "Hosea+6:1-3",
+                    "audioQS": "Hos.6"
+                },
+                {
+                    "pretty": "2 Timothy 3:10\u201317",
+                    "readQS": "2+Timothy+3:10-17",
+                    "audioQS": "2Tim.3"
+                }
+            ],
+            "readQS": "Psalm+33%3B+Hosea+6:1-3%3B+2+Timothy+3:10-17",
+            "audioQS": "Ps.33,Hos.6,2Tim.3"
+        }
+    },
+    "2024/10/18": {
+        "datePretty": "Friday, October 18, 2024",
+        "calendar": "St Luke the Evangelist",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 145,146",
+                    "readQS": "Psalm+145,146",
+                    "audioQS": "Ps.145,146"
+                },
+                {
+                    "pretty": "Isaiah 55",
+                    "readQS": "Isaiah+55",
+                    "audioQS": "Isa.55"
+                },
+                {
+                    "pretty": "Luke 1:1\u20134",
+                    "readQS": "Luke+1:1-4",
+                    "audioQS": "Luke.1"
+                }
+            ],
+            "readQS": "Psalm+145,146%3B+Isaiah+55%3B+Luke+1:1-4",
+            "audioQS": "Ps.145,146,Isa.55,Luke.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 103",
+                    "readQS": "Psalm+103",
+                    "audioQS": "Ps.103"
+                },
+                {
+                    "pretty": "Isaiah 61:1\u20136",
+                    "readQS": "Isaiah+61:1-6",
+                    "audioQS": "Isa.61"
+                },
+                {
+                    "pretty": "Colossians 4:7\u201318",
+                    "readQS": "Colossians+4:7-18",
+                    "audioQS": "Col.4"
+                }
+            ],
+            "readQS": "Psalm+103%3B+Isaiah+61:1-6%3B+Colossians+4:7-18",
+            "audioQS": "Ps.103,Isa.61,Col.4"
+        }
+    },
+    "2024/10/19": {
+        "datePretty": "Saturday, October 19, 2024",
+        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 147",
+                    "readQS": "Psalm+147",
+                    "audioQS": "Ps.147"
+                },
+                {
+                    "pretty": "2 Kings 25:22\u2013end",
+                    "readQS": "2+Kings+25:22-",
+                    "audioQS": "2Kgs.25"
+                },
+                {
+                    "pretty": "1 Timothy 5:17\u2013end",
+                    "readQS": "1+Timothy+5:17-",
+                    "audioQS": "1Tim.5"
+                }
+            ],
+            "readQS": "Psalm+147%3B+2+Kings+25:22-%3B+1+Timothy+5:17-",
+            "audioQS": "Ps.147,2Kgs.25,1Tim.5"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 148",
+                    "readQS": "Psalm+148",
+                    "audioQS": "Ps.148"
+                },
+                {
+                    "pretty": "2 Chronicles 36:11\u2013end",
+                    "readQS": "2+Chronicles+36:11-",
+                    "audioQS": "2Chr.36"
+                },
+                {
+                    "pretty": "John 16:23\u2013end",
+                    "readQS": "John+16:23-",
+                    "audioQS": "John.16"
+                }
+            ],
+            "readQS": "Psalm+148%3B+2+Chronicles+36:11-%3B+John+16:23-",
+            "audioQS": "Ps.148,2Chr.36,John.16"
+        }
+    },
+    "2024/10/20": {
+        "datePretty": "Sunday, October 20, 2024",
+        "calendar": "32nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 133,134,137:1\u20136",
+                    "readQS": "Psalm+133,134,137:1-6",
+                    "audioQS": "Ps.133,134,137"
+                },
+                {
+                    "pretty": "Isaiah 54:1\u201314",
+                    "readQS": "Isaiah+54:1-14",
+                    "audioQS": "Isa.54"
+                },
+                {
+                    "pretty": "Luke 13:31\u201335",
+                    "readQS": "Luke+13:31-35",
+                    "audioQS": "Luke.13"
+                }
+            ],
+            "readQS": "Psalm+133,134,137:1-6%3B+Isaiah+54:1-14%3B+Luke+13:31-35",
+            "audioQS": "Ps.133,134,137,Isa.54,Luke.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 141",
+                    "readQS": "Psalm+141",
+                    "audioQS": "Ps.141"
+                },
+                {
+                    "pretty": "Joshua 14:6\u201314",
+                    "readQS": "Joshua+14:6-14",
+                    "audioQS": "Josh.14"
+                },
+                {
+                    "pretty": "Matthew 12:1\u201321",
+                    "readQS": "Matthew+12:1-21",
+                    "audioQS": "Matt.12"
+                }
+            ],
+            "readQS": "Psalm+141%3B+Joshua+14:6-14%3B+Matthew+12:1-21",
+            "audioQS": "Ps.141,Josh.14,Matt.12"
+        }
+    },
+    "2024/10/21": {
+        "datePretty": "Monday, October 21, 2024",
+        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1",
+                    "readQS": "Psalm+1",
+                    "audioQS": "Ps.1"
+                },
+                {
+                    "pretty": "Exodus 22:21\u201327,23:1\u201317",
+                    "readQS": "Exodus+22:21-27,23:1-17",
+                    "audioQS": "Exod.22"
+                },
+                {
+                    "pretty": "1 Timothy 6:1\u201310",
+                    "readQS": "1+Timothy+6:1-10",
+                    "audioQS": "1Tim.6"
+                }
+            ],
+            "readQS": "Psalm+1%3B+Exodus+22:21-27,23:1-17%3B+1+Timothy+6:1-10",
+            "audioQS": "Ps.1,Exod.22,1Tim.6"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 4",
+                    "readQS": "Psalm+4",
+                    "audioQS": "Ps.4"
+                },
+                {
+                    "pretty": "Micah 1:1\u20139",
+                    "readQS": "Micah+1:1-9",
+                    "audioQS": "Mic.1"
+                },
+                {
+                    "pretty": "John 17:1\u20135",
+                    "readQS": "John+17:1-5",
+                    "audioQS": "John.17"
+                }
+            ],
+            "readQS": "Psalm+4%3B+Micah+1:1-9%3B+John+17:1-5",
+            "audioQS": "Ps.4,Mic.1,John.17"
+        }
+    },
+    "2024/10/22": {
+        "datePretty": "Tuesday, October 22, 2024",
+        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 5",
+                    "readQS": "Psalm+5",
+                    "audioQS": "Ps.5"
+                },
+                {
+                    "pretty": "Exodus 29:38\u201330:16",
+                    "readQS": "Exodus+29:38-30:16",
+                    "audioQS": "Exod.29"
+                },
+                {
+                    "pretty": "1 Timothy 6:11\u2013end",
+                    "readQS": "1+Timothy+6:11-",
+                    "audioQS": "1Tim.6"
+                }
+            ],
+            "readQS": "Psalm+5%3B+Exodus+29:38-30:16%3B+1+Timothy+6:11-",
+            "audioQS": "Ps.5,Exod.29,1Tim.6"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 9",
+                    "readQS": "Psalm+9",
+                    "audioQS": "Ps.9"
+                },
+                {
+                    "pretty": "Micah 2",
+                    "readQS": "Micah+2",
+                    "audioQS": "Mic.2"
+                },
+                {
+                    "pretty": "John 17:6\u201319",
+                    "readQS": "John+17:6-19",
+                    "audioQS": "John.17"
+                }
+            ],
+            "readQS": "Psalm+9%3B+Micah+2%3B+John+17:6-19",
+            "audioQS": "Ps.9,Mic.2,John.17"
+        }
+    },
+    "2024/10/23": {
+        "datePretty": "Wednesday, October 23, 2024",
+        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:1\u201332",
+                    "readQS": "Psalm+119:1-32",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Leviticus 8",
+                    "readQS": "Leviticus+8",
+                    "audioQS": "Lev.8"
+                },
+                {
+                    "pretty": "2 Timothy 1:1\u201314",
+                    "readQS": "2+Timothy+1:1-14",
+                    "audioQS": "2Tim.1"
+                }
+            ],
+            "readQS": "Psalm+119:1-32%3B+Leviticus+8%3B+2+Timothy+1:1-14",
+            "audioQS": "Ps.119,Lev.8,2Tim.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 11",
+                    "readQS": "Psalm+11",
+                    "audioQS": "Ps.11"
+                },
+                {
+                    "pretty": "Micah 3",
+                    "readQS": "Micah+3",
+                    "audioQS": "Mic.3"
+                },
+                {
+                    "pretty": "John 17:20\u2013end",
+                    "readQS": "John+17:20-",
+                    "audioQS": "John.17"
+                }
+            ],
+            "readQS": "Psalm+11%3B+Micah+3%3B+John+17:20-",
+            "audioQS": "Ps.11,Mic.3,John.17"
+        }
+    },
+    "2024/10/24": {
+        "datePretty": "Thursday, October 24, 2024",
+        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 15",
+                    "readQS": "Psalm+15",
+                    "audioQS": "Ps.15"
+                },
+                {
+                    "pretty": "Leviticus 9",
+                    "readQS": "Leviticus+9",
+                    "audioQS": "Lev.9"
+                },
+                {
+                    "pretty": "2 Timothy 1:15\u20132:13",
+                    "readQS": "2+Timothy+1:15-2:13",
+                    "audioQS": "2Tim.1"
+                }
+            ],
+            "readQS": "Psalm+15%3B+Leviticus+9%3B+2+Timothy+1:15-2:13",
+            "audioQS": "Ps.15,Lev.9,2Tim.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 18",
+                    "readQS": "Psalm+18",
+                    "audioQS": "Ps.18"
+                },
+                {
+                    "pretty": "Micah 4:1\u20135:1",
+                    "readQS": "Micah+4:1-5:1",
+                    "audioQS": "Mic.4"
+                },
+                {
+                    "pretty": "John 18:1\u201311",
+                    "readQS": "John+18:1-11",
+                    "audioQS": "John.18"
+                }
+            ],
+            "readQS": "Psalm+18%3B+Micah+4:1-5:1%3B+John+18:1-11",
+            "audioQS": "Ps.18,Mic.4,John.18"
+        }
+    },
+    "2024/10/25": {
+        "datePretty": "Friday, October 25, 2024",
+        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 19",
+                    "readQS": "Psalm+19",
+                    "audioQS": "Ps.19"
+                },
+                {
+                    "pretty": "Leviticus 16:2\u201324",
+                    "readQS": "Leviticus+16:2-24",
+                    "audioQS": "Lev.16"
+                },
+                {
+                    "pretty": "2 Timothy 2:14\u2013end",
+                    "readQS": "2+Timothy+2:14-",
+                    "audioQS": "2Tim.2"
+                }
+            ],
+            "readQS": "Psalm+19%3B+Leviticus+16:2-24%3B+2+Timothy+2:14-",
+            "audioQS": "Ps.19,Lev.16,2Tim.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 22",
+                    "readQS": "Psalm+22",
+                    "audioQS": "Ps.22"
+                },
+                {
+                    "pretty": "Micah 5:2\u2013end",
+                    "readQS": "Micah+5:2-",
+                    "audioQS": "Mic.5"
+                },
+                {
+                    "pretty": "John 18:12\u201327",
+                    "readQS": "John+18:12-27",
+                    "audioQS": "John.18"
+                }
+            ],
+            "readQS": "Psalm+22%3B+Micah+5:2-%3B+John+18:12-27",
+            "audioQS": "Ps.22,Mic.5,John.18"
+        }
+    },
+    "2024/10/26": {
+        "datePretty": "Saturday, October 26, 2024",
+        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
+                },
+                {
+                    "pretty": "Leviticus 17",
+                    "readQS": "Leviticus+17",
+                    "audioQS": "Lev.17"
+                },
+                {
+                    "pretty": "2 Timothy 3",
+                    "readQS": "2+Timothy+3",
+                    "audioQS": "2Tim.3"
+                }
+            ],
+            "readQS": "Psalm+23%3B+Leviticus+17%3B+2+Timothy+3",
+            "audioQS": "Ps.23,Lev.17,2Tim.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 24",
+                    "readQS": "Psalm+24",
+                    "audioQS": "Ps.24"
+                },
+                {
+                    "pretty": "Micah 6",
+                    "readQS": "Micah+6",
+                    "audioQS": "Mic.6"
+                },
+                {
+                    "pretty": "John 18:28\u2013end",
+                    "readQS": "John+18:28-",
+                    "audioQS": "John.18"
+                }
+            ],
+            "readQS": "Psalm+24%3B+Micah+6%3B+John+18:28-",
+            "audioQS": "Ps.24,Mic.6,John.18"
+        }
+    },
+    "2024/10/27": {
+        "datePretty": "Sunday, October 27, 2024",
+        "calendar": "33rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:89\u2013104",
+                    "readQS": "Psalm+119:89-104",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Isaiah 59:9\u201320",
+                    "readQS": "Isaiah+59:9-20",
+                    "audioQS": "Isa.59"
+                },
+                {
+                    "pretty": "Luke 14:1\u201314",
+                    "readQS": "Luke+14:1-14",
+                    "audioQS": "Luke.14"
+                }
+            ],
+            "readQS": "Psalm+119:89-104%3B+Isaiah+59:9-20%3B+Luke+14:1-14",
+            "audioQS": "Ps.119,Isa.59,Luke.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 124,125,126",
+                    "readQS": "Psalm+124,125,126",
+                    "audioQS": "Ps.124,125,126"
+                },
+                {
+                    "pretty": "Deuteronomy 32:1\u20134",
+                    "readQS": "Deuteronomy+32:1-4",
+                    "audioQS": "Deut.32"
+                },
+                {
+                    "pretty": "John 14:15\u201326",
+                    "readQS": "John+14:15-26",
+                    "audioQS": "John.14"
+                }
+            ],
+            "readQS": "Psalm+124,125,126%3B+Deuteronomy+32:1-4%3B+John+14:15-26",
+            "audioQS": "Ps.124,125,126,Deut.32,John.14"
+        }
+    },
+    "2024/10/28": {
+        "datePretty": "Monday, October 28, 2024",
+        "calendar": "St Simon and St Jude, Apostles",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 116,117",
+                    "readQS": "Psalm+116,117",
+                    "audioQS": "Ps.116,117"
+                },
+                {
+                    "pretty": "Isaiah 45:18\u201326",
+                    "readQS": "Isaiah+45:18-26",
+                    "audioQS": "Isa.45"
+                },
+                {
+                    "pretty": "Luke 6:12\u201316",
+                    "readQS": "Luke+6:12-16",
+                    "audioQS": "Luke.6"
+                }
+            ],
+            "readQS": "Psalm+116,117%3B+Isaiah+45:18-26%3B+Luke+6:12-16",
+            "audioQS": "Ps.116,117,Isa.45,Luke.6"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:1\u201316",
+                    "readQS": "Psalm+119:1-16",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Jeremiah 3:11\u201318",
+                    "readQS": "Jeremiah+3:11-18",
+                    "audioQS": "Jer.3"
+                },
+                {
+                    "pretty": "Jude 1\u20134,17\u201325",
+                    "readQS": "Jude+1-4,17-25",
+                    "audioQS": "Jude.1\u20134,17\u201325"
+                }
+            ],
+            "readQS": "Psalm+119:1-16%3B+Jeremiah+3:11-18%3B+Jude+1-4,17-25",
+            "audioQS": "Ps.119,Jer.3,Jude.1\u20134,17\u201325"
+        }
+    },
+    "2024/10/29": {
+        "datePretty": "Tuesday, October 29, 2024",
+        "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36",
+                    "readQS": "Psalm+36",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "Leviticus 23:1\u201322",
+                    "readQS": "Leviticus+23:1-22",
+                    "audioQS": "Lev.23"
+                },
+                {
+                    "pretty": "2 Timothy 4:9\u2013end",
+                    "readQS": "2+Timothy+4:9-",
+                    "audioQS": "2Tim.4"
+                }
+            ],
+            "readQS": "Psalm+36%3B+Leviticus+23:1-22%3B+2+Timothy+4:9-",
+            "audioQS": "Ps.36,Lev.23,2Tim.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "Micah 7:8\u2013end",
+                    "readQS": "Micah+7:8-",
+                    "audioQS": "Mic.7"
+                },
+                {
+                    "pretty": "John 19:17\u201330",
+                    "readQS": "John+19:17-30",
+                    "audioQS": "John.19"
+                }
+            ],
+            "readQS": "Psalm+33%3B+Micah+7:8-%3B+John+19:17-30",
+            "audioQS": "Ps.33,Mic.7,John.19"
+        }
+    },
+    "2024/10/30": {
+        "datePretty": "Wednesday, October 30, 2024",
+        "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "Leviticus 23:23\u2013end",
+                    "readQS": "Leviticus+23:23-",
+                    "audioQS": "Lev.23"
+                },
+                {
+                    "pretty": "Titus 1",
+                    "readQS": "Titus+1",
+                    "audioQS": "Titus.1"
+                }
+            ],
+            "readQS": "Psalm+34%3B+Leviticus+23:23-%3B+Titus+1",
+            "audioQS": "Ps.34,Lev.23,Titus.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:33\u201356",
+                    "readQS": "Psalm+119:33-56",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Habakkuk 1:1\u201311",
+                    "readQS": "Habakkuk+1:1-11",
+                    "audioQS": "Hab.1"
+                },
+                {
+                    "pretty": "John 19:31\u2013end",
+                    "readQS": "John+19:31-",
+                    "audioQS": "John.19"
+                }
+            ],
+            "readQS": "Psalm+119:33-56%3B+Habakkuk+1:1-11%3B+John+19:31-",
+            "audioQS": "Ps.119,Hab.1,John.19"
+        }
+    },
+    "2024/10/31": {
+        "datePretty": "Thursday, October 31, 2024",
+        "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 37",
+                    "readQS": "Psalm+37",
+                    "audioQS": "Ps.37"
+                },
+                {
+                    "pretty": "Leviticus 24:1\u20139",
+                    "readQS": "Leviticus+24:1-9",
+                    "audioQS": "Lev.24"
+                },
+                {
+                    "pretty": "Titus 2",
+                    "readQS": "Titus+2",
+                    "audioQS": "Titus.2"
+                }
+            ],
+            "readQS": "Psalm+37%3B+Leviticus+24:1-9%3B+Titus+2",
+            "audioQS": "Ps.37,Lev.24,Titus.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1,5",
+                    "readQS": "Psalm+1,5",
+                    "audioQS": "Ps.1,5"
+                },
+                {
+                    "pretty": "Isaiah 40:27\u2013end",
+                    "readQS": "Isaiah+40:27-",
+                    "audioQS": "Isa.40"
+                },
+                {
+                    "pretty": "Revelations 19:6\u201310",
+                    "readQS": "Revelations+19:6-10",
+                    "audioQS": "Revs.19"
+                }
+            ],
+            "readQS": "Psalm+1,5%3B+Isaiah+40:27-%3B+Revelations+19:6-10",
+            "audioQS": "Ps.1,5,Isa.40,Revs.19"
+        }
+    },
+    "2024/11/01": {
+        "datePretty": "Friday, November 1, 2024",
+        "calendar": "All Saints Day",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 15,84,149",
+                    "readQS": "Psalm+15,84,149",
+                    "audioQS": "Ps.15,84,149"
+                },
+                {
+                    "pretty": "Isaiah 35",
+                    "readQS": "Isaiah+35",
+                    "audioQS": "Isa.35"
+                },
+                {
+                    "pretty": "Luke 9:18\u201327",
+                    "readQS": "Luke+9:18-27",
+                    "audioQS": "Luke.9"
+                }
+            ],
+            "readQS": "Psalm+15,84,149%3B+Isaiah+35%3B+Luke+9:18-27",
+            "audioQS": "Ps.15,84,149,Isa.35,Luke.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 148,150",
+                    "readQS": "Psalm+148,150",
+                    "audioQS": "Ps.148,150"
+                },
+                {
+                    "pretty": "Isaiah 65:17\u201325",
+                    "readQS": "Isaiah+65:17-25",
+                    "audioQS": "Isa.65"
+                },
+                {
+                    "pretty": "Hebrews 11:32\u201312:2",
+                    "readQS": "Hebrews+11:32-12:2",
+                    "audioQS": "Heb.11"
+                }
+            ],
+            "readQS": "Psalm+148,150%3B+Isaiah+65:17-25%3B+Hebrews+11:32-12:2",
+            "audioQS": "Ps.148,150,Isa.65,Heb.11"
+        }
+    },
+    "2024/11/02": {
+        "datePretty": "Saturday, November 2, 2024",
+        "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 42",
+                    "readQS": "Psalm+42",
+                    "audioQS": "Ps.42"
+                },
+                {
+                    "pretty": "Numbers 6:1\u20135,6:21\u2013end",
+                    "readQS": "Numbers+6:1-5,6:21-",
+                    "audioQS": "Num.6"
+                },
+                {
+                    "pretty": "Philemon",
+                    "readQS": "Philemon",
+                    "audioQS": "Phlm"
+                }
+            ],
+            "readQS": "Psalm+42%3B+Numbers+6:1-5,6:21-%3B+Philemon",
+            "audioQS": "Ps.42,Num.6,Phlm"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 46",
+                    "readQS": "Psalm+46",
+                    "audioQS": "Ps.46"
+                },
+                {
+                    "pretty": "Habakkuk 3:2\u201319a",
+                    "readQS": "Habakkuk+3:2-19a",
+                    "audioQS": "Hab.3"
+                },
+                {
+                    "pretty": "John 20:19\u2013end",
+                    "readQS": "John+20:19-",
+                    "audioQS": "John.20"
+                }
+            ],
+            "readQS": "Psalm+46%3B+Habakkuk+3:2-19a%3B+John+20:19-",
+            "audioQS": "Ps.46,Hab.3,John.20"
+        }
+    },
+    "2024/11/03": {
+        "datePretty": "Sunday, November 3, 2024",
+        "calendar": "4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 112,149",
+                    "readQS": "Psalm+112,149",
+                    "audioQS": "Ps.112,149"
+                },
+                {
+                    "pretty": "Jeremiah 31:31\u201334",
+                    "readQS": "Jeremiah+31:31-34",
+                    "audioQS": "Jer.31"
+                },
+                {
+                    "pretty": "1 John 3:1\u20133",
+                    "readQS": "1+John+3:1-3",
+                    "audioQS": "1John.3"
+                }
+            ],
+            "readQS": "Psalm+112,149%3B+Jeremiah+31:31-34%3B+1+John+3:1-3",
+            "audioQS": "Ps.112,149,Jer.31,1John.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 145",
+                    "readQS": "Psalm+145",
+                    "audioQS": "Ps.145"
+                },
+                {
+                    "pretty": "Daniel 2:1\u201311,(12\u201324),25\u201348",
+                    "readQS": "Daniel+2:1-11,%2812-24%29,25-48",
+                    "audioQS": "Dan.2"
+                },
+                {
+                    "pretty": "Revelation 7:9\u201317",
+                    "readQS": "Revelation+7:9-17",
+                    "audioQS": "Rev.7"
+                }
+            ],
+            "readQS": "Psalm+145%3B+Daniel+2:1-11,%2812-24%29,25-48%3B+Revelation+7:9-17",
+            "audioQS": "Ps.145,Dan.2,Rev.7"
+        }
+    },
+    "2024/11/04": {
+        "datePretty": "Monday, November 4, 2024",
+        "calendar": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 2",
+                    "readQS": "Psalm+2",
+                    "audioQS": "Ps.2"
+                },
+                {
+                    "pretty": "Daniel 1",
+                    "readQS": "Daniel+1",
+                    "audioQS": "Dan.1"
+                },
+                {
+                    "pretty": "Revelation 1",
+                    "readQS": "Revelation+1",
+                    "audioQS": "Rev.1"
+                }
+            ],
+            "readQS": "Psalm+2%3B+Daniel+1%3B+Revelation+1",
+            "audioQS": "Ps.2,Dan.1,Rev.1"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 92",
+                    "readQS": "Psalm+92",
+                    "audioQS": "Ps.92"
+                },
+                {
+                    "pretty": "Isaiah 1:1\u201320",
+                    "readQS": "Isaiah+1:1-20",
+                    "audioQS": "Isa.1"
+                },
+                {
+                    "pretty": "Matthew 1:18\u2013end",
+                    "readQS": "Matthew+1:18-",
+                    "audioQS": "Matt.1"
+                }
+            ],
+            "readQS": "Psalm+92%3B+Isaiah+1:1-20%3B+Matthew+1:18-",
+            "audioQS": "Ps.92,Isa.1,Matt.1"
+        }
+    },
+    "2024/11/05": {
+        "datePretty": "Tuesday, November 5, 2024",
+        "calendar": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 5",
+                    "readQS": "Psalm+5",
+                    "audioQS": "Ps.5"
+                },
+                {
+                    "pretty": "Daniel 2:1\u201324",
+                    "readQS": "Daniel+2:1-24",
+                    "audioQS": "Dan.2"
+                },
+                {
+                    "pretty": "Revelation 2:1\u201311",
+                    "readQS": "Revelation+2:1-11",
+                    "audioQS": "Rev.2"
+                }
+            ],
+            "readQS": "Psalm+5%3B+Daniel+2:1-24%3B+Revelation+2:1-11",
+            "audioQS": "Ps.5,Dan.2,Rev.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 100",
+                    "readQS": "Psalm+100",
+                    "audioQS": "Ps.100"
+                },
+                {
+                    "pretty": "Isaiah 1:21\u2013end",
+                    "readQS": "Isaiah+1:21-",
+                    "audioQS": "Isa.1"
+                },
+                {
+                    "pretty": "Matthew 2:1\u201315",
+                    "readQS": "Matthew+2:1-15",
+                    "audioQS": "Matt.2"
+                }
+            ],
+            "readQS": "Psalm+100%3B+Isaiah+1:21-%3B+Matthew+2:1-15",
+            "audioQS": "Ps.100,Isa.1,Matt.2"
+        }
+    },
+    "2024/11/06": {
+        "datePretty": "Wednesday, November 6, 2024",
+        "calendar": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 9",
+                    "readQS": "Psalm+9",
+                    "audioQS": "Ps.9"
+                },
+                {
+                    "pretty": "Daniel 2:25\u2013end",
+                    "readQS": "Daniel+2:25-",
+                    "audioQS": "Dan.2"
+                },
+                {
+                    "pretty": "Revelation 2:12\u2013end",
+                    "readQS": "Revelation+2:12-",
+                    "audioQS": "Rev.2"
+                }
+            ],
+            "readQS": "Psalm+9%3B+Daniel+2:25-%3B+Revelation+2:12-",
+            "audioQS": "Ps.9,Dan.2,Rev.2"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 112",
+                    "readQS": "Psalm+112",
+                    "audioQS": "Ps.112"
+                },
+                {
+                    "pretty": "Isaiah 2:1\u201311",
+                    "readQS": "Isaiah+2:1-11",
+                    "audioQS": "Isa.2"
+                },
+                {
+                    "pretty": "Matthew 2:16\u2013end",
+                    "readQS": "Matthew+2:16-",
+                    "audioQS": "Matt.2"
+                }
+            ],
+            "readQS": "Psalm+112%3B+Isaiah+2:1-11%3B+Matthew+2:16-",
+            "audioQS": "Ps.112,Isa.2,Matt.2"
+        }
+    },
+    "2024/11/07": {
+        "datePretty": "Thursday, November 7, 2024",
+        "calendar": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 15",
+                    "readQS": "Psalm+15",
+                    "audioQS": "Ps.15"
+                },
+                {
+                    "pretty": "Daniel 3:1\u201318",
+                    "readQS": "Daniel+3:1-18",
+                    "audioQS": "Dan.3"
+                },
+                {
+                    "pretty": "Revelation 3:1\u201313",
+                    "readQS": "Revelation+3:1-13",
+                    "audioQS": "Rev.3"
+                }
+            ],
+            "readQS": "Psalm+15%3B+Daniel+3:1-18%3B+Revelation+3:1-13",
+            "audioQS": "Ps.15,Dan.3,Rev.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 118",
+                    "readQS": "Psalm+118",
+                    "audioQS": "Ps.118"
+                },
+                {
+                    "pretty": "Isaiah 2:12\u2013end",
+                    "readQS": "Isaiah+2:12-",
+                    "audioQS": "Isa.2"
+                },
+                {
+                    "pretty": "Matthew 3",
+                    "readQS": "Matthew+3",
+                    "audioQS": "Matt.3"
+                }
+            ],
+            "readQS": "Psalm+118%3B+Isaiah+2:12-%3B+Matthew+3",
+            "audioQS": "Ps.118,Isa.2,Matt.3"
+        }
+    },
+    "2024/11/08": {
+        "datePretty": "Friday, November 8, 2024",
+        "calendar": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 16",
+                    "readQS": "Psalm+16",
+                    "audioQS": "Ps.16"
+                },
+                {
+                    "pretty": "Daniel 3:19\u2013end",
+                    "readQS": "Daniel+3:19-",
+                    "audioQS": "Dan.3"
+                },
+                {
+                    "pretty": "Revelation 3:14\u2013end",
+                    "readQS": "Revelation+3:14-",
+                    "audioQS": "Rev.3"
+                }
+            ],
+            "readQS": "Psalm+16%3B+Daniel+3:19-%3B+Revelation+3:14-",
+            "audioQS": "Ps.16,Dan.3,Rev.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 143",
+                    "readQS": "Psalm+143",
+                    "audioQS": "Ps.143"
+                },
+                {
+                    "pretty": "Isaiah 3:1\u201315",
+                    "readQS": "Isaiah+3:1-15",
+                    "audioQS": "Isa.3"
+                },
+                {
+                    "pretty": "Matthew 4:1\u201311",
+                    "readQS": "Matthew+4:1-11",
+                    "audioQS": "Matt.4"
+                }
+            ],
+            "readQS": "Psalm+143%3B+Isaiah+3:1-15%3B+Matthew+4:1-11",
+            "audioQS": "Ps.143,Isa.3,Matt.4"
+        }
+    },
+    "2024/11/09": {
+        "datePretty": "Saturday, November 9, 2024",
+        "calendar": "Week of 4th Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 18.31\u2013end",
+                    "readQS": "Psalm+18.31-",
+                    "audioQS": "Ps.18.31\u2013end"
+                },
+                {
+                    "pretty": "Daniel 4:1\u201318",
+                    "readQS": "Daniel+4:1-18",
+                    "audioQS": "Dan.4"
+                },
+                {
+                    "pretty": "Revelation 4",
+                    "readQS": "Revelation+4",
+                    "audioQS": "Rev.4"
+                }
+            ],
+            "readQS": "Psalm+18.31-%3B+Daniel+4:1-18%3B+Revelation+4",
+            "audioQS": "Ps.18.31\u2013end,Dan.4,Rev.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 145",
+                    "readQS": "Psalm+145",
+                    "audioQS": "Ps.145"
+                },
+                {
+                    "pretty": "Isaiah 4:2\u20135:7",
+                    "readQS": "Isaiah+4:2-5:7",
+                    "audioQS": "Isa.4"
+                },
+                {
+                    "pretty": "Matthew 4:12\u201322",
+                    "readQS": "Matthew+4:12-22",
+                    "audioQS": "Matt.4"
+                }
+            ],
+            "readQS": "Psalm+145%3B+Isaiah+4:2-5:7%3B+Matthew+4:12-22",
+            "audioQS": "Ps.145,Isa.4,Matt.4"
+        }
+    },
+    "2024/11/10": {
+        "datePretty": "Sunday, November 10, 2024",
+        "calendar": "3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 136",
+                    "readQS": "Psalm+136",
+                    "audioQS": "Ps.136"
+                },
+                {
+                    "pretty": "Micah 4:1\u20135",
+                    "readQS": "Micah+4:1-5",
+                    "audioQS": "Mic.4"
+                },
+                {
+                    "pretty": "Philippians 4:6\u20139",
+                    "readQS": "Philippians+4:6-9",
+                    "audioQS": "Phil.4"
+                }
+            ],
+            "readQS": "Psalm+136%3B+Micah+4:1-5%3B+Philippians+4:6-9",
+            "audioQS": "Ps.136,Mic.4,Phil.4"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 46",
+                    "readQS": "Psalm+46",
+                    "audioQS": "Ps.46"
+                },
+                {
+                    "pretty": "Isaiah 10:33\u201311:9",
+                    "readQS": "Isaiah+10:33-11:9",
+                    "audioQS": "Isa.10"
+                },
+                {
+                    "pretty": "John 14:(1\u201322),23\u201329",
+                    "readQS": "John+14:%281-22%29,23-29",
+                    "audioQS": "John.14"
+                }
+            ],
+            "readQS": "Psalm+46%3B+Isaiah+10:33-11:9%3B+John+14:%281-22%29,23-29",
+            "audioQS": "Ps.46,Isa.10,John.14"
+        }
+    },
+    "2024/11/11": {
+        "datePretty": "Monday, November 11, 2024",
+        "calendar": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 20",
+                    "readQS": "Psalm+20",
+                    "audioQS": "Ps.20"
+                },
+                {
+                    "pretty": "Daniel 4:19\u2013end",
+                    "readQS": "Daniel+4:19-",
+                    "audioQS": "Dan.4"
+                },
+                {
+                    "pretty": "Revelation 5",
+                    "readQS": "Revelation+5",
+                    "audioQS": "Rev.5"
+                }
+            ],
+            "readQS": "Psalm+20%3B+Daniel+4:19-%3B+Revelation+5",
+            "audioQS": "Ps.20,Dan.4,Rev.5"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34",
+                    "readQS": "Psalm+34",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "Isaiah 5:8\u201324",
+                    "readQS": "Isaiah+5:8-24",
+                    "audioQS": "Isa.5"
+                },
+                {
+                    "pretty": "Matthew 4:23\u20135:12",
+                    "readQS": "Matthew+4:23-5:12",
+                    "audioQS": "Matt.4"
+                }
+            ],
+            "readQS": "Psalm+34%3B+Isaiah+5:8-24%3B+Matthew+4:23-5:12",
+            "audioQS": "Ps.34,Isa.5,Matt.4"
+        }
+    },
+    "2024/11/12": {
+        "datePretty": "Tuesday, November 12, 2024",
+        "calendar": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 21",
+                    "readQS": "Psalm+21",
+                    "audioQS": "Ps.21"
+                },
+                {
+                    "pretty": "Daniel 5:1\u201312",
+                    "readQS": "Daniel+5:1-12",
+                    "audioQS": "Dan.5"
+                },
+                {
+                    "pretty": "Revelation 6",
+                    "readQS": "Revelation+6",
+                    "audioQS": "Rev.6"
+                }
+            ],
+            "readQS": "Psalm+21%3B+Daniel+5:1-12%3B+Revelation+6",
+            "audioQS": "Ps.21,Dan.5,Rev.6"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 40",
+                    "readQS": "Psalm+40",
+                    "audioQS": "Ps.40"
+                },
+                {
+                    "pretty": "Isaiah 5:25\u2013end",
+                    "readQS": "Isaiah+5:25-",
+                    "audioQS": "Isa.5"
+                },
+                {
+                    "pretty": "Matthew 5:13\u201320",
+                    "readQS": "Matthew+5:13-20",
+                    "audioQS": "Matt.5"
+                }
+            ],
+            "readQS": "Psalm+40%3B+Isaiah+5:25-%3B+Matthew+5:13-20",
+            "audioQS": "Ps.40,Isa.5,Matt.5"
+        }
+    },
+    "2024/11/13": {
+        "datePretty": "Wednesday, November 13, 2024",
+        "calendar": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
+                },
+                {
+                    "pretty": "Daniel 5:13\u2013end",
+                    "readQS": "Daniel+5:13-",
+                    "audioQS": "Dan.5"
+                },
+                {
+                    "pretty": "Revelation 7:1\u20134,9\u2013end",
+                    "readQS": "Revelation+7:1-4,9-",
+                    "audioQS": "Rev.7"
+                }
+            ],
+            "readQS": "Psalm+23%3B+Daniel+5:13-%3B+Revelation+7:1-4,9-",
+            "audioQS": "Ps.23,Dan.5,Rev.7"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 37",
+                    "readQS": "Psalm+37",
+                    "audioQS": "Ps.37"
+                },
+                {
+                    "pretty": "Isaiah 6",
+                    "readQS": "Isaiah+6",
+                    "audioQS": "Isa.6"
+                },
+                {
+                    "pretty": "Matthew 5:21\u201337",
+                    "readQS": "Matthew+5:21-37",
+                    "audioQS": "Matt.5"
+                }
+            ],
+            "readQS": "Psalm+37%3B+Isaiah+6%3B+Matthew+5:21-37",
+            "audioQS": "Ps.37,Isa.6,Matt.5"
+        }
+    },
+    "2024/11/14": {
+        "datePretty": "Thursday, November 14, 2024",
+        "calendar": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 26",
+                    "readQS": "Psalm+26",
+                    "audioQS": "Ps.26"
+                },
+                {
+                    "pretty": "Daniel 6",
+                    "readQS": "Daniel+6",
+                    "audioQS": "Dan.6"
+                },
+                {
+                    "pretty": "Revelation 8",
+                    "readQS": "Revelation+8",
+                    "audioQS": "Rev.8"
+                }
+            ],
+            "readQS": "Psalm+26%3B+Daniel+6%3B+Revelation+8",
+            "audioQS": "Ps.26,Dan.6,Rev.8"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 43",
+                    "readQS": "Psalm+43",
+                    "audioQS": "Ps.43"
+                },
+                {
+                    "pretty": "Isaiah 7:1\u201317",
+                    "readQS": "Isaiah+7:1-17",
+                    "audioQS": "Isa.7"
+                },
+                {
+                    "pretty": "Matthew 5:38\u2013end",
+                    "readQS": "Matthew+5:38-",
+                    "audioQS": "Matt.5"
+                }
+            ],
+            "readQS": "Psalm+43%3B+Isaiah+7:1-17%3B+Matthew+5:38-",
+            "audioQS": "Ps.43,Isa.7,Matt.5"
+        }
+    },
+    "2024/11/15": {
+        "datePretty": "Friday, November 15, 2024",
+        "calendar": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 32",
+                    "readQS": "Psalm+32",
+                    "audioQS": "Ps.32"
+                },
+                {
+                    "pretty": "Daniel 7:1\u201314",
+                    "readQS": "Daniel+7:1-14",
+                    "audioQS": "Dan.7"
+                },
+                {
+                    "pretty": "Revelation 9:1\u201312",
+                    "readQS": "Revelation+9:1-12",
+                    "audioQS": "Rev.9"
+                }
+            ],
+            "readQS": "Psalm+32%3B+Daniel+7:1-14%3B+Revelation+9:1-12",
+            "audioQS": "Ps.32,Dan.7,Rev.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 31",
+                    "readQS": "Psalm+31",
+                    "audioQS": "Ps.31"
+                },
+                {
+                    "pretty": "Isaiah 8:1\u201315",
+                    "readQS": "Isaiah+8:1-15",
+                    "audioQS": "Isa.8"
+                },
+                {
+                    "pretty": "Matthew 6:1\u201318",
+                    "readQS": "Matthew+6:1-18",
+                    "audioQS": "Matt.6"
+                }
+            ],
+            "readQS": "Psalm+31%3B+Isaiah+8:1-15%3B+Matthew+6:1-18",
+            "audioQS": "Ps.31,Isa.8,Matt.6"
+        }
+    },
+    "2024/11/16": {
+        "datePretty": "Saturday, November 16, 2024",
+        "calendar": "Week of 3rd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 33",
+                    "readQS": "Psalm+33",
+                    "audioQS": "Ps.33"
+                },
+                {
+                    "pretty": "Daniel 7:15\u2013end",
+                    "readQS": "Daniel+7:15-",
+                    "audioQS": "Dan.7"
+                },
+                {
+                    "pretty": "Revelation 9:13\u2013end",
+                    "readQS": "Revelation+9:13-",
+                    "audioQS": "Rev.9"
+                }
+            ],
+            "readQS": "Psalm+33%3B+Daniel+7:15-%3B+Revelation+9:13-",
+            "audioQS": "Ps.33,Dan.7,Rev.9"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 86",
+                    "readQS": "Psalm+86",
+                    "audioQS": "Ps.86"
+                },
+                {
+                    "pretty": "Isaiah 8:16\u20139:7",
+                    "readQS": "Isaiah+8:16-9:7",
+                    "audioQS": "Isa.8"
+                },
+                {
+                    "pretty": "Matthew 6:19\u2013end",
+                    "readQS": "Matthew+6:19-",
+                    "audioQS": "Matt.6"
+                }
+            ],
+            "readQS": "Psalm+86%3B+Isaiah+8:16-9:7%3B+Matthew+6:19-",
+            "audioQS": "Ps.86,Isa.8,Matt.6"
+        }
+    },
+    "2024/11/17": {
+        "datePretty": "Sunday, November 17, 2024",
+        "calendar": "2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 96",
+                    "readQS": "Psalm+96",
+                    "audioQS": "Ps.96"
+                },
+                {
+                    "pretty": "1 Samuel 9:27\u201310:2a,10:17\u201326",
+                    "readQS": "1+Samuel+9:27-10:2a,10:17-26",
+                    "audioQS": "1Sam.9"
+                },
+                {
+                    "pretty": "Matthew 13:31\u201335",
+                    "readQS": "Matthew+13:31-35",
+                    "audioQS": "Matt.13"
+                }
+            ],
+            "readQS": "Psalm+96%3B+1+Samuel+9:27-10:2a,10:17-26%3B+Matthew+13:31-35",
+            "audioQS": "Ps.96,1Sam.9,Matt.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 95",
+                    "readQS": "Psalm+95",
+                    "audioQS": "Ps.95"
+                },
+                {
+                    "pretty": "Daniel 3:(1\u201312),13\u2013end",
+                    "readQS": "Daniel+3:%281-12%29,13-",
+                    "audioQS": "Dan.3"
+                },
+                {
+                    "pretty": "Matthew 13:24\u201330,36\u201343",
+                    "readQS": "Matthew+13:24-30,36-43",
+                    "audioQS": "Matt.13"
+                }
+            ],
+            "readQS": "Psalm+95%3B+Daniel+3:%281-12%29,13-%3B+Matthew+13:24-30,36-43",
+            "audioQS": "Ps.95,Dan.3,Matt.13"
+        }
+    },
+    "2024/11/18": {
+        "datePretty": "Monday, November 18, 2024",
+        "calendar": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 47",
+                    "readQS": "Psalm+47",
+                    "audioQS": "Ps.47"
+                },
+                {
+                    "pretty": "Daniel 8:1\u201314",
+                    "readQS": "Daniel+8:1-14",
+                    "audioQS": "Dan.8"
+                },
+                {
+                    "pretty": "Revelation 10",
+                    "readQS": "Revelation+10",
+                    "audioQS": "Rev.10"
+                }
+            ],
+            "readQS": "Psalm+47%3B+Daniel+8:1-14%3B+Revelation+10",
+            "audioQS": "Ps.47,Dan.8,Rev.10"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 71",
+                    "readQS": "Psalm+71",
+                    "audioQS": "Ps.71"
+                },
+                {
+                    "pretty": "Isaiah 9:8\u201310:4",
+                    "readQS": "Isaiah+9:8-10:4",
+                    "audioQS": "Isa.9"
+                },
+                {
+                    "pretty": "Matthew 7:1\u201312",
+                    "readQS": "Matthew+7:1-12",
+                    "audioQS": "Matt.7"
+                }
+            ],
+            "readQS": "Psalm+71%3B+Isaiah+9:8-10:4%3B+Matthew+7:1-12",
+            "audioQS": "Ps.71,Isa.9,Matt.7"
+        }
+    },
+    "2024/11/19": {
+        "datePretty": "Tuesday, November 19, 2024",
+        "calendar": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 52",
+                    "readQS": "Psalm+52",
+                    "audioQS": "Ps.52"
+                },
+                {
+                    "pretty": "Daniel 8:15\u2013end",
+                    "readQS": "Daniel+8:15-",
+                    "audioQS": "Dan.8"
+                },
+                {
+                    "pretty": "Revelation 11:1\u201314",
+                    "readQS": "Revelation+11:1-14",
+                    "audioQS": "Rev.11"
+                }
+            ],
+            "readQS": "Psalm+52%3B+Daniel+8:15-%3B+Revelation+11:1-14",
+            "audioQS": "Ps.52,Dan.8,Rev.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 67",
+                    "readQS": "Psalm+67",
+                    "audioQS": "Ps.67"
+                },
+                {
+                    "pretty": "Isaiah 10:5\u201319",
+                    "readQS": "Isaiah+10:5-19",
+                    "audioQS": "Isa.10"
+                },
+                {
+                    "pretty": "Matthew 7:13\u2013end",
+                    "readQS": "Matthew+7:13-",
+                    "audioQS": "Matt.7"
+                }
+            ],
+            "readQS": "Psalm+67%3B+Isaiah+10:5-19%3B+Matthew+7:13-",
+            "audioQS": "Ps.67,Isa.10,Matt.7"
+        }
+    },
+    "2024/11/20": {
+        "datePretty": "Wednesday, November 20, 2024",
+        "calendar": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 56",
+                    "readQS": "Psalm+56",
+                    "audioQS": "Ps.56"
+                },
+                {
+                    "pretty": "Daniel 9:1\u201319",
+                    "readQS": "Daniel+9:1-19",
+                    "audioQS": "Dan.9"
+                },
+                {
+                    "pretty": "Revelation 11:15\u2013end",
+                    "readQS": "Revelation+11:15-",
+                    "audioQS": "Rev.11"
+                }
+            ],
+            "readQS": "Psalm+56%3B+Daniel+9:1-19%3B+Revelation+11:15-",
+            "audioQS": "Ps.56,Dan.9,Rev.11"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 73",
+                    "readQS": "Psalm+73",
+                    "audioQS": "Ps.73"
+                },
+                {
+                    "pretty": "Isaiah 10:20\u201332",
+                    "readQS": "Isaiah+10:20-32",
+                    "audioQS": "Isa.10"
+                },
+                {
+                    "pretty": "Matthew 8:1\u201313",
+                    "readQS": "Matthew+8:1-13",
+                    "audioQS": "Matt.8"
+                }
+            ],
+            "readQS": "Psalm+73%3B+Isaiah+10:20-32%3B+Matthew+8:1-13",
+            "audioQS": "Ps.73,Isa.10,Matt.8"
+        }
+    },
+    "2024/11/21": {
+        "datePretty": "Thursday, November 21, 2024",
+        "calendar": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 62",
+                    "readQS": "Psalm+62",
+                    "audioQS": "Ps.62"
+                },
+                {
+                    "pretty": "Daniel 9:20\u2013end",
+                    "readQS": "Daniel+9:20-",
+                    "audioQS": "Dan.9"
+                },
+                {
+                    "pretty": "Revelation 12",
+                    "readQS": "Revelation+12",
+                    "audioQS": "Rev.12"
+                }
+            ],
+            "readQS": "Psalm+62%3B+Daniel+9:20-%3B+Revelation+12",
+            "audioQS": "Ps.62,Dan.9,Rev.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 76",
+                    "readQS": "Psalm+76",
+                    "audioQS": "Ps.76"
+                },
+                {
+                    "pretty": "Isaiah 10:33\u201311:9",
+                    "readQS": "Isaiah+10:33-11:9",
+                    "audioQS": "Isa.10"
+                },
+                {
+                    "pretty": "Matthew 8:14\u201322",
+                    "readQS": "Matthew+8:14-22",
+                    "audioQS": "Matt.8"
+                }
+            ],
+            "readQS": "Psalm+76%3B+Isaiah+10:33-11:9%3B+Matthew+8:14-22",
+            "audioQS": "Ps.76,Isa.10,Matt.8"
+        }
+    },
+    "2024/11/22": {
+        "datePretty": "Friday, November 22, 2024",
+        "calendar": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 63",
+                    "readQS": "Psalm+63",
+                    "audioQS": "Ps.63"
+                },
+                {
+                    "pretty": "Daniel 10:1\u201311:1",
+                    "readQS": "Daniel+10:1-11:1",
+                    "audioQS": "Dan.10"
+                },
+                {
+                    "pretty": "Revelation 13:1\u201310",
+                    "readQS": "Revelation+13:1-10",
+                    "audioQS": "Rev.13"
+                }
+            ],
+            "readQS": "Psalm+63%3B+Daniel+10:1-11:1%3B+Revelation+13:1-10",
+            "audioQS": "Ps.63,Dan.10,Rev.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 77",
+                    "readQS": "Psalm+77",
+                    "audioQS": "Ps.77"
+                },
+                {
+                    "pretty": "Isaiah 11:10\u2013end of 12",
+                    "readQS": "Isaiah+11:10-+of+12",
+                    "audioQS": "Isa.11"
+                },
+                {
+                    "pretty": "Matthew 8:23\u2013end",
+                    "readQS": "Matthew+8:23-",
+                    "audioQS": "Matt.8"
+                }
+            ],
+            "readQS": "Psalm+77%3B+Isaiah+11:10-+of+12%3B+Matthew+8:23-",
+            "audioQS": "Ps.77,Isa.11,Matt.8"
+        }
+    },
+    "2024/11/23": {
+        "datePretty": "Saturday, November 23, 2024",
+        "calendar": "Week of 2nd Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78.1\u201339",
+                    "readQS": "Psalm+78.1-39",
+                    "audioQS": "Ps.78.1\u201339"
+                },
+                {
+                    "pretty": "Daniel 12",
+                    "readQS": "Daniel+12",
+                    "audioQS": "Dan.12"
+                },
+                {
+                    "pretty": "Revelation 13:11\u2013end",
+                    "readQS": "Revelation+13:11-",
+                    "audioQS": "Rev.13"
+                }
+            ],
+            "readQS": "Psalm+78.1-39%3B+Daniel+12%3B+Revelation+13:11-",
+            "audioQS": "Ps.78.1\u201339,Dan.12,Rev.13"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 99,100",
+                    "readQS": "Psalm+99,100",
+                    "audioQS": "Ps.99,100"
+                },
+                {
+                    "pretty": "Isaiah 10:33\u201311:9",
+                    "readQS": "Isaiah+10:33-11:9",
+                    "audioQS": "Isa.10"
+                },
+                {
+                    "pretty": "1 Timothy 6:11\u201316",
+                    "readQS": "1+Timothy+6:11-16",
+                    "audioQS": "1Tim.6"
+                }
+            ],
+            "readQS": "Psalm+99,100%3B+Isaiah+10:33-11:9%3B+1+Timothy+6:11-16",
+            "audioQS": "Ps.99,100,Isa.10,1Tim.6"
+        }
+    },
+    "2024/11/24": {
+        "datePretty": "Sunday, November 24, 2024",
+        "calendar": "Christ the King Sunday",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 29,110",
+                    "readQS": "Psalm+29,110",
+                    "audioQS": "Ps.29,110"
+                },
+                {
+                    "pretty": "Isaiah 32:1\u20138",
+                    "readQS": "Isaiah+32:1-8",
+                    "audioQS": "Isa.32"
+                },
+                {
+                    "pretty": "Revelation 3:7\u201322",
+                    "readQS": "Revelation+3:7-22",
+                    "audioQS": "Rev.3"
+                }
+            ],
+            "readQS": "Psalm+29,110%3B+Isaiah+32:1-8%3B+Revelation+3:7-22",
+            "audioQS": "Ps.29,110,Isa.32,Rev.3"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 72",
+                    "readQS": "Psalm+72",
+                    "audioQS": "Ps.72"
+                },
+                {
+                    "pretty": "Daniel 5",
+                    "readQS": "Daniel+5",
+                    "audioQS": "Dan.5"
+                },
+                {
+                    "pretty": "John 6:1\u201315",
+                    "readQS": "John+6:1-15",
+                    "audioQS": "John.6"
+                }
+            ],
+            "readQS": "Psalm+72%3B+Daniel+5%3B+John+6:1-15",
+            "audioQS": "Ps.72,Dan.5,John.6"
+        }
+    },
+    "2024/11/25": {
+        "datePretty": "Monday, November 25, 2024",
+        "calendar": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 96",
+                    "readQS": "Psalm+96",
+                    "audioQS": "Ps.96"
+                },
+                {
+                    "pretty": "Isaiah 40:1\u201311",
+                    "readQS": "Isaiah+40:1-11",
+                    "audioQS": "Isa.40"
+                },
+                {
+                    "pretty": "Revelation 14:1\u201313",
+                    "readQS": "Revelation+14:1-13",
+                    "audioQS": "Rev.14"
+                }
+            ],
+            "readQS": "Psalm+96%3B+Isaiah+40:1-11%3B+Revelation+14:1-13",
+            "audioQS": "Ps.96,Isa.40,Rev.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 80",
+                    "readQS": "Psalm+80",
+                    "audioQS": "Ps.80"
+                },
+                {
+                    "pretty": "Isaiah 14:3\u201320",
+                    "readQS": "Isaiah+14:3-20",
+                    "audioQS": "Isa.14"
+                },
+                {
+                    "pretty": "Matthew 9:18\u201334",
+                    "readQS": "Matthew+9:18-34",
+                    "audioQS": "Matt.9"
+                }
+            ],
+            "readQS": "Psalm+80%3B+Isaiah+14:3-20%3B+Matthew+9:18-34",
+            "audioQS": "Ps.80,Isa.14,Matt.9"
+        }
+    },
+    "2024/11/26": {
+        "datePretty": "Tuesday, November 26, 2024",
+        "calendar": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 97",
+                    "readQS": "Psalm+97",
+                    "audioQS": "Ps.97"
+                },
+                {
+                    "pretty": "Isaiah 40:12\u201326",
+                    "readQS": "Isaiah+40:12-26",
+                    "audioQS": "Isa.40"
+                },
+                {
+                    "pretty": "Revelation 14:14\u2013end,15:1\u2013end",
+                    "readQS": "Revelation+14:14-,15:1-",
+                    "audioQS": "Rev.14"
+                }
+            ],
+            "readQS": "Psalm+97%3B+Isaiah+40:12-26%3B+Revelation+14:14-,15:1-",
+            "audioQS": "Ps.97,Isa.40,Rev.14"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 101",
+                    "readQS": "Psalm+101",
+                    "audioQS": "Ps.101"
+                },
+                {
+                    "pretty": "Isaiah 17",
+                    "readQS": "Isaiah+17",
+                    "audioQS": "Isa.17"
+                },
+                {
+                    "pretty": "Matthew 9:35\u201310:15",
+                    "readQS": "Matthew+9:35-10:15",
+                    "audioQS": "Matt.9"
+                }
+            ],
+            "readQS": "Psalm+101%3B+Isaiah+17%3B+Matthew+9:35-10:15",
+            "audioQS": "Ps.101,Isa.17,Matt.9"
+        }
+    },
+    "2024/11/27": {
+        "datePretty": "Wednesday, November 27, 2024",
+        "calendar": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 112",
+                    "readQS": "Psalm+112",
+                    "audioQS": "Ps.112"
+                },
+                {
+                    "pretty": "Isaiah 40:27\u201341:7",
+                    "readQS": "Isaiah+40:27-41:7",
+                    "audioQS": "Isa.40"
+                },
+                {
+                    "pretty": "Revelation 16:1\u201311",
+                    "readQS": "Revelation+16:1-11",
+                    "audioQS": "Rev.16"
+                }
+            ],
+            "readQS": "Psalm+112%3B+Isaiah+40:27-41:7%3B+Revelation+16:1-11",
+            "audioQS": "Ps.112,Isa.40,Rev.16"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 122",
+                    "readQS": "Psalm+122",
+                    "audioQS": "Ps.122"
+                },
+                {
+                    "pretty": "Isaiah 19",
+                    "readQS": "Isaiah+19",
+                    "audioQS": "Isa.19"
+                },
+                {
+                    "pretty": "Matthew 10:16\u201333",
+                    "readQS": "Matthew+10:16-33",
+                    "audioQS": "Matt.10"
+                }
+            ],
+            "readQS": "Psalm+122%3B+Isaiah+19%3B+Matthew+10:16-33",
+            "audioQS": "Ps.122,Isa.19,Matt.10"
+        }
+    },
+    "2024/11/28": {
+        "datePretty": "Thursday, November 28, 2024",
+        "calendar": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 125",
+                    "readQS": "Psalm+125",
+                    "audioQS": "Ps.125"
+                },
+                {
+                    "pretty": "Isaiah 41:8\u201320",
+                    "readQS": "Isaiah+41:8-20",
+                    "audioQS": "Isa.41"
+                },
+                {
+                    "pretty": "Revelation 16:12\u2013end",
+                    "readQS": "Revelation+16:12-",
+                    "audioQS": "Rev.16"
+                }
+            ],
+            "readQS": "Psalm+125%3B+Isaiah+41:8-20%3B+Revelation+16:12-",
+            "audioQS": "Ps.125,Isa.41,Rev.16"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 133",
+                    "readQS": "Psalm+133",
+                    "audioQS": "Ps.133"
+                },
+                {
+                    "pretty": "Isaiah 21:1\u201312",
+                    "readQS": "Isaiah+21:1-12",
+                    "audioQS": "Isa.21"
+                },
+                {
+                    "pretty": "Matthew 10:34\u201311:1",
+                    "readQS": "Matthew+10:34-11:1",
+                    "audioQS": "Matt.10"
+                }
+            ],
+            "readQS": "Psalm+133%3B+Isaiah+21:1-12%3B+Matthew+10:34-11:1",
+            "audioQS": "Ps.133,Isa.21,Matt.10"
+        }
+    },
+    "2024/11/29": {
+        "datePretty": "Friday, November 29, 2024",
+        "calendar": "Week of 1st Sunday before Advent",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 139",
+                    "readQS": "Psalm+139",
+                    "audioQS": "Ps.139"
+                },
+                {
+                    "pretty": "Isaiah 41:21\u201342:9",
+                    "readQS": "Isaiah+41:21-42:9",
+                    "audioQS": "Isa.41"
+                },
+                {
+                    "pretty": "Revelation 17",
+                    "readQS": "Revelation+17",
+                    "audioQS": "Rev.17"
+                }
+            ],
+            "readQS": "Psalm+139%3B+Isaiah+41:21-42:9%3B+Revelation+17",
+            "audioQS": "Ps.139,Isa.41,Rev.17"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 48",
+                    "readQS": "Psalm+48",
+                    "audioQS": "Ps.48"
+                },
+                {
+                    "pretty": "Isaiah 49:1\u20139a",
+                    "readQS": "Isaiah+49:1-9a",
+                    "audioQS": "Isa.49"
+                },
+                {
+                    "pretty": "1 Corinthians 4:9\u201316",
+                    "readQS": "1+Corinthians+4:9-16",
+                    "audioQS": "1Cor.4"
+                }
+            ],
+            "readQS": "Psalm+48%3B+Isaiah+49:1-9a%3B+1+Corinthians+4:9-16",
+            "audioQS": "Ps.48,Isa.49,1Cor.4"
+        }
+    },
+    "2024/11/30": {
+        "datePretty": "Saturday, November 30, 2024",
+        "calendar": "St Andrew the Apostle",
+        "morning": {
+            "readings": [
+                {
+                    "pretty": "Psalm 47,147:1\u201311",
+                    "readQS": "Psalm+47,147:1-11",
+                    "audioQS": "Ps.47,147"
+                },
+                {
+                    "pretty": "Ezekiel 47:1\u201312",
+                    "readQS": "Ezekiel+47:1-12",
+                    "audioQS": "Ezek.47"
+                },
+                {
+                    "pretty": "John 12:20\u201332",
+                    "readQS": "John+12:20-32",
+                    "audioQS": "John.12"
+                }
+            ],
+            "readQS": "Psalm+47,147:1-11%3B+Ezekiel+47:1-12%3B+John+12:20-32",
+            "audioQS": "Ps.47,147,Ezek.47,John.12"
+        },
+        "evening": {
+            "readings": [
+                {
+                    "pretty": "Psalm 87,96",
+                    "readQS": "Psalm+87,96",
+                    "audioQS": "Ps.87,96"
+                },
+                {
+                    "pretty": "Zechariah 8:20\u201323",
+                    "readQS": "Zechariah+8:20-23",
+                    "audioQS": "Zech.8"
+                },
+                {
+                    "pretty": "John 1:35\u201342",
+                    "readQS": "John+1:35-42",
+                    "audioQS": "John.1"
+                }
+            ],
+            "readQS": "Psalm+87,96%3B+Zechariah+8:20-23%3B+John+1:35-42",
+            "audioQS": "Ps.87,96,Zech.8,John.1"
+        }
     }
 };export default Data;
