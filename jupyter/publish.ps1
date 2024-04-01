@@ -1,0 +1,2 @@
+Copy-Item -Path C:\github\lectionary\jupyter\output\data.ts -Destination C:\github\lectionary\website\src\data\data.ts
+Copy-Item -Path C:\github\lectionary\jupyter\output\last-generated-date.txt -Destination C:\github\lectionary\website\public\last-generated-date.txt
