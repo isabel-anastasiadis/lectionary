@@ -16,6 +16,7 @@ namespace ReadingsBuilder.Data.Result
                 "date",
                 "date_pretty",
                 "day_description",
+                "rcl_track_1",
                 "morning_prayers_together",
                 "evening_prayers_together"
             });
@@ -35,6 +36,8 @@ namespace ReadingsBuilder.Data.Result
                 row.Add(MapPrettyDate(day.Date));
 
                 row.Add(day.DayDescription ?? String.Empty);
+
+                row.Add(MapRclReadings(day.RclTrack1Readings));
 
                 row.Add(MapMorningReadings(day.MorningReadings));
 
@@ -74,6 +77,20 @@ namespace ReadingsBuilder.Data.Result
             var oldTestament = $"{eveningReadings?.OptionOne?.OldTestament?.OptionOne?.RawString}";
             var newTestament = $"{eveningReadings?.OptionOne?.NewTestament?.OptionOne?.RawString}";
             return $"{psalm}; {oldTestament}; {newTestament}";
+        }
+
+        private string MapRclReadings(Option<RclReadings, ReadingsOptionType>? rclTrack1Readings)
+        {
+            if (rclTrack1Readings?.OptionOne == null || rclTrack1Readings.OptionOne.IsEmpty())
+            {
+                return string.Empty;
+            }
+
+            var psalm = $"{rclTrack1Readings?.OptionOne?.Psalms?.OptionOne?.RawString ?? rclTrack1Readings?.OptionOne?.Canticle?.OptionOne?.RawString}";
+            var oldTestament = $"{rclTrack1Readings?.OptionOne?.OldTestament?.OptionOne?.RawString}";
+            var newTestament = $"{rclTrack1Readings?.OptionOne?.NewTestament?.OptionOne?.RawString}";
+            var gospel = $"{rclTrack1Readings?.OptionOne?.Gospel?.OptionOne?.RawString}";
+            return $"{psalm}; {oldTestament}; {newTestament}; {gospel}";
         }
     }
 }
