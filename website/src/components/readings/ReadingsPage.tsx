@@ -5,7 +5,7 @@ import Message from "../common/Message";
 import Date from "../common/Date";
 import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
-import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
+import { IAvailableDates, IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
 import { styled } from "@stitches/react";
 
 const StyledSpan = styled('span', {
@@ -42,6 +42,17 @@ const ReadingsPage = ({
   updateDate,
   updateTheme,
 }: ReadingsPageProps) => {
+
+  function getReadingsToDisplay(): IReadingsList {
+    if (todaysReadings.rcl) {
+      return todaysReadings.rcl;
+    }
+
+    return theme === Theme.MORNING
+      ? todaysReadings.morning
+      : todaysReadings.evening;
+  }
+
   return (
     <>
       <Nav>
@@ -76,9 +87,7 @@ const ReadingsPage = ({
       <StyledSpan>{todaysReadings.calendar}</StyledSpan>
       <ReadingsList
         readingsList={
-          theme === Theme.MORNING
-            ? todaysReadings.morning
-            : todaysReadings.evening
+          getReadingsToDisplay()
         }
         readingTranslation={readingTranslation}
       />
