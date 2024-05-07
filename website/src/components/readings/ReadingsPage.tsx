@@ -3,11 +3,10 @@ import Toggle from "../common/Toggle";
 import Nav from "../common/Nav";
 import Message from "../common/Message";
 import Date from "../common/Date";
-import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
-import { IAvailableDates, IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
+import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
 import { styled } from "@stitches/react";
-import { useState } from "react";
+import ReadingsSection from "./ReadingsSection";
 
 const StyledSpan = styled('span', {
   color: '$foreground',
@@ -44,23 +43,6 @@ const ReadingsPage = ({
   updateTheme,
 }: ReadingsPageProps) => {
 
-  function getReadingsToDisplay(): IReadingsList {
-    if (todaysReadings.rclTrack1) {
-      return todaysReadings.rclTrack1;
-    }
-
-    return theme === Theme.MORNING
-      ? todaysReadings.morning
-      : todaysReadings.evening;
-  }
-
-  const [selectedTab, setSelectedTab] = useState("Prayers");
-
-  function tabOnChange(value: string): void {
-    console.log("Changed value to" + value);
-    setSelectedTab(value);
-  }
-
   return (
     <>
       <Nav>
@@ -94,28 +76,9 @@ const ReadingsPage = ({
       />
       <StyledSpan>{todaysReadings.calendar}</StyledSpan>
 
-      <Toggle
-        options={[
-          {
-            value: 'RCL (Re.)',
-            content: 'RCL (Re.)'
-          },
-          {
-            value: 'RCL (Co.)',
-            content: 'RCL (Co.)'
-          },
-          {
-            value: 'Prayers',
-            content: 'Prayers'
-          }
-        ]}
-        selected={selectedTab}
-        onChange={tabOnChange}
-      />
-      <ReadingsList
-        readingsList={
-          getReadingsToDisplay()
-        }
+      <ReadingsSection 
+        theme={theme}
+        todaysReadings={todaysReadings}
         readingTranslation={readingTranslation}
       />
       <Actions readings={
