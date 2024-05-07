@@ -211,7 +211,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
         {
             if (rule.RclTrack1Psalm != null)
             {
-                day.RclTrack1Readings.OptionOne.Psalms.OptionOne.RawString = rule.RclTrack1Psalm;
+                day.RclTrack1Readings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + rule.RclTrack1Psalm;
             }
 
             if (rule.RclTrack1Canticle != null)
