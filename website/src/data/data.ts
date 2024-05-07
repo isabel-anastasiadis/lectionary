@@ -2,6 +2,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/03": {
         "datePretty": "Sunday, December 3, 2023",
         "calendar": "1st Sunday of Advent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 80:1\u20138,18\u201320",
+                    "readQS": "Psalm+80:1-8,18-20",
+                    "audioQS": "Ps.80"
+                },
+                {
+                    "pretty": "Isaiah 64:1\u20139",
+                    "readQS": "Isaiah+64:1-9",
+                    "audioQS": "Isa.64"
+                },
+                {
+                    "pretty": "1 Corinthians 1:3\u20139",
+                    "readQS": "1+Corinthians+1:3-9",
+                    "audioQS": "1Cor.1"
+                },
+                {
+                    "pretty": "Mark 13:24\u201337",
+                    "readQS": "Mark+13:24-37",
+                    "audioQS": "Mark.13"
+                }
+            ],
+            "readQS": "Psalm+80:1-8,18-20%3B+Isaiah+64:1-9%3B+1+Corinthians+1:3-9%3B+Mark+13:24-37",
+            "audioQS": "Ps.80,Isa.64,1Cor.1,Mark.13"
+        },
         "morning": {
             "readings": [
                 {
@@ -48,6 +74,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/04": {
         "datePretty": "Monday, December 4, 2023",
         "calendar": "Week of 1st Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -94,6 +121,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/05": {
         "datePretty": "Tuesday, December 5, 2023",
         "calendar": "Week of 1st Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -140,6 +168,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/06": {
         "datePretty": "Wednesday, December 6, 2023",
         "calendar": "Week of 1st Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -186,6 +215,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/07": {
         "datePretty": "Thursday, December 7, 2023",
         "calendar": "Week of 1st Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -232,6 +262,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/08": {
         "datePretty": "Friday, December 8, 2023",
         "calendar": "Week of 1st Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -278,6 +309,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/09": {
         "datePretty": "Saturday, December 9, 2023",
         "calendar": "Week of 1st Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -324,6 +356,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/10": {
         "datePretty": "Sunday, December 10, 2023",
         "calendar": "2nd Sunday of Advent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 85:1\u20132,8\u201313",
+                    "readQS": "Psalm+85:1-2,8-13",
+                    "audioQS": "Ps.85"
+                },
+                {
+                    "pretty": "Isaiah 40:1\u201311",
+                    "readQS": "Isaiah+40:1-11",
+                    "audioQS": "Isa.40"
+                },
+                {
+                    "pretty": "2 Peter 3:8\u201315a",
+                    "readQS": "2+Peter+3:8-15a",
+                    "audioQS": "2Pet.3"
+                },
+                {
+                    "pretty": "Mark 1:1\u20138",
+                    "readQS": "Mark+1:1-8",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+85:1-2,8-13%3B+Isaiah+40:1-11%3B+2+Peter+3:8-15a%3B+Mark+1:1-8",
+            "audioQS": "Ps.85,Isa.40,2Pet.3,Mark.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -370,6 +428,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/11": {
         "datePretty": "Monday, December 11, 2023",
         "calendar": "Week of 2nd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -416,6 +475,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/12": {
         "datePretty": "Tuesday, December 12, 2023",
         "calendar": "Week of 2nd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -462,6 +522,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/13": {
         "datePretty": "Wednesday, December 13, 2023",
         "calendar": "Week of 2nd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -508,6 +569,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/14": {
         "datePretty": "Thursday, December 14, 2023",
         "calendar": "Week of 2nd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -554,6 +616,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/15": {
         "datePretty": "Friday, December 15, 2023",
         "calendar": "Week of 2nd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -600,6 +663,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/16": {
         "datePretty": "Saturday, December 16, 2023",
         "calendar": "Week of 2nd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -646,6 +710,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/17": {
         "datePretty": "Sunday, December 17, 2023",
         "calendar": "3rd Sunday of Advent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 126",
+                    "readQS": "Psalm+126",
+                    "audioQS": "Ps.126"
+                },
+                {
+                    "pretty": "Isaiah 61:1\u20134,8\u201311",
+                    "readQS": "Isaiah+61:1-4,8-11",
+                    "audioQS": "Isa.61"
+                },
+                {
+                    "pretty": "1 Thessalonians 5:16\u201324",
+                    "readQS": "1+Thessalonians+5:16-24",
+                    "audioQS": "1Thess.5"
+                },
+                {
+                    "pretty": "John 1:6\u20138,19\u201328",
+                    "readQS": "John+1:6-8,19-28",
+                    "audioQS": "John.1"
+                }
+            ],
+            "readQS": "Psalm+126%3B+Isaiah+61:1-4,8-11%3B+1+Thessalonians+5:16-24%3B+John+1:6-8,19-28",
+            "audioQS": "Ps.126,Isa.61,1Thess.5,John.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -692,6 +782,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/18": {
         "datePretty": "Monday, December 18, 2023",
         "calendar": "Week of 3rd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -738,6 +829,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/19": {
         "datePretty": "Tuesday, December 19, 2023",
         "calendar": "Week of 3rd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -784,6 +876,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/20": {
         "datePretty": "Wednesday, December 20, 2023",
         "calendar": "Week of 3rd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -830,6 +923,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/21": {
         "datePretty": "Thursday, December 21, 2023",
         "calendar": "Week of 3rd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -876,6 +970,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/22": {
         "datePretty": "Friday, December 22, 2023",
         "calendar": "Week of 3rd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -922,6 +1017,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/23": {
         "datePretty": "Saturday, December 23, 2023",
         "calendar": "Week of 3rd Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -968,6 +1064,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/24": {
         "datePretty": "Sunday, December 24, 2023",
         "calendar": "4th Sunday of Advent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 89:1\u20134,19\u201326",
+                    "readQS": "Psalm+89:1-4,19-26",
+                    "audioQS": "Ps.89"
+                },
+                {
+                    "pretty": "2 Samuel 7:1\u201311,16",
+                    "readQS": "2+Samuel+7:1-11,16",
+                    "audioQS": "2Sam.7"
+                },
+                {
+                    "pretty": "Romans 16:25\u201327",
+                    "readQS": "Romans+16:25-27",
+                    "audioQS": "Rom.16"
+                },
+                {
+                    "pretty": "Luke 1:26\u201338",
+                    "readQS": "Luke+1:26-38",
+                    "audioQS": "Luke.1"
+                }
+            ],
+            "readQS": "Psalm+89:1-4,19-26%3B+2+Samuel+7:1-11,16%3B+Romans+16:25-27%3B+Luke+1:26-38",
+            "audioQS": "Ps.89,2Sam.7,Rom.16,Luke.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -1014,6 +1136,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/25": {
         "datePretty": "Monday, December 25, 2023",
         "calendar": "Christmas day",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1060,6 +1183,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/26": {
         "datePretty": "Tuesday, December 26, 2023",
         "calendar": "St Stephen, the first Christian Martyr",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1106,6 +1230,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/27": {
         "datePretty": "Wednesday, December 27, 2023",
         "calendar": "St John the Evangelist",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1152,6 +1277,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/28": {
         "datePretty": "Thursday, December 28, 2023",
         "calendar": "Holy Innocents",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1198,6 +1324,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/29": {
         "datePretty": "Friday, December 29, 2023",
         "calendar": "Week of 4th Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1244,6 +1371,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/30": {
         "datePretty": "Saturday, December 30, 2023",
         "calendar": "Week of 4th Sunday of Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1290,6 +1418,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2023/12/31": {
         "datePretty": "Sunday, December 31, 2023",
         "calendar": "1st Sunday of Christmas",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 148",
+                    "readQS": "Psalm+148",
+                    "audioQS": "Ps.148"
+                },
+                {
+                    "pretty": "Isaiah 61:10\u201362:3",
+                    "readQS": "Isaiah+61:10-62:3",
+                    "audioQS": "Isa.61"
+                },
+                {
+                    "pretty": "Galatians 4:4\u20137",
+                    "readQS": "Galatians+4:4-7",
+                    "audioQS": "Gal.4"
+                },
+                {
+                    "pretty": "Luke 2:15\u201321",
+                    "readQS": "Luke+2:15-21",
+                    "audioQS": "Luke.2"
+                }
+            ],
+            "readQS": "Psalm+148%3B+Isaiah+61:10-62:3%3B+Galatians+4:4-7%3B+Luke+2:15-21",
+            "audioQS": "Ps.148,Isa.61,Gal.4,Luke.2"
+        },
         "morning": {
             "readings": [
                 {
@@ -1336,6 +1490,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/01": {
         "datePretty": "Monday, January 1, 2024",
         "calendar": "The naming of Jesus",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1382,6 +1537,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/02": {
         "datePretty": "Tuesday, January 2, 2024",
         "calendar": "Week of 1st Sunday of Christmas",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1428,6 +1584,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/03": {
         "datePretty": "Wednesday, January 3, 2024",
         "calendar": "Week of 1st Sunday of Christmas",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1474,6 +1631,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/04": {
         "datePretty": "Thursday, January 4, 2024",
         "calendar": "Week of 1st Sunday of Christmas",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1520,6 +1678,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/05": {
         "datePretty": "Friday, January 5, 2024",
         "calendar": "Week of 1st Sunday of Christmas",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1566,6 +1725,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/06": {
         "datePretty": "Saturday, January 6, 2024",
         "calendar": "The Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1612,6 +1772,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/07": {
         "datePretty": "Sunday, January 7, 2024",
         "calendar": "The Baptism of the Lord",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 29",
+                    "readQS": "Psalm+29",
+                    "audioQS": "Ps.29"
+                },
+                {
+                    "pretty": "Genesis 1:1\u20135",
+                    "readQS": "Genesis+1:1-5",
+                    "audioQS": "Gen.1"
+                },
+                {
+                    "pretty": "Acts 19:1\u20137",
+                    "readQS": "Acts+19:1-7",
+                    "audioQS": "Acts.19"
+                },
+                {
+                    "pretty": "Mark 1:4\u201311",
+                    "readQS": "Mark+1:4-11",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+29%3B+Genesis+1:1-5%3B+Acts+19:1-7%3B+Mark+1:4-11",
+            "audioQS": "Ps.29,Gen.1,Acts.19,Mark.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -1658,6 +1844,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/08": {
         "datePretty": "Monday, January 8, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1704,6 +1891,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/09": {
         "datePretty": "Tuesday, January 9, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1750,6 +1938,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/10": {
         "datePretty": "Wednesday, January 10, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1796,6 +1985,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/11": {
         "datePretty": "Thursday, January 11, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1842,6 +2032,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/12": {
         "datePretty": "Friday, January 12, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1888,6 +2079,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/13": {
         "datePretty": "Saturday, January 13, 2024",
         "calendar": "Week of 1st Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -1934,6 +2126,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/14": {
         "datePretty": "Sunday, January 14, 2024",
         "calendar": "2nd Sunday after the Epiphany",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 139:1\u20135,12\u201318",
+                    "readQS": "Psalm+139:1-5,12-18",
+                    "audioQS": "Ps.139"
+                },
+                {
+                    "pretty": "1 Samuel 3:1\u201310,(11\u201320)",
+                    "readQS": "1+Samuel+3:1-10,%2811-20%29",
+                    "audioQS": "1Sam.3"
+                },
+                {
+                    "pretty": "Revelation 5:1\u201310",
+                    "readQS": "Revelation+5:1-10",
+                    "audioQS": "Rev.5"
+                },
+                {
+                    "pretty": "John 1:43\u201351",
+                    "readQS": "John+1:43-51",
+                    "audioQS": "John.1"
+                }
+            ],
+            "readQS": "Psalm+139:1-5,12-18%3B+1+Samuel+3:1-10,%2811-20%29%3B+Revelation+5:1-10%3B+John+1:43-51",
+            "audioQS": "Ps.139,1Sam.3,Rev.5,John.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -1980,6 +2198,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/15": {
         "datePretty": "Monday, January 15, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2026,6 +2245,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/16": {
         "datePretty": "Tuesday, January 16, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2072,6 +2292,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/17": {
         "datePretty": "Wednesday, January 17, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2118,6 +2339,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/18": {
         "datePretty": "Thursday, January 18, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2164,6 +2386,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/19": {
         "datePretty": "Friday, January 19, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2210,6 +2433,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/20": {
         "datePretty": "Saturday, January 20, 2024",
         "calendar": "Week of 2nd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2256,6 +2480,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/21": {
         "datePretty": "Sunday, January 21, 2024",
         "calendar": "3rd Sunday after the Epiphany",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 128",
+                    "readQS": "Psalm+128",
+                    "audioQS": "Ps.128"
+                },
+                {
+                    "pretty": "Genesis 14:17\u201320",
+                    "readQS": "Genesis+14:17-20",
+                    "audioQS": "Gen.14"
+                },
+                {
+                    "pretty": "Revelation 19:6\u201310",
+                    "readQS": "Revelation+19:6-10",
+                    "audioQS": "Rev.19"
+                },
+                {
+                    "pretty": "John 2:1\u201311",
+                    "readQS": "John+2:1-11",
+                    "audioQS": "John.2"
+                }
+            ],
+            "readQS": "Psalm+128%3B+Genesis+14:17-20%3B+Revelation+19:6-10%3B+John+2:1-11",
+            "audioQS": "Ps.128,Gen.14,Rev.19,John.2"
+        },
         "morning": {
             "readings": [
                 {
@@ -2302,6 +2552,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/22": {
         "datePretty": "Monday, January 22, 2024",
         "calendar": "Week of 3rd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2353,6 +2604,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/23": {
         "datePretty": "Tuesday, January 23, 2024",
         "calendar": "Week of 3rd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2399,6 +2651,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/24": {
         "datePretty": "Wednesday, January 24, 2024",
         "calendar": "Week of 3rd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2445,6 +2698,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/25": {
         "datePretty": "Thursday, January 25, 2024",
         "calendar": "The Conversion of Saint Paul",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2491,6 +2745,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/26": {
         "datePretty": "Friday, January 26, 2024",
         "calendar": "Week of 3rd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2537,6 +2792,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/27": {
         "datePretty": "Saturday, January 27, 2024",
         "calendar": "Week of 3rd Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2583,6 +2839,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/28": {
         "datePretty": "Sunday, January 28, 2024",
         "calendar": "4th Sunday after the Epiphany",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 111",
+                    "readQS": "Psalm+111",
+                    "audioQS": "Ps.111"
+                },
+                {
+                    "pretty": "Deuteronomy 18:15\u201320",
+                    "readQS": "Deuteronomy+18:15-20",
+                    "audioQS": "Deut.18"
+                },
+                {
+                    "pretty": "Revelation 12:1\u20135a",
+                    "readQS": "Revelation+12:1-5a",
+                    "audioQS": "Rev.12"
+                },
+                {
+                    "pretty": "Mark 1:21\u201328",
+                    "readQS": "Mark+1:21-28",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+111%3B+Deuteronomy+18:15-20%3B+Revelation+12:1-5a%3B+Mark+1:21-28",
+            "audioQS": "Ps.111,Deut.18,Rev.12,Mark.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -2629,6 +2911,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/29": {
         "datePretty": "Monday, January 29, 2024",
         "calendar": "Week of 4th Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2675,6 +2958,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/30": {
         "datePretty": "Tuesday, January 30, 2024",
         "calendar": "Week of 4th Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2721,6 +3005,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/01/31": {
         "datePretty": "Wednesday, January 31, 2024",
         "calendar": "Week of 4th Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2767,6 +3052,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/01": {
         "datePretty": "Thursday, February 1, 2024",
         "calendar": "Week of 4th Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2813,6 +3099,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/02": {
         "datePretty": "Friday, February 2, 2024",
         "calendar": "Presentation of Jesus at the Temple",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2859,6 +3146,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/03": {
         "datePretty": "Saturday, February 3, 2024",
         "calendar": "Week of 4th Sunday after the Epiphany",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2905,6 +3193,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/04": {
         "datePretty": "Sunday, February 4, 2024",
         "calendar": "2nd Sunday before Lent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 104:26\u201337",
+                    "readQS": "Psalm+104:26-37",
+                    "audioQS": "Ps.104"
+                },
+                {
+                    "pretty": "Proverbs 8:1,22\u201331",
+                    "readQS": "Proverbs+8:1,22-31",
+                    "audioQS": "Prov.8"
+                },
+                {
+                    "pretty": "Colossians 1:15\u201320",
+                    "readQS": "Colossians+1:15-20",
+                    "audioQS": "Col.1"
+                },
+                {
+                    "pretty": "John 1:1\u201314",
+                    "readQS": "John+1:1-14",
+                    "audioQS": "John.1"
+                }
+            ],
+            "readQS": "Psalm+104:26-37%3B+Proverbs+8:1,22-31%3B+Colossians+1:15-20%3B+John+1:1-14",
+            "audioQS": "Ps.104,Prov.8,Col.1,John.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -2951,6 +3265,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/05": {
         "datePretty": "Monday, February 5, 2024",
         "calendar": "Week of 2nd Sunday before Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -2997,6 +3312,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/06": {
         "datePretty": "Tuesday, February 6, 2024",
         "calendar": "Week of 2nd Sunday before Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3043,6 +3359,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/07": {
         "datePretty": "Wednesday, February 7, 2024",
         "calendar": "Week of 2nd Sunday before Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3089,6 +3406,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/08": {
         "datePretty": "Thursday, February 8, 2024",
         "calendar": "Week of 2nd Sunday before Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3135,6 +3453,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/09": {
         "datePretty": "Friday, February 9, 2024",
         "calendar": "Week of 2nd Sunday before Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3181,6 +3500,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/10": {
         "datePretty": "Saturday, February 10, 2024",
         "calendar": "Week of 2nd Sunday before Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3232,6 +3552,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/11": {
         "datePretty": "Sunday, February 11, 2024",
         "calendar": "The Sunday before Lent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 50:1\u20136",
+                    "readQS": "Psalm+50:1-6",
+                    "audioQS": "Ps.50"
+                },
+                {
+                    "pretty": "2 Kings 2:1\u201312",
+                    "readQS": "2+Kings+2:1-12",
+                    "audioQS": "2Kgs.2"
+                },
+                {
+                    "pretty": "2 Corinthians 4:3\u20136",
+                    "readQS": "2+Corinthians+4:3-6",
+                    "audioQS": "2Cor.4"
+                },
+                {
+                    "pretty": "Mark 9:2\u20139",
+                    "readQS": "Mark+9:2-9",
+                    "audioQS": "Mark.9"
+                }
+            ],
+            "readQS": "Psalm+50:1-6%3B+2+Kings+2:1-12%3B+2+Corinthians+4:3-6%3B+Mark+9:2-9",
+            "audioQS": "Ps.50,2Kgs.2,2Cor.4,Mark.9"
+        },
         "morning": {
             "readings": [
                 {
@@ -3278,6 +3624,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/12": {
         "datePretty": "Monday, February 12, 2024",
         "calendar": "Week of the Sunday before Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3324,6 +3671,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/13": {
         "datePretty": "Tuesday, February 13, 2024",
         "calendar": "Shrove Tuesday",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3370,6 +3718,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/14": {
         "datePretty": "Wednesday, February 14, 2024",
         "calendar": "Ash Wednesday",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3416,6 +3765,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/15": {
         "datePretty": "Thursday, February 15, 2024",
         "calendar": "1st day of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3462,6 +3812,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/16": {
         "datePretty": "Friday, February 16, 2024",
         "calendar": "2nd day of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3508,6 +3859,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/17": {
         "datePretty": "Saturday, February 17, 2024",
         "calendar": "3rd day of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3554,6 +3906,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/18": {
         "datePretty": "Sunday, February 18, 2024",
         "calendar": "1st Sunday of Lent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 25:1\u20139",
+                    "readQS": "Psalm+25:1-9",
+                    "audioQS": "Ps.25"
+                },
+                {
+                    "pretty": "Genesis 9:8\u201317",
+                    "readQS": "Genesis+9:8-17",
+                    "audioQS": "Gen.9"
+                },
+                {
+                    "pretty": "1 Peter 3:18\u201322",
+                    "readQS": "1+Peter+3:18-22",
+                    "audioQS": "1Pet.3"
+                },
+                {
+                    "pretty": "Mark 1:9\u201315",
+                    "readQS": "Mark+1:9-15",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+25:1-9%3B+Genesis+9:8-17%3B+1+Peter+3:18-22%3B+Mark+1:9-15",
+            "audioQS": "Ps.25,Gen.9,1Pet.3,Mark.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -3600,6 +3978,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/19": {
         "datePretty": "Monday, February 19, 2024",
         "calendar": "Week of 1st Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3646,6 +4025,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/20": {
         "datePretty": "Tuesday, February 20, 2024",
         "calendar": "Week of 1st Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3692,6 +4072,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/21": {
         "datePretty": "Wednesday, February 21, 2024",
         "calendar": "Week of 1st Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3738,6 +4119,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/22": {
         "datePretty": "Thursday, February 22, 2024",
         "calendar": "Week of 1st Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3784,6 +4166,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/23": {
         "datePretty": "Friday, February 23, 2024",
         "calendar": "Week of 1st Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3830,6 +4213,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/24": {
         "datePretty": "Saturday, February 24, 2024",
         "calendar": "Week of 1st Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3876,6 +4260,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/25": {
         "datePretty": "Sunday, February 25, 2024",
         "calendar": "2nd Sunday of Lent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 22:23\u201331",
+                    "readQS": "Psalm+22:23-31",
+                    "audioQS": "Ps.22"
+                },
+                {
+                    "pretty": "Genesis 17:1\u20137,15,16",
+                    "readQS": "Genesis+17:1-7,15,16",
+                    "audioQS": "Gen.17"
+                },
+                {
+                    "pretty": "Romans 4:13\u201325",
+                    "readQS": "Romans+4:13-25",
+                    "audioQS": "Rom.4"
+                },
+                {
+                    "pretty": "Mark 8:31\u201338",
+                    "readQS": "Mark+8:31-38",
+                    "audioQS": "Mark.8"
+                }
+            ],
+            "readQS": "Psalm+22:23-31%3B+Genesis+17:1-7,15,16%3B+Romans+4:13-25%3B+Mark+8:31-38",
+            "audioQS": "Ps.22,Gen.17,Rom.4,Mark.8"
+        },
         "morning": {
             "readings": [
                 {
@@ -3922,6 +4332,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/26": {
         "datePretty": "Monday, February 26, 2024",
         "calendar": "Week of 2nd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -3968,6 +4379,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/27": {
         "datePretty": "Tuesday, February 27, 2024",
         "calendar": "Week of 2nd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4014,6 +4426,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/28": {
         "datePretty": "Wednesday, February 28, 2024",
         "calendar": "Week of 2nd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4060,6 +4473,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/02/29": {
         "datePretty": "Thursday, February 29, 2024",
         "calendar": "Week of 2nd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4106,6 +4520,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/01": {
         "datePretty": "Friday, March 1, 2024",
         "calendar": "Week of 2nd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4152,6 +4567,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/02": {
         "datePretty": "Saturday, March 2, 2024",
         "calendar": "Week of 2nd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4198,6 +4614,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/03": {
         "datePretty": "Sunday, March 3, 2024",
         "calendar": "3rd Sunday of Lent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 19",
+                    "readQS": "Psalm+19",
+                    "audioQS": "Ps.19"
+                },
+                {
+                    "pretty": "Exodus 20:1\u201317",
+                    "readQS": "Exodus+20:1-17",
+                    "audioQS": "Exod.20"
+                },
+                {
+                    "pretty": "1 Corinthians 1:18\u201325",
+                    "readQS": "1+Corinthians+1:18-25",
+                    "audioQS": "1Cor.1"
+                },
+                {
+                    "pretty": "John 2:13\u201322",
+                    "readQS": "John+2:13-22",
+                    "audioQS": "John.2"
+                }
+            ],
+            "readQS": "Psalm+19%3B+Exodus+20:1-17%3B+1+Corinthians+1:18-25%3B+John+2:13-22",
+            "audioQS": "Ps.19,Exod.20,1Cor.1,John.2"
+        },
         "morning": {
             "readings": [
                 {
@@ -4244,6 +4686,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/04": {
         "datePretty": "Monday, March 4, 2024",
         "calendar": "Week of 3rd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4290,6 +4733,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/05": {
         "datePretty": "Tuesday, March 5, 2024",
         "calendar": "Week of 3rd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4341,6 +4785,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/06": {
         "datePretty": "Wednesday, March 6, 2024",
         "calendar": "Week of 3rd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4387,6 +4832,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/07": {
         "datePretty": "Thursday, March 7, 2024",
         "calendar": "Week of 3rd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4438,6 +4884,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/08": {
         "datePretty": "Friday, March 8, 2024",
         "calendar": "Week of 3rd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4484,6 +4931,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/09": {
         "datePretty": "Saturday, March 9, 2024",
         "calendar": "Week of 3rd Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4530,6 +4978,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/10": {
         "datePretty": "Sunday, March 10, 2024",
         "calendar": "4th Sunday of Lent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 107:1\u20133,17\u201322",
+                    "readQS": "Psalm+107:1-3,17-22",
+                    "audioQS": "Ps.107"
+                },
+                {
+                    "pretty": "Numbers 21:4\u20139",
+                    "readQS": "Numbers+21:4-9",
+                    "audioQS": "Num.21"
+                },
+                {
+                    "pretty": "Ephesians 2:1\u201310",
+                    "readQS": "Ephesians+2:1-10",
+                    "audioQS": "Eph.2"
+                },
+                {
+                    "pretty": "John 3:14\u201321",
+                    "readQS": "John+3:14-21",
+                    "audioQS": "John.3"
+                }
+            ],
+            "readQS": "Psalm+107:1-3,17-22%3B+Numbers+21:4-9%3B+Ephesians+2:1-10%3B+John+3:14-21",
+            "audioQS": "Ps.107,Num.21,Eph.2,John.3"
+        },
         "morning": {
             "readings": [
                 {
@@ -4576,6 +5050,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/11": {
         "datePretty": "Monday, March 11, 2024",
         "calendar": "Week of 4th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4622,6 +5097,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/12": {
         "datePretty": "Tuesday, March 12, 2024",
         "calendar": "Week of 4th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4668,6 +5144,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/13": {
         "datePretty": "Wednesday, March 13, 2024",
         "calendar": "Week of 4th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4714,6 +5191,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/14": {
         "datePretty": "Thursday, March 14, 2024",
         "calendar": "Week of 4th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4760,6 +5238,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/15": {
         "datePretty": "Friday, March 15, 2024",
         "calendar": "Week of 4th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4806,6 +5285,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/16": {
         "datePretty": "Saturday, March 16, 2024",
         "calendar": "Week of 4th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4852,6 +5332,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/17": {
         "datePretty": "Sunday, March 17, 2024",
         "calendar": "5th Sunday of Lent - Passion Sunday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 51:1\u201313",
+                    "readQS": "Psalm+51:1-13",
+                    "audioQS": "Ps.51"
+                },
+                {
+                    "pretty": "Jeremiah 31:31\u201334",
+                    "readQS": "Jeremiah+31:31-34",
+                    "audioQS": "Jer.31"
+                },
+                {
+                    "pretty": "Hebrews 5:5\u201310",
+                    "readQS": "Hebrews+5:5-10",
+                    "audioQS": "Heb.5"
+                },
+                {
+                    "pretty": "John 12:20\u201333",
+                    "readQS": "John+12:20-33",
+                    "audioQS": "John.12"
+                }
+            ],
+            "readQS": "Psalm+51:1-13%3B+Jeremiah+31:31-34%3B+Hebrews+5:5-10%3B+John+12:20-33",
+            "audioQS": "Ps.51,Jer.31,Heb.5,John.12"
+        },
         "morning": {
             "readings": [
                 {
@@ -4898,6 +5404,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/18": {
         "datePretty": "Monday, March 18, 2024",
         "calendar": "Week of 5th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4944,6 +5451,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/19": {
         "datePretty": "Tuesday, March 19, 2024",
         "calendar": "St Joseph of Nazereth",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -4990,6 +5498,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/20": {
         "datePretty": "Wednesday, March 20, 2024",
         "calendar": "Week of 5th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5036,6 +5545,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/21": {
         "datePretty": "Thursday, March 21, 2024",
         "calendar": "Week of 5th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5082,6 +5592,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/22": {
         "datePretty": "Friday, March 22, 2024",
         "calendar": "Week of 5th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5128,6 +5639,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/23": {
         "datePretty": "Saturday, March 23, 2024",
         "calendar": "Week of 5th Sunday of Lent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5174,6 +5686,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/24": {
         "datePretty": "Sunday, March 24, 2024",
         "calendar": "6th Sunday of Lent - Palm Sunday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 31:9\u201316",
+                    "readQS": "Psalm+31:9-16",
+                    "audioQS": "Ps.31"
+                },
+                {
+                    "pretty": "Isaiah 50:4\u20139a",
+                    "readQS": "Isaiah+50:4-9a",
+                    "audioQS": "Isa.50"
+                },
+                {
+                    "pretty": "Philippians 2:5\u201312",
+                    "readQS": "Philippians+2:5-12",
+                    "audioQS": "Phil.2"
+                },
+                {
+                    "pretty": "Mark 14:1\u201315:47",
+                    "readQS": "Mark+14:1-15:47",
+                    "audioQS": "Mark.14"
+                }
+            ],
+            "readQS": "Psalm+31:9-16%3B+Isaiah+50:4-9a%3B+Philippians+2:5-12%3B+Mark+14:1-15:47",
+            "audioQS": "Ps.31,Isa.50,Phil.2,Mark.14"
+        },
         "morning": {
             "readings": [
                 {
@@ -5220,6 +5758,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/25": {
         "datePretty": "Monday, March 25, 2024",
         "calendar": "The Annunciation",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 36:5\u201311",
+                    "readQS": "Psalm+36:5-11",
+                    "audioQS": "Ps.36"
+                },
+                {
+                    "pretty": "Isaiah 42:1\u20139",
+                    "readQS": "Isaiah+42:1-9",
+                    "audioQS": "Isa.42"
+                },
+                {
+                    "pretty": "Hebrews 9:11\u201315",
+                    "readQS": "Hebrews+9:11-15",
+                    "audioQS": "Heb.9"
+                },
+                {
+                    "pretty": "John 12:1\u201311",
+                    "readQS": "John+12:1-11",
+                    "audioQS": "John.12"
+                }
+            ],
+            "readQS": "Psalm+36:5-11%3B+Isaiah+42:1-9%3B+Hebrews+9:11-15%3B+John+12:1-11",
+            "audioQS": "Ps.36,Isa.42,Heb.9,John.12"
+        },
         "morning": {
             "readings": [
                 {
@@ -5266,6 +5830,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/26": {
         "datePretty": "Tuesday, March 26, 2024",
         "calendar": "Tuesday in Holy Week",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 71:(1\u20138),9\u201314",
+                    "readQS": "Psalm+71:%281-8%29,9-14",
+                    "audioQS": "Ps.71"
+                },
+                {
+                    "pretty": "Isaiah 49:1\u20137",
+                    "readQS": "Isaiah+49:1-7",
+                    "audioQS": "Isa.49"
+                },
+                {
+                    "pretty": "1 Corinthians 1:18\u201331",
+                    "readQS": "1+Corinthians+1:18-31",
+                    "audioQS": "1Cor.1"
+                },
+                {
+                    "pretty": "John 12:20\u201336",
+                    "readQS": "John+12:20-36",
+                    "audioQS": "John.12"
+                }
+            ],
+            "readQS": "Psalm+71:%281-8%29,9-14%3B+Isaiah+49:1-7%3B+1+Corinthians+1:18-31%3B+John+12:20-36",
+            "audioQS": "Ps.71,Isa.49,1Cor.1,John.12"
+        },
         "morning": {
             "readings": [
                 {
@@ -5312,6 +5902,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/27": {
         "datePretty": "Wednesday, March 27, 2024",
         "calendar": "Wednesday in Holy Week",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 70",
+                    "readQS": "Psalm+70",
+                    "audioQS": "Ps.70"
+                },
+                {
+                    "pretty": "Isaiah 50:4\u20139a",
+                    "readQS": "Isaiah+50:4-9a",
+                    "audioQS": "Isa.50"
+                },
+                {
+                    "pretty": "Hebrews 12:1\u20133",
+                    "readQS": "Hebrews+12:1-3",
+                    "audioQS": "Heb.12"
+                },
+                {
+                    "pretty": "John 13:21\u201332",
+                    "readQS": "John+13:21-32",
+                    "audioQS": "John.13"
+                }
+            ],
+            "readQS": "Psalm+70%3B+Isaiah+50:4-9a%3B+Hebrews+12:1-3%3B+John+13:21-32",
+            "audioQS": "Ps.70,Isa.50,Heb.12,John.13"
+        },
         "morning": {
             "readings": [
                 {
@@ -5358,6 +5974,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/28": {
         "datePretty": "Thursday, March 28, 2024",
         "calendar": "Maundy Thursday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 116:1,10\u201317",
+                    "readQS": "Psalm+116:1,10-17",
+                    "audioQS": "Ps.116"
+                },
+                {
+                    "pretty": "Exodus 12:1\u20134,(5\u201310),11\u201314",
+                    "readQS": "Exodus+12:1-4,%285-10%29,11-14",
+                    "audioQS": "Exod.12"
+                },
+                {
+                    "pretty": "1 Corinthians 11:23\u201326",
+                    "readQS": "1+Corinthians+11:23-26",
+                    "audioQS": "1Cor.11"
+                },
+                {
+                    "pretty": "John 13:1\u201317,31b\u201335",
+                    "readQS": "John+13:1-17,31b-35",
+                    "audioQS": "John.13"
+                }
+            ],
+            "readQS": "Psalm+116:1,10-17%3B+Exodus+12:1-4,%285-10%29,11-14%3B+1+Corinthians+11:23-26%3B+John+13:1-17,31b-35",
+            "audioQS": "Ps.116,Exod.12,1Cor.11,John.13"
+        },
         "morning": {
             "readings": [
                 {
@@ -5404,6 +6046,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/29": {
         "datePretty": "Friday, March 29, 2024",
         "calendar": "Good Friday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 22",
+                    "readQS": "Psalm+22",
+                    "audioQS": "Ps.22"
+                },
+                {
+                    "pretty": "Isaiah 52:13\u201353:12",
+                    "readQS": "Isaiah+52:13-53:12",
+                    "audioQS": "Isa.52"
+                },
+                {
+                    "pretty": "Hebrews 10:16\u201325",
+                    "readQS": "Hebrews+10:16-25",
+                    "audioQS": "Heb.10"
+                },
+                {
+                    "pretty": "John 18:1\u201319:42",
+                    "readQS": "John+18:1-19:42",
+                    "audioQS": "John.18"
+                }
+            ],
+            "readQS": "Psalm+22%3B+Isaiah+52:13-53:12%3B+Hebrews+10:16-25%3B+John+18:1-19:42",
+            "audioQS": "Ps.22,Isa.52,Heb.10,John.18"
+        },
         "morning": {
             "readings": [
                 {
@@ -5450,6 +6118,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/30": {
         "datePretty": "Saturday, March 30, 2024",
         "calendar": "Holy Saturday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 31:1\u20134,15,16",
+                    "readQS": "Psalm+31:1-4,15,16",
+                    "audioQS": "Ps.31"
+                },
+                {
+                    "pretty": "Job 14:1\u201314",
+                    "readQS": "Job+14:1-14",
+                    "audioQS": "Job.14"
+                },
+                {
+                    "pretty": "1 Peter 4:1\u20138",
+                    "readQS": "1+Peter+4:1-8",
+                    "audioQS": "1Pet.4"
+                },
+                {
+                    "pretty": "Matthew 27:57\u201366",
+                    "readQS": "Matthew+27:57-66",
+                    "audioQS": "Matt.27"
+                }
+            ],
+            "readQS": "Psalm+31:1-4,15,16%3B+Job+14:1-14%3B+1+Peter+4:1-8%3B+Matthew+27:57-66",
+            "audioQS": "Ps.31,Job.14,1Pet.4,Matt.27"
+        },
         "morning": {
             "readings": [
                 {
@@ -5496,6 +6190,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/03/31": {
         "datePretty": "Sunday, March 31, 2024",
         "calendar": "Easter Sunday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 118:1\u20132,14\u201324",
+                    "readQS": "Psalm+118:1-2,14-24",
+                    "audioQS": "Ps.118"
+                },
+                {
+                    "pretty": "Acts 10:34\u201343",
+                    "readQS": "Acts+10:34-43",
+                    "audioQS": "Acts.10"
+                },
+                {
+                    "pretty": "1 Corinthians 15:1\u201311",
+                    "readQS": "1+Corinthians+15:1-11",
+                    "audioQS": "1Cor.15"
+                },
+                {
+                    "pretty": "John 20:1\u201318",
+                    "readQS": "John+20:1-18",
+                    "audioQS": "John.20"
+                }
+            ],
+            "readQS": "Psalm+118:1-2,14-24%3B+Acts+10:34-43%3B+1+Corinthians+15:1-11%3B+John+20:1-18",
+            "audioQS": "Ps.118,Acts.10,1Cor.15,John.20"
+        },
         "morning": {
             "readings": [
                 {
@@ -5542,6 +6262,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/01": {
         "datePretty": "Monday, April 1, 2024",
         "calendar": "Monday in Easter Week",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5588,6 +6309,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/02": {
         "datePretty": "Tuesday, April 2, 2024",
         "calendar": "Tuesday in Easter Week",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5634,6 +6356,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/03": {
         "datePretty": "Wednesday, April 3, 2024",
         "calendar": "Wednesday in Easter Week",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5680,6 +6403,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/04": {
         "datePretty": "Thursday, April 4, 2024",
         "calendar": "Thursday in Easter Week",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5726,6 +6450,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/05": {
         "datePretty": "Friday, April 5, 2024",
         "calendar": "Friday in Easter Week",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5772,6 +6497,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/06": {
         "datePretty": "Saturday, April 6, 2024",
         "calendar": "Saturday in Easter Week",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5818,6 +6544,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/07": {
         "datePretty": "Sunday, April 7, 2024",
         "calendar": "2nd Sunday of Easter",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 133",
+                    "readQS": "Psalm+133",
+                    "audioQS": "Ps.133"
+                },
+                {
+                    "pretty": "Acts 4:32\u201335",
+                    "readQS": "Acts+4:32-35",
+                    "audioQS": "Acts.4"
+                },
+                {
+                    "pretty": "1 John 1:1\u20132:2",
+                    "readQS": "1+John+1:1-2:2",
+                    "audioQS": "1John.1"
+                },
+                {
+                    "pretty": "John 20:19\u201331",
+                    "readQS": "John+20:19-31",
+                    "audioQS": "John.20"
+                }
+            ],
+            "readQS": "Psalm+133%3B+Acts+4:32-35%3B+1+John+1:1-2:2%3B+John+20:19-31",
+            "audioQS": "Ps.133,Acts.4,1John.1,John.20"
+        },
         "morning": {
             "readings": [
                 {
@@ -5864,6 +6616,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/08": {
         "datePretty": "Monday, April 8, 2024",
         "calendar": "Week of 2nd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5910,6 +6663,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/09": {
         "datePretty": "Tuesday, April 9, 2024",
         "calendar": "Week of 2nd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -5956,6 +6710,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/10": {
         "datePretty": "Wednesday, April 10, 2024",
         "calendar": "Week of 2nd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6002,6 +6757,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/11": {
         "datePretty": "Thursday, April 11, 2024",
         "calendar": "Week of 2nd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6048,6 +6804,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/12": {
         "datePretty": "Friday, April 12, 2024",
         "calendar": "Week of 2nd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6094,6 +6851,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/13": {
         "datePretty": "Saturday, April 13, 2024",
         "calendar": "Week of 2nd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6140,6 +6898,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/14": {
         "datePretty": "Sunday, April 14, 2024",
         "calendar": "3rd Sunday of Easter",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 4",
+                    "readQS": "Psalm+4",
+                    "audioQS": "Ps.4"
+                },
+                {
+                    "pretty": "Acts 3:12\u201319",
+                    "readQS": "Acts+3:12-19",
+                    "audioQS": "Acts.3"
+                },
+                {
+                    "pretty": "1 John 3:1\u20137",
+                    "readQS": "1+John+3:1-7",
+                    "audioQS": "1John.3"
+                },
+                {
+                    "pretty": "Luke 24:36b\u201348",
+                    "readQS": "Luke+24:36b-48",
+                    "audioQS": "Luke.24"
+                }
+            ],
+            "readQS": "Psalm+4%3B+Acts+3:12-19%3B+1+John+3:1-7%3B+Luke+24:36b-48",
+            "audioQS": "Ps.4,Acts.3,1John.3,Luke.24"
+        },
         "morning": {
             "readings": [
                 {
@@ -6186,6 +6970,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/15": {
         "datePretty": "Monday, April 15, 2024",
         "calendar": "Week of 3rd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6232,6 +7017,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/16": {
         "datePretty": "Tuesday, April 16, 2024",
         "calendar": "Week of 3rd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6278,6 +7064,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/17": {
         "datePretty": "Wednesday, April 17, 2024",
         "calendar": "Week of 3rd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6324,6 +7111,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/18": {
         "datePretty": "Thursday, April 18, 2024",
         "calendar": "Week of 3rd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6370,6 +7158,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/19": {
         "datePretty": "Friday, April 19, 2024",
         "calendar": "Week of 3rd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6416,6 +7205,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/20": {
         "datePretty": "Saturday, April 20, 2024",
         "calendar": "Week of 3rd Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6462,6 +7252,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/21": {
         "datePretty": "Sunday, April 21, 2024",
         "calendar": "4th Sunday of Easter",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
+                },
+                {
+                    "pretty": "Acts 4:5\u201312",
+                    "readQS": "Acts+4:5-12",
+                    "audioQS": "Acts.4"
+                },
+                {
+                    "pretty": "1 John 3:16\u201324",
+                    "readQS": "1+John+3:16-24",
+                    "audioQS": "1John.3"
+                },
+                {
+                    "pretty": "John 10:11\u201318",
+                    "readQS": "John+10:11-18",
+                    "audioQS": "John.10"
+                }
+            ],
+            "readQS": "Psalm+23%3B+Acts+4:5-12%3B+1+John+3:16-24%3B+John+10:11-18",
+            "audioQS": "Ps.23,Acts.4,1John.3,John.10"
+        },
         "morning": {
             "readings": [
                 {
@@ -6508,6 +7324,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/22": {
         "datePretty": "Monday, April 22, 2024",
         "calendar": "Week of 4th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6554,6 +7371,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/23": {
         "datePretty": "Tuesday, April 23, 2024",
         "calendar": "Week of 4th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6600,6 +7418,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/24": {
         "datePretty": "Wednesday, April 24, 2024",
         "calendar": "Week of 4th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6646,6 +7465,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/25": {
         "datePretty": "Thursday, April 25, 2024",
         "calendar": "Week of 4th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6692,6 +7512,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/26": {
         "datePretty": "Friday, April 26, 2024",
         "calendar": "St Mark the Evangelist",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6738,6 +7559,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/27": {
         "datePretty": "Saturday, April 27, 2024",
         "calendar": "Week of 4th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6784,6 +7606,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/28": {
         "datePretty": "Sunday, April 28, 2024",
         "calendar": "5th Sunday of Easter",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 22:25\u201331",
+                    "readQS": "Psalm+22:25-31",
+                    "audioQS": "Ps.22"
+                },
+                {
+                    "pretty": "Acts 8:26\u201340",
+                    "readQS": "Acts+8:26-40",
+                    "audioQS": "Acts.8"
+                },
+                {
+                    "pretty": "1 John 4:7\u201321",
+                    "readQS": "1+John+4:7-21",
+                    "audioQS": "1John.4"
+                },
+                {
+                    "pretty": "John 15:1\u20138",
+                    "readQS": "John+15:1-8",
+                    "audioQS": "John.15"
+                }
+            ],
+            "readQS": "Psalm+22:25-31%3B+Acts+8:26-40%3B+1+John+4:7-21%3B+John+15:1-8",
+            "audioQS": "Ps.22,Acts.8,1John.4,John.15"
+        },
         "morning": {
             "readings": [
                 {
@@ -6830,6 +7678,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/29": {
         "datePretty": "Monday, April 29, 2024",
         "calendar": "Week of 5th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6876,6 +7725,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/04/30": {
         "datePretty": "Tuesday, April 30, 2024",
         "calendar": "Week of 5th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6922,6 +7772,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/01": {
         "datePretty": "Wednesday, May 1, 2024",
         "calendar": "Week of 5th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -6968,6 +7819,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/02": {
         "datePretty": "Thursday, May 2, 2024",
         "calendar": "St Phillip and St James, Apostles",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7014,6 +7866,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/03": {
         "datePretty": "Friday, May 3, 2024",
         "calendar": "Week of 5th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7060,6 +7913,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/04": {
         "datePretty": "Saturday, May 4, 2024",
         "calendar": "Week of 5th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7106,6 +7960,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/05": {
         "datePretty": "Sunday, May 5, 2024",
         "calendar": "6th Sunday of Easter",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 98",
+                    "readQS": "Psalm+98",
+                    "audioQS": "Ps.98"
+                },
+                {
+                    "pretty": "Acts 10:44\u201348",
+                    "readQS": "Acts+10:44-48",
+                    "audioQS": "Acts.10"
+                },
+                {
+                    "pretty": "1 John 5:1\u20136",
+                    "readQS": "1+John+5:1-6",
+                    "audioQS": "1John.5"
+                },
+                {
+                    "pretty": "John 15:9\u201317",
+                    "readQS": "John+15:9-17",
+                    "audioQS": "John.15"
+                }
+            ],
+            "readQS": "Psalm+98%3B+Acts+10:44-48%3B+1+John+5:1-6%3B+John+15:9-17",
+            "audioQS": "Ps.98,Acts.10,1John.5,John.15"
+        },
         "morning": {
             "readings": [
                 {
@@ -7152,6 +8032,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/06": {
         "datePretty": "Monday, May 6, 2024",
         "calendar": "Week of 6th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7198,6 +8079,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/07": {
         "datePretty": "Tuesday, May 7, 2024",
         "calendar": "Week of 6th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7244,6 +8126,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/08": {
         "datePretty": "Wednesday, May 8, 2024",
         "calendar": "Week of 6th Sunday of Easter",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7290,6 +8173,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/09": {
         "datePretty": "Thursday, May 9, 2024",
         "calendar": "Ascension Day",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 47",
+                    "readQS": "Psalm+47",
+                    "audioQS": "Ps.47"
+                },
+                {
+                    "pretty": "Acts 1:1\u201311",
+                    "readQS": "Acts+1:1-11",
+                    "audioQS": "Acts.1"
+                },
+                {
+                    "pretty": "Ephesians 1:15\u201323",
+                    "readQS": "Ephesians+1:15-23",
+                    "audioQS": "Eph.1"
+                },
+                {
+                    "pretty": "Luke 24:44\u201353",
+                    "readQS": "Luke+24:44-53",
+                    "audioQS": "Luke.24"
+                }
+            ],
+            "readQS": "Psalm+47%3B+Acts+1:1-11%3B+Ephesians+1:15-23%3B+Luke+24:44-53",
+            "audioQS": "Ps.47,Acts.1,Eph.1,Luke.24"
+        },
         "morning": {
             "readings": [
                 {
@@ -7336,6 +8245,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/10": {
         "datePretty": "Friday, May 10, 2024",
         "calendar": "10 days between Ascension Day and Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7382,6 +8292,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/11": {
         "datePretty": "Saturday, May 11, 2024",
         "calendar": "10 days between Ascension Day and Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7428,6 +8339,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/12": {
         "datePretty": "Sunday, May 12, 2024",
         "calendar": "7th Sunday of Easter",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 1",
+                    "readQS": "Psalm+1",
+                    "audioQS": "Ps.1"
+                },
+                {
+                    "pretty": "Acts 1:15\u201317,21\u201326",
+                    "readQS": "Acts+1:15-17,21-26",
+                    "audioQS": "Acts.1"
+                },
+                {
+                    "pretty": "1 John 5:9\u201313",
+                    "readQS": "1+John+5:9-13",
+                    "audioQS": "1John.5"
+                },
+                {
+                    "pretty": "John 17:6\u201319",
+                    "readQS": "John+17:6-19",
+                    "audioQS": "John.17"
+                }
+            ],
+            "readQS": "Psalm+1%3B+Acts+1:15-17,21-26%3B+1+John+5:9-13%3B+John+17:6-19",
+            "audioQS": "Ps.1,Acts.1,1John.5,John.17"
+        },
         "morning": {
             "readings": [
                 {
@@ -7474,6 +8411,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/13": {
         "datePretty": "Monday, May 13, 2024",
         "calendar": "10 days between Ascension Day and Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7520,6 +8458,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/14": {
         "datePretty": "Tuesday, May 14, 2024",
         "calendar": "St Matthias the Apostle",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7566,6 +8505,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/15": {
         "datePretty": "Wednesday, May 15, 2024",
         "calendar": "10 days between Ascension Day and Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7612,6 +8552,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/16": {
         "datePretty": "Thursday, May 16, 2024",
         "calendar": "10 days between Ascension Day and Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7658,6 +8599,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/17": {
         "datePretty": "Friday, May 17, 2024",
         "calendar": "10 days between Ascension Day and Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7704,6 +8646,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/18": {
         "datePretty": "Saturday, May 18, 2024",
         "calendar": "10 days between Ascension Day and Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7750,6 +8693,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/19": {
         "datePretty": "Sunday, May 19, 2024",
         "calendar": "Day of Pentecost",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 104:26\u201336,37b",
+                    "readQS": "Psalm+104:26-36,37b",
+                    "audioQS": "Ps.104"
+                },
+                {
+                    "pretty": "Acts 2:1\u201321",
+                    "readQS": "Acts+2:1-21",
+                    "audioQS": "Acts.2"
+                },
+                {
+                    "pretty": "Romans 8:22\u201327",
+                    "readQS": "Romans+8:22-27",
+                    "audioQS": "Rom.8"
+                },
+                {
+                    "pretty": "John 15:26\u201327,16:4b\u201315",
+                    "readQS": "John+15:26-27,16:4b-15",
+                    "audioQS": "John.15"
+                }
+            ],
+            "readQS": "Psalm+104:26-36,37b%3B+Acts+2:1-21%3B+Romans+8:22-27%3B+John+15:26-27,16:4b-15",
+            "audioQS": "Ps.104,Acts.2,Rom.8,John.15"
+        },
         "morning": {
             "readings": [
                 {
@@ -7796,6 +8765,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/20": {
         "datePretty": "Monday, May 20, 2024",
         "calendar": "Week after Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7842,6 +8812,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/21": {
         "datePretty": "Tuesday, May 21, 2024",
         "calendar": "Week after Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7888,6 +8859,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/22": {
         "datePretty": "Wednesday, May 22, 2024",
         "calendar": "Week after Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7934,6 +8906,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/23": {
         "datePretty": "Thursday, May 23, 2024",
         "calendar": "Week after Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -7980,6 +8953,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/24": {
         "datePretty": "Friday, May 24, 2024",
         "calendar": "Week after Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8026,6 +9000,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/25": {
         "datePretty": "Saturday, May 25, 2024",
         "calendar": "Week after Pentecost",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8072,6 +9047,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/26": {
         "datePretty": "Sunday, May 26, 2024",
         "calendar": "Trinity Sunday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 29",
+                    "readQS": "Psalm+29",
+                    "audioQS": "Ps.29"
+                },
+                {
+                    "pretty": "Isaiah 6:1\u20138",
+                    "readQS": "Isaiah+6:1-8",
+                    "audioQS": "Isa.6"
+                },
+                {
+                    "pretty": "Romans 8:12\u201317",
+                    "readQS": "Romans+8:12-17",
+                    "audioQS": "Rom.8"
+                },
+                {
+                    "pretty": "John 3:1\u201317",
+                    "readQS": "John+3:1-17",
+                    "audioQS": "John.3"
+                }
+            ],
+            "readQS": "Psalm+29%3B+Isaiah+6:1-8%3B+Romans+8:12-17%3B+John+3:1-17",
+            "audioQS": "Ps.29,Isa.6,Rom.8,John.3"
+        },
         "morning": {
             "readings": [
                 {
@@ -8118,6 +9119,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/27": {
         "datePretty": "Monday, May 27, 2024",
         "calendar": "Week of Trinity Sunday",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8164,6 +9166,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/28": {
         "datePretty": "Tuesday, May 28, 2024",
         "calendar": "Week of Trinity Sunday",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8210,6 +9213,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/29": {
         "datePretty": "Wednesday, May 29, 2024",
         "calendar": "Week of Trinity Sunday",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8256,6 +9260,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/30": {
         "datePretty": "Thursday, May 30, 2024",
         "calendar": "Week of Trinity Sunday",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8302,6 +9307,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/05/31": {
         "datePretty": "Friday, May 31, 2024",
         "calendar": "The Visitation of Mary to Elizabeth",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8348,6 +9354,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/01": {
         "datePretty": "Saturday, June 1, 2024",
         "calendar": "Week of Trinity Sunday",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8394,6 +9401,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/02": {
         "datePretty": "Sunday, June 2, 2024",
         "calendar": "12th Sunday in Ordinary Time (Te Pouhere Sunday)",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 81:1\u201310",
+                    "readQS": "Psalm+81:1-10",
+                    "audioQS": "Ps.81"
+                },
+                {
+                    "pretty": "Deuteronomy 5:12\u201315",
+                    "readQS": "Deuteronomy+5:12-15",
+                    "audioQS": "Deut.5"
+                },
+                {
+                    "pretty": "2 Corinthians 4:5\u201312",
+                    "readQS": "2+Corinthians+4:5-12",
+                    "audioQS": "2Cor.4"
+                },
+                {
+                    "pretty": "Mark 2:23\u20133:6",
+                    "readQS": "Mark+2:23-3:6",
+                    "audioQS": "Mark.2"
+                }
+            ],
+            "readQS": "Psalm+81:1-10%3B+Deuteronomy+5:12-15%3B+2+Corinthians+4:5-12%3B+Mark+2:23-3:6",
+            "audioQS": "Ps.81,Deut.5,2Cor.4,Mark.2"
+        },
         "morning": {
             "readings": [
                 {
@@ -8440,6 +9473,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/03": {
         "datePretty": "Monday, June 3, 2024",
         "calendar": "Week of 12th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8486,6 +9520,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/04": {
         "datePretty": "Tuesday, June 4, 2024",
         "calendar": "Week of 12th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8532,6 +9567,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/05": {
         "datePretty": "Wednesday, June 5, 2024",
         "calendar": "Week of 12th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8578,6 +9614,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/06": {
         "datePretty": "Thursday, June 6, 2024",
         "calendar": "Week of 12th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8624,6 +9661,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/07": {
         "datePretty": "Friday, June 7, 2024",
         "calendar": "Week of 12th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8670,6 +9708,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/08": {
         "datePretty": "Saturday, June 8, 2024",
         "calendar": "Week of 12th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8716,6 +9755,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/09": {
         "datePretty": "Sunday, June 9, 2024",
         "calendar": "13th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 130",
+                    "readQS": "Psalm+130",
+                    "audioQS": "Ps.130"
+                },
+                {
+                    "pretty": "Genesis 3:8\u201315",
+                    "readQS": "Genesis+3:8-15",
+                    "audioQS": "Gen.3"
+                },
+                {
+                    "pretty": "2 Corinthians 4:13\u20135:1",
+                    "readQS": "2+Corinthians+4:13-5:1",
+                    "audioQS": "2Cor.4"
+                },
+                {
+                    "pretty": "Mark 3:20\u201335",
+                    "readQS": "Mark+3:20-35",
+                    "audioQS": "Mark.3"
+                }
+            ],
+            "readQS": "Psalm+130%3B+Genesis+3:8-15%3B+2+Corinthians+4:13-5:1%3B+Mark+3:20-35",
+            "audioQS": "Ps.130,Gen.3,2Cor.4,Mark.3"
+        },
         "morning": {
             "readings": [
                 {
@@ -8762,6 +9827,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/10": {
         "datePretty": "Monday, June 10, 2024",
         "calendar": "Week of 13th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8808,6 +9874,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/11": {
         "datePretty": "Tuesday, June 11, 2024",
         "calendar": "Barnabas the Apostle",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8854,6 +9921,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/12": {
         "datePretty": "Wednesday, June 12, 2024",
         "calendar": "Week of 13th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8900,6 +9968,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/13": {
         "datePretty": "Thursday, June 13, 2024",
         "calendar": "Week of 13th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8946,6 +10015,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/14": {
         "datePretty": "Friday, June 14, 2024",
         "calendar": "Week of 13th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -8992,6 +10062,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/15": {
         "datePretty": "Saturday, June 15, 2024",
         "calendar": "Week of 13th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9038,6 +10109,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/16": {
         "datePretty": "Sunday, June 16, 2024",
         "calendar": "14th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 92:1\u20134,12\u201315",
+                    "readQS": "Psalm+92:1-4,12-15",
+                    "audioQS": "Ps.92"
+                },
+                {
+                    "pretty": "Ezekiel 17:22\u201324",
+                    "readQS": "Ezekiel+17:22-24",
+                    "audioQS": "Ezek.17"
+                },
+                {
+                    "pretty": "2 Corinthians 5:6\u201310,(11\u201313),14\u201317",
+                    "readQS": "2+Corinthians+5:6-10,%2811-13%29,14-17",
+                    "audioQS": "2Cor.5"
+                },
+                {
+                    "pretty": "Mark 4:26\u201334",
+                    "readQS": "Mark+4:26-34",
+                    "audioQS": "Mark.4"
+                }
+            ],
+            "readQS": "Psalm+92:1-4,12-15%3B+Ezekiel+17:22-24%3B+2+Corinthians+5:6-10,%2811-13%29,14-17%3B+Mark+4:26-34",
+            "audioQS": "Ps.92,Ezek.17,2Cor.5,Mark.4"
+        },
         "morning": {
             "readings": [
                 {
@@ -9084,6 +10181,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/17": {
         "datePretty": "Monday, June 17, 2024",
         "calendar": "Week of 14th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9130,6 +10228,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/18": {
         "datePretty": "Tuesday, June 18, 2024",
         "calendar": "Week of 14th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9176,6 +10275,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/19": {
         "datePretty": "Wednesday, June 19, 2024",
         "calendar": "Week of 14th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9222,6 +10322,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/20": {
         "datePretty": "Thursday, June 20, 2024",
         "calendar": "Week of 14th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9268,6 +10369,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/21": {
         "datePretty": "Friday, June 21, 2024",
         "calendar": "Week of 14th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9314,6 +10416,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/22": {
         "datePretty": "Saturday, June 22, 2024",
         "calendar": "Week of 14th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9360,6 +10463,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/23": {
         "datePretty": "Sunday, June 23, 2024",
         "calendar": "15th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 107:1\u20133,23\u201332",
+                    "readQS": "Psalm+107:1-3,23-32",
+                    "audioQS": "Ps.107"
+                },
+                {
+                    "pretty": "Job 38:1\u201311",
+                    "readQS": "Job+38:1-11",
+                    "audioQS": "Job.38"
+                },
+                {
+                    "pretty": "2 Corinthians 6:1\u201313",
+                    "readQS": "2+Corinthians+6:1-13",
+                    "audioQS": "2Cor.6"
+                },
+                {
+                    "pretty": "Mark 4:35\u201341",
+                    "readQS": "Mark+4:35-41",
+                    "audioQS": "Mark.4"
+                }
+            ],
+            "readQS": "Psalm+107:1-3,23-32%3B+Job+38:1-11%3B+2+Corinthians+6:1-13%3B+Mark+4:35-41",
+            "audioQS": "Ps.107,Job.38,2Cor.6,Mark.4"
+        },
         "morning": {
             "readings": [
                 {
@@ -9406,6 +10535,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/24": {
         "datePretty": "Monday, June 24, 2024",
         "calendar": "St John the Baptist",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9452,6 +10582,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/25": {
         "datePretty": "Tuesday, June 25, 2024",
         "calendar": "Week of 15th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9498,6 +10629,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/26": {
         "datePretty": "Wednesday, June 26, 2024",
         "calendar": "Week of 15th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9544,6 +10676,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/27": {
         "datePretty": "Thursday, June 27, 2024",
         "calendar": "Week of 15th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9590,6 +10723,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/28": {
         "datePretty": "Friday, June 28, 2024",
         "calendar": "Week of 15th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9636,6 +10770,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/29": {
         "datePretty": "Saturday, June 29, 2024",
         "calendar": "St Peter and St Paul, Apostles, Martyrs",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9682,6 +10817,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/06/30": {
         "datePretty": "Sunday, June 30, 2024",
         "calendar": "16th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 30",
+                    "readQS": "Psalm+30",
+                    "audioQS": "Ps.30"
+                },
+                {
+                    "pretty": "Lamentations 3:23\u201333",
+                    "readQS": "Lamentations+3:23-33",
+                    "audioQS": "Lam.3"
+                },
+                {
+                    "pretty": "2 Corinthians 8:7\u201315",
+                    "readQS": "2+Corinthians+8:7-15",
+                    "audioQS": "2Cor.8"
+                },
+                {
+                    "pretty": "Mark 5:21\u201343",
+                    "readQS": "Mark+5:21-43",
+                    "audioQS": "Mark.5"
+                }
+            ],
+            "readQS": "Psalm+30%3B+Lamentations+3:23-33%3B+2+Corinthians+8:7-15%3B+Mark+5:21-43",
+            "audioQS": "Ps.30,Lam.3,2Cor.8,Mark.5"
+        },
         "morning": {
             "readings": [
                 {
@@ -9728,6 +10889,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/01": {
         "datePretty": "Monday, July 1, 2024",
         "calendar": "Week of 16th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9774,6 +10936,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/02": {
         "datePretty": "Tuesday, July 2, 2024",
         "calendar": "Week of 16th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9820,6 +10983,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/03": {
         "datePretty": "Wednesday, July 3, 2024",
         "calendar": "Thomas the Apostle",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9866,6 +11030,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/04": {
         "datePretty": "Thursday, July 4, 2024",
         "calendar": "Week of 16th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9912,6 +11077,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/05": {
         "datePretty": "Friday, July 5, 2024",
         "calendar": "Week of 16th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -9958,6 +11124,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/06": {
         "datePretty": "Saturday, July 6, 2024",
         "calendar": "Week of 16th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10004,6 +11171,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/07": {
         "datePretty": "Sunday, July 7, 2024",
         "calendar": "17th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 123",
+                    "readQS": "Psalm+123",
+                    "audioQS": "Ps.123"
+                },
+                {
+                    "pretty": "Ezekiel 2:1\u20135",
+                    "readQS": "Ezekiel+2:1-5",
+                    "audioQS": "Ezek.2"
+                },
+                {
+                    "pretty": "2 Corinthians 12:2\u201310",
+                    "readQS": "2+Corinthians+12:2-10",
+                    "audioQS": "2Cor.12"
+                },
+                {
+                    "pretty": "Mark 6:1\u201313",
+                    "readQS": "Mark+6:1-13",
+                    "audioQS": "Mark.6"
+                }
+            ],
+            "readQS": "Psalm+123%3B+Ezekiel+2:1-5%3B+2+Corinthians+12:2-10%3B+Mark+6:1-13",
+            "audioQS": "Ps.123,Ezek.2,2Cor.12,Mark.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -10050,6 +11243,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/08": {
         "datePretty": "Monday, July 8, 2024",
         "calendar": "Week of 17th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10096,6 +11290,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/09": {
         "datePretty": "Tuesday, July 9, 2024",
         "calendar": "Week of 17th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10142,6 +11337,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/10": {
         "datePretty": "Wednesday, July 10, 2024",
         "calendar": "Week of 17th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10188,6 +11384,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/11": {
         "datePretty": "Thursday, July 11, 2024",
         "calendar": "Week of 17th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10234,6 +11431,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/12": {
         "datePretty": "Friday, July 12, 2024",
         "calendar": "Week of 17th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10280,6 +11478,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/13": {
         "datePretty": "Saturday, July 13, 2024",
         "calendar": "Week of 17th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10326,6 +11525,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/14": {
         "datePretty": "Sunday, July 14, 2024",
         "calendar": "18th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 85:8\u201313",
+                    "readQS": "Psalm+85:8-13",
+                    "audioQS": "Ps.85"
+                },
+                {
+                    "pretty": "Amos 7:7\u201315",
+                    "readQS": "Amos+7:7-15",
+                    "audioQS": "Amos.7"
+                },
+                {
+                    "pretty": "Ephesians 1:3\u201314",
+                    "readQS": "Ephesians+1:3-14",
+                    "audioQS": "Eph.1"
+                },
+                {
+                    "pretty": "Mark 6:14\u201329",
+                    "readQS": "Mark+6:14-29",
+                    "audioQS": "Mark.6"
+                }
+            ],
+            "readQS": "Psalm+85:8-13%3B+Amos+7:7-15%3B+Ephesians+1:3-14%3B+Mark+6:14-29",
+            "audioQS": "Ps.85,Amos.7,Eph.1,Mark.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -10372,6 +11597,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/15": {
         "datePretty": "Monday, July 15, 2024",
         "calendar": "Week of 18th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10418,6 +11644,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/16": {
         "datePretty": "Tuesday, July 16, 2024",
         "calendar": "Week of 18th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10464,6 +11691,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/17": {
         "datePretty": "Wednesday, July 17, 2024",
         "calendar": "Week of 18th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10510,6 +11738,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/18": {
         "datePretty": "Thursday, July 18, 2024",
         "calendar": "Week of 18th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10556,6 +11785,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/19": {
         "datePretty": "Friday, July 19, 2024",
         "calendar": "Week of 18th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10602,6 +11832,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/20": {
         "datePretty": "Saturday, July 20, 2024",
         "calendar": "Week of 18th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10648,6 +11879,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/21": {
         "datePretty": "Sunday, July 21, 2024",
         "calendar": "19th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 23",
+                    "readQS": "Psalm+23",
+                    "audioQS": "Ps.23"
+                },
+                {
+                    "pretty": "Jeremiah 23:1\u20136",
+                    "readQS": "Jeremiah+23:1-6",
+                    "audioQS": "Jer.23"
+                },
+                {
+                    "pretty": "Ephesians 2:11\u201322",
+                    "readQS": "Ephesians+2:11-22",
+                    "audioQS": "Eph.2"
+                },
+                {
+                    "pretty": "Mark 6:30\u201334,53\u201356",
+                    "readQS": "Mark+6:30-34,53-56",
+                    "audioQS": "Mark.6"
+                }
+            ],
+            "readQS": "Psalm+23%3B+Jeremiah+23:1-6%3B+Ephesians+2:11-22%3B+Mark+6:30-34,53-56",
+            "audioQS": "Ps.23,Jer.23,Eph.2,Mark.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -10694,6 +11951,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/22": {
         "datePretty": "Monday, July 22, 2024",
         "calendar": "St Mary Magdalene",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10740,6 +11998,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/23": {
         "datePretty": "Tuesday, July 23, 2024",
         "calendar": "Week of 19th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10786,6 +12045,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/24": {
         "datePretty": "Wednesday, July 24, 2024",
         "calendar": "Week of 19th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10832,6 +12092,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/25": {
         "datePretty": "Thursday, July 25, 2024",
         "calendar": "St James the Apostle",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10878,6 +12139,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/26": {
         "datePretty": "Friday, July 26, 2024",
         "calendar": "Week of 19th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10924,6 +12186,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/27": {
         "datePretty": "Saturday, July 27, 2024",
         "calendar": "Week of 19th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -10970,6 +12233,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/28": {
         "datePretty": "Sunday, July 28, 2024",
         "calendar": "20th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 145:10\u201319",
+                    "readQS": "Psalm+145:10-19",
+                    "audioQS": "Ps.145"
+                },
+                {
+                    "pretty": "2 Kings 4:42\u201344",
+                    "readQS": "2+Kings+4:42-44",
+                    "audioQS": "2Kgs.4"
+                },
+                {
+                    "pretty": "Ephesians 3:14\u201321",
+                    "readQS": "Ephesians+3:14-21",
+                    "audioQS": "Eph.3"
+                },
+                {
+                    "pretty": "John 6:1\u201321",
+                    "readQS": "John+6:1-21",
+                    "audioQS": "John.6"
+                }
+            ],
+            "readQS": "Psalm+145:10-19%3B+2+Kings+4:42-44%3B+Ephesians+3:14-21%3B+John+6:1-21",
+            "audioQS": "Ps.145,2Kgs.4,Eph.3,John.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -11016,6 +12305,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/29": {
         "datePretty": "Monday, July 29, 2024",
         "calendar": "Week of 20th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11062,6 +12352,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/30": {
         "datePretty": "Tuesday, July 30, 2024",
         "calendar": "Week of 20th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11108,6 +12399,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/07/31": {
         "datePretty": "Wednesday, July 31, 2024",
         "calendar": "Week of 20th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11154,6 +12446,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/01": {
         "datePretty": "Thursday, August 1, 2024",
         "calendar": "Week of 20th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11200,6 +12493,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/02": {
         "datePretty": "Friday, August 2, 2024",
         "calendar": "Week of 20th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11246,6 +12540,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/03": {
         "datePretty": "Saturday, August 3, 2024",
         "calendar": "Week of 20th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11292,6 +12587,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/04": {
         "datePretty": "Sunday, August 4, 2024",
         "calendar": "21st Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 78:23\u201329",
+                    "readQS": "Psalm+78:23-29",
+                    "audioQS": "Ps.78"
+                },
+                {
+                    "pretty": "Exodus 16:2\u20134,9\u201315",
+                    "readQS": "Exodus+16:2-4,9-15",
+                    "audioQS": "Exod.16"
+                },
+                {
+                    "pretty": "Ephesians 4:1\u201316",
+                    "readQS": "Ephesians+4:1-16",
+                    "audioQS": "Eph.4"
+                },
+                {
+                    "pretty": "John 6:24\u201335",
+                    "readQS": "John+6:24-35",
+                    "audioQS": "John.6"
+                }
+            ],
+            "readQS": "Psalm+78:23-29%3B+Exodus+16:2-4,9-15%3B+Ephesians+4:1-16%3B+John+6:24-35",
+            "audioQS": "Ps.78,Exod.16,Eph.4,John.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -11338,6 +12659,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/05": {
         "datePretty": "Monday, August 5, 2024",
         "calendar": "Week of 21st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11384,6 +12706,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/06": {
         "datePretty": "Tuesday, August 6, 2024",
         "calendar": "The Transfiguration of the Beloved Son",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11430,6 +12753,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/07": {
         "datePretty": "Wednesday, August 7, 2024",
         "calendar": "Week of 21st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11476,6 +12800,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/08": {
         "datePretty": "Thursday, August 8, 2024",
         "calendar": "Week of 21st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11522,6 +12847,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/09": {
         "datePretty": "Friday, August 9, 2024",
         "calendar": "Week of 21st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11568,6 +12894,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/10": {
         "datePretty": "Saturday, August 10, 2024",
         "calendar": "Week of 21st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11614,6 +12941,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/11": {
         "datePretty": "Sunday, August 11, 2024",
         "calendar": "22nd Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34:1\u20138",
+                    "readQS": "Psalm+34:1-8",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "1 Kings 19:4\u20138",
+                    "readQS": "1+Kings+19:4-8",
+                    "audioQS": "1Kgs.19"
+                },
+                {
+                    "pretty": "Ephesians 4:25\u20135:2",
+                    "readQS": "Ephesians+4:25-5:2",
+                    "audioQS": "Eph.4"
+                },
+                {
+                    "pretty": "John 6:35,41\u201351,41\u201351",
+                    "readQS": "John+6:35,41-51,41-51",
+                    "audioQS": "John.6"
+                }
+            ],
+            "readQS": "Psalm+34:1-8%3B+1+Kings+19:4-8%3B+Ephesians+4:25-5:2%3B+John+6:35,41-51,41-51",
+            "audioQS": "Ps.34,1Kgs.19,Eph.4,John.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -11660,6 +13013,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/12": {
         "datePretty": "Monday, August 12, 2024",
         "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11706,6 +13060,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/13": {
         "datePretty": "Tuesday, August 13, 2024",
         "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11752,6 +13107,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/14": {
         "datePretty": "Wednesday, August 14, 2024",
         "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11798,6 +13154,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/15": {
         "datePretty": "Thursday, August 15, 2024",
         "calendar": "The Blessed Virgin Mary",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11844,6 +13201,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/16": {
         "datePretty": "Friday, August 16, 2024",
         "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11890,6 +13248,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/17": {
         "datePretty": "Saturday, August 17, 2024",
         "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -11936,6 +13295,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/18": {
         "datePretty": "Sunday, August 18, 2024",
         "calendar": "23rd Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34:9\u201314",
+                    "readQS": "Psalm+34:9-14",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "Proverbs 9:1\u20136",
+                    "readQS": "Proverbs+9:1-6",
+                    "audioQS": "Prov.9"
+                },
+                {
+                    "pretty": "Ephesians 5:15\u201320",
+                    "readQS": "Ephesians+5:15-20",
+                    "audioQS": "Eph.5"
+                },
+                {
+                    "pretty": "John 6:51\u201358",
+                    "readQS": "John+6:51-58",
+                    "audioQS": "John.6"
+                }
+            ],
+            "readQS": "Psalm+34:9-14%3B+Proverbs+9:1-6%3B+Ephesians+5:15-20%3B+John+6:51-58",
+            "audioQS": "Ps.34,Prov.9,Eph.5,John.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -11982,6 +13367,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/19": {
         "datePretty": "Monday, August 19, 2024",
         "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12028,6 +13414,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/20": {
         "datePretty": "Tuesday, August 20, 2024",
         "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12074,6 +13461,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/21": {
         "datePretty": "Wednesday, August 21, 2024",
         "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12120,6 +13508,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/22": {
         "datePretty": "Thursday, August 22, 2024",
         "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12166,6 +13555,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/23": {
         "datePretty": "Friday, August 23, 2024",
         "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12212,6 +13602,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/24": {
         "datePretty": "Saturday, August 24, 2024",
         "calendar": "St Bartholomew the Apostle",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12258,6 +13649,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/25": {
         "datePretty": "Sunday, August 25, 2024",
         "calendar": "24th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 34:15\u201322",
+                    "readQS": "Psalm+34:15-22",
+                    "audioQS": "Ps.34"
+                },
+                {
+                    "pretty": "Joshua 24:1\u20132a,14\u201318",
+                    "readQS": "Joshua+24:1-2a,14-18",
+                    "audioQS": "Josh.24"
+                },
+                {
+                    "pretty": "Ephesians 6:10\u201320",
+                    "readQS": "Ephesians+6:10-20",
+                    "audioQS": "Eph.6"
+                },
+                {
+                    "pretty": "John 6:56\u201369",
+                    "readQS": "John+6:56-69",
+                    "audioQS": "John.6"
+                }
+            ],
+            "readQS": "Psalm+34:15-22%3B+Joshua+24:1-2a,14-18%3B+Ephesians+6:10-20%3B+John+6:56-69",
+            "audioQS": "Ps.34,Josh.24,Eph.6,John.6"
+        },
         "morning": {
             "readings": [
                 {
@@ -12304,6 +13721,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/26": {
         "datePretty": "Monday, August 26, 2024",
         "calendar": "Week of 24th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12350,6 +13768,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/27": {
         "datePretty": "Tuesday, August 27, 2024",
         "calendar": "Week of 24th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12396,6 +13815,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/28": {
         "datePretty": "Wednesday, August 28, 2024",
         "calendar": "Week of 24th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12442,6 +13862,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/29": {
         "datePretty": "Thursday, August 29, 2024",
         "calendar": "Week of 24th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12488,6 +13909,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/30": {
         "datePretty": "Friday, August 30, 2024",
         "calendar": "Week of 24th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12534,6 +13956,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/08/31": {
         "datePretty": "Saturday, August 31, 2024",
         "calendar": "Week of 24th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12580,6 +14003,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/01": {
         "datePretty": "Sunday, September 1, 2024",
         "calendar": "25th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 15",
+                    "readQS": "Psalm+15",
+                    "audioQS": "Ps.15"
+                },
+                {
+                    "pretty": "Deuteronomy 4:1\u20132,6\u20139",
+                    "readQS": "Deuteronomy+4:1-2,6-9",
+                    "audioQS": "Deut.4"
+                },
+                {
+                    "pretty": "James 1:17\u201327",
+                    "readQS": "James+1:17-27",
+                    "audioQS": "Jas.1"
+                },
+                {
+                    "pretty": "Mark 7:1\u20138,14\u201315,21\u201323",
+                    "readQS": "Mark+7:1-8,14-15,21-23",
+                    "audioQS": "Mark.7"
+                }
+            ],
+            "readQS": "Psalm+15%3B+Deuteronomy+4:1-2,6-9%3B+James+1:17-27%3B+Mark+7:1-8,14-15,21-23",
+            "audioQS": "Ps.15,Deut.4,Jas.1,Mark.7"
+        },
         "morning": {
             "readings": [
                 {
@@ -12626,6 +14075,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/02": {
         "datePretty": "Monday, September 2, 2024",
         "calendar": "Week of 25th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12672,6 +14122,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/03": {
         "datePretty": "Tuesday, September 3, 2024",
         "calendar": "Week of 25th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12718,6 +14169,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/04": {
         "datePretty": "Wednesday, September 4, 2024",
         "calendar": "Week of 25th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12764,6 +14216,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/05": {
         "datePretty": "Thursday, September 5, 2024",
         "calendar": "Week of 25th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12810,6 +14263,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/06": {
         "datePretty": "Friday, September 6, 2024",
         "calendar": "Week of 25th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12856,6 +14310,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/07": {
         "datePretty": "Saturday, September 7, 2024",
         "calendar": "Week of 25th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12902,6 +14357,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/08": {
         "datePretty": "Sunday, September 8, 2024",
         "calendar": "26th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 146",
+                    "readQS": "Psalm+146",
+                    "audioQS": "Ps.146"
+                },
+                {
+                    "pretty": "Isaiah 35:4\u20137a",
+                    "readQS": "Isaiah+35:4-7a",
+                    "audioQS": "Isa.35"
+                },
+                {
+                    "pretty": "James 2:1\u201310,(11\u201313),14\u201317",
+                    "readQS": "James+2:1-10,%2811-13%29,14-17",
+                    "audioQS": "Jas.2"
+                },
+                {
+                    "pretty": "Mark 7:24\u201337",
+                    "readQS": "Mark+7:24-37",
+                    "audioQS": "Mark.7"
+                }
+            ],
+            "readQS": "Psalm+146%3B+Isaiah+35:4-7a%3B+James+2:1-10,%2811-13%29,14-17%3B+Mark+7:24-37",
+            "audioQS": "Ps.146,Isa.35,Jas.2,Mark.7"
+        },
         "morning": {
             "readings": [
                 {
@@ -12948,6 +14429,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/09": {
         "datePretty": "Monday, September 9, 2024",
         "calendar": "Week of 26th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -12994,6 +14476,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/10": {
         "datePretty": "Tuesday, September 10, 2024",
         "calendar": "Week of 26th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13040,6 +14523,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/11": {
         "datePretty": "Wednesday, September 11, 2024",
         "calendar": "Week of 26th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13086,6 +14570,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/12": {
         "datePretty": "Thursday, September 12, 2024",
         "calendar": "Week of 26th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13132,6 +14617,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/13": {
         "datePretty": "Friday, September 13, 2024",
         "calendar": "Week of 26th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13178,6 +14664,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/14": {
         "datePretty": "Saturday, September 14, 2024",
         "calendar": "Holy Cross Day",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13224,6 +14711,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/15": {
         "datePretty": "Sunday, September 15, 2024",
         "calendar": "27th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 116:1\u20138",
+                    "readQS": "Psalm+116:1-8",
+                    "audioQS": "Ps.116"
+                },
+                {
+                    "pretty": "Isaiah 50:4\u20139a",
+                    "readQS": "Isaiah+50:4-9a",
+                    "audioQS": "Isa.50"
+                },
+                {
+                    "pretty": "James 3:1\u201312",
+                    "readQS": "James+3:1-12",
+                    "audioQS": "Jas.3"
+                },
+                {
+                    "pretty": "Mark 8:27\u201338",
+                    "readQS": "Mark+8:27-38",
+                    "audioQS": "Mark.8"
+                }
+            ],
+            "readQS": "Psalm+116:1-8%3B+Isaiah+50:4-9a%3B+James+3:1-12%3B+Mark+8:27-38",
+            "audioQS": "Ps.116,Isa.50,Jas.3,Mark.8"
+        },
         "morning": {
             "readings": [
                 {
@@ -13270,6 +14783,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/16": {
         "datePretty": "Monday, September 16, 2024",
         "calendar": "Week of 27th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13316,6 +14830,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/17": {
         "datePretty": "Tuesday, September 17, 2024",
         "calendar": "Week of 27th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13362,6 +14877,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/18": {
         "datePretty": "Wednesday, September 18, 2024",
         "calendar": "Week of 27th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13408,6 +14924,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/19": {
         "datePretty": "Thursday, September 19, 2024",
         "calendar": "Week of 27th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13454,6 +14971,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/20": {
         "datePretty": "Friday, September 20, 2024",
         "calendar": "Week of 27th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13500,6 +15018,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/21": {
         "datePretty": "Saturday, September 21, 2024",
         "calendar": "St Matthew, Apostle and Evangelist",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13546,6 +15065,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/22": {
         "datePretty": "Sunday, September 22, 2024",
         "calendar": "28th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 54",
+                    "readQS": "Psalm+54",
+                    "audioQS": "Ps.54"
+                },
+                {
+                    "pretty": "Jeremiah 11:18\u201320",
+                    "readQS": "Jeremiah+11:18-20",
+                    "audioQS": "Jer.11"
+                },
+                {
+                    "pretty": "James 3:13\u20134:3,7\u20138a",
+                    "readQS": "James+3:13-4:3,7-8a",
+                    "audioQS": "Jas.3"
+                },
+                {
+                    "pretty": "Mark 9:30\u201337",
+                    "readQS": "Mark+9:30-37",
+                    "audioQS": "Mark.9"
+                }
+            ],
+            "readQS": "Psalm+54%3B+Jeremiah+11:18-20%3B+James+3:13-4:3,7-8a%3B+Mark+9:30-37",
+            "audioQS": "Ps.54,Jer.11,Jas.3,Mark.9"
+        },
         "morning": {
             "readings": [
                 {
@@ -13592,6 +15137,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/23": {
         "datePretty": "Monday, September 23, 2024",
         "calendar": "Week of 28th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13638,6 +15184,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/24": {
         "datePretty": "Tuesday, September 24, 2024",
         "calendar": "Week of 28th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13684,6 +15231,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/25": {
         "datePretty": "Wednesday, September 25, 2024",
         "calendar": "Week of 28th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13730,6 +15278,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/26": {
         "datePretty": "Thursday, September 26, 2024",
         "calendar": "Week of 28th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13776,6 +15325,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/27": {
         "datePretty": "Friday, September 27, 2024",
         "calendar": "Week of 28th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13822,6 +15372,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/28": {
         "datePretty": "Saturday, September 28, 2024",
         "calendar": "Week of 28th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13868,6 +15419,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/29": {
         "datePretty": "Sunday, September 29, 2024",
         "calendar": "St Michael and All Angels / Michaelmas",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 19:7\u201314",
+                    "readQS": "Psalm+19:7-14",
+                    "audioQS": "Ps.19"
+                },
+                {
+                    "pretty": "Numbers 11:4\u20136,10\u201316,24\u201329",
+                    "readQS": "Numbers+11:4-6,10-16,24-29",
+                    "audioQS": "Num.11"
+                },
+                {
+                    "pretty": "James 5:13\u201320",
+                    "readQS": "James+5:13-20",
+                    "audioQS": "Jas.5"
+                },
+                {
+                    "pretty": "Mark 9:38\u201350",
+                    "readQS": "Mark+9:38-50",
+                    "audioQS": "Mark.9"
+                }
+            ],
+            "readQS": "Psalm+19:7-14%3B+Numbers+11:4-6,10-16,24-29%3B+James+5:13-20%3B+Mark+9:38-50",
+            "audioQS": "Ps.19,Num.11,Jas.5,Mark.9"
+        },
         "morning": {
             "readings": [
                 {
@@ -13914,6 +15491,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/09/30": {
         "datePretty": "Monday, September 30, 2024",
         "calendar": "Week of 29th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -13960,6 +15538,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/01": {
         "datePretty": "Tuesday, October 1, 2024",
         "calendar": "Week of 29th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14006,6 +15585,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/02": {
         "datePretty": "Wednesday, October 2, 2024",
         "calendar": "Week of 29th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14057,6 +15637,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/03": {
         "datePretty": "Thursday, October 3, 2024",
         "calendar": "Week of 29th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14103,6 +15684,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/04": {
         "datePretty": "Friday, October 4, 2024",
         "calendar": "Week of 29th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14154,6 +15736,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/05": {
         "datePretty": "Saturday, October 5, 2024",
         "calendar": "Week of 29th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14200,6 +15783,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/06": {
         "datePretty": "Sunday, October 6, 2024",
         "calendar": "30th Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 8",
+                    "readQS": "Psalm+8",
+                    "audioQS": "Ps.8"
+                },
+                {
+                    "pretty": "Genesis 2:18\u201324",
+                    "readQS": "Genesis+2:18-24",
+                    "audioQS": "Gen.2"
+                },
+                {
+                    "pretty": "Hebrews 1:1\u20134,2:5\u201312",
+                    "readQS": "Hebrews+1:1-4,2:5-12",
+                    "audioQS": "Heb.1"
+                },
+                {
+                    "pretty": "Mark 10:2\u201316",
+                    "readQS": "Mark+10:2-16",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+8%3B+Genesis+2:18-24%3B+Hebrews+1:1-4,2:5-12%3B+Mark+10:2-16",
+            "audioQS": "Ps.8,Gen.2,Heb.1,Mark.10"
+        },
         "morning": {
             "readings": [
                 {
@@ -14246,6 +15855,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/07": {
         "datePretty": "Monday, October 7, 2024",
         "calendar": "Week of 30th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14292,6 +15902,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/08": {
         "datePretty": "Tuesday, October 8, 2024",
         "calendar": "Week of 30th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14338,6 +15949,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/09": {
         "datePretty": "Wednesday, October 9, 2024",
         "calendar": "Week of 30th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14384,6 +15996,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/10": {
         "datePretty": "Thursday, October 10, 2024",
         "calendar": "Week of 30th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14430,6 +16043,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/11": {
         "datePretty": "Friday, October 11, 2024",
         "calendar": "Week of 30th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14476,6 +16090,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/12": {
         "datePretty": "Saturday, October 12, 2024",
         "calendar": "Week of 30th Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14522,6 +16137,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/13": {
         "datePretty": "Sunday, October 13, 2024",
         "calendar": "31st Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 90:12\u201317",
+                    "readQS": "Psalm+90:12-17",
+                    "audioQS": "Ps.90"
+                },
+                {
+                    "pretty": "Amos 5:6\u20137,10\u201315",
+                    "readQS": "Amos+5:6-7,10-15",
+                    "audioQS": "Amos.5"
+                },
+                {
+                    "pretty": "Hebrews 4:12\u201316",
+                    "readQS": "Hebrews+4:12-16",
+                    "audioQS": "Heb.4"
+                },
+                {
+                    "pretty": "Mark 10:17\u201331",
+                    "readQS": "Mark+10:17-31",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+90:12-17%3B+Amos+5:6-7,10-15%3B+Hebrews+4:12-16%3B+Mark+10:17-31",
+            "audioQS": "Ps.90,Amos.5,Heb.4,Mark.10"
+        },
         "morning": {
             "readings": [
                 {
@@ -14568,6 +16209,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/14": {
         "datePretty": "Monday, October 14, 2024",
         "calendar": "Week of 31st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14614,6 +16256,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/15": {
         "datePretty": "Tuesday, October 15, 2024",
         "calendar": "Week of 31st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14665,6 +16308,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/16": {
         "datePretty": "Wednesday, October 16, 2024",
         "calendar": "Week of 31st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14711,6 +16355,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/17": {
         "datePretty": "Thursday, October 17, 2024",
         "calendar": "Week of 31st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14757,6 +16402,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/18": {
         "datePretty": "Friday, October 18, 2024",
         "calendar": "St Luke the Evangelist",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14803,6 +16449,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/19": {
         "datePretty": "Saturday, October 19, 2024",
         "calendar": "Week of 31st Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14849,6 +16496,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/20": {
         "datePretty": "Sunday, October 20, 2024",
         "calendar": "32nd Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 91:9\u201316",
+                    "readQS": "Psalm+91:9-16",
+                    "audioQS": "Ps.91"
+                },
+                {
+                    "pretty": "Isaiah 53:4\u201312",
+                    "readQS": "Isaiah+53:4-12",
+                    "audioQS": "Isa.53"
+                },
+                {
+                    "pretty": "Hebrews 5:1\u201310",
+                    "readQS": "Hebrews+5:1-10",
+                    "audioQS": "Heb.5"
+                },
+                {
+                    "pretty": "Mark 10:35\u201345",
+                    "readQS": "Mark+10:35-45",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+91:9-16%3B+Isaiah+53:4-12%3B+Hebrews+5:1-10%3B+Mark+10:35-45",
+            "audioQS": "Ps.91,Isa.53,Heb.5,Mark.10"
+        },
         "morning": {
             "readings": [
                 {
@@ -14895,6 +16568,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/21": {
         "datePretty": "Monday, October 21, 2024",
         "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14941,6 +16615,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/22": {
         "datePretty": "Tuesday, October 22, 2024",
         "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -14987,6 +16662,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/23": {
         "datePretty": "Wednesday, October 23, 2024",
         "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15033,6 +16709,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/24": {
         "datePretty": "Thursday, October 24, 2024",
         "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15079,6 +16756,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/25": {
         "datePretty": "Friday, October 25, 2024",
         "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15125,6 +16803,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/26": {
         "datePretty": "Saturday, October 26, 2024",
         "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15171,6 +16850,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/27": {
         "datePretty": "Sunday, October 27, 2024",
         "calendar": "33rd Sunday in Ordinary Time",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 126",
+                    "readQS": "Psalm+126",
+                    "audioQS": "Ps.126"
+                },
+                {
+                    "pretty": "Jeremiah 31:7\u20139",
+                    "readQS": "Jeremiah+31:7-9",
+                    "audioQS": "Jer.31"
+                },
+                {
+                    "pretty": "Hebrews 7:23\u201328",
+                    "readQS": "Hebrews+7:23-28",
+                    "audioQS": "Heb.7"
+                },
+                {
+                    "pretty": "Mark 10:46\u201352",
+                    "readQS": "Mark+10:46-52",
+                    "audioQS": "Mark.10"
+                }
+            ],
+            "readQS": "Psalm+126%3B+Jeremiah+31:7-9%3B+Hebrews+7:23-28%3B+Mark+10:46-52",
+            "audioQS": "Ps.126,Jer.31,Heb.7,Mark.10"
+        },
         "morning": {
             "readings": [
                 {
@@ -15217,6 +16922,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/28": {
         "datePretty": "Monday, October 28, 2024",
         "calendar": "St Simon and St Jude, Apostles",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15263,6 +16969,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/29": {
         "datePretty": "Tuesday, October 29, 2024",
         "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15309,6 +17016,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/30": {
         "datePretty": "Wednesday, October 30, 2024",
         "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15355,6 +17063,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/10/31": {
         "datePretty": "Thursday, October 31, 2024",
         "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15401,6 +17110,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/01": {
         "datePretty": "Friday, November 1, 2024",
         "calendar": "All Saints Day",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15447,6 +17157,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/02": {
         "datePretty": "Saturday, November 2, 2024",
         "calendar": "Week of 33rd Sunday in Ordinary Time",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15493,6 +17204,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/03": {
         "datePretty": "Sunday, November 3, 2024",
         "calendar": "4th Sunday before Advent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 119:1\u20138",
+                    "readQS": "Psalm+119:1-8",
+                    "audioQS": "Ps.119"
+                },
+                {
+                    "pretty": "Deuteronomy 6:1\u20139",
+                    "readQS": "Deuteronomy+6:1-9",
+                    "audioQS": "Deut.6"
+                },
+                {
+                    "pretty": "Hebrews 9:11\u201314",
+                    "readQS": "Hebrews+9:11-14",
+                    "audioQS": "Heb.9"
+                },
+                {
+                    "pretty": "Mark 12:28\u201334",
+                    "readQS": "Mark+12:28-34",
+                    "audioQS": "Mark.12"
+                }
+            ],
+            "readQS": "Psalm+119:1-8%3B+Deuteronomy+6:1-9%3B+Hebrews+9:11-14%3B+Mark+12:28-34",
+            "audioQS": "Ps.119,Deut.6,Heb.9,Mark.12"
+        },
         "morning": {
             "readings": [
                 {
@@ -15539,6 +17276,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/04": {
         "datePretty": "Monday, November 4, 2024",
         "calendar": "Week of 4th Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15585,6 +17323,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/05": {
         "datePretty": "Tuesday, November 5, 2024",
         "calendar": "Week of 4th Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15631,6 +17370,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/06": {
         "datePretty": "Wednesday, November 6, 2024",
         "calendar": "Week of 4th Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15677,6 +17417,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/07": {
         "datePretty": "Thursday, November 7, 2024",
         "calendar": "Week of 4th Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15723,6 +17464,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/08": {
         "datePretty": "Friday, November 8, 2024",
         "calendar": "Week of 4th Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15769,6 +17511,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/09": {
         "datePretty": "Saturday, November 9, 2024",
         "calendar": "Week of 4th Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15815,6 +17558,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/10": {
         "datePretty": "Sunday, November 10, 2024",
         "calendar": "3rd Sunday before Advent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 62:5\u201312",
+                    "readQS": "Psalm+62:5-12",
+                    "audioQS": "Ps.62"
+                },
+                {
+                    "pretty": "Jonah 3:1\u20135,10",
+                    "readQS": "Jonah+3:1-5,10",
+                    "audioQS": "Jonah.3"
+                },
+                {
+                    "pretty": "Hebrews 9:24\u201328",
+                    "readQS": "Hebrews+9:24-28",
+                    "audioQS": "Heb.9"
+                },
+                {
+                    "pretty": "Mark 1:14\u201320",
+                    "readQS": "Mark+1:14-20",
+                    "audioQS": "Mark.1"
+                }
+            ],
+            "readQS": "Psalm+62:5-12%3B+Jonah+3:1-5,10%3B+Hebrews+9:24-28%3B+Mark+1:14-20",
+            "audioQS": "Ps.62,Jonah.3,Heb.9,Mark.1"
+        },
         "morning": {
             "readings": [
                 {
@@ -15861,6 +17630,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/11": {
         "datePretty": "Monday, November 11, 2024",
         "calendar": "Week of 3rd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15907,6 +17677,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/12": {
         "datePretty": "Tuesday, November 12, 2024",
         "calendar": "Week of 3rd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15953,6 +17724,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/13": {
         "datePretty": "Wednesday, November 13, 2024",
         "calendar": "Week of 3rd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -15999,6 +17771,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/14": {
         "datePretty": "Thursday, November 14, 2024",
         "calendar": "Week of 3rd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16045,6 +17818,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/15": {
         "datePretty": "Friday, November 15, 2024",
         "calendar": "Week of 3rd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16091,6 +17865,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/16": {
         "datePretty": "Saturday, November 16, 2024",
         "calendar": "Week of 3rd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16137,6 +17912,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/17": {
         "datePretty": "Sunday, November 17, 2024",
         "calendar": "2nd Sunday before Advent",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 16",
+                    "readQS": "Psalm+16",
+                    "audioQS": "Ps.16"
+                },
+                {
+                    "pretty": "Daniel 12:1\u20133",
+                    "readQS": "Daniel+12:1-3",
+                    "audioQS": "Dan.12"
+                },
+                {
+                    "pretty": "Hebrews 10:11\u201314,(15\u201318),19\u201325",
+                    "readQS": "Hebrews+10:11-14,%2815-18%29,19-25",
+                    "audioQS": "Heb.10"
+                },
+                {
+                    "pretty": "Mark 13:1\u20138",
+                    "readQS": "Mark+13:1-8",
+                    "audioQS": "Mark.13"
+                }
+            ],
+            "readQS": "Psalm+16%3B+Daniel+12:1-3%3B+Hebrews+10:11-14,%2815-18%29,19-25%3B+Mark+13:1-8",
+            "audioQS": "Ps.16,Dan.12,Heb.10,Mark.13"
+        },
         "morning": {
             "readings": [
                 {
@@ -16183,6 +17984,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/18": {
         "datePretty": "Monday, November 18, 2024",
         "calendar": "Week of 2nd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16229,6 +18031,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/19": {
         "datePretty": "Tuesday, November 19, 2024",
         "calendar": "Week of 2nd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16275,6 +18078,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/20": {
         "datePretty": "Wednesday, November 20, 2024",
         "calendar": "Week of 2nd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16321,6 +18125,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/21": {
         "datePretty": "Thursday, November 21, 2024",
         "calendar": "Week of 2nd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16367,6 +18172,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/22": {
         "datePretty": "Friday, November 22, 2024",
         "calendar": "Week of 2nd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16413,6 +18219,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/23": {
         "datePretty": "Saturday, November 23, 2024",
         "calendar": "Week of 2nd Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16459,6 +18266,32 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/24": {
         "datePretty": "Sunday, November 24, 2024",
         "calendar": "Christ the King Sunday",
+        "rclTrack1": {
+            "readings": [
+                {
+                    "pretty": "Psalm 93",
+                    "readQS": "Psalm+93",
+                    "audioQS": "Ps.93"
+                },
+                {
+                    "pretty": "Daniel 7:9\u201310,13\u201314",
+                    "readQS": "Daniel+7:9-10,13-14",
+                    "audioQS": "Dan.7"
+                },
+                {
+                    "pretty": "Revelation 1:4b\u20138",
+                    "readQS": "Revelation+1:4b-8",
+                    "audioQS": "Rev.1"
+                },
+                {
+                    "pretty": "John 18:33\u201337",
+                    "readQS": "John+18:33-37",
+                    "audioQS": "John.18"
+                }
+            ],
+            "readQS": "Psalm+93%3B+Daniel+7:9-10,13-14%3B+Revelation+1:4b-8%3B+John+18:33-37",
+            "audioQS": "Ps.93,Dan.7,Rev.1,John.18"
+        },
         "morning": {
             "readings": [
                 {
@@ -16505,6 +18338,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/25": {
         "datePretty": "Monday, November 25, 2024",
         "calendar": "Week of 1st Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16551,6 +18385,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/26": {
         "datePretty": "Tuesday, November 26, 2024",
         "calendar": "Week of 1st Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16597,6 +18432,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/27": {
         "datePretty": "Wednesday, November 27, 2024",
         "calendar": "Week of 1st Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16643,6 +18479,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/28": {
         "datePretty": "Thursday, November 28, 2024",
         "calendar": "Week of 1st Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16689,6 +18526,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/29": {
         "datePretty": "Friday, November 29, 2024",
         "calendar": "Week of 1st Sunday before Advent",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {
@@ -16735,6 +18573,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     "2024/11/30": {
         "datePretty": "Saturday, November 30, 2024",
         "calendar": "St Andrew the Apostle",
+        "rclTrack1": null,
         "morning": {
             "readings": [
                 {

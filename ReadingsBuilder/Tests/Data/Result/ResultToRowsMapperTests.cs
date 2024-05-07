@@ -21,6 +21,7 @@ namespace Tests.Data.Result
                 "date",
                 "date_pretty",
                 "day_description",
+                "rcl_track_1",
                 "morning_prayers_together",
                 "evening_prayers_together"
             };
@@ -122,6 +123,108 @@ namespace Tests.Data.Result
         }
 
         [Test]
+        public void MapsRclTrack1Together()
+        {
+            // arrange
+            var date = new DateOnly(2021, 12, 1);
+            var input = new Dictionary<DateOnly, Option<Day, DayOptionType>>()
+            {
+                {
+                    date,
+                    new Option<Day, DayOptionType>
+                    {
+                        OptionOne = new Day()
+                        {
+                            Date = date,
+                            RclTrack1Readings = new Option<RclReadings, ReadingsOptionType>(){
+                                OptionOne = new RclReadings(){
+                                     Psalms = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Psalm 69"
+                                        }
+                                     },
+                                     OldTestament = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Job 2:3-4"
+                                        }
+                                     },
+                                     NewTestament = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Acts 12:15-20"
+                                        }
+                                     },
+                                     Gospel = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Mark 12:15-20"
+                                        }
+                                     }
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+
+            // act
+            var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
+
+            // assert
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[3]);
+
+        }
+
+        [Test]
+        public void UsesCanticleIfNoPsalmForRcl()
+        {
+            // arrange
+            var date = new DateOnly(2021, 12, 1);
+            var input = new Dictionary<DateOnly, Option<Day, DayOptionType>>()
+            {
+                {
+                    date,
+                    new Option<Day, DayOptionType>
+                    {
+                        OptionOne = new Day()
+                        {
+                            Date = date,
+                            RclTrack1Readings = new Option<RclReadings, ReadingsOptionType>(){
+                                OptionOne = new RclReadings(){
+                                     Canticle = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Canticle: Luke 1:68-79 (Benedictus)"
+                                        }
+                                     },
+                                     OldTestament = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Job 2:3-4"
+                                        }
+                                     },
+                                     NewTestament = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Acts 12:15-20"
+                                        }
+                                     },
+                                     Gospel = new Option<Reading, ReadingOptionType>(){
+                                        OptionOne = new Reading{
+                                            RawString = "Mark 12:15-20"
+                                        }
+                                     }
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+
+            // act
+            var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
+
+            // assert
+            Assert.AreEqual("Canticle: Luke 1:68-79 (Benedictus); Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[3]);
+
+        }
+
+        [Test]
         public void MapsMorningPrayersTogether()
         {
             // arrange
@@ -163,7 +266,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[3]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[4]);
 
         }
 
@@ -209,7 +312,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[4]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[5]);
 
         }
 

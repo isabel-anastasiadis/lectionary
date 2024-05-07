@@ -96,7 +96,12 @@ namespace ReadingsBuilder.Data.Rules
                     EveningOldTestament = GetValueOrNull(row, ColumnIndexes.EveningOldTestament),
                     EveningNewTestament = GetValueOrNull(row, ColumnIndexes.EveningNewTestament),
                     MorningPsalmsMain = GetValueOrNull(row, ColumnIndexes.MorningPsalmMain),
-                    EveningPsalmsMain = GetValueOrNull(row, ColumnIndexes.EveningPsalmMain)
+                    EveningPsalmsMain = GetValueOrNull(row, ColumnIndexes.EveningPsalmMain),
+                    RclTrack1Psalm = GetValueOrNull(row, ColumnIndexes.RclTrack1Psalm),
+                    RclTrack1Canticle = GetValueOrNull(row, ColumnIndexes.RclTrack1Canticle),
+                    RclTrack1OldTestament = GetValueOrNull(row, ColumnIndexes.RclTrack1OldTestament),
+                    RclTrack1NewTestament = GetValueOrNull(row, ColumnIndexes.RclTrack1NewTestament),
+                    RclTrack1Gospel = GetValueOrNull(row, ColumnIndexes.RclTrack1Gospel),
                 };
 
                 rule.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);

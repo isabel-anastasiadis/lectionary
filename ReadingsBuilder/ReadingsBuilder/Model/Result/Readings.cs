@@ -6,9 +6,48 @@ namespace ReadingsBuilder.Model.Result
         Default
     }
 
+    public class RclReadings
+    {
+        public RclReadings() {
+            Psalms = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            Canticle = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            OldTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            NewTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            Gospel = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+        }
+
+        public Option<Reading, ReadingOptionType>? Psalms { get; set; }
+
+        public Option<Reading, ReadingOptionType>? Canticle { get; set; }
+
+        public Option<Reading, ReadingOptionType>? OldTestament { get; set; }
+
+        public Option<Reading, ReadingOptionType>? NewTestament { get; set; }
+
+        public Option<Reading, ReadingOptionType>? Gospel { get; set; }
+
+        public bool IsEmpty()
+        {
+            return (Psalms?.OptionOne == null || Psalms.OptionOne.IsEmpty())
+                && (Canticle?.OptionOne == null || Canticle.OptionOne.IsEmpty())
+                && (OldTestament?.OptionOne == null || OldTestament.OptionOne.IsEmpty())
+                && (NewTestament?.OptionOne == null || NewTestament.OptionOne.IsEmpty())
+                && (Gospel?.OptionOne == null || Gospel.OptionOne.IsEmpty());
+        }
+
+        public override string ToString()
+        {
+            if (IsEmpty())
+                return string.Empty;
+
+            var psalms = Psalms?.OptionOne == null || Psalms.OptionOne.IsEmpty() ? $"{Canticle?.OptionOne}" : $"{Psalms?.OptionOne}";
+
+            return $"{psalms}; {OldTestament?.OptionOne}; {NewTestament?.OptionOne}; {Gospel?.OptionOne}";
+        }
+    }
+
     public class MorningReadings
     {
-
         public MorningReadings()
         {
             Psalms = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
@@ -63,6 +102,11 @@ namespace ReadingsBuilder.Model.Result
         public string? RawString { get; set; }
 
         public bool IsOptional { get; set; }
+
+        public bool IsEmpty() 
+        { 
+            return RawString == null;
+        }
 
         public override string ToString()
         {
