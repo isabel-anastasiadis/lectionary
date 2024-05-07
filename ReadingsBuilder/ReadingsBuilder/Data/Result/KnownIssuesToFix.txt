@@ -11,4 +11,26 @@ When epiphany falls on a Sunday (it is usually before Sunday), then the other re
 
 
 How far I've checked dates:
-- Last published until 24th March 2024
+- Need to recheck Holy week - RCL has rcl throughout the week, so really need to implement options!
+- Need to check sundays after the 24th March once we have RCL options
+- Otherwise, we have checked until normal days until the 8th June 2024.
+
+
+Issues:
+
+	March 24
+		Psalm 31 verse??
+		Phil verse?
+	8 April - very different??
+	19 april - MP psalm 105 instead of 107??
+	22 april - EP has all 3 psalms, not just one?
+	30 April - didn't do ss philip and james EP??
+	1 May - Missed st philip and St james - I have it on the 2nd, the lectionary has it on the 1st?
+	9th May - Ascension day has given the RCL readings
+	18 May - missing MP psalm
+	25th May - 1st ep has Exod 34:1-10 in the lectionary, but we have Isaiah??
+	29 May - Do we do Corpus cristi? Day of thanksgiving for holy communion
+	30 may - Corpus christi? 
+
+
+
