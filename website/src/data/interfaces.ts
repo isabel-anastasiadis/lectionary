@@ -9,6 +9,9 @@ export interface IReading {
 }
 
 export interface IReadingsList {
+  readingSetTabTitle: string,
+  readingSetSubtitle: string | null,
+  timeOfDay: "morning" | "evening" | null,
   readings: IReading[];
   readQS: string;
   audioQS: string;
@@ -17,9 +20,7 @@ export interface IReadingsList {
 export interface IReadingsForDay {
   datePretty: string;
   calendar: string;
-  rclTrack1: IReadingsList | null;
-  morning: IReadingsList;
-  evening: IReadingsList;
+  readingSets: IReadingsList[]
 }
 
 export enum Theme {

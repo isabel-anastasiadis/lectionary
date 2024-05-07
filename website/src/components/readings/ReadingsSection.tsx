@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { styled } from '../../stitches.config';
+import { IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
 import Toggle from "../common/Toggle";
 import ReadingsList from "./ReadingsList";
-import { IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
+import Actions from "./Actions";
+
 
 const StyledWrapper = styled('div', {
   margin: "32px 0 0 0",
@@ -11,25 +13,33 @@ const StyledWrapper = styled('div', {
 interface ReadingsSectionProps {
   theme: Theme;
   todaysReadings: IReadingsForDay;
-  readingTranslation: string;
+  audioTranslation: string,
+  readingTranslation: string,
+  setAudioTranslation(translation: string): void,
+  setReadingTranslation(translation: string): void
 }
 
-const ReadingsSection = ({ todaysReadings, theme, readingTranslation }: ReadingsSectionProps) => {
-  const [selectedTab, setSelectedTab] = useState("Prayers");
+const ReadingsSection = ({
+  todaysReadings,
+  theme,
+  audioTranslation,
+  readingTranslation,
+  setAudioTranslation,
+  setReadingTranslation
+}: ReadingsSectionProps) => {
+  const [selectedTab, setSelectedTab] = useState(todaysReadings.readingSets[0].readingSetTabTitle);
 
   function tabOnChange(value: string): void {
-    console.log("Changed value to" + value);
     setSelectedTab(value);
   }
 
   function getReadingsToDisplay(): IReadingsList {
-    if (todaysReadings.rclTrack1) {
-      return todaysReadings.rclTrack1;
-    }
+    const matchingSet = todaysReadings.readingSets.find((readingSet) => {
+      return readingSet.readingSetTabTitle === selectedTab
+        && readingSet.timeOfDay === theme.toString()
+    })
 
-    return theme === Theme.MORNING
-      ? todaysReadings.morning
-      : todaysReadings.evening;
+    return matchingSet ?? todaysReadings.readingSets[0];
   }
 
   return (
@@ -53,10 +63,14 @@ const ReadingsSection = ({ todaysReadings, theme, readingTranslation }: Readings
         onChange={tabOnChange}
       />
       <ReadingsList
-        readingsList={
-          getReadingsToDisplay()
-        }
+        readingsList={getReadingsToDisplay()}
         readingTranslation={readingTranslation}
+      />
+      <Actions readings={getReadingsToDisplay()}
+        audioTranslation={audioTranslation}
+        readingTranslation={readingTranslation}
+        setAudioTranslation={setAudioTranslation}
+        setReadingTranslation={setReadingTranslation}
       />
     </StyledWrapper>
   )

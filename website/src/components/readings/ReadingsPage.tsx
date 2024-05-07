@@ -1,11 +1,10 @@
+import { styled } from "@stitches/react";
+import { IAvailableDates, IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
 import Button from "../common/Button";
 import Toggle from "../common/Toggle";
 import Nav from "../common/Nav";
 import Message from "../common/Message";
 import Date from "../common/Date";
-import Actions from "./Actions";
-import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
-import { styled } from "@stitches/react";
 import ReadingsSection from "./ReadingsSection";
 
 const StyledSpan = styled('span', {
@@ -79,13 +78,6 @@ const ReadingsPage = ({
       <ReadingsSection 
         theme={theme}
         todaysReadings={todaysReadings}
-        readingTranslation={readingTranslation}
-      />
-      <Actions readings={
-        theme === Theme.MORNING
-            ? todaysReadings.morning
-            : todaysReadings.evening
-        }
         audioTranslation={audioTranslation}
         readingTranslation={readingTranslation}
         setAudioTranslation={setAudioTranslation}
