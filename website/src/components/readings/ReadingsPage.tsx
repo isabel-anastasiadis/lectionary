@@ -7,6 +7,7 @@ import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
 import { IAvailableDates, IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
 import { styled } from "@stitches/react";
+import { useState } from "react";
 
 const StyledSpan = styled('span', {
   color: '$foreground',
@@ -53,6 +54,13 @@ const ReadingsPage = ({
       : todaysReadings.evening;
   }
 
+  const [selectedTab, setSelectedTab] = useState("Prayers");
+
+  function tabOnChange(value: string): void {
+    console.log("Changed value to" + value);
+    setSelectedTab(value);
+  }
+
   return (
     <>
       <Nav>
@@ -85,6 +93,25 @@ const ReadingsPage = ({
         setCurrentDate={updateDate}
       />
       <StyledSpan>{todaysReadings.calendar}</StyledSpan>
+
+      <Toggle
+        options={[
+          {
+            value: 'RCL (Re.)',
+            content: 'RCL (Re.)'
+          },
+          {
+            value: 'RCL (Co.)',
+            content: 'RCL (Co.)'
+          },
+          {
+            value: 'Prayers',
+            content: 'Prayers'
+          }
+        ]}
+        selected={selectedTab}
+        onChange={tabOnChange}
+      />
       <ReadingsList
         readingsList={
           getReadingsToDisplay()
