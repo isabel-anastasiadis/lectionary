@@ -36,6 +36,8 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             ApplyRotatingReadings(liturgicalYear, rule, day, applyToMorning, applyToEvening);
 
             ApplySetReadings(rule, day, applyToMorning, applyToEvening);
+
+            ApplyRclTrack1(rule, day);
         }
 
         private bool CanApplyTo(Rule rule, Day day, string timeOfDay)
@@ -205,6 +207,33 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             }
         }
 
+        public void ApplyRclTrack1(Rule rule, Day day)
+        {
+            if (rule.RclTrack1Psalm != null)
+            {
+                day.RclTrack1Readings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + rule.RclTrack1Psalm;
+            }
+
+            if (rule.RclTrack1Canticle != null)
+            { 
+                day.RclTrack1Readings.OptionOne.Canticle.OptionOne.RawString = rule.RclTrack1Canticle;
+            }
+
+            if (rule.RclTrack1OldTestament != null)
+            {
+                day.RclTrack1Readings.OptionOne.OldTestament.OptionOne.RawString = rule.RclTrack1OldTestament;
+            }
+
+            if (rule.RclTrack1NewTestament != null)
+            {
+                day.RclTrack1Readings.OptionOne.NewTestament.OptionOne.RawString = rule.RclTrack1NewTestament;
+            }
+
+            if (rule.RclTrack1Gospel != null)
+            {
+                day.RclTrack1Readings.OptionOne.Gospel.OptionOne.RawString = rule.RclTrack1Gospel;
+            }
+        }
     }
 }
 
