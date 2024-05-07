@@ -84,7 +84,62 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
                 "audioQS": "Ps.25,Isa.1,Matt.21"
             }
         ]
-    }
+    },
+    "2024/05/09": {
+      "datePretty": "Monday, December 4, 2023",
+      "calendar": "Week of 1st Sunday of Advent",
+      "readingSets": [
+          {
+
+              "readingSetTabTitle": "Prayers",
+              "readingSetSubtitle": "Morning Prayer",
+              "timeOfDay": "morning",
+              "readings": [
+                  {
+                      "pretty": "Psalm 44",
+                      "readQS": "Psalm+44",
+                      "audioQS": "Ps.44"
+                  },
+                  {
+                      "pretty": "Isaiah 2:1\u20135",
+                      "readQS": "Isaiah+2:1-5",
+                      "audioQS": "Isa.2"
+                  },
+                  {
+                      "pretty": "Luke 12:35\u201348",
+                      "readQS": "Luke+12:35-48",
+                      "audioQS": "Luke.12"
+                  }
+              ],
+              "readQS": "Psalm+44%3B+Isaiah+2:1-5%3B+Luke+12:35-48",
+              "audioQS": "Ps.44,Isa.2,Luke.12"
+          },
+          {
+              "readingSetTabTitle": "Prayers",
+              "readingSetSubtitle": "Evening Prayer (Eve of St John)",
+              "timeOfDay": "evening",
+              "readings": [
+                  {
+                      "pretty": "Psalm 25",
+                      "readQS": "Psalm+25",
+                      "audioQS": "Ps.25"
+                  },
+                  {
+                      "pretty": "Isaiah 1:1\u201320",
+                      "readQS": "Isaiah+1:1-20",
+                      "audioQS": "Isa.1"
+                  },
+                  {
+                      "pretty": "Matthew 21:1\u201313",
+                      "readQS": "Matthew+21:1-13",
+                      "audioQS": "Matt.21"
+                  }
+              ],
+              "readQS": "Psalm+25%3B+Isaiah+1:1-20%3B+Matthew+21:1-13",
+              "audioQS": "Ps.25,Isa.1,Matt.21"
+          }
+      ]
+  }
 }
 
 export default Data;

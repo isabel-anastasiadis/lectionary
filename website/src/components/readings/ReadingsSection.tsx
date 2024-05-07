@@ -6,7 +6,7 @@ import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
 
 
-const StyledWrapper = styled('div', {
+const TabWrapper = styled('div', {
   margin: "32px 0 0 0",
 })
 
@@ -42,26 +42,34 @@ const ReadingsSection = ({
     return matchingSet ?? todaysReadings.readingSets[0];
   }
 
-  return (
-    <StyledWrapper>
+  function getTabOptions(): { value: string; content: string }[] {
+    const tabTitles = todaysReadings.readingSets
+      .map((readingSet) => readingSet.readingSetTabTitle)
+      .filter((value, index, array) => array.indexOf(value) === index) // ensures unique
+
+    return tabTitles.map((tabTitle) => {
+      return {
+        value: tabTitle,
+        content: tabTitle
+      }
+    })
+  }
+
+  let tabComponent;
+  if (getTabOptions().length > 1) {
+    tabComponent = 
+    <TabWrapper>
       <Toggle
-        options={[
-          {
-            value: 'RCL (Re.)',
-            content: 'RCL (Re.)'
-          },
-          {
-            value: 'RCL (Co.)',
-            content: 'RCL (Co.)'
-          },
-          {
-            value: 'Prayers',
-            content: 'Prayers'
-          }
-        ]}
+        options={getTabOptions()}
         selected={selectedTab}
         onChange={tabOnChange}
       />
+    </TabWrapper>
+  }
+
+  return (
+    <div>
+      {tabComponent}
       <ReadingsList
         readingsList={getReadingsToDisplay()}
         readingTranslation={readingTranslation}
@@ -72,7 +80,7 @@ const ReadingsSection = ({
         setAudioTranslation={setAudioTranslation}
         setReadingTranslation={setReadingTranslation}
       />
-    </StyledWrapper>
+    </div>
   )
 }
 
