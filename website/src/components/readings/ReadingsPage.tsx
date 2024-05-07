@@ -44,8 +44,8 @@ const ReadingsPage = ({
 }: ReadingsPageProps) => {
 
   function getReadingsToDisplay(): IReadingsList {
-    if (todaysReadings.rcl) {
-      return todaysReadings.rcl;
+    if (todaysReadings.rclTrack1) {
+      return todaysReadings.rclTrack1;
     }
 
     return theme === Theme.MORNING

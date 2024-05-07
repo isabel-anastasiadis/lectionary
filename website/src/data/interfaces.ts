@@ -17,7 +17,7 @@ export interface IReadingsList {
 export interface IReadingsForDay {
   datePretty: string;
   calendar: string;
-  rcl: IReadingsList | null;
+  rclTrack1: IReadingsList | null;
   morning: IReadingsList;
   evening: IReadingsList;
 }
