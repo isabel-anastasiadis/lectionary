@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { styled } from '../../stitches.config';
 import { IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
 import Toggle, {IToggleOption} from "../common/Toggle";
@@ -37,6 +37,11 @@ const ReadingsSection = ({
   setReadingTranslation
 }: ReadingsSectionProps) => {
   const [selectedTab, setSelectedTab] = useState(todaysReadings.readingSets[0].readingSetTab);
+
+  // update selected tab when todaysReadings changes
+  useEffect(() => {
+    setSelectedTab(todaysReadings.readingSets[0].readingSetTab)
+  }, [todaysReadings]);
 
   function tabOnChange(value: string): void {
     setSelectedTab(value);
@@ -90,8 +95,6 @@ const ReadingsSection = ({
   return (
     <div>
       {tabComponent}
-
-
 
       <ReadingsListWrapper>
         <StyledSpan>

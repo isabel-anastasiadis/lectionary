@@ -75,7 +75,7 @@ const ReadingsPage = ({
       />
       <StyledSpan>{todaysReadings.calendar}</StyledSpan>
 
-      <ReadingsSection 
+      <ReadingsSection
         theme={theme}
         todaysReadings={todaysReadings}
         audioTranslation={audioTranslation}
