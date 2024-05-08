@@ -65,6 +65,21 @@
 
         public string? RclTrack1Gospel { get; set; }
 
+        public string? RclTrack2Psalm { get; set; }
+
+        /// <summary>
+        /// NOTE: sometimes there isn't a psalm, and instead there is a canticle.
+        /// 
+        /// Format example: "Canticle: [reading] ([optional canticle common name])"
+        /// </summary>
+        public string? RclTrack2Canticle { get; set; }
+
+        public string? RclTrack2OldTestament { get; set; }
+
+        public string? RclTrack2NewTestament { get; set; }
+
+        public string? RclTrack2Gospel { get; set; }
+
         public bool HasRotatingReadings
         {
             get

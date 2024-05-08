@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { styled } from '../../stitches.config';
-import { IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
-import Toggle, {IToggleOption} from "../common/Toggle";
+import { IReadingsForDay, Theme } from "../../data/interfaces";
+import { getTabOptions, getReadingsToDisplay, getDefaultSelectedTab } from "../../helpers/readingsSectionHelpers";
+import Toggle from "../common/Toggle";
 import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
-
 
 const TabWrapper = styled('div', {
   margin: "32px 0 0 0",
@@ -36,56 +36,23 @@ const ReadingsSection = ({
   setAudioTranslation,
   setReadingTranslation
 }: ReadingsSectionProps) => {
-  const [selectedTab, setSelectedTab] = useState(todaysReadings.readingSets[0].readingSetTab);
+  const [selectedTab, setSelectedTab] = useState(getDefaultSelectedTab(todaysReadings.readingSets));
 
   // update selected tab when todaysReadings changes
   useEffect(() => {
-    setSelectedTab(todaysReadings.readingSets[0].readingSetTab)
+    setSelectedTab(getDefaultSelectedTab(todaysReadings.readingSets))
   }, [todaysReadings]);
 
   function tabOnChange(value: string): void {
     setSelectedTab(value);
   }
 
-  function getReadingsToDisplay(): IReadingsList {
-    const matchingSet = todaysReadings.readingSets.find((readingSet) => {
-      return readingSet.readingSetTab === selectedTab
-        && readingSet.timeOfDay === theme.toString()
-    })
-
-    return matchingSet ?? todaysReadings.readingSets[0];
-  }
-
-  function getTabOptions(): IToggleOption[] {
-    // to reduce coupling to the values in data.ts (and make future query string params easier)
-    const tabOptionsLookup: { [id: string]: IToggleOption } = {
-      rclTrack1: {
-        value: "rclTrack1",
-        content: "RCL (Re.)"
-      },
-      rclTrack2: {
-        value: "rclTrack2",
-        content: "RCL (Co.)"
-      },
-      prayers: {
-        value: "prayers",
-        content: "Prayers"
-      }
-    }
-    
-    const tabIdentifiers = todaysReadings.readingSets
-      .map((readingSet) => readingSet.readingSetTab)
-      .filter((value, index, array) => array.indexOf(value) === index) // ensures unique
-
-    return tabIdentifiers.map((tabIdentifier) => tabOptionsLookup[tabIdentifier])
-  }
-
   let tabComponent;
-  if (getTabOptions().length > 1) {
+  if (getTabOptions(todaysReadings.readingSets).length > 1) {
     tabComponent = 
     <TabWrapper>
       <Toggle
-        options={getTabOptions()}
+        options={getTabOptions(todaysReadings.readingSets)}
         selected={selectedTab}
         onChange={tabOnChange}
       />
@@ -98,15 +65,15 @@ const ReadingsSection = ({
 
       <ReadingsListWrapper>
         <StyledSpan>
-          {getReadingsToDisplay().readingSetSubtitle}
+          {getReadingsToDisplay(todaysReadings.readingSets, selectedTab, theme).readingSetSubtitle}
         </StyledSpan>
         <ReadingsList
-          readingsList={getReadingsToDisplay()}
+          readingsList={getReadingsToDisplay(todaysReadings.readingSets, selectedTab, theme)}
           readingTranslation={readingTranslation}
         />
       </ReadingsListWrapper>
 
-      <Actions readings={getReadingsToDisplay()}
+      <Actions readings={getReadingsToDisplay(todaysReadings.readingSets, selectedTab, theme)}
         audioTranslation={audioTranslation}
         readingTranslation={readingTranslation}
         setAudioTranslation={setAudioTranslation}

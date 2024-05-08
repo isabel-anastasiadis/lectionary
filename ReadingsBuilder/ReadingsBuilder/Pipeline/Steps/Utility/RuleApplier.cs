@@ -27,6 +27,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             }
 
             ApplyDayDescription(rule, day);
+
             ApplyIsSeasonalTime(rule, day); // NOTE: this needs to happen before rotating readings
 
             ApplyFeastOrSeasonType(rule, day, applyToEvening);
@@ -38,6 +39,8 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             ApplySetReadings(rule, day, applyToMorning, applyToEvening);
 
             ApplyRclTrack1(rule, day);
+
+            ApplyRclTrack2(rule, day);
         }
 
         private bool CanApplyTo(Rule rule, Day day, string timeOfDay)
@@ -232,6 +235,34 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             if (rule.RclTrack1Gospel != null)
             {
                 day.RclTrack1Readings.OptionOne.Gospel.OptionOne.RawString = rule.RclTrack1Gospel;
+            }
+        }
+
+        public void ApplyRclTrack2(Rule rule, Day day)
+        {
+            if (rule.RclTrack2Psalm != null)
+            {
+                day.RclTrack2Readings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + rule.RclTrack2Psalm;
+            }
+
+            if (rule.RclTrack2Canticle != null)
+            {
+                day.RclTrack2Readings.OptionOne.Canticle.OptionOne.RawString = rule.RclTrack2Canticle;
+            }
+
+            if (rule.RclTrack2OldTestament != null)
+            {
+                day.RclTrack2Readings.OptionOne.OldTestament.OptionOne.RawString = rule.RclTrack2OldTestament;
+            }
+
+            if (rule.RclTrack2NewTestament != null)
+            {
+                day.RclTrack2Readings.OptionOne.NewTestament.OptionOne.RawString = rule.RclTrack2NewTestament;
+            }
+
+            if (rule.RclTrack2Gospel != null)
+            {
+                day.RclTrack2Readings.OptionOne.Gospel.OptionOne.RawString = rule.RclTrack2Gospel;
             }
         }
     }
