@@ -9,7 +9,7 @@ export interface IReading {
 }
 
 export interface IReadingsList {
-  readingSetTabTitle: string,
+  readingSetTab: string,
   readingSetSubtitle: string | null,
   timeOfDay: "morning" | "evening" | null,
   readings: IReading[];

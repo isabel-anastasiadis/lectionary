@@ -6,7 +6,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
         "calendar": "1st Sunday of Advent",
         "readingSets": [
             {
-                "readingSetTabTitle": "RCL (Re.)",
+                "readingSetTab": "rclTrack1",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -36,7 +36,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
             },
             {
 
-                "readingSetTabTitle": "Prayers",
+                "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayer",
                 "timeOfDay": "morning",
                 "readings": [
@@ -60,7 +60,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
                 "audioQS": "Ps.44,Isa.2,Luke.12"
             },
             {
-                "readingSetTabTitle": "Prayers",
+                "readingSetTab": "prayers",
                 "readingSetSubtitle": "Evening Prayer (Eve of St John)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -91,7 +91,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
       "readingSets": [
           {
 
-              "readingSetTabTitle": "Prayers",
+              "readingSetTab": "prayers",
               "readingSetSubtitle": "Morning Prayer",
               "timeOfDay": "morning",
               "readings": [
@@ -115,7 +115,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
               "audioQS": "Ps.44,Isa.2,Luke.12"
           },
           {
-              "readingSetTabTitle": "Prayers",
+              "readingSetTab": "prayers",
               "readingSetSubtitle": "Evening Prayer (Eve of St John)",
               "timeOfDay": "evening",
               "readings": [

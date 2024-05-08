@@ -1,5 +1,5 @@
 import { styled } from "@stitches/react";
-import { IAvailableDates, IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
+import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
 import Button from "../common/Button";
 import Toggle from "../common/Toggle";
 import Nav from "../common/Nav";

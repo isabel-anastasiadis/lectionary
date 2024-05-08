@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { styled } from '../../stitches.config';
 import { IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
-import Toggle from "../common/Toggle";
+import Toggle, {IToggleOption} from "../common/Toggle";
 import ReadingsList from "./ReadingsList";
 import Actions from "./Actions";
 
@@ -27,7 +27,7 @@ const ReadingsSection = ({
   setAudioTranslation,
   setReadingTranslation
 }: ReadingsSectionProps) => {
-  const [selectedTab, setSelectedTab] = useState(todaysReadings.readingSets[0].readingSetTabTitle);
+  const [selectedTab, setSelectedTab] = useState(todaysReadings.readingSets[0].readingSetTab);
 
   function tabOnChange(value: string): void {
     setSelectedTab(value);
@@ -35,24 +35,35 @@ const ReadingsSection = ({
 
   function getReadingsToDisplay(): IReadingsList {
     const matchingSet = todaysReadings.readingSets.find((readingSet) => {
-      return readingSet.readingSetTabTitle === selectedTab
+      return readingSet.readingSetTab === selectedTab
         && readingSet.timeOfDay === theme.toString()
     })
 
     return matchingSet ?? todaysReadings.readingSets[0];
   }
 
-  function getTabOptions(): { value: string; content: string }[] {
-    const tabTitles = todaysReadings.readingSets
-      .map((readingSet) => readingSet.readingSetTabTitle)
+  function getTabOptions(): IToggleOption[] {
+    // to reduce coupling to the values in data.ts (and make future query string params easier)
+    const tabOptionsLookup: { [id: string]: IToggleOption } = {
+      rclTrack1: {
+        value: "rclTrack1",
+        content: "RCL (Re.)"
+      },
+      rclTrack2: {
+        value: "rclTrack2",
+        content: "RCL (Co.)"
+      },
+      prayers: {
+        value: "prayers",
+        content: "Prayers"
+      }
+    }
+    
+    const tabIdentifiers = todaysReadings.readingSets
+      .map((readingSet) => readingSet.readingSetTab)
       .filter((value, index, array) => array.indexOf(value) === index) // ensures unique
 
-    return tabTitles.map((tabTitle) => {
-      return {
-        value: tabTitle,
-        content: tabTitle
-      }
-    })
+    return tabIdentifiers.map((tabIdentifier) => tabOptionsLookup[tabIdentifier])
   }
 
   let tabComponent;
