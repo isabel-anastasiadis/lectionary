@@ -10,6 +10,15 @@ const TabWrapper = styled('div', {
   margin: "32px 0 0 0",
 })
 
+const ReadingsListWrapper = styled('div', {
+  margin: "24px 0 80px 4px",
+})
+
+const StyledSpan = styled('p', {
+  color: '$foreground',
+  margin: '0 0 2px 0'
+})
+
 interface ReadingsSectionProps {
   theme: Theme;
   todaysReadings: IReadingsForDay;
@@ -81,10 +90,19 @@ const ReadingsSection = ({
   return (
     <div>
       {tabComponent}
-      <ReadingsList
-        readingsList={getReadingsToDisplay()}
-        readingTranslation={readingTranslation}
-      />
+
+
+
+      <ReadingsListWrapper>
+        <StyledSpan>
+          {getReadingsToDisplay().readingSetSubtitle}
+        </StyledSpan>
+        <ReadingsList
+          readingsList={getReadingsToDisplay()}
+          readingTranslation={readingTranslation}
+        />
+      </ReadingsListWrapper>
+
       <Actions readings={getReadingsToDisplay()}
         audioTranslation={audioTranslation}
         readingTranslation={readingTranslation}

@@ -37,7 +37,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
             {
 
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Morning Prayer",
+                "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
                     {
@@ -61,7 +61,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayer (Eve of St John)",
+                "readingSetSubtitle": "Evening Prayers (Eve of St John)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -92,7 +92,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
           {
 
               "readingSetTab": "prayers",
-              "readingSetSubtitle": "Morning Prayer",
+              "readingSetSubtitle": "Morning Prayers",
               "timeOfDay": "morning",
               "readings": [
                   {
@@ -116,7 +116,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
           },
           {
               "readingSetTab": "prayers",
-              "readingSetSubtitle": "Evening Prayer (Eve of St John)",
+              "readingSetSubtitle": "Evening Prayers (Eve of St John)",
               "timeOfDay": "evening",
               "readings": [
                   {
