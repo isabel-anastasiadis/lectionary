@@ -14,7 +14,9 @@ namespace ReadingsBuilder.Model.Result
 
         public Day()
         {
+
             RclTrack1Readings = new Option<RclReadings, ReadingsOptionType>() { OptionOne = new RclReadings() };
+            RclTrack2Readings = new Option<RclReadings, ReadingsOptionType>() { OptionOne = new RclReadings() };
             MorningReadings = new Option<MorningReadings, ReadingsOptionType>() { OptionOne = new MorningReadings() };
             EveningReadings = new Option<EveningReadings, ReadingsOptionType>() { OptionOne = new EveningReadings() };
         }
@@ -35,6 +37,8 @@ namespace ReadingsBuilder.Model.Result
         public FeastOrSeasonType FeastOrSeasonType { get; set; }
 
         public Option<RclReadings, ReadingsOptionType> RclTrack1Readings { get; set; }
+
+        public Option<RclReadings, ReadingsOptionType> RclTrack2Readings { get; set; }
 
         public Option<MorningReadings, ReadingsOptionType> MorningReadings { get; set; }
 
@@ -59,7 +63,7 @@ namespace ReadingsBuilder.Model.Result
         public override string ToString()
         {
             var eveningOptionTwo = EveningReadings.OptionTwo != null ? $" OR {EveningReadings.OptionTwo}" : "";
-            return $"{Date} {Date.DayOfWeek} '{DayDescription}' [{RclTrack1Readings?.OptionOne}] [{MorningReadings?.OptionOne}] [{EveningReadings?.OptionOne}{eveningOptionTwo}]";
+            return $"{Date} {Date.DayOfWeek} '{DayDescription}' [{RclTrack1Readings?.OptionOne}] [{RclTrack2Readings?.OptionOne}] [{MorningReadings?.OptionOne}] [{EveningReadings?.OptionOne}{eveningOptionTwo}]";
         }
 
     }

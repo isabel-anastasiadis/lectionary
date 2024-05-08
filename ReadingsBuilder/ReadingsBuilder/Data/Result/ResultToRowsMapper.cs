@@ -17,6 +17,7 @@ namespace ReadingsBuilder.Data.Result
                 "date_pretty",
                 "day_description",
                 "rcl_track_1",
+                "rcl_track_2",
                 "morning_prayers_together",
                 "evening_prayers_together"
             });
@@ -38,6 +39,8 @@ namespace ReadingsBuilder.Data.Result
                 row.Add(day.DayDescription ?? String.Empty);
 
                 row.Add(MapRclReadings(day.RclTrack1Readings));
+
+                row.Add(MapRclReadings(day.RclTrack2Readings));
 
                 row.Add(MapMorningReadings(day.MorningReadings));
 
