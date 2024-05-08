@@ -10838,6 +10838,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.81,Deut.5,2Cor.4,Mark.2"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 139:1\u20135,12\u201318",
+                        "readQS": "Psalm+139:1-5,12-18",
+                        "audioQS": "Ps.139"
+                    },
+                    {
+                        "pretty": "1 Samuel 3:1\u201310,(11\u201320)",
+                        "readQS": "1+Samuel+3:1-10,%2811-20%29",
+                        "audioQS": "1Sam.3"
+                    },
+                    {
+                        "pretty": "2 Corinthians 4:5\u201312",
+                        "readQS": "2+Corinthians+4:5-12",
+                        "audioQS": "2Cor.4"
+                    },
+                    {
+                        "pretty": "Mark 2:23\u20133:6",
+                        "readQS": "Mark+2:23-3:6",
+                        "audioQS": "Mark.2"
+                    }
+                ],
+                "readQS": "Psalm+139:1-5,12-18%3B+1+Samuel+3:1-10,%2811-20%29%3B+2+Corinthians+4:5-12%3B+Mark+2:23-3:6",
+                "audioQS": "Ps.139,1Sam.3,2Cor.4,Mark.2"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -11243,6 +11272,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+130%3B+Genesis+3:8-15%3B+2+Corinthians+4:13-5:1%3B+Mark+3:20-35",
                 "audioQS": "Ps.130,Gen.3,2Cor.4,Mark.3"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 138",
+                        "readQS": "Psalm+138",
+                        "audioQS": "Ps.138"
+                    },
+                    {
+                        "pretty": "1 Kings 18:20\u201321,(22\u201329),30\u201339",
+                        "readQS": "1+Kings+18:20-21,%2822-29%29,30-39",
+                        "audioQS": "1Kgs.18"
+                    },
+                    {
+                        "pretty": "2 Corinthians 4:13\u20135:1",
+                        "readQS": "2+Corinthians+4:13-5:1",
+                        "audioQS": "2Cor.4"
+                    },
+                    {
+                        "pretty": "Mark 3:20\u201335",
+                        "readQS": "Mark+3:20-35",
+                        "audioQS": "Mark.3"
+                    }
+                ],
+                "readQS": "Psalm+138%3B+1+Kings+18:20-21,%2822-29%29,30-39%3B+2+Corinthians+4:13-5:1%3B+Mark+3:20-35",
+                "audioQS": "Ps.138,1Kgs.18,2Cor.4,Mark.3"
             },
             {
                 "readingSetTab": "prayers",
@@ -11652,6 +11710,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.92,Ezek.17,2Cor.5,Mark.4"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 20",
+                        "readQS": "Psalm+20",
+                        "audioQS": "Ps.20"
+                    },
+                    {
+                        "pretty": "1 Samuel 15:34\u201316:13",
+                        "readQS": "1+Samuel+15:34-16:13",
+                        "audioQS": "1Sam.15"
+                    },
+                    {
+                        "pretty": "2 Corinthians 5:6\u201310,(11\u201313),14\u201317",
+                        "readQS": "2+Corinthians+5:6-10,%2811-13%29,14-17",
+                        "audioQS": "2Cor.5"
+                    },
+                    {
+                        "pretty": "Mark 4:26\u201334",
+                        "readQS": "Mark+4:26-34",
+                        "audioQS": "Mark.4"
+                    }
+                ],
+                "readQS": "Psalm+20%3B+1+Samuel+15:34-16:13%3B+2+Corinthians+5:6-10,%2811-13%29,14-17%3B+Mark+4:26-34",
+                "audioQS": "Ps.20,1Sam.15,2Cor.5,Mark.4"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -12057,6 +12144,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+107:1-3,23-32%3B+Job+38:1-11%3B+2+Corinthians+6:1-13%3B+Mark+4:35-41",
                 "audioQS": "Ps.107,Job.38,2Cor.6,Mark.4"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 9:9\u201320",
+                        "readQS": "Psalm+9:9-20",
+                        "audioQS": "Ps.9"
+                    },
+                    {
+                        "pretty": "1 Samuel 17:(1a,4\u201311,19\u201323),32\u201349",
+                        "readQS": "1+Samuel+17:%281a,4-11,19-23%29,32-49",
+                        "audioQS": "1Sam.17"
+                    },
+                    {
+                        "pretty": "2 Corinthians 6:1\u201313",
+                        "readQS": "2+Corinthians+6:1-13",
+                        "audioQS": "2Cor.6"
+                    },
+                    {
+                        "pretty": "Mark 4:35\u201341",
+                        "readQS": "Mark+4:35-41",
+                        "audioQS": "Mark.4"
+                    }
+                ],
+                "readQS": "Psalm+9:9-20%3B+1+Samuel+17:%281a,4-11,19-23%29,32-49%3B+2+Corinthians+6:1-13%3B+Mark+4:35-41",
+                "audioQS": "Ps.9,1Sam.17,2Cor.6,Mark.4"
             },
             {
                 "readingSetTab": "prayers",
@@ -12466,6 +12582,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.30,Lam.3,2Cor.8,Mark.5"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 130",
+                        "readQS": "Psalm+130",
+                        "audioQS": "Ps.130"
+                    },
+                    {
+                        "pretty": "2 Samuel 1:1,17\u201327",
+                        "readQS": "2+Samuel+1:1,17-27",
+                        "audioQS": "2Sam.1"
+                    },
+                    {
+                        "pretty": "2 Corinthians 8:7\u201315",
+                        "readQS": "2+Corinthians+8:7-15",
+                        "audioQS": "2Cor.8"
+                    },
+                    {
+                        "pretty": "Mark 5:21\u201343",
+                        "readQS": "Mark+5:21-43",
+                        "audioQS": "Mark.5"
+                    }
+                ],
+                "readQS": "Psalm+130%3B+2+Samuel+1:1,17-27%3B+2+Corinthians+8:7-15%3B+Mark+5:21-43",
+                "audioQS": "Ps.130,2Sam.1,2Cor.8,Mark.5"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -12871,6 +13016,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+123%3B+Ezekiel+2:1-5%3B+2+Corinthians+12:2-10%3B+Mark+6:1-13",
                 "audioQS": "Ps.123,Ezek.2,2Cor.12,Mark.6"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 48",
+                        "readQS": "Psalm+48",
+                        "audioQS": "Ps.48"
+                    },
+                    {
+                        "pretty": "2 Samuel 5:1\u20135,9\u201310",
+                        "readQS": "2+Samuel+5:1-5,9-10",
+                        "audioQS": "2Sam.5"
+                    },
+                    {
+                        "pretty": "2 Corinthians 12:2\u201310",
+                        "readQS": "2+Corinthians+12:2-10",
+                        "audioQS": "2Cor.12"
+                    },
+                    {
+                        "pretty": "Mark 6:1\u201313",
+                        "readQS": "Mark+6:1-13",
+                        "audioQS": "Mark.6"
+                    }
+                ],
+                "readQS": "Psalm+48%3B+2+Samuel+5:1-5,9-10%3B+2+Corinthians+12:2-10%3B+Mark+6:1-13",
+                "audioQS": "Ps.48,2Sam.5,2Cor.12,Mark.6"
             },
             {
                 "readingSetTab": "prayers",
@@ -13280,6 +13454,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.85,Amos.7,Eph.1,Mark.6"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 24",
+                        "readQS": "Psalm+24",
+                        "audioQS": "Ps.24"
+                    },
+                    {
+                        "pretty": "2 Samuel 6:1\u20135,12b\u201319",
+                        "readQS": "2+Samuel+6:1-5,12b-19",
+                        "audioQS": "2Sam.6"
+                    },
+                    {
+                        "pretty": "Ephesians 1:3\u201314",
+                        "readQS": "Ephesians+1:3-14",
+                        "audioQS": "Eph.1"
+                    },
+                    {
+                        "pretty": "Mark 6:14\u201329",
+                        "readQS": "Mark+6:14-29",
+                        "audioQS": "Mark.6"
+                    }
+                ],
+                "readQS": "Psalm+24%3B+2+Samuel+6:1-5,12b-19%3B+Ephesians+1:3-14%3B+Mark+6:14-29",
+                "audioQS": "Ps.24,2Sam.6,Eph.1,Mark.6"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -13685,6 +13888,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+23%3B+Jeremiah+23:1-6%3B+Ephesians+2:11-22%3B+Mark+6:30-34,53-56",
                 "audioQS": "Ps.23,Jer.23,Eph.2,Mark.6"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 89:20\u201337",
+                        "readQS": "Psalm+89:20-37",
+                        "audioQS": "Ps.89"
+                    },
+                    {
+                        "pretty": "2 Samuel 7:1\u201314a",
+                        "readQS": "2+Samuel+7:1-14a",
+                        "audioQS": "2Sam.7"
+                    },
+                    {
+                        "pretty": "Ephesians 2:11\u201322",
+                        "readQS": "Ephesians+2:11-22",
+                        "audioQS": "Eph.2"
+                    },
+                    {
+                        "pretty": "Mark 6:30\u201334,53\u201356",
+                        "readQS": "Mark+6:30-34,53-56",
+                        "audioQS": "Mark.6"
+                    }
+                ],
+                "readQS": "Psalm+89:20-37%3B+2+Samuel+7:1-14a%3B+Ephesians+2:11-22%3B+Mark+6:30-34,53-56",
+                "audioQS": "Ps.89,2Sam.7,Eph.2,Mark.6"
             },
             {
                 "readingSetTab": "prayers",
@@ -14094,6 +14326,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.145,2Kgs.4,Eph.3,John.6"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 14",
+                        "readQS": "Psalm+14",
+                        "audioQS": "Ps.14"
+                    },
+                    {
+                        "pretty": "2 Samuel 11:1\u201315",
+                        "readQS": "2+Samuel+11:1-15",
+                        "audioQS": "2Sam.11"
+                    },
+                    {
+                        "pretty": "Ephesians 3:14\u201321",
+                        "readQS": "Ephesians+3:14-21",
+                        "audioQS": "Eph.3"
+                    },
+                    {
+                        "pretty": "John 6:1\u201321",
+                        "readQS": "John+6:1-21",
+                        "audioQS": "John.6"
+                    }
+                ],
+                "readQS": "Psalm+14%3B+2+Samuel+11:1-15%3B+Ephesians+3:14-21%3B+John+6:1-21",
+                "audioQS": "Ps.14,2Sam.11,Eph.3,John.6"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -14499,6 +14760,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+78:23-29%3B+Exodus+16:2-4,9-15%3B+Ephesians+4:1-16%3B+John+6:24-35",
                 "audioQS": "Ps.78,Exod.16,Eph.4,John.6"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 51:1\u201313",
+                        "readQS": "Psalm+51:1-13",
+                        "audioQS": "Ps.51"
+                    },
+                    {
+                        "pretty": "2 Samuel 11:26\u201312:13a",
+                        "readQS": "2+Samuel+11:26-12:13a",
+                        "audioQS": "2Sam.11"
+                    },
+                    {
+                        "pretty": "Ephesians 4:1\u201316",
+                        "readQS": "Ephesians+4:1-16",
+                        "audioQS": "Eph.4"
+                    },
+                    {
+                        "pretty": "John 6:24\u201335",
+                        "readQS": "John+6:24-35",
+                        "audioQS": "John.6"
+                    }
+                ],
+                "readQS": "Psalm+51:1-13%3B+2+Samuel+11:26-12:13a%3B+Ephesians+4:1-16%3B+John+6:24-35",
+                "audioQS": "Ps.51,2Sam.11,Eph.4,John.6"
             },
             {
                 "readingSetTab": "prayers",
@@ -14908,6 +15198,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.34,1Kgs.19,Eph.4,John.6"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 130",
+                        "readQS": "Psalm+130",
+                        "audioQS": "Ps.130"
+                    },
+                    {
+                        "pretty": "2 Samuel 18:5\u20139,15,31\u201333",
+                        "readQS": "2+Samuel+18:5-9,15,31-33",
+                        "audioQS": "2Sam.18"
+                    },
+                    {
+                        "pretty": "Ephesians 4:25\u20135:2",
+                        "readQS": "Ephesians+4:25-5:2",
+                        "audioQS": "Eph.4"
+                    },
+                    {
+                        "pretty": "John 6:35,41\u201351",
+                        "readQS": "John+6:35,41-51",
+                        "audioQS": "John.6"
+                    }
+                ],
+                "readQS": "Psalm+130%3B+2+Samuel+18:5-9,15,31-33%3B+Ephesians+4:25-5:2%3B+John+6:35,41-51",
+                "audioQS": "Ps.130,2Sam.18,Eph.4,John.6"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -15313,6 +15632,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+34:9-14%3B+Proverbs+9:1-6%3B+Ephesians+5:15-20%3B+John+6:51-58",
                 "audioQS": "Ps.34,Prov.9,Eph.5,John.6"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 111",
+                        "readQS": "Psalm+111",
+                        "audioQS": "Ps.111"
+                    },
+                    {
+                        "pretty": "1 Kings 2:10\u201312,3:3\u201314",
+                        "readQS": "1+Kings+2:10-12,3:3-14",
+                        "audioQS": "1Kgs.2"
+                    },
+                    {
+                        "pretty": "Ephesians 5:15\u201320",
+                        "readQS": "Ephesians+5:15-20",
+                        "audioQS": "Eph.5"
+                    },
+                    {
+                        "pretty": "John 6:51\u201358",
+                        "readQS": "John+6:51-58",
+                        "audioQS": "John.6"
+                    }
+                ],
+                "readQS": "Psalm+111%3B+1+Kings+2:10-12,3:3-14%3B+Ephesians+5:15-20%3B+John+6:51-58",
+                "audioQS": "Ps.111,1Kgs.2,Eph.5,John.6"
             },
             {
                 "readingSetTab": "prayers",
@@ -15722,6 +16070,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.34,Josh.24,Eph.6,John.6"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 84",
+                        "readQS": "Psalm+84",
+                        "audioQS": "Ps.84"
+                    },
+                    {
+                        "pretty": "1 Kings 8:(1,6,10\u201311),22\u201330,41\u201343",
+                        "readQS": "1+Kings+8:%281,6,10-11%29,22-30,41-43",
+                        "audioQS": "1Kgs.8"
+                    },
+                    {
+                        "pretty": "Ephesians 6:10\u201320",
+                        "readQS": "Ephesians+6:10-20",
+                        "audioQS": "Eph.6"
+                    },
+                    {
+                        "pretty": "John 6:56\u201369",
+                        "readQS": "John+6:56-69",
+                        "audioQS": "John.6"
+                    }
+                ],
+                "readQS": "Psalm+84%3B+1+Kings+8:%281,6,10-11%29,22-30,41-43%3B+Ephesians+6:10-20%3B+John+6:56-69",
+                "audioQS": "Ps.84,1Kgs.8,Eph.6,John.6"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -16127,6 +16504,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+15%3B+Deuteronomy+4:1-2,6-9%3B+James+1:17-27%3B+Mark+7:1-8,14-15,21-23",
                 "audioQS": "Ps.15,Deut.4,Jas.1,Mark.7"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 45:1\u20132,6\u20139",
+                        "readQS": "Psalm+45:1-2,6-9",
+                        "audioQS": "Ps.45"
+                    },
+                    {
+                        "pretty": "Song of Solomon 2:8\u201313",
+                        "readQS": "Song+of+Solomon+2:8-13",
+                        "audioQS": "Song.2"
+                    },
+                    {
+                        "pretty": "James 1:17\u201327",
+                        "readQS": "James+1:17-27",
+                        "audioQS": "Jas.1"
+                    },
+                    {
+                        "pretty": "Mark 7:1\u20138,14\u201315,21\u201323",
+                        "readQS": "Mark+7:1-8,14-15,21-23",
+                        "audioQS": "Mark.7"
+                    }
+                ],
+                "readQS": "Psalm+45:1-2,6-9%3B+Song+of+Solomon+2:8-13%3B+James+1:17-27%3B+Mark+7:1-8,14-15,21-23",
+                "audioQS": "Ps.45,Song.2,Jas.1,Mark.7"
             },
             {
                 "readingSetTab": "prayers",
@@ -16536,6 +16942,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.146,Isa.35,Jas.2,Mark.7"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 125",
+                        "readQS": "Psalm+125",
+                        "audioQS": "Ps.125"
+                    },
+                    {
+                        "pretty": "Proverbs 22:1\u20132,8\u20139,22\u201323",
+                        "readQS": "Proverbs+22:1-2,8-9,22-23",
+                        "audioQS": "Prov.22"
+                    },
+                    {
+                        "pretty": "James 2:1\u201310,(11\u201313),14\u201317",
+                        "readQS": "James+2:1-10,%2811-13%29,14-17",
+                        "audioQS": "Jas.2"
+                    },
+                    {
+                        "pretty": "Mark 7:24\u201337",
+                        "readQS": "Mark+7:24-37",
+                        "audioQS": "Mark.7"
+                    }
+                ],
+                "readQS": "Psalm+125%3B+Proverbs+22:1-2,8-9,22-23%3B+James+2:1-10,%2811-13%29,14-17%3B+Mark+7:24-37",
+                "audioQS": "Ps.125,Prov.22,Jas.2,Mark.7"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -16941,6 +17376,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+116:1-8%3B+Isaiah+50:4-9a%3B+James+3:1-12%3B+Mark+8:27-38",
                 "audioQS": "Ps.116,Isa.50,Jas.3,Mark.8"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 19",
+                        "readQS": "Psalm+19",
+                        "audioQS": "Ps.19"
+                    },
+                    {
+                        "pretty": "Proverbs 1:20\u201333",
+                        "readQS": "Proverbs+1:20-33",
+                        "audioQS": "Prov.1"
+                    },
+                    {
+                        "pretty": "James 3:1\u201312",
+                        "readQS": "James+3:1-12",
+                        "audioQS": "Jas.3"
+                    },
+                    {
+                        "pretty": "Mark 8:27\u201338",
+                        "readQS": "Mark+8:27-38",
+                        "audioQS": "Mark.8"
+                    }
+                ],
+                "readQS": "Psalm+19%3B+Proverbs+1:20-33%3B+James+3:1-12%3B+Mark+8:27-38",
+                "audioQS": "Ps.19,Prov.1,Jas.3,Mark.8"
             },
             {
                 "readingSetTab": "prayers",
@@ -17350,6 +17814,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.54,Jer.11,Jas.3,Mark.9"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 1",
+                        "readQS": "Psalm+1",
+                        "audioQS": "Ps.1"
+                    },
+                    {
+                        "pretty": "Proverbs 31:10\u201331",
+                        "readQS": "Proverbs+31:10-31",
+                        "audioQS": "Prov.31"
+                    },
+                    {
+                        "pretty": "James 3:13\u20134:3,7\u20138a",
+                        "readQS": "James+3:13-4:3,7-8a",
+                        "audioQS": "Jas.3"
+                    },
+                    {
+                        "pretty": "Mark 9:30\u201337",
+                        "readQS": "Mark+9:30-37",
+                        "audioQS": "Mark.9"
+                    }
+                ],
+                "readQS": "Psalm+1%3B+Proverbs+31:10-31%3B+James+3:13-4:3,7-8a%3B+Mark+9:30-37",
+                "audioQS": "Ps.1,Prov.31,Jas.3,Mark.9"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -17755,6 +18248,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+19:7-14%3B+Numbers+11:4-6,10-16,24-29%3B+James+5:13-20%3B+Mark+9:38-50",
                 "audioQS": "Ps.19,Num.11,Jas.5,Mark.9"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 124",
+                        "readQS": "Psalm+124",
+                        "audioQS": "Ps.124"
+                    },
+                    {
+                        "pretty": "Esther 7:1\u20136,9\u201310,9:20\u201322",
+                        "readQS": "Esther+7:1-6,9-10,9:20-22",
+                        "audioQS": "Esth.7"
+                    },
+                    {
+                        "pretty": "James 5:13\u201320",
+                        "readQS": "James+5:13-20",
+                        "audioQS": "Jas.5"
+                    },
+                    {
+                        "pretty": "Mark 9:38\u201350",
+                        "readQS": "Mark+9:38-50",
+                        "audioQS": "Mark.9"
+                    }
+                ],
+                "readQS": "Psalm+124%3B+Esther+7:1-6,9-10,9:20-22%3B+James+5:13-20%3B+Mark+9:38-50",
+                "audioQS": "Ps.124,Esth.7,Jas.5,Mark.9"
             },
             {
                 "readingSetTab": "prayers",
@@ -18174,6 +18696,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.8,Gen.2,Heb.1,Mark.10"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 26",
+                        "readQS": "Psalm+26",
+                        "audioQS": "Ps.26"
+                    },
+                    {
+                        "pretty": "Job 1:1,2:1\u201310",
+                        "readQS": "Job+1:1,2:1-10",
+                        "audioQS": "Job.1"
+                    },
+                    {
+                        "pretty": "Hebrews 1:1\u20134,2:5\u201312",
+                        "readQS": "Hebrews+1:1-4,2:5-12",
+                        "audioQS": "Heb.1"
+                    },
+                    {
+                        "pretty": "Mark 10:2\u201316",
+                        "readQS": "Mark+10:2-16",
+                        "audioQS": "Mark.10"
+                    }
+                ],
+                "readQS": "Psalm+26%3B+Job+1:1,2:1-10%3B+Hebrews+1:1-4,2:5-12%3B+Mark+10:2-16",
+                "audioQS": "Ps.26,Job.1,Heb.1,Mark.10"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -18579,6 +19130,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+90:12-17%3B+Amos+5:6-7,10-15%3B+Hebrews+4:12-16%3B+Mark+10:17-31",
                 "audioQS": "Ps.90,Amos.5,Heb.4,Mark.10"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 22:1\u201315",
+                        "readQS": "Psalm+22:1-15",
+                        "audioQS": "Ps.22"
+                    },
+                    {
+                        "pretty": "Job 23:1\u20139,16\u201317",
+                        "readQS": "Job+23:1-9,16-17",
+                        "audioQS": "Job.23"
+                    },
+                    {
+                        "pretty": "Hebrews 4:12\u201316",
+                        "readQS": "Hebrews+4:12-16",
+                        "audioQS": "Heb.4"
+                    },
+                    {
+                        "pretty": "Mark 10:17\u201331",
+                        "readQS": "Mark+10:17-31",
+                        "audioQS": "Mark.10"
+                    }
+                ],
+                "readQS": "Psalm+22:1-15%3B+Job+23:1-9,16-17%3B+Hebrews+4:12-16%3B+Mark+10:17-31",
+                "audioQS": "Ps.22,Job.23,Heb.4,Mark.10"
             },
             {
                 "readingSetTab": "prayers",
@@ -18993,6 +19573,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.91,Isa.53,Heb.5,Mark.10"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 104:1\u201310,26,35c",
+                        "readQS": "Psalm+104:1-10,26,35c",
+                        "audioQS": "Ps.104"
+                    },
+                    {
+                        "pretty": "Job 38:1\u20137,(34\u201341)",
+                        "readQS": "Job+38:1-7,%2834-41%29",
+                        "audioQS": "Job.38"
+                    },
+                    {
+                        "pretty": "Hebrews 5:1\u201310",
+                        "readQS": "Hebrews+5:1-10",
+                        "audioQS": "Heb.5"
+                    },
+                    {
+                        "pretty": "Mark 10:35\u201345",
+                        "readQS": "Mark+10:35-45",
+                        "audioQS": "Mark.10"
+                    }
+                ],
+                "readQS": "Psalm+104:1-10,26,35c%3B+Job+38:1-7,%2834-41%29%3B+Hebrews+5:1-10%3B+Mark+10:35-45",
+                "audioQS": "Ps.104,Job.38,Heb.5,Mark.10"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -19398,6 +20007,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+126%3B+Jeremiah+31:7-9%3B+Hebrews+7:23-28%3B+Mark+10:46-52",
                 "audioQS": "Ps.126,Jer.31,Heb.7,Mark.10"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 34:1\u20138,19\u201322",
+                        "readQS": "Psalm+34:1-8,19-22",
+                        "audioQS": "Ps.34"
+                    },
+                    {
+                        "pretty": "Job 42:1\u20136,10\u201317",
+                        "readQS": "Job+42:1-6,10-17",
+                        "audioQS": "Job.42"
+                    },
+                    {
+                        "pretty": "Hebrews 7:23\u201328",
+                        "readQS": "Hebrews+7:23-28",
+                        "audioQS": "Heb.7"
+                    },
+                    {
+                        "pretty": "Mark 10:46\u201352",
+                        "readQS": "Mark+10:46-52",
+                        "audioQS": "Mark.10"
+                    }
+                ],
+                "readQS": "Psalm+34:1-8,19-22%3B+Job+42:1-6,10-17%3B+Hebrews+7:23-28%3B+Mark+10:46-52",
+                "audioQS": "Ps.34,Job.42,Heb.7,Mark.10"
             },
             {
                 "readingSetTab": "prayers",
@@ -19807,6 +20445,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.119,Deut.6,Heb.9,Mark.12"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 146",
+                        "readQS": "Psalm+146",
+                        "audioQS": "Ps.146"
+                    },
+                    {
+                        "pretty": "Ruth 1:1\u201318",
+                        "readQS": "Ruth+1:1-18",
+                        "audioQS": "Ruth.1"
+                    },
+                    {
+                        "pretty": "Hebrews 9:11\u201314",
+                        "readQS": "Hebrews+9:11-14",
+                        "audioQS": "Heb.9"
+                    },
+                    {
+                        "pretty": "Mark 12:28\u201334",
+                        "readQS": "Mark+12:28-34",
+                        "audioQS": "Mark.12"
+                    }
+                ],
+                "readQS": "Psalm+146%3B+Ruth+1:1-18%3B+Hebrews+9:11-14%3B+Mark+12:28-34",
+                "audioQS": "Ps.146,Ruth.1,Heb.9,Mark.12"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -20214,6 +20881,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.62,Jonah.3,Heb.9,Mark.1"
             },
             {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 146",
+                        "readQS": "Psalm+146",
+                        "audioQS": "Ps.146"
+                    },
+                    {
+                        "pretty": "1 Kings 17:8\u201316",
+                        "readQS": "1+Kings+17:8-16",
+                        "audioQS": "1Kgs.17"
+                    },
+                    {
+                        "pretty": "Hebrews 9:24\u201328",
+                        "readQS": "Hebrews+9:24-28",
+                        "audioQS": "Heb.9"
+                    },
+                    {
+                        "pretty": "Mark 12:28\u201344",
+                        "readQS": "Mark+12:28-44",
+                        "audioQS": "Mark.12"
+                    }
+                ],
+                "readQS": "Psalm+146%3B+1+Kings+17:8-16%3B+Hebrews+9:24-28%3B+Mark+12:28-44",
+                "audioQS": "Ps.146,1Kgs.17,Heb.9,Mark.12"
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
@@ -20619,6 +21315,35 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+16%3B+Daniel+12:1-3%3B+Hebrews+10:11-14,%2815-18%29,19-25%3B+Mark+13:1-8",
                 "audioQS": "Ps.16,Dan.12,Heb.10,Mark.13"
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Canticle: 1 Samuel 2:1\u201310",
+                        "readQS": "1+Samuel+2:1-10",
+                        "audioQS": "1Sam.2"
+                    },
+                    {
+                        "pretty": "1 Samuel 1:4\u201320",
+                        "readQS": "1+Samuel+1:4-20",
+                        "audioQS": "1Sam.1"
+                    },
+                    {
+                        "pretty": "Hebrews 10:11\u201314,(15\u201318),19\u201325",
+                        "readQS": "Hebrews+10:11-14,%2815-18%29,19-25",
+                        "audioQS": "Heb.10"
+                    },
+                    {
+                        "pretty": "Mark 13:1\u20138",
+                        "readQS": "Mark+13:1-8",
+                        "audioQS": "Mark.13"
+                    }
+                ],
+                "readQS": "1+Samuel+2:1-10%3B+1+Samuel+1:4-20%3B+Hebrews+10:11-14,%2815-18%29,19-25%3B+Mark+13:1-8",
+                "audioQS": "1Sam.2,1Sam.1,Heb.10,Mark.13"
             },
             {
                 "readingSetTab": "prayers",
