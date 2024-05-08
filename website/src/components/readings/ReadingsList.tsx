@@ -3,10 +3,10 @@ import { styled } from "../../stitches.config";
 import Reading from "./Reading";
 
 const StyledReadingsList = styled("ul", {
-  margin: "50px 0 50px 0",
   flex: "1",
   padding: "0",
   listStyle: "none",
+  margin: "0"
 });
 
 interface ReadingsListProps {

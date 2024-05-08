@@ -86,9 +86,14 @@ const Input = styled("input", {
 });
 
 interface ToggleProps {
-  onChange: (value: Theme) => void;
+  onChange: (value: any) => void;
   selected: string;
-  options: { value: string; content: string }[];
+  options: IToggleOption[];
+}
+
+export interface IToggleOption {
+  value: string; 
+  content: string;
 }
 
 const Toggle = ({ options, selected, onChange }: ToggleProps) => {

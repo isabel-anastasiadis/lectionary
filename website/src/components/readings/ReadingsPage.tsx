@@ -1,12 +1,11 @@
+import { styled } from "@stitches/react";
+import { IAvailableDates, IReadingsForDay, Theme } from "../../data/interfaces";
 import Button from "../common/Button";
 import Toggle from "../common/Toggle";
 import Nav from "../common/Nav";
 import Message from "../common/Message";
 import Date from "../common/Date";
-import ReadingsList from "./ReadingsList";
-import Actions from "./Actions";
-import { IAvailableDates, IReadingsForDay, IReadingsList, Theme } from "../../data/interfaces";
-import { styled } from "@stitches/react";
+import ReadingsSection from "./ReadingsSection";
 
 const StyledSpan = styled('span', {
   color: '$foreground',
@@ -43,16 +42,6 @@ const ReadingsPage = ({
   updateTheme,
 }: ReadingsPageProps) => {
 
-  function getReadingsToDisplay(): IReadingsList {
-    if (todaysReadings.rclTrack1) {
-      return todaysReadings.rclTrack1;
-    }
-
-    return theme === Theme.MORNING
-      ? todaysReadings.morning
-      : todaysReadings.evening;
-  }
-
   return (
     <>
       <Nav>
@@ -85,17 +74,10 @@ const ReadingsPage = ({
         setCurrentDate={updateDate}
       />
       <StyledSpan>{todaysReadings.calendar}</StyledSpan>
-      <ReadingsList
-        readingsList={
-          getReadingsToDisplay()
-        }
-        readingTranslation={readingTranslation}
-      />
-      <Actions readings={
-        theme === Theme.MORNING
-            ? todaysReadings.morning
-            : todaysReadings.evening
-        }
+
+      <ReadingsSection
+        theme={theme}
+        todaysReadings={todaysReadings}
         audioTranslation={audioTranslation}
         readingTranslation={readingTranslation}
         setAudioTranslation={setAudioTranslation}
