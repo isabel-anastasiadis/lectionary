@@ -1279,7 +1279,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Christmas Eve)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -1305,7 +1305,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2023/12/25": {
         "datePretty": "Monday, December 25, 2023",
-        "calendar": "Christmas day",
+        "calendar": "Christmas Day",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -1686,7 +1686,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Naming of Jesus)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -1956,7 +1956,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Epiphany)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -2010,7 +2010,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Baptism of the Lord)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -3074,7 +3074,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Conversion of St Paul)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -3535,7 +3535,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Presentation)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -6237,7 +6237,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of Joseph)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -6590,7 +6590,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Annunciation)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -8608,7 +8608,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Mark)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -8961,7 +8961,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Phillip and St James)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -9368,7 +9368,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of Ascension Day)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -9696,7 +9696,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Matthias)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -9966,7 +9966,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of Pentecost)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -10373,7 +10373,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of Trinity Sunday)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -10672,7 +10672,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Visitation of Mary to Elizabeth)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -11382,7 +11382,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Barnabas)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -12200,7 +12200,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St John the Baptist)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -12470,7 +12470,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Peter and St Paul)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -12744,7 +12744,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Annunciation)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -13944,7 +13944,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Mary Magdalene)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -14106,7 +14106,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St James)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -14870,7 +14870,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Transfiguration)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -15414,7 +15414,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of the Blessed Virgin Mary)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -15958,7 +15958,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Bartholomew)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -17266,7 +17266,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of Holy Cross Day)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -17702,7 +17702,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Matthew)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -18192,7 +18192,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of Michaelmas)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -19407,7 +19407,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Luke)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -20063,7 +20063,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Simon and St Jude)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -20279,7 +20279,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of All Saints Day)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -21695,7 +21695,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of Christ the King)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -22048,7 +22048,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
+                "readingSetSubtitle": "Evening Prayers (Eve of St Andrew)",
                 "timeOfDay": "evening",
                 "readings": [
                     {

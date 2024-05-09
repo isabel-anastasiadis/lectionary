@@ -21,6 +21,7 @@ namespace Tests.Data.Result
                 "date",
                 "date_pretty",
                 "day_description",
+                "evening_name",
                 "rcl_track_1",
                 "rcl_track_2",
                 "morning_prayers_together",
@@ -124,6 +125,35 @@ namespace Tests.Data.Result
         }
 
         [Test]
+        public void MapsEveningNameCorrectly()
+        {
+            // arrange
+            var expected = "Eve of the Conversion of St Paul";
+            var date = new DateOnly(2021, 12, 1);
+            var input = new Dictionary<DateOnly, Option<Day, DayOptionType>>()
+            {
+                {
+                    date,
+                    new Option<Day, DayOptionType>
+                    {
+                        OptionOne = new Day()
+                        {
+                            Date = date,
+                            EveningName = expected
+                        }
+                    }
+                }
+            };
+
+            // act
+            var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
+
+            // assert
+            Assert.AreEqual(expected, firstDataRow[3]);
+
+        }
+
+        [Test]
         public void MapsRclTrack1Together()
         {
             // arrange
@@ -170,7 +200,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[3]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[4]);
 
         }
 
@@ -221,7 +251,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Canticle: Luke 1:68-79 (Benedictus); Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[3]);
+            Assert.AreEqual("Canticle: Luke 1:68-79 (Benedictus); Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[4]);
 
         }
 
@@ -273,7 +303,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[4]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[5]);
 
         }
 
@@ -324,7 +354,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Canticle: Luke 1:68-79 (Benedictus); Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[4]);
+            Assert.AreEqual("Canticle: Luke 1:68-79 (Benedictus); Job 2:3-4; Acts 12:15-20; Mark 12:15-20", firstDataRow[5]);
 
         }
 
@@ -371,7 +401,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[5]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[6]);
 
         }
 
@@ -417,7 +447,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[6]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[7]);
 
         }
 
