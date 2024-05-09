@@ -16,6 +16,7 @@ namespace ReadingsBuilder.Data.Result
                 "date",
                 "date_pretty",
                 "day_description",
+                "evening_name",
                 "rcl_track_1",
                 "rcl_track_2",
                 "morning_prayers_together",
@@ -36,7 +37,9 @@ namespace ReadingsBuilder.Data.Result
 
                 row.Add(MapPrettyDate(day.Date));
 
-                row.Add(day.DayDescription ?? String.Empty);
+                row.Add(day.DayDescription ?? string.Empty);
+
+                row.Add(day.EveningName ?? string.Empty);
 
                 row.Add(MapRclReadings(day.RclTrack1Readings));
 
@@ -64,6 +67,8 @@ namespace ReadingsBuilder.Data.Result
 
 
         }
+
+
 
         private string MapMorningReadings(Option<MorningReadings, ReadingsOptionType>? morningReadings)
         {
