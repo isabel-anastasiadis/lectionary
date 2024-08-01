@@ -16,26 +16,24 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
         public TransferCalculator() { 
         }
 
-        public bool RuleApplies(Rule rule) 
+        public bool RuleApplies(FeastOrSeasonType ruleFlags) 
         {
-            return (rule.FeastOrSeasonFlags & FeastOrSeasonType.Festival) != 0
-                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.PrincipalFeast) != 0
-                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.PrincipalHolyDay) != 0
-                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.EveningBeforeFestival) != 0
-                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.EveningBeforePrincipalFeast) != 0
-                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.EveningBeforePrincipalHolyDay) != 0;
+            return IsEveningBefore(ruleFlags) || IsFeastOrFestival(ruleFlags);
         }
 
         /// <summary>
         /// Returns a new DateOnly for the next available transfer date, or null if it does not need transferring.
         /// </summary>
-        public DateOnly? GetNextAvailableDate(PipelineWorkingResult workingResult, DateOnly plannedDate) 
+        public DateOnly? GetNextAvailableDate(FeastOrSeasonType ruleFlags, PipelineWorkingResult workingResult, DateOnly plannedDate) 
         {
-            var allKeys = workingResult.Result.Keys.ToList<DateOnly>();
-            var indexOfPlannedDate = allKeys.IndexOf(plannedDate);
-            var plannedDay = workingResult.Result[plannedDate].OptionOne;
+            var allKeys = workingResult.Result.Keys.ToList();
 
-            if (plannedDay == null)
+            var plannedFestivalDate = IsEveningBefore(ruleFlags) ? plannedDate.AddDays(1) : plannedDate;
+
+            var indexOfPlannedFestivalDate = allKeys.IndexOf(plannedFestivalDate);
+            var plannedFestivalDay = workingResult.Result[plannedFestivalDate].OptionOne;
+
+            if (plannedFestivalDay == null)
             {
                 return null;
             }
@@ -51,9 +49,11 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
             // TODO: Advent or Lent sundays!
             // TODO: evening before is the day before!!
-            if (IsHolyOrEasterWeekOrEastertideSunday(plannedDay))
+
+            DateOnly actualFestivalDate;
+            if (IsHolyOrEasterWeekOrEastertideSunday(plannedFestivalDay))
             {
-                for (var i = indexOfPlannedDate; i < workingResult.Result.Count; i++)
+                for (var i = indexOfPlannedFestivalDate; i < workingResult.Result.Count; i++)
                 {
                     var nextDate = allKeys[i];
                     var nextDay = workingResult.Result[nextDate].OptionOne;
@@ -65,12 +65,30 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
                     if (!IsHolyOrEasterWeekOrEastertideSunday(nextDay) && !AlreadyHasFeastOrFestival(nextDay))
                     {
-                        return nextDate;
+                        actualFestivalDate = nextDate;
+                        break;
                     }
                 }
             }
 
-            return null;
+            if(plannedFestivalDay == null)
+                return null;
+
+            return IsEveningBefore(ruleFlags) ? actualFestivalDate.AddDays(-1) : actualFestivalDate;
+        }
+
+        private bool IsEveningBefore(FeastOrSeasonType flags)
+        {
+            return  (flags & FeastOrSeasonType.EveningBeforeFestival) != 0
+                || (flags & FeastOrSeasonType.EveningBeforePrincipalFeast) != 0
+                || (flags & FeastOrSeasonType.EveningBeforePrincipalHolyDay) != 0;
+        }
+
+        private bool IsFeastOrFestival(FeastOrSeasonType flags)
+        {
+            return (flags & FeastOrSeasonType.Festival) != 0
+                || (flags & FeastOrSeasonType.PrincipalFeast) != 0
+                || (flags & FeastOrSeasonType.PrincipalHolyDay) != 0;
         }
 
         private bool IsHolyOrEasterWeekOrEastertideSunday(Day day)
