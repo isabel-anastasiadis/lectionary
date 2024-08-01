@@ -5,7 +5,7 @@ using ReadingsBuilder.Model.Result;
 
 namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
-    public class TransferCalculator
+    public class TransferCalculator : ITransferCalculator
     {
         public enum Priority { 
             None = 0,
@@ -16,10 +16,20 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
         public TransferCalculator() { 
         }
 
+        public bool RuleApplies(Rule rule) 
+        {
+            return (rule.FeastOrSeasonFlags & FeastOrSeasonType.Festival) != 0
+                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.PrincipalFeast) != 0
+                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.PrincipalHolyDay) != 0
+                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.EveningBeforeFestival) != 0
+                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.EveningBeforePrincipalFeast) != 0
+                || (rule.FeastOrSeasonFlags & FeastOrSeasonType.EveningBeforePrincipalHolyDay) != 0;
+        }
+
         /// <summary>
         /// Returns a new DateOnly for the next available transfer date, or null if it does not need transferring.
         /// </summary>
-        public DateOnly? GetNextAvailableDate(PipelineWorkingResult workingResult, DateOnly plannedDate, Priority rulePriority) 
+        public DateOnly? GetNextAvailableDate(PipelineWorkingResult workingResult, DateOnly plannedDate) 
         {
             var allKeys = workingResult.Result.Keys.ToList<DateOnly>();
             var indexOfPlannedDate = allKeys.IndexOf(plannedDate);
@@ -38,6 +48,9 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             // must be transferred
             //
             // See https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/common-worship/churchs-year/rules
+
+            // TODO: Advent or Lent sundays!
+            // TODO: evening before is the day before!!
             if (IsHolyOrEasterWeekOrEastertideSunday(plannedDay))
             {
                 for (var i = indexOfPlannedDate; i < workingResult.Result.Count; i++)

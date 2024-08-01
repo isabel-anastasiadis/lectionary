@@ -37,6 +37,7 @@ namespace ReadingsBuilder.Bindings
             // Step utilities
             container.Register<IByDayOfMonthRuleSetApplier, ByDayOfMonthRuleSetApplier>();
             container.Register<IByDayOfWeekRuleSetApplier, ByDayOfWeekRuleSetApplier>();
+            container.Register<ITransferCalculator, TransferCalculator>();
         
         }
     }
