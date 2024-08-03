@@ -6594,29 +6594,29 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": "evening",
                 "readings": [
                     {
-                        "pretty": "Psalm 85",
-                        "readQS": "Psalm+85",
-                        "audioQS": "Ps.85"
+                        "pretty": "Psalm 69:1\u201320",
+                        "readQS": "Psalm+69:1-20",
+                        "audioQS": "Ps.69"
                     },
                     {
-                        "pretty": "Genesis 3:8\u201315",
-                        "readQS": "Genesis+3:8-15",
-                        "audioQS": "Gen.3"
+                        "pretty": "Isaiah 5:1\u20137",
+                        "readQS": "Isaiah+5:1-7",
+                        "audioQS": "Isa.5"
                     },
                     {
-                        "pretty": "Galatians 4:1\u20135",
-                        "readQS": "Galatians+4:1-5",
-                        "audioQS": "Gal.4"
+                        "pretty": "Mark 12:1\u201312",
+                        "readQS": "Mark+12:1-12",
+                        "audioQS": "Mark.12"
                     }
                 ],
-                "readQS": "Psalm+85%3B+Genesis+3:8-15%3B+Galatians+4:1-5",
-                "audioQS": "Ps.85,Gen.3,Gal.4"
+                "readQS": "Psalm+69:1-20%3B+Isaiah+5:1-7%3B+Mark+12:1-12",
+                "audioQS": "Ps.69,Isa.5,Mark.12"
             }
         ]
     },
     "2024/03/25": {
         "datePretty": "Monday, March 25, 2024",
-        "calendar": "The Annunciation",
+        "calendar": "Monday in Holy Week",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -6653,23 +6653,23 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": "morning",
                 "readings": [
                     {
-                        "pretty": "Psalm 111,113",
-                        "readQS": "Psalm+111,113",
-                        "audioQS": "Ps.111,113"
+                        "pretty": "Psalm 41",
+                        "readQS": "Psalm+41",
+                        "audioQS": "Ps.41"
                     },
                     {
-                        "pretty": "1 Samuel 2:1\u201310",
-                        "readQS": "1+Samuel+2:1-10",
-                        "audioQS": "1Sam.2"
+                        "pretty": "Lamentations 1:1\u201312a",
+                        "readQS": "Lamentations+1:1-12a",
+                        "audioQS": "Lam.1"
                     },
                     {
-                        "pretty": "Romans 5:12\u201321",
-                        "readQS": "Romans+5:12-21",
-                        "audioQS": "Rom.5"
+                        "pretty": "Luke 22:1\u201323",
+                        "readQS": "Luke+22:1-23",
+                        "audioQS": "Luke.22"
                     }
                 ],
-                "readQS": "Psalm+111,113%3B+1+Samuel+2:1-10%3B+Romans+5:12-21",
-                "audioQS": "Ps.111,113,1Sam.2,Rom.5"
+                "readQS": "Psalm+41%3B+Lamentations+1:1-12a%3B+Luke+22:1-23",
+                "audioQS": "Ps.41,Lam.1,Luke.22"
             },
             {
                 "readingSetTab": "prayers",
@@ -6677,23 +6677,23 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": "evening",
                 "readings": [
                     {
-                        "pretty": "Psalm 131,146",
-                        "readQS": "Psalm+131,146",
-                        "audioQS": "Ps.131,146"
+                        "pretty": "Psalm 25",
+                        "readQS": "Psalm+25",
+                        "audioQS": "Ps.25"
                     },
                     {
-                        "pretty": "Isaiah 52:1\u201312",
-                        "readQS": "Isaiah+52:1-12",
-                        "audioQS": "Isa.52"
+                        "pretty": "Lamentations 2:8\u201319",
+                        "readQS": "Lamentations+2:8-19",
+                        "audioQS": "Lam.2"
                     },
                     {
-                        "pretty": "Hebrews 2:5\u201318",
-                        "readQS": "Hebrews+2:5-18",
-                        "audioQS": "Heb.2"
+                        "pretty": "Colossians 1:18\u201323",
+                        "readQS": "Colossians+1:18-23",
+                        "audioQS": "Col.1"
                     }
                 ],
-                "readQS": "Psalm+131,146%3B+Isaiah+52:1-12%3B+Hebrews+2:5-18",
-                "audioQS": "Ps.131,146,Isa.52,Heb.2"
+                "readQS": "Psalm+25%3B+Lamentations+2:8-19%3B+Colossians+1:18-23",
+                "audioQS": "Ps.25,Lam.2,Col.1"
             }
         ]
     },
@@ -7582,29 +7582,29 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": "evening",
                 "readings": [
                     {
-                        "pretty": "Psalm 143:1\u201311",
-                        "readQS": "Psalm+143:1-11",
-                        "audioQS": "Ps.143"
+                        "pretty": "Psalm 85",
+                        "readQS": "Psalm+85",
+                        "audioQS": "Ps.85"
                     },
                     {
-                        "pretty": "Isaiah 26:1\u20139,19",
-                        "readQS": "Isaiah+26:1-9,19",
-                        "audioQS": "Isa.26"
+                        "pretty": "Genesis 3:8\u201315",
+                        "readQS": "Genesis+3:8-15",
+                        "audioQS": "Gen.3"
                     },
                     {
-                        "pretty": "Luke 24:1\u201312",
-                        "readQS": "Luke+24:1-12",
-                        "audioQS": "Luke.24"
+                        "pretty": "Galatians 4:1\u20135",
+                        "readQS": "Galatians+4:1-5",
+                        "audioQS": "Gal.4"
                     }
                 ],
-                "readQS": "Psalm+143:1-11%3B+Isaiah+26:1-9,19%3B+Luke+24:1-12",
-                "audioQS": "Ps.143,Isa.26,Luke.24"
+                "readQS": "Psalm+85%3B+Genesis+3:8-15%3B+Galatians+4:1-5",
+                "audioQS": "Ps.85,Gen.3,Gal.4"
             }
         ]
     },
     "2024/04/08": {
         "datePretty": "Monday, April 8, 2024",
-        "calendar": "Week of 2nd Sunday of Easter",
+        "calendar": "The Annunciation",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -7612,23 +7612,23 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": "morning",
                 "readings": [
                     {
-                        "pretty": "Psalm 19",
-                        "readQS": "Psalm+19",
-                        "audioQS": "Ps.19"
+                        "pretty": "Psalm 111,113",
+                        "readQS": "Psalm+111,113",
+                        "audioQS": "Ps.111,113"
                     },
                     {
-                        "pretty": "Exodus 15:1\u201321",
-                        "readQS": "Exodus+15:1-21",
-                        "audioQS": "Exod.15"
+                        "pretty": "1 Samuel 2:1\u201310",
+                        "readQS": "1+Samuel+2:1-10",
+                        "audioQS": "1Sam.2"
                     },
                     {
-                        "pretty": "Colossians 1:1\u201314",
-                        "readQS": "Colossians+1:1-14",
-                        "audioQS": "Col.1"
+                        "pretty": "Romans 5:12\u201321",
+                        "readQS": "Romans+5:12-21",
+                        "audioQS": "Rom.5"
                     }
                 ],
-                "readQS": "Psalm+19%3B+Exodus+15:1-21%3B+Colossians+1:1-14",
-                "audioQS": "Ps.19,Exod.15,Col.1"
+                "readQS": "Psalm+111,113%3B+1+Samuel+2:1-10%3B+Romans+5:12-21",
+                "audioQS": "Ps.111,113,1Sam.2,Rom.5"
             },
             {
                 "readingSetTab": "prayers",
@@ -7636,23 +7636,23 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": "evening",
                 "readings": [
                     {
-                        "pretty": "Psalm 139",
-                        "readQS": "Psalm+139",
-                        "audioQS": "Ps.139"
+                        "pretty": "Psalm 131,146",
+                        "readQS": "Psalm+131,146",
+                        "audioQS": "Ps.131,146"
                     },
                     {
-                        "pretty": "Deuteronomy 1:3\u201318",
-                        "readQS": "Deuteronomy+1:3-18",
-                        "audioQS": "Deut.1"
+                        "pretty": "Isaiah 52:1\u201312",
+                        "readQS": "Isaiah+52:1-12",
+                        "audioQS": "Isa.52"
                     },
                     {
-                        "pretty": "John 20:1\u201310",
-                        "readQS": "John+20:1-10",
-                        "audioQS": "John.20"
+                        "pretty": "Hebrews 2:5\u201318",
+                        "readQS": "Hebrews+2:5-18",
+                        "audioQS": "Heb.2"
                     }
                 ],
-                "readQS": "Psalm+139%3B+Deuteronomy+1:3-18%3B+John+20:1-10",
-                "audioQS": "Ps.139,Deut.1,John.20"
+                "readQS": "Psalm+131,146%3B+Isaiah+52:1-12%3B+Hebrews+2:5-18",
+                "audioQS": "Ps.131,146,Isa.52,Heb.2"
             }
         ]
     },
