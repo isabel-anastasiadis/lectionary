@@ -12,16 +12,19 @@ When epiphany falls on a Sunday (it is usually before Sunday), then the other re
 
 How far I've checked dates:
 - Need to recheck Holy week - RCL has rcl throughout the week, so really need to implement options!
-- Need to check sundays after the 24th March once we have RCL options
-- Otherwise, we have checked until normal days until the 8th June 2024.
+- Need to check sundays after the 24th March once we have RCL options (until 8th June)
+- Otherwise, we have checked until normal days until the 15th July
+
+Going forward, should just check Sundays, festivals and seasonal time and boundaries between rule sets?
 
 
 Issues:
 
-	18 May - missing MP psalm
-	25th May - 1st ep has Exod 34:1-10 in the lectionary, but we have Isaiah??
 	29 May - Do we do Corpus cristi? Day of thanksgiving for holy communion
-	30 may - Corpus christi? 
+	30 may - Corpus christi?
+	9th June - RCL continuous, we have 1 Kings, but 1st Samuel is in the Lectionary
+	2nd July - says eve of annunciation, rather than of St Thomas
 
 
-
+Confirmed not a problem:
+- 25th May 2024 - 1st ep has Exod 34:1-10 in the lectionary, but we have Isaiah. Their bad, it changes based on A,B,C 
