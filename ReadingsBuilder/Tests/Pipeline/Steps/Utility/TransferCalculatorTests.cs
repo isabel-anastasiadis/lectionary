@@ -88,9 +88,10 @@ namespace Tests.Pipeline.Steps.Utility
             Assert.AreEqual(DayOfWeek.Monday, newDate.Value.DayOfWeek);
         }
 
-        [TestCase(2024, 4, 7, Description = "First Sunday in Eastertide (but not Holy or Easter Week)")]
-        [TestCase(2024, 4, 14, Description = "The next Sunday in Eastertide (but not Holy or Easter Week)")]
-        public void ReturnsNextMondayIfSundayInEastertide(int year, int month, int day)
+        [TestCase(2024, 4, 7, Description = "The first Sunday in Eastertide that isn't Holy or Easter Week")]
+        [TestCase(2023, 12, 10, Description = "2nd Sunday of Advent")]
+        [TestCase(2024, 3, 10, Description = "4th Sunday of Lent")]
+        public void ReturnsNextMondayIfSundayInAdventLentOrEastertide(int year, int month, int day)
         {
             // arrange
             var classUnderTest = new TransferCalculator();

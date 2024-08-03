@@ -7,15 +7,6 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public class TransferCalculator : ITransferCalculator
     {
-        public enum Priority { 
-            None = 0,
-            Festival = 1,
-            Principal = 2
-        }
-
-        public TransferCalculator() { 
-        }
-
         public bool RuleApplies(FeastOrSeasonType ruleFlags) 
         {
             return ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) || ruleFlags.Matches(FeastOrSeasonType.FeastOrFestivalMask);
@@ -38,20 +29,16 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 return null;
             }
 
-            // St Joseph, St George, or St Mark, falling between
+            // St Joseph, St George, or St Mark (ie. the only festivals that can possibly clash with Easter), falling between
             // Palm Sunday and the Second Sunday of Easter inclusive
-            // must be transferred
+            // must be transferred.
             //
             // A Festival falling on a Sunday in Advent, Lent or Eastertide
-            // must be transferred
+            // must be transferred.
             //
             // See https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/common-worship/churchs-year/rules
-
-            // TODO: Advent or Lent sundays!
-            // TODO: evening before is the day before!!
-
             DateOnly? actualFestivalDate = null;
-            if (IsHolyOrEasterWeekOrEastertideSunday(plannedFestivalDay))
+            if (IsHolyOrEasterWeekOrAdventLentOrEastertideSunday(plannedFestivalDay))
             {
                 for (var i = indexOfPlannedFestivalDate; i < workingResult.Result.Count; i++)
                 {
@@ -63,7 +50,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                         continue;
                     }
 
-                    if (!IsHolyOrEasterWeekOrEastertideSunday(nextDay) && !nextDay.FeastOrSeasonType.Matches(FeastOrSeasonType.FeastOrFestivalMask))
+                    if (!IsHolyOrEasterWeekOrAdventLentOrEastertideSunday(nextDay) && !nextDay.FeastOrSeasonType.Matches(FeastOrSeasonType.FeastOrFestivalMask))
                     {
                         actualFestivalDate = nextDate;
                         break;
@@ -77,11 +64,12 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             return ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) ? actualFestivalDate.Value.AddDays(-1) : actualFestivalDate;
         }
 
-        private bool IsHolyOrEasterWeekOrEastertideSunday(Day day)
+        private bool IsHolyOrEasterWeekOrAdventLentOrEastertideSunday(Day day)
         {
             var isHolyOrEasterWeek = day.FeastOrSeasonType.Matches(FeastOrSeasonType.HolyOrEasterWeekMask);
-            var isEastertideSunday = day.FeastOrSeasonType.Matches(FeastOrSeasonType.Eastertide) && day.Date.DayOfWeek == DayOfWeek.Sunday;
-            return  isHolyOrEasterWeek || isEastertideSunday;
+            var isAdventLentOrEastertide = day.FeastOrSeasonType.Matches(FeastOrSeasonType.AdventLentOrEastertideMask);
+            var isSunday = day.Date.DayOfWeek == DayOfWeek.Sunday;
+            return  isHolyOrEasterWeek || (isAdventLentOrEastertide && isSunday);
         }
     }
 }

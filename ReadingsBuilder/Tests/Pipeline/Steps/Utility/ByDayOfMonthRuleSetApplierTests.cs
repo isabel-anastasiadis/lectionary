@@ -16,12 +16,14 @@ namespace Tests.Pipeline.Steps.Utility
     public class ByDayOfMonthRuleSetApplierTests
     {
         private Mock<IRuleApplier>? _ruleApplierMock;
+        private Mock<ITransferCalculator>? _transferCalculator;
 
         private ByDayOfMonthRuleSetApplier ClassUnderTest()
         {
             _ruleApplierMock = new Mock<IRuleApplier>();
+            _transferCalculator = new Mock<ITransferCalculator>();
 
-            return new ByDayOfMonthRuleSetApplier(_ruleApplierMock.Object);
+            return new ByDayOfMonthRuleSetApplier(_ruleApplierMock.Object, _transferCalculator.Object);
         }
 
         [Test]

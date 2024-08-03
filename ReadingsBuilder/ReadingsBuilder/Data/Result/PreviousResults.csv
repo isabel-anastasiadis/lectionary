@@ -476,8 +476,8 @@ date,date_pretty,day_description,rcl_track_1,rcl_track_2,morning_prayers_togethe
 2023/03/16,"Thursday, March 16, 2023",Week of 3rd Sunday of Lent,,,Psalm 56; Jeremiah 14; John 8:31–47,Psalm 59; Genesis 49:33–end; Genesis 50; Hebrews 7:1–10
 2023/03/17,"Friday, March 17, 2023",Week of 3rd Sunday of Lent,,,Psalm 22; Jeremiah 15:10–end; John 8:48–end,Psalm 69; Exodus 1:1–14; Hebrews 7:11–end
 2023/03/18,"Saturday, March 18, 2023",Week of 3rd Sunday of Lent,,,Psalm 31; Jeremiah 16:10–17:4; John 9:1–17,Psalm 116; Exodus 1:22–2:10; Hebrews 8
-2023/03/19,"Sunday, March 19, 2023",4th Sunday of Lent,Psalm 23; 1 Samuel 16:1-13; Ephesians 5:8-14; John 9:1-41,,Psalm 19; Isaiah 43:1-7; Ephesians 2:8-14,Psalm 31:1-16; Micah 7; James 5
-2023/03/20,"Monday, March 20, 2023",Week of 4th Sunday of Lent,,,Psalm 77; Jeremiah 17:5–18; John 9:18–end,Psalm 25; Exodus 2:11–22; Hebrews 9:1–14
+2023/03/19,"Sunday, March 19, 2023",4th Sunday of Lent,Psalm 23; 1 Samuel 16:1-13; Ephesians 5:8-14; John 9:1-41,,Psalm 19; Isaiah 43:1-7; Ephesians 2:8-14,Psalm 132; Hosea 11:1-9; Luke 2:41-52
+2023/03/20,"Monday, March 20, 2023",St Joseph of Nazereth,,,"Psalm 25,147:1-12; Isaiah 11:1-10; Matthew 13:54-58","Psalm 1,112; Genesis 50:22-26; Matthew 2:13-23"
 2023/03/21,"Tuesday, March 21, 2023",Week of 4th Sunday of Lent,,,Psalm 79; Jeremiah 18:1–12; John 10:1–10,Psalm 80; Exodus 2:23–3:20; Hebrews 9:15–end
 2023/03/22,"Wednesday, March 22, 2023",Week of 4th Sunday of Lent,,,Psalm 90; Jeremiah 18:13–end; John 10:11–21,Psalm 91; Exodus 4:1–23; Hebrews 10:1–18
 2023/03/23,"Thursday, March 23, 2023",Week of 4th Sunday of Lent,,,Psalm 86; Jeremiah 19:1–13; John 10:22–end,Psalm 94; Exodus 4:27–6:1; Hebrews 10:19–25
@@ -532,8 +532,8 @@ date,date_pretty,day_description,rcl_track_1,rcl_track_2,morning_prayers_togethe
 2023/05/11,"Thursday, May 11, 2023",Week of 5th Sunday of Easter,,,Psalm 57; Deuteronomy 19; 1 Peter 2:11–end,"Psalm 104; Numbers 13:1–3,13:17–end; Luke 5:27–end"
 2023/05/12,"Friday, May 12, 2023",Week of 5th Sunday of Easter,,,Psalm 138; Deuteronomy 21:22–22:8; 1 Peter 3:1–12,Psalm 66; Numbers 14:1–25; Luke 6:1–11
 2023/05/13,"Saturday, May 13, 2023",Week of 5th Sunday of Easter,,,Psalm 146; Deuteronomy 24:5–end; 1 Peter 3:13–end,Psalm 118; Numbers 14:26–end; Luke 6:12–26
-2023/05/14,"Sunday, May 14, 2023",6th Sunday of Easter,Psalm 66:7-18; Acts 17:22-31; 1 Peter 3:13-22; John 14:15-21,,"Psalm 73:21-28; Job 14:1-2,7-15,19:23-27a; 1 Thessalonians 4:13-18","Psalm 87,36:5-10; Zechariah 8:1-13; Revelation 21:22-22:5"
-2023/05/15,"Monday, May 15, 2023",Week of 6th Sunday of Easter,,,Psalm 65; Deuteronomy 26; 1 Peter 4:1–11,Psalm 121; Numbers 16:1–35; Luke 6:27–38
+2023/05/14,"Sunday, May 14, 2023",6th Sunday of Easter,Psalm 66:7-18; Acts 17:22-31; 1 Peter 3:13-22; John 14:15-21,,"Psalm 73:21-28; Job 14:1-2,7-15,19:23-27a; 1 Thessalonians 4:13-18","Psalm 147; Isaiah 22:15-22; Philippians 3:13b-end,4:1"
+2023/05/15,"Monday, May 15, 2023",St Matthias the Apostle,,,Psalm 16; 1 Samuel 2:27-35; Acts 2:37-47,Psalm 80; 1 Samuel 16:1-13a; Matthew 7:15-27
 2023/05/16,"Tuesday, May 16, 2023",Week of 6th Sunday of Easter,,,Psalm 126; Deuteronomy 28:1–14; 1 Peter 4:12–end,Psalm 128; Numbers 16:36–end; Luke 6:39–end
 2023/05/17,"Wednesday, May 17, 2023",Week of 6th Sunday of Easter,,,Psalm 132; Deuteronomy 28:58–end; 1 Peter 5,"Psalm 15,24; 2 Samuel 23:1-5; Colossians 2:20-end,3:1-4"
 2023/05/18,"Thursday, May 18, 2023",Ascension Day,Psalm 47; Acts 1:1-11; Ephesians 1:15-23; Luke 24:44-53,,"Psalm 110; Isaiah 52:7-15; Hebrews 7:(11-25),26-28",Psalm 8; 2 Kings 2:1-15; Revelation 5
@@ -848,8 +848,8 @@ date,date_pretty,day_description,rcl_track_1,rcl_track_2,morning_prayers_togethe
 2024/03/21,"Thursday, March 21, 2024",Week of 5th Sunday of Lent,,,Psalm 40; Exodus 9:13–end; Hebrews 12:14–end,Psalm 43; Jeremiah 23:9–32; John 12:12–19
 2024/03/22,"Friday, March 22, 2024",Week of 5th Sunday of Lent,,,Psalm 22; Exodus 10; Hebrews 13:1–16,Psalm 31; Jeremiah 24; John 12:20–36a
 2024/03/23,"Saturday, March 23, 2024",Week of 5th Sunday of Lent,,,Psalm 23; Exodus 11; Hebrews 13:17–end,Psalm 130; Jeremiah 25:1–14; John 12:36b–end
-2024/03/24,"Sunday, March 24, 2024",6th Sunday of Lent - Palm Sunday,Psalm 31:9-16*; Isaiah 50:4-9a; Philippians 2:5-12; Mark 14:1-15:47,,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 85; Genesis 3:8-15; Galatians 4:1-5
-2024/03/25,"Monday, March 25, 2024",The Annunciation,Psalm 36:5-11; Isaiah 42:1-9; Hebrews 9:11-15; John 12:1-11,,"Psalm 111,113; 1 Samuel 2:1-10; Romans 5:12-21","Psalm 131,146; Isaiah 52:1-12; Hebrews 2:5-18"
+2024/03/24,"Sunday, March 24, 2024",6th Sunday of Lent - Palm Sunday,Psalm 31:9-16*; Isaiah 50:4-9a; Philippians 2:5-12; Mark 14:1-15:47,,"Psalm 61,62; Zechariah 9:9-12; 1 Corinthians 2:1-12",Psalm 69:1-20; Isaiah 5:1-7; Mark 12:1-12
+2024/03/25,"Monday, March 25, 2024",Monday in Holy Week,Psalm 36:5-11; Isaiah 42:1-9; Hebrews 9:11-15; John 12:1-11,,Psalm 41; Lamentations 1:1-12a; Luke 22:1-23,Psalm 25; Lamentations 2:8-19; Colossians 1:18-23
 2024/03/26,"Tuesday, March 26, 2024",Tuesday in Holy Week,"Psalm 71:(1-8),9-14; Isaiah 49:1-7; 1 Corinthians 1:18-31; John 12:20-36",,"Psalm 27; Lamentations 3:1-18; Luke 22:(24-38),39-53",Psalm 55:13-24; Lamentations 3:40-51; Galatians 6:11-end
 2024/03/27,"Wednesday, March 27, 2024",Wednesday in Holy Week,Psalm 70; Isaiah 50:4-9a; Hebrews 12:1-3; John 13:21-32,,Psalm 102*; Jeremiah 11:18-20; Luke 22:54-71,Psalm 88; Isaiah 63:1-9; Revelation 14:18-15:4
 2024/03/28,"Thursday, March 28, 2024",Maundy Thursday,"Psalm 116:1,10-17*; Exodus 12:1-4,(5-10),11-14; 1 Corinthians 11:23-26; John 13:1-17,31b-35",,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
@@ -862,8 +862,8 @@ date,date_pretty,day_description,rcl_track_1,rcl_track_2,morning_prayers_togethe
 2024/04/04,"Thursday, April 4, 2024",Thursday in Easter Week,,,Psalm 114; Exodus 13:1–16; 1 Corinthians 15:29–34,Psalm 106; Song of Solomon 5:2–6:3; Luke 7:11–17
 2024/04/05,"Friday, April 5, 2024",Friday in Easter Week,,,Psalm 115; Exodus 13:17–14:14; 1 Corinthians 15:35–50,Psalm 107; Song of Solomon 7:10–8:4; Luke 8:41–end
 2024/04/06,"Saturday, April 6, 2024",Saturday in Easter Week,,,Psalm 116; Exodus 14:15–end; 1 Corinthians 15:51–end,Psalm 145; Song of Solomon 8:5–7; John 11:17–44
-2024/04/07,"Sunday, April 7, 2024",2nd Sunday of Easter,Psalm 133; Acts 4:32-35; 1 John 1:1-2:2; John 20:19-31,,Psalm 22:20-31; Isaiah 53:6-12; Romans 4:13-25,"Psalm 143:1-11; Isaiah 26:1-9,19; Luke 24:1-12"
-2024/04/08,"Monday, April 8, 2024",Week of 2nd Sunday of Easter,,,Psalm 19; Exodus 15:1–21; Colossians 1:1–14,Psalm 139; Deuteronomy 1:3–18; John 20:1–10
+2024/04/07,"Sunday, April 7, 2024",2nd Sunday of Easter,Psalm 133; Acts 4:32-35; 1 John 1:1-2:2; John 20:19-31,,Psalm 22:20-31; Isaiah 53:6-12; Romans 4:13-25,Psalm 85; Genesis 3:8-15; Galatians 4:1-5
+2024/04/08,"Monday, April 8, 2024",The Annunciation,,,"Psalm 111,113; 1 Samuel 2:1-10; Romans 5:12-21","Psalm 131,146; Isaiah 52:1-12; Hebrews 2:5-18"
 2024/04/09,"Tuesday, April 9, 2024",Week of 2nd Sunday of Easter,,,Psalm 8; Exodus 15:22–16:10; Colossians 1:15–end,Psalm 104; Deuteronomy 1:19–40; John 20:11–18
 2024/04/10,"Wednesday, April 10, 2024",Week of 2nd Sunday of Easter,,,Psalm 30; Exodus 16:11–end; Colossians 2:1–15,Psalm 33; Deuteronomy 3:18–end; John 20:19–end
 2024/04/11,"Thursday, April 11, 2024",Week of 2nd Sunday of Easter,,,Psalm 28; Exodus 17; Colossians 2:16–3:11,Psalm 34; Deuteronomy 4:1–14; John 21:1–14

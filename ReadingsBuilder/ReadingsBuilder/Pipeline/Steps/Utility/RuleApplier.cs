@@ -14,6 +14,11 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             //
             // Also, evening can be different to morning (because of 1st EP of ...).
             //
+            // Sometimes the readings apply in the Morning but not in the evening.
+            // 11/06/2022 is an example where morning readings are from Feast of St barnabas,
+            // but evening readings are the 1st EP of of Trinity Sunday (which has already
+            // been applied by an eariler rule)
+            //
             // Eg. 2022-06-11
             //   1st EP of Trinity Sunday(a principal feast) is applied by Step 8
             //   Feast of St Barnabas is applied in Step 12
