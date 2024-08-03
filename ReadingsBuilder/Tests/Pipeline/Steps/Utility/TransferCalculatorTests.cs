@@ -32,7 +32,7 @@ namespace Tests.Pipeline.Steps.Utility
             var workingResult = GetWorkingResultMinusFeastDays(Inputs.FOR_2023_TO_2024);
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.EveningBeforeFestival, workingResult, new DateOnly(year, month, day));
+            var newDate = classUnderTest.GetTransferredDate(FeastOrSeasonType.EveningBeforeFestival, workingResult, new DateOnly(year, month, day));
 
             // assert
             Assert.IsNull(newDate);
@@ -52,7 +52,7 @@ namespace Tests.Pipeline.Steps.Utility
             var expectedDate = new DateOnly(2024, 4, 7); // 2nd Sunday of Easter (because expect festival to be transferred to the Monday)
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(eveningBeforeType, workingResult, plannedDate);
+            var newDate = classUnderTest.GetTransferredDate(eveningBeforeType, workingResult, plannedDate);
 
             // assert
             Assert.AreEqual(expectedDate, newDate);
@@ -80,7 +80,7 @@ namespace Tests.Pipeline.Steps.Utility
             var workingResult = GetWorkingResultMinusFeastDays(Inputs.FOR_2023_TO_2024);
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
+            var newDate = classUnderTest.GetTransferredDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
 
             // assert
             var newDay = workingResult.Result[newDate.Value]?.OptionOne;
@@ -102,7 +102,7 @@ namespace Tests.Pipeline.Steps.Utility
             var originalDate = new DateOnly(year, month, day);
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.Festival, workingResult, originalDate);
+            var newDate = classUnderTest.GetTransferredDate(FeastOrSeasonType.Festival, workingResult, originalDate);
 
             // assert
             Assert.AreEqual(DayOfWeek.Monday, newDate.Value.DayOfWeek);
@@ -126,7 +126,7 @@ namespace Tests.Pipeline.Steps.Utility
             mondayDay.FeastOrSeasonType |= FeastOrSeasonType.Festival;
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
+            var newDate = classUnderTest.GetTransferredDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
 
             // assert
             Assert.AreEqual(DayOfWeek.Tuesday, newDate.Value.DayOfWeek);
@@ -149,7 +149,7 @@ namespace Tests.Pipeline.Steps.Utility
             mondayDay.FeastOrSeasonType |= FeastOrSeasonType.PrincipalFeast;
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
+            var newDate = classUnderTest.GetTransferredDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
 
             // assert
             var newDay = workingResult.Result[newDate.Value]?.OptionOne;
@@ -174,7 +174,7 @@ namespace Tests.Pipeline.Steps.Utility
             mondayDay.FeastOrSeasonType |= FeastOrSeasonType.PrincipalFeast;
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
+            var newDate = classUnderTest.GetTransferredDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
 
             // assert
             var newDay = workingResult.Result[newDate.Value]?.OptionOne;
@@ -193,7 +193,7 @@ namespace Tests.Pipeline.Steps.Utility
             var workingResult = GetWorkingResultMinusFeastDays(Inputs.FOR_2023_TO_2024);
 
             // act
-            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
+            var newDate = classUnderTest.GetTransferredDate(FeastOrSeasonType.Festival, workingResult, new DateOnly(year, month, day));
 
             // assert
             Assert.IsNull(newDate);

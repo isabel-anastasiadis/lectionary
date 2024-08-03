@@ -7,16 +7,16 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 {
     public class TransferCalculator : ITransferCalculator
     {
-        public bool RuleApplies(FeastOrSeasonType ruleFlags) 
-        {
-            return ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) || ruleFlags.Matches(FeastOrSeasonType.FeastOrFestivalMask);
-        }
-
         /// <summary>
         /// Returns a new DateOnly for the next available transfer date, or null if it does not need transferring.
         /// </summary>
-        public DateOnly? GetNextAvailableDate(FeastOrSeasonType ruleFlags, PipelineWorkingResult workingResult, DateOnly plannedDate) 
+        public DateOnly? GetTransferredDate(FeastOrSeasonType ruleFlags, PipelineWorkingResult workingResult, DateOnly plannedDate) 
         {
+            if (!RuleCanTransfer(ruleFlags))
+            {
+                return null;
+            }
+
             var allKeys = workingResult.Result.Keys.ToList();
 
             var plannedFestivalDate = ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) ? plannedDate.AddDays(1) : plannedDate;
@@ -62,6 +62,11 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 return null;
 
             return ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) ? actualFestivalDate.Value.AddDays(-1) : actualFestivalDate;
+        }
+
+        private bool RuleCanTransfer(FeastOrSeasonType ruleFlags)
+        {
+            return ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) || ruleFlags.Matches(FeastOrSeasonType.FeastOrFestivalMask);
         }
 
         private bool IsHolyOrEasterWeekOrAdventLentOrEastertideSunday(Day day)

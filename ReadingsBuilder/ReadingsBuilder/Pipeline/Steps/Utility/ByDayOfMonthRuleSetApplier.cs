@@ -75,12 +75,8 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 {
                     continue;
                 }
-
-                DateOnly? transferDate = null;
-                if (transferCalculator.RuleApplies(rule.FeastOrSeasonFlags))
-                {
-                    transferDate = transferCalculator.GetNextAvailableDate(rule.FeastOrSeasonFlags, workingResult, date);
-                }
+ 
+                var transferDate = transferCalculator.GetTransferredDate(rule.FeastOrSeasonFlags, workingResult, date);
 
                 var dateToApplyTo = transferDate ?? date;
                 var day = workingResult.Result[dateToApplyTo].OptionOne;
