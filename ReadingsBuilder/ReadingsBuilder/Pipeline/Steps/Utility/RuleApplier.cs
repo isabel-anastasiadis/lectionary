@@ -33,6 +33,8 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
             ApplyDayDescription(rule, day);
 
+            ApplyEveningName(rule, day, applyToEvening);
+
             ApplyIsSeasonalTime(rule, day); // NOTE: this needs to happen before rotating readings
 
             ApplyFeastOrSeasonType(rule, day, applyToEvening);
@@ -103,6 +105,14 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             if (rule.DayName != null)
             {
                 day.DayDescription = rule.DayName;
+            }
+        }
+
+        public void ApplyEveningName(Rule rule, Day day, bool applyToEvening)
+        {
+            if (applyToEvening && rule.EveningName != null)
+            {
+                day.EveningName = rule.EveningName;
             }
         }
 

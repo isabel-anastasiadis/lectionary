@@ -25,6 +25,8 @@ namespace ReadingsBuilder.Model.Result
 
         public string? DayDescription { get; set; }
 
+        public string? EveningName { get; set; }
+
         /// <summary>
         /// Not necessarily the same as not ordinary time.
         /// When this is true, we use seasonal psalms, and seasonal old testament 2 rotating readings

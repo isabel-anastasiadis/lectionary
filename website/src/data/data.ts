@@ -1305,7 +1305,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2023/12/25": {
         "datePretty": "Monday, December 25, 2023",
-        "calendar": "Christmas day",
+        "calendar": "Christmas Day",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
