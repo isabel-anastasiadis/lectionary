@@ -9946,9 +9946,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": "morning",
                 "readings": [
                     {
-                        "pretty": "",
-                        "readQS": "",
-                        "audioQS": ""
+                        "pretty": "Psalm 43",
+                        "readQS": "Psalm+43",
+                        "audioQS": "Ps.43"
                     },
                     {
                         "pretty": "Numbers 32:1\u201327",
@@ -9961,8 +9961,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Luke.9"
                     }
                 ],
-                "readQS": "%3B+Numbers+32:1-27%3B+Luke+9:1-17",
-                "audioQS": ",Num.32,Luke.9"
+                "readQS": "Psalm+43%3B+Numbers+32:1-27%3B+Luke+9:1-17",
+                "audioQS": "Ps.43,Num.32,Luke.9"
             },
             {
                 "readingSetTab": "prayers",
