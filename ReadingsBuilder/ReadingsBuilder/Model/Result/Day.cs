@@ -46,6 +46,11 @@ namespace ReadingsBuilder.Model.Result
 
         public Option<EveningReadings, ReadingsOptionType> EveningReadings { get; set; }
 
+        public bool HasFeastFlag(FeastOrSeasonType flag) 
+        { 
+            return (FeastOrSeasonType & flag) != 0;
+        }
+
         /// <summary>
         /// This is true if it doesn't fall in Holy or Easter Week, or another Sunday in Advent, Lent, or Eastertide.
         /// </summary>

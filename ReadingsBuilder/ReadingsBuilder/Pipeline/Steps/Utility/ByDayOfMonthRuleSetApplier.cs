@@ -7,10 +7,12 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
     public class ByDayOfMonthRuleSetApplier : IByDayOfMonthRuleSetApplier
     {
         private readonly IRuleApplier ruleApplier;
+        private readonly ITransferCalculator transferCalculator;
 
-        public ByDayOfMonthRuleSetApplier(IRuleApplier ruleApplier)
+        public ByDayOfMonthRuleSetApplier(IRuleApplier ruleApplier, ITransferCalculator transferCalculator)
         {
             this.ruleApplier = ruleApplier;
+            this.transferCalculator = transferCalculator;
         }
 
         public PipelineWorkingResult ApplyRulesByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, List<Rule> applicableRules, IRuleException? ruleException = null)
@@ -35,7 +37,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             return workingResult;
         }
 
-        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, IRuleException? ruleException = null, DateOnly? dateOverride = null)
+        public void ApplyRuleByDayOfMonth(PipelineWorkingResult workingResult, LiturgicalYear liturgicalYear, Rule rule, IRuleException? ruleException = null)
         {
             if (workingResult == null)
             {
@@ -47,9 +49,9 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 throw new ArgumentNullException(nameof(rule));
             }
 
-            var dayValue = dateOverride != null ? dateOverride.Value.Day : rule.Day;
-            var monthValue = dateOverride != null ? dateOverride.Value.Month : rule.Month;
-            int? yearValue = dateOverride != null ? dateOverride.Value.Year : rule.Year;
+            var dayValue = rule.Day;
+            var monthValue = rule.Month;
+            int? yearValue = rule.Year;
 
             var possibleDates = workingResult.Result.Keys.Where(date => (!yearValue.HasValue || date.Year == yearValue) && date.Month == monthValue && date.Day == dayValue).ToList();
 
@@ -73,8 +75,11 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 {
                     continue;
                 }
-                
-                var day = workingResult.Result[date].OptionOne;
+ 
+                var transferDate = transferCalculator.GetTransferredDate(rule.FeastOrSeasonFlags, workingResult, date);
+
+                var dateToApplyTo = transferDate ?? date;
+                var day = workingResult.Result[dateToApplyTo].OptionOne;
 
                 if (day != null)
                 {
