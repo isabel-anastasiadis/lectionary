@@ -8907,60 +8907,6 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             },
             {
                 "readingSetTab": "prayers",
-                "readingSetSubtitle": "Evening Prayers",
-                "timeOfDay": "evening",
-                "readings": [
-                    {
-                        "pretty": "Psalm 97",
-                        "readQS": "Psalm+97",
-                        "audioQS": "Ps.97"
-                    },
-                    {
-                        "pretty": "Deuteronomy 17:8\u2013end",
-                        "readQS": "Deuteronomy+17:8-",
-                        "audioQS": "Deut.17"
-                    },
-                    {
-                        "pretty": "1 Peter 1:13\u2013end",
-                        "readQS": "1+Peter+1:13-",
-                        "audioQS": "1Pet.1"
-                    }
-                ],
-                "readQS": "Psalm+97%3B+Deuteronomy+17:8-%3B+1+Peter+1:13-",
-                "audioQS": "Ps.97,Deut.17,1Pet.1"
-            }
-        ]
-    },
-    "2024/05/01": {
-        "datePretty": "Wednesday, May 1, 2024",
-        "calendar": "Week of 5th Sunday of Easter",
-        "readingSets": [
-            {
-                "readingSetTab": "prayers",
-                "readingSetSubtitle": "Morning Prayers",
-                "timeOfDay": "morning",
-                "readings": [
-                    {
-                        "pretty": "Psalm 30",
-                        "readQS": "Psalm+30",
-                        "audioQS": "Ps.30"
-                    },
-                    {
-                        "pretty": "Numbers 12",
-                        "readQS": "Numbers+12",
-                        "audioQS": "Num.12"
-                    },
-                    {
-                        "pretty": "Luke 5:12\u201326",
-                        "readQS": "Luke+5:12-26",
-                        "audioQS": "Luke.5"
-                    }
-                ],
-                "readQS": "Psalm+30%3B+Numbers+12%3B+Luke+5:12-26",
-                "audioQS": "Ps.30,Num.12,Luke.5"
-            },
-            {
-                "readingSetTab": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Phillip and St James)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8985,8 +8931,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             }
         ]
     },
-    "2024/05/02": {
-        "datePretty": "Thursday, May 2, 2024",
+    "2024/05/01": {
+        "datePretty": "Wednesday, May 1, 2024",
         "calendar": "St Phillip and St James, Apostles",
         "readingSets": [
             {
@@ -9036,6 +8982,60 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+149%3B+Job+23:1-12%3B+John+1:43-51",
                 "audioQS": "Ps.149,Job.23,John.1"
+            }
+        ]
+    },
+    "2024/05/02": {
+        "datePretty": "Thursday, May 2, 2024",
+        "calendar": "Week of 5th Sunday of Easter",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 57",
+                        "readQS": "Psalm+57",
+                        "audioQS": "Ps.57"
+                    },
+                    {
+                        "pretty": "Numbers 13:1\u20133,13:17\u2013end",
+                        "readQS": "Numbers+13:1-3,13:17-",
+                        "audioQS": "Num.13"
+                    },
+                    {
+                        "pretty": "Luke 5:27\u2013end",
+                        "readQS": "Luke+5:27-",
+                        "audioQS": "Luke.5"
+                    }
+                ],
+                "readQS": "Psalm+57%3B+Numbers+13:1-3,13:17-%3B+Luke+5:27-",
+                "audioQS": "Ps.57,Num.13,Luke.5"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 104",
+                        "readQS": "Psalm+104",
+                        "audioQS": "Ps.104"
+                    },
+                    {
+                        "pretty": "Deuteronomy 19",
+                        "readQS": "Deuteronomy+19",
+                        "audioQS": "Deut.19"
+                    },
+                    {
+                        "pretty": "1 Peter 2:11\u2013end",
+                        "readQS": "1+Peter+2:11-",
+                        "audioQS": "1Pet.2"
+                    }
+                ],
+                "readQS": "Psalm+104%3B+Deuteronomy+19%3B+1+Peter+2:11-",
+                "audioQS": "Ps.104,Deut.19,1Pet.2"
             }
         ]
     },
