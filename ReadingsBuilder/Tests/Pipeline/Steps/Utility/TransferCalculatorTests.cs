@@ -22,6 +22,42 @@ namespace Tests.Pipeline.Steps.Utility
             return workingResult;
         }
 
+        [TestCase(2024, 4, 7, Description = "First Sunday in Eastertide (but not Holy or Easter Week)")]
+        public void WhenRuleIsAnEveningBeforeAndTheNextDayIsFineThenReturnsNull(int year, int month, int day)
+        {
+            // arrange
+            var classUnderTest = new TransferCalculator();
+
+            // 2024 palm sunday to 2nd sunday of easter: 24th March - 7th April inclusive
+            var workingResult = GetWorkingResultMinusFeastDays(Inputs.FOR_2023_TO_2024);
+
+            // act
+            var newDate = classUnderTest.GetNextAvailableDate(FeastOrSeasonType.EveningBeforeFestival, workingResult, new DateOnly(year, month, day));
+
+            // assert
+            Assert.IsNull(newDate);
+        }
+
+        [TestCase(FeastOrSeasonType.EveningBeforeFestival)]
+        [TestCase(FeastOrSeasonType.EveningBeforePrincipalFeast)]
+        [TestCase(FeastOrSeasonType.EveningBeforePrincipalHolyDay)]
+        public void WhenRuleIsAnEveningBeforeAndTheNextDayNeedsTransferringThenReturnsEveningBeforeTransferredFestival(FeastOrSeasonType eveningBeforeType)
+        {
+            // arrange
+            var classUnderTest = new TransferCalculator();
+
+            // 2024 palm sunday to 2nd sunday of easter: 24th March - 7th April inclusive
+            var workingResult = GetWorkingResultMinusFeastDays(Inputs.FOR_2023_TO_2024);
+            var plannedDate = new DateOnly(2024, 3, 23); // Sat before Palm Sunday
+            var expectedDate = new DateOnly(2024, 4, 7); // 2nd Sunday of Easter (because expect festival to be transferred to the Monday)
+
+            // act
+            var newDate = classUnderTest.GetNextAvailableDate(eveningBeforeType, workingResult, plannedDate);
+
+            // assert
+            Assert.AreEqual(expectedDate, newDate);
+        }
+
         [TestCase(2024, 3, 24)]
         [TestCase(2024, 3, 25)]
         [TestCase(2024, 3, 26)]

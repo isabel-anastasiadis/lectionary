@@ -18,7 +18,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
         public bool RuleApplies(FeastOrSeasonType ruleFlags) 
         {
-            return IsEveningBefore(ruleFlags) || IsFeastOrFestival(ruleFlags);
+            return ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) || ruleFlags.Matches(FeastOrSeasonType.FeastOrFestivalMask);
         }
 
         /// <summary>
@@ -28,7 +28,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
         {
             var allKeys = workingResult.Result.Keys.ToList();
 
-            var plannedFestivalDate = IsEveningBefore(ruleFlags) ? plannedDate.AddDays(1) : plannedDate;
+            var plannedFestivalDate = ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) ? plannedDate.AddDays(1) : plannedDate;
 
             var indexOfPlannedFestivalDate = allKeys.IndexOf(plannedFestivalDate);
             var plannedFestivalDay = workingResult.Result[plannedFestivalDate].OptionOne;
@@ -50,7 +50,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             // TODO: Advent or Lent sundays!
             // TODO: evening before is the day before!!
 
-            DateOnly actualFestivalDate;
+            DateOnly? actualFestivalDate = null;
             if (IsHolyOrEasterWeekOrEastertideSunday(plannedFestivalDay))
             {
                 for (var i = indexOfPlannedFestivalDate; i < workingResult.Result.Count; i++)
@@ -63,7 +63,7 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                         continue;
                     }
 
-                    if (!IsHolyOrEasterWeekOrEastertideSunday(nextDay) && !AlreadyHasFeastOrFestival(nextDay))
+                    if (!IsHolyOrEasterWeekOrEastertideSunday(nextDay) && !nextDay.FeastOrSeasonType.Matches(FeastOrSeasonType.FeastOrFestivalMask))
                     {
                         actualFestivalDate = nextDate;
                         break;
@@ -71,39 +71,17 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 }
             }
 
-            if(plannedFestivalDay == null)
+            if(actualFestivalDate == null)
                 return null;
 
-            return IsEveningBefore(ruleFlags) ? actualFestivalDate.AddDays(-1) : actualFestivalDate;
-        }
-
-        private bool IsEveningBefore(FeastOrSeasonType flags)
-        {
-            return  (flags & FeastOrSeasonType.EveningBeforeFestival) != 0
-                || (flags & FeastOrSeasonType.EveningBeforePrincipalFeast) != 0
-                || (flags & FeastOrSeasonType.EveningBeforePrincipalHolyDay) != 0;
-        }
-
-        private bool IsFeastOrFestival(FeastOrSeasonType flags)
-        {
-            return (flags & FeastOrSeasonType.Festival) != 0
-                || (flags & FeastOrSeasonType.PrincipalFeast) != 0
-                || (flags & FeastOrSeasonType.PrincipalHolyDay) != 0;
+            return ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) ? actualFestivalDate.Value.AddDays(-1) : actualFestivalDate;
         }
 
         private bool IsHolyOrEasterWeekOrEastertideSunday(Day day)
         {
-            return day.HasFeastFlag(FeastOrSeasonType.HolyWeek) 
-                || day.HasFeastFlag(FeastOrSeasonType.EasterWeek)
-                || (day.HasFeastFlag(FeastOrSeasonType.Eastertide) && day.Date.DayOfWeek == DayOfWeek.Sunday);
+            var isHolyOrEasterWeek = day.FeastOrSeasonType.Matches(FeastOrSeasonType.HolyOrEasterWeekMask);
+            var isEastertideSunday = day.FeastOrSeasonType.Matches(FeastOrSeasonType.Eastertide) && day.Date.DayOfWeek == DayOfWeek.Sunday;
+            return  isHolyOrEasterWeek || isEastertideSunday;
         }
-
-        private bool AlreadyHasFeastOrFestival(Day day)
-        {
-            return day.HasFeastFlag(FeastOrSeasonType.PrincipalFeast) 
-                || day.HasFeastFlag(FeastOrSeasonType.PrincipalHolyDay) 
-                || day.HasFeastFlag(FeastOrSeasonType.Festival);
-        }
-
     }
 }

@@ -175,7 +175,10 @@
         EveningBeforePrincipalHolyDay = 512,
         EveningBeforePrincipalFeast = 1024,
 
-        AdventLentOrEastertideMask = Advent | Lent | Eastertide
+        AdventLentOrEastertideMask = Advent | Lent | Eastertide,
+        EveningBeforeMask = EveningBeforeFestival | EveningBeforePrincipalFeast | EveningBeforePrincipalHolyDay,
+        FeastOrFestivalMask = Festival | PrincipalFeast | PrincipalHolyDay,
+        HolyOrEasterWeekMask = HolyWeek | EasterWeek,
     }
 
     public static class FeastOrSeasonTypeExtensions
