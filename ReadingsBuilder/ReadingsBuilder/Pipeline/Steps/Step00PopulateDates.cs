@@ -38,7 +38,10 @@ namespace ReadingsBuilder.Pipeline.Steps
                 };
                 currentDate = currentDate.AddDays(1);
 
-                if (currentDate > workingResult.Input.EndDate) {
+                // NOTE: this is because transfers can be pushed to the next year,
+                // so we need the very first part of next year populated, just in case (eg. 30 Nov 2025 St Andrew)
+                var twoDaysAfterEndDate = workingResult.Input.EndDate.AddDays(2);
+                if (currentDate > twoDaysAfterEndDate) {
                     break;
                 }
             }

@@ -75,7 +75,11 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
                 {
                     continue;
                 }
- 
+
+                if (!workingResult.Result.ContainsKey(date)) {
+                    continue;
+                }
+
                 var transferDate = transferCalculator.GetTransferredDate(rule.FeastOrSeasonFlags, workingResult, date);
 
                 var dateToApplyTo = transferDate ?? date;

@@ -30,6 +30,14 @@ namespace ReadingsBuilder.Pipeline
                 workingResult = step.RunStep(workingResult, liturgicalYear);
             }
 
+            // discard any day not in range
+            // (See the populate dates step, we need to add some extra so transfers across years work)
+            var outOfRangeKeys = workingResult.Result.Keys.Where(k => k > metadata.EndDate).ToList();
+            foreach (var key in outOfRangeKeys)
+            { 
+                workingResult.Result.Remove(key);
+            }
+
             return workingResult;
         }
 
