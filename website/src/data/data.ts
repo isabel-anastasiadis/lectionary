@@ -22125,5 +22125,1172 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "audioQS": "Ps.87,96,Zech.8,John.1"
             }
         ]
+    },
+    "2024/12/01": {
+        "datePretty": "Sunday, December 1, 2024",
+        "calendar": "1st Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "rclTrack1",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 25:1\u20139",
+                        "readQS": "Psalm+25:1-9",
+                        "audioQS": "Ps.25"
+                    },
+                    {
+                        "pretty": "Jeremiah 33:14\u201316",
+                        "readQS": "Jeremiah+33:14-16",
+                        "audioQS": "Jer.33"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 3:9\u201313",
+                        "readQS": "1+Thessalonians+3:9-13",
+                        "audioQS": "1Thess.3"
+                    },
+                    {
+                        "pretty": "Luke 21:25\u201336",
+                        "readQS": "Luke+21:25-36",
+                        "audioQS": "Luke.21"
+                    }
+                ],
+                "readQS": "Psalm+25:1-9%3B+Jeremiah+33:14-16%3B+1+Thessalonians+3:9-13%3B+Luke+21:25-36",
+                "audioQS": "Ps.25,Jer.33,1Thess.3,Luke.21"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 44",
+                        "readQS": "Psalm+44",
+                        "audioQS": "Ps.44"
+                    },
+                    {
+                        "pretty": "Isaiah 51:4\u201311",
+                        "readQS": "Isaiah+51:4-11",
+                        "audioQS": "Isa.51"
+                    },
+                    {
+                        "pretty": "Romans 13:11\u201314",
+                        "readQS": "Romans+13:11-14",
+                        "audioQS": "Rom.13"
+                    }
+                ],
+                "readQS": "Psalm+44%3B+Isaiah+51:4-11%3B+Romans+13:11-14",
+                "audioQS": "Ps.44,Isa.51,Rom.13"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 9",
+                        "readQS": "Psalm+9",
+                        "audioQS": "Ps.9"
+                    },
+                    {
+                        "pretty": "Joel 3:9\u201321",
+                        "readQS": "Joel+3:9-21",
+                        "audioQS": "Joel.3"
+                    },
+                    {
+                        "pretty": "Revelation 14:13\u201315:4",
+                        "readQS": "Revelation+14:13-15:4",
+                        "audioQS": "Rev.14"
+                    }
+                ],
+                "readQS": "Psalm+9%3B+Joel+3:9-21%3B+Revelation+14:13-15:4",
+                "audioQS": "Ps.9,Joel.3,Rev.14"
+            }
+        ]
+    },
+    "2024/12/02": {
+        "datePretty": "Monday, December 2, 2024",
+        "calendar": "Week of 1st Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 50",
+                        "readQS": "Psalm+50",
+                        "audioQS": "Ps.50"
+                    },
+                    {
+                        "pretty": "Isaiah 42:18\u2013end",
+                        "readQS": "Isaiah+42:18-",
+                        "audioQS": "Isa.42"
+                    },
+                    {
+                        "pretty": "Revelation 19",
+                        "readQS": "Revelation+19",
+                        "audioQS": "Rev.19"
+                    }
+                ],
+                "readQS": "Psalm+50%3B+Isaiah+42:18-%3B+Revelation+19",
+                "audioQS": "Ps.50,Isa.42,Rev.19"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 71",
+                        "readQS": "Psalm+71",
+                        "audioQS": "Ps.71"
+                    },
+                    {
+                        "pretty": "Isaiah 25:1\u20139",
+                        "readQS": "Isaiah+25:1-9",
+                        "audioQS": "Isa.25"
+                    },
+                    {
+                        "pretty": "Matthew 12:1\u201321",
+                        "readQS": "Matthew+12:1-21",
+                        "audioQS": "Matt.12"
+                    }
+                ],
+                "readQS": "Psalm+71%3B+Isaiah+25:1-9%3B+Matthew+12:1-21",
+                "audioQS": "Ps.71,Isa.25,Matt.12"
+            }
+        ]
+    },
+    "2024/12/03": {
+        "datePretty": "Tuesday, December 3, 2024",
+        "calendar": "Week of 1st Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 80",
+                        "readQS": "Psalm+80",
+                        "audioQS": "Ps.80"
+                    },
+                    {
+                        "pretty": "Isaiah 43:1\u201313",
+                        "readQS": "Isaiah+43:1-13",
+                        "audioQS": "Isa.43"
+                    },
+                    {
+                        "pretty": "Revelation 20",
+                        "readQS": "Revelation+20",
+                        "audioQS": "Rev.20"
+                    }
+                ],
+                "readQS": "Psalm+80%3B+Isaiah+43:1-13%3B+Revelation+20",
+                "audioQS": "Ps.80,Isa.43,Rev.20"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 74",
+                        "readQS": "Psalm+74",
+                        "audioQS": "Ps.74"
+                    },
+                    {
+                        "pretty": "Isaiah 26:1\u201313",
+                        "readQS": "Isaiah+26:1-13",
+                        "audioQS": "Isa.26"
+                    },
+                    {
+                        "pretty": "Matthew 12:22\u201337",
+                        "readQS": "Matthew+12:22-37",
+                        "audioQS": "Matt.12"
+                    }
+                ],
+                "readQS": "Psalm+74%3B+Isaiah+26:1-13%3B+Matthew+12:22-37",
+                "audioQS": "Ps.74,Isa.26,Matt.12"
+            }
+        ]
+    },
+    "2024/12/04": {
+        "datePretty": "Wednesday, December 4, 2024",
+        "calendar": "Week of 1st Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 7",
+                        "readQS": "Psalm+7",
+                        "audioQS": "Ps.7"
+                    },
+                    {
+                        "pretty": "Isaiah 43:14\u2013end",
+                        "readQS": "Isaiah+43:14-",
+                        "audioQS": "Isa.43"
+                    },
+                    {
+                        "pretty": "Revelation 21:1\u20138",
+                        "readQS": "Revelation+21:1-8",
+                        "audioQS": "Rev.21"
+                    }
+                ],
+                "readQS": "Psalm+7%3B+Isaiah+43:14-%3B+Revelation+21:1-8",
+                "audioQS": "Ps.7,Isa.43,Rev.21"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 77",
+                        "readQS": "Psalm+77",
+                        "audioQS": "Ps.77"
+                    },
+                    {
+                        "pretty": "Isaiah 28:1\u201313",
+                        "readQS": "Isaiah+28:1-13",
+                        "audioQS": "Isa.28"
+                    },
+                    {
+                        "pretty": "Matthew 12:38\u2013end",
+                        "readQS": "Matthew+12:38-",
+                        "audioQS": "Matt.12"
+                    }
+                ],
+                "readQS": "Psalm+77%3B+Isaiah+28:1-13%3B+Matthew+12:38-",
+                "audioQS": "Ps.77,Isa.28,Matt.12"
+            }
+        ]
+    },
+    "2024/12/05": {
+        "datePretty": "Thursday, December 5, 2024",
+        "calendar": "Week of 1st Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 42",
+                        "readQS": "Psalm+42",
+                        "audioQS": "Ps.42"
+                    },
+                    {
+                        "pretty": "Isaiah 44:1\u20138",
+                        "readQS": "Isaiah+44:1-8",
+                        "audioQS": "Isa.44"
+                    },
+                    {
+                        "pretty": "Revelation 21:9\u201321",
+                        "readQS": "Revelation+21:9-21",
+                        "audioQS": "Rev.21"
+                    }
+                ],
+                "readQS": "Psalm+42%3B+Isaiah+44:1-8%3B+Revelation+21:9-21",
+                "audioQS": "Ps.42,Isa.44,Rev.21"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 40",
+                        "readQS": "Psalm+40",
+                        "audioQS": "Ps.40"
+                    },
+                    {
+                        "pretty": "Isaiah 28:14\u2013end",
+                        "readQS": "Isaiah+28:14-",
+                        "audioQS": "Isa.28"
+                    },
+                    {
+                        "pretty": "Matthew 13:1\u201323",
+                        "readQS": "Matthew+13:1-23",
+                        "audioQS": "Matt.13"
+                    }
+                ],
+                "readQS": "Psalm+40%3B+Isaiah+28:14-%3B+Matthew+13:1-23",
+                "audioQS": "Ps.40,Isa.28,Matt.13"
+            }
+        ]
+    },
+    "2024/12/06": {
+        "datePretty": "Friday, December 6, 2024",
+        "calendar": "Week of 1st Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 25",
+                        "readQS": "Psalm+25",
+                        "audioQS": "Ps.25"
+                    },
+                    {
+                        "pretty": "Isaiah 44:9\u201323",
+                        "readQS": "Isaiah+44:9-23",
+                        "audioQS": "Isa.44"
+                    },
+                    {
+                        "pretty": "Revelation 21:22\u201322:5",
+                        "readQS": "Revelation+21:22-22:5",
+                        "audioQS": "Rev.21"
+                    }
+                ],
+                "readQS": "Psalm+25%3B+Isaiah+44:9-23%3B+Revelation+21:22-22:5",
+                "audioQS": "Ps.25,Isa.44,Rev.21"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 17",
+                        "readQS": "Psalm+17",
+                        "audioQS": "Ps.17"
+                    },
+                    {
+                        "pretty": "Isaiah 29:1\u201314",
+                        "readQS": "Isaiah+29:1-14",
+                        "audioQS": "Isa.29"
+                    },
+                    {
+                        "pretty": "Matthew 13:24\u201343",
+                        "readQS": "Matthew+13:24-43",
+                        "audioQS": "Matt.13"
+                    }
+                ],
+                "readQS": "Psalm+17%3B+Isaiah+29:1-14%3B+Matthew+13:24-43",
+                "audioQS": "Ps.17,Isa.29,Matt.13"
+            }
+        ]
+    },
+    "2024/12/07": {
+        "datePretty": "Saturday, December 7, 2024",
+        "calendar": "Week of 1st Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 9",
+                        "readQS": "Psalm+9",
+                        "audioQS": "Ps.9"
+                    },
+                    {
+                        "pretty": "Isaiah 44:24\u201345:13",
+                        "readQS": "Isaiah+44:24-45:13",
+                        "audioQS": "Isa.44"
+                    },
+                    {
+                        "pretty": "Revelation 22:6\u2013end",
+                        "readQS": "Revelation+22:6-",
+                        "audioQS": "Rev.22"
+                    }
+                ],
+                "readQS": "Psalm+9%3B+Isaiah+44:24-45:13%3B+Revelation+22:6-",
+                "audioQS": "Ps.9,Isa.44,Rev.22"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 27",
+                        "readQS": "Psalm+27",
+                        "audioQS": "Ps.27"
+                    },
+                    {
+                        "pretty": "Isaiah 29:15\u2013end",
+                        "readQS": "Isaiah+29:15-",
+                        "audioQS": "Isa.29"
+                    },
+                    {
+                        "pretty": "Matthew 13:44\u2013end",
+                        "readQS": "Matthew+13:44-",
+                        "audioQS": "Matt.13"
+                    }
+                ],
+                "readQS": "Psalm+27%3B+Isaiah+29:15-%3B+Matthew+13:44-",
+                "audioQS": "Ps.27,Isa.29,Matt.13"
+            }
+        ]
+    },
+    "2024/12/08": {
+        "datePretty": "Sunday, December 8, 2024",
+        "calendar": "2nd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "rclTrack1",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Canticle: Luke 1:68\u201379 (Benedictus)",
+                        "readQS": "Luke+1:68-79",
+                        "audioQS": "Luke.1"
+                    },
+                    {
+                        "pretty": "Malachi 3:1\u20134",
+                        "readQS": "Malachi+3:1-4",
+                        "audioQS": "Mal.3"
+                    },
+                    {
+                        "pretty": "Philippians 1:3\u201311",
+                        "readQS": "Philippians+1:3-11",
+                        "audioQS": "Phil.1"
+                    },
+                    {
+                        "pretty": "Luke 3:1\u20136",
+                        "readQS": "Luke+3:1-6",
+                        "audioQS": "Luke.3"
+                    }
+                ],
+                "readQS": "Luke+1:68-79%3B+Malachi+3:1-4%3B+Philippians+1:3-11%3B+Luke+3:1-6",
+                "audioQS": "Luke.1,Mal.3,Phil.1,Luke.3"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 80",
+                        "readQS": "Psalm+80",
+                        "audioQS": "Ps.80"
+                    },
+                    {
+                        "pretty": "Isaiah 64:1\u20137",
+                        "readQS": "Isaiah+64:1-7",
+                        "audioQS": "Isa.64"
+                    },
+                    {
+                        "pretty": "Matthew 11:2\u201311",
+                        "readQS": "Matthew+11:2-11",
+                        "audioQS": "Matt.11"
+                    }
+                ],
+                "readQS": "Psalm+80%3B+Isaiah+64:1-7%3B+Matthew+11:2-11",
+                "audioQS": "Ps.80,Isa.64,Matt.11"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 75",
+                        "readQS": "Psalm+75",
+                        "audioQS": "Ps.75"
+                    },
+                    {
+                        "pretty": "Isaiah 40:1\u201311",
+                        "readQS": "Isaiah+40:1-11",
+                        "audioQS": "Isa.40"
+                    },
+                    {
+                        "pretty": "Luke 1:1\u201325",
+                        "readQS": "Luke+1:1-25",
+                        "audioQS": "Luke.1"
+                    }
+                ],
+                "readQS": "Psalm+75%3B+Isaiah+40:1-11%3B+Luke+1:1-25",
+                "audioQS": "Ps.75,Isa.40,Luke.1"
+            }
+        ]
+    },
+    "2024/12/09": {
+        "datePretty": "Monday, December 9, 2024",
+        "calendar": "Week of 2nd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 44",
+                        "readQS": "Psalm+44",
+                        "audioQS": "Ps.44"
+                    },
+                    {
+                        "pretty": "Isaiah 45:14\u2013end",
+                        "readQS": "Isaiah+45:14-",
+                        "audioQS": "Isa.45"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 1",
+                        "readQS": "1+Thessalonians+1",
+                        "audioQS": "1Thess.1"
+                    }
+                ],
+                "readQS": "Psalm+44%3B+Isaiah+45:14-%3B+1+Thessalonians+1",
+                "audioQS": "Ps.44,Isa.45,1Thess.1"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 144",
+                        "readQS": "Psalm+144",
+                        "audioQS": "Ps.144"
+                    },
+                    {
+                        "pretty": "Isaiah 30:1\u201318",
+                        "readQS": "Isaiah+30:1-18",
+                        "audioQS": "Isa.30"
+                    },
+                    {
+                        "pretty": "Matthew 14:1\u201312",
+                        "readQS": "Matthew+14:1-12",
+                        "audioQS": "Matt.14"
+                    }
+                ],
+                "readQS": "Psalm+144%3B+Isaiah+30:1-18%3B+Matthew+14:1-12",
+                "audioQS": "Ps.144,Isa.30,Matt.14"
+            }
+        ]
+    },
+    "2024/12/10": {
+        "datePretty": "Tuesday, December 10, 2024",
+        "calendar": "Week of 2nd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 56",
+                        "readQS": "Psalm+56",
+                        "audioQS": "Ps.56"
+                    },
+                    {
+                        "pretty": "Isaiah 46",
+                        "readQS": "Isaiah+46",
+                        "audioQS": "Isa.46"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 2:1\u201312",
+                        "readQS": "1+Thessalonians+2:1-12",
+                        "audioQS": "1Thess.2"
+                    }
+                ],
+                "readQS": "Psalm+56%3B+Isaiah+46%3B+1+Thessalonians+2:1-12",
+                "audioQS": "Ps.56,Isa.46,1Thess.2"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 11",
+                        "readQS": "Psalm+11",
+                        "audioQS": "Ps.11"
+                    },
+                    {
+                        "pretty": "Isaiah 30:19\u2013end",
+                        "readQS": "Isaiah+30:19-",
+                        "audioQS": "Isa.30"
+                    },
+                    {
+                        "pretty": "Matthew 14:13\u2013end",
+                        "readQS": "Matthew+14:13-",
+                        "audioQS": "Matt.14"
+                    }
+                ],
+                "readQS": "Psalm+11%3B+Isaiah+30:19-%3B+Matthew+14:13-",
+                "audioQS": "Ps.11,Isa.30,Matt.14"
+            }
+        ]
+    },
+    "2024/12/11": {
+        "datePretty": "Wednesday, December 11, 2024",
+        "calendar": "Week of 2nd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 62",
+                        "readQS": "Psalm+62",
+                        "audioQS": "Ps.62"
+                    },
+                    {
+                        "pretty": "Isaiah 47",
+                        "readQS": "Isaiah+47",
+                        "audioQS": "Isa.47"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 2:13\u2013end",
+                        "readQS": "1+Thessalonians+2:13-",
+                        "audioQS": "1Thess.2"
+                    }
+                ],
+                "readQS": "Psalm+62%3B+Isaiah+47%3B+1+Thessalonians+2:13-",
+                "audioQS": "Ps.62,Isa.47,1Thess.2"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 10",
+                        "readQS": "Psalm+10",
+                        "audioQS": "Ps.10"
+                    },
+                    {
+                        "pretty": "Isaiah 31",
+                        "readQS": "Isaiah+31",
+                        "audioQS": "Isa.31"
+                    },
+                    {
+                        "pretty": "Matthew 15:1\u201320",
+                        "readQS": "Matthew+15:1-20",
+                        "audioQS": "Matt.15"
+                    }
+                ],
+                "readQS": "Psalm+10%3B+Isaiah+31%3B+Matthew+15:1-20",
+                "audioQS": "Ps.10,Isa.31,Matt.15"
+            }
+        ]
+    },
+    "2024/12/12": {
+        "datePretty": "Thursday, December 12, 2024",
+        "calendar": "Week of 2nd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 54",
+                        "readQS": "Psalm+54",
+                        "audioQS": "Ps.54"
+                    },
+                    {
+                        "pretty": "Isaiah 48:1\u201311",
+                        "readQS": "Isaiah+48:1-11",
+                        "audioQS": "Isa.48"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 3",
+                        "readQS": "1+Thessalonians+3",
+                        "audioQS": "1Thess.3"
+                    }
+                ],
+                "readQS": "Psalm+54%3B+Isaiah+48:1-11%3B+1+Thessalonians+3",
+                "audioQS": "Ps.54,Isa.48,1Thess.3"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 73",
+                        "readQS": "Psalm+73",
+                        "audioQS": "Ps.73"
+                    },
+                    {
+                        "pretty": "Isaiah 32",
+                        "readQS": "Isaiah+32",
+                        "audioQS": "Isa.32"
+                    },
+                    {
+                        "pretty": "Matthew 15:21\u201328",
+                        "readQS": "Matthew+15:21-28",
+                        "audioQS": "Matt.15"
+                    }
+                ],
+                "readQS": "Psalm+73%3B+Isaiah+32%3B+Matthew+15:21-28",
+                "audioQS": "Ps.73,Isa.32,Matt.15"
+            }
+        ]
+    },
+    "2024/12/13": {
+        "datePretty": "Friday, December 13, 2024",
+        "calendar": "Week of 2nd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 86",
+                        "readQS": "Psalm+86",
+                        "audioQS": "Ps.86"
+                    },
+                    {
+                        "pretty": "Isaiah 48:12\u2013end",
+                        "readQS": "Isaiah+48:12-",
+                        "audioQS": "Isa.48"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 4:1\u201312",
+                        "readQS": "1+Thessalonians+4:1-12",
+                        "audioQS": "1Thess.4"
+                    }
+                ],
+                "readQS": "Psalm+86%3B+Isaiah+48:12-%3B+1+Thessalonians+4:1-12",
+                "audioQS": "Ps.86,Isa.48,1Thess.4"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 90",
+                        "readQS": "Psalm+90",
+                        "audioQS": "Ps.90"
+                    },
+                    {
+                        "pretty": "Isaiah 33:1\u201322",
+                        "readQS": "Isaiah+33:1-22",
+                        "audioQS": "Isa.33"
+                    },
+                    {
+                        "pretty": "Matthew 15:29\u2013end",
+                        "readQS": "Matthew+15:29-",
+                        "audioQS": "Matt.15"
+                    }
+                ],
+                "readQS": "Psalm+90%3B+Isaiah+33:1-22%3B+Matthew+15:29-",
+                "audioQS": "Ps.90,Isa.33,Matt.15"
+            }
+        ]
+    },
+    "2024/12/14": {
+        "datePretty": "Saturday, December 14, 2024",
+        "calendar": "Week of 2nd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 145",
+                        "readQS": "Psalm+145",
+                        "audioQS": "Ps.145"
+                    },
+                    {
+                        "pretty": "Isaiah 49:1\u201313",
+                        "readQS": "Isaiah+49:1-13",
+                        "audioQS": "Isa.49"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 4:13\u2013end",
+                        "readQS": "1+Thessalonians+4:13-",
+                        "audioQS": "1Thess.4"
+                    }
+                ],
+                "readQS": "Psalm+145%3B+Isaiah+49:1-13%3B+1+Thessalonians+4:13-",
+                "audioQS": "Ps.145,Isa.49,1Thess.4"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 94",
+                        "readQS": "Psalm+94",
+                        "audioQS": "Ps.94"
+                    },
+                    {
+                        "pretty": "Isaiah 35",
+                        "readQS": "Isaiah+35",
+                        "audioQS": "Isa.35"
+                    },
+                    {
+                        "pretty": "Matthew 16:1\u201312",
+                        "readQS": "Matthew+16:1-12",
+                        "audioQS": "Matt.16"
+                    }
+                ],
+                "readQS": "Psalm+94%3B+Isaiah+35%3B+Matthew+16:1-12",
+                "audioQS": "Ps.94,Isa.35,Matt.16"
+            }
+        ]
+    },
+    "2024/12/15": {
+        "datePretty": "Sunday, December 15, 2024",
+        "calendar": "3rd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "rclTrack1",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Canticle: Isaiah 12:2\u20136",
+                        "readQS": "Isaiah+12:2-6",
+                        "audioQS": "Isa.12"
+                    },
+                    {
+                        "pretty": "Zephaniah 3:14\u201320",
+                        "readQS": "Zephaniah+3:14-20",
+                        "audioQS": "Zeph.3"
+                    },
+                    {
+                        "pretty": "Philippians 4:4\u20137",
+                        "readQS": "Philippians+4:4-7",
+                        "audioQS": "Phil.4"
+                    },
+                    {
+                        "pretty": "Luke 3:7\u201318",
+                        "readQS": "Luke+3:7-18",
+                        "audioQS": "Luke.3"
+                    }
+                ],
+                "readQS": "Isaiah+12:2-6%3B+Zephaniah+3:14-20%3B+Philippians+4:4-7%3B+Luke+3:7-18",
+                "audioQS": "Isa.12,Zeph.3,Phil.4,Luke.3"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 12,14",
+                        "readQS": "Psalm+12,14",
+                        "audioQS": "Ps.12,14"
+                    },
+                    {
+                        "pretty": "Isaiah 25:1\u20139",
+                        "readQS": "Isaiah+25:1-9",
+                        "audioQS": "Isa.25"
+                    },
+                    {
+                        "pretty": "1 Corinthians 4:1\u20135",
+                        "readQS": "1+Corinthians+4:1-5",
+                        "audioQS": "1Cor.4"
+                    }
+                ],
+                "readQS": "Psalm+12,14%3B+Isaiah+25:1-9%3B+1+Corinthians+4:1-5",
+                "audioQS": "Ps.12,14,Isa.25,1Cor.4"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 50:1\u20136",
+                        "readQS": "Psalm+50:1-6",
+                        "audioQS": "Ps.50"
+                    },
+                    {
+                        "pretty": "Isaiah 35",
+                        "readQS": "Isaiah+35",
+                        "audioQS": "Isa.35"
+                    },
+                    {
+                        "pretty": "Luke 1:57\u201366,(67\u201380)",
+                        "readQS": "Luke+1:57-66,%2867-80%29",
+                        "audioQS": "Luke.1"
+                    }
+                ],
+                "readQS": "Psalm+50:1-6%3B+Isaiah+35%3B+Luke+1:57-66,%2867-80%29",
+                "audioQS": "Ps.50,Isa.35,Luke.1"
+            }
+        ]
+    },
+    "2024/12/16": {
+        "datePretty": "Monday, December 16, 2024",
+        "calendar": "Week of 3rd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 40",
+                        "readQS": "Psalm+40",
+                        "audioQS": "Ps.40"
+                    },
+                    {
+                        "pretty": "Isaiah 49:14\u201325",
+                        "readQS": "Isaiah+49:14-25",
+                        "audioQS": "Isa.49"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 5:1\u201311",
+                        "readQS": "1+Thessalonians+5:1-11",
+                        "audioQS": "1Thess.5"
+                    }
+                ],
+                "readQS": "Psalm+40%3B+Isaiah+49:14-25%3B+1+Thessalonians+5:1-11",
+                "audioQS": "Ps.40,Isa.49,1Thess.5"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 26",
+                        "readQS": "Psalm+26",
+                        "audioQS": "Ps.26"
+                    },
+                    {
+                        "pretty": "Isaiah 38:1\u20138,38:21\u201322",
+                        "readQS": "Isaiah+38:1-8,38:21-22",
+                        "audioQS": "Isa.38"
+                    },
+                    {
+                        "pretty": "Matthew 16:13\u2013end",
+                        "readQS": "Matthew+16:13-",
+                        "audioQS": "Matt.16"
+                    }
+                ],
+                "readQS": "Psalm+26%3B+Isaiah+38:1-8,38:21-22%3B+Matthew+16:13-",
+                "audioQS": "Ps.26,Isa.38,Matt.16"
+            }
+        ]
+    },
+    "2024/12/17": {
+        "datePretty": "Tuesday, December 17, 2024",
+        "calendar": "Week of 3rd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 70",
+                        "readQS": "Psalm+70",
+                        "audioQS": "Ps.70"
+                    },
+                    {
+                        "pretty": "Isaiah 50",
+                        "readQS": "Isaiah+50",
+                        "audioQS": "Isa.50"
+                    },
+                    {
+                        "pretty": "1 Thessalonians 5:12\u2013end",
+                        "readQS": "1+Thessalonians+5:12-",
+                        "audioQS": "1Thess.5"
+                    }
+                ],
+                "readQS": "Psalm+70%3B+Isaiah+50%3B+1+Thessalonians+5:12-",
+                "audioQS": "Ps.70,Isa.50,1Thess.5"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 50",
+                        "readQS": "Psalm+50",
+                        "audioQS": "Ps.50"
+                    },
+                    {
+                        "pretty": "Isaiah 38:9\u201320",
+                        "readQS": "Isaiah+38:9-20",
+                        "audioQS": "Isa.38"
+                    },
+                    {
+                        "pretty": "Matthew 17:1\u201313",
+                        "readQS": "Matthew+17:1-13",
+                        "audioQS": "Matt.17"
+                    }
+                ],
+                "readQS": "Psalm+50%3B+Isaiah+38:9-20%3B+Matthew+17:1-13",
+                "audioQS": "Ps.50,Isa.38,Matt.17"
+            }
+        ]
+    },
+    "2024/12/18": {
+        "datePretty": "Wednesday, December 18, 2024",
+        "calendar": "Week of 3rd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 75",
+                        "readQS": "Psalm+75",
+                        "audioQS": "Ps.75"
+                    },
+                    {
+                        "pretty": "Isaiah 51:1\u20138",
+                        "readQS": "Isaiah+51:1-8",
+                        "audioQS": "Isa.51"
+                    },
+                    {
+                        "pretty": "2 Thessalonians 1",
+                        "readQS": "2+Thessalonians+1",
+                        "audioQS": "2Thess.1"
+                    }
+                ],
+                "readQS": "Psalm+75%3B+Isaiah+51:1-8%3B+2+Thessalonians+1",
+                "audioQS": "Ps.75,Isa.51,2Thess.1"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 82",
+                        "readQS": "Psalm+82",
+                        "audioQS": "Ps.82"
+                    },
+                    {
+                        "pretty": "Isaiah 39",
+                        "readQS": "Isaiah+39",
+                        "audioQS": "Isa.39"
+                    },
+                    {
+                        "pretty": "Matthew 17:14\u201321",
+                        "readQS": "Matthew+17:14-21",
+                        "audioQS": "Matt.17"
+                    }
+                ],
+                "readQS": "Psalm+82%3B+Isaiah+39%3B+Matthew+17:14-21",
+                "audioQS": "Ps.82,Isa.39,Matt.17"
+            }
+        ]
+    },
+    "2024/12/19": {
+        "datePretty": "Thursday, December 19, 2024",
+        "calendar": "Week of 3rd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 146",
+                        "readQS": "Psalm+146",
+                        "audioQS": "Ps.146"
+                    },
+                    {
+                        "pretty": "Isaiah 51:9\u201316",
+                        "readQS": "Isaiah+51:9-16",
+                        "audioQS": "Isa.51"
+                    },
+                    {
+                        "pretty": "2 Thessalonians 2",
+                        "readQS": "2+Thessalonians+2",
+                        "audioQS": "2Thess.2"
+                    }
+                ],
+                "readQS": "Psalm+146%3B+Isaiah+51:9-16%3B+2+Thessalonians+2",
+                "audioQS": "Ps.146,Isa.51,2Thess.2"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 57",
+                        "readQS": "Psalm+57",
+                        "audioQS": "Ps.57"
+                    },
+                    {
+                        "pretty": "Zephaniah 1:1\u20132:3",
+                        "readQS": "Zephaniah+1:1-2:3",
+                        "audioQS": "Zeph.1"
+                    },
+                    {
+                        "pretty": "Matthew 17:22\u2013end",
+                        "readQS": "Matthew+17:22-",
+                        "audioQS": "Matt.17"
+                    }
+                ],
+                "readQS": "Psalm+57%3B+Zephaniah+1:1-2:3%3B+Matthew+17:22-",
+                "audioQS": "Ps.57,Zeph.1,Matt.17"
+            }
+        ]
+    },
+    "2024/12/20": {
+        "datePretty": "Friday, December 20, 2024",
+        "calendar": "Week of 3rd Sunday of Advent",
+        "readingSets": [
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Morning Prayers",
+                "timeOfDay": "morning",
+                "readings": [
+                    {
+                        "pretty": "Psalm 46",
+                        "readQS": "Psalm+46",
+                        "audioQS": "Ps.46"
+                    },
+                    {
+                        "pretty": "Isaiah 51:17\u2013end",
+                        "readQS": "Isaiah+51:17-",
+                        "audioQS": "Isa.51"
+                    },
+                    {
+                        "pretty": "2 Thessalonians 3",
+                        "readQS": "2+Thessalonians+3",
+                        "audioQS": "2Thess.3"
+                    }
+                ],
+                "readQS": "Psalm+46%3B+Isaiah+51:17-%3B+2+Thessalonians+3",
+                "audioQS": "Ps.46,Isa.51,2Thess.3"
+            },
+            {
+                "readingSetTab": "prayers",
+                "readingSetSubtitle": "Evening Prayers",
+                "timeOfDay": "evening",
+                "readings": [
+                    {
+                        "pretty": "Psalm 4",
+                        "readQS": "Psalm+4",
+                        "audioQS": "Ps.4"
+                    },
+                    {
+                        "pretty": "Zephaniah 3:1\u201313",
+                        "readQS": "Zephaniah+3:1-13",
+                        "audioQS": "Zeph.3"
+                    },
+                    {
+                        "pretty": "Matthew 18:1\u201320",
+                        "readQS": "Matthew+18:1-20",
+                        "audioQS": "Matt.18"
+                    }
+                ],
+                "readQS": "Psalm+4%3B+Zephaniah+3:1-13%3B+Matthew+18:1-20",
+                "audioQS": "Ps.4,Zeph.3,Matt.18"
+            }
+        ]
     }
 };export default Data;

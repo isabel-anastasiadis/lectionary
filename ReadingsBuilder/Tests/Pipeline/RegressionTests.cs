@@ -50,7 +50,7 @@ namespace Tests.Pipeline
             var resultToRowsMapper = DependencyInjector.GetInstance<IResultToRowsMapper>();
             var csvWriter = DependencyInjector.GetInstance<ICsvWriter>();
 
-            var input = Inputs.FOR_2023_TO_2024;
+            var input = Inputs.FOR_2024_TO_2025;
 
             // act
             var result = classUnderTest.Run(input);

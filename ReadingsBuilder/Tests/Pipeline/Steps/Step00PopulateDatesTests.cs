@@ -52,12 +52,12 @@ namespace Tests.Pipeline.Steps
         }
 
         [Test]
-        public void PopulatesDatesForRangeSpecified() {
+        public void PopulatesDatesForRangeSpecifiedPlusBufferForNextYear() {
             // arrange
             var pipelineResult = new PipelineWorkingResult() { 
                 Input = new Input { 
                     StartDate = new System.DateOnly(2021,1,1),
-                    EndDate = new System.DateOnly(2021,1,31)
+                    EndDate = new System.DateOnly(2021,1,31),
                 }
             };
             var liturgicalYear = Mock.Of<LiturgicalYear>();
@@ -68,7 +68,7 @@ namespace Tests.Pipeline.Steps
 
             // assert
             Assert.IsNotNull(workingResult);
-            Assert.AreEqual(workingResult?.Result.Count, 31);
+            Assert.AreEqual(workingResult?.Result.Count, 31 + pipelineResult.Input.DaysToPopulateForNextYear); // because rules can transfer across lectionary years and we need time to generate new data
         }
 
         [Test]

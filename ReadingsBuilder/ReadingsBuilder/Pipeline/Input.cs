@@ -36,6 +36,14 @@
         
         public DateOnly? FirstSundayOfAdventTheFollowingYear { get; set; }
 
+        public int DaysToPopulateForNextYear {
+            get
+            {
+                // NOTE: nothing special happens in the first 20 days of the year, so only advent rules apply
+                return 20;
+            }
+        }
+
     }
 
 

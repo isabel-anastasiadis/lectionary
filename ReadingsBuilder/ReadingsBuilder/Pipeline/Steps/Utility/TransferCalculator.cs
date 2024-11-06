@@ -22,6 +22,12 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             var plannedFestivalDate = ruleFlags.Matches(FeastOrSeasonType.EveningBeforeMask) ? plannedDate.AddDays(1) : plannedDate;
 
             var indexOfPlannedFestivalDate = allKeys.IndexOf(plannedFestivalDate);
+
+            if (indexOfPlannedFestivalDate < 0)
+            {
+                throw new IndexOutOfRangeException($"Planned date not in range - {plannedFestivalDate}");
+            }
+
             var plannedFestivalDay = workingResult.Result[plannedFestivalDate].OptionOne;
 
             if (plannedFestivalDay == null)

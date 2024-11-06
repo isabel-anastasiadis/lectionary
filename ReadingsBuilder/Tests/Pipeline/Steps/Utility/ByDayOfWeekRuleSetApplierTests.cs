@@ -87,7 +87,7 @@ namespace Tests.Pipeline.Steps.Utility
             var workingResult = new PipelineWorkingResult() {
                 Input = new Input() {
                     StartDate = new DateOnly(2022, 1, 1),
-                    EndDate = dayTheRuleStarts.AddDays(-1)
+                    EndDate = dayTheRuleStarts.AddDays(-1 -20) // because we add currently 20 extra days just in case of transfers
                 }
             };
 
