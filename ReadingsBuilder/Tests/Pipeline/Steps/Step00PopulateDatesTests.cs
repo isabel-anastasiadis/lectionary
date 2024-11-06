@@ -52,7 +52,7 @@ namespace Tests.Pipeline.Steps
         }
 
         [Test]
-        public void PopulatesDatesForRangeSpecified() {
+        public void PopulatesDatesForRangeSpecifiedPlusTwo() {
             // arrange
             var pipelineResult = new PipelineWorkingResult() { 
                 Input = new Input { 
@@ -68,7 +68,7 @@ namespace Tests.Pipeline.Steps
 
             // assert
             Assert.IsNotNull(workingResult);
-            Assert.AreEqual(workingResult?.Result.Count, 31);
+            Assert.AreEqual(workingResult?.Result.Count, 31 + 2); // because rules can transfer across lectionary years
         }
 
         [Test]

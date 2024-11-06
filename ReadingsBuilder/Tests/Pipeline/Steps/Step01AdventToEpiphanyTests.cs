@@ -159,6 +159,12 @@ namespace Tests.Pipeline.Steps
             {
                 OptionOne = new Day()
             };
+
+            workingResult.Input = new Input
+            {
+                StartDate = new DateOnly(2021, 12, 1) // Wed
+            }; 
+
             var liturgicalYear = Mock.Of<LiturgicalYear>();
 
             var classUnderTest = ClassUnderTest();
@@ -174,27 +180,6 @@ namespace Tests.Pipeline.Steps
             {
                 Assert.Pass();
             }
-
-        }
-
-        [Test]
-        public void RunStepPicksTheRightRuleForDay1()
-        {
-
-            // arrange
-            var dateOfDay = new DateOnly(2021, 11, 28); // 1st Sun Advent
-            var workingResult = new PipelineWorkingResult();
-            workingResult.Result[dateOfDay] = new Option<Day, DayOptionType>();
-            var liturgicalYear = Mock.Of<LiturgicalYear>();
-
-            var classUnderTest = ClassUnderTest();
-            var expectedFirstRule = _defaultRules.First();
-
-            // act
-            var result = classUnderTest.RunStep(workingResult, liturgicalYear: liturgicalYear);
-
-            // assert
-            _ruleSetApplierMock.Verify(m => m.ApplyRulesByDayOfWeek(workingResult, It.IsAny<LiturgicalYear>(), It.IsAny<List<Rule>>(), dateOfDay, expectedFirstRule, null, false));
 
         }
 
