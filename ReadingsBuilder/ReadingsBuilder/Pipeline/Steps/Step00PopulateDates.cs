@@ -38,9 +38,9 @@ namespace ReadingsBuilder.Pipeline.Steps
                 };
                 currentDate = currentDate.AddDays(1);
 
-                // NOTE: this is because transfers can be pushed to the next year,
-                // so we need the very first part of next year populated, just in case (eg. 30 Nov 2025 St Andrew)
-                var twoDaysAfterEndDate = workingResult.Input.EndDate.AddDays(2);
+                // NOTE: this is because transfers can be pushed to the next year, so we need the very first part of next year populated, just in case (eg. 30 Nov 2025 St Andrew)
+                // But also we can't publish the next year until the previous year has finished, so it gives us a buffer.
+                var twoDaysAfterEndDate = workingResult.Input.EndDate.AddDays(workingResult.Input.DaysToPopulateForNextYear);
                 if (currentDate > twoDaysAfterEndDate) {
                     break;
                 }
