@@ -51,6 +51,7 @@ const ReadingsPage = ({
           icon={"arrow"}
           iconRotate={"90"}
           onClick={yesterdayOnClick}
+          dataLabel="yesterday"
         />
         <Toggle
           options={[
@@ -65,6 +66,7 @@ const ReadingsPage = ({
           icon={"arrow"}
           iconRotate={"-90"}
           onClick={tomorrowOnClick}
+          dataLabel="tomorrow"
         />
       </Nav>
       <Message time={theme === Theme.EVENING ? "Po" : "Ata"} />

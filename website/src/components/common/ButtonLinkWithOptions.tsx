@@ -3,6 +3,7 @@ import { styled } from '../../stitches.config';
 import Icon from './Icon';
 import { ButtonStyle, ButtonVariants } from './Button';
 import FlexibleSelect from './FlexibleSelect';
+import { toSnakeCase } from '../../helpers/stringHelpers';
 
 
 const WrapperDiv = styled('div', {
@@ -56,7 +57,7 @@ interface ButtonProps {
 const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChange, buttonText, href, buttonStyle, buttonIcon }: ButtonProps) => {
   return (
     <WrapperDiv>
-      <Link href={href} style={buttonStyle}>
+      <Link href={href} style={buttonStyle} data-category="link" data-action="click" data-label={toSnakeCase(buttonText ?? '')}>
         <Icon name={buttonIcon ?? "arrow"}></Icon>
         <LinkText>
           {buttonText}
@@ -67,7 +68,8 @@ const ButtonLinkWithOptions = ({selectOptions, selectDefaultValue, selectOnChang
         newExternalValue={selectDefaultValue} 
         options={selectOptions} 
         onChange={selectOnChange}
-        truncatedDisplayText={true}/>
+        truncatedDisplayText={true}
+        dataContext={toSnakeCase(buttonText ?? '')}/>
     </WrapperDiv>
   )
 }

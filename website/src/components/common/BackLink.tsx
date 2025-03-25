@@ -13,7 +13,7 @@ const StyledLink = styled(Link, DefaultLinkStyles, {
   });
 
 const BackLink = () => {
-  return (<StyledLink to={"/"}><Icon name="chevron" rotate="90"></Icon>Back</StyledLink>);
+  return (<StyledLink to={"/"} data-category="navigation" data-action="click" data-label="back"><Icon name="chevron" rotate="90"></Icon>Back</StyledLink>);
 }
 
 export default BackLink;

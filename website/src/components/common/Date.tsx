@@ -28,7 +28,8 @@ const Date = ({ dates, currentDate, setCurrentDate }: DateProps) => {
         options={dateOptions} 
         newExternalValue={currentDate} 
         onChange={setCurrentDate} 
-        truncatedDisplayText={false}/>
+        truncatedDisplayText={false}
+        dataContext="date"/>
     </Wrapper>
   );
 };

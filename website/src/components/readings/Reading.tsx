@@ -9,12 +9,17 @@ const StyledReading = styled('li', {})
 interface ReadingsProps {
     reading: IReading,
     readingTranslation: string
+    dataLabel: string
 }
 
-const Reading = ({reading, readingTranslation}: ReadingsProps) => {
+const Reading = ({reading, readingTranslation, dataLabel}: ReadingsProps) => {
     return(
         <StyledReading>
-            <Link href={readingUrl(readingTranslation, reading.readQS)}>{reading.pretty}</Link>
+            <Link 
+              href={readingUrl(readingTranslation, reading.readQS)}
+              text={reading.pretty}
+              dataLabelOverride={dataLabel}
+            />
         </StyledReading>
     )
 }

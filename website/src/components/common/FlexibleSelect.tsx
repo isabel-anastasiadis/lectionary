@@ -3,6 +3,7 @@ import { styled } from "../../stitches.config";
 import { ButtonStyle } from "./Button";
 import Icon from "./Icon";
 import type * as Stitches from '@stitches/react';
+import { toSnakeCase } from "../../helpers/stringHelpers";
 
 const Wrapper = styled("div", {
   position: "relative",
@@ -88,9 +89,10 @@ interface FlexibleSelectProps {
   newExternalValue: string;
   onChange: (value: string) => void;
   truncatedDisplayText: boolean;
+  dataContext: string
 };
 
-const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange, truncatedDisplayText }: FlexibleSelectProps) => {
+const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange, truncatedDisplayText, dataContext }: FlexibleSelectProps) => {
   const [currentText, setCurrentText] = useState(getDisplayTextByValue(options, newExternalValue));
   const [selectWidth, setSelectWidth] = useState();
   const ref: any = useRef(null);
@@ -134,12 +136,15 @@ const FlexibleSelect = ({ selectStyle, options, newExternalValue, onChange, trun
             onChange(e.target.value);
             setCurrentText(getDisplayTextByValue(options, e.target.value));
           }}
+          data-category="dropdown"
+          data-action="select"
         >
           {options.map((option, i) => {
             return (
               <StyledOption
                 key={i}
                 value={option.value}
+                data-label={`${dataContext}_${toSnakeCase(option.value)}`}
               >
                 {option.text}
               </StyledOption>

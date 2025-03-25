@@ -17,12 +17,12 @@ const AboutPage = (props: AboutPageProps) => {
       <h1>About</h1>
 
       <p>
-        This app is a cut-down digital-friendly version of <i>The Lectionary Te Maramataka</i>, available on the <Link href="http://www.anglican.org.nz/Resources/Lectionary-and-Worship">General Synod website</Link>.
+        This app is a cut-down digital-friendly version of <i>The Lectionary Te Maramataka</i>, available on the <Link href="http://www.anglican.org.nz/Resources/Lectionary-and-Worship" text="General Synod website"/>.
       </p>
 
       <p>Made with aroha in Wellington by Isabel Anastasiadis &amp; Isaac Minogue.</p>
 
-      <p>We'd love your feedback! You can either fill out this <Link href="https://docs.google.com/forms/d/e/1FAIpQLSckYvSTMfR3okNZcPsur7dX2WDzhhNOKVkQkxXQCphKaQjgzA/viewform"> Google Form</Link> to rate potential new features, or you can email us at feedback@lectionary.co.nz.</p>
+      <p>We'd love your feedback! You can either fill out this <Link href="https://docs.google.com/forms/d/e/1FAIpQLSckYvSTMfR3okNZcPsur7dX2WDzhhNOKVkQkxXQCphKaQjgzA/viewform" text="Google Form"/> to rate potential new features, or you can email us at feedback@lectionary.co.nz.</p>
 
       <h2 style={{marginTop: '50px'}}>Sources</h2>
       <p>
@@ -36,7 +36,7 @@ const AboutPage = (props: AboutPageProps) => {
         Archbishops&apos; Council of the Church of England, 1995, 1997 and is reproduced with permission.
       </p>
       <p>
-        <i>The Lectionary Te Maramataka</i>, used with permission, available <Link href="http://www.anglican.org.nz/Resources/Lectionary-and-Worship">here</Link> on the General Synod website.
+        <i>The Lectionary Te Maramataka</i>, used with permission, available <Link href="http://www.anglican.org.nz/Resources/Lectionary-and-Worship" text="here"/> on the General Synod website.
       </p>
     </StyledAbout>
   );
