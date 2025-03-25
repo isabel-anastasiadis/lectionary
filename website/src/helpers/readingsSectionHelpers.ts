@@ -20,15 +20,15 @@ function getTabOptions(readingSets: IReadingsList[]): IToggleOption[] {
   const tabOptionsLookup: { [id: string]: IToggleOption } = {
     rclTrack1: {
       value: "rclTrack1",
-      content: "RCL (Re.)"
+      content: "RCL (Re.)",
     },
     rclTrack2: {
       value: "rclTrack2",
-      content: "RCL (Co.)"
+      content: "RCL (Co.)",
     },
     prayers: {
       value: "prayers",
-      content: "Prayers"
+      content: "Prayers",
     }
   }
   

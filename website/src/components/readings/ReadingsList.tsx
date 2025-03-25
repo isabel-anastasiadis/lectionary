@@ -15,11 +15,12 @@ interface ReadingsListProps {
 }
 
 const ReadingsList = ({ readingsList, readingTranslation }: ReadingsListProps) => {
+
   return (
     <StyledReadingsList>
       {
         readingsList.readings.map((reading, i) => {
-          return <Reading key={i} reading={reading} readingTranslation={readingTranslation} />;
+          return <Reading key={i} reading={reading} readingTranslation={readingTranslation} dataLabel={"reading_" + i} />;
         })
       }
     </StyledReadingsList>

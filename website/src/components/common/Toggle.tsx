@@ -1,5 +1,6 @@
 import { styled } from "../../stitches.config";
 import { Theme } from "../../data/interfaces";
+import { toSnakeCase } from "../../helpers/stringHelpers";
 
 const Track = styled("div", {
   display: "inline-flex",
@@ -115,6 +116,9 @@ const Toggle = ({ options, selected, onChange }: ToggleProps) => {
               onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                 return e.target.checked && onChange(e.target.value as Theme);
               }}
+              data-category="radio"
+              data-action="click"
+              data-label={toSnakeCase(item.content)}
             />
             <Label htmlFor={"for-" + item.value}>{item.content}</Label>
           </div>

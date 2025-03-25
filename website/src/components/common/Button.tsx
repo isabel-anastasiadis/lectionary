@@ -75,11 +75,19 @@ interface ButtonProps {
   icon?: string
   iconRotate?: string
   iconColor?: string
+  dataLabel?: string
 }
   
-const Button = ({children, onClick, shape, buttonStyle, icon, iconRotate, iconColor}: ButtonProps) => {
+const Button = ({children, onClick, shape, buttonStyle, icon, iconRotate, iconColor, dataLabel}: ButtonProps) => {
   return (
-    <StyledButton shape={shape} style={buttonStyle} onClick={onClick}>
+    <StyledButton 
+      shape={shape} 
+      style={buttonStyle} 
+      onClick={onClick} 
+      data-category="button"
+      data-action="click"
+      data-label={dataLabel}>
+
       {icon ? <Icon rotate={iconRotate} name={icon} color={iconColor}/> : null}
       {children}
     </StyledButton>
