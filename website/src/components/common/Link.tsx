@@ -1,4 +1,5 @@
 import { styled } from "@stitches/react";
+import { toSnakeCase } from "../../helpers/stringHelpers";
 
 
 export const DefaultLinkStyles = {
@@ -16,5 +17,17 @@ export const DefaultLinkStyles = {
     },
 };
 
-export const Link = styled('a', DefaultLinkStyles);
+const StyledLink = styled('a', DefaultLinkStyles);
+
+interface LinkProps {
+  href: string,
+  text: string,
+  dataLabelOverride?: string
+}
+
+export const Link = ({href, text, dataLabelOverride}: LinkProps) => {
+  return (
+    <StyledLink href={href} data-category="link" data-action="click" data-label={dataLabelOverride ?? toSnakeCase(text)}>{text}</StyledLink>
+  )
+}
 

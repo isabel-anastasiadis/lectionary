@@ -1,3 +1,4 @@
+import { toSnakeCase } from "../../helpers/stringHelpers";
 import { styled } from "../../stitches.config";
 import { Link, useLocation } from "react-router-dom";
 
@@ -43,7 +44,12 @@ const Footer = ({links}: IFooterProps) => {
       {links.map((link, i) => {
         const linkIsActive = location === link.to;
 
-        return <StyledNavLink key={link.label} to={linkIsActive ? "/" : link.to }>{linkIsActive ? "Back" : link.label}</StyledNavLink>
+        if (linkIsActive)
+        {
+          return <StyledNavLink key={link.label} to="/" data-category="navigation" data-action="click" data-label="footer_back" >{"Back"}</StyledNavLink>
+        }
+         
+        return <StyledNavLink key={link.label} to={link.to} data-category="navigation" data-action="click" data-label={toSnakeCase("footer_" + link.to)}>{link.label}</StyledNavLink>
       })}
       
     </StyledNav>

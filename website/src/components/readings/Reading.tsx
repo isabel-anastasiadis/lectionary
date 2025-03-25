@@ -17,12 +17,9 @@ const Reading = ({reading, readingTranslation, dataLabel}: ReadingsProps) => {
         <StyledReading>
             <Link 
               href={readingUrl(readingTranslation, reading.readQS)}
-              data-category="link"
-              data-action="click"
-              data-label={dataLabel}
-              >
-                {reading.pretty}
-              </Link>
+              text={reading.pretty}
+              dataLabelOverride={dataLabel}
+            />
         </StyledReading>
     )
 }
