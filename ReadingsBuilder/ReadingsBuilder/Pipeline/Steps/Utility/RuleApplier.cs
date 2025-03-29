@@ -227,6 +227,21 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
         public void ApplyRclTrack1(Rule rule, Day day)
         {
+            if (rule.RclTrack1ShortNameOverride != null)
+            {
+                day.RclTrack1ShortNameOverride = rule.RclTrack1ShortNameOverride;
+            }
+
+            if (rule.RclTrack1FullNameOverride != null)
+            {
+                day.RclTrack1FullNameOverride = rule.RclTrack1FullNameOverride;
+            }
+
+            if (rule.RclTrack1Note != null)
+            {
+                day.RclTrack1Note = rule.RclTrack1Note;
+            }
+
             if (rule.RclTrack1Psalm != null)
             {
                 day.RclTrack1Readings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + rule.RclTrack1Psalm;
@@ -255,6 +270,21 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
         public void ApplyRclTrack2(Rule rule, Day day)
         {
+            if (rule.RclTrack2ShortNameOverride != null)
+            {
+                day.RclTrack2ShortNameOverride = rule.RclTrack2ShortNameOverride;
+            }
+
+            if (rule.RclTrack2FullNameOverride != null)
+            {
+                day.RclTrack2FullNameOverride = rule.RclTrack2FullNameOverride;
+            }
+
+            if (rule.RclTrack2Note != null)
+            {
+                day.RclTrack2Note = rule.RclTrack2Note;
+            }
+
             if (rule.RclTrack2Psalm != null)
             {
                 day.RclTrack2Readings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + rule.RclTrack2Psalm;
