@@ -17,7 +17,13 @@ namespace ReadingsBuilder.Data.Result
                 "date_pretty",
                 "day_description",
                 "evening_name",
+                "rcl_track_1_short_name_override",
+                "rcl_track_1_full_name_override",
+                "rcl_track_1_note",
                 "rcl_track_1",
+                "rcl_track_2_short_name_override",
+                "rcl_track_2_full_name_override",
+                "rcl_track_2_note",
                 "rcl_track_2",
                 "morning_prayers_together",
                 "evening_prayers_together"
@@ -41,7 +47,19 @@ namespace ReadingsBuilder.Data.Result
 
                 row.Add(day.EveningName ?? string.Empty);
 
+                row.Add(day.RclTrack1ShortNameOverride ?? string.Empty);
+
+                row.Add(day.RclTrack1FullNameOverride ?? string.Empty);
+
+                row.Add(day.RclTrack1Note ?? string.Empty);
+
                 row.Add(MapRclReadings(day.RclTrack1Readings));
+
+                row.Add(day.RclTrack2ShortNameOverride ?? string.Empty);
+
+                row.Add(day.RclTrack2FullNameOverride ?? string.Empty);
+
+                row.Add(day.RclTrack2Note ?? string.Empty);
 
                 row.Add(MapRclReadings(day.RclTrack2Readings));
 

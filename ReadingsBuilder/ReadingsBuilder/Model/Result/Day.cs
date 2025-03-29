@@ -38,7 +38,19 @@ namespace ReadingsBuilder.Model.Result
         /// </summary>
         public FeastOrSeasonType FeastOrSeasonType { get; set; }
 
+        public string? RclTrack1ShortNameOverride { get; set; }
+
+        public string? RclTrack1FullNameOverride { get; set; }
+
+        public string? RclTrack1Note { get; set; }
+
         public Option<RclReadings, ReadingsOptionType> RclTrack1Readings { get; set; }
+
+        public string? RclTrack2ShortNameOverride { get; set; }
+
+        public string? RclTrack2FullNameOverride { get; set; }
+
+        public string? RclTrack2Note { get; set; }
 
         public Option<RclReadings, ReadingsOptionType> RclTrack2Readings { get; set; }
 

@@ -50,6 +50,12 @@
 
         public string? EveningPsalmsMain { get; set; }
 
+        public string? RclTrack1ShortNameOverride { get; set; }
+
+        public string? RclTrack1FullNameOverride { get; set; }
+
+        public string? RclTrack1Note { get; set; }
+
         public string? RclTrack1Psalm { get; set; }
 
         /// <summary>
@@ -64,6 +70,12 @@
         public string? RclTrack1NewTestament { get; set; }
 
         public string? RclTrack1Gospel { get; set; }
+
+        public string? RclTrack2ShortNameOverride { get; set; }
+
+        public string? RclTrack2FullNameOverride { get; set; }
+
+        public string? RclTrack2Note { get; set; }
 
         public string? RclTrack2Psalm { get; set; }
 

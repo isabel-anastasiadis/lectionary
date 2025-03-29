@@ -9,12 +9,14 @@ export interface IReading {
 }
 
 export interface IReadingsList {
-  readingSetTab: string,
-  readingSetSubtitle: string | null,
-  timeOfDay: "morning" | "evening" | null,
+  readingSetTab: string;
+  readingSetTabName: string;
+  readingSetSubtitle: string;
+  timeOfDay: "morning" | "evening" | null;
   readings: IReading[];
   readQS: string;
   audioQS: string;
+  note: string | null;
 }
 
 export interface IReadingsForDay {
