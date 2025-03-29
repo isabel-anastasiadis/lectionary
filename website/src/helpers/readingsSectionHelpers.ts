@@ -22,7 +22,7 @@ function getTabOptions(readingSets: IReadingsList[]): IToggleOption[] {
   
   return tabIdentifiers.map((tabIdentifier) => {
     const readingSet = readingSets
-      .filter((readingSet) => readingSet.readingSetTab == tabIdentifier )[0];
+      .filter((readingSet) => readingSet.readingSetTab === tabIdentifier )[0];
 
     return {
       value: readingSet.readingSetTab,
