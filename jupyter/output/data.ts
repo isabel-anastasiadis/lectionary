@@ -5,6 +5,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -30,10 +31,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25:1-9%3B+Jeremiah+33:14-16%3B+1+Thessalonians+3:9-13%3B+Luke+21:25-36",
-                "audioQS": "Ps.25,Jer.33,1Thess.3,Luke.21"
+                "audioQS": "Ps.25,Jer.33,1Thess.3,Luke.21",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -54,10 +57,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Isaiah+51:4-11%3B+Romans+13:11-14",
-                "audioQS": "Ps.44,Isa.51,Rom.13"
+                "audioQS": "Ps.44,Isa.51,Rom.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -78,7 +83,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+Joel+3:9-21%3B+Revelation+14:13-15:4",
-                "audioQS": "Ps.9,Joel.3,Rev.14"
+                "audioQS": "Ps.9,Joel.3,Rev.14",
+                "note": null
             }
         ]
     },
@@ -88,6 +94,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -108,10 +115,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+Isaiah+42:18-%3B+Revelation+19",
-                "audioQS": "Ps.50,Isa.42,Rev.19"
+                "audioQS": "Ps.50,Isa.42,Rev.19",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -132,7 +141,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Isaiah+25:1-9%3B+Matthew+12:1-21",
-                "audioQS": "Ps.71,Isa.25,Matt.12"
+                "audioQS": "Ps.71,Isa.25,Matt.12",
+                "note": null
             }
         ]
     },
@@ -142,6 +152,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -162,10 +173,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Isaiah+43:1-13%3B+Revelation+20",
-                "audioQS": "Ps.80,Isa.43,Rev.20"
+                "audioQS": "Ps.80,Isa.43,Rev.20",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -186,7 +199,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+Isaiah+26:1-13%3B+Matthew+12:22-37",
-                "audioQS": "Ps.74,Isa.26,Matt.12"
+                "audioQS": "Ps.74,Isa.26,Matt.12",
+                "note": null
             }
         ]
     },
@@ -196,6 +210,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -216,10 +231,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+7%3B+Isaiah+43:14-%3B+Revelation+21:1-8",
-                "audioQS": "Ps.7,Isa.43,Rev.21"
+                "audioQS": "Ps.7,Isa.43,Rev.21",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -240,7 +257,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Isaiah+28:1-13%3B+Matthew+12:38-",
-                "audioQS": "Ps.77,Isa.28,Matt.12"
+                "audioQS": "Ps.77,Isa.28,Matt.12",
+                "note": null
             }
         ]
     },
@@ -250,6 +268,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -270,10 +289,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42%3B+Isaiah+44:1-8%3B+Revelation+21:9-21",
-                "audioQS": "Ps.42,Isa.44,Rev.21"
+                "audioQS": "Ps.42,Isa.44,Rev.21",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -294,7 +315,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Isaiah+28:14-%3B+Matthew+13:1-23",
-                "audioQS": "Ps.40,Isa.28,Matt.13"
+                "audioQS": "Ps.40,Isa.28,Matt.13",
+                "note": null
             }
         ]
     },
@@ -304,6 +326,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -324,10 +347,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25%3B+Isaiah+44:9-23%3B+Revelation+21:22-22:5",
-                "audioQS": "Ps.25,Isa.44,Rev.21"
+                "audioQS": "Ps.25,Isa.44,Rev.21",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -348,7 +373,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+17%3B+Isaiah+29:1-14%3B+Matthew+13:24-43",
-                "audioQS": "Ps.17,Isa.29,Matt.13"
+                "audioQS": "Ps.17,Isa.29,Matt.13",
+                "note": null
             }
         ]
     },
@@ -358,6 +384,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -378,10 +405,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+Isaiah+44:24-45:13%3B+Revelation+22:6-",
-                "audioQS": "Ps.9,Isa.44,Rev.22"
+                "audioQS": "Ps.9,Isa.44,Rev.22",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -402,7 +431,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27%3B+Isaiah+29:15-%3B+Matthew+13:44-",
-                "audioQS": "Ps.27,Isa.29,Matt.13"
+                "audioQS": "Ps.27,Isa.29,Matt.13",
+                "note": null
             }
         ]
     },
@@ -412,6 +442,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -437,10 +468,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Luke+1:68-79%3B+Malachi+3:1-4%3B+Philippians+1:3-11%3B+Luke+3:1-6",
-                "audioQS": "Luke.1,Mal.3,Phil.1,Luke.3"
+                "audioQS": "Luke.1,Mal.3,Phil.1,Luke.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -461,10 +494,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Isaiah+64:1-7%3B+Matthew+11:2-11",
-                "audioQS": "Ps.80,Isa.64,Matt.11"
+                "audioQS": "Ps.80,Isa.64,Matt.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -485,7 +520,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+75%3B+Isaiah+40:1-11%3B+Luke+1:1-25",
-                "audioQS": "Ps.75,Isa.40,Luke.1"
+                "audioQS": "Ps.75,Isa.40,Luke.1",
+                "note": null
             }
         ]
     },
@@ -495,6 +531,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -515,10 +552,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Isaiah+45:14-%3B+1+Thessalonians+1",
-                "audioQS": "Ps.44,Isa.45,1Thess.1"
+                "audioQS": "Ps.44,Isa.45,1Thess.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -539,7 +578,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Isaiah+30:1-18%3B+Matthew+14:1-12",
-                "audioQS": "Ps.144,Isa.30,Matt.14"
+                "audioQS": "Ps.144,Isa.30,Matt.14",
+                "note": null
             }
         ]
     },
@@ -549,6 +589,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -569,10 +610,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+56%3B+Isaiah+46%3B+1+Thessalonians+2:1-12",
-                "audioQS": "Ps.56,Isa.46,1Thess.2"
+                "audioQS": "Ps.56,Isa.46,1Thess.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -593,7 +636,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+11%3B+Isaiah+30:19-%3B+Matthew+14:13-",
-                "audioQS": "Ps.11,Isa.30,Matt.14"
+                "audioQS": "Ps.11,Isa.30,Matt.14",
+                "note": null
             }
         ]
     },
@@ -603,6 +647,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -623,10 +668,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+62%3B+Isaiah+47%3B+1+Thessalonians+2:13-",
-                "audioQS": "Ps.62,Isa.47,1Thess.2"
+                "audioQS": "Ps.62,Isa.47,1Thess.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -647,7 +694,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+10%3B+Isaiah+31%3B+Matthew+15:1-20",
-                "audioQS": "Ps.10,Isa.31,Matt.15"
+                "audioQS": "Ps.10,Isa.31,Matt.15",
+                "note": null
             }
         ]
     },
@@ -657,6 +705,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -677,10 +726,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+54%3B+Isaiah+48:1-11%3B+1+Thessalonians+3",
-                "audioQS": "Ps.54,Isa.48,1Thess.3"
+                "audioQS": "Ps.54,Isa.48,1Thess.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -701,7 +752,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Isaiah+32%3B+Matthew+15:21-28",
-                "audioQS": "Ps.73,Isa.32,Matt.15"
+                "audioQS": "Ps.73,Isa.32,Matt.15",
+                "note": null
             }
         ]
     },
@@ -711,6 +763,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -731,10 +784,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+86%3B+Isaiah+48:12-%3B+1+Thessalonians+4:1-12",
-                "audioQS": "Ps.86,Isa.48,1Thess.4"
+                "audioQS": "Ps.86,Isa.48,1Thess.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -755,7 +810,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+90%3B+Isaiah+33:1-22%3B+Matthew+15:29-",
-                "audioQS": "Ps.90,Isa.33,Matt.15"
+                "audioQS": "Ps.90,Isa.33,Matt.15",
+                "note": null
             }
         ]
     },
@@ -765,6 +821,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -785,10 +842,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Isaiah+49:1-13%3B+1+Thessalonians+4:13-",
-                "audioQS": "Ps.145,Isa.49,1Thess.4"
+                "audioQS": "Ps.145,Isa.49,1Thess.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -809,7 +868,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+94%3B+Isaiah+35%3B+Matthew+16:1-12",
-                "audioQS": "Ps.94,Isa.35,Matt.16"
+                "audioQS": "Ps.94,Isa.35,Matt.16",
+                "note": null
             }
         ]
     },
@@ -819,6 +879,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -844,10 +905,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Isaiah+12:2-6%3B+Zephaniah+3:14-20%3B+Philippians+4:4-7%3B+Luke+3:7-18",
-                "audioQS": "Isa.12,Zeph.3,Phil.4,Luke.3"
+                "audioQS": "Isa.12,Zeph.3,Phil.4,Luke.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -868,10 +931,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+12,14%3B+Isaiah+25:1-9%3B+1+Corinthians+4:1-5",
-                "audioQS": "Ps.12,14,Isa.25,1Cor.4"
+                "audioQS": "Ps.12,14,Isa.25,1Cor.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -892,7 +957,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50:1-6%3B+Isaiah+35%3B+Luke+1:57-66,%2867-80%29",
-                "audioQS": "Ps.50,Isa.35,Luke.1"
+                "audioQS": "Ps.50,Isa.35,Luke.1",
+                "note": null
             }
         ]
     },
@@ -902,6 +968,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -922,10 +989,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Isaiah+49:14-25%3B+1+Thessalonians+5:1-11",
-                "audioQS": "Ps.40,Isa.49,1Thess.5"
+                "audioQS": "Ps.40,Isa.49,1Thess.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -946,7 +1015,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+26%3B+Isaiah+38:1-8,38:21-22%3B+Matthew+16:13-",
-                "audioQS": "Ps.26,Isa.38,Matt.16"
+                "audioQS": "Ps.26,Isa.38,Matt.16",
+                "note": null
             }
         ]
     },
@@ -956,6 +1026,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -976,10 +1047,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+70%3B+Isaiah+50%3B+1+Thessalonians+5:12-",
-                "audioQS": "Ps.70,Isa.50,1Thess.5"
+                "audioQS": "Ps.70,Isa.50,1Thess.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1000,7 +1073,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+Isaiah+38:9-20%3B+Matthew+17:1-13",
-                "audioQS": "Ps.50,Isa.38,Matt.17"
+                "audioQS": "Ps.50,Isa.38,Matt.17",
+                "note": null
             }
         ]
     },
@@ -1010,6 +1084,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1030,10 +1105,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+75%3B+Isaiah+51:1-8%3B+2+Thessalonians+1",
-                "audioQS": "Ps.75,Isa.51,2Thess.1"
+                "audioQS": "Ps.75,Isa.51,2Thess.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1054,7 +1131,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+82%3B+Isaiah+39%3B+Matthew+17:14-21",
-                "audioQS": "Ps.82,Isa.39,Matt.17"
+                "audioQS": "Ps.82,Isa.39,Matt.17",
+                "note": null
             }
         ]
     },
@@ -1064,6 +1142,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1084,10 +1163,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146%3B+Isaiah+51:9-16%3B+2+Thessalonians+2",
-                "audioQS": "Ps.146,Isa.51,2Thess.2"
+                "audioQS": "Ps.146,Isa.51,2Thess.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1108,7 +1189,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+57%3B+Zephaniah+1:1-2:3%3B+Matthew+17:22-",
-                "audioQS": "Ps.57,Zeph.1,Matt.17"
+                "audioQS": "Ps.57,Zeph.1,Matt.17",
+                "note": null
             }
         ]
     },
@@ -1118,6 +1200,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1138,10 +1221,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+Isaiah+51:17-%3B+2+Thessalonians+3",
-                "audioQS": "Ps.46,Isa.51,2Thess.3"
+                "audioQS": "Ps.46,Isa.51,2Thess.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1162,7 +1247,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+4%3B+Zephaniah+3:1-13%3B+Matthew+18:1-20",
-                "audioQS": "Ps.4,Zeph.3,Matt.18"
+                "audioQS": "Ps.4,Zeph.3,Matt.18",
+                "note": null
             }
         ]
     },
@@ -1172,6 +1258,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1192,10 +1279,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+121%3B+Isaiah+52:1-12%3B+Jude",
-                "audioQS": "Ps.121,Isa.52,Jude"
+                "audioQS": "Ps.121,Isa.52,Jude",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1216,7 +1305,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84%3B+Zephaniah+3:14-%3B+Matthew+18:21-",
-                "audioQS": "Ps.84,Zeph.3,Matt.18"
+                "audioQS": "Ps.84,Zeph.3,Matt.18",
+                "note": null
             }
         ]
     },
@@ -1226,6 +1316,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -1251,10 +1342,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80:1-8%3B+Micah+5:2-5a%3B+Hebrews+10:5-10%3B+Luke+1:39-45,%2846-55%29",
-                "audioQS": "Ps.80,Mic.5,Heb.10,Luke.1"
+                "audioQS": "Ps.80,Mic.5,Heb.10,Luke.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1275,10 +1368,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Isaiah+32:1-8%3B+Revelation+22:6-21",
-                "audioQS": "Ps.144,Isa.32,Rev.22"
+                "audioQS": "Ps.144,Isa.32,Rev.22",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1299,7 +1394,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+123%3B+Isaiah+10:33-11:10%3B+Matthew+1:18-25",
-                "audioQS": "Ps.123,Isa.10,Matt.1"
+                "audioQS": "Ps.123,Isa.10,Matt.1",
+                "note": null
             }
         ]
     },
@@ -1309,6 +1405,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1334,10 +1431,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+130%3B+Isaiah+52:13-%3B+Isaiah+53%3B+2+Peter+1:1-15",
-                "audioQS": "Ps.130,Isa.52,Isa.53,2Pet.1"
+                "audioQS": "Ps.130,Isa.52,Isa.53,2Pet.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1358,7 +1457,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-37%3B+Malachi+1:1,1:6-%3B+Matthew+19:1-12",
-                "audioQS": "Ps.89,Mal.1,Matt.19"
+                "audioQS": "Ps.89,Mal.1,Matt.19",
+                "note": null
             }
         ]
     },
@@ -1368,6 +1468,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1388,10 +1489,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+45%3B+Isaiah+54%3B+2+Peter+1:16-2:3",
-                "audioQS": "Ps.45,Isa.54,2Pet.1"
+                "audioQS": "Ps.45,Isa.54,2Pet.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Christmas Eve)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1412,7 +1515,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+Zechariah+2%3B+Revelation+1:1-8",
-                "audioQS": "Ps.85,Zech.2,Rev.1"
+                "audioQS": "Ps.85,Zech.2,Rev.1",
+                "note": null
             }
         ]
     },
@@ -1421,7 +1525,70 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "calendar": "Christmas Day",
         "readingSets": [
             {
+                "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (I)",
+                "readingSetSubtitle": "Revised Common Lectionary (Proper I)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 96",
+                        "readQS": "Psalm+96",
+                        "audioQS": "Ps.96"
+                    },
+                    {
+                        "pretty": "",
+                        "readQS": "",
+                        "audioQS": ""
+                    },
+                    {
+                        "pretty": "Titus 2:11\u201314",
+                        "readQS": "Titus+2:11-14",
+                        "audioQS": "Titus.2"
+                    },
+                    {
+                        "pretty": "Luke 2:1\u201314,(15\u201320)",
+                        "readQS": "Luke+2:1-14,%2815-20%29",
+                        "audioQS": "Luke.2"
+                    }
+                ],
+                "readQS": "Psalm+96%3B+%3B+Titus+2:11-14%3B+Luke+2:1-14,%2815-20%29",
+                "audioQS": "Ps.96,,Titus.2,Luke.2",
+                "note": null
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (II)",
+                "readingSetSubtitle": "Revised Common Lectionary (Proper II)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 97",
+                        "readQS": "Psalm+97",
+                        "audioQS": "Ps.97"
+                    },
+                    {
+                        "pretty": "Isaiah 62:6\u201312",
+                        "readQS": "Isaiah+62:6-12",
+                        "audioQS": "Isa.62"
+                    },
+                    {
+                        "pretty": "Titus 3:4\u20137",
+                        "readQS": "Titus+3:4-7",
+                        "audioQS": "Titus.3"
+                    },
+                    {
+                        "pretty": "Luke 2:(1\u20137),8\u201320",
+                        "readQS": "Luke+2:%281-7%29,8-20",
+                        "audioQS": "Luke.2"
+                    }
+                ],
+                "readQS": "Psalm+97%3B+Isaiah+62:6-12%3B+Titus+3:4-7%3B+Luke+2:%281-7%29,8-20",
+                "audioQS": "Ps.97,Isa.62,Titus.3,Luke.2",
+                "note": null
+            },
+            {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1442,10 +1609,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+110%3B+Isaiah+62:1-5%3B+Matthew+1:18-25",
-                "audioQS": "Ps.110,Isa.62,Matt.1"
+                "audioQS": "Ps.110,Isa.62,Matt.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1466,7 +1635,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+8%3B+Isaiah+65:17-25%3B+Philippians+2:5-11",
-                "audioQS": "Ps.8,Isa.65,Phil.2"
+                "audioQS": "Ps.8,Isa.65,Phil.2",
+                "note": null
             }
         ]
     },
@@ -1476,6 +1646,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1496,10 +1667,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+13%3B+Jeremiah+26:12-15%3B+Acts+6",
-                "audioQS": "Ps.13,Jer.26,Acts.6"
+                "audioQS": "Ps.13,Jer.26,Acts.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1520,7 +1693,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+86%3B+Genesis+4:1-10%3B+Matthew+23:34-39",
-                "audioQS": "Ps.86,Gen.4,Matt.23"
+                "audioQS": "Ps.86,Gen.4,Matt.23",
+                "note": null
             }
         ]
     },
@@ -1530,6 +1704,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1550,10 +1725,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+21%3B+Exodus+33:12-23%3B+1+John+2:1-11",
-                "audioQS": "Ps.21,Exod.33,1John.2"
+                "audioQS": "Ps.21,Exod.33,1John.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1574,7 +1751,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Isaiah+6:1-8%3B+1+John+5:1-12",
-                "audioQS": "Ps.97,Isa.6,1John.5"
+                "audioQS": "Ps.97,Isa.6,1John.5",
+                "note": null
             }
         ]
     },
@@ -1584,6 +1762,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1604,10 +1783,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36%3B+Genesis+37:13-20%3B+Matthew+18:1-10",
-                "audioQS": "Ps.36,Gen.37,Matt.18"
+                "audioQS": "Ps.36,Gen.37,Matt.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1628,7 +1809,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+128%3B+Isaiah+49:14-25%3B+Mark+10:13-16",
-                "audioQS": "Ps.128,Isa.49,Mark.10"
+                "audioQS": "Ps.128,Isa.49,Mark.10",
+                "note": null
             }
         ]
     },
@@ -1638,6 +1820,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -1663,10 +1846,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+148%3B+1+Samuel+2:18-20,26%3B+Luke+2:41-52%3B+",
-                "audioQS": "Ps.148,1Sam.2,Luke.2,"
+                "audioQS": "Ps.148,1Sam.2,Luke.2,",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1687,10 +1872,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+105:1-11%3B+Isaiah+41:21+-+42:1%3B+1+John+1:1-7",
-                "audioQS": "Ps.105,Isa.41,1John.1"
+                "audioQS": "Ps.105,Isa.41,1John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1711,7 +1898,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Isaiah+61%3B+Galatians+3:27+-+4:7",
-                "audioQS": "Ps.132,Isa.61,Gal.3"
+                "audioQS": "Ps.132,Isa.61,Gal.3",
+                "note": null
             }
         ]
     },
@@ -1721,6 +1909,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1741,10 +1930,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+113%3B+Isaiah+59:1-15a%3B+John+1:19-28",
-                "audioQS": "Ps.113,Isa.59,John.1"
+                "audioQS": "Ps.113,Isa.59,John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1765,7 +1956,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+65%3B+Jonah+2%3B+Colossians+1:15-23",
-                "audioQS": "Ps.65,Jonah.2,Col.1"
+                "audioQS": "Ps.65,Jonah.2,Col.1",
+                "note": null
             }
         ]
     },
@@ -1775,6 +1967,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1795,10 +1988,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+102%3B+Isaiah+59:15b-%3B+John+1:29-34",
-                "audioQS": "Ps.102,Isa.59,John.1"
+                "audioQS": "Ps.102,Isa.59,John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Naming of Jesus)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1819,7 +2014,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+148%3B+Jeremiah+23:1-6%3B+Colossians+2:8-15",
-                "audioQS": "Ps.148,Jer.23,Col.2"
+                "audioQS": "Ps.148,Jer.23,Col.2",
+                "note": null
             }
         ]
     },
@@ -1829,6 +2025,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1849,10 +2046,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+103%3B+Genesis+17:1-13%3B+Romans+2:17-29",
-                "audioQS": "Ps.103,Gen.17,Rom.2"
+                "audioQS": "Ps.103,Gen.17,Rom.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1873,7 +2072,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+115%3B+Deuteronomy+30:11-20%3B+Acts+3:1-16",
-                "audioQS": "Ps.115,Deut.30,Acts.3"
+                "audioQS": "Ps.115,Deut.30,Acts.3",
+                "note": null
             }
         ]
     },
@@ -1883,6 +2083,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1903,10 +2104,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+18:1-30%3B+Isaiah+60:1-12%3B+John+1:35-42",
-                "audioQS": "Ps.18,Isa.60,John.1"
+                "audioQS": "Ps.18,Isa.60,John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1927,7 +2130,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+Ruth+1%3B+Colossians+2:8-",
-                "audioQS": "Ps.46,Ruth.1,Col.2"
+                "audioQS": "Ps.46,Ruth.1,Col.2",
+                "note": null
             }
         ]
     },
@@ -1937,6 +2141,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -1957,10 +2162,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+127%3B+Isaiah+60:13-%3B+John+1:43-",
-                "audioQS": "Ps.127,Isa.60,John.1"
+                "audioQS": "Ps.127,Isa.60,John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -1981,7 +2188,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+2%3B+Ruth+2%3B+Colossians+3:1-11",
-                "audioQS": "Ps.2,Ruth.2,Col.3"
+                "audioQS": "Ps.2,Ruth.2,Col.3",
+                "note": null
             }
         ]
     },
@@ -1991,6 +2199,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2011,10 +2220,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-37%3B+Isaiah+61%3B+John+2:1-12",
-                "audioQS": "Ps.89,Isa.61,John.2"
+                "audioQS": "Ps.89,Isa.61,John.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2035,7 +2246,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+87%3B+Ruth+3%3B+Colossians+3:12-4:1",
-                "audioQS": "Ps.87,Ruth.3,Col.3"
+                "audioQS": "Ps.87,Ruth.3,Col.3",
+                "note": null
             }
         ]
     },
@@ -2045,6 +2257,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -2070,10 +2283,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147:13-21%3B+Jeremiah+31:7-14%3B+Ephesians+1:3-14%3B+John+1:%281-9%29,10-18",
-                "audioQS": "Ps.147,Jer.31,Eph.1,John.1"
+                "audioQS": "Ps.147,Jer.31,Eph.1,John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2094,10 +2309,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48%3B+Isaiah+12%3B+1+Thessalonians+2:1-8",
-                "audioQS": "Ps.48,Isa.12,1Thess.2"
+                "audioQS": "Ps.48,Isa.12,1Thess.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Epiphany)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2118,7 +2335,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Isaiah+49:1-13%3B+John+4:7-26",
-                "audioQS": "Ps.97,Isa.49,John.4"
+                "audioQS": "Ps.97,Isa.49,John.4",
+                "note": null
             }
         ]
     },
@@ -2127,7 +2345,39 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "calendar": "The Epiphany",
         "readingSets": [
             {
+                "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 72:(1\u20139),10\u201315",
+                        "readQS": "Psalm+72:%281-9%29,10-15",
+                        "audioQS": "Ps.72"
+                    },
+                    {
+                        "pretty": "Isaiah 60.1\u20136",
+                        "readQS": "Isaiah+60.1-6",
+                        "audioQS": "Isa.60.1\u20136"
+                    },
+                    {
+                        "pretty": "Ephesians 3:1\u201312",
+                        "readQS": "Ephesians+3:1-12",
+                        "audioQS": "Eph.3"
+                    },
+                    {
+                        "pretty": "Matthew 2:1\u201312",
+                        "readQS": "Matthew+2:1-12",
+                        "audioQS": "Matt.2"
+                    }
+                ],
+                "readQS": "Psalm+72:%281-9%29,10-15%3B+Isaiah+60.1-6%3B+Ephesians+3:1-12%3B+Matthew+2:1-12",
+                "audioQS": "Ps.72,Isa.60.1\u20136,Eph.3,Matt.2",
+                "note": null
+            },
+            {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2148,10 +2398,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Jeremiah+31:7-14%3B+John+1:29-34",
-                "audioQS": "Ps.132,Jer.31,John.1"
+                "audioQS": "Ps.132,Jer.31,John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2172,7 +2424,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98,100%3B+Isaiah+60:1-9%3B+John+2:1-11",
-                "audioQS": "Ps.98,100,Isa.60,John.2"
+                "audioQS": "Ps.98,100,Isa.60,John.2",
+                "note": null
             }
         ]
     },
@@ -2182,6 +2435,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2202,10 +2456,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+99%3B+Isaiah+63:7-%3B+1+John+3",
-                "audioQS": "Ps.99,Isa.63,1John.3"
+                "audioQS": "Ps.99,Isa.63,1John.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2226,7 +2482,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118%3B+Jeremiah+23:1-8%3B+Matthew+20:1-16",
-                "audioQS": "Ps.118,Jer.23,Matt.20"
+                "audioQS": "Ps.118,Jer.23,Matt.20",
+                "note": null
             }
         ]
     },
@@ -2236,6 +2493,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2256,10 +2514,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+Isaiah+64%3B+1+John+4:7-",
-                "audioQS": "Ps.46,Isa.64,1John.4"
+                "audioQS": "Ps.46,Isa.64,1John.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2280,7 +2540,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Jeremiah+30:1-17%3B+Matthew+20:17-28",
-                "audioQS": "Ps.145,Jer.30,Matt.20"
+                "audioQS": "Ps.145,Jer.30,Matt.20",
+                "note": null
             }
         ]
     },
@@ -2290,6 +2551,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2310,10 +2572,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+148%3B+Isaiah+65:1-16%3B+1+John+5:1-12",
-                "audioQS": "Ps.148,Isa.65,1John.5"
+                "audioQS": "Ps.148,Isa.65,1John.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2334,7 +2598,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+67%3B+Jeremiah+30:18-31:9%3B+Matthew+20:29-",
-                "audioQS": "Ps.67,Jer.30,Matt.20"
+                "audioQS": "Ps.67,Jer.30,Matt.20",
+                "note": null
             }
         ]
     },
@@ -2344,6 +2609,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2364,10 +2630,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+149%3B+Isaiah+65:17-%3B+1+John+5:13-",
-                "audioQS": "Ps.149,Isa.65,1John.5"
+                "audioQS": "Ps.149,Isa.65,1John.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2388,7 +2656,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+29%3B+Jeremiah+31:10-17%3B+Matthew+23:1-12",
-                "audioQS": "Ps.29,Jer.31,Matt.23"
+                "audioQS": "Ps.29,Jer.31,Matt.23",
+                "note": null
             }
         ]
     },
@@ -2398,6 +2667,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2418,10 +2688,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+150%3B+Isaiah+66:1-11%3B+2+John",
-                "audioQS": "Ps.150,Isa.66,2John"
+                "audioQS": "Ps.150,Isa.66,2John",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Baptism of the Lord)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2447,7 +2719,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36%3B+Isaiah+61%3B+Titus+2:11-14%3B+Titus+3:4-7",
-                "audioQS": "Ps.36,Isa.61,Titus.2,Titus.3"
+                "audioQS": "Ps.36,Isa.61,Titus.2,Titus.3",
+                "note": null
             }
         ]
     },
@@ -2457,6 +2730,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -2482,10 +2756,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+29%3B+Isaiah+43:1-7%3B+Acts+8:14-17%3B+Luke+3:15-17,21,22",
-                "audioQS": "Ps.29,Isa.43,Acts.8,Luke.3"
+                "audioQS": "Ps.29,Isa.43,Acts.8,Luke.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2506,10 +2782,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:19-29%3B+Isaiah+42:1-9%3B+Acts+19:1-7",
-                "audioQS": "Ps.89,Isa.42,Acts.19"
+                "audioQS": "Ps.89,Isa.42,Acts.19",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2530,7 +2808,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46,47%3B+Isaiah+55:1-11%3B+Romans+6:1-11",
-                "audioQS": "Ps.46,47,Isa.55,Rom.6"
+                "audioQS": "Ps.46,47,Isa.55,Rom.6",
+                "note": null
             }
         ]
     },
@@ -2540,6 +2819,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2560,10 +2840,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+2%3B+Amos+1%3B+1+Corinthians+1:1-17",
-                "audioQS": "Ps.2,Amos.1,1Cor.1"
+                "audioQS": "Ps.2,Amos.1,1Cor.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2584,7 +2866,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Genesis+1:1-19%3B+Matthew+21:1-17",
-                "audioQS": "Ps.34,Gen.1,Matt.21"
+                "audioQS": "Ps.34,Gen.1,Matt.21",
+                "note": null
             }
         ]
     },
@@ -2594,6 +2877,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2614,10 +2898,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+Amos+2%3B+1+Corinthians+1:18-",
-                "audioQS": "Ps.9,Amos.2,1Cor.1"
+                "audioQS": "Ps.9,Amos.2,1Cor.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2638,7 +2924,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+45%3B+Genesis+1:20-2:3%3B+Matthew+21:18-32",
-                "audioQS": "Ps.45,Gen.1,Matt.21"
+                "audioQS": "Ps.45,Gen.1,Matt.21",
+                "note": null
             }
         ]
     },
@@ -2648,6 +2935,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2668,10 +2956,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+20%3B+Amos+3%3B+1+Corinthians+2",
-                "audioQS": "Ps.20,Amos.3,1Cor.2"
+                "audioQS": "Ps.20,Amos.3,1Cor.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2692,7 +2982,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+Genesis+2:4-%3B+Matthew+21:33-",
-                "audioQS": "Ps.47,Gen.2,Matt.21"
+                "audioQS": "Ps.47,Gen.2,Matt.21",
+                "note": null
             }
         ]
     },
@@ -2702,6 +2993,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2722,10 +3014,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+21%3B+Amos+4%3B+1+Corinthians+3",
-                "audioQS": "Ps.21,Amos.4,1Cor.3"
+                "audioQS": "Ps.21,Amos.4,1Cor.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2746,7 +3040,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+61%3B+Genesis+3%3B+Matthew+22:1-14",
-                "audioQS": "Ps.61,Gen.3,Matt.22"
+                "audioQS": "Ps.61,Gen.3,Matt.22",
+                "note": null
             }
         ]
     },
@@ -2756,6 +3051,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2776,10 +3072,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+67%3B+Amos+5:1-17%3B+1+Corinthians+4",
-                "audioQS": "Ps.67,Amos.5,1Cor.4"
+                "audioQS": "Ps.67,Amos.5,1Cor.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2800,7 +3098,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+Genesis+4:1-16,4:25-26%3B+Matthew+22:15-33",
-                "audioQS": "Ps.68,Gen.4,Matt.22"
+                "audioQS": "Ps.68,Gen.4,Matt.22",
+                "note": null
             }
         ]
     },
@@ -2810,6 +3109,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2830,10 +3130,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+Amos+5:18-%3B+1+Corinthians+5",
-                "audioQS": "Ps.33,Amos.5,1Cor.5"
+                "audioQS": "Ps.33,Amos.5,1Cor.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2854,7 +3156,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+Genesis+6:1-10%3B+Matthew+22:34-",
-                "audioQS": "Ps.85,Gen.6,Matt.22"
+                "audioQS": "Ps.85,Gen.6,Matt.22",
+                "note": null
             }
         ]
     },
@@ -2864,6 +3167,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -2889,10 +3193,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36:5-10%3B+Isaiah+62:1-5%3B+1+Corinthians+12:1-11%3B+John+2:1-11",
-                "audioQS": "Ps.36,Isa.62,1Cor.12,John.2"
+                "audioQS": "Ps.36,Isa.62,1Cor.12,John.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2913,10 +3219,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145:1-13%3B+Isaiah+49:1-7%3B+Acts+16:11-15",
-                "audioQS": "Ps.145,Isa.49,Acts.16"
+                "audioQS": "Ps.145,Isa.49,Acts.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2937,7 +3245,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+96%3B+1+Samuel+3:1-20%3B+Ephesians+4:1-16",
-                "audioQS": "Ps.96,1Sam.3,Eph.4"
+                "audioQS": "Ps.96,1Sam.3,Eph.4",
+                "note": null
             }
         ]
     },
@@ -2947,6 +3256,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -2967,10 +3277,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146%3B+Amos+6%3B+1+Corinthians+6:1-11",
-                "audioQS": "Ps.146,Amos.6,1Cor.6"
+                "audioQS": "Ps.146,Amos.6,1Cor.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -2991,7 +3303,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Genesis+6:11-7:10%3B+Matthew+24:1-14",
-                "audioQS": "Ps.71,Gen.6,Matt.24"
+                "audioQS": "Ps.71,Gen.6,Matt.24",
+                "note": null
             }
         ]
     },
@@ -3001,6 +3314,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3021,10 +3335,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Amos+7%3B+1+Corinthians+6:12-",
-                "audioQS": "Ps.132,Amos.7,1Cor.6"
+                "audioQS": "Ps.132,Amos.7,1Cor.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3045,7 +3361,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-37%3B+Genesis+7:11-%3B+Matthew+24:15-28",
-                "audioQS": "Ps.89,Gen.7,Matt.24"
+                "audioQS": "Ps.89,Gen.7,Matt.24",
+                "note": null
             }
         ]
     },
@@ -3055,6 +3372,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3075,10 +3393,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+81%3B+Amos+8%3B+1+Corinthians+7:1-24",
-                "audioQS": "Ps.81,Amos.8,1Cor.7"
+                "audioQS": "Ps.81,Amos.8,1Cor.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3099,7 +3419,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Genesis+8:1-14%3B+Matthew+24:29-",
-                "audioQS": "Ps.97,Gen.8,Matt.24"
+                "audioQS": "Ps.97,Gen.8,Matt.24",
+                "note": null
             }
         ]
     },
@@ -3109,6 +3430,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3129,10 +3451,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+76%3B+Amos+9%3B+1+Corinthians+7:25-",
-                "audioQS": "Ps.76,Amos.9,1Cor.7"
+                "audioQS": "Ps.76,Amos.9,1Cor.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3153,7 +3477,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111%3B+Genesis+8:15-9:7%3B+Matthew+25:1-13",
-                "audioQS": "Ps.111,Gen.8,Matt.25"
+                "audioQS": "Ps.111,Gen.8,Matt.25",
+                "note": null
             }
         ]
     },
@@ -3163,6 +3488,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3183,10 +3509,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27%3B+Hosea+1:1-2:1%3B+1+Corinthians+8",
-                "audioQS": "Ps.27,Hos.1,1Cor.8"
+                "audioQS": "Ps.27,Hos.1,1Cor.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Conversion of St Paul)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3207,7 +3535,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+149%3B+Isaiah+49:1-13%3B+Acts+22:3-16",
-                "audioQS": "Ps.149,Isa.49,Acts.22"
+                "audioQS": "Ps.149,Isa.49,Acts.22",
+                "note": null
             }
         ]
     },
@@ -3217,6 +3546,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3237,10 +3567,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66,147:12-20%3B+Ezekiel+3:22-27%3B+Philippians+3:1-14",
-                "audioQS": "Ps.66,147,Ezek.3,Phil.3"
+                "audioQS": "Ps.66,147,Ezek.3,Phil.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3261,7 +3593,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:41-56%3B+Isaiah+56:1-8%3B+Colossians+1:24-,2:1-7",
-                "audioQS": "Ps.119,Isa.56,Col.1"
+                "audioQS": "Ps.119,Isa.56,Col.1",
+                "note": null
             }
         ]
     },
@@ -3271,6 +3604,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -3296,10 +3630,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+19%3B+Nehemiah+8:1-3,5-6,8-10%3B+1+Corinthians+12:12-31a%3B+Luke+4:14-21",
-                "audioQS": "Ps.19,Neh.8,1Cor.12,Luke.4"
+                "audioQS": "Ps.19,Neh.8,1Cor.12,Luke.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3320,10 +3656,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+113%3B+Deuteronomy+30:11-15%3B+3+John+1,5-8",
-                "audioQS": "Ps.113,Deut.30,3John.1,5\u20138"
+                "audioQS": "Ps.113,Deut.30,3John.1,5\u20138",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3344,7 +3682,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+Numbers+9:15-23%3B+1+Corinthians+7:17-24",
-                "audioQS": "Ps.33,Num.9,1Cor.7"
+                "audioQS": "Ps.33,Num.9,1Cor.7",
+                "note": null
             }
         ]
     },
@@ -3354,6 +3693,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3379,10 +3719,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+108%3B+Hosea+2:18-%3B+Hosea+3%3B+1+Corinthians+9:15-",
-                "audioQS": "Ps.108,Hos.2,Hos.3,1Cor.9"
+                "audioQS": "Ps.108,Hos.2,Hos.3,1Cor.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3403,7 +3745,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138%3B+Genesis+11:27-12:9%3B+Matthew+26:1-16",
-                "audioQS": "Ps.138,Gen.11,Matt.26"
+                "audioQS": "Ps.138,Gen.11,Matt.26",
+                "note": null
             }
         ]
     },
@@ -3413,6 +3756,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3433,10 +3777,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36%3B+Hosea+4:1-16%3B+1+Corinthians+10:1-13",
-                "audioQS": "Ps.36,Hos.4,1Cor.10"
+                "audioQS": "Ps.36,Hos.4,1Cor.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3457,7 +3803,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Genesis+13:2-%3B+Matthew+26:17-35",
-                "audioQS": "Ps.145,Gen.13,Matt.26"
+                "audioQS": "Ps.145,Gen.13,Matt.26",
+                "note": null
             }
         ]
     },
@@ -3467,6 +3814,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3487,10 +3835,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+Hosea+5:1-7%3B+1+Corinthians+10:14-11:1",
-                "audioQS": "Ps.46,Hos.5,1Cor.10"
+                "audioQS": "Ps.46,Hos.5,1Cor.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3511,7 +3861,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+29%3B+Genesis+14%3B+Matthew+26:36-46",
-                "audioQS": "Ps.29,Gen.14,Matt.26"
+                "audioQS": "Ps.29,Gen.14,Matt.26",
+                "note": null
             }
         ]
     },
@@ -3521,6 +3872,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3541,10 +3893,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+Hosea+5:8-6:6%3B+1+Corinthians+11:2-16",
-                "audioQS": "Ps.47,Hos.5,1Cor.11"
+                "audioQS": "Ps.47,Hos.5,1Cor.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3565,7 +3919,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+24%3B+Genesis+15%3B+Matthew+26:47-56",
-                "audioQS": "Ps.24,Gen.15,Matt.26"
+                "audioQS": "Ps.24,Gen.15,Matt.26",
+                "note": null
             }
         ]
     },
@@ -3575,6 +3930,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3595,10 +3951,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+65%3B+Hosea+6:7-7:2%3B+1+Corinthians+11:17-",
-                "audioQS": "Ps.65,Hos.6,1Cor.11"
+                "audioQS": "Ps.65,Hos.6,1Cor.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3619,7 +3977,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+67%3B+Genesis+16%3B+Matthew+26:57-",
-                "audioQS": "Ps.67,Gen.16,Matt.26"
+                "audioQS": "Ps.67,Gen.16,Matt.26",
+                "note": null
             }
         ]
     },
@@ -3629,6 +3988,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3649,10 +4009,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+Hosea+8%3B+1+Corinthians+12:1-11",
-                "audioQS": "Ps.68,Hos.8,1Cor.12"
+                "audioQS": "Ps.68,Hos.8,1Cor.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Presentation)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3673,7 +4035,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118%3B+1+Samuel+1:19b-28%3B+Hebrews+4:11-16",
-                "audioQS": "Ps.118,1Sam.1,Heb.4"
+                "audioQS": "Ps.118,1Sam.1,Heb.4",
+                "note": null
             }
         ]
     },
@@ -3683,23 +4046,24 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
                     {
-                        "pretty": "Psalm 48",
-                        "readQS": "Psalm+48",
-                        "audioQS": "Ps.48"
+                        "pretty": "Psalm 24:(1\u20136),7\u201310",
+                        "readQS": "Psalm+24:%281-6%29,7-10",
+                        "audioQS": "Ps.24"
                     },
                     {
-                        "pretty": "Ezekiel 43:27\u201344:4",
-                        "readQS": "Ezekiel+43:27-44:4",
-                        "audioQS": "Ezek.43"
+                        "pretty": "Malachi 3.1\u20135",
+                        "readQS": "Malachi+3.1-5",
+                        "audioQS": "Mal.3.1\u20135"
                     },
                     {
-                        "pretty": "1 Corinthians 13:1\u201313",
-                        "readQS": "1+Corinthians+13:1-13",
-                        "audioQS": "1Cor.13"
+                        "pretty": "Hebrews 2:14\u201318",
+                        "readQS": "Hebrews+2:14-18",
+                        "audioQS": "Heb.2"
                     },
                     {
                         "pretty": "Luke 2:22\u201340",
@@ -3707,11 +4071,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Luke.2"
                     }
                 ],
-                "readQS": "Psalm+48%3B+Ezekiel+43:27-44:4%3B+1+Corinthians+13:1-13%3B+Luke+2:22-40",
-                "audioQS": "Ps.48,Ezek.43,1Cor.13,Luke.2"
+                "readQS": "Psalm+24:%281-6%29,7-10%3B+Malachi+3.1-5%3B+Hebrews+2:14-18%3B+Luke+2:22-40",
+                "audioQS": "Ps.24,Mal.3.1\u20135,Heb.2,Luke.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3732,10 +4098,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48,146%3B+Exodus+13:1-16%3B+Romans+12:1-5",
-                "audioQS": "Ps.48,146,Exod.13,Rom.12"
+                "audioQS": "Ps.48,146,Exod.13,Rom.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3756,7 +4124,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+122,132%3B+Haggai+2:1-9%3B+John+2:18-22",
-                "audioQS": "Ps.122,132,Hag.2,John.2"
+                "audioQS": "Ps.122,132,Hag.2,John.2",
+                "note": null
             }
         ]
     },
@@ -3766,6 +4135,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3786,10 +4156,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1%3B+Hosea+9%3B+1+Corinthians+12:12-",
-                "audioQS": "Ps.1,Hos.9,1Cor.12"
+                "audioQS": "Ps.1,Hos.9,1Cor.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3810,7 +4182,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+4%3B+Genesis+18:1-15%3B+Matthew+27:11-26",
-                "audioQS": "Ps.4,Gen.18,Matt.27"
+                "audioQS": "Ps.4,Gen.18,Matt.27",
+                "note": null
             }
         ]
     },
@@ -3820,6 +4193,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3840,10 +4214,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+5%3B+Hosea+10%3B+1+Corinthians+13",
-                "audioQS": "Ps.5,Hos.10,1Cor.13"
+                "audioQS": "Ps.5,Hos.10,1Cor.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3864,7 +4240,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+Genesis+18:16-%3B+Matthew+27:27-44",
-                "audioQS": "Ps.9,Gen.18,Matt.27"
+                "audioQS": "Ps.9,Gen.18,Matt.27",
+                "note": null
             }
         ]
     },
@@ -3874,6 +4251,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3894,10 +4272,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:1-32%3B+Hosea+11:1-11%3B+1+Corinthians+14:1-19",
-                "audioQS": "Ps.119,Hos.11,1Cor.14"
+                "audioQS": "Ps.119,Hos.11,1Cor.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3918,7 +4298,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+11%3B+Genesis+19:1-3,19:12-29%3B+Matthew+27:45-56",
-                "audioQS": "Ps.11,Gen.19,Matt.27"
+                "audioQS": "Ps.11,Gen.19,Matt.27",
+                "note": null
             }
         ]
     },
@@ -3928,6 +4309,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -3953,10 +4335,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15%3B+Hosea+11:12-%3B+Hosea+12%3B+1+Corinthians+14:20-",
-                "audioQS": "Ps.15,Hos.11,Hos.12,1Cor.14"
+                "audioQS": "Ps.15,Hos.11,Hos.12,1Cor.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -3977,7 +4361,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+18%3B+Genesis+21:1-21%3B+Matthew+27:57-",
-                "audioQS": "Ps.18,Gen.21,Matt.27"
+                "audioQS": "Ps.18,Gen.21,Matt.27",
+                "note": null
             }
         ]
     },
@@ -3987,6 +4372,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4007,10 +4393,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+19%3B+Hosea+13:1-14%3B+1+Corinthians+16:1-9",
-                "audioQS": "Ps.19,Hos.13,1Cor.16"
+                "audioQS": "Ps.19,Hos.13,1Cor.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4031,7 +4419,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+Genesis+22:1-19%3B+Matthew+28:1-15",
-                "audioQS": "Ps.22,Gen.22,Matt.28"
+                "audioQS": "Ps.22,Gen.22,Matt.28",
+                "note": null
             }
         ]
     },
@@ -4041,6 +4430,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4061,10 +4451,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+Hosea+14%3B+1+Corinthians+16:10-",
-                "audioQS": "Ps.23,Hos.14,1Cor.16"
+                "audioQS": "Ps.23,Hos.14,1Cor.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4085,7 +4477,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+24%3B+Genesis+23%3B+Matthew+28:16-",
-                "audioQS": "Ps.24,Gen.23,Matt.28"
+                "audioQS": "Ps.24,Gen.23,Matt.28",
+                "note": null
             }
         ]
     },
@@ -4095,6 +4488,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -4120,10 +4514,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138%3B+Isaiah+6:1-8,%289-13%29%3B+1+Corinthians+15:1-11%3B+Luke+5:1-11",
-                "audioQS": "Ps.138,Isa.6,1Cor.15,Luke.5"
+                "audioQS": "Ps.138,Isa.6,1Cor.15,Luke.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4144,10 +4540,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+3,4%3B+Jeremiah+26:1-16%3B+Acts+3:1-10",
-                "audioQS": "Ps.3,4,Jer.26,Acts.3"
+                "audioQS": "Ps.3,4,Jer.26,Acts.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4168,7 +4566,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+2%3B+Hosea+1%3B+Colossians+3:1-22",
-                "audioQS": "Ps.2,Hos.1,Col.3"
+                "audioQS": "Ps.2,Hos.1,Col.3",
+                "note": null
             }
         ]
     },
@@ -4178,6 +4577,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4198,10 +4598,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+Joel+1:1-14%3B+John+15:1-11",
-                "audioQS": "Ps.30,Joel.1,John.15"
+                "audioQS": "Ps.30,Joel.1,John.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4222,7 +4624,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+28%3B+Leviticus+19:1-18,19:30-%3B+1+Timothy+1:1-17",
-                "audioQS": "Ps.28,Lev.19,1Tim.1"
+                "audioQS": "Ps.28,Lev.19,1Tim.1",
+                "note": null
             }
         ]
     },
@@ -4232,6 +4635,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4252,10 +4656,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36%3B+Joel+1:15-%3B+John+15:12-17",
-                "audioQS": "Ps.36,Joel.1,John.15"
+                "audioQS": "Ps.36,Joel.1,John.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4281,7 +4687,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+Leviticus+23:1-22%3B+1+Timothy+1:18-%3B+1+Timothy+2",
-                "audioQS": "Ps.33,Lev.23,1Tim.1,1Tim.2"
+                "audioQS": "Ps.33,Lev.23,1Tim.1,1Tim.2",
+                "note": null
             }
         ]
     },
@@ -4291,6 +4698,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4311,10 +4719,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Joel+2:1-17%3B+John+15:18-",
-                "audioQS": "Ps.34,Joel.2,John.15"
+                "audioQS": "Ps.34,Joel.2,John.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4335,7 +4745,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:33-56%3B+Leviticus+23:23-%3B+1+Timothy+3",
-                "audioQS": "Ps.119,Lev.23,1Tim.3"
+                "audioQS": "Ps.119,Lev.23,1Tim.3",
+                "note": null
             }
         ]
     },
@@ -4345,6 +4756,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4365,10 +4777,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+37%3B+Joel+2:18-27%3B+John+16:1-15",
-                "audioQS": "Ps.37,Joel.2,John.16"
+                "audioQS": "Ps.37,Joel.2,John.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4389,7 +4803,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Leviticus+24:1-9%3B+1+Timothy+4",
-                "audioQS": "Ps.40,Lev.24,1Tim.4"
+                "audioQS": "Ps.40,Lev.24,1Tim.4",
+                "note": null
             }
         ]
     },
@@ -4399,6 +4814,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4419,10 +4835,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31%3B+Joel+2:28-%3B+John+16:16-22",
-                "audioQS": "Ps.31,Joel.2,John.16"
+                "audioQS": "Ps.31,Joel.2,John.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4443,7 +4861,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+35%3B+Leviticus+25:1-24%3B+1+Timothy+5:1-16",
-                "audioQS": "Ps.35,Lev.25,1Tim.5"
+                "audioQS": "Ps.35,Lev.25,1Tim.5",
+                "note": null
             }
         ]
     },
@@ -4453,6 +4872,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4473,10 +4893,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42%3B+Joel+3:1-3,3:9-%3B+John+16:23-",
-                "audioQS": "Ps.42,Joel.3,John.16"
+                "audioQS": "Ps.42,Joel.3,John.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4497,7 +4919,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+Numbers+6:1-5,6:21-%3B+1+Timothy+5:17-",
-                "audioQS": "Ps.46,Num.6,1Tim.5"
+                "audioQS": "Ps.46,Num.6,1Tim.5",
+                "note": null
             }
         ]
     },
@@ -4507,6 +4930,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -4532,10 +4956,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1%3B+Jeremiah+17:5-10%3B+1+Corinthians+15:12-20%3B+Luke+6:17-26",
-                "audioQS": "Ps.1,Jer.17,1Cor.15,Luke.6"
+                "audioQS": "Ps.1,Jer.17,1Cor.15,Luke.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4556,10 +4982,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+7%3B+Jeremiah+30:1-3,10-22%3B+Acts+6",
-                "audioQS": "Ps.7,Jer.30,Acts.6"
+                "audioQS": "Ps.7,Jer.30,Acts.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4580,7 +5008,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+6%3B+Hosea+10:1-8,12%3B+Galatians+4:8-20",
-                "audioQS": "Ps.6,Hos.10,Gal.4"
+                "audioQS": "Ps.6,Hos.10,Gal.4",
+                "note": null
             }
         ]
     },
@@ -4590,6 +5019,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4610,10 +5040,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Ecclesiastes+1%3B+John+17:1-5",
-                "audioQS": "Ps.44,Eccl.1,John.17"
+                "audioQS": "Ps.44,Eccl.1,John.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4634,7 +5066,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+Genesis+24:1-28%3B+1+Timothy+6:1-10",
-                "audioQS": "Ps.47,Gen.24,1Tim.6"
+                "audioQS": "Ps.47,Gen.24,1Tim.6",
+                "note": null
             }
         ]
     },
@@ -4644,6 +5077,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4664,10 +5098,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48%3B+Ecclesiastes+2%3B+John+17:6-19",
-                "audioQS": "Ps.48,Eccl.2,John.17"
+                "audioQS": "Ps.48,Eccl.2,John.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4688,7 +5124,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+Genesis+24:29-%3B+1+Timothy+6:11-",
-                "audioQS": "Ps.50,Gen.24,1Tim.6"
+                "audioQS": "Ps.50,Gen.24,1Tim.6",
+                "note": null
             }
         ]
     },
@@ -4698,6 +5135,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4718,10 +5156,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:57-80%3B+Ecclesiastes+3:1-15%3B+John+17:20-",
-                "audioQS": "Ps.119,Eccl.3,John.17"
+                "audioQS": "Ps.119,Eccl.3,John.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4742,7 +5182,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+59%3B+Genesis+25:7-11,25:19-%3B+2+Timothy+1:1-14",
-                "audioQS": "Ps.59,Gen.25,2Tim.1"
+                "audioQS": "Ps.59,Gen.25,2Tim.1",
+                "note": null
             }
         ]
     },
@@ -4752,6 +5193,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4777,10 +5219,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+57%3B+Ecclesiastes+3:16-%3B+Ecclesiastes+4%3B+John+18:1-11",
-                "audioQS": "Ps.57,Eccl.3,Eccl.4,John.18"
+                "audioQS": "Ps.57,Eccl.3,Eccl.4,John.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4801,7 +5245,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+62%3B+Genesis+26:34-27:40%3B+2+Timothy+1:15-2:13",
-                "audioQS": "Ps.62,Gen.26,2Tim.1"
+                "audioQS": "Ps.62,Gen.26,2Tim.1",
+                "note": null
             }
         ]
     },
@@ -4811,6 +5256,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4831,10 +5277,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+51%3B+Ecclesiastes+5%3B+John+18:12-27",
-                "audioQS": "Ps.51,Eccl.5,John.18"
+                "audioQS": "Ps.51,Eccl.5,John.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4860,7 +5308,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+38%3B+Genesis+27:41-%3B+Genesis+28%3B+2+Timothy+2:14-",
-                "audioQS": "Ps.38,Gen.27,Gen.28,2Tim.2"
+                "audioQS": "Ps.38,Gen.27,Gen.28,2Tim.2",
+                "note": null
             }
         ]
     },
@@ -4870,6 +5319,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4890,10 +5340,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+Ecclesiastes+6%3B+John+18:28-",
-                "audioQS": "Ps.68,Eccl.6,John.18"
+                "audioQS": "Ps.68,Eccl.6,John.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4914,7 +5366,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66%3B+Genesis+29:1-30%3B+2+Timothy+3",
-                "audioQS": "Ps.66,Gen.29,2Tim.3"
+                "audioQS": "Ps.66,Gen.29,2Tim.3",
+                "note": null
             }
         ]
     },
@@ -4924,6 +5377,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -4949,10 +5403,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+65%3B+Genesis+2:4b-9,15-25%3B+Revelation+4%3B+Luke+8:22-25",
-                "audioQS": "Ps.65,Gen.2,Rev.4,Luke.8"
+                "audioQS": "Ps.65,Gen.2,Rev.4,Luke.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -4973,10 +5429,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+104:1-26%3B+Job+28:1-11%3B+Acts+14:8-17",
-                "audioQS": "Ps.104,Job.28,Acts.14"
+                "audioQS": "Ps.104,Job.28,Acts.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -4997,7 +5455,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Genesis+1:1-2:3%3B+Matthew+6:25-34",
-                "audioQS": "Ps.147,Gen.1,Matt.6"
+                "audioQS": "Ps.147,Gen.1,Matt.6",
+                "note": null
             }
         ]
     },
@@ -5007,6 +5466,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5027,10 +5487,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Ecclesiastes+7:1-14%3B+John+19:1-16",
-                "audioQS": "Ps.71,Eccl.7,John.19"
+                "audioQS": "Ps.71,Eccl.7,John.19",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5051,7 +5513,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+Genesis+29:31-30:24%3B+2+Timothy+4:1-8",
-                "audioQS": "Ps.72,Gen.29,2Tim.4"
+                "audioQS": "Ps.72,Gen.29,2Tim.4",
+                "note": null
             }
         ]
     },
@@ -5061,6 +5524,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5081,10 +5545,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Ecclesiastes+7:15-%3B+John+19:17-30",
-                "audioQS": "Ps.73,Eccl.7,John.19"
+                "audioQS": "Ps.73,Eccl.7,John.19",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5105,7 +5571,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+Genesis+31:1-24%3B+2+Timothy+4:9-",
-                "audioQS": "Ps.74,Gen.31,2Tim.4"
+                "audioQS": "Ps.74,Gen.31,2Tim.4",
+                "note": null
             }
         ]
     },
@@ -5115,6 +5582,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5135,10 +5603,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Ecclesiastes+8%3B+John+19:31-",
-                "audioQS": "Ps.77,Eccl.8,John.19"
+                "audioQS": "Ps.77,Eccl.8,John.19",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5159,7 +5629,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:81-104%3B+Genesis+31:25-32:2%3B+Titus+1",
-                "audioQS": "Ps.119,Gen.31,Titus.1"
+                "audioQS": "Ps.119,Gen.31,Titus.1",
+                "note": null
             }
         ]
     },
@@ -5169,6 +5640,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5189,10 +5661,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:1-39%3B+Ecclesiastes+9%3B+John+20:1-10",
-                "audioQS": "Ps.78,Eccl.9,John.20"
+                "audioQS": "Ps.78,Eccl.9,John.20",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5213,7 +5687,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:40-%3B+Genesis+32:3-30%3B+Titus+2",
-                "audioQS": "Ps.78,Gen.32,Titus.2"
+                "audioQS": "Ps.78,Gen.32,Titus.2",
+                "note": null
             }
         ]
     },
@@ -5223,6 +5698,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5243,10 +5719,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55%3B+Ecclesiastes+11:1-8%3B+John+20:11-18",
-                "audioQS": "Ps.55,Eccl.11,John.20"
+                "audioQS": "Ps.55,Eccl.11,John.20",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5267,7 +5745,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+69%3B+Genesis+33:1-17%3B+Titus+3",
-                "audioQS": "Ps.69,Gen.33,Titus.3"
+                "audioQS": "Ps.69,Gen.33,Titus.3",
+                "note": null
             }
         ]
     },
@@ -5277,6 +5756,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5302,10 +5782,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+76%3B+Ecclesiastes+11:9-%3B+Ecclesiastes+12%3B+John+20:19-",
-                "audioQS": "Ps.76,Eccl.11,Eccl.12,John.20"
+                "audioQS": "Ps.76,Eccl.11,Eccl.12,John.20",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5326,7 +5808,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84%3B+Genesis+35%3B+Philemon",
-                "audioQS": "Ps.84,Gen.35,Phlm"
+                "audioQS": "Ps.84,Gen.35,Phlm",
+                "note": null
             }
         ]
     },
@@ -5336,6 +5819,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -5361,10 +5845,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+99%3B+Exodus+34:29-35%3B+2+Corinthians+3:12-4:2%3B+Luke+9:28-36,%2837-43a%29",
-                "audioQS": "Ps.99,Exod.34,2Cor.3,Luke.9"
+                "audioQS": "Ps.99,Exod.34,2Cor.3,Luke.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5385,10 +5871,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+2%3B+Exodus+33:17-23%3B+1+John+3:1-3",
-                "audioQS": "Ps.2,Exod.33,1John.3"
+                "audioQS": "Ps.2,Exod.33,1John.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5409,7 +5897,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-18%3B+Exodus+3:1-6%3B+John+12:27-36a",
-                "audioQS": "Ps.89,Exod.3,John.12"
+                "audioQS": "Ps.89,Exod.3,John.12",
+                "note": null
             }
         ]
     },
@@ -5419,6 +5908,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5439,10 +5929,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Jeremiah+1%3B+John+3:1-21",
-                "audioQS": "Ps.80,Jer.1,John.3"
+                "audioQS": "Ps.80,Jer.1,John.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5463,7 +5955,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+Genesis+37:1-11%3B+Galatians+1",
-                "audioQS": "Ps.85,Gen.37,Gal.1"
+                "audioQS": "Ps.85,Gen.37,Gal.1",
+                "note": null
             }
         ]
     },
@@ -5473,6 +5966,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5493,10 +5987,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-18%3B+Jeremiah+2:1-13%3B+John+3:22-",
-                "audioQS": "Ps.89,Jer.2,John.3"
+                "audioQS": "Ps.89,Jer.2,John.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5517,7 +6013,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:19-%3B+Genesis+37:12-%3B+Galatians+2:1-10",
-                "audioQS": "Ps.89,Gen.37,Gal.2"
+                "audioQS": "Ps.89,Gen.37,Gal.2",
+                "note": null
             }
         ]
     },
@@ -5526,7 +6023,39 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "calendar": "Ash Wednesday",
         "readingSets": [
             {
+                "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 51:1\u201318",
+                        "readQS": "Psalm+51:1-18",
+                        "audioQS": "Ps.51"
+                    },
+                    {
+                        "pretty": "Joel 2:1\u20132,12\u201317",
+                        "readQS": "Joel+2:1-2,12-17",
+                        "audioQS": "Joel.2"
+                    },
+                    {
+                        "pretty": "2 Corinthians 5:20b\u20136.10",
+                        "readQS": "2+Corinthians+5:20b-6.10",
+                        "audioQS": "2Cor.5"
+                    },
+                    {
+                        "pretty": "Matthew 6:1\u20136,16\u201321",
+                        "readQS": "Matthew+6:1-6,16-21",
+                        "audioQS": "Matt.6"
+                    }
+                ],
+                "readQS": "Psalm+51:1-18%3B+Joel+2:1-2,12-17%3B+2+Corinthians+5:20b-6.10%3B+Matthew+6:1-6,16-21",
+                "audioQS": "Ps.51,Joel.2,2Cor.5,Matt.6",
+                "note": null
+            },
+            {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5547,10 +6076,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+38%3B+Daniel+9:3-6,17-19%3B+1+Timothy+6:6-19",
-                "audioQS": "Ps.38,Dan.9,1Tim.6"
+                "audioQS": "Ps.38,Dan.9,1Tim.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5571,7 +6102,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+51%3B+Isaiah+1:10-18%3B+Luke+15:11-32",
-                "audioQS": "Ps.51,Isa.1,Luke.15"
+                "audioQS": "Ps.51,Isa.1,Luke.15",
+                "note": null
             }
         ]
     },
@@ -5581,6 +6113,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5601,10 +6134,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Jeremiah+2:14-32%3B+John+4:1-26",
-                "audioQS": "Ps.77,Jer.2,John.4"
+                "audioQS": "Ps.77,Jer.2,John.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5625,7 +6160,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+Genesis+39%3B+Galatians+2:11-",
-                "audioQS": "Ps.74,Gen.39,Gal.2"
+                "audioQS": "Ps.74,Gen.39,Gal.2",
+                "note": null
             }
         ]
     },
@@ -5635,6 +6171,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5655,10 +6192,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+3%3B+Jeremiah+3:6-22%3B+John+4:27-42",
-                "audioQS": "Ps.3,Jer.3,John.4"
+                "audioQS": "Ps.3,Jer.3,John.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5679,7 +6218,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31%3B+Genesis+40%3B+Galatians+3:1-14",
-                "audioQS": "Ps.31,Gen.40,Gal.3"
+                "audioQS": "Ps.31,Gen.40,Gal.3",
+                "note": null
             }
         ]
     },
@@ -5689,6 +6229,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5709,10 +6250,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Jeremiah+4:1-18%3B+John+4:43-",
-                "audioQS": "Ps.71,Jer.4,John.4"
+                "audioQS": "Ps.71,Jer.4,John.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5733,7 +6276,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Genesis+41:1-24%3B+Galatians+3:15-22",
-                "audioQS": "Ps.73,Gen.41,Gal.3"
+                "audioQS": "Ps.73,Gen.41,Gal.3",
+                "note": null
             }
         ]
     },
@@ -5743,6 +6287,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -5768,10 +6313,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91:1-2,9-16%3B+Deuteronomy+26:1-11%3B+Romans+10:8b-13%3B+Luke+4:1-13",
-                "audioQS": "Ps.91,Deut.26,Rom.10,Luke.4"
+                "audioQS": "Ps.91,Deut.26,Rom.10,Luke.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5792,10 +6339,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50:1-15%3B+Micah+6:1-8%3B+Luke+5:27-39",
-                "audioQS": "Ps.50,Mic.6,Luke.5"
+                "audioQS": "Ps.50,Mic.6,Luke.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5816,7 +6365,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:73-88%3B+Jonah+3%3B+Luke+18:9-14",
-                "audioQS": "Ps.119,Jonah.3,Luke.18"
+                "audioQS": "Ps.119,Jonah.3,Luke.18",
+                "note": null
             }
         ]
     },
@@ -5826,6 +6376,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5846,10 +6397,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+11%3B+Jeremiah+4:19-%3B+John+5:1-18",
-                "audioQS": "Ps.11,Jer.4,John.5"
+                "audioQS": "Ps.11,Jer.4,John.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5870,7 +6423,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+13%3B+Genesis+41:25-45%3B+Galatians+3:23-4:7",
-                "audioQS": "Ps.13,Gen.41,Gal.3"
+                "audioQS": "Ps.13,Gen.41,Gal.3",
+                "note": null
             }
         ]
     },
@@ -5880,6 +6434,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5900,10 +6455,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Jeremiah+5:1-19%3B+John+5:19-29",
-                "audioQS": "Ps.44,Jer.5,John.5"
+                "audioQS": "Ps.44,Jer.5,John.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5924,7 +6481,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+49%3B+Genesis+41:46-42:5%3B+Galatians+4:8-20",
-                "audioQS": "Ps.49,Gen.41,Gal.4"
+                "audioQS": "Ps.49,Gen.41,Gal.4",
+                "note": null
             }
         ]
     },
@@ -5934,6 +6492,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -5954,10 +6513,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+6%3B+Jeremiah+5:20-%3B+John+5:30-",
-                "audioQS": "Ps.6,Jer.5,John.5"
+                "audioQS": "Ps.6,Jer.5,John.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -5978,7 +6539,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+28%3B+Genesis+42:6-17%3B+Galatians+4:21-5:1",
-                "audioQS": "Ps.28,Gen.42,Gal.4"
+                "audioQS": "Ps.28,Gen.42,Gal.4",
+                "note": null
             }
         ]
     },
@@ -5988,6 +6550,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6008,10 +6571,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42%3B+Jeremiah+6:9-21%3B+John+6:1-15",
-                "audioQS": "Ps.42,Jer.6,John.6"
+                "audioQS": "Ps.42,Jer.6,John.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6032,7 +6597,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+142%3B+Genesis+42:18-28%3B+Galatians+5:2-15",
-                "audioQS": "Ps.142,Gen.42,Gal.5"
+                "audioQS": "Ps.142,Gen.42,Gal.5",
+                "note": null
             }
         ]
     },
@@ -6042,6 +6608,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6062,10 +6629,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+Jeremiah+6:22-%3B+John+6:16-27",
-                "audioQS": "Ps.22,Jer.6,John.6"
+                "audioQS": "Ps.22,Jer.6,John.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6086,7 +6655,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55%3B+Genesis+42:29-%3B+Galatians+5:16-",
-                "audioQS": "Ps.55,Gen.42,Gal.5"
+                "audioQS": "Ps.55,Gen.42,Gal.5",
+                "note": null
             }
         ]
     },
@@ -6096,6 +6666,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6116,10 +6687,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+63%3B+Jeremiah+7:1-20%3B+John+6:27-40",
-                "audioQS": "Ps.63,Jer.7,John.6"
+                "audioQS": "Ps.63,Jer.7,John.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6140,7 +6713,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+4%3B+Genesis+43:1-15%3B+Galatians+6",
-                "audioQS": "Ps.4,Gen.43,Gal.6"
+                "audioQS": "Ps.4,Gen.43,Gal.6",
+                "note": null
             }
         ]
     },
@@ -6150,6 +6724,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -6175,10 +6750,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27%3B+Genesis+15:1-12,17-18%3B+Philippians+3:17-4:1%3B+Luke+13:31-35",
-                "audioQS": "Ps.27,Gen.15,Phil.3,Luke.13"
+                "audioQS": "Ps.27,Gen.15,Phil.3,Luke.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6199,10 +6776,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:161-176%3B+Genesis+17:1-7,15,16%3B+Romans+11:13-24",
-                "audioQS": "Ps.119,Gen.17,Rom.11"
+                "audioQS": "Ps.119,Gen.17,Rom.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6223,7 +6802,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+135%3B+Jeremiah+22:1-9,13-17%3B+Luke+14:27-33",
-                "audioQS": "Ps.135,Jer.22,Luke.14"
+                "audioQS": "Ps.135,Jer.22,Luke.14",
+                "note": null
             }
         ]
     },
@@ -6233,6 +6813,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6253,10 +6834,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+32%3B+Jeremiah+7:21-%3B+John+6:41-51",
-                "audioQS": "Ps.32,Jer.7,John.6"
+                "audioQS": "Ps.32,Jer.7,John.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6277,7 +6860,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+Genesis+43:16-%3B+Hebrews+1",
-                "audioQS": "Ps.74,Gen.43,Heb.1"
+                "audioQS": "Ps.74,Gen.43,Heb.1",
+                "note": null
             }
         ]
     },
@@ -6287,6 +6871,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6307,10 +6892,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+Jeremiah+8:1-15%3B+John+6:52-59",
-                "audioQS": "Ps.50,Jer.8,John.6"
+                "audioQS": "Ps.50,Jer.8,John.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of Joseph)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6331,7 +6918,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Hosea+11:1-9%3B+Luke+2:41-52",
-                "audioQS": "Ps.132,Hos.11,Luke.2"
+                "audioQS": "Ps.132,Hos.11,Luke.2",
+                "note": null
             }
         ]
     },
@@ -6341,6 +6929,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6361,10 +6950,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25,147:1-12%3B+Isaiah+11:1-10%3B+Matthew+13:54-58",
-                "audioQS": "Ps.25,147,Isa.11,Matt.13"
+                "audioQS": "Ps.25,147,Isa.11,Matt.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6385,7 +6976,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1,112%3B+Genesis+50:22-26%3B+Matthew+2:13-23",
-                "audioQS": "Ps.1,112,Gen.50,Matt.2"
+                "audioQS": "Ps.1,112,Gen.50,Matt.2",
+                "note": null
             }
         ]
     },
@@ -6395,6 +6987,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6415,10 +7008,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Jeremiah+9:12-24%3B+John+7:1-13",
-                "audioQS": "Ps.34,Jer.9,John.7"
+                "audioQS": "Ps.34,Jer.9,John.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6439,7 +7034,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Genesis+45:1-15%3B+Hebrews+3:1-6",
-                "audioQS": "Ps.71,Gen.45,Heb.3"
+                "audioQS": "Ps.71,Gen.45,Heb.3",
+                "note": null
             }
         ]
     },
@@ -6449,6 +7045,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6469,10 +7066,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+41%3B+Jeremiah+10:1-16%3B+John+7:14-24",
-                "audioQS": "Ps.41,Jer.10,John.7"
+                "audioQS": "Ps.41,Jer.10,John.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6493,7 +7092,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+6%3B+Genesis+45:16-%3B+Hebrews+3:7-",
-                "audioQS": "Ps.6,Gen.45,Heb.3"
+                "audioQS": "Ps.6,Gen.45,Heb.3",
+                "note": null
             }
         ]
     },
@@ -6503,6 +7103,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6523,10 +7124,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25%3B+Jeremiah+10:17-24%3B+John+7:25-36",
-                "audioQS": "Ps.25,Jer.10,John.7"
+                "audioQS": "Ps.25,Jer.10,John.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6547,7 +7150,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+Genesis+46:1-7,46:28-%3B+Hebrews+4:1-13",
-                "audioQS": "Ps.23,Gen.46,Heb.4"
+                "audioQS": "Ps.23,Gen.46,Heb.4",
+                "note": null
             }
         ]
     },
@@ -6557,6 +7161,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -6582,10 +7187,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+63:1-9%3B+Isaiah+55:1-9%3B+1+Corinthians+10:1-13%3B+Luke+13:1-9",
-                "audioQS": "Ps.63,Isa.55,1Cor.10,Luke.13"
+                "audioQS": "Ps.63,Isa.55,1Cor.10,Luke.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6606,10 +7213,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+26,28%3B+Deuteronomy+6:4-9%3B+John+17:1a,11b-19",
-                "audioQS": "Ps.26,28,Deut.6,John.17"
+                "audioQS": "Ps.26,28,Deut.6,John.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6630,7 +7239,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+12,13%3B+Genesis+28:10-19a%3B+John+1:35-51",
-                "audioQS": "Ps.12,13,Gen.28,John.1"
+                "audioQS": "Ps.12,13,Gen.28,John.1",
+                "note": null
             }
         ]
     },
@@ -6640,6 +7250,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6660,10 +7271,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+5%3B+Jeremiah+11:1-17%3B+John+7:37-52",
-                "audioQS": "Ps.5,Jer.11,John.7"
+                "audioQS": "Ps.5,Jer.11,John.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Annunciation)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6684,7 +7297,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+Genesis+3:8-15%3B+Galatians+4:1-5",
-                "audioQS": "Ps.85,Gen.3,Gal.4"
+                "audioQS": "Ps.85,Gen.3,Gal.4",
+                "note": null
             }
         ]
     },
@@ -6693,7 +7307,39 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "calendar": "The Annunciation",
         "readingSets": [
             {
+                "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 40:5\u201311",
+                        "readQS": "Psalm+40:5-11",
+                        "audioQS": "Ps.40"
+                    },
+                    {
+                        "pretty": "Isaiah 7:10\u201314",
+                        "readQS": "Isaiah+7:10-14",
+                        "audioQS": "Isa.7"
+                    },
+                    {
+                        "pretty": "Hebrews 10:4\u201310",
+                        "readQS": "Hebrews+10:4-10",
+                        "audioQS": "Heb.10"
+                    },
+                    {
+                        "pretty": "Luke 1:26\u201338",
+                        "readQS": "Luke+1:26-38",
+                        "audioQS": "Luke.1"
+                    }
+                ],
+                "readQS": "Psalm+40:5-11%3B+Isaiah+7:10-14%3B+Hebrews+10:4-10%3B+Luke+1:26-38",
+                "audioQS": "Ps.40,Isa.7,Heb.10,Luke.1",
+                "note": null
+            },
+            {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6714,10 +7360,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111,113%3B+1+Samuel+2:1-10%3B+Romans+5:12-21",
-                "audioQS": "Ps.111,113,1Sam.2,Rom.5"
+                "audioQS": "Ps.111,113,1Sam.2,Rom.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6738,7 +7386,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+131,146%3B+Isaiah+52:1-12%3B+Hebrews+2:5-18",
-                "audioQS": "Ps.131,146,Isa.52,Heb.2"
+                "audioQS": "Ps.131,146,Isa.52,Heb.2",
+                "note": null
             }
         ]
     },
@@ -6748,6 +7397,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6768,10 +7418,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+38%3B+Jeremiah+13:1-11%3B+John+8:12-30",
-                "audioQS": "Ps.38,Jer.13,John.8"
+                "audioQS": "Ps.38,Jer.13,John.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6792,7 +7444,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+39%3B+Genesis+49:1-32%3B+Hebrews+6:13-",
-                "audioQS": "Ps.39,Gen.49,Heb.6"
+                "audioQS": "Ps.39,Gen.49,Heb.6",
+                "note": null
             }
         ]
     },
@@ -6802,6 +7455,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6822,10 +7476,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+56%3B+Jeremiah+14%3B+John+8:31-47",
-                "audioQS": "Ps.56,Jer.14,John.8"
+                "audioQS": "Ps.56,Jer.14,John.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6851,7 +7507,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+59%3B+Genesis+49:33-%3B+Genesis+50%3B+Hebrews+7:1-10",
-                "audioQS": "Ps.59,Gen.49,Gen.50,Heb.7"
+                "audioQS": "Ps.59,Gen.49,Gen.50,Heb.7",
+                "note": null
             }
         ]
     },
@@ -6861,6 +7518,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6881,10 +7539,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+Jeremiah+15:10-%3B+John+8:48-",
-                "audioQS": "Ps.22,Jer.15,John.8"
+                "audioQS": "Ps.22,Jer.15,John.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6905,7 +7565,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+69%3B+Exodus+1:1-14%3B+Hebrews+7:11-",
-                "audioQS": "Ps.69,Exod.1,Heb.7"
+                "audioQS": "Ps.69,Exod.1,Heb.7",
+                "note": null
             }
         ]
     },
@@ -6915,6 +7576,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -6935,10 +7597,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31%3B+Jeremiah+16:10-17:4%3B+John+9:1-17",
-                "audioQS": "Ps.31,Jer.16,John.9"
+                "audioQS": "Ps.31,Jer.16,John.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -6959,7 +7623,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+116%3B+Exodus+1:22-2:10%3B+Hebrews+8",
-                "audioQS": "Ps.116,Exod.1,Heb.8"
+                "audioQS": "Ps.116,Exod.1,Heb.8",
+                "note": null
             }
         ]
     },
@@ -6969,6 +7634,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -6994,10 +7660,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+32%3B+Joshua+5:9-12%3B+2+Corinthians+5:16-21%3B+Luke+15:1-3,11b-32",
-                "audioQS": "Ps.32,Josh.5,2Cor.5,Luke.15"
+                "audioQS": "Ps.32,Josh.5,2Cor.5,Luke.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7018,10 +7686,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84,85%3B+Genesis+37:3-4,12-36%3B+1+Peter+2:16-25",
-                "audioQS": "Ps.84,85,Gen.37,1Pet.2"
+                "audioQS": "Ps.84,85,Gen.37,1Pet.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7042,7 +7712,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+Isaiah+40:27-41:13%3B+2+Timothy+4:1-18",
-                "audioQS": "Ps.30,Isa.40,2Tim.4"
+                "audioQS": "Ps.30,Isa.40,2Tim.4",
+                "note": null
             }
         ]
     },
@@ -7052,6 +7723,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7072,10 +7744,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Jeremiah+17:5-18%3B+John+9:18-",
-                "audioQS": "Ps.77,Jer.17,John.9"
+                "audioQS": "Ps.77,Jer.17,John.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7096,7 +7770,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25%3B+Exodus+2:11-22%3B+Hebrews+9:1-14",
-                "audioQS": "Ps.25,Exod.2,Heb.9"
+                "audioQS": "Ps.25,Exod.2,Heb.9",
+                "note": null
             }
         ]
     },
@@ -7106,6 +7781,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7126,10 +7802,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+79%3B+Jeremiah+18:1-12%3B+John+10:1-10",
-                "audioQS": "Ps.79,Jer.18,John.10"
+                "audioQS": "Ps.79,Jer.18,John.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7150,7 +7828,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Exodus+2:23-3:20%3B+Hebrews+9:15-",
-                "audioQS": "Ps.80,Exod.2,Heb.9"
+                "audioQS": "Ps.80,Exod.2,Heb.9",
+                "note": null
             }
         ]
     },
@@ -7160,6 +7839,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7180,10 +7860,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+90%3B+Jeremiah+18:13-%3B+John+10:11-21",
-                "audioQS": "Ps.90,Jer.18,John.10"
+                "audioQS": "Ps.90,Jer.18,John.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7204,7 +7886,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91%3B+Exodus+4:1-23%3B+Hebrews+10:1-18",
-                "audioQS": "Ps.91,Exod.4,Heb.10"
+                "audioQS": "Ps.91,Exod.4,Heb.10",
+                "note": null
             }
         ]
     },
@@ -7214,6 +7897,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7234,10 +7918,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+86%3B+Jeremiah+19:1-13%3B+John+10:22-",
-                "audioQS": "Ps.86,Jer.19,John.10"
+                "audioQS": "Ps.86,Jer.19,John.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7258,7 +7944,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+94%3B+Exodus+4:27-6:1%3B+Hebrews+10:19-25",
-                "audioQS": "Ps.94,Exod.4,Heb.10"
+                "audioQS": "Ps.94,Exod.4,Heb.10",
+                "note": null
             }
         ]
     },
@@ -7268,6 +7955,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7288,10 +7976,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+102%3B+Jeremiah+19:14-20:6%3B+John+11:1-16",
-                "audioQS": "Ps.102,Jer.19,John.11"
+                "audioQS": "Ps.102,Jer.19,John.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7312,7 +8002,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+16%3B+Exodus+6:2-13%3B+Hebrews+10:26-",
-                "audioQS": "Ps.16,Exod.6,Heb.10"
+                "audioQS": "Ps.16,Exod.6,Heb.10",
+                "note": null
             }
         ]
     },
@@ -7322,6 +8013,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7342,10 +8034,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+32%3B+Jeremiah+20:7-%3B+John+11:17-27",
-                "audioQS": "Ps.32,Jer.20,John.11"
+                "audioQS": "Ps.32,Jer.20,John.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7366,7 +8060,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+140%3B+Exodus+7:8-%3B+Hebrews+11:1-16",
-                "audioQS": "Ps.140,Exod.7,Heb.11"
+                "audioQS": "Ps.140,Exod.7,Heb.11",
+                "note": null
             }
         ]
     },
@@ -7376,6 +8071,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -7401,10 +8097,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+126%3B+Isaiah+43:16-21%3B+Philippians+3:4b-14%3B+John+12:1-8",
-                "audioQS": "Ps.126,Isa.43,Phil.3,John.12"
+                "audioQS": "Ps.126,Isa.43,Phil.3,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7425,10 +8123,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111,112%3B+Isaiah+35:1-10%3B+Romans+7:21-8:4",
-                "audioQS": "Ps.111,112,Isa.35,Rom.7"
+                "audioQS": "Ps.111,112,Isa.35,Rom.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7449,7 +8149,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+35%3B+2+Chronicles+35:1-6,10-16%3B+Luke+22:1-13",
-                "audioQS": "Ps.35,2Chr.35,Luke.22"
+                "audioQS": "Ps.35,2Chr.35,Luke.22",
+                "note": null
             }
         ]
     },
@@ -7459,6 +8160,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7479,10 +8181,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Jeremiah+21:1-10%3B+John+11:28-44",
-                "audioQS": "Ps.73,Jer.21,John.11"
+                "audioQS": "Ps.73,Jer.21,John.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7503,7 +8207,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+26%3B+Exodus+8:1-19%3B+Hebrews+11:17-31",
-                "audioQS": "Ps.26,Exod.8,Heb.11"
+                "audioQS": "Ps.26,Exod.8,Heb.11",
+                "note": null
             }
         ]
     },
@@ -7513,6 +8218,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7533,10 +8239,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+35%3B+Jeremiah+22:1-5,22:13-19%3B+John+11:45-",
-                "audioQS": "Ps.35,Jer.22,John.11"
+                "audioQS": "Ps.35,Jer.22,John.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7557,7 +8265,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+61%3B+Exodus+8:20-%3B+Hebrews+11:32-12:2",
-                "audioQS": "Ps.61,Exod.8,Heb.11"
+                "audioQS": "Ps.61,Exod.8,Heb.11",
+                "note": null
             }
         ]
     },
@@ -7567,6 +8276,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7587,10 +8297,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55%3B+Jeremiah+22:20-23:8%3B+John+12:1-11",
-                "audioQS": "Ps.55,Jer.22,John.12"
+                "audioQS": "Ps.55,Jer.22,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7611,7 +8323,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+62%3B+Exodus+9:1-12%3B+Hebrews+12:3-13",
-                "audioQS": "Ps.62,Exod.9,Heb.12"
+                "audioQS": "Ps.62,Exod.9,Heb.12",
+                "note": null
             }
         ]
     },
@@ -7621,6 +8334,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7641,10 +8355,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Jeremiah+23:9-32%3B+John+12:12-19",
-                "audioQS": "Ps.40,Jer.23,John.12"
+                "audioQS": "Ps.40,Jer.23,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7665,7 +8381,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+43%3B+Exodus+9:13-%3B+Hebrews+12:14-",
-                "audioQS": "Ps.43,Exod.9,Heb.12"
+                "audioQS": "Ps.43,Exod.9,Heb.12",
+                "note": null
             }
         ]
     },
@@ -7675,6 +8392,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7695,10 +8413,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+Jeremiah+24%3B+John+12:20-36a",
-                "audioQS": "Ps.22,Jer.24,John.12"
+                "audioQS": "Ps.22,Jer.24,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7719,7 +8439,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31%3B+Exodus+10%3B+Hebrews+13:1-16",
-                "audioQS": "Ps.31,Exod.10,Heb.13"
+                "audioQS": "Ps.31,Exod.10,Heb.13",
+                "note": null
             }
         ]
     },
@@ -7729,6 +8450,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7749,10 +8471,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+Jeremiah+25:1-14%3B+John+12:36b-",
-                "audioQS": "Ps.23,Jer.25,John.12"
+                "audioQS": "Ps.23,Jer.25,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7773,7 +8497,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+130%3B+Exodus+11%3B+Hebrews+13:17-",
-                "audioQS": "Ps.130,Exod.11,Heb.13"
+                "audioQS": "Ps.130,Exod.11,Heb.13",
+                "note": null
             }
         ]
     },
@@ -7783,7 +8508,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
-                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "readingSetTabName": "Passion",
+                "readingSetSubtitle": "RCL (Liturgy of the Passion)",
                 "timeOfDay": null,
                 "readings": [
                     {
@@ -7808,10 +8534,43 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31:9-16%3B+Isaiah+50:4-9a%3B+Philippians+2:5-13%3B+Luke+22:14-23:56",
-                "audioQS": "Ps.31,Isa.50,Phil.2,Luke.22"
+                "audioQS": "Ps.31,Isa.50,Phil.2,Luke.22",
+                "note": null
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetTabName": "Palms",
+                "readingSetSubtitle": "RCL (Liturgy of the Palms)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 118:1\u20132,19\u201329",
+                        "readQS": "Psalm+118:1-2,19-29",
+                        "audioQS": "Ps.118"
+                    },
+                    {
+                        "pretty": "",
+                        "readQS": "",
+                        "audioQS": ""
+                    },
+                    {
+                        "pretty": "",
+                        "readQS": "",
+                        "audioQS": ""
+                    },
+                    {
+                        "pretty": "",
+                        "readQS": "",
+                        "audioQS": ""
+                    }
+                ],
+                "readQS": "Psalm+118:1-2,19-29%3B+%3B+%3B+",
+                "audioQS": "Ps.118,,,",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7832,10 +8591,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+61,62%3B+Zechariah+9:9-12%3B+1+Corinthians+2:1-12",
-                "audioQS": "Ps.61,62,Zech.9,1Cor.2"
+                "audioQS": "Ps.61,62,Zech.9,1Cor.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7856,7 +8617,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+69:1-20%3B+Isaiah+5:1-7%3B+Luke+20:9-19",
-                "audioQS": "Ps.69,Isa.5,Luke.20"
+                "audioQS": "Ps.69,Isa.5,Luke.20",
+                "note": null
             }
         ]
     },
@@ -7866,6 +8628,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -7891,10 +8654,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36:5-11%3B+Isaiah+42:1-9%3B+Hebrews+9:11-15%3B+John+12:1-11",
-                "audioQS": "Ps.36,Isa.42,Heb.9,John.12"
+                "audioQS": "Ps.36,Isa.42,Heb.9,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7915,10 +8680,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+41%3B+Lamentations+1:1-12a%3B+Luke+22:1-23",
-                "audioQS": "Ps.41,Lam.1,Luke.22"
+                "audioQS": "Ps.41,Lam.1,Luke.22",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -7939,7 +8706,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25%3B+Lamentations+2:8-19%3B+Colossians+1:18-23",
-                "audioQS": "Ps.25,Lam.2,Col.1"
+                "audioQS": "Ps.25,Lam.2,Col.1",
+                "note": null
             }
         ]
     },
@@ -7949,6 +8717,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -7974,10 +8743,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71:%281-8%29,9-14%3B+Isaiah+49:1-7%3B+1+Corinthians+1:18-31%3B+John+12:20-36",
-                "audioQS": "Ps.71,Isa.49,1Cor.1,John.12"
+                "audioQS": "Ps.71,Isa.49,1Cor.1,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -7998,10 +8769,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27%3B+Lamentations+3:1-18%3B+Luke+22:%2824-38%29,39-53",
-                "audioQS": "Ps.27,Lam.3,Luke.22"
+                "audioQS": "Ps.27,Lam.3,Luke.22",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8022,7 +8795,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55:13-24%3B+Lamentations+3:40-51%3B+Galatians+6:11-",
-                "audioQS": "Ps.55,Lam.3,Gal.6"
+                "audioQS": "Ps.55,Lam.3,Gal.6",
+                "note": null
             }
         ]
     },
@@ -8032,6 +8806,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -8057,10 +8832,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+70%3B+Isaiah+50:4-9a%3B+Hebrews+12:1-3%3B+John+13:21-32",
-                "audioQS": "Ps.70,Isa.50,Heb.12,John.13"
+                "audioQS": "Ps.70,Isa.50,Heb.12,John.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8081,10 +8858,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+102%3B+Jeremiah+11:18-20%3B+Luke+22:54-71",
-                "audioQS": "Ps.102,Jer.11,Luke.22"
+                "audioQS": "Ps.102,Jer.11,Luke.22",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8105,7 +8884,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+88%3B+Isaiah+63:1-9%3B+Revelation+14:18-15:4",
-                "audioQS": "Ps.88,Isa.63,Rev.14"
+                "audioQS": "Ps.88,Isa.63,Rev.14",
+                "note": null
             }
         ]
     },
@@ -8115,6 +8895,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -8140,10 +8921,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+116:1,10-17%3B+Exodus+12:1-4,%285-10%29,11-14%3B+1+Corinthians+11:23-26%3B+John+13:1-17,31b-35",
-                "audioQS": "Ps.116,Exod.12,1Cor.11,John.13"
+                "audioQS": "Ps.116,Exod.12,1Cor.11,John.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8164,10 +8947,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42,43%3B+Leviticus+16:2-24%3B+Luke+23:1-25",
-                "audioQS": "Ps.42,43,Lev.16,Luke.23"
+                "audioQS": "Ps.42,43,Lev.16,Luke.23",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8188,7 +8973,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+39%3B+Exodus+11%3B+Ephesians+2:11-18",
-                "audioQS": "Ps.39,Exod.11,Eph.2"
+                "audioQS": "Ps.39,Exod.11,Eph.2",
+                "note": null
             }
         ]
     },
@@ -8198,6 +8984,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -8223,10 +9010,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+Isaiah+52:13-53:12%3B+Hebrews+10:16-25%3B+John+18:1-19:42",
-                "audioQS": "Ps.22,Isa.52,Heb.10,John.18"
+                "audioQS": "Ps.22,Isa.52,Heb.10,John.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8247,10 +9036,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+69%3B+Genesis+22:1-18%3B+Hebrews+10:1-10",
-                "audioQS": "Ps.69,Gen.22,Heb.10"
+                "audioQS": "Ps.69,Gen.22,Heb.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8271,7 +9062,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+130,143%3B+Lamentations+5:15-22%3B+John+19:38-42",
-                "audioQS": "Ps.130,143,Lam.5,John.19"
+                "audioQS": "Ps.130,143,Lam.5,John.19",
+                "note": null
             }
         ]
     },
@@ -8281,7 +9073,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
-                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "readingSetTabName": "Holy Sat.",
+                "readingSetSubtitle": "RCL (Holy Saturday)",
                 "timeOfDay": null,
                 "readings": [
                     {
@@ -8306,10 +9099,48 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31:1-4,15,16%3B+Job+14:1-14%3B+1+Peter+4:1-8%3B+Matthew+27:57-66",
-                "audioQS": "Ps.31,Job.14,1Pet.4,Matt.27"
+                "audioQS": "Ps.31,Job.14,1Pet.4,Matt.27",
+                "note": null
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetTabName": "Vigil",
+                "readingSetSubtitle": "RCL (Easter Vigil)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 114",
+                        "readQS": "Psalm+114",
+                        "audioQS": "Ps.114"
+                    },
+                    {
+                        "pretty": "Exodus 14:10\u201331,15:20\u201321",
+                        "readQS": "Exodus+14:10-31,15:20-21",
+                        "audioQS": "Exod.14"
+                    },
+                    {
+                        "pretty": "",
+                        "readQS": "",
+                        "audioQS": ""
+                    },
+                    {
+                        "pretty": "Romans 6:3\u201311",
+                        "readQS": "Romans+6:3-11",
+                        "audioQS": "Rom.6"
+                    },
+                    {
+                        "pretty": "",
+                        "readQS": "",
+                        "audioQS": ""
+                    }
+                ],
+                "readQS": "Psalm+114%3B+Exodus+14:10-31,15:20-21%3B+%3B+Romans+6:3-11%3B+",
+                "audioQS": "Ps.114,Exod.14,,Rom.6,",
+                "note": "A minimum of three Old Testament readings should be chosen.  The Exodus 14 reading should always be used."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8330,10 +9161,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+142%3B+Hosea+6:1-6%3B+John+2:18-22",
-                "audioQS": "Ps.142,Hos.6,John.2"
+                "audioQS": "Ps.142,Hos.6,John.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8354,7 +9187,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+116%3B+Job+19:21-27%3B+1+John+5:5-12",
-                "audioQS": "Ps.116,Job.19,1John.5"
+                "audioQS": "Ps.116,Job.19,1John.5",
+                "note": null
             }
         ]
     },
@@ -8364,6 +9198,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -8389,10 +9224,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118:1-2,14-24%3B+Acts+10:34-43%3B+1+Corinthians+15:19-26%3B+John+20:1-18",
-                "audioQS": "Ps.118,Acts.10,1Cor.15,John.20"
+                "audioQS": "Ps.118,Acts.10,1Cor.15,John.20",
+                "note": "The reading from Acts should be used as the 1st or 2nd reading."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8413,10 +9250,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+114,117%3B+Ezekiel+47:1-12%3B+John+2:13-22",
-                "audioQS": "Ps.114,117,Ezek.47,John.2"
+                "audioQS": "Ps.114,117,Ezek.47,John.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8437,7 +9276,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+105%3B+Isaiah+43:1-21%3B+1+Corinthians+15:1-11",
-                "audioQS": "Ps.105,Isa.43,1Cor.15"
+                "audioQS": "Ps.105,Isa.43,1Cor.15",
+                "note": null
             }
         ]
     },
@@ -8447,6 +9287,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8467,10 +9308,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111%3B+Song+of+Solomon+1:9-2:7%3B+Mark+16:1-8",
-                "audioQS": "Ps.111,Song.1,Mark.16"
+                "audioQS": "Ps.111,Song.1,Mark.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8491,7 +9334,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+135%3B+Exodus+12:1-14%3B+1+Corinthians+15:1-11",
-                "audioQS": "Ps.135,Exod.12,1Cor.15"
+                "audioQS": "Ps.135,Exod.12,1Cor.15",
+                "note": null
             }
         ]
     },
@@ -8501,6 +9345,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8521,10 +9366,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+112%3B+Song+of+Solomon+2:8-%3B+Luke+24:1-12",
-                "audioQS": "Ps.112,Song.2,Luke.24"
+                "audioQS": "Ps.112,Song.2,Luke.24",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8545,7 +9392,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+136%3B+Exodus+12:14-36%3B+1+Corinthians+15:12-19",
-                "audioQS": "Ps.136,Exod.12,1Cor.15"
+                "audioQS": "Ps.136,Exod.12,1Cor.15",
+                "note": null
             }
         ]
     },
@@ -8555,6 +9403,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8575,10 +9424,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+113%3B+Song+of+Solomon+3%3B+Matthew+28:16-",
-                "audioQS": "Ps.113,Song.3,Matt.28"
+                "audioQS": "Ps.113,Song.3,Matt.28",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8599,7 +9450,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+105%3B+Exodus+12:37-%3B+1+Corinthians+15:20-28",
-                "audioQS": "Ps.105,Exod.12,1Cor.15"
+                "audioQS": "Ps.105,Exod.12,1Cor.15",
+                "note": null
             }
         ]
     },
@@ -8609,6 +9461,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8629,10 +9482,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+114%3B+Song+of+Solomon+5:2-6:3%3B+Luke+7:11-17",
-                "audioQS": "Ps.114,Song.5,Luke.7"
+                "audioQS": "Ps.114,Song.5,Luke.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8653,7 +9508,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+106%3B+Exodus+13:1-16%3B+1+Corinthians+15:29-34",
-                "audioQS": "Ps.106,Exod.13,1Cor.15"
+                "audioQS": "Ps.106,Exod.13,1Cor.15",
+                "note": null
             }
         ]
     },
@@ -8663,6 +9519,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8683,10 +9540,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+115%3B+Song+of+Solomon+7:10-8:4%3B+Luke+8:41-",
-                "audioQS": "Ps.115,Song.7,Luke.8"
+                "audioQS": "Ps.115,Song.7,Luke.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8707,7 +9566,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+107%3B+Exodus+13:17-14:14%3B+1+Corinthians+15:35-50",
-                "audioQS": "Ps.107,Exod.13,1Cor.15"
+                "audioQS": "Ps.107,Exod.13,1Cor.15",
+                "note": null
             }
         ]
     },
@@ -8717,6 +9577,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8737,10 +9598,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+116%3B+Song+of+Solomon+8:5-7%3B+John+11:17-44",
-                "audioQS": "Ps.116,Song.8,John.11"
+                "audioQS": "Ps.116,Song.8,John.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8761,7 +9624,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Exodus+14:15-%3B+1+Corinthians+15:51-",
-                "audioQS": "Ps.145,Exod.14,1Cor.15"
+                "audioQS": "Ps.145,Exod.14,1Cor.15",
+                "note": null
             }
         ]
     },
@@ -8771,6 +9635,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -8796,10 +9661,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118:14-29%3B+Acts+5:27-32%3B+Revelation+1:4-8%3B+John+20:19-31",
-                "audioQS": "Ps.118,Acts.5,Rev.1,John.20"
+                "audioQS": "Ps.118,Acts.5,Rev.1,John.20",
+                "note": "The reading from Acts must be used as either the first or second reading."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8820,10 +9687,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+136:1-16%3B+Exodus+12:1-13%3B+1+Peter+1:3-12",
-                "audioQS": "Ps.136,Exod.12,1Pet.1"
+                "audioQS": "Ps.136,Exod.12,1Pet.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Mark)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8844,7 +9713,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+19%3B+Isaiah+52:7-10%3B+Mark+1:1-15",
-                "audioQS": "Ps.19,Isa.52,Mark.1"
+                "audioQS": "Ps.19,Isa.52,Mark.1",
+                "note": null
             }
         ]
     },
@@ -8854,6 +9724,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8874,10 +9745,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+37:23-41,148%3B+Isaiah+62:6-10%3B+Acts+12:25-,13:1-13",
-                "audioQS": "Ps.37,Isa.62,Acts.12"
+                "audioQS": "Ps.37,Isa.62,Acts.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8898,7 +9771,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+45%3B+Ezekiel+1:4-14%3B+2+Timothy+4:1-11",
-                "audioQS": "Ps.45,Ezek.1,2Tim.4"
+                "audioQS": "Ps.45,Ezek.1,2Tim.4",
+                "note": null
             }
         ]
     },
@@ -8908,6 +9782,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8928,10 +9803,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+8%3B+Deuteronomy+1:19-40%3B+John+20:11-18",
-                "audioQS": "Ps.8,Deut.1,John.20"
+                "audioQS": "Ps.8,Deut.1,John.20",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -8952,7 +9829,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+104%3B+Exodus+15:22-16:10%3B+Colossians+1:15-",
-                "audioQS": "Ps.104,Exod.15,Col.1"
+                "audioQS": "Ps.104,Exod.15,Col.1",
+                "note": null
             }
         ]
     },
@@ -8962,6 +9840,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -8982,10 +9861,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+Deuteronomy+3:18-%3B+John+20:19-",
-                "audioQS": "Ps.30,Deut.3,John.20"
+                "audioQS": "Ps.30,Deut.3,John.20",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Phillip and St James)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9006,7 +9887,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25%3B+Isaiah+40:27-31%3B+John+12:20-26",
-                "audioQS": "Ps.25,Isa.40,John.12"
+                "audioQS": "Ps.25,Isa.40,John.12",
+                "note": null
             }
         ]
     },
@@ -9016,6 +9898,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9036,10 +9919,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139,146%3B+Proverbs+4:10-18%3B+James+1:1-12",
-                "audioQS": "Ps.139,146,Prov.4,Jas.1"
+                "audioQS": "Ps.139,146,Prov.4,Jas.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9060,7 +9945,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+149%3B+Job+23:1-12%3B+John+1:43-51",
-                "audioQS": "Ps.149,Job.23,John.1"
+                "audioQS": "Ps.149,Job.23,John.1",
+                "note": null
             }
         ]
     },
@@ -9070,6 +9956,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9090,10 +9977,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+61%3B+Deuteronomy+4:15-31%3B+John+21:15-19",
-                "audioQS": "Ps.61,Deut.4,John.21"
+                "audioQS": "Ps.61,Deut.4,John.21",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9114,7 +10003,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118%3B+Exodus+18:1-12%3B+Colossians+3:12-4:1",
-                "audioQS": "Ps.118,Exod.18,Col.3"
+                "audioQS": "Ps.118,Exod.18,Col.3",
+                "note": null
             }
         ]
     },
@@ -9124,6 +10014,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9144,10 +10035,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84%3B+Deuteronomy+4:32-40%3B+John+21:20-",
-                "audioQS": "Ps.84,Deut.4,John.21"
+                "audioQS": "Ps.84,Deut.4,John.21",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9168,7 +10061,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66%3B+Exodus+18:13-%3B+Colossians+4:2-",
-                "audioQS": "Ps.66,Exod.18,Col.4"
+                "audioQS": "Ps.66,Exod.18,Col.4",
+                "note": null
             }
         ]
     },
@@ -9178,6 +10072,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -9203,10 +10098,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+Acts+9:1-6,%287-20%29%3B+Revelation+5:11-14%3B+John+21:1-19",
-                "audioQS": "Ps.30,Acts.9,Rev.5,John.21"
+                "audioQS": "Ps.30,Acts.9,Rev.5,John.21",
+                "note": "The reading from Acts must be used as either the first or second reading."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9227,10 +10124,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80:1-8%3B+Exodus+15:1-2,9-18%3B+John+10:1-19",
-                "audioQS": "Ps.80,Exod.15,John.10"
+                "audioQS": "Ps.80,Exod.15,John.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9251,7 +10150,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+86%3B+Isaiah+38:9-20%3B+John+11:%2817-26%29,27-44",
-                "audioQS": "Ps.86,Isa.38,John.11"
+                "audioQS": "Ps.86,Isa.38,John.11",
+                "note": null
             }
         ]
     },
@@ -9261,6 +10161,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9281,10 +10182,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+96%3B+Deuteronomy+5:1-22%3B+Ephesians+1:1-14",
-                "audioQS": "Ps.96,Deut.5,Eph.1"
+                "audioQS": "Ps.96,Deut.5,Eph.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9305,7 +10208,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+61%3B+Exodus+19%3B+Luke+1:1-25",
-                "audioQS": "Ps.61,Exod.19,Luke.1"
+                "audioQS": "Ps.61,Exod.19,Luke.1",
+                "note": null
             }
         ]
     },
@@ -9315,6 +10219,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9335,10 +10240,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98%3B+Deuteronomy+5:22-%3B+Ephesians+1:15-",
-                "audioQS": "Ps.98,Deut.5,Eph.1"
+                "audioQS": "Ps.98,Deut.5,Eph.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9359,7 +10266,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Exodus+20:1-21%3B+Luke+1:26-38",
-                "audioQS": "Ps.71,Exod.20,Luke.1"
+                "audioQS": "Ps.71,Exod.20,Luke.1",
+                "note": null
             }
         ]
     },
@@ -9369,6 +10277,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9389,10 +10298,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+105%3B+Deuteronomy+6%3B+Ephesians+2:1-10",
-                "audioQS": "Ps.105,Deut.6,Eph.2"
+                "audioQS": "Ps.105,Deut.6,Eph.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9413,7 +10324,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+Exodus+24%3B+Luke+1:39-56",
-                "audioQS": "Ps.72,Exod.24,Luke.1"
+                "audioQS": "Ps.72,Exod.24,Luke.1",
+                "note": null
             }
         ]
     },
@@ -9423,6 +10335,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9443,10 +10356,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+136%3B+Deuteronomy+7:1-11%3B+Ephesians+2:11-",
-                "audioQS": "Ps.136,Deut.7,Eph.2"
+                "audioQS": "Ps.136,Deut.7,Eph.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9467,7 +10382,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Exodus+25:1-22%3B+Luke+1:57-",
-                "audioQS": "Ps.73,Exod.25,Luke.1"
+                "audioQS": "Ps.73,Exod.25,Luke.1",
+                "note": null
             }
         ]
     },
@@ -9477,6 +10393,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9497,10 +10414,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+107%3B+Deuteronomy+7:12-%3B+Ephesians+3:1-13",
-                "audioQS": "Ps.107,Deut.7,Eph.3"
+                "audioQS": "Ps.107,Deut.7,Eph.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9521,7 +10440,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Exodus+28:1-4a,28:29-38%3B+Luke+2:1-20",
-                "audioQS": "Ps.77,Exod.28,Luke.2"
+                "audioQS": "Ps.77,Exod.28,Luke.2",
+                "note": null
             }
         ]
     },
@@ -9531,6 +10451,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9551,10 +10472,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+110%3B+Deuteronomy+8%3B+Ephesians+3:14-",
-                "audioQS": "Ps.110,Deut.8,Eph.3"
+                "audioQS": "Ps.110,Deut.8,Eph.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9575,7 +10498,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27%3B+Exodus+29:1-9%3B+Luke+2:21-40",
-                "audioQS": "Ps.27,Exod.29,Luke.2"
+                "audioQS": "Ps.27,Exod.29,Luke.2",
+                "note": null
             }
         ]
     },
@@ -9585,6 +10509,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -9610,10 +10535,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+Acts+9:36-43%3B+Revelation+7:9-17%3B+John+10:22-30",
-                "audioQS": "Ps.23,Acts.9,Rev.7,John.10"
+                "audioQS": "Ps.23,Acts.9,Rev.7,John.10",
+                "note": "The reading from Acts must be used as either the first or second reading."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9634,10 +10561,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146%3B+1+Kings+17:17-24%3B+Luke+7:11-23",
-                "audioQS": "Ps.146,1Kgs.17,Luke.7"
+                "audioQS": "Ps.146,1Kgs.17,Luke.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9658,7 +10587,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+113,114%3B+Isaiah+63:7-14%3B+Luke+24:36-49",
-                "audioQS": "Ps.113,114,Isa.63,Luke.24"
+                "audioQS": "Ps.113,114,Isa.63,Luke.24",
+                "note": null
             }
         ]
     },
@@ -9668,6 +10598,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9688,10 +10619,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+103%3B+Deuteronomy+9:1-21%3B+Ephesians+4:1-16",
-                "audioQS": "Ps.103,Deut.9,Eph.4"
+                "audioQS": "Ps.103,Deut.9,Eph.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9712,7 +10645,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+114%3B+Exodus+32:1-14%3B+Luke+2:41-",
-                "audioQS": "Ps.114,Exod.32,Luke.2"
+                "audioQS": "Ps.114,Exod.32,Luke.2",
+                "note": null
             }
         ]
     },
@@ -9722,6 +10656,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9742,10 +10677,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139%3B+Deuteronomy+9:23-10:5%3B+Ephesians+4:17-",
-                "audioQS": "Ps.139,Deut.9,Eph.4"
+                "audioQS": "Ps.139,Deut.9,Eph.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Matthias)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9766,7 +10703,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Isaiah+22:15-22%3B+Philippians+3:13b-,4:1",
-                "audioQS": "Ps.147,Isa.22,Phil.3"
+                "audioQS": "Ps.147,Isa.22,Phil.3",
+                "note": null
             }
         ]
     },
@@ -9776,6 +10714,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9796,10 +10735,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+16%3B+1+Samuel+2:27-35%3B+Acts+2:37-47",
-                "audioQS": "Ps.16,1Sam.2,Acts.2"
+                "audioQS": "Ps.16,1Sam.2,Acts.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9820,7 +10761,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+1+Samuel+16:1-13a%3B+Matthew+7:15-27",
-                "audioQS": "Ps.80,1Sam.16,Matt.7"
+                "audioQS": "Ps.80,1Sam.16,Matt.7",
+                "note": null
             }
         ]
     },
@@ -9830,6 +10772,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9850,10 +10793,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118%3B+Deuteronomy+11:8-%3B+Ephesians+5:15-",
-                "audioQS": "Ps.118,Deut.11,Eph.5"
+                "audioQS": "Ps.118,Deut.11,Eph.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9874,7 +10819,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+Exodus+34:1-10,34:27-%3B+Luke+4:1-13",
-                "audioQS": "Ps.85,Exod.34,Luke.4"
+                "audioQS": "Ps.85,Exod.34,Luke.4",
+                "note": null
             }
         ]
     },
@@ -9884,6 +10830,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9904,10 +10851,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+Deuteronomy+12:1-14%3B+Ephesians+6:1-9",
-                "audioQS": "Ps.33,Deut.12,Eph.6"
+                "audioQS": "Ps.33,Deut.12,Eph.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9928,7 +10877,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36%3B+Exodus+35:20-36:7%3B+Luke+4:14-30",
-                "audioQS": "Ps.36,Exod.35,Luke.4"
+                "audioQS": "Ps.36,Exod.35,Luke.4",
+                "note": null
             }
         ]
     },
@@ -9938,6 +10888,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -9958,10 +10909,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Deuteronomy+15:1-18%3B+Ephesians+6:10-",
-                "audioQS": "Ps.34,Deut.15,Eph.6"
+                "audioQS": "Ps.34,Deut.15,Eph.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -9982,7 +10935,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84%3B+Exodus+40:17-%3B+Luke+4:31-37",
-                "audioQS": "Ps.84,Exod.40,Luke.4"
+                "audioQS": "Ps.84,Exod.40,Luke.4",
+                "note": null
             }
         ]
     },
@@ -9992,6 +10946,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -10017,10 +10972,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+148%3B+Acts+11:1-18%3B+Revelation+21:1-6%3B+John+13:31-35",
-                "audioQS": "Ps.148,Acts.11,Rev.21,John.13"
+                "audioQS": "Ps.148,Acts.11,Rev.21,John.13",
+                "note": "The reading from Acts must be used as either the first or second reading."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10041,10 +10998,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+16%3B+2+Samuel+7:4-13%3B+Acts+2:14a,22-32,%2833-36%29",
-                "audioQS": "Ps.16,2Sam.7,Acts.2"
+                "audioQS": "Ps.16,2Sam.7,Acts.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10065,7 +11024,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98%3B+Daniel+6:%281-5%29,6-23%3B+Mark+15:46-16:8",
-                "audioQS": "Ps.98,Dan.6,Mark.15"
+                "audioQS": "Ps.98,Dan.6,Mark.15",
+                "note": null
             }
         ]
     },
@@ -10075,6 +11035,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10095,10 +11056,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Deuteronomy+16:1-20%3B+1+Peter+1:1-12",
-                "audioQS": "Ps.145,Deut.16,1Pet.1"
+                "audioQS": "Ps.145,Deut.16,1Pet.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10119,7 +11082,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+105%3B+Numbers+9:15-,10:33-%3B+Luke+4:38-",
-                "audioQS": "Ps.105,Num.9,Luke.4"
+                "audioQS": "Ps.105,Num.9,Luke.4",
+                "note": null
             }
         ]
     },
@@ -10129,6 +11093,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10149,10 +11114,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+19%3B+Deuteronomy+17:8-%3B+1+Peter+1:13-",
-                "audioQS": "Ps.19,Deut.17,1Pet.1"
+                "audioQS": "Ps.19,Deut.17,1Pet.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10173,7 +11140,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Numbers+11:1-33%3B+Luke+5:1-11",
-                "audioQS": "Ps.97,Num.11,Luke.5"
+                "audioQS": "Ps.97,Num.11,Luke.5",
+                "note": null
             }
         ]
     },
@@ -10183,6 +11151,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10203,10 +11172,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+Deuteronomy+18:9-%3B+1+Peter+2:1-10",
-                "audioQS": "Ps.30,Deut.18,1Pet.2"
+                "audioQS": "Ps.30,Deut.18,1Pet.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10227,7 +11198,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+99%3B+Numbers+12%3B+Luke+5:12-26",
-                "audioQS": "Ps.99,Num.12,Luke.5"
+                "audioQS": "Ps.99,Num.12,Luke.5",
+                "note": null
             }
         ]
     },
@@ -10237,6 +11209,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10257,10 +11230,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+57%3B+Deuteronomy+19%3B+1+Peter+2:11-",
-                "audioQS": "Ps.57,Deut.19,1Pet.2"
+                "audioQS": "Ps.57,Deut.19,1Pet.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10281,7 +11256,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+104%3B+Numbers+13:1-3,13:17-%3B+Luke+5:27-",
-                "audioQS": "Ps.104,Num.13,Luke.5"
+                "audioQS": "Ps.104,Num.13,Luke.5",
+                "note": null
             }
         ]
     },
@@ -10291,6 +11267,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10311,10 +11288,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138%3B+Deuteronomy+21:22-22:8%3B+1+Peter+3:1-12",
-                "audioQS": "Ps.138,Deut.21,1Pet.3"
+                "audioQS": "Ps.138,Deut.21,1Pet.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10335,7 +11314,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66%3B+Numbers+14:1-25%3B+Luke+6:1-11",
-                "audioQS": "Ps.66,Num.14,Luke.6"
+                "audioQS": "Ps.66,Num.14,Luke.6",
+                "note": null
             }
         ]
     },
@@ -10345,6 +11325,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10365,10 +11346,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146%3B+Deuteronomy+24:5-%3B+1+Peter+3:13-",
-                "audioQS": "Ps.146,Deut.24,1Pet.3"
+                "audioQS": "Ps.146,Deut.24,1Pet.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10389,7 +11372,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118%3B+Numbers+14:26-%3B+Luke+6:12-26",
-                "audioQS": "Ps.118,Num.14,Luke.6"
+                "audioQS": "Ps.118,Num.14,Luke.6",
+                "note": null
             }
         ]
     },
@@ -10399,6 +11383,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -10424,10 +11409,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+67%3B+Acts+16:9-15%3B+Revelation+21:10,22-22:5%3B+John+14:23-29",
-                "audioQS": "Ps.67,Acts.16,Rev.21,John.14"
+                "audioQS": "Ps.67,Acts.16,Rev.21,John.14",
+                "note": "The reading from Acts must be used as either the first or second reading."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10448,10 +11435,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40:1-9%3B+Genesis+1:26-28,%2829-31%29%3B+Colossians+3:1-11",
-                "audioQS": "Ps.40,Gen.1,Col.3"
+                "audioQS": "Ps.40,Gen.1,Col.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10472,7 +11461,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+126,127%3B+Zephaniah+3:14-20%3B+Matthew+28:1-10,16-20",
-                "audioQS": "Ps.126,127,Zeph.3,Matt.28"
+                "audioQS": "Ps.126,127,Zeph.3,Matt.28",
+                "note": null
             }
         ]
     },
@@ -10482,6 +11472,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10502,10 +11493,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+65%3B+Deuteronomy+26%3B+1+Peter+4:1-11",
-                "audioQS": "Ps.65,Deut.26,1Pet.4"
+                "audioQS": "Ps.65,Deut.26,1Pet.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10526,7 +11519,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+121%3B+Numbers+16:1-35%3B+Luke+6:27-38",
-                "audioQS": "Ps.121,Num.16,Luke.6"
+                "audioQS": "Ps.121,Num.16,Luke.6",
+                "note": null
             }
         ]
     },
@@ -10536,6 +11530,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10556,10 +11551,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+126%3B+Deuteronomy+28:1-14%3B+1+Peter+4:12-",
-                "audioQS": "Ps.126,Deut.28,1Pet.4"
+                "audioQS": "Ps.126,Deut.28,1Pet.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10580,7 +11577,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+128%3B+Numbers+16:36-%3B+Luke+6:39-",
-                "audioQS": "Ps.128,Num.16,Luke.6"
+                "audioQS": "Ps.128,Num.16,Luke.6",
+                "note": null
             }
         ]
     },
@@ -10590,6 +11588,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10610,10 +11609,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Deuteronomy+28:58-%3B+1+Peter+5",
-                "audioQS": "Ps.132,Deut.28,1Pet.5"
+                "audioQS": "Ps.132,Deut.28,1Pet.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of Ascension Day)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10634,7 +11635,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15,24%3B+2+Samuel+23:1-5%3B+Colossians+2:20-,3:1-4",
-                "audioQS": "Ps.15,24,2Sam.23,Col.2"
+                "audioQS": "Ps.15,24,2Sam.23,Col.2",
+                "note": null
             }
         ]
     },
@@ -10644,6 +11646,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -10669,10 +11672,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+Acts+1:1-11%3B+Ephesians+1:15-23%3B+Luke+24:44-53",
-                "audioQS": "Ps.47,Acts.1,Eph.1,Luke.24"
+                "audioQS": "Ps.47,Acts.1,Eph.1,Luke.24",
+                "note": "These readings can be used on the Sunday after Ascension day."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10693,10 +11698,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+110%3B+Isaiah+52:7-15%3B+Hebrews+7:%2811-25%29,26-28",
-                "audioQS": "Ps.110,Isa.52,Heb.7"
+                "audioQS": "Ps.110,Isa.52,Heb.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10717,7 +11724,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+8%3B+2+Kings+2:1-15%3B+Revelation+5",
-                "audioQS": "Ps.8,2Kgs.2,Rev.5"
+                "audioQS": "Ps.8,2Kgs.2,Rev.5",
+                "note": null
             }
         ]
     },
@@ -10727,6 +11735,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10747,10 +11756,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+81%3B+Deuteronomy+29:2-15%3B+1+John+1:1-2:6",
-                "audioQS": "Ps.81,Deut.29,1John.1"
+                "audioQS": "Ps.81,Deut.29,1John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Visitation of Mary to Elizabeth)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10771,7 +11782,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+45%3B+Song+of+Solomon+2:8-14%3B+Luke+1:26-38",
-                "audioQS": "Ps.45,Song.2,Luke.1"
+                "audioQS": "Ps.45,Song.2,Luke.1",
+                "note": null
             }
         ]
     },
@@ -10781,6 +11793,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10801,10 +11814,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+1+Samuel+2:1-10%3B+Mark+3:31-35",
-                "audioQS": "Ps.85,1Sam.2,Mark.3"
+                "audioQS": "Ps.85,1Sam.2,Mark.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10825,7 +11840,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+122%3B+Zechariah+2:10-13%3B+John+3:25-30",
-                "audioQS": "Ps.122,Zech.2,John.3"
+                "audioQS": "Ps.122,Zech.2,John.3",
+                "note": null
             }
         ]
     },
@@ -10835,6 +11851,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -10860,10 +11877,43 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Acts+16:16-34%3B+Revelation+22:12-14,16-17,20-21%3B+John+17:20-26",
-                "audioQS": "Ps.97,Acts.16,Rev.22,John.17"
+                "audioQS": "Ps.97,Acts.16,Rev.22,John.17",
+                "note": null
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetTabName": "Ascension",
+                "readingSetSubtitle": "RCL (Readings from Ascension Day)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 47",
+                        "readQS": "Psalm+47",
+                        "audioQS": "Ps.47"
+                    },
+                    {
+                        "pretty": "Acts 1:1\u201311",
+                        "readQS": "Acts+1:1-11",
+                        "audioQS": "Acts.1"
+                    },
+                    {
+                        "pretty": "Ephesians 1:15\u201323",
+                        "readQS": "Ephesians+1:15-23",
+                        "audioQS": "Eph.1"
+                    },
+                    {
+                        "pretty": "Luke 24:44\u201353",
+                        "readQS": "Luke+24:44-53",
+                        "audioQS": "Luke.24"
+                    }
+                ],
+                "readQS": "Psalm+47%3B+Acts+1:1-11%3B+Ephesians+1:15-23%3B+Luke+24:44-53",
+                "audioQS": "Ps.47,Acts.1,Eph.1,Luke.24",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10884,10 +11934,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+99%3B+Deuteronomy+34%3B+Luke+24:44-53",
-                "audioQS": "Ps.99,Deut.34,Luke.24"
+                "audioQS": "Ps.99,Deut.34,Luke.24",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10908,7 +11960,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+Isaiah+44:1-8%3B+Ephesians+4:7-16",
-                "audioQS": "Ps.68,Isa.44,Eph.4"
+                "audioQS": "Ps.68,Isa.44,Eph.4",
+                "note": null
             }
         ]
     },
@@ -10918,6 +11971,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10938,10 +11992,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+93%3B+Deuteronomy+31:1-13%3B+1+John+2:18-",
-                "audioQS": "Ps.93,Deut.31,1John.2"
+                "audioQS": "Ps.93,Deut.31,1John.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -10962,7 +12018,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+18%3B+Numbers+22:1-35%3B+Luke+7:36-",
-                "audioQS": "Ps.18,Num.22,Luke.7"
+                "audioQS": "Ps.18,Num.22,Luke.7",
+                "note": null
             }
         ]
     },
@@ -10972,6 +12029,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -10992,10 +12050,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+99%3B+Deuteronomy+31:14-29%3B+1+John+3:1-10",
-                "audioQS": "Ps.99,Deut.31,1John.3"
+                "audioQS": "Ps.99,Deut.31,1John.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11016,7 +12076,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+Numbers+22:36-23:12%3B+Luke+8:1-15",
-                "audioQS": "Ps.68,Num.22,Luke.8"
+                "audioQS": "Ps.68,Num.22,Luke.8",
+                "note": null
             }
         ]
     },
@@ -11026,6 +12087,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11046,10 +12108,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+29%3B+Deuteronomy+31:30-32:14%3B+1+John+3:11-",
-                "audioQS": "Ps.29,Deut.31,1John.3"
+                "audioQS": "Ps.29,Deut.31,1John.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11070,7 +12134,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+Numbers+23:13-%3B+Luke+8:16-25",
-                "audioQS": "Ps.46,Num.23,Luke.8"
+                "audioQS": "Ps.46,Num.23,Luke.8",
+                "note": null
             }
         ]
     },
@@ -11080,6 +12145,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11100,10 +12166,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+24%3B+Deuteronomy+32:15-47%3B+1+John+4:1-6",
-                "audioQS": "Ps.24,Deut.32,1John.4"
+                "audioQS": "Ps.24,Deut.32,1John.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11124,7 +12192,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139%3B+Numbers+24%3B+Luke+8:26-39",
-                "audioQS": "Ps.139,Num.24,Luke.8"
+                "audioQS": "Ps.139,Num.24,Luke.8",
+                "note": null
             }
         ]
     },
@@ -11134,6 +12203,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11154,10 +12224,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+28%3B+Deuteronomy+33%3B+1+John+4:7-",
-                "audioQS": "Ps.28,Deut.33,1John.4"
+                "audioQS": "Ps.28,Deut.33,1John.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11178,7 +12250,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Numbers+27:12-%3B+Luke+8:40-",
-                "audioQS": "Ps.147,Num.27,Luke.8"
+                "audioQS": "Ps.147,Num.27,Luke.8",
+                "note": null
             }
         ]
     },
@@ -11188,6 +12261,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11213,10 +12287,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+43%3B+Deuteronomy+32:48-%3B+Deuteronomy+34%3B+1+John+5",
-                "audioQS": "Ps.43,Deut.32,Deut.34,1John.5"
+                "audioQS": "Ps.43,Deut.32,Deut.34,1John.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of Pentecost)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11237,7 +12313,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48%3B+Deuteronomy+16:9-15%3B+John+7:37-39",
-                "audioQS": "Ps.48,Deut.16,John.7"
+                "audioQS": "Ps.48,Deut.16,John.7",
+                "note": null
             }
         ]
     },
@@ -11247,6 +12324,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -11272,10 +12350,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+104:26-36,37b%3B+Acts+2:1-21%3B+Romans+8:14-17%3B+John+14:8-17,%2825-27%29",
-                "audioQS": "Ps.104,Acts.2,Rom.8,John.14"
+                "audioQS": "Ps.104,Acts.2,Rom.8,John.14",
+                "note": "The reading from Acts must be used as either the first or second reading."
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11296,10 +12376,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36:5-10,150%3B+Isaiah+40:12-23%3B+1+Corinthians+2:6-16",
-                "audioQS": "Ps.36,Isa.40,1Cor.2"
+                "audioQS": "Ps.36,Isa.40,1Cor.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11320,7 +12402,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33:1-12%3B+Exodus+33:7-20%3B+2+Corinthians+3:4-18",
-                "audioQS": "Ps.33,Exod.33,2Cor.3"
+                "audioQS": "Ps.33,Exod.33,2Cor.3",
+                "note": null
             }
         ]
     },
@@ -11330,6 +12413,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11350,10 +12434,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+126%3B+Job+1%3B+Romans+1:1-17",
-                "audioQS": "Ps.126,Job.1,Rom.1"
+                "audioQS": "Ps.126,Job.1,Rom.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11374,7 +12460,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+127%3B+Joshua+1%3B+Luke+9:18-27",
-                "audioQS": "Ps.127,Josh.1,Luke.9"
+                "audioQS": "Ps.127,Josh.1,Luke.9",
+                "note": null
             }
         ]
     },
@@ -11384,6 +12471,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11404,10 +12492,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Job+2%3B+Romans+1:18-",
-                "audioQS": "Ps.132,Job.2,Rom.1"
+                "audioQS": "Ps.132,Job.2,Rom.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Barnabas)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11428,7 +12518,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1,15%3B+Isaiah+42:5-12%3B+Acts+14:8-28",
-                "audioQS": "Ps.1,15,Isa.42,Acts.14"
+                "audioQS": "Ps.1,15,Isa.42,Acts.14",
+                "note": null
             }
         ]
     },
@@ -11438,6 +12529,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11458,10 +12550,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+100,101,117%3B+Jeremaiah+9:23-24%3B+Acts+4:32-37",
-                "audioQS": "Ps.100,101,117,Jeremaiah 9,Acts.4"
+                "audioQS": "Ps.100,101,117,Jeremaiah 9,Acts.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11482,7 +12576,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Ecclesiastes+12:9-24%3B+Acts+9:26-31",
-                "audioQS": "Ps.147,Eccl.12,Acts.9"
+                "audioQS": "Ps.147,Eccl.12,Acts.9",
+                "note": null
             }
         ]
     },
@@ -11492,6 +12587,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11512,10 +12608,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+143%3B+Job+4%3B+Romans+2:17-",
-                "audioQS": "Ps.143,Job.4,Rom.2"
+                "audioQS": "Ps.143,Job.4,Rom.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11536,7 +12634,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138%3B+Joshua+4:1-5:1%3B+Luke+9:51-",
-                "audioQS": "Ps.138,Josh.4,Luke.9"
+                "audioQS": "Ps.138,Josh.4,Luke.9",
+                "note": null
             }
         ]
     },
@@ -11546,6 +12645,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11566,10 +12666,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Job+5%3B+Romans+3:1-20",
-                "audioQS": "Ps.144,Job.5,Rom.3"
+                "audioQS": "Ps.144,Job.5,Rom.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11590,7 +12692,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Joshua+5:2-%3B+Luke+10:1-16",
-                "audioQS": "Ps.145,Josh.5,Luke.10"
+                "audioQS": "Ps.145,Josh.5,Luke.10",
+                "note": null
             }
         ]
     },
@@ -11600,6 +12703,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11620,10 +12724,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Job+6%3B+Romans+3:21-",
-                "audioQS": "Ps.147,Job.6,Rom.3"
+                "audioQS": "Ps.147,Job.6,Rom.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of Trinity Sunday)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11644,7 +12750,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97,98%3B+Isaiah+40:12-31%3B+Mark+1:1-13",
-                "audioQS": "Ps.97,98,Isa.40,Mark.1"
+                "audioQS": "Ps.97,98,Isa.40,Mark.1",
+                "note": null
             }
         ]
     },
@@ -11654,6 +12761,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -11679,10 +12787,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+8%3B+Proverbs+8:1-4,22-31%3B+Romans+5:1-5%3B+John+16:12-15",
-                "audioQS": "Ps.8,Prov.8,Rom.5,John.16"
+                "audioQS": "Ps.8,Prov.8,Rom.5,John.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11703,10 +12813,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+29%3B+Isaiah+6:1-8%3B+Revelation+4",
-                "audioQS": "Ps.29,Isa.6,Rev.4"
+                "audioQS": "Ps.29,Isa.6,Rev.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11727,7 +12839,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73:1-3,16-28%3B+Exodus+3:1-15%3B+John+3:1-17",
-                "audioQS": "Ps.73,Exod.3,John.3"
+                "audioQS": "Ps.73,Exod.3,John.3",
+                "note": null
             }
         ]
     },
@@ -11737,6 +12850,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11757,10 +12871,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1%3B+Job+7%3B+Romans+4:1-12",
-                "audioQS": "Ps.1,Job.7,Rom.4"
+                "audioQS": "Ps.1,Job.7,Rom.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11781,7 +12897,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+4%3B+Joshua+7:1-15%3B+Luke+10:25-37",
-                "audioQS": "Ps.4,Josh.7,Luke.10"
+                "audioQS": "Ps.4,Josh.7,Luke.10",
+                "note": null
             }
         ]
     },
@@ -11791,6 +12908,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11811,10 +12929,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+5%3B+Job+8%3B+Romans+4:13-",
-                "audioQS": "Ps.5,Job.8,Rom.4"
+                "audioQS": "Ps.5,Job.8,Rom.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11835,7 +12955,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+Joshua+7:16-%3B+Luke+10:38-",
-                "audioQS": "Ps.9,Josh.7,Luke.10"
+                "audioQS": "Ps.9,Josh.7,Luke.10",
+                "note": null
             }
         ]
     },
@@ -11845,6 +12966,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11865,10 +12987,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:1-32%3B+Job+9%3B+Romans+5:1-11",
-                "audioQS": "Ps.119,Job.9,Rom.5"
+                "audioQS": "Ps.119,Job.9,Rom.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11889,7 +13013,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+11%3B+Joshua+8:1-29%3B+Luke+11:1-13",
-                "audioQS": "Ps.11,Josh.8,Luke.11"
+                "audioQS": "Ps.11,Josh.8,Luke.11",
+                "note": null
             }
         ]
     },
@@ -11899,6 +13024,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11919,10 +13045,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15%3B+Job+10%3B+Romans+5:12-",
-                "audioQS": "Ps.15,Job.10,Rom.5"
+                "audioQS": "Ps.15,Job.10,Rom.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11943,7 +13071,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+18%3B+Joshua+8:30-%3B+Luke+11:14-28",
-                "audioQS": "Ps.18,Josh.8,Luke.11"
+                "audioQS": "Ps.18,Josh.8,Luke.11",
+                "note": null
             }
         ]
     },
@@ -11953,6 +13082,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -11973,10 +13103,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+19%3B+Job+11%3B+Romans+6:1-14",
-                "audioQS": "Ps.19,Job.11,Rom.6"
+                "audioQS": "Ps.19,Job.11,Rom.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -11997,7 +13129,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+Joshua+9:3-26%3B+Luke+11:29-36",
-                "audioQS": "Ps.22,Josh.9,Luke.11"
+                "audioQS": "Ps.22,Josh.9,Luke.11",
+                "note": null
             }
         ]
     },
@@ -12007,6 +13140,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12027,10 +13161,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+Job+12%3B+Romans+6:15-",
-                "audioQS": "Ps.23,Job.12,Rom.6"
+                "audioQS": "Ps.23,Job.12,Rom.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12051,7 +13187,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+24%3B+Joshua+10:1-15%3B+Luke+11:37-",
-                "audioQS": "Ps.24,Josh.10,Luke.11"
+                "audioQS": "Ps.24,Josh.10,Luke.11",
+                "note": null
             }
         ]
     },
@@ -12061,6 +13198,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -12086,10 +13224,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22:19-28%3B+Isaiah+65:1-9%3B+Galatians+3:23-29%3B+Luke+8:26-39",
-                "audioQS": "Ps.22,Isa.65,Gal.3,Luke.8"
+                "audioQS": "Ps.22,Isa.65,Gal.3,Luke.8",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -12115,10 +13255,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42,+43%3B+1+Kings+19:1-4,%285-7%29,8-15a%3B+Galatians+3:23-29%3B+Luke+8:26-39",
-                "audioQS": "Ps.42,.43,1Kgs.19,Gal.3,Luke.8"
+                "audioQS": "Ps.42,.43,1Kgs.19,Gal.3,Luke.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12139,10 +13281,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55:1-16,18-21%3B+Deuteronomy+11:1-15%3B+Acts+27:1-12",
-                "audioQS": "Ps.55,Deut.11,Acts.27"
+                "audioQS": "Ps.55,Deut.11,Acts.27",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12163,7 +13307,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+57%3B+Genesis+24:1-27%3B+Mark+5:21-43",
-                "audioQS": "Ps.57,Gen.24,Mark.5"
+                "audioQS": "Ps.57,Gen.24,Mark.5",
+                "note": null
             }
         ]
     },
@@ -12173,6 +13318,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12193,10 +13339,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+Job+13%3B+Romans+7:1-6",
-                "audioQS": "Ps.30,Job.13,Rom.7"
+                "audioQS": "Ps.30,Job.13,Rom.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St John the Baptist)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12217,7 +13365,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Judges+13:2-7,13:24-25%3B+Luke+1:5-25",
-                "audioQS": "Ps.71,Judg.13,Luke.1"
+                "audioQS": "Ps.71,Judg.13,Luke.1",
+                "note": null
             }
         ]
     },
@@ -12227,6 +13376,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12247,10 +13397,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50,149%3B+Malachi+3:1-6%3B+Luke+3:1-17",
-                "audioQS": "Ps.50,149,Mal.3,Luke.3"
+                "audioQS": "Ps.50,149,Mal.3,Luke.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12271,7 +13423,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80,82%3B+Malachi+4%3B+Matthew+11:2-19",
-                "audioQS": "Ps.80,82,Mal.4,Matt.11"
+                "audioQS": "Ps.80,82,Mal.4,Matt.11",
+                "note": null
             }
         ]
     },
@@ -12281,6 +13434,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12301,10 +13455,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Job+15%3B+Romans+8:1-11",
-                "audioQS": "Ps.34,Job.15,Rom.8"
+                "audioQS": "Ps.34,Job.15,Rom.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12325,7 +13481,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:33-56%3B+Joshua+22:9-%3B+Luke+12:22-31",
-                "audioQS": "Ps.119,Josh.22,Luke.12"
+                "audioQS": "Ps.119,Josh.22,Luke.12",
+                "note": null
             }
         ]
     },
@@ -12335,6 +13492,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12355,10 +13513,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+37%3B+Job+16:1-17:2%3B+Romans+8:12-17",
-                "audioQS": "Ps.37,Job.16,Rom.8"
+                "audioQS": "Ps.37,Job.16,Rom.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12379,7 +13539,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Joshua+23%3B+Luke+12:32-40",
-                "audioQS": "Ps.40,Josh.23,Luke.12"
+                "audioQS": "Ps.40,Josh.23,Luke.12",
+                "note": null
             }
         ]
     },
@@ -12389,6 +13550,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12409,10 +13571,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31%3B+Job+17:3-%3B+Romans+8:18-30",
-                "audioQS": "Ps.31,Job.17,Rom.8"
+                "audioQS": "Ps.31,Job.17,Rom.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12433,7 +13597,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+35%3B+Joshua+24:1-28%3B+Luke+12:41-48",
-                "audioQS": "Ps.35,Josh.24,Luke.12"
+                "audioQS": "Ps.35,Josh.24,Luke.12",
+                "note": null
             }
         ]
     },
@@ -12443,6 +13608,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12463,10 +13629,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42%3B+Job+18%3B+Romans+8:31-",
-                "audioQS": "Ps.42,Job.18,Rom.8"
+                "audioQS": "Ps.42,Job.18,Rom.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Peter and St Paul)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12487,7 +13655,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66,67%3B+Ezekiel+3:4-11%3B+Galatians+1:13-,2:1-8",
-                "audioQS": "Ps.66,67,Ezek.3,Gal.1"
+                "audioQS": "Ps.66,67,Ezek.3,Gal.1",
+                "note": null
             }
         ]
     },
@@ -12497,6 +13666,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -12522,10 +13692,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+16%3B+1+Kings+19:15-16,19-21%3B+Galatians+5:1,13-25%3B+Luke+9:51-62",
-                "audioQS": "Ps.16,1Kgs.19,Gal.5,Luke.9"
+                "audioQS": "Ps.16,1Kgs.19,Gal.5,Luke.9",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -12551,10 +13723,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77:1-2,11-20%3B+2+Kings+2:1-2,6-14%3B+Galatians+5:1,13-25%3B+Luke+9:51-62",
-                "audioQS": "Ps.77,2Kgs.2,Gal.5,Luke.9"
+                "audioQS": "Ps.77,2Kgs.2,Gal.5,Luke.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12575,10 +13749,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71,113%3B+Isaiah+49:1-6%3B+Acts+11:1-18",
-                "audioQS": "Ps.71,113,Isa.49,Acts.11"
+                "audioQS": "Ps.71,113,Isa.49,Acts.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12599,7 +13775,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+124,138%3B+Ezekiel+34:11-16%3B+John+21:15-22",
-                "audioQS": "Ps.124,138,Ezek.34,John.21"
+                "audioQS": "Ps.124,138,Ezek.34,John.21",
+                "note": null
             }
         ]
     },
@@ -12609,6 +13786,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12629,10 +13807,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Job+19%3B+Romans+9:1-18",
-                "audioQS": "Ps.44,Job.19,Rom.9"
+                "audioQS": "Ps.44,Job.19,Rom.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12653,7 +13833,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+Judges+2%3B+Luke+13:1-9",
-                "audioQS": "Ps.47,Judg.2,Luke.13"
+                "audioQS": "Ps.47,Judg.2,Luke.13",
+                "note": null
             }
         ]
     },
@@ -12663,6 +13844,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12683,10 +13865,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48%3B+Job+21%3B+Romans+9:19-",
-                "audioQS": "Ps.48,Job.21,Rom.9"
+                "audioQS": "Ps.48,Job.21,Rom.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12707,7 +13891,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+Judges+4:1-23%3B+Luke+13:10-21",
-                "audioQS": "Ps.50,Judg.4,Luke.13"
+                "audioQS": "Ps.50,Judg.4,Luke.13",
+                "note": null
             }
         ]
     },
@@ -12717,6 +13902,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12737,10 +13923,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:57-80%3B+Job+22%3B+Romans+10:1-10",
-                "audioQS": "Ps.119,Job.22,Rom.10"
+                "audioQS": "Ps.119,Job.22,Rom.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Annunciation)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12761,7 +13949,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27%3B+Isaiah+35%3B+Hebrews+10:35-,11:1",
-                "audioQS": "Ps.27,Isa.35,Heb.10"
+                "audioQS": "Ps.27,Isa.35,Heb.10",
+                "note": null
             }
         ]
     },
@@ -12771,6 +13960,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12791,10 +13981,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+92,146%3B+2+Samuel+15:17-21%3B+John+11:1-16",
-                "audioQS": "Ps.92,146,2Sam.15,John.11"
+                "audioQS": "Ps.92,146,2Sam.15,John.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12815,7 +14007,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139%3B+Job+42:1-6%3B+1+Peter+1:3-12",
-                "audioQS": "Ps.139,Job.42,1Pet.1"
+                "audioQS": "Ps.139,Job.42,1Pet.1",
+                "note": null
             }
         ]
     },
@@ -12825,6 +14018,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12845,10 +14039,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+51%3B+Job+24%3B+Romans+11:1-12",
-                "audioQS": "Ps.51,Job.24,Rom.11"
+                "audioQS": "Ps.51,Job.24,Rom.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12869,7 +14065,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+38%3B+Judges+6:25-%3B+Luke+14:12-24",
-                "audioQS": "Ps.38,Judg.6,Luke.14"
+                "audioQS": "Ps.38,Judg.6,Luke.14",
+                "note": null
             }
         ]
     },
@@ -12879,6 +14076,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -12899,10 +14097,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+Job+25-26%3B+Romans+11:13-24",
-                "audioQS": "Ps.68,Job.25\u201326,Rom.11"
+                "audioQS": "Ps.68,Job.25\u201326,Rom.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -12923,7 +14123,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66%3B+Judges+7%3B+Luke+14:25-",
-                "audioQS": "Ps.66,Judg.7,Luke.14"
+                "audioQS": "Ps.66,Judg.7,Luke.14",
+                "note": null
             }
         ]
     },
@@ -12933,6 +14134,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -12958,10 +14160,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66:1-8%3B+Isaiah+66:10-14%3B+Galatians+6:%281-6%29,7-16%3B+Luke+10:1-11,16-20",
-                "audioQS": "Ps.66,Isa.66,Gal.6,Luke.10"
+                "audioQS": "Ps.66,Isa.66,Gal.6,Luke.10",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -12987,10 +14191,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+2+Kings+5:1-14%3B+Galatians+6:%281-6%29,7-16%3B+Luke+10:1-11,16-20",
-                "audioQS": "Ps.30,2Kgs.5,Gal.6,Luke.10"
+                "audioQS": "Ps.30,2Kgs.5,Gal.6,Luke.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13011,10 +14217,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+Deuteronomy+24:10-22%3B+Acts+28:1-16",
-                "audioQS": "Ps.74,Deut.24,Acts.28"
+                "audioQS": "Ps.74,Deut.24,Acts.28",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13035,7 +14243,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+65%3B+Genesis+29:1-20%3B+Mark+6:7-29",
-                "audioQS": "Ps.65,Gen.29,Mark.6"
+                "audioQS": "Ps.65,Gen.29,Mark.6",
+                "note": null
             }
         ]
     },
@@ -13045,6 +14254,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13065,10 +14275,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Job+27%3B+Romans+11:25-",
-                "audioQS": "Ps.71,Job.27,Rom.11"
+                "audioQS": "Ps.71,Job.27,Rom.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13089,7 +14301,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+Judges+8:22-%3B+Luke+15:1-10",
-                "audioQS": "Ps.72,Judg.8,Luke.15"
+                "audioQS": "Ps.72,Judg.8,Luke.15",
+                "note": null
             }
         ]
     },
@@ -13099,6 +14312,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13119,10 +14333,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Job+28%3B+Romans+12:1-8",
-                "audioQS": "Ps.73,Job.28,Rom.12"
+                "audioQS": "Ps.73,Job.28,Rom.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13143,7 +14359,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+Judges+9:1-21%3B+Luke+15:11-",
-                "audioQS": "Ps.74,Judg.9,Luke.15"
+                "audioQS": "Ps.74,Judg.9,Luke.15",
+                "note": null
             }
         ]
     },
@@ -13153,6 +14370,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13173,10 +14391,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Job+29%3B+Romans+12:9-",
-                "audioQS": "Ps.77,Job.29,Rom.12"
+                "audioQS": "Ps.77,Job.29,Rom.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13197,7 +14417,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:81-104%3B+Judges+9:22-%3B+Luke+16:1-18",
-                "audioQS": "Ps.119,Judg.9,Luke.16"
+                "audioQS": "Ps.119,Judg.9,Luke.16",
+                "note": null
             }
         ]
     },
@@ -13207,6 +14428,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13227,10 +14449,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:1-39%3B+Job+30%3B+Romans+13:1-7",
-                "audioQS": "Ps.78,Job.30,Rom.13"
+                "audioQS": "Ps.78,Job.30,Rom.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13251,7 +14475,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:40-%3B+Judges+11:1-11%3B+Luke+16:19-",
-                "audioQS": "Ps.78,Judg.11,Luke.16"
+                "audioQS": "Ps.78,Judg.11,Luke.16",
+                "note": null
             }
         ]
     },
@@ -13261,6 +14486,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13281,10 +14507,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55%3B+Job+31%3B+Romans+13:8-",
-                "audioQS": "Ps.55,Job.31,Rom.13"
+                "audioQS": "Ps.55,Job.31,Rom.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13305,7 +14533,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+69%3B+Judges+11:29-%3B+Luke+17:1-10",
-                "audioQS": "Ps.69,Judg.11,Luke.17"
+                "audioQS": "Ps.69,Judg.11,Luke.17",
+                "note": null
             }
         ]
     },
@@ -13315,6 +14544,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13335,10 +14565,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+76%3B+Job+32%3B+Romans+14:1-12",
-                "audioQS": "Ps.76,Job.32,Rom.14"
+                "audioQS": "Ps.76,Job.32,Rom.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13359,7 +14591,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84%3B+Judges+12:1-7%3B+Luke+17:11-19",
-                "audioQS": "Ps.84,Judg.12,Luke.17"
+                "audioQS": "Ps.84,Judg.12,Luke.17",
+                "note": null
             }
         ]
     },
@@ -13369,6 +14602,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -13394,10 +14628,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25:1-10%3B+Deuteronomy+30:9-14%3B+Colossians+1:1-14%3B+Luke+10:25-37",
-                "audioQS": "Ps.25,Deut.30,Col.1,Luke.10"
+                "audioQS": "Ps.25,Deut.30,Col.1,Luke.10",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -13423,10 +14659,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+82%3B+Amos+7:7-17%3B+Colossians+1:1-14%3B+Luke+10:25-37",
-                "audioQS": "Ps.82,Amos.7,Col.1,Luke.10"
+                "audioQS": "Ps.82,Amos.7,Col.1,Luke.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13447,10 +14685,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+76%3B+Deuteronomy+28:1-14%3B+Acts+28:17-31",
-                "audioQS": "Ps.76,Deut.28,Acts.28"
+                "audioQS": "Ps.76,Deut.28,Acts.28",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13471,7 +14711,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Genesis+32:9-30%3B+Mark+7:1-23",
-                "audioQS": "Ps.77,Gen.32,Mark.7"
+                "audioQS": "Ps.77,Gen.32,Mark.7",
+                "note": null
             }
         ]
     },
@@ -13481,6 +14722,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13501,10 +14743,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Job+33%3B+Romans+14:13-",
-                "audioQS": "Ps.80,Job.33,Rom.14"
+                "audioQS": "Ps.80,Job.33,Rom.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13525,7 +14769,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+Judges+13:1-24%3B+Luke+17:20-",
-                "audioQS": "Ps.85,Judg.13,Luke.17"
+                "audioQS": "Ps.85,Judg.13,Luke.17",
+                "note": null
             }
         ]
     },
@@ -13535,6 +14780,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13555,10 +14801,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-18%3B+Job+38%3B+Romans+15:1-13",
-                "audioQS": "Ps.89,Job.38,Rom.15"
+                "audioQS": "Ps.89,Job.38,Rom.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13579,7 +14827,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:19-%3B+Judges+14%3B+Luke+18:1-14",
-                "audioQS": "Ps.89,Judg.14,Luke.18"
+                "audioQS": "Ps.89,Judg.14,Luke.18",
+                "note": null
             }
         ]
     },
@@ -13589,6 +14838,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13609,10 +14859,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:105-128%3B+Job+39%3B+Romans+15:14-21",
-                "audioQS": "Ps.119,Job.39,Rom.15"
+                "audioQS": "Ps.119,Job.39,Rom.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13633,7 +14885,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91%3B+Judges+15:1-16:3%3B+Luke+18:15-30",
-                "audioQS": "Ps.91,Judg.15,Luke.18"
+                "audioQS": "Ps.91,Judg.15,Luke.18",
+                "note": null
             }
         ]
     },
@@ -13643,6 +14896,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13663,10 +14917,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+92%3B+Job+40%3B+Romans+15:22-",
-                "audioQS": "Ps.92,Job.40,Rom.15"
+                "audioQS": "Ps.92,Job.40,Rom.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13687,7 +14943,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+94%3B+Judges+16:4-%3B+Luke+18:31-",
-                "audioQS": "Ps.94,Judg.16,Luke.18"
+                "audioQS": "Ps.94,Judg.16,Luke.18",
+                "note": null
             }
         ]
     },
@@ -13697,6 +14954,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13717,10 +14975,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+88%3B+Job+41%3B+Romans+16:1-16",
-                "audioQS": "Ps.88,Job.41,Rom.16"
+                "audioQS": "Ps.88,Job.41,Rom.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13741,7 +15001,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+102%3B+Judges+17%3B+Luke+19:1-10",
-                "audioQS": "Ps.102,Judg.17,Luke.19"
+                "audioQS": "Ps.102,Judg.17,Luke.19",
+                "note": null
             }
         ]
     },
@@ -13751,6 +15012,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13771,10 +15033,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Job+42%3B+Romans+16:17-",
-                "audioQS": "Ps.97,Job.42,Rom.16"
+                "audioQS": "Ps.97,Job.42,Rom.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13795,7 +15059,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+104%3B+Judges+18:1-20,18:27-%3B+Luke+19:11-27",
-                "audioQS": "Ps.104,Judg.18,Luke.19"
+                "audioQS": "Ps.104,Judg.18,Luke.19",
+                "note": null
             }
         ]
     },
@@ -13805,6 +15070,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -13830,10 +15096,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15%3B+Genesis+18:1-10a%3B+Colossians+1:15-28%3B+Luke+10:38-42",
-                "audioQS": "Ps.15,Gen.18,Col.1,Luke.10"
+                "audioQS": "Ps.15,Gen.18,Col.1,Luke.10",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -13859,10 +15127,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+52%3B+Amos+8:1-12%3B+Colossians+1:15-28%3B+Luke+10:38-42",
-                "audioQS": "Ps.52,Amos.8,Col.1,Luke.10"
+                "audioQS": "Ps.52,Amos.8,Col.1,Luke.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13883,10 +15153,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+82,100%3B+Deuteronomy+30:1-10%3B+1+Peter+3:8-18",
-                "audioQS": "Ps.82,100,Deut.30,1Pet.3"
+                "audioQS": "Ps.82,100,Deut.30,1Pet.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13907,7 +15179,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+81%3B+Genesis+41:1-16,25-37%3B+1+Corinthians+4:8-13",
-                "audioQS": "Ps.81,Gen.41,1Cor.4"
+                "audioQS": "Ps.81,Gen.41,1Cor.4",
+                "note": null
             }
         ]
     },
@@ -13917,6 +15190,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13937,10 +15211,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98%3B+Ezekiel+1:1-14%3B+2+Corinthians+1:1-14",
-                "audioQS": "Ps.98,Ezek.1,2Cor.1"
+                "audioQS": "Ps.98,Ezek.1,2Cor.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Mary Magdalene)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -13961,7 +15237,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139%3B+Isaiah+25:1-9%3B+2+Corinthians+1:3-7",
-                "audioQS": "Ps.139,Isa.25,2Cor.1"
+                "audioQS": "Ps.139,Isa.25,2Cor.1",
+                "note": null
             }
         ]
     },
@@ -13971,6 +15248,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -13991,10 +15269,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30,32,150%3B+1+Samuel+16:14-23%3B+Luke+8:1-3",
-                "audioQS": "Ps.30,32,150,1Sam.16,Luke.8"
+                "audioQS": "Ps.30,32,150,1Sam.16,Luke.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14015,7 +15295,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+63%3B+Zephaniah+3:14-20%3B+Mark+15:40-,16:1-7",
-                "audioQS": "Ps.63,Zeph.3,Mark.15"
+                "audioQS": "Ps.63,Zeph.3,Mark.15",
+                "note": null
             }
         ]
     },
@@ -14025,6 +15306,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14045,10 +15327,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111%3B+Ezekiel+2:3-3:11%3B+2+Corinthians+2:5-",
-                "audioQS": "Ps.111,Ezek.2,2Cor.2"
+                "audioQS": "Ps.111,Ezek.2,2Cor.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14069,7 +15353,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:129-152%3B+1+Samuel+2:12-26%3B+Luke+20:1-8",
-                "audioQS": "Ps.119,1Sam.2,Luke.20"
+                "audioQS": "Ps.119,1Sam.2,Luke.20",
+                "note": null
             }
         ]
     },
@@ -14079,6 +15364,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14099,10 +15385,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+115%3B+Ezekiel+3:12-%3B+2+Corinthians+3",
-                "audioQS": "Ps.115,Ezek.3,2Cor.3"
+                "audioQS": "Ps.115,Ezek.3,2Cor.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St James)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14123,7 +15411,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Deuteronomy+30:11-20%3B+Mark+5:21-43",
-                "audioQS": "Ps.144,Deut.30,Mark.5"
+                "audioQS": "Ps.144,Deut.30,Mark.5",
+                "note": null
             }
         ]
     },
@@ -14133,6 +15422,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14153,10 +15443,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+7,29,117%3B+2+Kings+1:9-15%3B+Luke+9:46-56",
-                "audioQS": "Ps.7,29,117,2Kgs.1,Luke.9"
+                "audioQS": "Ps.7,29,117,2Kgs.1,Luke.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14177,7 +15469,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+94%3B+Jeremiah+26:1-15%3B+Mark+1:14-20",
-                "audioQS": "Ps.94,Jer.26,Mark.1"
+                "audioQS": "Ps.94,Jer.26,Mark.1",
+                "note": null
             }
         ]
     },
@@ -14187,6 +15480,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14207,10 +15501,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+121%3B+Ezekiel+9%3B+2+Corinthians+5",
-                "audioQS": "Ps.121,Ezek.9,2Cor.5"
+                "audioQS": "Ps.121,Ezek.9,2Cor.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14231,7 +15527,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118%3B+1+Samuel+4:1b-%3B+Luke+20:27-40",
-                "audioQS": "Ps.118,1Sam.4,Luke.20"
+                "audioQS": "Ps.118,1Sam.4,Luke.20",
+                "note": null
             }
         ]
     },
@@ -14241,6 +15538,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -14266,10 +15564,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138%3B+Genesis+18:20-32%3B+Colossians+2:6-15,%2816-19%29%3B+Luke+11:1-13",
-                "audioQS": "Ps.138,Gen.18,Col.2,Luke.11"
+                "audioQS": "Ps.138,Gen.18,Col.2,Luke.11",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -14295,10 +15595,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+Hosea+1:2-10%3B+Colossians+2:6-15,%2816-19%29%3B+Luke+11:1-13",
-                "audioQS": "Ps.85,Hos.1,Col.2,Luke.11"
+                "audioQS": "Ps.85,Hos.1,Col.2,Luke.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14319,10 +15621,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+95%3B+Song+of+Solomon+2%3B+1+Peter+4:7-14",
-                "audioQS": "Ps.95,Song.2,1Pet.4"
+                "audioQS": "Ps.95,Song.2,1Pet.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14343,7 +15647,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+88%3B+Genesis+42:1-25%3B+1+Corinthians+10:1-24",
-                "audioQS": "Ps.88,Gen.42,1Cor.10"
+                "audioQS": "Ps.88,Gen.42,1Cor.10",
+                "note": null
             }
         ]
     },
@@ -14353,6 +15658,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14373,10 +15679,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+126%3B+Ezekiel+10:1-19%3B+2+Corinthians+6:1-7:1",
-                "audioQS": "Ps.126,Ezek.10,2Cor.6"
+                "audioQS": "Ps.126,Ezek.10,2Cor.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14397,7 +15705,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+127%3B+1+Samuel+5%3B+Luke+20:41-21:4",
-                "audioQS": "Ps.127,1Sam.5,Luke.20"
+                "audioQS": "Ps.127,1Sam.5,Luke.20",
+                "note": null
             }
         ]
     },
@@ -14407,6 +15716,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14427,10 +15737,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Ezekiel+11:14-%3B+2+Corinthians+7:2-",
-                "audioQS": "Ps.132,Ezek.11,2Cor.7"
+                "audioQS": "Ps.132,Ezek.11,2Cor.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14451,7 +15763,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+135%3B+1+Samuel+6:1-16%3B+Luke+21:5-19",
-                "audioQS": "Ps.135,1Sam.6,Luke.21"
+                "audioQS": "Ps.135,1Sam.6,Luke.21",
+                "note": null
             }
         ]
     },
@@ -14461,6 +15774,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14481,10 +15795,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:153-%3B+Ezekiel+12:1-16%3B+2+Corinthians+8:1-15",
-                "audioQS": "Ps.119,Ezek.12,2Cor.8"
+                "audioQS": "Ps.119,Ezek.12,2Cor.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14505,7 +15821,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+136%3B+1+Samuel+7%3B+Luke+21:20-28",
-                "audioQS": "Ps.136,1Sam.7,Luke.21"
+                "audioQS": "Ps.136,1Sam.7,Luke.21",
+                "note": null
             }
         ]
     },
@@ -14515,6 +15832,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14535,10 +15853,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+143%3B+Ezekiel+12:17-%3B+2+Corinthians+8:16-9:5",
-                "audioQS": "Ps.143,Ezek.12,2Cor.8"
+                "audioQS": "Ps.143,Ezek.12,2Cor.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14559,7 +15879,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138%3B+1+Samuel+8%3B+Luke+21:29-",
-                "audioQS": "Ps.138,1Sam.8,Luke.21"
+                "audioQS": "Ps.138,1Sam.8,Luke.21",
+                "note": null
             }
         ]
     },
@@ -14569,6 +15890,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14589,10 +15911,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Ezekiel+13:1-16%3B+2+Corinthians+9:6-",
-                "audioQS": "Ps.144,Ezek.13,2Cor.9"
+                "audioQS": "Ps.144,Ezek.13,2Cor.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14613,7 +15937,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+1+Samuel+9:1-14%3B+Luke+22:1-13",
-                "audioQS": "Ps.145,1Sam.9,Luke.22"
+                "audioQS": "Ps.145,1Sam.9,Luke.22",
+                "note": null
             }
         ]
     },
@@ -14623,6 +15948,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14643,10 +15969,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Ezekiel+14:1-11%3B+2+Corinthians+10",
-                "audioQS": "Ps.147,Ezek.14,2Cor.10"
+                "audioQS": "Ps.147,Ezek.14,2Cor.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14667,7 +15995,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+148%3B+1+Samuel+9:15-10:1%3B+Luke+22:14-23",
-                "audioQS": "Ps.148,1Sam.9,Luke.22"
+                "audioQS": "Ps.148,1Sam.9,Luke.22",
+                "note": null
             }
         ]
     },
@@ -14677,6 +16006,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -14702,10 +16032,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+49:1-12%3B+Ecclesiastes+1:2,12-14,2:18-23%3B+Colossians+3:1-11%3B+Luke+12:13-21",
-                "audioQS": "Ps.49,Eccl.1,Col.3,Luke.12"
+                "audioQS": "Ps.49,Eccl.1,Col.3,Luke.12",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -14731,10 +16063,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+107:1-9,43%3B+Hosea+11:1-11%3B+Colossians+3:1-11%3B+Luke+12:13-21",
-                "audioQS": "Ps.107,Hos.11,Col.3,Luke.12"
+                "audioQS": "Ps.107,Hos.11,Col.3,Luke.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14755,10 +16089,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+106:1-10%3B+Song+of+Solomon+5:2-16%3B+2+Peter+1:1-15",
-                "audioQS": "Ps.106,Song.5,2Pet.1"
+                "audioQS": "Ps.106,Song.5,2Pet.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14779,7 +16115,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+107:1-32%3B+Genesis+50:4-26%3B+1+Corinthians+14:1-19",
-                "audioQS": "Ps.107,Gen.50,1Cor.14"
+                "audioQS": "Ps.107,Gen.50,1Cor.14",
+                "note": null
             }
         ]
     },
@@ -14789,6 +16126,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14809,10 +16147,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1%3B+Ezekiel+14:12-%3B+2+Corinthians+11:1-15",
-                "audioQS": "Ps.1,Ezek.14,2Cor.11"
+                "audioQS": "Ps.1,Ezek.14,2Cor.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14833,7 +16173,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+4%3B+1+Samuel+10:1-16%3B+Luke+22:24-30",
-                "audioQS": "Ps.4,1Sam.10,Luke.22"
+                "audioQS": "Ps.4,1Sam.10,Luke.22",
+                "note": null
             }
         ]
     },
@@ -14843,6 +16184,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14863,10 +16205,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+5%3B+Ezekiel+18:1-20%3B+2+Corinthians+11:16-",
-                "audioQS": "Ps.5,Ezek.18,2Cor.11"
+                "audioQS": "Ps.5,Ezek.18,2Cor.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Transfiguration)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14887,7 +16231,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+99,110%3B+Exodus+24:12-18%3B+John+12:27-36a",
-                "audioQS": "Ps.99,110,Exod.24,John.12"
+                "audioQS": "Ps.99,110,Exod.24,John.12",
+                "note": null
             }
         ]
     },
@@ -14897,6 +16242,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14917,10 +16263,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27,150%3B+1+Kings+19:1-16%3B+1+John+3:1-3",
-                "audioQS": "Ps.27,150,1Kgs.19,1John.3"
+                "audioQS": "Ps.27,150,1Kgs.19,1John.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14941,7 +16289,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+Exodus+34:29-35%3B+2+Corinthians+3",
-                "audioQS": "Ps.72,Exod.34,2Cor.3"
+                "audioQS": "Ps.72,Exod.34,2Cor.3",
+                "note": null
             }
         ]
     },
@@ -14951,6 +16300,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -14971,10 +16321,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15%3B+Ezekiel+20:1-20%3B+2+Corinthians+13",
-                "audioQS": "Ps.15,Ezek.20,2Cor.13"
+                "audioQS": "Ps.15,Ezek.20,2Cor.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -14995,7 +16347,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+18%3B+1+Samuel+12%3B+Luke+22:47-62",
-                "audioQS": "Ps.18,1Sam.12,Luke.22"
+                "audioQS": "Ps.18,1Sam.12,Luke.22",
+                "note": null
             }
         ]
     },
@@ -15005,6 +16358,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15025,10 +16379,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+19%3B+Ezekiel+20:21-38%3B+James+1:1-11",
-                "audioQS": "Ps.19,Ezek.20,Jas.1"
+                "audioQS": "Ps.19,Ezek.20,Jas.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15049,7 +16405,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+1+Samuel+13:5-18%3B+Luke+22:63-",
-                "audioQS": "Ps.22,1Sam.13,Luke.22"
+                "audioQS": "Ps.22,1Sam.13,Luke.22",
+                "note": null
             }
         ]
     },
@@ -15059,6 +16416,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15079,10 +16437,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+Ezekiel+24:15-%3B+James+1:12-",
-                "audioQS": "Ps.23,Ezek.24,Jas.1"
+                "audioQS": "Ps.23,Ezek.24,Jas.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15103,7 +16463,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+24%3B+1+Samuel+13:19-14:15%3B+Luke+23:1-12",
-                "audioQS": "Ps.24,1Sam.13,Luke.23"
+                "audioQS": "Ps.24,1Sam.13,Luke.23",
+                "note": null
             }
         ]
     },
@@ -15113,6 +16474,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -15138,10 +16500,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33:12-22%3B+Genesis+15:1-6%3B+Hebrews+11:1-3,8-16%3B+Luke+12:32-40",
-                "audioQS": "Ps.33,Gen.15,Heb.11,Luke.12"
+                "audioQS": "Ps.33,Gen.15,Heb.11,Luke.12",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -15167,10 +16531,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50:1-8,23-24%3B+Isaiah+1:1,10-20%3B+Hebrews+11:1-3,8-16%3B+Luke+12:32-40",
-                "audioQS": "Ps.50,Isa.1,Heb.11,Luke.12"
+                "audioQS": "Ps.50,Isa.1,Heb.11,Luke.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15191,10 +16557,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+115%3B+Song+of+Solomon+8:5-7%3B+2+Peter+3:8-13",
-                "audioQS": "Ps.115,Song.8,2Pet.3"
+                "audioQS": "Ps.115,Song.8,2Pet.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15215,7 +16583,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+108%3B+Isaiah+11:10-12:6%3B+2+Corinthians+1:1-22",
-                "audioQS": "Ps.108,Isa.11,2Cor.1"
+                "audioQS": "Ps.108,Isa.11,2Cor.1",
+                "note": null
             }
         ]
     },
@@ -15225,6 +16594,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15245,10 +16615,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+30%3B+Ezekiel+28:1-19%3B+James+2:1-13",
-                "audioQS": "Ps.30,Ezek.28,Jas.2"
+                "audioQS": "Ps.30,Ezek.28,Jas.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15269,7 +16641,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+28%3B+1+Samuel+14:24-46%3B+Luke+23:13-25",
-                "audioQS": "Ps.28,1Sam.14,Luke.23"
+                "audioQS": "Ps.28,1Sam.14,Luke.23",
+                "note": null
             }
         ]
     },
@@ -15279,6 +16652,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15299,10 +16673,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36%3B+Ezekiel+33:1-20%3B+James+2:14-",
-                "audioQS": "Ps.36,Ezek.33,Jas.2"
+                "audioQS": "Ps.36,Ezek.33,Jas.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15323,7 +16699,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+1+Samuel+15:1-23%3B+Luke+23:26-43",
-                "audioQS": "Ps.33,1Sam.15,Luke.23"
+                "audioQS": "Ps.33,1Sam.15,Luke.23",
+                "note": null
             }
         ]
     },
@@ -15333,6 +16710,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15353,10 +16731,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Ezekiel+33:21-%3B+James+3",
-                "audioQS": "Ps.34,Ezek.33,Jas.3"
+                "audioQS": "Ps.34,Ezek.33,Jas.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15377,7 +16757,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:33-56%3B+1+Samuel+16%3B+Luke+23:44-56a",
-                "audioQS": "Ps.119,1Sam.16,Luke.23"
+                "audioQS": "Ps.119,1Sam.16,Luke.23",
+                "note": null
             }
         ]
     },
@@ -15387,6 +16768,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15407,10 +16789,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+37%3B+Ezekiel+34:1-16%3B+James+4:1-12",
-                "audioQS": "Ps.37,Ezek.34,Jas.4"
+                "audioQS": "Ps.37,Ezek.34,Jas.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of the Blessed Virgin Mary)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15431,7 +16815,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+Proverbs+8:22-31%3B+John+19:23-27",
-                "audioQS": "Ps.72,Prov.8,John.19"
+                "audioQS": "Ps.72,Prov.8,John.19",
+                "note": null
             }
         ]
     },
@@ -15441,6 +16826,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15461,10 +16847,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98,138,147:1-11%3B+Isaiah+7:10-15%3B+Luke+11:27-28",
-                "audioQS": "Ps.98,138,147,Isa.7,Luke.11"
+                "audioQS": "Ps.98,138,147,Isa.7,Luke.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15485,7 +16873,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Song+of+Solomon+2:1-7%3B+Acts+1:6-14",
-                "audioQS": "Ps.132,Song.2,Acts.1"
+                "audioQS": "Ps.132,Song.2,Acts.1",
+                "note": null
             }
         ]
     },
@@ -15495,6 +16884,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15515,10 +16905,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42%3B+Ezekiel+36:16-36%3B+James+5:7-",
-                "audioQS": "Ps.42,Ezek.36,Jas.5"
+                "audioQS": "Ps.42,Ezek.36,Jas.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15539,7 +16931,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+1+Samuel+17:55-18:16%3B+Luke+24:36-",
-                "audioQS": "Ps.46,1Sam.17,Luke.24"
+                "audioQS": "Ps.46,1Sam.17,Luke.24",
+                "note": null
             }
         ]
     },
@@ -15549,6 +16942,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -15574,10 +16968,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+82%3B+Jeremiah+23:23-29%3B+Hebrews+11:29-12:2%3B+Luke+12:49-56",
-                "audioQS": "Ps.82,Jer.23,Heb.11,Luke.12"
+                "audioQS": "Ps.82,Jer.23,Heb.11,Luke.12",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -15603,10 +16999,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80:1-2,9-20%3B+Isaiah+5:1-7%3B+Hebrews+11:29-12:2%3B+Luke+12:49-56",
-                "audioQS": "Ps.80,Isa.5,Heb.11,Luke.12"
+                "audioQS": "Ps.80,Isa.5,Heb.11,Luke.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15627,10 +17025,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:33-48%3B+Jonah+1%3B+2+Peter+3:14-18",
-                "audioQS": "Ps.119,Jonah.1,2Pet.3"
+                "audioQS": "Ps.119,Jonah.1,2Pet.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15651,7 +17051,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:17-32%3B+Isaiah+28:9-22%3B+2+Corinthians+8:1-9",
-                "audioQS": "Ps.119,Isa.28,2Cor.8"
+                "audioQS": "Ps.119,Isa.28,2Cor.8",
+                "note": null
             }
         ]
     },
@@ -15661,6 +17062,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15681,10 +17083,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Ezekiel+37:1-14%3B+Mark+1:1-13",
-                "audioQS": "Ps.44,Ezek.37,Mark.1"
+                "audioQS": "Ps.44,Ezek.37,Mark.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15705,7 +17109,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+1+Samuel+19:1-18%3B+Acts+1:1-14",
-                "audioQS": "Ps.47,1Sam.19,Acts.1"
+                "audioQS": "Ps.47,1Sam.19,Acts.1",
+                "note": null
             }
         ]
     },
@@ -15715,6 +17120,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15735,10 +17141,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48%3B+Ezekiel+37:15-%3B+Mark+1:14-20",
-                "audioQS": "Ps.48,Ezek.37,Mark.1"
+                "audioQS": "Ps.48,Ezek.37,Mark.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15759,7 +17167,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+1+Samuel+20:1-17%3B+Acts+1:15-",
-                "audioQS": "Ps.50,1Sam.20,Acts.1"
+                "audioQS": "Ps.50,1Sam.20,Acts.1",
+                "note": null
             }
         ]
     },
@@ -15769,6 +17178,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15789,10 +17199,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:57-80%3B+Ezekiel+39:21-%3B+Mark+1:21-28",
-                "audioQS": "Ps.119,Ezek.39,Mark.1"
+                "audioQS": "Ps.119,Ezek.39,Mark.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15813,7 +17225,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+59%3B+1+Samuel+20:18-%3B+Acts+2:1-21",
-                "audioQS": "Ps.59,1Sam.20,Acts.2"
+                "audioQS": "Ps.59,1Sam.20,Acts.2",
+                "note": null
             }
         ]
     },
@@ -15823,6 +17236,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15843,10 +17257,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+57%3B+Ezekiel+43:1-12%3B+Mark+1:29-",
-                "audioQS": "Ps.57,Ezek.43,Mark.1"
+                "audioQS": "Ps.57,Ezek.43,Mark.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15867,7 +17283,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+62%3B+1+Samuel+21:1-22:5%3B+Acts+2:22-36",
-                "audioQS": "Ps.62,1Sam.21,Acts.2"
+                "audioQS": "Ps.62,1Sam.21,Acts.2",
+                "note": null
             }
         ]
     },
@@ -15877,6 +17294,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15897,10 +17315,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+51%3B+Ezekiel+44:4-16%3B+Mark+2:1-12",
-                "audioQS": "Ps.51,Ezek.44,Mark.2"
+                "audioQS": "Ps.51,Ezek.44,Mark.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15921,7 +17341,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+38%3B+1+Samuel+22:6-%3B+Acts+2:37-",
-                "audioQS": "Ps.38,1Sam.22,Acts.2"
+                "audioQS": "Ps.38,1Sam.22,Acts.2",
+                "note": null
             }
         ]
     },
@@ -15931,6 +17352,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -15951,10 +17373,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+Ezekiel+47:1-12%3B+Mark+2:13-22",
-                "audioQS": "Ps.68,Ezek.47,Mark.2"
+                "audioQS": "Ps.68,Ezek.47,Mark.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Bartholomew)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -15975,7 +17399,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Isaiah+61:1-9%3B+2+Corinthians+6:1-10",
-                "audioQS": "Ps.97,Isa.61,2Cor.6"
+                "audioQS": "Ps.97,Isa.61,2Cor.6",
+                "note": null
             }
         ]
     },
@@ -15985,6 +17410,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -16010,10 +17436,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+103:1-8%3B+Isaiah+58:9b-14%3B+Hebrews+12:18-29%3B+Luke+13:10-17",
-                "audioQS": "Ps.103,Isa.58,Heb.12,Luke.13"
+                "audioQS": "Ps.103,Isa.58,Heb.12,Luke.13",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -16039,10 +17467,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71:1-6%3B+Jeremiah+1:4-10%3B+Hebrews+12:18-29%3B+Luke+13:10-17",
-                "audioQS": "Ps.71,Jer.1,Heb.12,Luke.13"
+                "audioQS": "Ps.71,Jer.1,Heb.12,Luke.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16063,10 +17493,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+86,117%3B+Genesis+28:10-17%3B+John+1:43-51",
-                "audioQS": "Ps.86,117,Gen.28,John.1"
+                "audioQS": "Ps.86,117,Gen.28,John.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16087,7 +17519,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91,116%3B+Deuteronomy+18:15-19%3B+Matthew+10:1-22",
-                "audioQS": "Ps.91,116,Deut.18,Matt.10"
+                "audioQS": "Ps.91,116,Deut.18,Matt.10",
+                "note": null
             }
         ]
     },
@@ -16097,6 +17530,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16117,10 +17551,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Proverbs+1:1-19%3B+Mark+2:23-3:6",
-                "audioQS": "Ps.71,Prov.1,Mark.2"
+                "audioQS": "Ps.71,Prov.1,Mark.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16141,7 +17577,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+1+Samuel+24%3B+Acts+3:11-",
-                "audioQS": "Ps.72,1Sam.24,Acts.3"
+                "audioQS": "Ps.72,1Sam.24,Acts.3",
+                "note": null
             }
         ]
     },
@@ -16151,6 +17588,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16171,10 +17609,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Proverbs+1:20-%3B+Mark+3:7-19a",
-                "audioQS": "Ps.73,Prov.1,Mark.3"
+                "audioQS": "Ps.73,Prov.1,Mark.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16195,7 +17635,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+1+Samuel+26%3B+Acts+4:1-12",
-                "audioQS": "Ps.74,1Sam.26,Acts.4"
+                "audioQS": "Ps.74,1Sam.26,Acts.4",
+                "note": null
             }
         ]
     },
@@ -16205,6 +17646,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16225,10 +17667,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Proverbs+2%3B+Mark+3:19b-",
-                "audioQS": "Ps.77,Prov.2,Mark.3"
+                "audioQS": "Ps.77,Prov.2,Mark.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16249,7 +17693,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:81-104%3B+1+Samuel+28:3-%3B+Acts+4:13-31",
-                "audioQS": "Ps.119,1Sam.28,Acts.4"
+                "audioQS": "Ps.119,1Sam.28,Acts.4",
+                "note": null
             }
         ]
     },
@@ -16259,6 +17704,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16279,10 +17725,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:1-39%3B+Proverbs+3:1-26%3B+Mark+4:1-20",
-                "audioQS": "Ps.78,Prov.3,Mark.4"
+                "audioQS": "Ps.78,Prov.3,Mark.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16303,7 +17751,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:40-%3B+1+Samuel+31%3B+Acts+4:32-5:11",
-                "audioQS": "Ps.78,1Sam.31,Acts.4"
+                "audioQS": "Ps.78,1Sam.31,Acts.4",
+                "note": null
             }
         ]
     },
@@ -16313,6 +17762,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16333,10 +17783,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55%3B+Proverbs+3:27-4:19%3B+Mark+4:21-34",
-                "audioQS": "Ps.55,Prov.3,Mark.4"
+                "audioQS": "Ps.55,Prov.3,Mark.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16357,7 +17809,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+69%3B+2+Samuel+1%3B+Acts+5:12-26",
-                "audioQS": "Ps.69,2Sam.1,Acts.5"
+                "audioQS": "Ps.69,2Sam.1,Acts.5",
+                "note": null
             }
         ]
     },
@@ -16367,6 +17820,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16387,10 +17841,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+76%3B+Proverbs+6:1-19%3B+Mark+4:35-",
-                "audioQS": "Ps.76,Prov.6,Mark.4"
+                "audioQS": "Ps.76,Prov.6,Mark.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16411,7 +17867,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84%3B+2+Samuel+2:1-11%3B+Acts+5:27-",
-                "audioQS": "Ps.84,2Sam.2,Acts.5"
+                "audioQS": "Ps.84,2Sam.2,Acts.5",
+                "note": null
             }
         ]
     },
@@ -16421,6 +17878,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -16446,10 +17904,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+112%3B+Proverbs+25:6-7%3B+Hebrews+13:1-8,15-16%3B+Luke+14:1",
-                "audioQS": "Ps.112,Prov.25,Heb.13,Luke.14"
+                "audioQS": "Ps.112,Prov.25,Heb.13,Luke.14",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -16475,10 +17935,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+81:1,10-16%3B+Jeremiah+2:4-13%3B+Hebrews+13:1-8,15-16%3B+Luke+14:1,7-14",
-                "audioQS": "Ps.81,Jer.2,Heb.13,Luke.14"
+                "audioQS": "Ps.81,Jer.2,Heb.13,Luke.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16499,10 +17961,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:161-176%3B+Jonah+3:1-9%3B+Revelation+3:14-22",
-                "audioQS": "Ps.119,Jonah.3,Rev.3"
+                "audioQS": "Ps.119,Jonah.3,Rev.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16523,7 +17987,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:81-96%3B+Isaiah+33:13-22%3B+John+3:22-36",
-                "audioQS": "Ps.119,Isa.33,John.3"
+                "audioQS": "Ps.119,Isa.33,John.3",
+                "note": null
             }
         ]
     },
@@ -16533,6 +17998,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16553,10 +18019,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Proverbs+8:1-21%3B+Mark+5:1-20",
-                "audioQS": "Ps.80,Prov.8,Mark.5"
+                "audioQS": "Ps.80,Prov.8,Mark.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16577,7 +18045,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+2+Samuel+3:12-%3B+Acts+6",
-                "audioQS": "Ps.85,2Sam.3,Acts.6"
+                "audioQS": "Ps.85,2Sam.3,Acts.6",
+                "note": null
             }
         ]
     },
@@ -16587,6 +18056,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16607,10 +18077,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-18%3B+Proverbs+8:22-%3B+Mark+5:21-34",
-                "audioQS": "Ps.89,Prov.8,Mark.5"
+                "audioQS": "Ps.89,Prov.8,Mark.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16631,7 +18103,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:19-%3B+2+Samuel+5:1-12%3B+Acts+7:1-16",
-                "audioQS": "Ps.89,2Sam.5,Acts.7"
+                "audioQS": "Ps.89,2Sam.5,Acts.7",
+                "note": null
             }
         ]
     },
@@ -16641,6 +18114,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16661,10 +18135,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:105-128%3B+Proverbs+9%3B+Mark+5:35-",
-                "audioQS": "Ps.119,Prov.9,Mark.5"
+                "audioQS": "Ps.119,Prov.9,Mark.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16685,7 +18161,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91%3B+2+Samuel+6:1-19%3B+Acts+7:17-43",
-                "audioQS": "Ps.91,2Sam.6,Acts.7"
+                "audioQS": "Ps.91,2Sam.6,Acts.7",
+                "note": null
             }
         ]
     },
@@ -16695,6 +18172,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16715,10 +18193,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+92%3B+Proverbs+10:1-12%3B+Mark+6:1-13",
-                "audioQS": "Ps.92,Prov.10,Mark.6"
+                "audioQS": "Ps.92,Prov.10,Mark.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16739,7 +18219,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+94%3B+2+Samuel+7:1-17%3B+Acts+7:44-53",
-                "audioQS": "Ps.94,2Sam.7,Acts.7"
+                "audioQS": "Ps.94,2Sam.7,Acts.7",
+                "note": null
             }
         ]
     },
@@ -16749,6 +18230,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16769,10 +18251,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+88%3B+Proverbs+11:1-12%3B+Mark+6:14-29",
-                "audioQS": "Ps.88,Prov.11,Mark.6"
+                "audioQS": "Ps.88,Prov.11,Mark.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16793,7 +18277,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+102%3B+2+Samuel+7:18-%3B+Acts+7:54-8:3",
-                "audioQS": "Ps.102,2Sam.7,Acts.7"
+                "audioQS": "Ps.102,2Sam.7,Acts.7",
+                "note": null
             }
         ]
     },
@@ -16803,6 +18288,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16823,10 +18309,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Proverbs+12:10-%3B+Mark+6:30-44",
-                "audioQS": "Ps.97,Prov.12,Mark.6"
+                "audioQS": "Ps.97,Prov.12,Mark.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16847,7 +18335,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+104%3B+2+Samuel+9%3B+Acts+8:4-25",
-                "audioQS": "Ps.104,2Sam.9,Acts.8"
+                "audioQS": "Ps.104,2Sam.9,Acts.8",
+                "note": null
             }
         ]
     },
@@ -16857,6 +18346,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -16882,10 +18372,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1%3B+Deuteronomy+30:15-20%3B+Philemon+1-21%3B+Luke+14:25-33",
-                "audioQS": "Ps.1,Deut.30,Phlm.1\u201321,Luke.14"
+                "audioQS": "Ps.1,Deut.30,Phlm.1\u201321,Luke.14",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -16911,10 +18403,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139:1-5,12-18%3B+Jeremiah+18:1-11%3B+Philemon+1-21%3B+Luke+14:25-33",
-                "audioQS": "Ps.139,Jer.18,Phlm.1\u201321,Luke.14"
+                "audioQS": "Ps.139,Jer.18,Phlm.1\u201321,Luke.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16935,10 +18429,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+122,123%3B+Jonah+3:10-4:11%3B+Revelation+8:1-5",
-                "audioQS": "Ps.122,123,Jonah.3,Rev.8"
+                "audioQS": "Ps.122,123,Jonah.3,Rev.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -16959,7 +18455,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+121%3B+Isaiah+43:14-44:5%3B+John+5:30-47",
-                "audioQS": "Ps.121,Isa.43,John.5"
+                "audioQS": "Ps.121,Isa.43,John.5",
+                "note": null
             }
         ]
     },
@@ -16969,6 +18466,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -16989,10 +18487,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98%3B+Proverbs+14:31-15:17%3B+Mark+6:45-",
-                "audioQS": "Ps.98,Prov.14,Mark.6"
+                "audioQS": "Ps.98,Prov.14,Mark.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17013,7 +18513,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+105%3B+2+Samuel+11%3B+Acts+8:26-",
-                "audioQS": "Ps.105,2Sam.11,Acts.8"
+                "audioQS": "Ps.105,2Sam.11,Acts.8",
+                "note": null
             }
         ]
     },
@@ -17023,6 +18524,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17043,10 +18545,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+106%3B+Proverbs+15:18-%3B+Mark+7:1-13",
-                "audioQS": "Ps.106,Prov.15,Mark.7"
+                "audioQS": "Ps.106,Prov.15,Mark.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17067,7 +18571,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+107%3B+2+Samuel+12:1-25%3B+Acts+9:1-19a",
-                "audioQS": "Ps.107,2Sam.12,Acts.9"
+                "audioQS": "Ps.107,2Sam.12,Acts.9",
+                "note": null
             }
         ]
     },
@@ -17077,6 +18582,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17097,10 +18603,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111%3B+Proverbs+18:10-%3B+Mark+7:14-23",
-                "audioQS": "Ps.111,Prov.18,Mark.7"
+                "audioQS": "Ps.111,Prov.18,Mark.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17121,7 +18629,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:129-152%3B+2+Samuel+15:1-12%3B+Acts+9:19b-31",
-                "audioQS": "Ps.119,2Sam.15,Acts.9"
+                "audioQS": "Ps.119,2Sam.15,Acts.9",
+                "note": null
             }
         ]
     },
@@ -17131,6 +18640,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17151,10 +18661,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+115%3B+Proverbs+20:1-22%3B+Mark+7:24-30",
-                "audioQS": "Ps.115,Prov.20,Mark.7"
+                "audioQS": "Ps.115,Prov.20,Mark.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17175,7 +18687,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+116%3B+2+Samuel+15:13-%3B+Acts+9:32-",
-                "audioQS": "Ps.116,2Sam.15,Acts.9"
+                "audioQS": "Ps.116,2Sam.15,Acts.9",
+                "note": null
             }
         ]
     },
@@ -17185,6 +18698,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17205,10 +18719,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139%3B+Proverbs+22:1-16%3B+Mark+7:31-",
-                "audioQS": "Ps.139,Prov.22,Mark.7"
+                "audioQS": "Ps.139,Prov.22,Mark.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17229,7 +18745,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+130%3B+2+Samuel+16:1-14%3B+Acts+10:1-16",
-                "audioQS": "Ps.130,2Sam.16,Acts.10"
+                "audioQS": "Ps.130,2Sam.16,Acts.10",
+                "note": null
             }
         ]
     },
@@ -17239,6 +18756,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17259,10 +18777,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+121%3B+Proverbs+24:23-%3B+Mark+8:1-10",
-                "audioQS": "Ps.121,Prov.24,Mark.8"
+                "audioQS": "Ps.121,Prov.24,Mark.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of Holy Cross Day)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17283,7 +18803,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66%3B+Isaiah+52:13-53:12%3B+Ephesians+2:11-22",
-                "audioQS": "Ps.66,Isa.52,Eph.2"
+                "audioQS": "Ps.66,Isa.52,Eph.2",
+                "note": null
             }
         ]
     },
@@ -17293,6 +18814,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -17318,10 +18840,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+51:1-11%3B+Exodus+32:7-14%3B+1+Timothy+1:12-17%3B+Luke+15:1-10",
-                "audioQS": "Ps.51,Exod.32,1Tim.1,Luke.15"
+                "audioQS": "Ps.51,Exod.32,1Tim.1,Luke.15",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -17347,10 +18871,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+14%3B+Jeremiah+4:11-12,22-28%3B+1+Timothy+1:12-17%3B+Luke+15:1-10",
-                "audioQS": "Ps.14,Jer.4,1Tim.1,Luke.15"
+                "audioQS": "Ps.14,Jer.4,1Tim.1,Luke.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17371,10 +18897,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+2,8,146%3B+Genesis+3:1-15%3B+John+12:27-36a",
-                "audioQS": "Ps.2,8,146,Gen.3,John.12"
+                "audioQS": "Ps.2,8,146,Gen.3,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17395,7 +18923,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+110,150%3B+Isaiah+63:1-16%3B+1+Corinthians+1:18-25",
-                "audioQS": "Ps.110,150,Isa.63,1Cor.1"
+                "audioQS": "Ps.110,150,Isa.63,1Cor.1",
+                "note": null
             }
         ]
     },
@@ -17405,6 +18934,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17425,10 +18955,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+126%3B+Proverbs+25:1-14%3B+Mark+8:11-21",
-                "audioQS": "Ps.126,Prov.25,Mark.8"
+                "audioQS": "Ps.126,Prov.25,Mark.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17449,7 +18981,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+127%3B+2+Samuel+18:1-18%3B+Acts+10:34-",
-                "audioQS": "Ps.127,2Sam.18,Acts.10"
+                "audioQS": "Ps.127,2Sam.18,Acts.10",
+                "note": null
             }
         ]
     },
@@ -17459,6 +18992,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17479,10 +19013,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Proverbs+25:15-%3B+Mark+8:22-26",
-                "audioQS": "Ps.132,Prov.25,Mark.8"
+                "audioQS": "Ps.132,Prov.25,Mark.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17503,7 +19039,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+135%3B+2+Samuel+18:19-19:8a%3B+Acts+11:1-18",
-                "audioQS": "Ps.135,2Sam.18,Acts.11"
+                "audioQS": "Ps.135,2Sam.18,Acts.11",
+                "note": null
             }
         ]
     },
@@ -17513,6 +19050,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17533,10 +19071,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:153-%3B+Proverbs+26:12-%3B+Mark+8:27-9:1",
-                "audioQS": "Ps.119,Prov.26,Mark.8"
+                "audioQS": "Ps.119,Prov.26,Mark.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17557,7 +19097,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+136%3B+2+Samuel+19:8b-23%3B+Acts+11:19-",
-                "audioQS": "Ps.136,2Sam.19,Acts.11"
+                "audioQS": "Ps.136,2Sam.19,Acts.11",
+                "note": null
             }
         ]
     },
@@ -17567,6 +19108,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17587,10 +19129,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+143%3B+Proverbs+27:1-22%3B+Mark+9:2-13",
-                "audioQS": "Ps.143,Prov.27,Mark.9"
+                "audioQS": "Ps.143,Prov.27,Mark.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17611,7 +19155,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138%3B+2+Samuel+19:24-%3B+Acts+12:1-17",
-                "audioQS": "Ps.138,2Sam.19,Acts.12"
+                "audioQS": "Ps.138,2Sam.19,Acts.12",
+                "note": null
             }
         ]
     },
@@ -17621,6 +19166,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17641,10 +19187,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Proverbs+30:1-9,30:24-31%3B+Mark+9:14-29",
-                "audioQS": "Ps.144,Prov.30,Mark.9"
+                "audioQS": "Ps.144,Prov.30,Mark.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17665,7 +19213,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+2+Samuel+23:1-7%3B+Acts+12:18-",
-                "audioQS": "Ps.145,2Sam.23,Acts.12"
+                "audioQS": "Ps.145,2Sam.23,Acts.12",
+                "note": null
             }
         ]
     },
@@ -17675,6 +19224,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17695,10 +19245,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Proverbs+31:10-%3B+Mark+9:30-37",
-                "audioQS": "Ps.147,Prov.31,Mark.9"
+                "audioQS": "Ps.147,Prov.31,Mark.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Matthew)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17719,7 +19271,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Isaiah+33:13-17%3B+Matthew+6:19-34",
-                "audioQS": "Ps.34,Isa.33,Matt.6"
+                "audioQS": "Ps.34,Isa.33,Matt.6",
+                "note": null
             }
         ]
     },
@@ -17729,6 +19282,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -17754,10 +19308,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+113%3B+Amos+8:4-7%3B+1+Timothy+2:1-7%3B+Luke+16:1-13",
-                "audioQS": "Ps.113,Amos.8,1Tim.2,Luke.16"
+                "audioQS": "Ps.113,Amos.8,1Tim.2,Luke.16",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -17783,10 +19339,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+79:1-9%3B+Jeremiah+8:18-9:1%3B+1+Timothy+2:1-7%3B+Luke+16:1-13",
-                "audioQS": "Ps.79,Jer.8,1Tim.2,Luke.16"
+                "audioQS": "Ps.79,Jer.8,1Tim.2,Luke.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17807,10 +19365,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+49,117%3B+1+Kings+19:15-21%3B+2+Timothy+3:14-17",
-                "audioQS": "Ps.49,117,1Kgs.19,2Tim.3"
+                "audioQS": "Ps.49,117,1Kgs.19,2Tim.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17831,7 +19391,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:33-40,119:89-96%3B+Ecclesiastes+5:4-12%3B+Matthew+19:16-30",
-                "audioQS": "Ps.119,Eccl.5,Matt.19"
+                "audioQS": "Ps.119,Eccl.5,Matt.19",
+                "note": null
             }
         ]
     },
@@ -17841,6 +19402,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17861,10 +19423,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1%3B+1+Chronicles+10:1-11:9%3B+Mark+9:38-",
-                "audioQS": "Ps.1,1Chr.10,Mark.9"
+                "audioQS": "Ps.1,1Chr.10,Mark.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17885,7 +19449,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+4%3B+1+Kings+1:5-31%3B+Acts+13:13-43",
-                "audioQS": "Ps.4,1Kgs.1,Acts.13"
+                "audioQS": "Ps.4,1Kgs.1,Acts.13",
+                "note": null
             }
         ]
     },
@@ -17895,6 +19460,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17915,10 +19481,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+5%3B+1+Chronicles+13%3B+Mark+10:1-16",
-                "audioQS": "Ps.5,1Chr.13,Mark.10"
+                "audioQS": "Ps.5,1Chr.13,Mark.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17939,7 +19507,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+1+Kings+1:32-2:4,2:10-12%3B+Acts+13:44-14:7",
-                "audioQS": "Ps.9,1Kgs.1,Acts.13"
+                "audioQS": "Ps.9,1Kgs.1,Acts.13",
+                "note": null
             }
         ]
     },
@@ -17949,6 +19518,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -17969,10 +19539,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:1-32%3B+1+Chronicles+15:1-16:3%3B+Mark+10:17-31",
-                "audioQS": "Ps.119,1Chr.15,Mark.10"
+                "audioQS": "Ps.119,1Chr.15,Mark.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -17993,7 +19565,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+11%3B+1+Kings+3%3B+Acts+14:8-",
-                "audioQS": "Ps.11,1Kgs.3,Acts.14"
+                "audioQS": "Ps.11,1Kgs.3,Acts.14",
+                "note": null
             }
         ]
     },
@@ -18003,6 +19576,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18023,10 +19597,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15%3B+1+Chronicles+17%3B+Mark+10:32-34",
-                "audioQS": "Ps.15,1Chr.17,Mark.10"
+                "audioQS": "Ps.15,1Chr.17,Mark.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18047,7 +19623,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+18%3B+1+Kings+4:29-5:12%3B+Acts+15:1-21",
-                "audioQS": "Ps.18,1Kgs.4,Acts.15"
+                "audioQS": "Ps.18,1Kgs.4,Acts.15",
+                "note": null
             }
         ]
     },
@@ -18057,6 +19634,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18077,10 +19655,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+19%3B+1+Chronicles+21:1-22:1%3B+Mark+10:35-45",
-                "audioQS": "Ps.19,1Chr.21,Mark.10"
+                "audioQS": "Ps.19,1Chr.21,Mark.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18101,7 +19681,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+22%3B+1+Kings+6:1,6:11-28%3B+Acts+15:22-35",
-                "audioQS": "Ps.22,1Kgs.6,Acts.15"
+                "audioQS": "Ps.22,1Kgs.6,Acts.15",
+                "note": null
             }
         ]
     },
@@ -18111,6 +19692,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18131,10 +19713,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+1+Chronicles+22:2-%3B+Mark+10:46-",
-                "audioQS": "Ps.23,1Chr.22,Mark.10"
+                "audioQS": "Ps.23,1Chr.22,Mark.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18155,7 +19739,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+24%3B+1+Kings+8:1-30%3B+Acts+15:36-16:5",
-                "audioQS": "Ps.24,1Kgs.8,Acts.15"
+                "audioQS": "Ps.24,1Kgs.8,Acts.15",
+                "note": null
             }
         ]
     },
@@ -18165,6 +19750,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -18190,10 +19776,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146%3B+Amos+6:1a,4-7%3B+1+Timothy+6:6-19%3B+Luke+16:19-31",
-                "audioQS": "Ps.146,Amos.6,1Tim.6,Luke.16"
+                "audioQS": "Ps.146,Amos.6,1Tim.6,Luke.16",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -18219,10 +19807,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91:1-6,14-16%3B+Jeremiah+32:1-3a,6-15%3B+1+Timothy+6:6-19%3B+Luke+16:19-31",
-                "audioQS": "Ps.91,Jer.32,1Tim.6,Luke.16"
+                "audioQS": "Ps.91,Jer.32,1Tim.6,Luke.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18243,10 +19833,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+Isaiah+48:12-22%3B+Luke+11:37-54",
-                "audioQS": "Ps.132,Isa.48,Luke.11"
+                "audioQS": "Ps.132,Isa.48,Luke.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of Michaelmas)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18267,7 +19859,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91%3B+2+Kings+6:8-17%3B+Matthew+18:1-6,10",
-                "audioQS": "Ps.91,2Kgs.6,Matt.18"
+                "audioQS": "Ps.91,2Kgs.6,Matt.18",
+                "note": null
             }
         ]
     },
@@ -18277,6 +19870,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18297,10 +19891,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34,150%3B+Daniel+12:1-4%3B+Acts+12:1-11",
-                "audioQS": "Ps.34,150,Dan.12,Acts.12"
+                "audioQS": "Ps.34,150,Dan.12,Acts.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18321,7 +19917,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+138,148%3B+Daniel+10:4-21%3B+Revelations+5",
-                "audioQS": "Ps.138,148,Dan.10,Revs.5"
+                "audioQS": "Ps.138,148,Dan.10,Revs.5",
+                "note": null
             }
         ]
     },
@@ -18331,6 +19928,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18351,10 +19949,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+36%3B+1+Chronicles+28:11-%3B+Mark+11:12-26",
-                "audioQS": "Ps.36,1Chr.28,Mark.11"
+                "audioQS": "Ps.36,1Chr.28,Mark.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18375,7 +19975,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+1+Kings+8:63-9:9%3B+Acts+16:25-",
-                "audioQS": "Ps.33,1Kgs.8,Acts.16"
+                "audioQS": "Ps.33,1Kgs.8,Acts.16",
+                "note": null
             }
         ]
     },
@@ -18385,6 +19986,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18405,10 +20007,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+1+Chronicles+29:1-9%3B+Mark+11:27-",
-                "audioQS": "Ps.34,1Chr.29,Mark.11"
+                "audioQS": "Ps.34,1Chr.29,Mark.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18429,7 +20033,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:33-56%3B+1+Kings+10:1-25%3B+Acts+17:1-15",
-                "audioQS": "Ps.119,1Kgs.10,Acts.17"
+                "audioQS": "Ps.119,1Kgs.10,Acts.17",
+                "note": null
             }
         ]
     },
@@ -18439,6 +20044,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18459,10 +20065,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+37%3B+1+Chronicles+29:10-20%3B+Mark+12:1-12",
-                "audioQS": "Ps.37,1Chr.29,Mark.12"
+                "audioQS": "Ps.37,1Chr.29,Mark.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18483,7 +20091,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+1+Kings+11:1-13%3B+Acts+17:16-",
-                "audioQS": "Ps.40,1Kgs.11,Acts.17"
+                "audioQS": "Ps.40,1Kgs.11,Acts.17",
+                "note": null
             }
         ]
     },
@@ -18493,6 +20102,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18513,10 +20123,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31%3B+1+Chronicles+29:21-%3B+Mark+12:13-17",
-                "audioQS": "Ps.31,1Chr.29,Mark.12"
+                "audioQS": "Ps.31,1Chr.29,Mark.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18537,7 +20149,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+35%3B+1+Kings+11:26-%3B+Acts+18:1-21",
-                "audioQS": "Ps.35,1Kgs.11,Acts.18"
+                "audioQS": "Ps.35,1Kgs.11,Acts.18",
+                "note": null
             }
         ]
     },
@@ -18547,6 +20160,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18567,10 +20181,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42%3B+2+Chronicles+1:1-13%3B+Mark+12:18-27",
-                "audioQS": "Ps.42,2Chr.1,Mark.12"
+                "audioQS": "Ps.42,2Chr.1,Mark.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18591,7 +20207,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+1+Kings+12:1-24%3B+Acts+18:22-19:7",
-                "audioQS": "Ps.46,1Kgs.12,Acts.18"
+                "audioQS": "Ps.46,1Kgs.12,Acts.18",
+                "note": null
             }
         ]
     },
@@ -18601,6 +20218,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -18626,10 +20244,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+37:1-9%3B+Habakkuk+1:1-4,2:1-4%3B+2+Timothy+1:1-14%3B+Luke+17:5-10",
-                "audioQS": "Ps.37,Hab.1,2Tim.1,Luke.17"
+                "audioQS": "Ps.37,Hab.1,2Tim.1,Luke.17",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -18655,10 +20275,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+137%3B+Lamentations+1:1-6%3B+2+Timothy+1:1-14%3B+Luke+17:5-10",
-                "audioQS": "Ps.137,Lam.1,2Tim.1,Luke.17"
+                "audioQS": "Ps.137,Lam.1,2Tim.1,Luke.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18679,10 +20301,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+141%3B+Isaiah+49:13-23%3B+Luke+12:1-12",
-                "audioQS": "Ps.141,Isa.49,Luke.12"
+                "audioQS": "Ps.141,Isa.49,Luke.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18703,7 +20327,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+142%3B+Nehemiah+5:1-13%3B+John+9",
-                "audioQS": "Ps.142,Neh.5,John.9"
+                "audioQS": "Ps.142,Neh.5,John.9",
+                "note": null
             }
         ]
     },
@@ -18713,6 +20338,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18733,10 +20359,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+2+Chronicles+2:1-16%3B+Mark+12:28-34",
-                "audioQS": "Ps.44,2Chr.2,Mark.12"
+                "audioQS": "Ps.44,2Chr.2,Mark.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18757,7 +20385,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+1+Kings+12:25-13:10%3B+Acts+19:8-20",
-                "audioQS": "Ps.47,1Kgs.12,Acts.19"
+                "audioQS": "Ps.47,1Kgs.12,Acts.19",
+                "note": null
             }
         ]
     },
@@ -18767,6 +20396,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18787,10 +20417,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48%3B+2+Chronicles+3%3B+Mark+12:35-",
-                "audioQS": "Ps.48,2Chr.3,Mark.12"
+                "audioQS": "Ps.48,2Chr.3,Mark.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18811,7 +20443,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+1+Kings+13:11-%3B+Acts+19:21-",
-                "audioQS": "Ps.50,1Kgs.13,Acts.19"
+                "audioQS": "Ps.50,1Kgs.13,Acts.19",
+                "note": null
             }
         ]
     },
@@ -18821,6 +20454,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18841,10 +20475,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:57-80%3B+2+Chronicles+5%3B+Mark+13:1-13",
-                "audioQS": "Ps.119,2Chr.5,Mark.13"
+                "audioQS": "Ps.119,2Chr.5,Mark.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18865,7 +20501,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+59%3B+1+Kings+17%3B+Acts+20:1-16",
-                "audioQS": "Ps.59,1Kgs.17,Acts.20"
+                "audioQS": "Ps.59,1Kgs.17,Acts.20",
+                "note": null
             }
         ]
     },
@@ -18875,6 +20512,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18895,10 +20533,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+57%3B+2+Chronicles+6:1-21%3B+Mark+13:14-23",
-                "audioQS": "Ps.57,2Chr.6,Mark.13"
+                "audioQS": "Ps.57,2Chr.6,Mark.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18919,7 +20559,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+62%3B+1+Kings+18:1-20%3B+Acts+20:17-",
-                "audioQS": "Ps.62,1Kgs.18,Acts.20"
+                "audioQS": "Ps.62,1Kgs.18,Acts.20",
+                "note": null
             }
         ]
     },
@@ -18929,6 +20570,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -18949,10 +20591,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+51%3B+2+Chronicles+6:22-%3B+Mark+13:24-31",
-                "audioQS": "Ps.51,2Chr.6,Mark.13"
+                "audioQS": "Ps.51,2Chr.6,Mark.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -18973,7 +20617,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+38%3B+1+Kings+18:21-%3B+Acts+21:1-16",
-                "audioQS": "Ps.38,1Kgs.18,Acts.21"
+                "audioQS": "Ps.38,1Kgs.18,Acts.21",
+                "note": null
             }
         ]
     },
@@ -18983,6 +20628,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19003,10 +20649,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68%3B+2+Chronicles+7%3B+Mark+13:32-",
-                "audioQS": "Ps.68,2Chr.7,Mark.13"
+                "audioQS": "Ps.68,2Chr.7,Mark.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19027,7 +20675,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66%3B+1+Kings+19%3B+Acts+21:17-36",
-                "audioQS": "Ps.66,1Kgs.19,Acts.21"
+                "audioQS": "Ps.66,1Kgs.19,Acts.21",
+                "note": null
             }
         ]
     },
@@ -19037,6 +20686,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -19062,10 +20712,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111%3B+2+Kings+5:1-3,7-15c%3B+2+Timothy+2:8-15%3B+Luke+17:11-19",
-                "audioQS": "Ps.111,2Kgs.5,2Tim.2,Luke.17"
+                "audioQS": "Ps.111,2Kgs.5,2Tim.2,Luke.17",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -19091,10 +20743,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+66:1-11%3B+Jeremiah+29:1,4-7%3B+2+Timothy+2:8-15%3B+Luke+17:11-19",
-                "audioQS": "Ps.66,Jer.29,2Tim.2,Luke.17"
+                "audioQS": "Ps.66,Jer.29,2Tim.2,Luke.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19115,10 +20769,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+143%3B+Isaiah+50:4-10%3B+Luke+13:22-30",
-                "audioQS": "Ps.143,Isa.50,Luke.13"
+                "audioQS": "Ps.143,Isa.50,Luke.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19139,7 +20795,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Nehemiah+6:1-16%3B+John+15:12-27",
-                "audioQS": "Ps.144,Neh.6,John.15"
+                "audioQS": "Ps.144,Neh.6,John.15",
+                "note": null
             }
         ]
     },
@@ -19149,6 +20806,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19169,10 +20827,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+2+Chronicles+9:1-12%3B+Mark+14:1-11",
-                "audioQS": "Ps.71,2Chr.9,Mark.14"
+                "audioQS": "Ps.71,2Chr.9,Mark.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19193,7 +20853,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+1+Kings+21%3B+Acts+21:37-22:21",
-                "audioQS": "Ps.72,1Kgs.21,Acts.21"
+                "audioQS": "Ps.72,1Kgs.21,Acts.21",
+                "note": null
             }
         ]
     },
@@ -19203,6 +20864,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19223,10 +20885,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+2+Chronicles+10:1-11:4%3B+Mark+14:12-25",
-                "audioQS": "Ps.73,2Chr.10,Mark.14"
+                "audioQS": "Ps.73,2Chr.10,Mark.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19247,7 +20911,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+1+Kings+22:1-28%3B+Acts+22:22-23:11",
-                "audioQS": "Ps.74,1Kgs.22,Acts.22"
+                "audioQS": "Ps.74,1Kgs.22,Acts.22",
+                "note": null
             }
         ]
     },
@@ -19257,6 +20922,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19277,10 +20943,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+2+Chronicles+12%3B+Mark+14:26-42",
-                "audioQS": "Ps.77,2Chr.12,Mark.14"
+                "audioQS": "Ps.77,2Chr.12,Mark.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19301,7 +20969,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:81-104%3B+1+Kings+22:29-45%3B+Acts+23:12-",
-                "audioQS": "Ps.119,1Kgs.22,Acts.23"
+                "audioQS": "Ps.119,1Kgs.22,Acts.23",
+                "note": null
             }
         ]
     },
@@ -19311,6 +20980,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19331,10 +21001,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:1-39%3B+2+Chronicles+13:1-14:1%3B+Mark+14:43-52",
-                "audioQS": "Ps.78,2Chr.13,Mark.14"
+                "audioQS": "Ps.78,2Chr.13,Mark.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19355,7 +21027,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78:40-%3B+2+Kings+1:2-17%3B+Acts+24:1-23",
-                "audioQS": "Ps.78,2Kgs.1,Acts.24"
+                "audioQS": "Ps.78,2Kgs.1,Acts.24",
+                "note": null
             }
         ]
     },
@@ -19365,6 +21038,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19385,10 +21059,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+55%3B+2+Chronicles+14:2-%3B+Mark+14:53-65",
-                "audioQS": "Ps.55,2Chr.14,Mark.14"
+                "audioQS": "Ps.55,2Chr.14,Mark.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Luke)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19409,7 +21085,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+Hosea+6:1-3%3B+2+Timothy+3:10-17",
-                "audioQS": "Ps.33,Hos.6,2Tim.3"
+                "audioQS": "Ps.33,Hos.6,2Tim.3",
+                "note": null
             }
         ]
     },
@@ -19419,6 +21096,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19439,10 +21117,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145,146%3B+Isaiah+55%3B+Luke+1:1-4",
-                "audioQS": "Ps.145,146,Isa.55,Luke.1"
+                "audioQS": "Ps.145,146,Isa.55,Luke.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19463,7 +21143,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+103%3B+Isaiah+61:1-6%3B+Colossians+4:7-18",
-                "audioQS": "Ps.103,Isa.61,Col.4"
+                "audioQS": "Ps.103,Isa.61,Col.4",
+                "note": null
             }
         ]
     },
@@ -19473,6 +21154,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -19498,10 +21180,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+121%3B+Genesis+32:22-31%3B+2+Timothy+3:14-4:5%3B+Luke+18:1-8",
-                "audioQS": "Ps.121,Gen.32,2Tim.3,Luke.18"
+                "audioQS": "Ps.121,Gen.32,2Tim.3,Luke.18",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -19527,10 +21211,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:97-104%3B+Jeremiah+31:27-34%3B+2+Timothy+3:14-4:5%3B+Luke+18:1-8",
-                "audioQS": "Ps.119,Jer.31,2Tim.3,Luke.18"
+                "audioQS": "Ps.119,Jer.31,2Tim.3,Luke.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19551,10 +21237,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+147%3B+Isaiah+54:1-14%3B+Luke+13:31-35",
-                "audioQS": "Ps.147,Isa.54,Luke.13"
+                "audioQS": "Ps.147,Isa.54,Luke.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19575,7 +21263,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+149%3B+Nehemiah+8:9-18%3B+John+16:1-11",
-                "audioQS": "Ps.149,Neh.8,John.16"
+                "audioQS": "Ps.149,Neh.8,John.16",
+                "note": null
             }
         ]
     },
@@ -19585,6 +21274,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19605,10 +21295,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+2+Chronicles+17:1-12%3B+Mark+15:1-15",
-                "audioQS": "Ps.80,2Chr.17,Mark.15"
+                "audioQS": "Ps.80,2Chr.17,Mark.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19629,7 +21321,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+85%3B+2+Kings+5%3B+Acts+26:1-23",
-                "audioQS": "Ps.85,2Kgs.5,Acts.26"
+                "audioQS": "Ps.85,2Kgs.5,Acts.26",
+                "note": null
             }
         ]
     },
@@ -19639,6 +21332,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19659,10 +21353,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:1-18%3B+2+Chronicles+18:1-27%3B+Mark+15:16-32",
-                "audioQS": "Ps.89,2Chr.18,Mark.15"
+                "audioQS": "Ps.89,2Chr.18,Mark.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19683,7 +21379,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+89:19-%3B+2+Kings+6:1-23%3B+Acts+26:24-",
-                "audioQS": "Ps.89,2Kgs.6,Acts.26"
+                "audioQS": "Ps.89,2Kgs.6,Acts.26",
+                "note": null
             }
         ]
     },
@@ -19693,6 +21390,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19718,10 +21416,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:105-128%3B+2+Chronicles+18:28-%3B+2+Chronicles+19%3B+Mark+15:33-41",
-                "audioQS": "Ps.119,2Chr.18,2Chr.19,Mark.15"
+                "audioQS": "Ps.119,2Chr.18,2Chr.19,Mark.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19742,7 +21442,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+91%3B+2+Kings+9:1-16%3B+Acts+27:1-26",
-                "audioQS": "Ps.91,2Kgs.9,Acts.27"
+                "audioQS": "Ps.91,2Kgs.9,Acts.27",
+                "note": null
             }
         ]
     },
@@ -19752,6 +21453,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19772,10 +21474,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+92%3B+2+Chronicles+20:1-23%3B+Mark+15:42-",
-                "audioQS": "Ps.92,2Chr.20,Mark.15"
+                "audioQS": "Ps.92,2Chr.20,Mark.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19796,7 +21500,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+94%3B+2+Kings+9:17-%3B+Acts+27:27-",
-                "audioQS": "Ps.94,2Kgs.9,Acts.27"
+                "audioQS": "Ps.94,2Kgs.9,Acts.27",
+                "note": null
             }
         ]
     },
@@ -19806,6 +21511,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19831,10 +21537,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+88%3B+2+Chronicles+22:10-%3B+2+Chronicles+23%3B+Mark+16:1-8",
-                "audioQS": "Ps.88,2Chr.22,2Chr.23,Mark.16"
+                "audioQS": "Ps.88,2Chr.22,2Chr.23,Mark.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19855,7 +21563,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+102%3B+2+Kings+12:1-19%3B+Acts+28:1-16",
-                "audioQS": "Ps.102,2Kgs.12,Acts.28"
+                "audioQS": "Ps.102,2Kgs.12,Acts.28",
+                "note": null
             }
         ]
     },
@@ -19865,6 +21574,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19885,10 +21595,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+2+Chronicles+24:1-22%3B+Mark+16:9-",
-                "audioQS": "Ps.97,2Chr.24,Mark.16"
+                "audioQS": "Ps.97,2Chr.24,Mark.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -19909,7 +21621,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+104%3B+2+Kings+17:1-23%3B+Acts+28:17-",
-                "audioQS": "Ps.104,2Kgs.17,Acts.28"
+                "audioQS": "Ps.104,2Kgs.17,Acts.28",
+                "note": null
             }
         ]
     },
@@ -19919,6 +21632,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -19944,10 +21658,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+84:1-7%3B+Jeremiah+14:7-10,19-22%3B+2+Timothy+4:6-8,16-18%3B+Luke+18:9-14",
-                "audioQS": "Ps.84,Jer.14,2Tim.4,Luke.18"
+                "audioQS": "Ps.84,Jer.14,2Tim.4,Luke.18",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -19973,10 +21689,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+65%3B+Joel+2:23-32%3B+2+Timothy+4:6-8,16-18%3B+Luke+18:9-14",
-                "audioQS": "Ps.65,Joel.2,2Tim.4,Luke.18"
+                "audioQS": "Ps.65,Joel.2,2Tim.4,Luke.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -19997,10 +21715,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:105-128%3B+Isaiah+59:9-20%3B+Luke+14:1-14",
-                "audioQS": "Ps.119,Isa.59,Luke.14"
+                "audioQS": "Ps.119,Isa.59,Luke.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20021,7 +21741,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:1-16%3B+Ecclesiastes+11,12%3B+2+Timothy+2:1-7",
-                "audioQS": "Ps.119,Eccl.11,12,2Tim.2"
+                "audioQS": "Ps.119,Eccl.11,12,2Tim.2",
+                "note": null
             }
         ]
     },
@@ -20031,6 +21752,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20051,10 +21773,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98%3B+2+Chronicles+26:1-21%3B+John+13:1-11",
-                "audioQS": "Ps.98,2Chr.26,John.13"
+                "audioQS": "Ps.98,2Chr.26,John.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Simon and St Jude)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20075,7 +21799,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+124,125,126%3B+Deuteronomy+32:1-4%3B+John+14:15-26",
-                "audioQS": "Ps.124,125,126,Deut.32,John.14"
+                "audioQS": "Ps.124,125,126,Deut.32,John.14",
+                "note": null
             }
         ]
     },
@@ -20085,6 +21810,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20105,10 +21831,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+116,117%3B+Isaiah+45:18-26%3B+Luke+6:12-16",
-                "audioQS": "Ps.116,117,Isa.45,Luke.6"
+                "audioQS": "Ps.116,117,Isa.45,Luke.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20129,7 +21857,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:1-16%3B+Jeremiah+3:11-18%3B+Jude+1-4,17-25",
-                "audioQS": "Ps.119,Jer.3,Jude.1\u20134,17\u201325"
+                "audioQS": "Ps.119,Jer.3,Jude.1\u20134,17\u201325",
+                "note": null
             }
         ]
     },
@@ -20139,6 +21868,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20159,10 +21889,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+111%3B+2+Chronicles+29:1-19%3B+John+13:21-30",
-                "audioQS": "Ps.111,2Chr.29,John.13"
+                "audioQS": "Ps.111,2Chr.29,John.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20183,7 +21915,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:129-152%3B+2+Kings+18:13-%3B+Philippians+2:1-13",
-                "audioQS": "Ps.119,2Kgs.18,Phil.2"
+                "audioQS": "Ps.119,2Kgs.18,Phil.2",
+                "note": null
             }
         ]
     },
@@ -20193,6 +21926,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20213,10 +21947,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+115%3B+2+Chronicles+29:20-%3B+John+13:31-",
-                "audioQS": "Ps.115,2Chr.29,John.13"
+                "audioQS": "Ps.115,2Chr.29,John.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20237,7 +21973,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+116%3B+2+Kings+19:1-19%3B+Philippians+2:14-",
-                "audioQS": "Ps.116,2Kgs.19,Phil.2"
+                "audioQS": "Ps.116,2Kgs.19,Phil.2",
+                "note": null
             }
         ]
     },
@@ -20247,6 +21984,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20267,10 +22005,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139%3B+2+Chronicles+30%3B+John+14:1-14",
-                "audioQS": "Ps.139,2Chr.30,John.14"
+                "audioQS": "Ps.139,2Chr.30,John.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of All Saints Day)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20291,7 +22031,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+1,5%3B+Isaiah+40:27-%3B+Revelations+19:6-10",
-                "audioQS": "Ps.1,5,Isa.40,Revs.19"
+                "audioQS": "Ps.1,5,Isa.40,Revs.19",
+                "note": null
             }
         ]
     },
@@ -20300,7 +22041,39 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "calendar": "All Saints Day",
         "readingSets": [
             {
+                "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 33:1\u20135",
+                        "readQS": "Psalm+33:1-5",
+                        "audioQS": "Ps.33"
+                    },
+                    {
+                        "pretty": "Isaiah 56:3\u20138",
+                        "readQS": "Isaiah+56:3-8",
+                        "audioQS": "Isa.56"
+                    },
+                    {
+                        "pretty": "Hebrews 12:18\u201324",
+                        "readQS": "Hebrews+12:18-24",
+                        "audioQS": "Heb.12"
+                    },
+                    {
+                        "pretty": "Matthew 5:1\u201312",
+                        "readQS": "Matthew+5:1-12",
+                        "audioQS": "Matt.5"
+                    }
+                ],
+                "readQS": "Psalm+33:1-5%3B+Isaiah+56:3-8%3B+Hebrews+12:18-24%3B+Matthew+5:1-12",
+                "audioQS": "Ps.33,Isa.56,Heb.12,Matt.5",
+                "note": null
+            },
+            {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20321,10 +22094,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15,84,149%3B+Isaiah+35%3B+Luke+9:18-27",
-                "audioQS": "Ps.15,84,149,Isa.35,Luke.9"
+                "audioQS": "Ps.15,84,149,Isa.35,Luke.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20345,7 +22120,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+148,150%3B+Isaiah+65:17-25%3B+Hebrews+11:32-12:2",
-                "audioQS": "Ps.148,150,Isa.65,Heb.11"
+                "audioQS": "Ps.148,150,Isa.65,Heb.11",
+                "note": null
             }
         ]
     },
@@ -20355,6 +22131,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -20380,10 +22157,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+32:1-7%3B+Isaiah+1:10-18%3B+2+Thessalonians+1:1-4,11-12%3B+Luke+19:1-10",
-                "audioQS": "Ps.32,Isa.1,2Thess.1,Luke.19"
+                "audioQS": "Ps.32,Isa.1,2Thess.1,Luke.19",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -20409,10 +22188,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+119:137-144%3B+Habakkuk+1:1-4,2:1-4%3B+2+Thessalonians+1:1-4,11-12%3B+Luke+19:1-10",
-                "audioQS": "Ps.119,Hab.1,2Thess.1,Luke.19"
+                "audioQS": "Ps.119,Hab.1,2Thess.1,Luke.19",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20433,10 +22214,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+87%3B+Job+26%3B+Colossians+1:9-14",
-                "audioQS": "Ps.87,Job.26,Col.1"
+                "audioQS": "Ps.87,Job.26,Col.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20457,7 +22240,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Lamentations+3:22-33%3B+John+11:%281-31%29,32-44",
-                "audioQS": "Ps.145,Lam.3,John.11"
+                "audioQS": "Ps.145,Lam.3,John.11",
+                "note": null
             }
         ]
     },
@@ -20467,6 +22251,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20487,10 +22272,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+2%3B+Isaiah+1:1-20%3B+Matthew+1:18-",
-                "audioQS": "Ps.2,Isa.1,Matt.1"
+                "audioQS": "Ps.2,Isa.1,Matt.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20511,7 +22298,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+92%3B+Daniel+1%3B+Revelation+1",
-                "audioQS": "Ps.92,Dan.1,Rev.1"
+                "audioQS": "Ps.92,Dan.1,Rev.1",
+                "note": null
             }
         ]
     },
@@ -20521,6 +22309,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20541,10 +22330,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+5%3B+Isaiah+1:21-%3B+Matthew+2:1-15",
-                "audioQS": "Ps.5,Isa.1,Matt.2"
+                "audioQS": "Ps.5,Isa.1,Matt.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20565,7 +22356,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+100%3B+Daniel+2:1-24%3B+Revelation+2:1-11",
-                "audioQS": "Ps.100,Dan.2,Rev.2"
+                "audioQS": "Ps.100,Dan.2,Rev.2",
+                "note": null
             }
         ]
     },
@@ -20575,6 +22367,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20595,10 +22388,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+Isaiah+2:1-11%3B+Matthew+2:16-",
-                "audioQS": "Ps.9,Isa.2,Matt.2"
+                "audioQS": "Ps.9,Isa.2,Matt.2",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20619,7 +22414,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+112%3B+Daniel+2:25-%3B+Revelation+2:12-",
-                "audioQS": "Ps.112,Dan.2,Rev.2"
+                "audioQS": "Ps.112,Dan.2,Rev.2",
+                "note": null
             }
         ]
     },
@@ -20629,6 +22425,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20649,10 +22446,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+15%3B+Isaiah+2:12-%3B+Matthew+3",
-                "audioQS": "Ps.15,Isa.2,Matt.3"
+                "audioQS": "Ps.15,Isa.2,Matt.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20673,7 +22472,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+118%3B+Daniel+3:1-18%3B+Revelation+3:1-13",
-                "audioQS": "Ps.118,Dan.3,Rev.3"
+                "audioQS": "Ps.118,Dan.3,Rev.3",
+                "note": null
             }
         ]
     },
@@ -20683,6 +22483,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20703,10 +22504,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+16%3B+Isaiah+3:1-15%3B+Matthew+4:1-11",
-                "audioQS": "Ps.16,Isa.3,Matt.4"
+                "audioQS": "Ps.16,Isa.3,Matt.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20727,7 +22530,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+143%3B+Daniel+3:19-%3B+Revelation+3:14-",
-                "audioQS": "Ps.143,Dan.3,Rev.3"
+                "audioQS": "Ps.143,Dan.3,Rev.3",
+                "note": null
             }
         ]
     },
@@ -20737,6 +22541,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20757,10 +22562,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+18.31-%3B+Isaiah+4:2-5:7%3B+Matthew+4:12-22",
-                "audioQS": "Ps.18.31\u2013end,Isa.4,Matt.4"
+                "audioQS": "Ps.18.31\u2013end,Isa.4,Matt.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20781,7 +22588,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Daniel+4:1-18%3B+Revelation+4",
-                "audioQS": "Ps.145,Dan.4,Rev.4"
+                "audioQS": "Ps.145,Dan.4,Rev.4",
+                "note": null
             }
         ]
     },
@@ -20791,6 +22599,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -20816,10 +22625,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+17:1-9%3B+Job+19:23-27a%3B+2+Thessalonians+2:1-5,13-17%3B+Luke+20:27-38",
-                "audioQS": "Ps.17,Job.19,2Thess.2,Luke.20"
+                "audioQS": "Ps.17,Job.19,2Thess.2,Luke.20",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -20845,10 +22656,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145:1-5,16-20%3B+Haggai+1:15b-2:9%3B+2+Thessalonians+2:1-5,13-17%3B+Luke+20:27-38",
-                "audioQS": "Ps.145,Hag.1,2Thess.2,Luke.20"
+                "audioQS": "Ps.145,Hag.1,2Thess.2,Luke.20",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20869,10 +22682,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+20,90%3B+Isaiah+2:1-5%3B+James+3:13-18",
-                "audioQS": "Ps.20,90,Isa.2,Jas.3"
+                "audioQS": "Ps.20,90,Isa.2,Jas.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20893,7 +22708,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+1+Kings+3:1-15%3B+Romans+8:31-39",
-                "audioQS": "Ps.40,1Kgs.3,Rom.8"
+                "audioQS": "Ps.40,1Kgs.3,Rom.8",
+                "note": null
             }
         ]
     },
@@ -20903,6 +22719,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20923,10 +22740,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+20%3B+Isaiah+5:8-24%3B+Matthew+4:23-5:12",
-                "audioQS": "Ps.20,Isa.5,Matt.4"
+                "audioQS": "Ps.20,Isa.5,Matt.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -20947,7 +22766,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+34%3B+Daniel+4:19-%3B+Revelation+5",
-                "audioQS": "Ps.34,Dan.4,Rev.5"
+                "audioQS": "Ps.34,Dan.4,Rev.5",
+                "note": null
             }
         ]
     },
@@ -20957,6 +22777,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -20977,10 +22798,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+21%3B+Isaiah+5:25-%3B+Matthew+5:13-20",
-                "audioQS": "Ps.21,Isa.5,Matt.5"
+                "audioQS": "Ps.21,Isa.5,Matt.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21001,7 +22824,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Daniel+5:1-12%3B+Revelation+6",
-                "audioQS": "Ps.40,Dan.5,Rev.6"
+                "audioQS": "Ps.40,Dan.5,Rev.6",
+                "note": null
             }
         ]
     },
@@ -21011,6 +22835,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21031,10 +22856,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+23%3B+Isaiah+6%3B+Matthew+5:21-37",
-                "audioQS": "Ps.23,Isa.6,Matt.5"
+                "audioQS": "Ps.23,Isa.6,Matt.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21055,7 +22882,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+37%3B+Daniel+5:13-%3B+Revelation+7:1-4,9-",
-                "audioQS": "Ps.37,Dan.5,Rev.7"
+                "audioQS": "Ps.37,Dan.5,Rev.7",
+                "note": null
             }
         ]
     },
@@ -21065,6 +22893,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21085,10 +22914,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+26%3B+Isaiah+7:1-17%3B+Matthew+5:38-",
-                "audioQS": "Ps.26,Isa.7,Matt.5"
+                "audioQS": "Ps.26,Isa.7,Matt.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21109,7 +22940,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+43%3B+Daniel+6%3B+Revelation+8",
-                "audioQS": "Ps.43,Dan.6,Rev.8"
+                "audioQS": "Ps.43,Dan.6,Rev.8",
+                "note": null
             }
         ]
     },
@@ -21119,6 +22951,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21139,10 +22972,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+32%3B+Isaiah+8:1-15%3B+Matthew+6:1-18",
-                "audioQS": "Ps.32,Isa.8,Matt.6"
+                "audioQS": "Ps.32,Isa.8,Matt.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21163,7 +22998,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+31%3B+Daniel+7:1-14%3B+Revelation+9:1-12",
-                "audioQS": "Ps.31,Dan.7,Rev.9"
+                "audioQS": "Ps.31,Dan.7,Rev.9",
+                "note": null
             }
         ]
     },
@@ -21173,6 +23009,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21193,10 +23030,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+33%3B+Isaiah+8:16-9:7%3B+Matthew+6:19-",
-                "audioQS": "Ps.33,Isa.8,Matt.6"
+                "audioQS": "Ps.33,Isa.8,Matt.6",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21217,7 +23056,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+86%3B+Daniel+7:15-%3B+Revelation+9:13-",
-                "audioQS": "Ps.86,Dan.7,Rev.9"
+                "audioQS": "Ps.86,Dan.7,Rev.9",
+                "note": null
             }
         ]
     },
@@ -21227,6 +23067,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -21252,10 +23093,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+98%3B+Malachi+4:1-2a%3B+2+Thessalonians+3:6-13%3B+Luke+21:5-19",
-                "audioQS": "Ps.98,Mal.4,2Thess.3,Luke.21"
+                "audioQS": "Ps.98,Mal.4,2Thess.3,Luke.21",
+                "note": null
             },
             {
                 "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (Co.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
                 "timeOfDay": null,
                 "readings": [
@@ -21281,10 +23124,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Isaiah+12%3B+Isaiah+65:17-25%3B+2+Thessalonians+3:6-13%3B+Luke+21:5-19",
-                "audioQS": "Isa.12,Isa.65,2Thess.3,Luke.21"
+                "audioQS": "Isa.12,Isa.65,2Thess.3,Luke.21",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21305,10 +23150,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+132%3B+1+Samuel+16:1-13%3B+Matthew+13:44-52",
-                "audioQS": "Ps.132,1Sam.16,Matt.13"
+                "audioQS": "Ps.132,1Sam.16,Matt.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21329,7 +23176,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Daniel+6%3B+Matthew+13:1-9,18-23",
-                "audioQS": "Ps.97,Dan.6,Matt.13"
+                "audioQS": "Ps.97,Dan.6,Matt.13",
+                "note": null
             }
         ]
     },
@@ -21339,6 +23187,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21359,10 +23208,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47%3B+Isaiah+9:8-10:4%3B+Matthew+7:1-12",
-                "audioQS": "Ps.47,Isa.9,Matt.7"
+                "audioQS": "Ps.47,Isa.9,Matt.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21383,7 +23234,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+71%3B+Daniel+8:1-14%3B+Revelation+10",
-                "audioQS": "Ps.71,Dan.8,Rev.10"
+                "audioQS": "Ps.71,Dan.8,Rev.10",
+                "note": null
             }
         ]
     },
@@ -21393,6 +23245,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21413,10 +23266,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+52%3B+Isaiah+10:5-19%3B+Matthew+7:13-",
-                "audioQS": "Ps.52,Isa.10,Matt.7"
+                "audioQS": "Ps.52,Isa.10,Matt.7",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21437,7 +23292,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+67%3B+Daniel+8:15-%3B+Revelation+11:1-14",
-                "audioQS": "Ps.67,Dan.8,Rev.11"
+                "audioQS": "Ps.67,Dan.8,Rev.11",
+                "note": null
             }
         ]
     },
@@ -21447,6 +23303,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21467,10 +23324,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+56%3B+Isaiah+10:20-32%3B+Matthew+8:1-13",
-                "audioQS": "Ps.56,Isa.10,Matt.8"
+                "audioQS": "Ps.56,Isa.10,Matt.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21491,7 +23350,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Daniel+9:1-19%3B+Revelation+11:15-",
-                "audioQS": "Ps.73,Dan.9,Rev.11"
+                "audioQS": "Ps.73,Dan.9,Rev.11",
+                "note": null
             }
         ]
     },
@@ -21501,6 +23361,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21521,10 +23382,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+62%3B+Isaiah+10:33-11:9%3B+Matthew+8:14-22",
-                "audioQS": "Ps.62,Isa.10,Matt.8"
+                "audioQS": "Ps.62,Isa.10,Matt.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21545,7 +23408,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+76%3B+Daniel+9:20-%3B+Revelation+12",
-                "audioQS": "Ps.76,Dan.9,Rev.12"
+                "audioQS": "Ps.76,Dan.9,Rev.12",
+                "note": null
             }
         ]
     },
@@ -21555,6 +23419,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21575,10 +23440,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+63%3B+Isaiah+11:10-+of+12%3B+Matthew+8:23-",
-                "audioQS": "Ps.63,Isa.11,Matt.8"
+                "audioQS": "Ps.63,Isa.11,Matt.8",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21599,7 +23466,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Daniel+10:1-11:1%3B+Revelation+13:1-10",
-                "audioQS": "Ps.77,Dan.10,Rev.13"
+                "audioQS": "Ps.77,Dan.10,Rev.13",
+                "note": null
             }
         ]
     },
@@ -21609,6 +23477,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21629,10 +23498,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+78.1-39%3B+Isaiah+13:1-13%3B+Matthew+9:1-17",
-                "audioQS": "Ps.78.1\u201339,Isa.13,Matt.9"
+                "audioQS": "Ps.78.1\u201339,Isa.13,Matt.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of Christ the King)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21653,7 +23524,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+99,100%3B+Isaiah+10:33-11:9%3B+1+Timothy+6:11-16",
-                "audioQS": "Ps.99,100,Isa.10,1Tim.6"
+                "audioQS": "Ps.99,100,Isa.10,1Tim.6",
+                "note": null
             }
         ]
     },
@@ -21663,6 +23535,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -21688,10 +23561,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+46%3B+Jeremiah+23:1-6%3B+Colossians+1:11-20%3B+Luke+23:33-43",
-                "audioQS": "Ps.46,Jer.23,Col.1,Luke.23"
+                "audioQS": "Ps.46,Jer.23,Col.1,Luke.23",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21712,10 +23587,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+29,110%3B+Zechariah+6:9-15%3B+Revelation+11:15-18",
-                "audioQS": "Ps.29,110,Zech.6,Rev.11"
+                "audioQS": "Ps.29,110,Zech.6,Rev.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21736,7 +23613,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72%3B+1+Samuel+8:4-20%3B+John+18:33-37",
-                "audioQS": "Ps.72,1Sam.8,John.18"
+                "audioQS": "Ps.72,1Sam.8,John.18",
+                "note": null
             }
         ]
     },
@@ -21746,6 +23624,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21766,10 +23645,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+96%3B+Isaiah+14:3-20%3B+Matthew+9:18-34",
-                "audioQS": "Ps.96,Isa.14,Matt.9"
+                "audioQS": "Ps.96,Isa.14,Matt.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21790,7 +23671,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Isaiah+40:1-11%3B+Revelation+14:1-13",
-                "audioQS": "Ps.80,Isa.40,Rev.14"
+                "audioQS": "Ps.80,Isa.40,Rev.14",
+                "note": null
             }
         ]
     },
@@ -21800,6 +23682,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21820,10 +23703,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+97%3B+Isaiah+17%3B+Matthew+9:35-10:15",
-                "audioQS": "Ps.97,Isa.17,Matt.9"
+                "audioQS": "Ps.97,Isa.17,Matt.9",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21844,7 +23729,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+101%3B+Isaiah+40:12-26%3B+Revelation+14:14-,15:1-",
-                "audioQS": "Ps.101,Isa.40,Rev.14"
+                "audioQS": "Ps.101,Isa.40,Rev.14",
+                "note": null
             }
         ]
     },
@@ -21854,6 +23740,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21874,10 +23761,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+112%3B+Isaiah+19%3B+Matthew+10:16-33",
-                "audioQS": "Ps.112,Isa.19,Matt.10"
+                "audioQS": "Ps.112,Isa.19,Matt.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21898,7 +23787,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+122%3B+Isaiah+40:27-41:7%3B+Revelation+16:1-11",
-                "audioQS": "Ps.122,Isa.40,Rev.16"
+                "audioQS": "Ps.122,Isa.40,Rev.16",
+                "note": null
             }
         ]
     },
@@ -21908,6 +23798,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21928,10 +23819,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+125%3B+Isaiah+21:1-12%3B+Matthew+10:34-11:1",
-                "audioQS": "Ps.125,Isa.21,Matt.10"
+                "audioQS": "Ps.125,Isa.21,Matt.10",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -21952,7 +23845,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+133%3B+Isaiah+41:8-20%3B+Revelation+16:12-",
-                "audioQS": "Ps.133,Isa.41,Rev.16"
+                "audioQS": "Ps.133,Isa.41,Rev.16",
+                "note": null
             }
         ]
     },
@@ -21962,6 +23856,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -21982,10 +23877,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+139%3B+Isaiah+22:1-14%3B+Matthew+11:2-19",
-                "audioQS": "Ps.139,Isa.22,Matt.11"
+                "audioQS": "Ps.139,Isa.22,Matt.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22006,7 +23903,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146%3B+Isaiah+41:21-42:9%3B+Revelation+17",
-                "audioQS": "Ps.146,Isa.41,Rev.17"
+                "audioQS": "Ps.146,Isa.41,Rev.17",
+                "note": null
             }
         ]
     },
@@ -22016,6 +23914,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22036,10 +23935,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Isaiah+24%3B+Matthew+11:20-",
-                "audioQS": "Ps.145,Isa.24,Matt.11"
+                "audioQS": "Ps.145,Isa.24,Matt.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22060,7 +23961,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+150%3B+Isaiah+42:10-17%3B+Revelation+18",
-                "audioQS": "Ps.150,Isa.42,Rev.18"
+                "audioQS": "Ps.150,Isa.42,Rev.18",
+                "note": null
             }
         ]
     },
@@ -22070,6 +23972,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -22095,10 +23998,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+122%3B+Isaiah+2:1-5%3B+Romans+13:11-14%3B+Matthew+24:36-44",
-                "audioQS": "Ps.122,Isa.2,Rom.13,Matt.24"
+                "audioQS": "Ps.122,Isa.2,Rom.13,Matt.24",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22119,10 +24024,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Micah+4:1-7%3B+1+Thessalonians+5:1-11",
-                "audioQS": "Ps.44,Mic.4,1Thess.5"
+                "audioQS": "Ps.44,Mic.4,1Thess.5",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers (Eve of St Andrew)",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22143,7 +24050,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+48%3B+Isaiah+49:1-9a%3B+1+Corinthians+4:9-16",
-                "audioQS": "Ps.48,Isa.49,1Cor.4"
+                "audioQS": "Ps.48,Isa.49,1Cor.4",
+                "note": null
             }
         ]
     },
@@ -22153,6 +24061,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22173,10 +24082,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+47,147:1-11%3B+Ezekiel+47:1-12%3B+John+12:20-32",
-                "audioQS": "Ps.47,147,Ezek.47,John.12"
+                "audioQS": "Ps.47,147,Ezek.47,John.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22197,7 +24108,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+87,96%3B+Zechariah+8:20-23%3B+John+1:35-42",
-                "audioQS": "Ps.87,96,Zech.8,John.1"
+                "audioQS": "Ps.87,96,Zech.8,John.1",
+                "note": null
             }
         ]
     },
@@ -22207,6 +24119,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22227,10 +24140,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Isaiah+26:1-13%3B+Matthew+12:22-37",
-                "audioQS": "Ps.80,Isa.26,Matt.12"
+                "audioQS": "Ps.80,Isa.26,Matt.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22251,7 +24166,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+74%3B+Isaiah+43:1-13%3B+Revelation+20",
-                "audioQS": "Ps.74,Isa.43,Rev.20"
+                "audioQS": "Ps.74,Isa.43,Rev.20",
+                "note": null
             }
         ]
     },
@@ -22261,6 +24177,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22281,10 +24198,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+7%3B+Isaiah+28:1-13%3B+Matthew+12:38-",
-                "audioQS": "Ps.7,Isa.28,Matt.12"
+                "audioQS": "Ps.7,Isa.28,Matt.12",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22305,7 +24224,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+77%3B+Isaiah+43:14-%3B+Revelation+21:1-8",
-                "audioQS": "Ps.77,Isa.43,Rev.21"
+                "audioQS": "Ps.77,Isa.43,Rev.21",
+                "note": null
             }
         ]
     },
@@ -22315,6 +24235,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22335,10 +24256,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+42%3B+Isaiah+28:14-%3B+Matthew+13:1-23",
-                "audioQS": "Ps.42,Isa.28,Matt.13"
+                "audioQS": "Ps.42,Isa.28,Matt.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22359,7 +24282,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Isaiah+44:1-8%3B+Revelation+21:9-21",
-                "audioQS": "Ps.40,Isa.44,Rev.21"
+                "audioQS": "Ps.40,Isa.44,Rev.21",
+                "note": null
             }
         ]
     },
@@ -22369,6 +24293,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22389,10 +24314,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+25%3B+Isaiah+29:1-14%3B+Matthew+13:24-43",
-                "audioQS": "Ps.25,Isa.29,Matt.13"
+                "audioQS": "Ps.25,Isa.29,Matt.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22413,7 +24340,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+17%3B+Isaiah+44:9-23%3B+Revelation+21:22-22:5",
-                "audioQS": "Ps.17,Isa.44,Rev.21"
+                "audioQS": "Ps.17,Isa.44,Rev.21",
+                "note": null
             }
         ]
     },
@@ -22423,6 +24351,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22443,10 +24372,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+9%3B+Isaiah+29:15-%3B+Matthew+13:44-",
-                "audioQS": "Ps.9,Isa.29,Matt.13"
+                "audioQS": "Ps.9,Isa.29,Matt.13",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22467,7 +24398,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+27%3B+Isaiah+44:24-45:13%3B+Revelation+22:6-",
-                "audioQS": "Ps.27,Isa.44,Rev.22"
+                "audioQS": "Ps.27,Isa.44,Rev.22",
+                "note": null
             }
         ]
     },
@@ -22477,6 +24409,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -22502,10 +24435,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+72:1-7,18,19%3B+Isaiah+11:1-10%3B+Romans+15:4-13%3B+Matthew+3:1-12",
-                "audioQS": "Ps.72,Isa.11,Rom.15,Matt.3"
+                "audioQS": "Ps.72,Isa.11,Rom.15,Matt.3",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22526,10 +24461,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+80%3B+Amos+7%3B+Luke+1:5-20",
-                "audioQS": "Ps.80,Amos.7,Luke.1"
+                "audioQS": "Ps.80,Amos.7,Luke.1",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22550,7 +24487,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+11%3B+1+Kings+18:17-39%3B+John+1:19-28",
-                "audioQS": "Ps.11,1Kgs.18,John.1"
+                "audioQS": "Ps.11,1Kgs.18,John.1",
+                "note": null
             }
         ]
     },
@@ -22560,6 +24498,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22580,10 +24519,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Isaiah+30:1-18%3B+Matthew+14:1-12",
-                "audioQS": "Ps.44,Isa.30,Matt.14"
+                "audioQS": "Ps.44,Isa.30,Matt.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22604,7 +24545,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+144%3B+Isaiah+45:14-%3B+1+Thessalonians+1",
-                "audioQS": "Ps.144,Isa.45,1Thess.1"
+                "audioQS": "Ps.144,Isa.45,1Thess.1",
+                "note": null
             }
         ]
     },
@@ -22614,6 +24556,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22634,10 +24577,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+56%3B+Isaiah+30:19-%3B+Matthew+14:13-",
-                "audioQS": "Ps.56,Isa.30,Matt.14"
+                "audioQS": "Ps.56,Isa.30,Matt.14",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22658,7 +24603,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+11%3B+Isaiah+46%3B+1+Thessalonians+2:1-12",
-                "audioQS": "Ps.11,Isa.46,1Thess.2"
+                "audioQS": "Ps.11,Isa.46,1Thess.2",
+                "note": null
             }
         ]
     },
@@ -22668,6 +24614,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22688,10 +24635,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+62%3B+Isaiah+31%3B+Matthew+15:1-20",
-                "audioQS": "Ps.62,Isa.31,Matt.15"
+                "audioQS": "Ps.62,Isa.31,Matt.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22712,7 +24661,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+10%3B+Isaiah+47%3B+1+Thessalonians+2:13-",
-                "audioQS": "Ps.10,Isa.47,1Thess.2"
+                "audioQS": "Ps.10,Isa.47,1Thess.2",
+                "note": null
             }
         ]
     },
@@ -22722,6 +24672,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22742,10 +24693,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+54%3B+Isaiah+32%3B+Matthew+15:21-28",
-                "audioQS": "Ps.54,Isa.32,Matt.15"
+                "audioQS": "Ps.54,Isa.32,Matt.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22766,7 +24719,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+73%3B+Isaiah+48:1-11%3B+1+Thessalonians+3",
-                "audioQS": "Ps.73,Isa.48,1Thess.3"
+                "audioQS": "Ps.73,Isa.48,1Thess.3",
+                "note": null
             }
         ]
     },
@@ -22776,6 +24730,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22796,10 +24751,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+86%3B+Isaiah+33:1-22%3B+Matthew+15:29-",
-                "audioQS": "Ps.86,Isa.33,Matt.15"
+                "audioQS": "Ps.86,Isa.33,Matt.15",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22820,7 +24777,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+90%3B+Isaiah+48:12-%3B+1+Thessalonians+4:1-12",
-                "audioQS": "Ps.90,Isa.48,1Thess.4"
+                "audioQS": "Ps.90,Isa.48,1Thess.4",
+                "note": null
             }
         ]
     },
@@ -22830,6 +24788,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22850,10 +24809,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+145%3B+Isaiah+35%3B+Matthew+16:1-12",
-                "audioQS": "Ps.145,Isa.35,Matt.16"
+                "audioQS": "Ps.145,Isa.35,Matt.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22874,7 +24835,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+94%3B+Isaiah+49:1-13%3B+1+Thessalonians+4:13-",
-                "audioQS": "Ps.94,Isa.49,1Thess.4"
+                "audioQS": "Ps.94,Isa.49,1Thess.4",
+                "note": null
             }
         ]
     },
@@ -22884,6 +24846,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
                 "readingSetSubtitle": "Revised Common Lectionary (Related)",
                 "timeOfDay": null,
                 "readings": [
@@ -22909,10 +24872,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146:4-10%3B+Isaiah+35:1-10%3B+James+5:7-10%3B+Matthew+11:2-11",
-                "audioQS": "Ps.146,Isa.35,Jas.5,Matt.11"
+                "audioQS": "Ps.146,Isa.35,Jas.5,Matt.11",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22933,10 +24898,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+68:1-19%3B+Zephaniah+3:14-20%3B+Philippians+4:4-7",
-                "audioQS": "Ps.68,Zeph.3,Phil.4"
+                "audioQS": "Ps.68,Zeph.3,Phil.4",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -22957,7 +24924,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+12%3B+Isaiah+5:8-30%3B+Acts+13:13-41",
-                "audioQS": "Ps.12,Isa.5,Acts.13"
+                "audioQS": "Ps.12,Isa.5,Acts.13",
+                "note": null
             }
         ]
     },
@@ -22967,6 +24935,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -22987,10 +24956,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+40%3B+Isaiah+38:1-8,38:21-22%3B+Matthew+16:13-",
-                "audioQS": "Ps.40,Isa.38,Matt.16"
+                "audioQS": "Ps.40,Isa.38,Matt.16",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -23011,7 +24982,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+26%3B+Isaiah+49:14-25%3B+1+Thessalonians+5:1-11",
-                "audioQS": "Ps.26,Isa.49,1Thess.5"
+                "audioQS": "Ps.26,Isa.49,1Thess.5",
+                "note": null
             }
         ]
     },
@@ -23021,6 +24993,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -23041,10 +25014,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+70%3B+Isaiah+38:9-20%3B+Matthew+17:1-13",
-                "audioQS": "Ps.70,Isa.38,Matt.17"
+                "audioQS": "Ps.70,Isa.38,Matt.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -23065,7 +25040,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+50%3B+Isaiah+50%3B+1+Thessalonians+5:12-",
-                "audioQS": "Ps.50,Isa.50,1Thess.5"
+                "audioQS": "Ps.50,Isa.50,1Thess.5",
+                "note": null
             }
         ]
     },
@@ -23075,6 +25051,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -23095,10 +25072,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+75%3B+Isaiah+39%3B+Matthew+17:14-21",
-                "audioQS": "Ps.75,Isa.39,Matt.17"
+                "audioQS": "Ps.75,Isa.39,Matt.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -23119,7 +25098,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+82%3B+Isaiah+51:1-8%3B+2+Thessalonians+1",
-                "audioQS": "Ps.82,Isa.51,2Thess.1"
+                "audioQS": "Ps.82,Isa.51,2Thess.1",
+                "note": null
             }
         ]
     },
@@ -23129,6 +25109,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -23149,10 +25130,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+76%3B+Zephaniah+1:1-2:3%3B+Matthew+17:22-",
-                "audioQS": "Ps.76,Zeph.1,Matt.17"
+                "audioQS": "Ps.76,Zeph.1,Matt.17",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -23173,7 +25156,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+44%3B+Isaiah+51:9-16%3B+2+Thessalonians+2",
-                "audioQS": "Ps.44,Isa.51,2Thess.2"
+                "audioQS": "Ps.44,Isa.51,2Thess.2",
+                "note": null
             }
         ]
     },
@@ -23183,6 +25167,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "readingSets": [
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Morning Prayers",
                 "timeOfDay": "morning",
                 "readings": [
@@ -23203,10 +25188,12 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+146%3B+Zephaniah+3:1-13%3B+Matthew+18:1-20",
-                "audioQS": "Ps.146,Zeph.3,Matt.18"
+                "audioQS": "Ps.146,Zeph.3,Matt.18",
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
+                "readingSetTabName": "prayers",
                 "readingSetSubtitle": "Evening Prayers",
                 "timeOfDay": "evening",
                 "readings": [
@@ -23227,7 +25214,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                     }
                 ],
                 "readQS": "Psalm+57%3B+Isaiah+51:17-%3B+2+Thessalonians+3",
-                "audioQS": "Ps.57,Isa.51,2Thess.3"
+                "audioQS": "Ps.57,Isa.51,2Thess.3",
+                "note": null
             }
         ]
     }
