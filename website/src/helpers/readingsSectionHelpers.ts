@@ -16,27 +16,19 @@ function getReadingsToDisplay(readingSets: IReadingsList[], selectedTab: string,
 }
 
 function getTabOptions(readingSets: IReadingsList[]): IToggleOption[] {
-  // to reduce coupling to the values in data.ts (and make future query string params easier)
-  const tabOptionsLookup: { [id: string]: IToggleOption } = {
-    rclTrack1: {
-      value: "rclTrack1",
-      content: "RCL (Re.)",
-    },
-    rclTrack2: {
-      value: "rclTrack2",
-      content: "RCL (Co.)",
-    },
-    prayers: {
-      value: "prayers",
-      content: "Prayers",
-    }
-  }
-  
   const tabIdentifiers = readingSets
     .map((readingSet) => readingSet.readingSetTab)
     .filter((value, index, array) => array.indexOf(value) === index) // ensures unique
+  
+  return tabIdentifiers.map((tabIdentifier) => {
+    const readingSet = readingSets
+      .filter((readingSet) => readingSet.readingSetTab == tabIdentifier )[0];
 
-  return tabIdentifiers.map((tabIdentifier) => tabOptionsLookup[tabIdentifier])
+    return {
+      value: readingSet.readingSetTab,
+      content: readingSet.readingSetTabName
+    }
+  })
 }
 
 export { getDefaultSelectedTab, getTabOptions, getReadingsToDisplay }
