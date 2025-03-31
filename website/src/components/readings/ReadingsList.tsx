@@ -6,7 +6,7 @@ const StyledReadingsList = styled("ul", {
   flex: "1",
   padding: "0",
   listStyle: "none",
-  margin: "0"
+  margin: "0 0 32px 0"
 });
 
 interface ReadingsListProps {
