@@ -16,30 +16,40 @@ interface ReadingsListProps {
 
 const ReadingsList = ({ readingsList, readingTranslation }: ReadingsListProps) => {
 
+  let noteElement;
+  if(!!readingsList.note){
+    noteElement = <i>NOTE: {readingsList.note}</i>
+  }
+
   return (
-    <StyledReadingsList>
-      {
-        readingsList.readings.map((reading, i) => {
-          let dataLabel = '';
+    <>
+      <StyledReadingsList>
+        {
+          readingsList.readings.map((reading, i) => {
+            let dataLabel = '';
 
-          switch(i) {
-            case 0:
-              dataLabel = 'reading_psalm'
-              break;
-            case 1:
-              dataLabel = 'reading_old_testament'
-              break;
-            case 2:
-              dataLabel = 'reading_new_testament'
-              break;
-            case 3:
-              dataLabel = 'reading_gospel'
-          }
+            switch(i) {
+              case 0:
+                dataLabel = 'reading_psalm'
+                break;
+              case 1:
+                dataLabel = 'reading_old_testament'
+                break;
+              case 2:
+                dataLabel = 'reading_new_testament'
+                break;
+              case 3:
+                dataLabel = 'reading_gospel'
+            }
 
-          return <Reading key={i} reading={reading} readingTranslation={readingTranslation} dataLabel={dataLabel} />;
-        })
-      }
-    </StyledReadingsList>
+            return <Reading key={i} reading={reading} readingTranslation={readingTranslation} dataLabel={dataLabel} />;
+          })
+        }
+      </StyledReadingsList>
+
+      {noteElement}
+    </>
+
   );
 };
 

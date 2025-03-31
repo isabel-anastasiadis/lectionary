@@ -72,8 +72,6 @@ const ReadingsSection = ({
           readingsList={getReadingsToDisplay(todaysReadings.readingSets, selectedTab, theme)}
           readingTranslation={readingTranslation}
         />
-
-        <i>This is a note about the readings.</i>
       </ReadingsListWrapper>
 
       <Actions readings={getReadingsToDisplay(todaysReadings.readingSets, selectedTab, theme)}
