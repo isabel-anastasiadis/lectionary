@@ -105,18 +105,14 @@ namespace ReadingsBuilder.Data.Result
             return $"{psalm}; {oldTestament}; {newTestament}";
         }
 
-        private string MapRclReadings(Option<RclReadings, ReadingsOptionType>? rclTrack1Readings)
+        private string MapRclReadings(Option<RclReadings, ReadingsOptionType>? rclReadings)
         {
-            if (rclTrack1Readings?.OptionOne == null || rclTrack1Readings.OptionOne.IsEmpty())
+            if (rclReadings?.OptionOne == null || rclReadings.OptionOne.IsEmpty())
             {
                 return string.Empty;
             }
 
-            var psalm = $"{rclTrack1Readings?.OptionOne?.Psalms?.OptionOne?.RawString ?? rclTrack1Readings?.OptionOne?.Canticle?.OptionOne?.RawString}";
-            var oldTestament = $"{rclTrack1Readings?.OptionOne?.OldTestament?.OptionOne?.RawString}";
-            var newTestament = $"{rclTrack1Readings?.OptionOne?.NewTestament?.OptionOne?.RawString}";
-            var gospel = $"{rclTrack1Readings?.OptionOne?.Gospel?.OptionOne?.RawString}";
-            return $"{psalm}; {oldTestament}; {newTestament}; {gospel}";
+            return rclReadings.OptionOne.ToString();
         }
     }
 }

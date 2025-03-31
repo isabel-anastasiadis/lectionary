@@ -40,9 +40,25 @@ namespace ReadingsBuilder.Model.Result
             if (IsEmpty())
                 return string.Empty;
 
-            var psalms = Psalms?.OptionOne == null || Psalms.OptionOne.IsEmpty() ? $"{Canticle?.OptionOne}" : $"{Psalms?.OptionOne}";
+            var hasPsalm = Psalms?.OptionOne != null && Psalms.OptionOne != null && !Psalms.OptionOne.IsEmpty();
+            var hasCanticle = Canticle?.OptionOne != null && Canticle.OptionOne != null && !Canticle.OptionOne.IsEmpty();
 
-            return $"{psalms}; {OldTestament?.OptionOne}; {NewTestament?.OptionOne}; {Gospel?.OptionOne}";
+            string psalms = string.Empty;
+            if (!hasPsalm && hasCanticle)
+            {
+                psalms = $"{Canticle.OptionOne}";
+            }
+            else if (hasPsalm && hasCanticle)
+            {
+                psalms = $"{Psalms.OptionOne}; {Canticle.OptionOne}";
+            }
+            else 
+            {
+                psalms = $"{Psalms.OptionOne}";
+            }
+            
+
+            return $"{psalms.Trim()}; {OldTestament?.OptionOne}; {NewTestament?.OptionOne}; {Gospel?.OptionOne}";
         }
     }
 

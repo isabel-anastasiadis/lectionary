@@ -1326,6 +1326,11 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Ps.80"
                     },
                     {
+                        "pretty": "Canticle: Luke 1:46\u201355 (Magnificat)",
+                        "readQS": "Luke+1:46-55",
+                        "audioQS": "Luke.1"
+                    },
+                    {
                         "pretty": "Micah 5:2\u20135a",
                         "readQS": "Micah+5:2-5a",
                         "audioQS": "Mic.5"
@@ -1341,8 +1346,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Luke.1"
                     }
                 ],
-                "readQS": "Psalm+80:1-8%3B+Micah+5:2-5a%3B+Hebrews+10:5-10%3B+Luke+1:39-45,%2846-55%29",
-                "audioQS": "Ps.80,Mic.5,Heb.10,Luke.1",
+                "readQS": "Psalm+80:1-8%3B+Canticle:+Luke+1:46-55+%28Magnificat%29%3B+Micah+5:2-5a%3B+Hebrews+10:5-10%3B+Luke+1:39-45,%2846-55%29",
+                "audioQS": "Ps.80,Canticle,Mic.5,Heb.10,Luke.1",
                 "note": null
             },
             {
@@ -1830,6 +1835,11 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Ps.148"
                     },
                     {
+                        "pretty": "Canticle: Colossians 3:12\u201317",
+                        "readQS": "Colossians+3:12-17",
+                        "audioQS": "Col.3"
+                    },
+                    {
                         "pretty": "1 Samuel 2:18\u201320,26",
                         "readQS": "1+Samuel+2:18-20,26",
                         "audioQS": "1Sam.2"
@@ -1845,8 +1855,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": ""
                     }
                 ],
-                "readQS": "Psalm+148%3B+1+Samuel+2:18-20,26%3B+Luke+2:41-52%3B+",
-                "audioQS": "Ps.148,1Sam.2,Luke.2,",
+                "readQS": "Psalm+148%3B+Canticle:+Colossians+3:12-17%3B+1+Samuel+2:18-20,26%3B+Luke+2:41-52%3B+",
+                "audioQS": "Ps.148,Canticle,1Sam.2,Luke.2,",
                 "note": null
             },
             {
@@ -8559,13 +8569,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": ""
                     },
                     {
-                        "pretty": "",
-                        "readQS": "",
-                        "audioQS": ""
+                        "pretty": "Luke 19:28\u201340",
+                        "readQS": "Luke+19:28-40",
+                        "audioQS": "Luke.19"
                     }
                 ],
-                "readQS": "Psalm+118:1-2,19-29%3B+%3B+%3B+",
-                "audioQS": "Ps.118,,,",
+                "readQS": "Psalm+118:1-2,19-29%3B+%3B+%3B+Luke+19:28-40",
+                "audioQS": "Ps.118,,,Luke.19",
                 "note": null
             },
             {
@@ -9114,6 +9124,11 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Ps.114"
                     },
                     {
+                        "pretty": "Canticle: Exodus 15:1b\u201313,17\u201318",
+                        "readQS": "Exodus+15:1b-13,17-18",
+                        "audioQS": "Exod.15"
+                    },
+                    {
                         "pretty": "Exodus 14:10\u201331,15:20\u201321",
                         "readQS": "Exodus+14:10-31,15:20-21",
                         "audioQS": "Exod.14"
@@ -9129,13 +9144,13 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Rom.6"
                     },
                     {
-                        "pretty": "",
-                        "readQS": "",
-                        "audioQS": ""
+                        "pretty": "Luke 24:1\u201312",
+                        "readQS": "Luke+24:1-12",
+                        "audioQS": "Luke.24"
                     }
                 ],
-                "readQS": "Psalm+114%3B+Exodus+14:10-31,15:20-21%3B+%3B+Romans+6:3-11%3B+",
-                "audioQS": "Ps.114,Exod.14,,Rom.6,",
+                "readQS": "Psalm+114%3B+Canticle:+Exodus+15:1b-13,17-18%3B+Exodus+14:10-31,15:20-21%3B+%3B+Romans+6:3-11%3B+Luke+24:1-12",
+                "audioQS": "Ps.114,Canticle,Exod.14,,Rom.6,Luke.24",
                 "note": "A minimum of three Old Testament readings should be chosen.  The Exodus 14 reading should always be used."
             },
             {
@@ -20259,6 +20274,11 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Ps.137"
                     },
                     {
+                        "pretty": "Canticle: Lamentations 3:19\u201326",
+                        "readQS": "Lamentations+3:19-26",
+                        "audioQS": "Lam.3"
+                    },
+                    {
                         "pretty": "Lamentations 1:1\u20136",
                         "readQS": "Lamentations+1:1-6",
                         "audioQS": "Lam.1"
@@ -20274,8 +20294,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Luke.17"
                     }
                 ],
-                "readQS": "Psalm+137%3B+Lamentations+1:1-6%3B+2+Timothy+1:1-14%3B+Luke+17:5-10",
-                "audioQS": "Ps.137,Lam.1,2Tim.1,Luke.17",
+                "readQS": "Psalm+137%3B+Canticle:+Lamentations+3:19-26%3B+Lamentations+1:1-6%3B+2+Timothy+1:1-14%3B+Luke+17:5-10",
+                "audioQS": "Ps.137,Canticle,Lam.1,2Tim.1,Luke.17",
                 "note": null
             },
             {
@@ -24856,6 +24876,11 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Ps.146"
                     },
                     {
+                        "pretty": "Canticle: Luke 1:46\u201355 (Magnificat)",
+                        "readQS": "Luke+1:46-55",
+                        "audioQS": "Luke.1"
+                    },
+                    {
                         "pretty": "Isaiah 35:1\u201310",
                         "readQS": "Isaiah+35:1-10",
                         "audioQS": "Isa.35"
@@ -24871,8 +24896,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Matt.11"
                     }
                 ],
-                "readQS": "Psalm+146:4-10%3B+Isaiah+35:1-10%3B+James+5:7-10%3B+Matthew+11:2-11",
-                "audioQS": "Ps.146,Isa.35,Jas.5,Matt.11",
+                "readQS": "Psalm+146:4-10%3B+Canticle:+Luke+1:46-55+%28Magnificat%29%3B+Isaiah+35:1-10%3B+James+5:7-10%3B+Matthew+11:2-11",
+                "audioQS": "Ps.146,Canticle,Isa.35,Jas.5,Matt.11",
                 "note": null
             },
             {
