@@ -1,6 +1,4 @@
-import { IReadingsForDay } from "./interfaces";
-
-const Data: { [dateKey: string]: IReadingsForDay } = {
+import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]: IReadingsForDay } = {
     "2024/12/01": {
         "datePretty": "Sunday, December 1, 2024",
         "calendar": "1st Sunday of Advent",
@@ -9153,7 +9151,7 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
                 ],
                 "readQS": "Psalm+114%3B+Canticle:+Exodus+15:1b-13,17-18%3B+Exodus+14:10-31,15:20-21%3B+%3B+Romans+6:3-11%3B+Luke+24:1-12",
                 "audioQS": "Ps.114,Canticle,Exod.14,,Rom.6,Luke.24",
-                "note": "A minimum of three Old Testament readings should be chosen.  The Exodus 14 reading should always be used."
+                "note": null
             },
             {
                 "readingSetTab": "prayers",
@@ -25246,6 +25244,4 @@ const Data: { [dateKey: string]: IReadingsForDay } = {
             }
         ]
     }
-};
-
-export default Data;
+};export default Data;
