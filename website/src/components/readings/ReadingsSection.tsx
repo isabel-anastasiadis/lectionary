@@ -11,7 +11,8 @@ const TabWrapper = styled('div', {
 })
 
 const ReadingsListWrapper = styled('div', {
-  margin: "24px 0 80px 4px",
+  margin: "24px 0 24px 4px",
+  flexGrow: 100
 })
 
 const StyledSpan = styled('p', {
@@ -60,7 +61,7 @@ const ReadingsSection = ({
   }
 
   return (
-    <div>
+    <>
       {tabComponent}
 
       <ReadingsListWrapper>
@@ -79,7 +80,7 @@ const ReadingsSection = ({
         setAudioTranslation={setAudioTranslation}
         setReadingTranslation={setReadingTranslation}
       />
-    </div>
+    </>
   )
 }
 
