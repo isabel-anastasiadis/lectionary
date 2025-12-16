@@ -46,12 +46,23 @@ namespace ReadingsBuilder
             FirstSundayOfAdventTheFollowingYear = new DateOnly(2025, 11, 30),
         };
 
+        public static readonly Input FOR_2025_TO_2026 = new()
+        {
+            StartDate = new DateOnly(2025, 11, 30), // first sun of advent
+            EndDate = new DateOnly(2026, 11, 28),
+            FifthSundayAfterEpiphany = new DateOnly(2026, 2, 8),
+            AshWednesday = new DateOnly(2026, 2, 18),
+            PalmSunday = new DateOnly(2026, 3, 29),
+            FirstSundayOfAdventTheFollowingYear = new DateOnly(2026, 11, 29),
+        };
+
         public static readonly List<Input> All = new()
         {
             FOR_2021_TO_2022,
             FOR_2022_TO_2023,
             FOR_2023_TO_2024,
             FOR_2024_TO_2025,
+            FOR_2025_TO_2026,
         };
     }
 }

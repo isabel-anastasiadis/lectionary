@@ -32,7 +32,7 @@ foreach (var previousYearsInput in Inputs.All)
 }
 
 
-var result = pipeline.Run(Inputs.FOR_2024_TO_2025);
+var result = pipeline.Run(Inputs.FOR_2025_TO_2026);
 
 
 resultWriter.WriteResult(result, "Result.csv", overwrite: true, logToConsole: true);
