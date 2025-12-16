@@ -72,13 +72,26 @@ namespace ReadingsBuilder.Data.Result
             {
                 RclYear = RclYear.A,
                 FirstDay = new DateOnly(2025, 11, 30),
-                LastDay = new DateOnly(2026, 11, 29), // TODO check next year!!
+                LastDay = new DateOnly(2026, 11, 28),
                 MorningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
                 MorningOldTestamentSeasonal = RotatingReadingType.OldTestament1,
                 MorningNewTestament = RotatingReadingType.NewTestament1,
                 EveningOldTestamentOrdinary = RotatingReadingType.OldTestament2a,
                 EveningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
                 EveningNewTestament = RotatingReadingType.NewTestament2
+            });
+
+            _years.Add(new LiturgicalYear()
+            {
+                RclYear = RclYear.B,
+                FirstDay = new DateOnly(2026, 11, 29),
+                LastDay = new DateOnly(2027, 11, 27),
+                MorningOldTestamentOrdinary = RotatingReadingType.OldTestament2a,
+                MorningOldTestamentSeasonal = RotatingReadingType.OldTestament2a,
+                MorningNewTestament = RotatingReadingType.NewTestament2,
+                EveningOldTestamentOrdinary = RotatingReadingType.OldTestament1,
+                EveningOldTestamentSeasonal = RotatingReadingType.OldTestament1,
+                EveningNewTestament = RotatingReadingType.NewTestament1
             });
         }
 
