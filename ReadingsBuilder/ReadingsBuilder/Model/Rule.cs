@@ -92,6 +92,27 @@
 
         public string? RclTrack2Gospel { get; set; }
 
+        public string? RclTrack3ShortNameOverride { get; set; }
+
+        public string? RclTrack3FullNameOverride { get; set; }
+
+        public string? RclTrack3Note { get; set; }
+
+        public string? RclTrack3Psalm { get; set; }
+
+        /// <summary>
+        /// NOTE: sometimes there isn't a psalm, and instead there is a canticle.
+        /// 
+        /// Format example: "Canticle: [reading] ([optional canticle common name])"
+        /// </summary>
+        public string? RclTrack3Canticle { get; set; }
+
+        public string? RclTrack3OldTestament { get; set; }
+
+        public string? RclTrack3NewTestament { get; set; }
+
+        public string? RclTrack3Gospel { get; set; }
+
         public bool HasRotatingReadings
         {
             get

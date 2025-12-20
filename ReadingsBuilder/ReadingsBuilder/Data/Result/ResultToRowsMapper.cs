@@ -25,6 +25,10 @@ namespace ReadingsBuilder.Data.Result
                 "rcl_track_2_full_name_override",
                 "rcl_track_2_note",
                 "rcl_track_2",
+                "rcl_track_3_short_name_override",
+                "rcl_track_3_full_name_override",
+                "rcl_track_3_note",
+                "rcl_track_3",
                 "morning_prayers_together",
                 "evening_prayers_together"
             });
@@ -62,6 +66,14 @@ namespace ReadingsBuilder.Data.Result
                 row.Add(day.RclTrack2Note ?? string.Empty);
 
                 row.Add(MapRclReadings(day.RclTrack2Readings));
+
+                row.Add(day.RclTrack3ShortNameOverride ?? string.Empty);
+
+                row.Add(day.RclTrack3FullNameOverride ?? string.Empty);
+
+                row.Add(day.RclTrack3Note ?? string.Empty);
+
+                row.Add(MapRclReadings(day.RclTrack3Readings));
 
                 row.Add(MapMorningReadings(day.MorningReadings));
 
