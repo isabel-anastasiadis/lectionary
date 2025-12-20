@@ -30,6 +30,10 @@ namespace Tests.Data.Result
                 "rcl_track_2_full_name_override",
                 "rcl_track_2_note",
                 "rcl_track_2",
+                "rcl_track_3_short_name_override",
+                "rcl_track_3_full_name_override",
+                "rcl_track_3_note",
+                "rcl_track_3",
                 "morning_prayers_together",
                 "evening_prayers_together"
             };
@@ -407,7 +411,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[12]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[16]);
 
         }
 
@@ -453,7 +457,7 @@ namespace Tests.Data.Result
             var firstDataRow = new ResultToRowsMapper().Map(input)[1]; // minus heading
 
             // assert
-            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[13]);
+            Assert.AreEqual("Psalm 69; Job 2:3-4; Mark 12:15-20", firstDataRow[17]);
 
         }
 

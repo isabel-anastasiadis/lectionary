@@ -1650,6 +1650,37 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "note": null
             },
             {
+                "readingSetTab": "rclTrack3",
+                "readingSetTabName": "RCL (III)",
+                "readingSetSubtitle": "Revised Common Lectionary (Proper III)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 98",
+                        "readQS": "Psalm+98",
+                        "audioQS": "Ps.98"
+                    },
+                    {
+                        "pretty": "Isaiah 52:7\u201310",
+                        "readQS": "Isaiah+52:7-10",
+                        "audioQS": "Isa.52"
+                    },
+                    {
+                        "pretty": "Hebrews 1:1\u20134,(5\u201312)",
+                        "readQS": "Hebrews+1:1-4,%285-12%29",
+                        "audioQS": "Heb.1"
+                    },
+                    {
+                        "pretty": "John 1:1\u201314",
+                        "readQS": "John+1:1-14",
+                        "audioQS": "John.1"
+                    }
+                ],
+                "readQS": "Psalm+98%3B+Isaiah+52:7-10%3B+Hebrews+1:1-4,%285-12%29%3B+John+1:1-14",
+                "audioQS": "Ps.98,Isa.52,Heb.1,John.1",
+                "note": null
+            },
+            {
                 "readingSetTab": "prayers",
                 "readingSetTabName": "Prayers",
                 "readingSetSubtitle": "Morning Prayers",

@@ -17,6 +17,7 @@ namespace ReadingsBuilder.Model.Result
 
             RclTrack1Readings = new Option<RclReadings, ReadingsOptionType>() { OptionOne = new RclReadings() };
             RclTrack2Readings = new Option<RclReadings, ReadingsOptionType>() { OptionOne = new RclReadings() };
+            RclTrack3Readings = new Option<RclReadings, ReadingsOptionType>() { OptionOne = new RclReadings() };
             MorningReadings = new Option<MorningReadings, ReadingsOptionType>() { OptionOne = new MorningReadings() };
             EveningReadings = new Option<EveningReadings, ReadingsOptionType>() { OptionOne = new EveningReadings() };
         }
@@ -53,6 +54,14 @@ namespace ReadingsBuilder.Model.Result
         public string? RclTrack2Note { get; set; }
 
         public Option<RclReadings, ReadingsOptionType> RclTrack2Readings { get; set; }
+
+        public string? RclTrack3ShortNameOverride { get; set; }
+
+        public string? RclTrack3FullNameOverride { get; set; }
+
+        public string? RclTrack3Note { get; set; }
+
+        public Option<RclReadings, ReadingsOptionType> RclTrack3Readings { get; set; }
 
         public Option<MorningReadings, ReadingsOptionType> MorningReadings { get; set; }
 

@@ -134,6 +134,14 @@ namespace ReadingsBuilder.Data.Rules
                     RclTrack2OldTestament = GetValueOrNull(row, ColumnIndexes.RclTrack2OldTestament),
                     RclTrack2NewTestament = GetValueOrNull(row, ColumnIndexes.RclTrack2NewTestament),
                     RclTrack2Gospel = GetValueOrNull(row, ColumnIndexes.RclTrack2Gospel),
+                    RclTrack3ShortNameOverride = GetValueOrNull(row, ColumnIndexes.RclTrack3ShortNameOverride),
+                    RclTrack3FullNameOverride = GetValueOrNull(row, ColumnIndexes.RclTrack3FullNameOverride),
+                    RclTrack3Note = GetValueOrNull(row, ColumnIndexes.RclTrack3Note),
+                    RclTrack3Psalm = GetValueOrNull(row, ColumnIndexes.RclTrack3Psalm),
+                    RclTrack3Canticle = GetValueOrNull(row, ColumnIndexes.RclTrack3Canticle),
+                    RclTrack3OldTestament = GetValueOrNull(row, ColumnIndexes.RclTrack3OldTestament),
+                    RclTrack3NewTestament = GetValueOrNull(row, ColumnIndexes.RclTrack3NewTestament),
+                    RclTrack3Gospel = GetValueOrNull(row, ColumnIndexes.RclTrack3Gospel),
                 };
 
                 rule.RotatingReadings[RotatingReadingType.OldTestament1] = GetValueOrNull(row, ColumnIndexes.RotatingOldTestament1);

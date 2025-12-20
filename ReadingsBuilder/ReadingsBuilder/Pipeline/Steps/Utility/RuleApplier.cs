@@ -48,6 +48,8 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             ApplyRclTrack1(rule, day);
 
             ApplyRclTrack2(rule, day);
+
+            ApplyRclTrack3(rule, day);
         }
 
         private bool CanApplyTo(Rule rule, Day day, string timeOfDay)
@@ -308,6 +310,49 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
             if (rule.RclTrack2Gospel != null)
             {
                 day.RclTrack2Readings.OptionOne.Gospel.OptionOne.RawString = rule.RclTrack2Gospel;
+            }
+        }
+
+        public void ApplyRclTrack3(Rule rule, Day day)
+        {
+            if (rule.RclTrack3ShortNameOverride != null)
+            {
+                day.RclTrack3ShortNameOverride = rule.RclTrack3ShortNameOverride;
+            }
+
+            if (rule.RclTrack3FullNameOverride != null)
+            {
+                day.RclTrack3FullNameOverride = rule.RclTrack3FullNameOverride;
+            }
+
+            if (rule.RclTrack3Note != null)
+            {
+                day.RclTrack3Note = rule.RclTrack3Note;
+            }
+
+            if (rule.RclTrack3Psalm != null)
+            {
+                day.RclTrack3Readings.OptionOne.Psalms.OptionOne.RawString = "Psalm " + rule.RclTrack3Psalm;
+            }
+
+            if (rule.RclTrack3Canticle != null)
+            {
+                day.RclTrack3Readings.OptionOne.Canticle.OptionOne.RawString = rule.RclTrack3Canticle;
+            }
+
+            if (rule.RclTrack3OldTestament != null)
+            {
+                day.RclTrack3Readings.OptionOne.OldTestament.OptionOne.RawString = rule.RclTrack3OldTestament;
+            }
+
+            if (rule.RclTrack3NewTestament != null)
+            {
+                day.RclTrack3Readings.OptionOne.NewTestament.OptionOne.RawString = rule.RclTrack3NewTestament;
+            }
+
+            if (rule.RclTrack3Gospel != null)
+            {
+                day.RclTrack3Readings.OptionOne.Gospel.OptionOne.RawString = rule.RclTrack3Gospel;
             }
         }
     }
