@@ -2129,28 +2129,28 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": null,
                 "readings": [
                     {
-                        "pretty": "Psalm 67",
-                        "readQS": "Psalm+67",
-                        "audioQS": "Ps.67"
+                        "pretty": "Psalm 8",
+                        "readQS": "Psalm+8",
+                        "audioQS": "Ps.8"
                     },
                     {
-                        "pretty": "Jeremiah 1:4\u201310",
-                        "readQS": "Jeremiah+1:4-10",
-                        "audioQS": "Jer.1"
+                        "pretty": "Numbers 6:22\u201327",
+                        "readQS": "Numbers+6:22-27",
+                        "audioQS": "Num.6"
                     },
                     {
-                        "pretty": "Acts 9:1\u201322",
-                        "readQS": "Acts+9:1-22",
-                        "audioQS": "Acts.9"
+                        "pretty": "Galatians 4:4\u20137",
+                        "readQS": "Galatians+4:4-7",
+                        "audioQS": "Gal.4"
                     },
                     {
-                        "pretty": "Matthew 19:27\u201330",
-                        "readQS": "Matthew+19:27-30",
-                        "audioQS": "Matt.19"
+                        "pretty": "Luke 2: 15\u201321",
+                        "readQS": "Luke+2:+15-21",
+                        "audioQS": "Luke.2"
                     }
                 ],
-                "readQS": "Psalm+67%3B+Jeremiah+1:4-10%3B+Acts+9:1-22%3B+Matthew+19:27-30",
-                "audioQS": "Ps.67,Jer.1,Acts.9,Matt.19",
+                "readQS": "Psalm+8%3B+Numbers+6:22-27%3B+Galatians+4:4-7%3B+Luke+2:+15-21",
+                "audioQS": "Ps.8,Num.6,Gal.4,Luke.2",
                 "note": null
             },
             {
@@ -22280,7 +22280,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
             {
                 "readingSetTab": "prayers",
                 "readingSetTabName": "Prayers",
-                "readingSetSubtitle": "Evening Prayers (Eve of All Saints Day)",
+                "readingSetSubtitle": "Evening Prayers (Eve of All Saints' Day)",
                 "timeOfDay": "evening",
                 "readings": [
                     {
@@ -22307,7 +22307,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/11/01": {
         "datePretty": "Sunday, November 1, 2026",
-        "calendar": "All Saints Day",
+        "calendar": "All Saints' Day",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
