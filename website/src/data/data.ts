@@ -1616,7 +1616,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+96%3B+%3B+Titus+2:11-14%3B+Luke+2:1-14,%2815-20%29",
                 "audioQS": "Ps.96,,Titus.2,Luke.2",
-                "note": null
+                "note": "Any of the three sets of readings (I, II, and III) may be used on Christmas Night and on Christmas Day. Set III should be used at some service during the celebration."
             },
             {
                 "readingSetTab": "rclTrack2",
@@ -1647,7 +1647,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+97%3B+Isaiah+62:6-12%3B+Titus+3:4-7%3B+Luke+2:%281-7%29,8-20",
                 "audioQS": "Ps.97,Isa.62,Titus.3,Luke.2",
-                "note": null
+                "note": "Any of the three sets of readings (I, II, and III) may be used on Christmas Night and on Christmas Day. Set III should be used at some service during the celebration."
             },
             {
                 "readingSetTab": "rclTrack3",
@@ -1678,7 +1678,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 ],
                 "readQS": "Psalm+98%3B+Isaiah+52:7-10%3B+Hebrews+1:1-4,%285-12%29%3B+John+1:1-14",
                 "audioQS": "Ps.98,Isa.52,Heb.1,John.1",
-                "note": null
+                "note": "Any of the three sets of readings (I, II, and III) may be used on Christmas Night and on Christmas Day. Set III should be used at some service during the celebration."
             },
             {
                 "readingSetTab": "prayers",
@@ -2122,6 +2122,37 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
         "datePretty": "Thursday, January 1, 2026",
         "calendar": "The naming of Jesus",
         "readingSets": [
+            {
+                "readingSetTab": "rclTrack1",
+                "readingSetTabName": "RCL (Re.)",
+                "readingSetSubtitle": "Revised Common Lectionary (Related)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 67",
+                        "readQS": "Psalm+67",
+                        "audioQS": "Ps.67"
+                    },
+                    {
+                        "pretty": "Jeremiah 1:4\u201310",
+                        "readQS": "Jeremiah+1:4-10",
+                        "audioQS": "Jer.1"
+                    },
+                    {
+                        "pretty": "Acts 9:1\u201322",
+                        "readQS": "Acts+9:1-22",
+                        "audioQS": "Acts.9"
+                    },
+                    {
+                        "pretty": "Matthew 19:27\u201330",
+                        "readQS": "Matthew+19:27-30",
+                        "audioQS": "Matt.19"
+                    }
+                ],
+                "readQS": "Psalm+67%3B+Jeremiah+1:4-10%3B+Acts+9:1-22%3B+Matthew+19:27-30",
+                "audioQS": "Ps.67,Jer.1,Acts.9,Matt.19",
+                "note": null
+            },
             {
                 "readingSetTab": "prayers",
                 "readingSetTabName": "Prayers",
@@ -5475,14 +5506,9 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Ps.32"
                     },
                     {
-                        "pretty": "Genesis 2:15\u201317",
-                        "readQS": "Genesis+2:15-17",
+                        "pretty": "Genesis 2:15\u201317,3:1\u20137",
+                        "readQS": "Genesis+2:15-17,3:1-7",
                         "audioQS": "Gen.2"
-                    },
-                    {
-                        "pretty": "3:1\u20137",
-                        "readQS": "3:1-7",
-                        "audioQS": "3"
                     },
                     {
                         "pretty": "Romans 5:12\u201319",
@@ -5495,8 +5521,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Matt.4"
                     }
                 ],
-                "readQS": "Psalm+32%3B+Genesis+2:15-17%3B+3:1-7%3B+Romans+5:12-19%3B+Matthew+4:1-11",
-                "audioQS": "Ps.32,Gen.2,3,Rom.5,Matt.4",
+                "readQS": "Psalm+32%3B+Genesis+2:15-17,3:1-7%3B+Romans+5:12-19%3B+Matthew+4:1-11",
+                "audioQS": "Ps.32,Gen.2,Rom.5,Matt.4",
                 "note": null
             },
             {
@@ -8419,6 +8445,37 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "readQS": "Psalm+118:1-2,14-24%3B+Acts+10:34-43%3B+Colossians+3:1-4%3B+John+20:1-18",
                 "audioQS": "Ps.118,Acts.10,Col.3,John.20",
                 "note": "The reading from Acts should be used as the 1st or 2nd reading."
+            },
+            {
+                "readingSetTab": "rclTrack2",
+                "readingSetTabName": "RCL (late)",
+                "readingSetSubtitle": "RCL (late in the day)",
+                "timeOfDay": null,
+                "readings": [
+                    {
+                        "pretty": "Psalm 114",
+                        "readQS": "Psalm+114",
+                        "audioQS": "Ps.114"
+                    },
+                    {
+                        "pretty": "Isaiah 25:6\u20139",
+                        "readQS": "Isaiah+25:6-9",
+                        "audioQS": "Isa.25"
+                    },
+                    {
+                        "pretty": "1 Corinthians 5:6b\u20138",
+                        "readQS": "1+Corinthians+5:6b-8",
+                        "audioQS": "1Cor.5"
+                    },
+                    {
+                        "pretty": "Luke 24:13\u201349",
+                        "readQS": "Luke+24:13-49",
+                        "audioQS": "Luke.24"
+                    }
+                ],
+                "readQS": "Psalm+114%3B+Isaiah+25:6-9%3B+1+Corinthians+5:6b-8%3B+Luke+24:13-49",
+                "audioQS": "Ps.114,Isa.25,1Cor.5,Luke.24",
+                "note": "When the main Eucharistic service must be late in the day"
             },
             {
                 "readingSetTab": "prayers",
@@ -12392,7 +12449,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/07": {
         "datePretty": "Sunday, June 7, 2026",
-        "calendar": "12th Sunday in Ordinary Time (Te Pouhere Sunday)",
+        "calendar": "Te Pouhere Sunday",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -22259,19 +22316,19 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                 "timeOfDay": null,
                 "readings": [
                     {
-                        "pretty": "Psalm 33:1\u20135",
-                        "readQS": "Psalm+33:1-5",
-                        "audioQS": "Ps.33"
+                        "pretty": "Psalm 34:1\u201310",
+                        "readQS": "Psalm+34:1-10",
+                        "audioQS": "Ps.34"
                     },
                     {
-                        "pretty": "Isaiah 56:3\u20138",
-                        "readQS": "Isaiah+56:3-8",
-                        "audioQS": "Isa.56"
+                        "pretty": "Revelation 7:9\u201317",
+                        "readQS": "Revelation+7:9-17",
+                        "audioQS": "Rev.7"
                     },
                     {
-                        "pretty": "Hebrews 12:18\u201324",
-                        "readQS": "Hebrews+12:18-24",
-                        "audioQS": "Heb.12"
+                        "pretty": "1 John 3:1\u20133",
+                        "readQS": "1+John+3:1-3",
+                        "audioQS": "1John.3"
                     },
                     {
                         "pretty": "Matthew 5:1\u201312",
@@ -22279,39 +22336,8 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
                         "audioQS": "Matt.5"
                     }
                 ],
-                "readQS": "Psalm+33:1-5%3B+Isaiah+56:3-8%3B+Hebrews+12:18-24%3B+Matthew+5:1-12",
-                "audioQS": "Ps.33,Isa.56,Heb.12,Matt.5",
-                "note": null
-            },
-            {
-                "readingSetTab": "rclTrack2",
-                "readingSetTabName": "RCL (Co.)",
-                "readingSetSubtitle": "Revised Common Lectionary (Continuous)",
-                "timeOfDay": null,
-                "readings": [
-                    {
-                        "pretty": "Psalm 107:1\u20137,33\u201337",
-                        "readQS": "Psalm+107:1-7,33-37",
-                        "audioQS": "Ps.107"
-                    },
-                    {
-                        "pretty": "Joshua 3:7\u201317",
-                        "readQS": "Joshua+3:7-17",
-                        "audioQS": "Josh.3"
-                    },
-                    {
-                        "pretty": "1 Thessalonians 2:9\u201313",
-                        "readQS": "1+Thessalonians+2:9-13",
-                        "audioQS": "1Thess.2"
-                    },
-                    {
-                        "pretty": "Matthew 23:1\u201312",
-                        "readQS": "Matthew+23:1-12",
-                        "audioQS": "Matt.23"
-                    }
-                ],
-                "readQS": "Psalm+107:1-7,33-37%3B+Joshua+3:7-17%3B+1+Thessalonians+2:9-13%3B+Matthew+23:1-12",
-                "audioQS": "Ps.107,Josh.3,1Thess.2,Matt.23",
+                "readQS": "Psalm+34:1-10%3B+Revelation+7:9-17%3B+1+John+3:1-3%3B+Matthew+5:1-12",
+                "audioQS": "Ps.34,Rev.7,1John.3,Matt.5",
                 "note": null
             },
             {
@@ -22370,7 +22396,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/11/02": {
         "datePretty": "Monday, November 2, 2026",
-        "calendar": "Week of 4th Sunday before Advent",
+        "calendar": "All Souls' Day",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
