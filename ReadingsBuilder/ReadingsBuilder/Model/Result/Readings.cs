@@ -9,11 +9,7 @@ namespace ReadingsBuilder.Model.Result
     public class RclReadings
     {
         public RclReadings() {
-            Psalms = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
-            Canticle = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
-            OldTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
-            NewTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
-            Gospel = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            Reset();
         }
 
         public Option<Reading, ReadingOptionType>? Psalms { get; set; }
@@ -33,6 +29,15 @@ namespace ReadingsBuilder.Model.Result
                 && (OldTestament?.OptionOne == null || OldTestament.OptionOne.IsEmpty())
                 && (NewTestament?.OptionOne == null || NewTestament.OptionOne.IsEmpty())
                 && (Gospel?.OptionOne == null || Gospel.OptionOne.IsEmpty());
+        }
+
+        public void Reset()
+        {
+            Psalms = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            Canticle = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            OldTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            NewTestament = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
+            Gospel = new Option<Reading, ReadingOptionType>() { OptionOne = new Reading() };
         }
 
         public override string ToString()

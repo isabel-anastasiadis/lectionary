@@ -94,6 +94,18 @@ namespace ReadingsBuilder.Model.Result
             return $"{Date} {Date.DayOfWeek} '{DayDescription}' [{RclTrack1Readings?.OptionOne}] [{RclTrack2Readings?.OptionOne}] [{MorningReadings?.OptionOne}] [{EveningReadings?.OptionOne}{eveningOptionTwo}]";
         }
 
+        /// <summary>
+        /// Sometimes a principal feast can fall on a Sunday which normally has RCL track 2 readings.
+        /// Principal feasts have RCL readings, but only Track1, so we need a way to reset preexisting track 2 readings.
+        /// </summary>
+        public void ResetRclTrack2() 
+        {
+            RclTrack2ShortNameOverride = null;
+            RclTrack2FullNameOverride = null;
+            RclTrack2Note = null;
+            RclTrack2Readings.OptionOne?.Reset();
+        }
+
     }
 
 }
