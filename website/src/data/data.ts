@@ -12449,7 +12449,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/07": {
         "datePretty": "Sunday, June 7, 2026",
-        "calendar": "Te Pouhere Sunday",
+        "calendar": "10th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -12569,7 +12569,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/08": {
         "datePretty": "Monday, June 8, 2026",
-        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "calendar": "Week of 10th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -12627,7 +12627,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/09": {
         "datePretty": "Tuesday, June 9, 2026",
-        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "calendar": "Week of 10th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -12685,7 +12685,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/10": {
         "datePretty": "Wednesday, June 10, 2026",
-        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "calendar": "Week of 10th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -12801,7 +12801,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/12": {
         "datePretty": "Friday, June 12, 2026",
-        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "calendar": "Week of 10th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -12859,7 +12859,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/13": {
         "datePretty": "Saturday, June 13, 2026",
-        "calendar": "Week of 12th Sunday in Ordinary Time",
+        "calendar": "Week of 10th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -12917,7 +12917,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/14": {
         "datePretty": "Sunday, June 14, 2026",
-        "calendar": "13th Sunday in Ordinary Time",
+        "calendar": "11th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -13037,7 +13037,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/15": {
         "datePretty": "Monday, June 15, 2026",
-        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "calendar": "Week of 11th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13095,7 +13095,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/16": {
         "datePretty": "Tuesday, June 16, 2026",
-        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "calendar": "Week of 11th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13153,7 +13153,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/17": {
         "datePretty": "Wednesday, June 17, 2026",
-        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "calendar": "Week of 11th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13211,7 +13211,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/18": {
         "datePretty": "Thursday, June 18, 2026",
-        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "calendar": "Week of 11th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13269,7 +13269,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/19": {
         "datePretty": "Friday, June 19, 2026",
-        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "calendar": "Week of 11th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13327,7 +13327,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/20": {
         "datePretty": "Saturday, June 20, 2026",
-        "calendar": "Week of 13th Sunday in Ordinary Time",
+        "calendar": "Week of 11th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13385,7 +13385,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/21": {
         "datePretty": "Sunday, June 21, 2026",
-        "calendar": "14th Sunday in Ordinary Time",
+        "calendar": "12th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -13505,7 +13505,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/22": {
         "datePretty": "Monday, June 22, 2026",
-        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13563,7 +13563,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/23": {
         "datePretty": "Tuesday, June 23, 2026",
-        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13679,7 +13679,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/25": {
         "datePretty": "Thursday, June 25, 2026",
-        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13737,7 +13737,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/26": {
         "datePretty": "Friday, June 26, 2026",
-        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13795,7 +13795,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/27": {
         "datePretty": "Saturday, June 27, 2026",
-        "calendar": "Week of 14th Sunday in Ordinary Time",
+        "calendar": "Week of 12th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -13853,7 +13853,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/28": {
         "datePretty": "Sunday, June 28, 2026",
-        "calendar": "15th Sunday in Ordinary Time",
+        "calendar": "13th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -14031,7 +14031,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/06/30": {
         "datePretty": "Tuesday, June 30, 2026",
-        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14089,7 +14089,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/01": {
         "datePretty": "Wednesday, July 1, 2026",
-        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14147,7 +14147,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/02": {
         "datePretty": "Thursday, July 2, 2026",
-        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14263,7 +14263,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/04": {
         "datePretty": "Saturday, July 4, 2026",
-        "calendar": "Week of 15th Sunday in Ordinary Time",
+        "calendar": "Week of 13th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14321,7 +14321,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/05": {
         "datePretty": "Sunday, July 5, 2026",
-        "calendar": "16th Sunday in Ordinary Time",
+        "calendar": "14th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -14446,7 +14446,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/06": {
         "datePretty": "Monday, July 6, 2026",
-        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14504,7 +14504,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/07": {
         "datePretty": "Tuesday, July 7, 2026",
-        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14562,7 +14562,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/08": {
         "datePretty": "Wednesday, July 8, 2026",
-        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14620,7 +14620,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/09": {
         "datePretty": "Thursday, July 9, 2026",
-        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14678,7 +14678,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/10": {
         "datePretty": "Friday, July 10, 2026",
-        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14736,7 +14736,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/11": {
         "datePretty": "Saturday, July 11, 2026",
-        "calendar": "Week of 16th Sunday in Ordinary Time",
+        "calendar": "Week of 14th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14794,7 +14794,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/12": {
         "datePretty": "Sunday, July 12, 2026",
-        "calendar": "17th Sunday in Ordinary Time",
+        "calendar": "15th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -14914,7 +14914,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/13": {
         "datePretty": "Monday, July 13, 2026",
-        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -14972,7 +14972,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/14": {
         "datePretty": "Tuesday, July 14, 2026",
-        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15030,7 +15030,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/15": {
         "datePretty": "Wednesday, July 15, 2026",
-        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15088,7 +15088,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/16": {
         "datePretty": "Thursday, July 16, 2026",
-        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15151,7 +15151,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/17": {
         "datePretty": "Friday, July 17, 2026",
-        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15209,7 +15209,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/18": {
         "datePretty": "Saturday, July 18, 2026",
-        "calendar": "Week of 17th Sunday in Ordinary Time",
+        "calendar": "Week of 15th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15267,7 +15267,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/19": {
         "datePretty": "Sunday, July 19, 2026",
-        "calendar": "18th Sunday in Ordinary Time",
+        "calendar": "16th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -15387,7 +15387,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/20": {
         "datePretty": "Monday, July 20, 2026",
-        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15445,7 +15445,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/21": {
         "datePretty": "Tuesday, July 21, 2026",
-        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15561,7 +15561,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/23": {
         "datePretty": "Thursday, July 23, 2026",
-        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15619,7 +15619,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/24": {
         "datePretty": "Friday, July 24, 2026",
-        "calendar": "Week of 18th Sunday in Ordinary Time",
+        "calendar": "Week of 16th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15735,7 +15735,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/26": {
         "datePretty": "Sunday, July 26, 2026",
-        "calendar": "19th Sunday in Ordinary Time",
+        "calendar": "17th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -15855,7 +15855,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/27": {
         "datePretty": "Monday, July 27, 2026",
-        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15913,7 +15913,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/28": {
         "datePretty": "Tuesday, July 28, 2026",
-        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -15971,7 +15971,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/29": {
         "datePretty": "Wednesday, July 29, 2026",
-        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16029,7 +16029,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/30": {
         "datePretty": "Thursday, July 30, 2026",
-        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16087,7 +16087,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/07/31": {
         "datePretty": "Friday, July 31, 2026",
-        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16145,7 +16145,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/01": {
         "datePretty": "Saturday, August 1, 2026",
-        "calendar": "Week of 19th Sunday in Ordinary Time",
+        "calendar": "Week of 17th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16203,7 +16203,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/02": {
         "datePretty": "Sunday, August 2, 2026",
-        "calendar": "20th Sunday in Ordinary Time",
+        "calendar": "18th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -16323,7 +16323,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/03": {
         "datePretty": "Monday, August 3, 2026",
-        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16381,7 +16381,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/04": {
         "datePretty": "Tuesday, August 4, 2026",
-        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16439,7 +16439,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/05": {
         "datePretty": "Wednesday, August 5, 2026",
-        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16555,7 +16555,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/07": {
         "datePretty": "Friday, August 7, 2026",
-        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16613,7 +16613,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/08": {
         "datePretty": "Saturday, August 8, 2026",
-        "calendar": "Week of 20th Sunday in Ordinary Time",
+        "calendar": "Week of 18th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16671,7 +16671,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/09": {
         "datePretty": "Sunday, August 9, 2026",
-        "calendar": "21st Sunday in Ordinary Time",
+        "calendar": "19th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -16791,7 +16791,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/10": {
         "datePretty": "Monday, August 10, 2026",
-        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16849,7 +16849,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/11": {
         "datePretty": "Tuesday, August 11, 2026",
-        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16907,7 +16907,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/12": {
         "datePretty": "Wednesday, August 12, 2026",
-        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -16965,7 +16965,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/13": {
         "datePretty": "Thursday, August 13, 2026",
-        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17023,7 +17023,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/14": {
         "datePretty": "Friday, August 14, 2026",
-        "calendar": "Week of 21st Sunday in Ordinary Time",
+        "calendar": "Week of 19th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17139,7 +17139,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/16": {
         "datePretty": "Sunday, August 16, 2026",
-        "calendar": "22nd Sunday in Ordinary Time",
+        "calendar": "20th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -17259,7 +17259,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/17": {
         "datePretty": "Monday, August 17, 2026",
-        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17317,7 +17317,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/18": {
         "datePretty": "Tuesday, August 18, 2026",
-        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17375,7 +17375,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/19": {
         "datePretty": "Wednesday, August 19, 2026",
-        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17433,7 +17433,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/20": {
         "datePretty": "Thursday, August 20, 2026",
-        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17491,7 +17491,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/21": {
         "datePretty": "Friday, August 21, 2026",
-        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17549,7 +17549,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/22": {
         "datePretty": "Saturday, August 22, 2026",
-        "calendar": "Week of 22nd Sunday in Ordinary Time",
+        "calendar": "Week of 20th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17607,7 +17607,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/23": {
         "datePretty": "Sunday, August 23, 2026",
-        "calendar": "23rd Sunday in Ordinary Time",
+        "calendar": "21st Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -17785,7 +17785,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/25": {
         "datePretty": "Tuesday, August 25, 2026",
-        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17843,7 +17843,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/26": {
         "datePretty": "Wednesday, August 26, 2026",
-        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17901,7 +17901,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/27": {
         "datePretty": "Thursday, August 27, 2026",
-        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -17959,7 +17959,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/28": {
         "datePretty": "Friday, August 28, 2026",
-        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18017,7 +18017,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/29": {
         "datePretty": "Saturday, August 29, 2026",
-        "calendar": "Week of 23rd Sunday in Ordinary Time",
+        "calendar": "Week of 21st Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18075,7 +18075,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/30": {
         "datePretty": "Sunday, August 30, 2026",
-        "calendar": "24th Sunday in Ordinary Time",
+        "calendar": "22nd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -18195,7 +18195,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/08/31": {
         "datePretty": "Monday, August 31, 2026",
-        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18253,7 +18253,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/01": {
         "datePretty": "Tuesday, September 1, 2026",
-        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18311,7 +18311,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/02": {
         "datePretty": "Wednesday, September 2, 2026",
-        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18369,7 +18369,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/03": {
         "datePretty": "Thursday, September 3, 2026",
-        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18427,7 +18427,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/04": {
         "datePretty": "Friday, September 4, 2026",
-        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18490,7 +18490,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/05": {
         "datePretty": "Saturday, September 5, 2026",
-        "calendar": "Week of 24th Sunday in Ordinary Time",
+        "calendar": "Week of 22nd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18548,7 +18548,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/06": {
         "datePretty": "Sunday, September 6, 2026",
-        "calendar": "25th Sunday in Ordinary Time",
+        "calendar": "23rd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -18668,7 +18668,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/07": {
         "datePretty": "Monday, September 7, 2026",
-        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18726,7 +18726,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/08": {
         "datePretty": "Tuesday, September 8, 2026",
-        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18784,7 +18784,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/09": {
         "datePretty": "Wednesday, September 9, 2026",
-        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18842,7 +18842,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/10": {
         "datePretty": "Thursday, September 10, 2026",
-        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18900,7 +18900,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/11": {
         "datePretty": "Friday, September 11, 2026",
-        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -18958,7 +18958,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/12": {
         "datePretty": "Saturday, September 12, 2026",
-        "calendar": "Week of 25th Sunday in Ordinary Time",
+        "calendar": "Week of 23rd Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19016,7 +19016,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/13": {
         "datePretty": "Sunday, September 13, 2026",
-        "calendar": "26th Sunday in Ordinary Time",
+        "calendar": "24th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -19199,7 +19199,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/15": {
         "datePretty": "Tuesday, September 15, 2026",
-        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19257,7 +19257,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/16": {
         "datePretty": "Wednesday, September 16, 2026",
-        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19315,7 +19315,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/17": {
         "datePretty": "Thursday, September 17, 2026",
-        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19373,7 +19373,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/18": {
         "datePretty": "Friday, September 18, 2026",
-        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19431,7 +19431,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/19": {
         "datePretty": "Saturday, September 19, 2026",
-        "calendar": "Week of 26th Sunday in Ordinary Time",
+        "calendar": "Week of 24th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19489,7 +19489,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/20": {
         "datePretty": "Sunday, September 20, 2026",
-        "calendar": "27th Sunday in Ordinary Time",
+        "calendar": "25th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -19667,7 +19667,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/22": {
         "datePretty": "Tuesday, September 22, 2026",
-        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19725,7 +19725,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/23": {
         "datePretty": "Wednesday, September 23, 2026",
-        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19783,7 +19783,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/24": {
         "datePretty": "Thursday, September 24, 2026",
-        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19841,7 +19841,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/25": {
         "datePretty": "Friday, September 25, 2026",
-        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19899,7 +19899,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/26": {
         "datePretty": "Saturday, September 26, 2026",
-        "calendar": "Week of 27th Sunday in Ordinary Time",
+        "calendar": "Week of 25th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -19957,7 +19957,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/27": {
         "datePretty": "Sunday, September 27, 2026",
-        "calendar": "28th Sunday in Ordinary Time",
+        "calendar": "26th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -20077,7 +20077,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/28": {
         "datePretty": "Monday, September 28, 2026",
-        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20193,7 +20193,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/09/30": {
         "datePretty": "Wednesday, September 30, 2026",
-        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20251,7 +20251,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/01": {
         "datePretty": "Thursday, October 1, 2026",
-        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20309,7 +20309,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/02": {
         "datePretty": "Friday, October 2, 2026",
-        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20367,7 +20367,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/03": {
         "datePretty": "Saturday, October 3, 2026",
-        "calendar": "Week of 28th Sunday in Ordinary Time",
+        "calendar": "Week of 26th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20425,7 +20425,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/04": {
         "datePretty": "Sunday, October 4, 2026",
-        "calendar": "29th Sunday in Ordinary Time",
+        "calendar": "27th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -20545,7 +20545,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/05": {
         "datePretty": "Monday, October 5, 2026",
-        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20603,7 +20603,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/06": {
         "datePretty": "Tuesday, October 6, 2026",
-        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20661,7 +20661,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/07": {
         "datePretty": "Wednesday, October 7, 2026",
-        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20719,7 +20719,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/08": {
         "datePretty": "Thursday, October 8, 2026",
-        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20777,7 +20777,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/09": {
         "datePretty": "Friday, October 9, 2026",
-        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20835,7 +20835,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/10": {
         "datePretty": "Saturday, October 10, 2026",
-        "calendar": "Week of 29th Sunday in Ordinary Time",
+        "calendar": "Week of 27th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -20893,7 +20893,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/11": {
         "datePretty": "Sunday, October 11, 2026",
-        "calendar": "30th Sunday in Ordinary Time",
+        "calendar": "28th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -21013,7 +21013,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/12": {
         "datePretty": "Monday, October 12, 2026",
-        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21071,7 +21071,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/13": {
         "datePretty": "Tuesday, October 13, 2026",
-        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21129,7 +21129,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/14": {
         "datePretty": "Wednesday, October 14, 2026",
-        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21187,7 +21187,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/15": {
         "datePretty": "Thursday, October 15, 2026",
-        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21245,7 +21245,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/16": {
         "datePretty": "Friday, October 16, 2026",
-        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21303,7 +21303,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/17": {
         "datePretty": "Saturday, October 17, 2026",
-        "calendar": "Week of 30th Sunday in Ordinary Time",
+        "calendar": "Week of 28th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21481,7 +21481,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/19": {
         "datePretty": "Monday, October 19, 2026",
-        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21539,7 +21539,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/20": {
         "datePretty": "Tuesday, October 20, 2026",
-        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21602,7 +21602,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/21": {
         "datePretty": "Wednesday, October 21, 2026",
-        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21660,7 +21660,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/22": {
         "datePretty": "Thursday, October 22, 2026",
-        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21718,7 +21718,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/23": {
         "datePretty": "Friday, October 23, 2026",
-        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21776,7 +21776,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/24": {
         "datePretty": "Saturday, October 24, 2026",
-        "calendar": "Week of 31st Sunday in Ordinary Time",
+        "calendar": "Week of 29th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -21834,7 +21834,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/25": {
         "datePretty": "Sunday, October 25, 2026",
-        "calendar": "32nd Sunday in Ordinary Time",
+        "calendar": "30th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "rclTrack1",
@@ -21954,7 +21954,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/26": {
         "datePretty": "Monday, October 26, 2026",
-        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -22012,7 +22012,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/27": {
         "datePretty": "Tuesday, October 27, 2026",
-        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -22128,7 +22128,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/29": {
         "datePretty": "Thursday, October 29, 2026",
-        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -22191,7 +22191,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/30": {
         "datePretty": "Friday, October 30, 2026",
-        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
@@ -22249,7 +22249,7 @@ import { IReadingsForDay } from "./interfaces";const Data: { [dateKey: string]
     },
     "2026/10/31": {
         "datePretty": "Saturday, October 31, 2026",
-        "calendar": "Week of 32nd Sunday in Ordinary Time",
+        "calendar": "Week of 30th Sunday in Ordinary Time",
         "readingSets": [
             {
                 "readingSetTab": "prayers",
