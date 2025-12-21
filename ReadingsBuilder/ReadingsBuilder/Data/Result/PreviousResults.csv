@@ -33,7 +33,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2021/12/29,"Wednesday, December 29, 2021",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 19; Jonah 1; Colossians 1:1–14,Psalm 132; Isaiah 57:15–end; John 1:1–18
 2021/12/30,"Thursday, December 30, 2021",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 113; Jonah 2; Colossians 1:15–23,Psalm 65; Isaiah 59:1–15a; John 1:19–28
 2021/12/31,"Friday, December 31, 2021",Week of 1st Sunday of Christmas,Eve of the Naming of Jesus,,,,,,,,,,,,,Psalm 102; Jonah 3; Jonah 4; Colossians 1:24–2:7,Psalm 148; Jeremiah 23:1-6; Colossians 2:8-15
-2022/01/01,"Saturday, January 1, 2022",The naming of Jesus,,,,,,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
+2022/01/01,"Saturday, January 1, 2022",The naming of Jesus,,,,,Psalm 67; Jeremiah 1:4-10; Acts 9:1-22; Matthew 19:27-30,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
 2022/01/02,"Sunday, January 2, 2022",2nd Sunday of Christmas,,,,,"Psalm 147:13-21; Jeremiah 31:7-14; Ephesians 1:3-14; John 1:(1-9),10-18",,,,,,,,,Psalm 87; Isaiah 12; 1 Thessalonians 2:1-8,Psalm 135*; 1 Samuel 1:20-28; 1 John 4:7-16
 2022/01/03,"Monday, January 3, 2022",Week of 2nd Sunday of Christmas,,,,,,,,,,,,,,Psalm 127; Ruth 2; Colossians 3:1–11,Psalm 2; Isaiah 60:13–end; John 1:43–end
 2022/01/04,"Tuesday, January 4, 2022",Week of 2nd Sunday of Christmas,,,,,,,,,,,,,,Psalm 89:1-37; Ruth 3; Colossians 3:12–4:1,Psalm 87; Isaiah 61; John 2:1–12
@@ -139,7 +139,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2022/04/14,"Thursday, April 14, 2022",Maundy Thursday,,,,,"Psalm 116:1,10-17*; Exodus 12:1-4,(5-10),11-14; 1 Corinthians 11:23-26; John 13:1-17,31b-35",,,,,,,,,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
 2022/04/15,"Friday, April 15, 2022",Good Friday,,,,,Psalm 22*; Isaiah 52:13-53:12; Hebrews 10:16-25; John 18:1-19:42,,,,,,,,,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
 2022/04/16,"Saturday, April 16, 2022",Holy Saturday,,Holy Sat.,RCL (Holy Saturday),,"Psalm 31:1-4,15,16*; Job 14:1-14; 1 Peter 4:1-8; Matthew 27:57-66",Vigil,RCL (Easter Vigil),,"Psalm 114; Canticle: Exodus 15:1b-13,17-18; Exodus 14:10-31,15:20-21;; Romans 6:3-11; Luke 24:1-12",,,,,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
-2022/04/17,"Sunday, April 17, 2022",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; 1 Corinthians 15:19-26; John 20:1-18",,,,,,,,,"Psalm 114,117; Ezekiel 47:1-12; John 2:13-22",Psalm 105; Isaiah 43:1-21; 1 Corinthians 15:1-11
+2022/04/17,"Sunday, April 17, 2022",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; 1 Corinthians 15:19-26; John 20:1-18",RCL (late),RCL (late in the day),When the main Eucharistic service must be late in the day,Psalm 114; Isaiah 25:6-9; 1 Corinthians 5:6b-8; Luke 24:13-49,,,,,"Psalm 114,117; Ezekiel 47:1-12; John 2:13-22",Psalm 105; Isaiah 43:1-21; 1 Corinthians 15:1-11
 2022/04/18,"Monday, April 18, 2022",Monday in Easter Week,,,,,,,,,,,,,,Psalm 111; Exodus 12:1–14; 1 Corinthians 15:1–11,Psalm 135; Song of Solomon 1:9–2:7; Mark 16:1–8
 2022/04/19,"Tuesday, April 19, 2022",Tuesday in Easter Week,,,,,,,,,,,,,,Psalm 112; Exodus 12:14–36; 1 Corinthians 15:12–19,Psalm 136; Song of Solomon 2:8–end; Luke 24:1–12
 2022/04/20,"Wednesday, April 20, 2022",Wednesday in Easter Week,,,,,,,,,,,,,,Psalm 113; Exodus 12:37–end; 1 Corinthians 15:20–28,Psalm 105; Song of Solomon 3; Matthew 28:16–end
@@ -202,7 +202,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2022/06/16,"Thursday, June 16, 2022",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 15; Joshua 8:30–end; Luke 11:14–28,Psalm 18*; 2 Chronicles 29:20–end; Romans 5:12–end
 2022/06/17,"Friday, June 17, 2022",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 19; Joshua 9:3–26; Luke 11:29–36,Psalm 22; 2 Chronicles 30; Romans 6:1–14
 2022/06/18,"Saturday, June 18, 2022",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 23; Joshua 10:1–15; Luke 11:37–end,Psalm 24; 2 Chronicles 32:1–22; Romans 6:15–end
-2022/06/19,"Sunday, June 19, 2022",12th Sunday in Ordinary Time (Te Pouhere Sunday),,,,,Psalm 22:19-28; Isaiah 65:1-9; Galatians 3:23-29; Luke 8:26-39,,,,"Psalm 42, 43*; 1 Kings 19:1-4,(5-7),8-15a; Galatians 3:23-29; Luke 8:26-39",,,,,"Psalm 55:1-16,18-21; Deuteronomy 11:1-15; Acts 27:1-12",Psalm 57; Genesis 24:1-27; Mark 5:21-43
+2022/06/19,"Sunday, June 19, 2022",Te Pouhere Sunday,,,,,Psalm 22:19-28; Isaiah 65:1-9; Galatians 3:23-29; Luke 8:26-39,,,,"Psalm 42, 43*; 1 Kings 19:1-4,(5-7),8-15a; Galatians 3:23-29; Luke 8:26-39",,,,,"Psalm 55:1-16,18-21; Deuteronomy 11:1-15; Acts 27:1-12",Psalm 57; Genesis 24:1-27; Mark 5:21-43
 2022/06/20,"Monday, June 20, 2022",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 30; Joshua 14; Luke 12:1–12,Psalm 28; 2 Chronicles 33:1–13; Romans 7:1–6
 2022/06/21,"Tuesday, June 21, 2022",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 36; Joshua 21:43–22:8; Luke 12:13–21,Psalm 33; 2 Chronicles 34:1–18; Romans 7:7–end
 2022/06/22,"Wednesday, June 22, 2022",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 34; Joshua 22:9–end; Luke 12:22–31,Psalm 119:33-56; 2 Chronicles 34:19–end; Romans 8:1–11
@@ -338,7 +338,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2022/10/30,"Sunday, October 30, 2022",4th Sunday before Advent,,,,,"Psalm 32:1-7; Isaiah 1:10-18; 2 Thessalonians 1:1-4,11-12; Luke 19:1-10",,,,"Psalm 119:137-144; Habakkuk 1:1-4,2:1-4; 2 Thessalonians 1:1-4,11-12; Luke 19:1-10",,,,,Psalm 87; Job 26; Colossians 1:9-14,"Psalm 145*; Lamentations 3:22-33; John 11:(1-31),32-44"
 2022/10/31,"Monday, October 31, 2022",Week of 4th Sunday before Advent,Eve of All Saints Day,,,,,,,,,,,,,Psalm 2; Daniel 1; Revelation 1,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
 2022/11/01,"Tuesday, November 1, 2022",All Saints Day,,,,,"Psalm 149; Daniel 7:1-3,15-18; Ephesians 1:11-23; Luke 6:20-31",,,,,,,,,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
-2022/11/02,"Wednesday, November 2, 2022",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 9; Daniel 2:25–end; Revelation 2:12–end,Psalm 112; Isaiah 2:1–11; Matthew 2:16–end
+2022/11/02,"Wednesday, November 2, 2022",All Souls' Day,,,,,,,,,,,,,,Psalm 9; Daniel 2:25–end; Revelation 2:12–end,Psalm 112; Isaiah 2:1–11; Matthew 2:16–end
 2022/11/03,"Thursday, November 3, 2022",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 15; Daniel 3:1–18; Revelation 3:1–13,Psalm 118; Isaiah 2:12–end; Matthew 3
 2022/11/04,"Friday, November 4, 2022",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 16; Daniel 3:19–end; Revelation 3:14–end,Psalm 143; Isaiah 3:1–15; Matthew 4:1–11
 2022/11/05,"Saturday, November 5, 2022",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 18.31-end; Daniel 4:1–18; Revelation 4,Psalm 145; Isaiah 4:2–5:7; Matthew 4:12–22
@@ -419,7 +419,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2022/12/29,"Thursday, December 29, 2022",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 19; Isaiah 57:15–end; John 1:1–18,Psalm 132; Jonah 1; Colossians 1:1–14
 2022/12/30,"Friday, December 30, 2022",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 113; Isaiah 59:1–15a; John 1:19–28,Psalm 65; Jonah 2; Colossians 1:15–23
 2022/12/31,"Saturday, December 31, 2022",Week of 1st Sunday of Christmas,Eve of the Naming of Jesus,,,,,,,,,,,,,Psalm 102; Isaiah 59:15b–end; John 1:29–34,Psalm 148; Jeremiah 23:1-6; Colossians 2:8-15
-2023/01/01,"Sunday, January 1, 2023",The naming of Jesus,,,,,"Psalm 147:13-21; Jeremiah 31:7-14; Ephesians 1:3-14; John 1:(1-9),10-18",,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
+2023/01/01,"Sunday, January 1, 2023",The naming of Jesus,,,,,Psalm 67; Jeremiah 1:4-10; Acts 9:1-22; Matthew 19:27-30,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
 2023/01/02,"Monday, January 2, 2023",Week of 2nd Sunday of Christmas,,,,,,,,,,,,,,Psalm 18:1-30; Isaiah 60:1–12; John 1:35–42,Psalm 46; Ruth 1; Colossians 2:8–end
 2023/01/03,"Tuesday, January 3, 2023",Week of 2nd Sunday of Christmas,,,,,,,,,,,,,,Psalm 127; Isaiah 60:13–end; John 1:43–end,Psalm 2; Ruth 2; Colossians 3:1–11
 2023/01/04,"Wednesday, January 4, 2023",Week of 2nd Sunday of Christmas,,,,,,,,,,,,,,Psalm 89:1-37; Isaiah 61; John 2:1–12,Psalm 87; Ruth 3; Colossians 3:12–4:1
@@ -475,7 +475,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2023/02/23,"Thursday, February 23, 2023",1st day of Lent,,,,,,,,,,,,,,Psalm 77; Jeremiah 2:14–32; John 4:1–26,Psalm 74; Genesis 39; Galatians 2:11–end
 2023/02/24,"Friday, February 24, 2023",2nd day of Lent,,,,,,,,,,,,,,Psalm 3; Jeremiah 3:6–22; John 4:27–42,Psalm 31; Genesis 40; Galatians 3:1–14
 2023/02/25,"Saturday, February 25, 2023",3rd day of Lent,,,,,,,,,,,,,,Psalm 71; Jeremiah 4:1–18; John 4:43–end,Psalm 73; Genesis 41:1–24; Galatians 3:15–22
-2023/02/26,"Sunday, February 26, 2023",1st Sunday of Lent,,,,,Psalm 32; Genesis 2:15-17; 3:1-7; Romans 5:12-19; Matthew 4:1-11,,,,,,,,,Psalm 119:1-16; Jeremiah 18:1-11; Luke 18:9-14,"Psalm 50:1-15; Deuteronomy 6:4-9,16-25; Luke 15:1-10"
+2023/02/26,"Sunday, February 26, 2023",1st Sunday of Lent,,,,,"Psalm 32; Genesis 2:15-17,3:1-7; Romans 5:12-19; Matthew 4:1-11",,,,,,,,,Psalm 119:1-16; Jeremiah 18:1-11; Luke 18:9-14,"Psalm 50:1-15; Deuteronomy 6:4-9,16-25; Luke 15:1-10"
 2023/02/27,"Monday, February 27, 2023",Week of 1st Sunday of Lent,,,,,,,,,,,,,,Psalm 11; Jeremiah 4:19–end; John 5:1–18,Psalm 13; Genesis 41:25–45; Galatians 3:23–4:7
 2023/02/28,"Tuesday, February 28, 2023",Week of 1st Sunday of Lent,,,,,,,,,,,,,,Psalm 44; Jeremiah 5:1–19; John 5:19–29,Psalm 49; Genesis 41:46–42:5; Galatians 4:8–20
 2023/03/01,"Wednesday, March 1, 2023",Week of 1st Sunday of Lent,,,,,,,,,,,,,,Psalm 6; Jeremiah 5:20–end; John 5:30–end,Psalm 28; Genesis 42:6–17; Galatians 4:21–5:1
@@ -517,7 +517,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2023/04/06,"Thursday, April 6, 2023",Maundy Thursday,,,,,"Psalm 116:1,10-17*; Exodus 12:1-4,(5-10),11-14; 1 Corinthians 11:23-26; John 13:1-17,31b-35",,,,,,,,,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
 2023/04/07,"Friday, April 7, 2023",Good Friday,,,,,Psalm 22*; Isaiah 52:13-53:12; Hebrews 10:16-25; John 18:1-19:42,,,,,,,,,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
 2023/04/08,"Saturday, April 8, 2023",Holy Saturday,,Holy Sat.,RCL (Holy Saturday),,"Psalm 31:1-4,15,16*; Job 14:1-14; 1 Peter 4:1-8; Matthew 27:57-66",Vigil,RCL (Easter Vigil),,"Psalm 114; Canticle: Exodus 15:1b-13,17-18; Exodus 14:10-31,15:20-21;; Romans 6:3-11; Matthew 28:1-10",,,,,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
-2023/04/09,"Sunday, April 9, 2023",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; Colossians 3:1-4; John 20:1-18",,,,,,,,,"Psalm 114,117; Exodus 14:10-18,14:26-15:2; Revelation 15:2-4","Psalm 105; Song of Solomon 3:2-5,8:6-7; John 20:11-18 (if not used at the Principal Service)"
+2023/04/09,"Sunday, April 9, 2023",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; Colossians 3:1-4; John 20:1-18",RCL (late),RCL (late in the day),When the main Eucharistic service must be late in the day,Psalm 114; Isaiah 25:6-9; 1 Corinthians 5:6b-8; Luke 24:13-49,,,,,"Psalm 114,117; Exodus 14:10-18,14:26-15:2; Revelation 15:2-4","Psalm 105; Song of Solomon 3:2-5,8:6-7; John 20:11-18 (if not used at the Principal Service)"
 2023/04/10,"Monday, April 10, 2023",Monday in Easter Week,,,,,,,,,,,,,,Psalm 111; Song of Solomon 1:9–2:7; Mark 16:1–8,Psalm 135; Exodus 12:1–14; 1 Corinthians 15:1–11
 2023/04/11,"Tuesday, April 11, 2023",Tuesday in Easter Week,,,,,,,,,,,,,,Psalm 112; Song of Solomon 2:8–end; Luke 24:1–12,Psalm 136; Exodus 12:14–36; 1 Corinthians 15:12–19
 2023/04/12,"Wednesday, April 12, 2023",Wednesday in Easter Week,,,,,,,,,,,,,,Psalm 113; Song of Solomon 3; Matthew 28:16–end,Psalm 105; Exodus 12:37–end; 1 Corinthians 15:20–28
@@ -724,7 +724,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2023/10/30,"Monday, October 30, 2023",Week of 32nd Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 1; Ecclesiastes 1; John 17:1–5,"Psalm 4; Exodus 22:21–27,23:1–17; 1 Timothy 6:1–10"
 2023/10/31,"Tuesday, October 31, 2023",Week of 32nd Sunday in Ordinary Time,Eve of All Saints Day,,,,,,,,,,,,,Psalm 5; Ecclesiastes 2; John 17:6–19,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
 2023/11/01,"Wednesday, November 1, 2023",All Saints Day,,,,,Psalm 34:1-10; Revelation 7:9-17; 1 John 3:1-3; Matthew 5:1-12,,,,,,,,,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
-2023/11/02,"Thursday, November 2, 2023",Week of 32nd Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 15; Ecclesiastes 3:16–end; Ecclesiastes 4; John 18:1–11,Psalm 18*; Leviticus 9; 2 Timothy 1:15–2:13
+2023/11/02,"Thursday, November 2, 2023",All Souls' Day,,,,,,,,,,,,,,Psalm 15; Ecclesiastes 3:16–end; Ecclesiastes 4; John 18:1–11,Psalm 18*; Leviticus 9; 2 Timothy 1:15–2:13
 2023/11/03,"Friday, November 3, 2023",Week of 32nd Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 19; Ecclesiastes 5; John 18:12–27,Psalm 22; Leviticus 16:2–24; 2 Timothy 2:14–end
 2023/11/04,"Saturday, November 4, 2023",Week of 32nd Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 23; Ecclesiastes 6; John 18:28–end,Psalm 24; Leviticus 17; 2 Timothy 3
 2023/11/05,"Sunday, November 5, 2023",4th Sunday before Advent,,,,,Psalm 43; Micah 3:5-12; 1 Thessalonians 2:9-13; Matthew 23:1-12,,,,"Psalm 107:1-7,33-37; Joshua 3:7-17; 1 Thessalonians 2:9-13; Matthew 23:1-12",,,,,Psalm 33; Isaiah 66:20-23; Ephesians 1:11-23,"Psalm 111,117; Daniel 7:1-18; Luke 6:17-31"
@@ -805,7 +805,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2023/12/29,"Friday, December 29, 2023",Week of 4th Sunday of Advent,,,,,,,,,,,,,,Psalm 19; Jonah 1; Colossians 1:1–14,Psalm 132; Isaiah 57:15–end; John 1:1–18
 2023/12/30,"Saturday, December 30, 2023",Week of 4th Sunday of Advent,,,,,,,,,,,,,,Psalm 113; Jonah 2; Colossians 1:15–23,Psalm 65; Isaiah 59:1–15a; John 1:19–28
 2023/12/31,"Sunday, December 31, 2023",1st Sunday of Christmas,Eve of the Naming of Jesus,,,,Psalm 148*; Isaiah 61:10-62:3; Galatians 4:4-7; Luke 2:15-21,,,,,,,,,Psalm 105:1-11; Isaiah 63:7-9; Ephesians 3:5-12,Psalm 148; Jeremiah 23:1-6; Colossians 2:8-15
-2024/01/01,"Monday, January 1, 2024",The naming of Jesus,,,,,,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
+2024/01/01,"Monday, January 1, 2024",The naming of Jesus,,,,,Psalm 67; Jeremiah 1:4-10; Acts 9:1-22; Matthew 19:27-30,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
 2024/01/02,"Tuesday, January 2, 2024",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 18:1-30; Ruth 1; Colossians 2:8–end,Psalm 46; Isaiah 60:1–12; John 1:35–42
 2024/01/03,"Wednesday, January 3, 2024",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 127; Ruth 2; Colossians 3:1–11,Psalm 2; Isaiah 60:13–end; John 1:43–end
 2024/01/04,"Thursday, January 4, 2024",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 89:1-37; Ruth 3; Colossians 3:12–4:1,Psalm 87; Isaiah 61; John 2:1–12
@@ -895,7 +895,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2024/03/28,"Thursday, March 28, 2024",Maundy Thursday,,,,,"Psalm 116:1,10-17*; Exodus 12:1-4,(5-10),11-14; 1 Corinthians 11:23-26; John 13:1-17,31b-35",,,,,,,,,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
 2024/03/29,"Friday, March 29, 2024",Good Friday,,,,,Psalm 22*; Isaiah 52:13-53:12; Hebrews 10:16-25; John 18:1-19:42,,,,,,,,,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
 2024/03/30,"Saturday, March 30, 2024",Holy Saturday,,Holy Sat.,RCL (Holy Saturday),,"Psalm 31:1-4,15,16*; Job 14:1-14; 1 Peter 4:1-8; Matthew 27:57-66",Vigil,RCL (Easter Vigil),,"Psalm 114; Canticle: Exodus 15:1b-13,17-18; Exodus 14:10-31,15:20-21;; Romans 6:3-11; Mark 16:1-8",,,,,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
-2024/03/31,"Sunday, March 31, 2024",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; 1 Corinthians 15:1-11; John 20:1-18",,,,,,,,,"Psalm 114,117; Genesis 1:1-5,26-31; 2 Corinthians 5:14-6:2",Psalm 105; Ezekiel 37:1-14; Luke 24:13-35
+2024/03/31,"Sunday, March 31, 2024",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; 1 Corinthians 15:1-11; John 20:1-18",RCL (late),RCL (late in the day),When the main Eucharistic service must be late in the day,Psalm 114; Isaiah 25:6-9; 1 Corinthians 5:6b-8; Luke 24:13-49,,,,,"Psalm 114,117; Genesis 1:1-5,26-31; 2 Corinthians 5:14-6:2",Psalm 105; Ezekiel 37:1-14; Luke 24:13-35
 2024/04/01,"Monday, April 1, 2024",Monday in Easter Week,,,,,,,,,,,,,,Psalm 111; Exodus 12:1–14; 1 Corinthians 15:1–11,Psalm 135; Song of Solomon 1:9–2:7; Mark 16:1–8
 2024/04/02,"Tuesday, April 2, 2024",Tuesday in Easter Week,,,,,,,,,,,,,,Psalm 112; Exodus 12:14–36; 1 Corinthians 15:12–19,Psalm 136; Song of Solomon 2:8–end; Luke 24:1–12
 2024/04/03,"Wednesday, April 3, 2024",Wednesday in Easter Week,,,,,,,,,,,,,,Psalm 113; Exodus 12:37–end; 1 Corinthians 15:20–28,Psalm 105; Song of Solomon 3; Matthew 28:16–end
@@ -958,7 +958,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2024/05/30,"Thursday, May 30, 2024",Week of Trinity Sunday,Eve of the Visitation of Mary to Elizabeth,,,,,,,,,,,,,Psalm 15; Joshua 8:30–end; Luke 11:14–28,Psalm 45; Song of Solomon 2:8-14; Luke 1:26-38
 2024/05/31,"Friday, May 31, 2024",The Visitation of Mary to Elizabeth,,,,,,,,,,,,,,Psalm 85; 1 Samuel 2:1-10; Mark 3:31-35,Psalm 122; Zechariah 2:10-13; John 3:25-30
 2024/06/01,"Saturday, June 1, 2024",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 23; Joshua 10:1–15; Luke 11:37–end,Psalm 24; Job 12; Romans 6:15–end
-2024/06/02,"Sunday, June 2, 2024",12th Sunday in Ordinary Time (Te Pouhere Sunday),,,,,Psalm 81:1-10; Deuteronomy 5:12-15; 2 Corinthians 4:5-12; Mark 2:23-3:6,,,,"Psalm 139:1-5,12-18; 1 Samuel 3:1-10,(11-20); 2 Corinthians 4:5-12; Mark 2:23-3:6",,,,,"Psalm 28,32; Deuteronomy 5:1-21; Acts 21:17-39a",Psalm 35*; Jeremiah 5:1-19; Romans 7:7-25
+2024/06/02,"Sunday, June 2, 2024",Te Pouhere Sunday,,,,,Psalm 81:1-10; Deuteronomy 5:12-15; 2 Corinthians 4:5-12; Mark 2:23-3:6,,,,"Psalm 139:1-5,12-18; 1 Samuel 3:1-10,(11-20); 2 Corinthians 4:5-12; Mark 2:23-3:6",,,,,"Psalm 28,32; Deuteronomy 5:1-21; Acts 21:17-39a",Psalm 35*; Jeremiah 5:1-19; Romans 7:7-25
 2024/06/03,"Monday, June 3, 2024",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 30; Joshua 14; Luke 12:1–12,Psalm 28; Job 13; Romans 7:1–6
 2024/06/04,"Tuesday, June 4, 2024",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 36; Joshua 21:43–22:8; Luke 12:13–21,Psalm 33; Job 14; Romans 7:7–end
 2024/06/05,"Wednesday, June 5, 2024",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 34; Joshua 22:9–end; Luke 12:22–31,Psalm 119:33-56; Job 15; Romans 8:1–11
@@ -1111,7 +1111,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2024/10/30,"Wednesday, October 30, 2024",Week of 33rd Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 34; Leviticus 23:23–end; Titus 1,Psalm 119:33-56; Habakkuk 1:1–11; John 19:31–end
 2024/10/31,"Thursday, October 31, 2024",Week of 33rd Sunday in Ordinary Time,Eve of All Saints Day,,,,,,,,,,,,,Psalm 37; Leviticus 24:1–9; Titus 2,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
 2024/11/01,"Friday, November 1, 2024",All Saints Day,,,,,Psalm 24:1-6; Isaiah 25:6-9; Revelation 2:1-6a; John 11:32-44,,,,,,,,,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
-2024/11/02,"Saturday, November 2, 2024",Week of 33rd Sunday in Ordinary Time,,,,,,,,,,,,,,"Psalm 42; Numbers 6:1–5,6:21–end; Philemon",Psalm 46; Habakkuk 3:2–19a; John 20:19–end
+2024/11/02,"Saturday, November 2, 2024",All Souls' Day,,,,,,,,,,,,,,"Psalm 42; Numbers 6:1–5,6:21–end; Philemon",Psalm 46; Habakkuk 3:2–19a; John 20:19–end
 2024/11/03,"Sunday, November 3, 2024",4th Sunday before Advent,,,,,Psalm 119:1-8; Deuteronomy 6:1-9; Hebrews 9:11-14; Mark 12:28-34,,,,Psalm 146; Ruth 1:1-18; Hebrews 9:11-14; Mark 12:28-34,,,,,"Psalm 112,149; Jeremiah 31:31-34; 1 John 3:1-3","Psalm 145*; Daniel 2:1-11,(12-24),25-48; Revelation 7:9-17"
 2024/11/04,"Monday, November 4, 2024",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 2; Daniel 1; Revelation 1,Psalm 92; Isaiah 1:1–20; Matthew 1:18–end
 2024/11/05,"Tuesday, November 5, 2024",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 5; Daniel 2:1–24; Revelation 2:1–11,Psalm 100; Isaiah 1:21–end; Matthew 2:1–15
@@ -1192,7 +1192,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2024/12/29,"Sunday, December 29, 2024",1st Sunday of Christmas,,,,,"Psalm 148*; Canticle: Colossians 3:12-17; 1 Samuel 2:18-20,26; Luke 2:41-52;",,,,,,,,,Psalm 105:1-11; Isaiah 41:21 - 42:1; 1 John 1:1-7,Psalm 132; Isaiah 61; Galatians 3:27 - 4:7
 2024/12/30,"Monday, December 30, 2024",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 113; Isaiah 59:1–15a; John 1:19–28,Psalm 65; Jonah 2; Colossians 1:15–23
 2024/12/31,"Tuesday, December 31, 2024",Week of 1st Sunday of Christmas,Eve of the Naming of Jesus,,,,,,,,,,,,,Psalm 102; Isaiah 59:15b–end; John 1:29–34,Psalm 148; Jeremiah 23:1-6; Colossians 2:8-15
-2025/01/01,"Wednesday, January 1, 2025",The naming of Jesus,,,,,,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
+2025/01/01,"Wednesday, January 1, 2025",The naming of Jesus,,,,,Psalm 67; Jeremiah 1:4-10; Acts 9:1-22; Matthew 19:27-30,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
 2025/01/02,"Thursday, January 2, 2025",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 18:1-30; Isaiah 60:1–12; John 1:35–42,Psalm 46; Ruth 1; Colossians 2:8–end
 2025/01/03,"Friday, January 3, 2025",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 127; Isaiah 60:13–end; John 1:43–end,Psalm 2; Ruth 2; Colossians 3:1–11
 2025/01/04,"Saturday, January 4, 2025",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 89:1-37; Isaiah 61; John 2:1–12,Psalm 87; Ruth 3; Colossians 3:12–4:1
@@ -1301,7 +1301,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2025/04/17,"Thursday, April 17, 2025",Maundy Thursday,,,,,"Psalm 116:1,10-17*; Exodus 12:1-4,(5-10),11-14; 1 Corinthians 11:23-26; John 13:1-17,31b-35",,,,,,,,,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
 2025/04/18,"Friday, April 18, 2025",Good Friday,,,,,Psalm 22*; Isaiah 52:13-53:12; Hebrews 10:16-25; John 18:1-19:42,,,,,,,,,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
 2025/04/19,"Saturday, April 19, 2025",Holy Saturday,,Holy Sat.,RCL (Holy Saturday),,"Psalm 31:1-4,15,16*; Job 14:1-14; 1 Peter 4:1-8; Matthew 27:57-66",Vigil,RCL (Easter Vigil),,"Psalm 114; Canticle: Exodus 15:1b-13,17-18; Exodus 14:10-31,15:20-21;; Romans 6:3-11; Luke 24:1-12",,,,,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
-2025/04/20,"Sunday, April 20, 2025",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; 1 Corinthians 15:19-26; John 20:1-18",,,,,,,,,"Psalm 114,117; Ezekiel 47:1-12; John 2:13-22",Psalm 105; Isaiah 43:1-21; 1 Corinthians 15:1-11
+2025/04/20,"Sunday, April 20, 2025",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; 1 Corinthians 15:19-26; John 20:1-18",RCL (late),RCL (late in the day),When the main Eucharistic service must be late in the day,Psalm 114; Isaiah 25:6-9; 1 Corinthians 5:6b-8; Luke 24:13-49,,,,,"Psalm 114,117; Ezekiel 47:1-12; John 2:13-22",Psalm 105; Isaiah 43:1-21; 1 Corinthians 15:1-11
 2025/04/21,"Monday, April 21, 2025",Monday in Easter Week,,,,,,,,,,,,,,Psalm 111; Song of Solomon 1:9–2:7; Mark 16:1–8,Psalm 135; Exodus 12:1–14; 1 Corinthians 15:1–11
 2025/04/22,"Tuesday, April 22, 2025",Tuesday in Easter Week,,,,,,,,,,,,,,Psalm 112; Song of Solomon 2:8–end; Luke 24:1–12,Psalm 136; Exodus 12:14–36; 1 Corinthians 15:12–19
 2025/04/23,"Wednesday, April 23, 2025",Wednesday in Easter Week,,,,,,,,,,,,,,Psalm 113; Song of Solomon 3; Matthew 28:16–end,Psalm 105; Exodus 12:37–end; 1 Corinthians 15:20–28
@@ -1364,7 +1364,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2025/06/19,"Thursday, June 19, 2025",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 15; Job 10; Romans 5:12–end,Psalm 18*; Joshua 8:30–end; Luke 11:14–28
 2025/06/20,"Friday, June 20, 2025",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 19; Job 11; Romans 6:1–14,Psalm 22; Joshua 9:3–26; Luke 11:29–36
 2025/06/21,"Saturday, June 21, 2025",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 23; Job 12; Romans 6:15–end,Psalm 24; Joshua 10:1–15; Luke 11:37–end
-2025/06/22,"Sunday, June 22, 2025",12th Sunday in Ordinary Time (Te Pouhere Sunday),,,,,Psalm 22:19-28; Isaiah 65:1-9; Galatians 3:23-29; Luke 8:26-39,,,,"Psalm 42, 43*; 1 Kings 19:1-4,(5-7),8-15a; Galatians 3:23-29; Luke 8:26-39",,,,,"Psalm 55:1-16,18-21; Deuteronomy 11:1-15; Acts 27:1-12",Psalm 57; Genesis 24:1-27; Mark 5:21-43
+2025/06/22,"Sunday, June 22, 2025",Te Pouhere Sunday,,,,,Psalm 22:19-28; Isaiah 65:1-9; Galatians 3:23-29; Luke 8:26-39,,,,"Psalm 42, 43*; 1 Kings 19:1-4,(5-7),8-15a; Galatians 3:23-29; Luke 8:26-39",,,,,"Psalm 55:1-16,18-21; Deuteronomy 11:1-15; Acts 27:1-12",Psalm 57; Genesis 24:1-27; Mark 5:21-43
 2025/06/23,"Monday, June 23, 2025",Week of 12th Sunday in Ordinary Time,Eve of St John the Baptist,,,,,,,,,,,,,Psalm 30; Job 13; Romans 7:1–6,"Psalm 71; Judges 13:2-7,13:24-25; Luke 1:5-25"
 2025/06/24,"Tuesday, June 24, 2025",St John the Baptist,,,,,,,,,,,,,,"Psalm 50,149; Malachi 3:1-6; Luke 3:1-17","Psalm 80,82; Malachi 4; Matthew 11:2-19"
 2025/06/25,"Wednesday, June 25, 2025",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 34; Job 15; Romans 8:1–11,Psalm 119:33-56; Joshua 22:9–end; Luke 12:22–31
@@ -1497,7 +1497,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2025/10/30,"Thursday, October 30, 2025",Week of 30th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 115; 2 Chronicles 29:20–end; John 13:31–end,Psalm 116; 2 Kings 19:1–19; Philippians 2:14–end
 2025/10/31,"Friday, October 31, 2025",Week of 30th Sunday in Ordinary Time,Eve of All Saints Day,,,,,,,,,,,,,Psalm 139; 2 Chronicles 30; John 14:1–14,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
 2025/11/01,"Saturday, November 1, 2025",All Saints Day,,,,,"Psalm 149; Daniel 7:1-3,15-18; Ephesians 1:11-23; Luke 6:20-31",,,,,,,,,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
-2025/11/02,"Sunday, November 2, 2025",4th Sunday before Advent,,,,,"Psalm 32:1-7; Isaiah 1:10-18; 2 Thessalonians 1:1-4,11-12; Luke 19:1-10",,,,"Psalm 119:137-144; Habakkuk 1:1-4,2:1-4; 2 Thessalonians 1:1-4,11-12; Luke 19:1-10",,,,,Psalm 87; Job 26; Colossians 1:9-14,"Psalm 145*; Lamentations 3:22-33; John 11:(1-31),32-44"
+2025/11/02,"Sunday, November 2, 2025",All Souls' Day,,,,,"Psalm 32:1-7; Isaiah 1:10-18; 2 Thessalonians 1:1-4,11-12; Luke 19:1-10",,,,"Psalm 119:137-144; Habakkuk 1:1-4,2:1-4; 2 Thessalonians 1:1-4,11-12; Luke 19:1-10",,,,,Psalm 87; Job 26; Colossians 1:9-14,"Psalm 145*; Lamentations 3:22-33; John 11:(1-31),32-44"
 2025/11/03,"Monday, November 3, 2025",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 2; Isaiah 1:1–20; Matthew 1:18–end,Psalm 92; Daniel 1; Revelation 1
 2025/11/04,"Tuesday, November 4, 2025",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 5; Isaiah 1:21–end; Matthew 2:1–15,Psalm 100; Daniel 2:1–24; Revelation 2:1–11
 2025/11/05,"Wednesday, November 5, 2025",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 9; Isaiah 2:1–11; Matthew 2:16–end,Psalm 112; Daniel 2:25–end; Revelation 2:12–end
@@ -1578,7 +1578,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2025/12/29,"Monday, December 29, 2025",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 19; Jonah 1; Colossians 1:1–14,Psalm 132; Isaiah 57:15–end; John 1:1–18
 2025/12/30,"Tuesday, December 30, 2025",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 113; Jonah 2; Colossians 1:15–23,Psalm 65; Isaiah 59:1–15a; John 1:19–28
 2025/12/31,"Wednesday, December 31, 2025",Week of 1st Sunday of Christmas,Eve of the Naming of Jesus,,,,,,,,,,,,,Psalm 102; Jonah 3; Jonah 4; Colossians 1:24–2:7,Psalm 148; Jeremiah 23:1-6; Colossians 2:8-15
-2026/01/01,"Thursday, January 1, 2026",The naming of Jesus,,,,,,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
+2026/01/01,"Thursday, January 1, 2026",The naming of Jesus,,,,,Psalm 67; Jeremiah 1:4-10; Acts 9:1-22; Matthew 19:27-30,,,,,,,,,Psalm 103; Genesis 17:1-13; Romans 2:17-29,Psalm 115; Deuteronomy 30:11-20; Acts 3:1-16
 2026/01/02,"Friday, January 2, 2026",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 18:1-30; Ruth 1; Colossians 2:8–end,Psalm 46; Isaiah 60:1–12; John 1:35–42
 2026/01/03,"Saturday, January 3, 2026",Week of 1st Sunday of Christmas,,,,,,,,,,,,,,Psalm 127; Ruth 2; Colossians 3:1–11,Psalm 2; Isaiah 60:13–end; John 1:43–end
 2026/01/04,"Sunday, January 4, 2026",2nd Sunday of Christmas,,,,,"Psalm 147:13-21; Jeremiah 31:7-14; Ephesians 1:3-14; John 1:(1-9),10-18",,,,,,,,,Psalm 87; Jeremiah 31:15-17; 2 Corinthians 1:3-12,Psalm 135*; Isaiah 41:21 - 42:4; Colossians 1:1-14
@@ -1630,7 +1630,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2026/02/19,"Thursday, February 19, 2026",1st day of Lent,,,,,,,,,,,,,,Psalm 77; Genesis 39; Galatians 2:11–end,Psalm 74; Jeremiah 2:14–32; John 4:1–26
 2026/02/20,"Friday, February 20, 2026",2nd day of Lent,,,,,,,,,,,,,,Psalm 3; Genesis 40; Galatians 3:1–14,Psalm 31; Jeremiah 3:6–22; John 4:27–42
 2026/02/21,"Saturday, February 21, 2026",3rd day of Lent,,,,,,,,,,,,,,Psalm 71; Genesis 41:1–24; Galatians 3:15–22,Psalm 73; Jeremiah 4:1–18; John 4:43–end
-2026/02/22,"Sunday, February 22, 2026",1st Sunday of Lent,,,,,Psalm 32; Genesis 2:15-17; 3:1-7; Romans 5:12-19; Matthew 4:1-11,,,,,,,,,Psalm 119:1-16; Jeremiah 18:1-11; Luke 18:9-14,"Psalm 50:1-15; Deuteronomy 6:4-9,16-25; Luke 15:1-10"
+2026/02/22,"Sunday, February 22, 2026",1st Sunday of Lent,,,,,"Psalm 32; Genesis 2:15-17,3:1-7; Romans 5:12-19; Matthew 4:1-11",,,,,,,,,Psalm 119:1-16; Jeremiah 18:1-11; Luke 18:9-14,"Psalm 50:1-15; Deuteronomy 6:4-9,16-25; Luke 15:1-10"
 2026/02/23,"Monday, February 23, 2026",Week of 1st Sunday of Lent,,,,,,,,,,,,,,Psalm 11; Genesis 41:25–45; Galatians 3:23–4:7,Psalm 13; Jeremiah 4:19–end; John 5:1–18
 2026/02/24,"Tuesday, February 24, 2026",Week of 1st Sunday of Lent,,,,,,,,,,,,,,Psalm 44; Genesis 41:46–42:5; Galatians 4:8–20,Psalm 49; Jeremiah 5:1–19; John 5:19–29
 2026/02/25,"Wednesday, February 25, 2026",Week of 1st Sunday of Lent,,,,,,,,,,,,,,Psalm 6; Genesis 42:6–17; Galatians 4:21–5:1,Psalm 28; Jeremiah 5:20–end; John 5:30–end
@@ -1672,7 +1672,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2026/04/02,"Thursday, April 2, 2026",Maundy Thursday,,,,,"Psalm 116:1,10-17*; Exodus 12:1-4,(5-10),11-14; 1 Corinthians 11:23-26; John 13:1-17,31b-35",,,,,,,,,"Psalm 42,43; Leviticus 16:2-24; Luke 23:1-25",Psalm 39; Exodus 11; Ephesians 2:11-18
 2026/04/03,"Friday, April 3, 2026",Good Friday,,,,,Psalm 22*; Isaiah 52:13-53:12; Hebrews 10:16-25; John 18:1-19:42,,,,,,,,,Psalm 69; Genesis 22:1-18; Hebrews 10:1-10,"Psalm 130,143; Lamentations 5:15-22; John 19:38-42"
 2026/04/04,"Saturday, April 4, 2026",Holy Saturday,,Holy Sat.,RCL (Holy Saturday),,"Psalm 31:1-4,15,16*; Job 14:1-14; 1 Peter 4:1-8; Matthew 27:57-66",Vigil,RCL (Easter Vigil),,"Psalm 114; Canticle: Exodus 15:1b-13,17-18; Exodus 14:10-31,15:20-21;; Romans 6:3-11; Matthew 28:1-10",,,,,Psalm 142; Hosea 6:1-6; John 2:18-22,Psalm 116; Job 19:21-27; 1 John 5:5-12
-2026/04/05,"Sunday, April 5, 2026",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; Colossians 3:1-4; John 20:1-18",,,,,,,,,"Psalm 114,117; Exodus 14:10-18,14:26-15:2; Revelation 15:2-4","Psalm 105; Song of Solomon 3:2-5,8:6-7; John 20:11-18 (if not used at the Principal Service)"
+2026/04/05,"Sunday, April 5, 2026",Easter Sunday,,,,The reading from Acts should be used as the 1st or 2nd reading.,"Psalm 118:1-2,14-24*; Acts 10:34-43; Colossians 3:1-4; John 20:1-18",RCL (late),RCL (late in the day),When the main Eucharistic service must be late in the day,Psalm 114; Isaiah 25:6-9; 1 Corinthians 5:6b-8; Luke 24:13-49,,,,,"Psalm 114,117; Exodus 14:10-18,14:26-15:2; Revelation 15:2-4","Psalm 105; Song of Solomon 3:2-5,8:6-7; John 20:11-18 (if not used at the Principal Service)"
 2026/04/06,"Monday, April 6, 2026",Monday in Easter Week,,,,,,,,,,,,,,Psalm 111; Exodus 12:1–14; 1 Corinthians 15:1–11,Psalm 135; Song of Solomon 1:9–2:7; Mark 16:1–8
 2026/04/07,"Tuesday, April 7, 2026",Tuesday in Easter Week,,,,,,,,,,,,,,Psalm 112; Exodus 12:14–36; 1 Corinthians 15:12–19,Psalm 136; Song of Solomon 2:8–end; Luke 24:1–12
 2026/04/08,"Wednesday, April 8, 2026",Wednesday in Easter Week,,,,,,,,,,,,,,Psalm 113; Exodus 12:37–end; 1 Corinthians 15:20–28,Psalm 105; Song of Solomon 3; Matthew 28:16–end
@@ -1735,7 +1735,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2026/06/04,"Thursday, June 4, 2026",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 15; Joshua 8:30–end; Luke 11:14–28,Psalm 18*; 2 Chronicles 29:20–end; Romans 5:12–end
 2026/06/05,"Friday, June 5, 2026",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 19; Joshua 9:3–26; Luke 11:29–36,Psalm 22; 2 Chronicles 30; Romans 6:1–14
 2026/06/06,"Saturday, June 6, 2026",Week of Trinity Sunday,,,,,,,,,,,,,,Psalm 23; Joshua 10:1–15; Luke 11:37–end,Psalm 24; 2 Chronicles 32:1–22; Romans 6:15–end
-2026/06/07,"Sunday, June 7, 2026",12th Sunday in Ordinary Time (Te Pouhere Sunday),,,,,"Psalm 50:7-15; Hosea 5:15-6:6; Romans 4:13-25; Matthew 9:9-13,18-26",,,,"Psalm 33:1-12; Genesis 12:1-9; Romans 4:13-25; Matthew 9:9-13,18-26",,,,,Psalm 38; Deuteronomy 6:10-25; Acts 22:22-23:11,Psalm 41; 1 Samuel 18:1-16; Luke 8:41-56
+2026/06/07,"Sunday, June 7, 2026",Te Pouhere Sunday,,,,,"Psalm 50:7-15; Hosea 5:15-6:6; Romans 4:13-25; Matthew 9:9-13,18-26",,,,"Psalm 33:1-12; Genesis 12:1-9; Romans 4:13-25; Matthew 9:9-13,18-26",,,,,Psalm 38; Deuteronomy 6:10-25; Acts 22:22-23:11,Psalm 41; 1 Samuel 18:1-16; Luke 8:41-56
 2026/06/08,"Monday, June 8, 2026",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 30; Joshua 14; Luke 12:1–12,Psalm 28; 2 Chronicles 33:1–13; Romans 7:1–6
 2026/06/09,"Tuesday, June 9, 2026",Week of 12th Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 36; Joshua 21:43–22:8; Luke 12:13–21,Psalm 33; 2 Chronicles 34:1–18; Romans 7:7–end
 2026/06/10,"Wednesday, June 10, 2026",Week of 12th Sunday in Ordinary Time,Eve of St Barnabas,,,,,,,,,,,,,Psalm 34; Joshua 22:9–end; Luke 12:22–31,"Psalm 1,15; Isaiah 42:5-12; Acts 14:8-28"
@@ -1883,7 +1883,7 @@ date,date_pretty,day_description,evening_name,rcl_track_1_short_name_override,rc
 2026/10/30,"Friday, October 30, 2026",Week of 32nd Sunday in Ordinary Time,,,,,,,,,,,,,,Psalm 19; Leviticus 16:2–24; 2 Timothy 2:14–end,Psalm 22; Ecclesiastes 5; John 18:12–27
 2026/10/31,"Saturday, October 31, 2026",Week of 32nd Sunday in Ordinary Time,Eve of All Saints Day,,,,,,,,,,,,,Psalm 23; Leviticus 17; 2 Timothy 3,"Psalm 1,5; Isaiah 40:27-end; Revelations 19:6-10"
 2026/11/01,"Sunday, November 1, 2026",All Saints Day,,,,,Psalm 34:1-10; Revelation 7:9-17; 1 John 3:1-3; Matthew 5:1-12,,,,,,,,,"Psalm 15,84,149; Isaiah 35; Luke 9:18-27","Psalm 148,150; Isaiah 65:17-25; Hebrews 11:32-12:2"
-2026/11/02,"Monday, November 2, 2026",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 2; Daniel 1; Revelation 1,Psalm 92; Isaiah 1:1–20; Matthew 1:18–end
+2026/11/02,"Monday, November 2, 2026",All Souls' Day,,,,,,,,,,,,,,Psalm 2; Daniel 1; Revelation 1,Psalm 92; Isaiah 1:1–20; Matthew 1:18–end
 2026/11/03,"Tuesday, November 3, 2026",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 5; Daniel 2:1–24; Revelation 2:1–11,Psalm 100; Isaiah 1:21–end; Matthew 2:1–15
 2026/11/04,"Wednesday, November 4, 2026",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 9; Daniel 2:25–end; Revelation 2:12–end,Psalm 112; Isaiah 2:1–11; Matthew 2:16–end
 2026/11/05,"Thursday, November 5, 2026",Week of 4th Sunday before Advent,,,,,,,,,,,,,,Psalm 15; Daniel 3:1–18; Revelation 3:1–13,Psalm 118; Isaiah 2:12–end; Matthew 3
