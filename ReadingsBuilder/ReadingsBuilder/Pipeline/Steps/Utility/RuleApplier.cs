@@ -272,6 +272,16 @@ namespace ReadingsBuilder.Pipeline.Steps.Utility
 
         public void ApplyRclTrack2(Rule rule, Day day)
         {
+            // Sometimes a principal feast can fall on a Sunday which normally has RCL track 2 readings (eg. All Saints Day).
+            // Principal feasts and holy days have RCL readings, but only for Track 1, so we need a way to reset preexisting Track 2 readings.
+            // 
+            // NOTE: all principal holy days are principal feasts, but Trinity Sunday is not.  So PrincipalFeast is a catch all.
+            if (rule.FeastOrSeasonFlags.HasFlag(FeastOrSeasonType.PrincipalFeast))
+            {
+                day.ResetRclTrack2();
+            }
+
+
             if (rule.RclTrack2ShortNameOverride != null)
             {
                 day.RclTrack2ShortNameOverride = rule.RclTrack2ShortNameOverride;
